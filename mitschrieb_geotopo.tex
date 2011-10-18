@@ -1,0 +1,157 @@
+\documentclass[a4paper,11pt,notitlepage]{report}
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{bibgerm}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{subfig}
+\usepackage{fancyhdr}
+\usepackage{upgreek}
+\usepackage[pdftex,pdfpagelabels,colorlinks,backref,pagebackref]{hyperref}
+\usepackage{tikz} % SELBST HINZUGEFÜGT
+% == Set the heading style ===================================================
+\setlength{\headheight}{14pt}
+\pagestyle{fancyplain}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\lhead[\fancyplain{}{\thepage}]{\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\thepage}}
+\cfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+% ============================================================================
+
+% == Set correct values for fitting floats ===================================
+\tolerance=2000
+\emergencystretch=10pt
+
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+\setcounter{bottomnumber}{2}
+
+% To make those darn floats fit where they should
+\setcounter{totalnumber}{9}
+\setcounter{topnumber}{9}
+\setcounter{bottomnumber}{9}
+\renewcommand{\textfraction}{0.00}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+% ============================================================================
+
+% == German definitions for theorems etc. ==================================== 
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Satz}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{corollary}{Korollar}[chapter]
+\newtheorem{observation}{Beobachtung}[chapter]
+\newtheorem{fact}{Fakt}[chapter]
+\newtheorem{remark}{Bemerkung}[chapter]
+\newtheorem{example}{Beispiel}[chapter]
+% ============================================================================
+
+% == Abkürzungen für die reellen, natürlichen, ganzen,... Zahlen =============
+\newcommand{\R}{{\ensuremath{\mathbb{R}}}}
+\newcommand{\N}{{\ensuremath{\mathbb{N}}}}
+\newcommand{\Z}{{\ensuremath{\mathbb{Z}}}}
+\newcommand{\C}{{\ensuremath{\mathbb{C}}}}
+\newcommand{\Q}{{\ensuremath{\mathbb{Q}}}}
+\newcommand{\F}{{\ensuremath{\mathbb{F}}}}
+\newcommand{\Prim}{{\ensuremath{\mathbb{P}}}}
+% ============================================================================
+
+% == Makros für Autorenname und -adresse =====================================
+\newcommand{\myaddress}[6]{%
+  \parbox{\textwidth}{\textbf{\large #1}\\
+    #2\\ #3\\ #4\\ 
+    \ifthenelse{\equal{#5}{}}{}{Email: \href{mailto:#5}{\texttt{#5}}\\}
+    \ifthenelse{\equal{#6}{}}{}{WWW: \href{#6}{\path|#6|}\\}
+  } 
+}
+
+\newcommand{\myauthor}[1]{%
+  \addtocontents{toc}{\protect\hspace{3.35ex}%
+  \textsl{#1}\par}\vspace{-4ex}\quad\hfill\textsl{\Large #1}\vspace{8ex}}
+
+\newcommand{\myname}[1]{\Large #1}
+
+\title{\textbf{{Einführung in die Geometrie und Topologie - Mitschrieb -} \\[5ex] 
+    {\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tragen Sie in der folg. Zeile Ihren Namen ein: %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\myname{Sarah Lutteropp}}
+
+
+\newcommand{\OO}{{\ensuremath{\upsigma}}}
+
+\begin{document}
+\shorthandoff{"}
+\maketitle
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\section*{Vorwort}
+Dies ist ein Mitschrieb der Vorlesung “Einführung in die Geometrie und Topologie” vom Wintersemester 2011/2012 am Karlsruher Institut für Technologie, die von Herrn Prof. Dr. Wilderich Tuschmann gehalten wird.
+
+\chapter{Homotopie und Fundamentalgruppe}
+
+\begin{definition}[Topologischer Raum]
+Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enthält.
+\newline
+$X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
+\begin{itemize}
+	\item (1) $O_1, O_2 \in \OO \Rightarrow O_1 \cap O_2 \in \OO$
+	\item (2) $O_\alpha \in \OO, \alpha \in A, A \text{ Indexmenge} \Rightarrow \bigcup\limits_{\alpha \in A}{O_\alpha} \in \OO$
+	\item (3) $X, \emptyset \in \OO$
+\end{itemize}
+\end{definition}
+
+\begin{example}
+\OO = $\{X, \emptyset\} \Rightarrow (X,\OO)$ ist topologischer Raum!
+\end{example}
+
+\begin{example}
+$$X \text{ Menge, }\OO = \left\{\{x\}|x\in X\right\} + \text{Axiome, die zu erfüllen sind} \leadsto \tilde{\OO}$$
+$\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
+$\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
+\end{example}
+
+\begin{definition}[Metrischer Raum]
+Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
+
+\begin{itemize}
+	\item (1) $d(x,y) = d(y,x)$ \underline{"Symmetrie"}
+	\item (2) $d(x,y) = 0 \Leftrightarrow x = y, d(x,y) \geq 0$ \underline{"Definitheit"}
+	\item (3) $d(x,z) \leq d(x,y) + d(y,z)$ \underline{"Dreiecksungleichung"}
+	\item $\forall x,y,x \in X$
+\end{itemize}
+
+\end{definition}
+
+\begin{definition}[stetig]
+Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und $Y$ heißt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
+\end{definition}
+
+\begin{remark}
+Ist $(X,d)$ ein metrischer Raum, so sind die offenen Mengen der von der Metrik induzierten Topologie Vereinigungen von endlichen Durchschnitten von Umgebungen
+$U_{\epsilon}(x):=\{y \in X | d (x,y) < \epsilon \} (\epsilon > 0)$, 
+und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
+\end{remark}
+
+\begin{definition}[Homotopie]
+Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \forall x \in X$.
+\end{definition}
+
+TODO:BILDER
+
+\begin{remark}
+$H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
+\end{remark}
+
+\end{document}
