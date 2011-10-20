@@ -1,3 +1,4 @@
 \select@language {ngerman}
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Homotopie und Fundamentalgruppe}{3}{chapter.1}
+\contentsline {paragraph}{Erinnerung}{4}{section*.3}

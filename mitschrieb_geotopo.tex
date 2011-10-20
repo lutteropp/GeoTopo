@@ -154,4 +154,81 @@ TODO:BILDER
 $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
 \end{remark}
 
+\paragraph{Erinnerung}
+Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. (TODO: BILD)
+
+\begin{definition}[homotope Abbildungen]
+	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
+\end{definition}
+
+\begin{remark}
+"Homotop sein" ist eine Äquivalenzrelation.
+\end{remark}
+
+\begin{proof}
+	\underline{Symmetrie}:
+	Gilt für $f,g \in C(X,Y) := \{F \colon X \rightarrow Y \text{ stetig } \}$ $f \simeq g$ vermöge $H=(h_t), t \in [0,1],$ so liefert $(\tilde{h_t}) mit \tilde{h_t}:=h_{1-t}$ eine Homotopie von $g$ nach $f$, d.h. $f \simeq g \Leftrightarrow g \simeq f$.
+	\newline
+	\underline{Reflexivität}:
+	$f \simeq f$ vermöge $h_t : \equiv f \forall t \in [0,1]$
+	\newline
+	\underline{Transitivität}:
+	Es sei $f \simeq g$ vermöge $(h_t)$ und ferner $g \simeq l$ vermöge $(k_t)$.
+	Dann liefert $M \colon X \times [0,1] \rightarrow Y$ mit
+	$$M_t := \begin{cases} h_{2t} & 0 \leq t \leq \frac{1}{2} \\
+	k_{2t-1} & \frac{1}{2} \leq t \leq 1
+	\end{cases}$$
+	eine Homotopie von $f$ nach $l$.
+	\newline
+	Also ist $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
+\end{proof}
+(TODO:BILD)
+
+\begin{remark}
+Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in Äquivalenzklassen. Diese heißen Homotopieklassen und die \underline{Menge aller Homotopieklassen stetiger Abbildungen von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
+(TODO: BILD)
+\end{remark}
+
+\begin{remark}
+$C(X,Y)$ ist im Allgemeinen \underline{\underline{viel}} schwieriger zu verstehen als $[X,Y]$!
+\end{remark}
+
+\begin{example}
+Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $H(x,t):= (1-t) f(x) + t \cdot g(x)$ liefert eine Homotopie von $f$ nach $g$: (TODO: BILD)
+\end{example}
+
+\begin{definition}
+Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist. (TODO:BILD)
+\end{definition}
+
+\begin{corollary}
+Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
+\end{corollary}
+
+\begin{example}
+Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
+$\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$. (TODO: BILD)
+Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
+\newline
+\underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial! (TODO: BILD)
+\end{example}
+
+\begin{definition}
+Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
+$$\OO \Big |_{A} := \{U \cap A | U \in \OO \}$$
+induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heißt \underline{Teilraum} von $(X, \OO)$.
+\end{definition}
+
+\begin{remark}
+$B \subset A$ ist also genau dann \underline{offen \underline{in $A$}}, wenn $B$ der Schnitt einer \underline{in $X$} offenen Menge mit $A$ ist.
+\end{remark}
+
+\begin{example}
+$X = \R^2, A = S^1 = \{ x \in \R^2 |\text{ } ||x|| = 1\}$ 
+\newline
+(TODO: BILD)
+\newline
+\underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $R^2$!
+\end{example}
+
 \end{document}
