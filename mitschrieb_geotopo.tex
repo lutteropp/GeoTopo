@@ -231,4 +231,121 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 |\text{ } ||x|| = 1\}$
 \underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $R^2$!
 \end{example}
 
+\chapter{Grundlagen der allgemeinen Topologie}
+\begin{example}[Beispiele topologischer Räume]
+	\begin{itemize}
+		\item (1) $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
+		\item (2) $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
+		\item (3) Metrische Räume, siehe unten
+		\item (4) $X:= \{a,b,c,d\} \Rightarrow \OO := \left\{X, \emptyset, \{a\}, \{b\}, \{a,c\}, \{a,b,c\}, \{a,b\} \right \}$ definiert eine Topologie auf $X$, aber $\OO^\prime:= \left \{ X, \emptyset, \{a,c,d\}, \{b,d\} \right \}$ nicht!
+		\item (5) $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ heißt \underline{Standard-Topologie}.
+		\item (6) $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\tau_1$-Topologie.
+	\end{itemize}
+\end{example}
+
+\begin{definition}
+	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $:\Leftrightarrow X \backslash A \text{ ist offen}$.
+\end{definition}
+
+\begin{remark}
+	Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
+\end{remark}
+
+\begin{example}
+	In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\tau_1}$\footnote{$\R$ mit $\tau_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
+\end{example}
+
+\begin{definition}
+	Ist $X$ topologischer Raum und $x \in X$, so heißt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
+\end{definition}
+
+\begin{remark}
+	Umgebungen sind per definitionem offen! (TODO: BILD)
+\end{remark}
+
+\begin{remark}
+	Jede offene Teilmenge von $\R_{Standard}$ ist eine Vereinigung disjunkter offener Intervalle, doch abgeschlossene Teilmengen von $\R$ sind keinesfalls immer Vereinigungen abgeschlossener Intervalle!
+\end{remark}
+
+\begin{example}[Die \underline{Cantor-Menge} $\mathcal{C}:= \left \{ x \in \R \mid x = \sum\limits_{k=1}^{\infty}{\frac{a_k}{3^k}}, a_k \in \{0,2\} \right \}$]
+	(TODO: BILD)
+	\newline
+	$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enthält überabzählbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
+\end{example}
+
+\begin{definition}
+	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
+\end{definition}
+
+\begin{example}
+	$\bullet$ (1) Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
+	\newline
+	$\bullet$ (2) Sämtliche offenen\footnote{bezüglich der euklidischen Metrik} Kreisscheiben (TODO: BILD) und auch sämtliche offenen Quadrate (TODO: BILD) bilden Basen ein und derselben Topologie auf $\R^2$.
+	\newline
+	(TOSO: BILD)
+\end{example}
+
+\begin{remark}
+	$\bullet$ $\mathcal{B} \subset \OO$ ist Basis der Topologie von $X$ $\Leftrightarrow \forall O \in \OO \forall x \in O \exists B \in \mathcal{B} \colon x \in B \subset O$.
+	\newline
+	$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Bais \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Bereinigung von Mengen aus $\mathcal{B}$.
+	\newline
+	(TODO: BILD)
+\end{remark}
+
+\begin{definition}
+	Seind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
+\end{definition}
+
+\begin{example}
+	$\bullet$ Die triviale Topologie ist die gröbste Topologie auf $X$, die diskrete Topologie die feinste.
+	\newline
+	$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\tau_1$-Topologie.
+\end{example}
+
+\paragraph{Mehr in metrischen Räumen:}
+
+\begin{definition}
+	Für einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei für $p \in X$
+	\begin{itemize}
+		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
+		\item $D_\epsilon(p):=\{x \in C \mid d(p,x) \leq \epsilon \}$ der \underline{abgeschlossene $\epsilon$-Ball um $p$}
+		\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sphäre} um $p$ (oder \underline{Sphäre vom Radius $\epsilon$})
+	\end{itemize}
+\end{definition}
+
+\begin{definition}
+	Ist $(X,d)$ metrischer Raum und $A \subset X$, so heißt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
+\end{definition}
+
+\begin{example}
+	Für $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1{0}$ metrische Unterräume und heißen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sphäre.
+	\newline
+	(TODO: BILD)
+\end{example}
+
+\begin{definition}
+	$A \subset (X,d)$ heißt \underline{beschränkt} $:\Leftrightarrow \exists O \subset \rho \in \R \colon d(x,y) < \rho \forall x,y \in A$
+	\newline
+	(TODO: BILD)
+	\newline
+	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
+\end{definition}
+
+\begin{remark}
+	In einem metrischen Raum $(X,d)$ bilden die offenen Bälle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese heißt \underline{die von der Metrik induzierte Topologie}.
+\end{remark}
+
+\begin{remark}
+	$A \subset (X,d)$ ist dann \underline{offen} $\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
+	\newline
+	(TODO: BILD)
+\end{remark}
+
+\begin{definition}
+	$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
+	$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
+	heißt \underline{Abstand von $p$ und $A$}.
+\end{definition}
+
 \end{document}

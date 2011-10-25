@@ -2,3 +2,5 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Homotopie und Fundamentalgruppe}{3}{chapter.1}
 \contentsline {paragraph}{Erinnerung}{4}{section*.3}
+\contentsline {chapter}{\numberline {2}Grundlagen der allgemeinen Topologie}{6}{chapter.2}
+\contentsline {paragraph}{Mehr in metrischen R\IeC {\"a}umen:}{7}{section*.4}
