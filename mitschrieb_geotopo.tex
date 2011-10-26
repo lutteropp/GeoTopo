@@ -15,6 +15,7 @@
 \usepackage[pdftex,pdfpagelabels,colorlinks,backref,pagebackref]{hyperref}
 \usepackage{tikz} % SELBST HINZUGEFÜGT
 \usepackage{graphicx}
+\usepackage{framed}
 % == Set the heading style ===================================================
 \setlength{\headheight}{14pt}
 \pagestyle{fancyplain}
@@ -86,6 +87,28 @@
 
 \newcommand{\OO}{{\ensuremath{\upsigma}}}
 
+\newenvironment{Kasten}[1]
+{
+\hspace{0.05\linewidth}
+\begin{center}
+\begin{minipage}{0.9\linewidth}
+%\setlength{\fboxsep}{10pt}
+\setlength{\fboxsep}{18pt}
+\definecolor{shadecolor}{gray}{0.9}
+\definecolor{framecolor}{gray}{0}
+\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
+\MakeFramed {\FrameRestore}
+\subsection{#1}
+\begin{itshape}
+}
+{
+\end{itshape}
+\endMakeFramed
+\end{minipage}
+\end{center}
+\vspace{1em}
+}
+
 \begin{document}
 \shorthandoff{"}
 
@@ -114,7 +137,8 @@ Dies ist ein Mitschrieb der Vorlesung “Einführung in die Geometrie und Topolo
 
 \chapter{Homotopie und Fundamentalgruppe}
 
-\begin{definition}[Topologischer Raum]
+\begin{Kasten}{Topologischer Raum}
+%\begin{definition}[Topologischer Raum]
 Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enthält.
 \newline
 $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
@@ -123,7 +147,8 @@ $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 	\item (2) $O_\alpha \in \OO, \alpha \in A, A \text{ Indexmenge} \Rightarrow \bigcup\limits_{\alpha \in A}{O_\alpha} \in \OO$
 	\item (3) $X, \emptyset \in \OO$
 \end{itemize}
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{example}
 \OO = $\{X, \emptyset\} \Rightarrow (X,\OO)$ ist topologischer Raum!
@@ -135,7 +160,8 @@ $\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
 $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 \end{example}
 
-\begin{definition}[Metrischer Raum]
+%\begin{definition}[Metrischer Raum]
+\begin{Kasten}{Metrischer Raum}
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
 
 \begin{itemize}
@@ -144,12 +170,14 @@ Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \c
 	\item (3) $d(x,z) \leq d(x,y) + d(y,z)$ \underline{"Dreiecksungleichung"}
 	\item $\forall x,y,x \in X$
 \end{itemize}
+%\end{definition}
+\end{Kasten}
 
-\end{definition}
-
-\begin{definition}[stetig]
+%\begin{definition}[stetig]
+\begin{Kasten}{Stetigkeit}
 Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und $Y$ heißt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 Ist $(X,d)$ ein metrischer Raum, so sind die offenen Mengen der von der Metrik induzierten Topologie Vereinigungen von endlichen Durchschnitten von Umgebungen
@@ -157,9 +185,11 @@ $U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$,
 und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
 \end{remark}
 
-\begin{definition}[Homotopie]
+%\begin{definition}[Homotopie]
+\begin{Kasten}{Homotopie}
 Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \forall x \in X$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 TODO:BILDER
 
@@ -170,9 +200,11 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, 
 \paragraph{Erinnerung}
 Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. (TODO: BILD)
 
-\begin{definition}[homotope Abbildungen]
+%\begin{definition}[homotope Abbildungen]
+\begin{Kasten}{Homotope Abbildungen}
 	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 "Homotop sein" ist eine Äquivalenzrelation.
@@ -210,9 +242,11 @@ $C(X,Y)$ ist im Allgemeinen \underline{\underline{viel}} schwieriger zu verstehe
 Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $H(x,t):= (1-t) f(x) + t \cdot g(x)$ liefert eine Homotopie von $f$ nach $g$: (TODO: BILD)
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Nullhomotopie}
 Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist. (TODO:BILD)
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{corollary}
 Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
@@ -226,11 +260,13 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 \underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial! (TODO: BILD)
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Teilraumtopologie}
 Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
 $$\OO \Big |_{A} := \{U \cap A \mid U \in \OO \}$$
 induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heißt \underline{Teilraum} von $(X, \OO)$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 $B \subset A$ ist also genau dann \underline{offen \underline{in $A$}}, wenn $B$ der Schnitt einer \underline{in $X$} offenen Menge mit $A$ ist.
@@ -256,9 +292,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\end{itemize}
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Abgeschlossenheit}
 	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $:\Leftrightarrow X \backslash A \text{ ist offen}$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 	Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
@@ -268,9 +306,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\tau_1}$\footnote{$\R$ mit $\tau_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Umgebung}
 	Ist $X$ topologischer Raum und $x \in X$, so heißt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 	Umgebungen sind per definitionem offen! (TODO: BILD)
@@ -286,9 +326,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enthält überabzählbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Basis}
 	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{example}
 	$\bullet$ (1) Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
@@ -306,9 +348,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	(TODO: BILD)
 \end{remark}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Feiner und gröber}
 	Seind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{example}
 	$\bullet$ Die triviale Topologie ist die gröbste Topologie auf $X$, die diskrete Topologie die feinste.
@@ -316,20 +360,24 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\tau_1$-Topologie.
 \end{example}
 
-\paragraph{Mehr in metrischen Räumen:}
+\subsection{Mehr in metrischen Räumen}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{$\epsilon$-Ball, Sphäre}
 	Für einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei für $p \in X$
 	\begin{itemize}
 		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
 		\item $D_\epsilon(p):=\{x \in C \mid d(p,x) \leq \epsilon \}$ der \underline{abgeschlossene $\epsilon$-Ball um $p$}
 		\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sphäre} um $p$ (oder \underline{Sphäre vom Radius $\epsilon$})
 	\end{itemize}
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Metrischer Unterraum}
 	Ist $(X,d)$ metrischer Raum und $A \subset X$, so heißt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{example}
 	Für $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1{0}$ metrische Unterräume und heißen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sphäre.
@@ -337,13 +385,15 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	(TODO: BILD)
 \end{example}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Beschränktheit, Durchmesser}
 	$A \subset (X,d)$ heißt \underline{beschränkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho  \text{   } \forall x,y \in A$
 	\newline
 	(TODO: BILD)
 	\newline
 	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \begin{remark}
 	In einem metrischen Raum $(X,d)$ bilden die offenen Bälle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese heißt \underline{die von der Metrik induzierte Topologie}.
@@ -355,10 +405,12 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	(TODO: BILD)
 \end{remark}
 
-\begin{definition}
+%\begin{definition}
+\begin{Kasten}{Abstand}
 	$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
 	$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
 	heißt \underline{Abstand von $p$ und $A$}.
-\end{definition}
+%\end{definition}
+\end{Kasten}
 
 \end{document}
