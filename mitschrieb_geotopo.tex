@@ -14,6 +14,7 @@
 \usepackage{upgreek}
 \usepackage[pdftex,pdfpagelabels,colorlinks,backref,pagebackref]{hyperref}
 \usepackage{tikz} % SELBST HINZUGEFÜGT
+\usepackage{graphicx}
 % == Set the heading style ===================================================
 \setlength{\headheight}{14pt}
 \pagestyle{fancyplain}
@@ -79,20 +80,32 @@
 
 \newcommand{\myname}[1]{\Large #1}
 
-\title{\textbf{{Einführung in die Geometrie und Topologie - Mitschrieb -} \\[5ex] 
-    {\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Tragen Sie in der folg. Zeile Ihren Namen ein: %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{\myname{Sarah Lutteropp}}
-
 
 \newcommand{\OO}{{\ensuremath{\upsigma}}}
 
 \begin{document}
 \shorthandoff{"}
-\maketitle
+
+\begin{titlepage}
+	\begin{center}	
+		\LARGE \textbf{{Einführung in die Geometrie und Topologie - Mitschrieb -} \\[5ex] 
+    		{\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}
+	\end{center}
+	\begin{center}
+		\Large Sarah Lutteropp
+	\end{center}
+	\begin{center}
+		\today
+	\end{center}
+	\vspace{2cm}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{Simple_Torus.jpg}
+	\end{center}
+\end{titlepage}
+%\maketitle
 \setcounter{tocdepth}{1}
 \tableofcontents
 
