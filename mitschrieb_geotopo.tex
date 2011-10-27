@@ -416,4 +416,135 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 %\end{definition}
 \end{Kasten}
 
+\paragraph{Erinnerung}
+Ist $(X, \OO)$ topologischer Raum und $A \subset X$, so definiert
+$\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
+ \underline{Teilraumtopologie} der \underline{in A} offenen Mengen.
+ 
+\begin{remark}
+	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
+	\newline
+	(TODO:BILD)
+	\newline
+	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgecshlossen in $X$.
+\end{remark}
+
+\begin{example}
+	$B := A := (a,b) \subset X := \R$
+\end{example}
+
+\begin{Kasten}{Innerer Punkt, äußerer Punkt, Randpunkt}
+	Für $p \in A \subset X$, $X$ topologischer Raum, heißt $p$
+	\newline
+	\begin{itemize}
+		\item (1) \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. (TODO:BILD)
+		\item (2) \underline{äußerer Punkt}, falls eine zu $p$ disjunkte Umgebung $V$ in $X$ existiert.
+		\item (3) \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
+	\end{itemize}
+\end{Kasten}
+
+\begin{Kasten}{Inneres}
+	Für $A \subset X$ heißt die größte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
+\end{Kasten}
+
+\begin{remark}
+	$\mathring A$ ist die Menge aller inneren Punkte von $A$ und die Vereinigung aller in $X$ offenen Teilmengen von $A$, und $A \text{ ist offen } \Leftrightarrow A = \mathring A$
+\end{remark}
+
+\begin{example}
+	$\mathring {\R \backslash \Q} = \mathring \Q = \emptyset$
+\end{example}
+
+\begin{Kasten}{Abschluss}
+	Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {X \backslash A} ) \right )$.
+\end{Kasten}
+
+\begin{Kasten}{Rand}
+	Der \underline{Rand} $\delta A$ von $A$ ist $\delta A := \bar{A} \backslash \mathring A$, d.h. Rand $A$ = \{ Randpunkte von A \}.
+\end{Kasten}
+
+(TODO:Exkurs zu `Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander')
+
+\begin{Kasten}{Stetigkeit}
+	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
+\end{Kasten}
+
+\begin{example}
+	\begin{itemize}
+		\item $f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ Urbilder abgeschlossener Mengen sind abgeschlossen.
+		\item Sind $\OO_1$ und $\OO_2$ Topologien auf $X$, so ist die Identität $\text{id} \colon (X,\OO_1) \rightarrow (X,\OO_2)$ stetig $\Leftrightarrow \OO_2 \subset \OO_1$.
+		\item Für $A \subset X$ ist die Teilraumtopologie $\OO_A = \OO \big |_A$ die größte Topologie, bezüglich der die Inklusion $i \colon A \hookrightarrow X, a \mapsto a$ stetig ist.
+	\end{itemize}
+\end{example}
+
+\begin{Kasten}{Stetigkeit}
+	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
+	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ und } f(U) \subset V$
+	\newline
+	(TODO:BILD)
+\end{Kasten}
+
+\begin{remark}
+	$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
+\end{remark}
+
+\begin{example}
+	Eine Abbildung $f \colon X \rightarrow Y$ zwischen \underline{metrischen} Räumen ist bezüglich der von den Metriken induzierten Topologien stetig in $x \in X$ genau dann, wenn für jeden offenen Ball um $f(x)$ ein offener Ball um $x$ existiert, der unter $f$ in den Ball um $f(x)$ abgebildet wird. (Und ferner stetig in $x \in X$ genau dann, wenn für alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass für alle $x^\prime \in X$ mit $d_X(x,x^\prime) < \delta$ auch $d_Y \left( f(x), f(x^\prime) \right) < \epsilon$ folgt.) 
+\end{example}
+
+\begin{Kasten}{Isometrische Einbettung, Isometrie}
+	Sind $X,Y$ metrische Räume, so heißt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
+	\newline	
+	 $: \Leftrightarrow \forall x, x^\prime \in X$ gilt $d_Y \left ( f(x), f(x^\prime) \right ) = d_X (x, x^\prime)$.
+	\newline
+	Ist $f$ zusätzlich \underline{bijektiv}, so heißt $f$ \underline{\underline{Isometrie}}. 
+\end{Kasten}
+
+\begin{Kasten}{Homöomorphismus}
+	Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer Räume heißt \underline{Homöomorphismus}, falls $f$ und $f^{-1}$ stetig sind.
+\end{Kasten}
+
+\begin{example}
+	\begin{itemize}
+		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homöomorphismus!
+		\newline
+		(TODO:BILD)
+		\item $id_X \colon X \rightarrow X$ ist immer ein Homöomorphismus, Kompositionen von Homöomorphismen ebenfalls.
+	\end{itemize}
+\end{example}
+
+\begin{remark}
+	`Homöomorph sein' ist eine Äquivalenzrelation für topologische Räume.
+\end{remark}
+
+\begin{Kasten}{homöomorph}
+	Zweo topologische Räume $X$ und $Y$ heißen \underline{homöomorph} oder \underline{vom gleichen Homöomorphietyp}, in Zeichen $X \cong Y$, falls es einen Homöomorphismus $f \colon X \rightarrow Y$ gibt.
+\end{Kasten}
+
+\begin{remark}
+	Homöomorphismen erhalten sämtliche topologischen Strukturen:
+	\begin{itemize}
+		\item Ist $f \colon X \rightarrow Y$ Homöomorphismus, so ist $U \subset X$ offen $\Leftrightarrow f(U)$ offen in $Y$.
+		\item $A \subset X$ ist abgeschlossen $\Leftrightarrow f(A)$ ist abgeschlossen in $Y$.
+		\item $f(\bar{A}) = \bar{f(A)}, f(\mathring A) = \mathring{\left(f(A)\right)}$.
+		\item $U$ ist Umgebung von $x \in X$ $\Leftrightarrow f(U)$ ist Umgebung von $f(x)$.
+	\end{itemize}
+\end{remark}
+
+\begin{example}
+	\begin{itemize}
+		\item Jede Isometrie zwischen metrischen Räumen ist ein Homöomorphismus.
+		\item $[0,1] \cong [a,b] \forall a < b \in \R$
+		\item $(0,1) \cong (a,b) \cong \R \forall a < b \in \R$
+	\end{itemize}
+\end{example}
+
+\begin{example}{Stereoraphische Projektion}
+	(TODO:BILD)
+	\newline
+	Die stereographische Projektion ist ein Homöomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
+	\newline
+	Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ $f(x)$, mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{|y|^2+1}, \ldots, \frac{2 y_n}{|y|^2+1},\frac{|y|^2-1}{|y|^2+1})$.
+\end{example}
+
 \end{document}
