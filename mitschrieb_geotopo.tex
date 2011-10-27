@@ -85,7 +85,7 @@
 % Tragen Sie in der folg. Zeile Ihren Namen ein: %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\OO}{{\ensuremath{\upsigma}}}
+\newcommand{\OO}{{\ensuremath{\mathcal{O}}}}
 
 \newenvironment{Kasten}[1]
 {
@@ -155,7 +155,7 @@ $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 \end{example}
 
 \begin{example}
-$$X \text{ Menge, }\OO = \left\{\{x\} \mid x\in X\right\} + \text{Axiome, die zu erfüllen sind} \leadsto \tilde{\OO}$$
+$$X \text{ Menge, }\OO = \left\{\{x\} \mid x\in X\right\} + \text{Axiome, die zu erfüllen sind} \leadsto \tilde{\OO} = \mathcal{P}(X)$$
 $\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
 $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 \end{example}
@@ -163,12 +163,11 @@ $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 %\begin{definition}[Metrischer Raum]
 \begin{Kasten}{Metrischer Raum}
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
-
+$\forall x,y,z \in X$
 \begin{itemize}
 	\item (1) $d(x,y) = d(y,x)$ \underline{"Symmetrie"}
 	\item (2) $d(x,y) = 0 \Leftrightarrow x = y, d(x,y) \geq 0$ \underline{"Definitheit"}
 	\item (3) $d(x,z) \leq d(x,y) + d(y,z)$ \underline{"Dreiecksungleichung"}
-	\item $\forall x,y,x \in X$
 \end{itemize}
 %\end{definition}
 \end{Kasten}
