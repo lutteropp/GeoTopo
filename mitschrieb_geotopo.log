@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  27 OCT 2011 23:19
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  27 OCT 2011 23:31
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -829,42 +829,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \chapter
+l.139 \chapter
               {Vorwort} [1
 
 ]
-Kapitel 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
+Kapitel 0.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 149.
 
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
  [2
 
 ] [3]
-Underfull \hbox (badness 3333) in paragraph at lines 234--236
-[]\T1/cmr/bx/n/10.95 Bemerkung 1.4. []\T1/cmr/m/it/10.95 Die Äqui-va-lenz-re-la
+Underfull \hbox (badness 3333) in paragraph at lines 235--237
+[]\T1/cmr/bx/n/10.95 Bemerkung 0.4. []\T1/cmr/m/it/10.95 Die Äqui-va-lenz-re-la
 -ti-on "Ho-mo-to-pie von Ab-bil-dun-
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 234--236
+Underfull \hbox (badness 3954) in paragraph at lines 235--237
 \T1/cmr/m/it/10.95 gen" lie-fert al-so ei-ne Par-ti-ti-on von $\OML/cmm/m/it/10
 .95 C\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; Y\OT1/cmr/m/n/10.95 )$ \T1/cmr/
 m/it/10.95 in Äqui-va-lenz-klas-sen.
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 234--236
+Underfull \hbox (badness 2302) in paragraph at lines 235--237
 \T1/cmr/m/it/10.95 Die-se hei-ÿen Ho-mo-to-pie-klas-sen und die $[]$
  []
 
 [4] [5]
-Kapitel 2.
+Kapitel 1.
 
-Overfull \hbox (11.04903pt too wide) in paragraph at lines 291--292
+Overfull \hbox (11.04903pt too wide) in paragraph at lines 292--293
 []\T1/cmr/m/it/10.95 (5) $\OML/cmm/m/it/10.95 X \OT1/cmr/m/n/10.95 := \U/msb/m/
 n/10.95 R\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 O \OT1/cmr/m/n/10.95 := \OMS
 /cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 O \OMS/cmsy/m/n/10.95 j []\OT1/cmr/m/n/10.
@@ -873,7 +873,7 @@ n/10.95 R\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 O \OT1/cmr/m/n/10.95 := \OMS
  []
 
 
-Overfull \hbox (1.37247pt too wide) in paragraph at lines 291--292
+Overfull \hbox (1.37247pt too wide) in paragraph at lines 292--293
 \U/msb/m/n/10.95 R\OMS/cmsy/m/n/10.95 g$\T1/cmr/m/it/10.95 . $\OMS/cmsy/m/n/10.
 95 ) \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/n/10.95 O\OT1/cmr/m
 /n/10.95 )[]$\T1/cmr/m/it/10.95 , und $\OMS/cmsy/m/n/10.95 O$ \T1/cmr/m/it/10.9
@@ -881,7 +881,7 @@ Overfull \hbox (1.37247pt too wide) in paragraph at lines 291--292
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 $\OML/cmm/m/it/10.95 A \OMS/cmsy/m/n/10.95 ^^Z \OML/cmm/m/it/10.95 X; X$ \T1/cm
 r/m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/cmr/m/n/10.95 :\OMS/cmsy/
 m/n/10.95 ,
@@ -890,7 +890,7 @@ m/n/10.95 ,
 [6
 
 ]
-Underfull \hbox (badness 4634) in paragraph at lines 332--334
+Underfull \hbox (badness 4634) in paragraph at lines 333--335
 \T1/cmr/m/it/10.95 Ist $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/
 n/10.95 O\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
 OMS/cmsy/m/n/10.95 B ^^Z O$\T1/cmr/m/it/10.95 , so heiÿt $\OMS/cmsy/m/n/10.95 B
@@ -898,39 +898,39 @@ $
  []
 
 [7] [8]
-Underfull \hbox (badness 1062) in paragraph at lines 400--401
-[]\T1/cmr/bx/n/10.95 Bemerkung 2.5. []\T1/cmr/m/it/10.95 In ei-nem me-tri-schen
+Underfull \hbox (badness 1062) in paragraph at lines 401--402
+[]\T1/cmr/bx/n/10.95 Bemerkung 1.5. []\T1/cmr/m/it/10.95 In ei-nem me-tri-schen
  Raum $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; d\OT1/cmr/m/n/10.95 )$ \T1/cm
 r/m/it/10.95 bil-den die of-fe-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 400--401
+Underfull \hbox (badness 1688) in paragraph at lines 401--402
 \T1/cmr/m/it/10.95 nen Bäl-le die Ba-sis ei-ner To-po-lo-gie $\OMS/cmsy/m/n/10.
 95 O \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 O[]$ \T1/cmr/m/it/10.95 von $\OML
 /cmm/m/it/10.95 X$\T1/cmr/m/it/10.95 , die-se heiÿt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
+Underfull \hbox (badness 10000) in paragraph at lines 438--440
 
  []
 
 [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 481--485
+Underfull \hbox (badness 10000) in paragraph at lines 482--486
 $\OML/cmm/m/it/10.95 f [] [] X \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 Y$ \T1
 /cmr/m/it/10.95 ist ste-tig in $\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 2 \OM
 L/cmm/m/it/10.95 X$ $\OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ,
  []
 
 [11]
-Underfull \hbox (badness 1484) in paragraph at lines 521--522
+Underfull \hbox (badness 1484) in paragraph at lines 522--523
 \T1/cmr/m/it/10.95 Zweo to-po-lo-gi-sche Räu-me $\OML/cmm/m/it/10.95 X$ \T1/cmr
 /m/it/10.95 und $\OML/cmm/m/it/10.95 Y$ \T1/cmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
 
-Overfull \hbox (1.83974pt too wide) in paragraph at lines 542--548
+Overfull \hbox (1.83974pt too wide) in paragraph at lines 543--549
 \T1/cmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
 is-mus von $\OML/cmm/m/it/10.95 S[]\OMS/cmsy/m/n/10.95 nf\OML/cmm/m/it/10.95 N\
 OMS/cmsy/m/n/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
@@ -970,7 +970,7 @@ cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy9
 .pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fon
 ts/type1/bluesky/ams/msbm10.pfb>
-Output written on mitschrieb_geotopo.pdf (14 pages, 271100 bytes).
+Output written on mitschrieb_geotopo.pdf (14 pages, 271009 bytes).
 PDF statistics:
  634 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 131072)
