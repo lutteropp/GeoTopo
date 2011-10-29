@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.1.5}Homotope Abbildungen}{4}{subsection.1.1.5}
 \contentsline {subsection}{\numberline {1.1.6}Nullhomotopie}{5}{subsection.1.1.6}
 \contentsline {subsection}{\numberline {1.1.7}Teilraumtopologie}{5}{subsection.1.1.7}
-\contentsline {section}{\numberline {1.2}Grundlagen der allgemeinen Topologie}{5}{section.1.2}
+\contentsline {section}{\numberline {1.2}Grundlagen der allgemeinen Topologie}{6}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Abgeschlossenheit}{6}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Umgebung}{6}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Basis}{7}{subsection.1.2.3}
