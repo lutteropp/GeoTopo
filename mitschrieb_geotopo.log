@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  29 OCT 2011 22:15
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  30 OCT 2011 23:33
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -911,12 +911,23 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
  [2
 
 ]
+
+pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: found P
+DF version <1.5>, but at most version <1.4> allowed
+<images/stetigeAbb.pdf, id=55, 553.81313pt x 338.39552pt>
+File: images/stetigeAbb.pdf Graphic file (type pdf)
+
+<use images/stetigeAbb.pdf> [3 <./images/stetigeAbb.pdf
+
+pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
+oup detected which pdfTeX can't handle. Ignoring it.
+>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 194.
+(Font)              <9> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 194.
- [3] [4] [5]
-Overfull \hbox (12.93463pt too wide) in paragraph at lines 294--295
+(Font)              <5> on input line 200.
+ [4] [5]
+Overfull \hbox (12.93463pt too wide) in paragraph at lines 300--301
 []\T1/lmr/m/it/10.95 (5) $\OML/lmm/m/it/10.95 X \OT1/lmr/m/n/10.95 := \U/msb/m/
 n/10.95 R\OML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS
 /lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 O \OMS/lmsy/m/n/10.95 j []\OT1/lmr/m/n/10.
@@ -925,7 +936,7 @@ n/10.95 R\OML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS
  []
 
 
-Overfull \hbox (3.45705pt too wide) in paragraph at lines 294--295
+Overfull \hbox (3.45705pt too wide) in paragraph at lines 300--301
 \U/msb/m/n/10.95 R\OMS/lmsy/m/n/10.95 g$\T1/lmr/m/it/10.95 . $\OMS/lmsy/m/n/10.
 95 ) \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 O\OT1/lmr/m
 /n/10.95 )[]$\T1/lmr/m/it/10.95 , und $\OMS/lmsy/m/n/10.95 O$ \T1/lmr/m/it/10.9
@@ -933,14 +944,14 @@ Overfull \hbox (3.45705pt too wide) in paragraph at lines 294--295
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
 $\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \OML/lmm/m/it/10.95 X; X$ \T1/lm
 r/m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/
 m/n/10.95 ,
  []
 
 [6]
-Underfull \hbox (badness 4279) in paragraph at lines 335--337
+Underfull \hbox (badness 4279) in paragraph at lines 341--343
 \T1/lmr/m/it/10.95 Ist $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/
 n/10.95 O\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
 OMS/lmsy/m/n/10.95 B ^^Z O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/lmsy/m/n/10.95 B
@@ -949,48 +960,48 @@ $
 
 [7]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 370.
-
-Underfull \hbox (badness 1028) in paragraph at lines 403--404
+(Font)              <12> on input line 376.
+ [8]
+Underfull \hbox (badness 1028) in paragraph at lines 409--410
 []\T1/lmr/bx/n/10.95 Bemerkung 1.11. []\T1/lmr/m/it/10.95 In ei-nem me-tri-sche
 n Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/it/10.95 bil-den die of-
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 484--488
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 490--494
 $\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1
 /lmr/m/it/10.95 ist ste-tig in $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
 L/lmm/m/it/10.95 X$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
  []
 
 [11]
-Underfull \hbox (badness 1178) in paragraph at lines 524--525
+Underfull \hbox (badness 1178) in paragraph at lines 530--531
 \T1/lmr/m/it/10.95 Zweo to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr
 /m/it/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
-
-Overfull \hbox (4.43005pt too wide) in paragraph at lines 545--551
+[12]
+Overfull \hbox (4.43005pt too wide) in paragraph at lines 551--557
 \T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
 is-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\
 OMS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
  []
 
-[12] (./mitschrieb_geotopo.aux) ) 
+[13] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 9021 strings out of 256216
- 133918 string characters out of 1917072
+ 9032 strings out of 256216
+ 134096 string characters out of 1917072
  211598 words of memory out of 1500000
- 11917 multiletter control sequences out of 10000+200000
+ 11924 multiletter control sequences out of 10000+200000
  89396 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,11n,43p,574b,551s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 45i,11n,48p,574b,544s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit
 .enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc
 /dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sh
@@ -1008,9 +1019,9 @@ f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
 /type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
 bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb>
-Output written on mitschrieb_geotopo.pdf (13 pages, 336231 bytes).
+Output written on mitschrieb_geotopo.pdf (14 pages, 348338 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 131072)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 131072)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
