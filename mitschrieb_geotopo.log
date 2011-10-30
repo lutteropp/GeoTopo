@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  30 OCT 2011 23:33
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  31 OCT 2011 00:10
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -926,8 +926,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 200.
- [4] [5]
-Overfull \hbox (12.93463pt too wide) in paragraph at lines 300--301
+
+
+pdfTeX warning: pdflatex (file ./images/homotopie.pdf): PDF inclusion: found PD
+F version <1.5>, but at most version <1.4> allowed
+<images/homotopie.pdf, id=67, 542.42867pt x 252.2145pt>
+File: images/homotopie.pdf Graphic file (type pdf)
+
+<use images/homotopie.pdf> [4 <./images/homotopie.pdf
+
+pdfTeX warning: pdflatex (file ./images/homotopie.pdf): PDF inclusion: Page Gro
+up detected which pdfTeX can't handle. Ignoring it.
+>] [5]
+Overfull \hbox (12.93463pt too wide) in paragraph at lines 307--308
 []\T1/lmr/m/it/10.95 (5) $\OML/lmm/m/it/10.95 X \OT1/lmr/m/n/10.95 := \U/msb/m/
 n/10.95 R\OML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS
 /lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 O \OMS/lmsy/m/n/10.95 j []\OT1/lmr/m/n/10.
@@ -936,22 +947,22 @@ n/10.95 R\OML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS
  []
 
 
-Overfull \hbox (3.45705pt too wide) in paragraph at lines 300--301
+Overfull \hbox (3.45705pt too wide) in paragraph at lines 307--308
 \U/msb/m/n/10.95 R\OMS/lmsy/m/n/10.95 g$\T1/lmr/m/it/10.95 . $\OMS/lmsy/m/n/10.
 95 ) \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 O\OT1/lmr/m
 /n/10.95 )[]$\T1/lmr/m/it/10.95 , und $\OMS/lmsy/m/n/10.95 O$ \T1/lmr/m/it/10.9
 5 heiÿt $[]$. 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 $\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \OML/lmm/m/it/10.95 X; X$ \T1/lm
 r/m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/
 m/n/10.95 ,
  []
 
-[6]
-Underfull \hbox (badness 4279) in paragraph at lines 341--343
+
+Underfull \hbox (badness 4279) in paragraph at lines 348--350
 \T1/lmr/m/it/10.95 Ist $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/
 n/10.95 O\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
 OMS/lmsy/m/n/10.95 B ^^Z O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/lmsy/m/n/10.95 B
@@ -960,34 +971,34 @@ $
 
 [7]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 376.
+(Font)              <12> on input line 383.
  [8]
-Underfull \hbox (badness 1028) in paragraph at lines 409--410
+Underfull \hbox (badness 1028) in paragraph at lines 416--417
 []\T1/lmr/bx/n/10.95 Bemerkung 1.11. []\T1/lmr/m/it/10.95 In ei-nem me-tri-sche
 n Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/it/10.95 bil-den die of-
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 446--448
+Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 490--494
+Underfull \hbox (badness 10000) in paragraph at lines 497--501
 $\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1
 /lmr/m/it/10.95 ist ste-tig in $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
 L/lmm/m/it/10.95 X$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
  []
 
 [11]
-Underfull \hbox (badness 1178) in paragraph at lines 530--531
+Underfull \hbox (badness 1178) in paragraph at lines 537--538
 \T1/lmr/m/it/10.95 Zweo to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr
 /m/it/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
 [12]
-Overfull \hbox (4.43005pt too wide) in paragraph at lines 551--557
+Overfull \hbox (4.43005pt too wide) in paragraph at lines 558--564
 \T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
 is-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\
 OMS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
@@ -995,13 +1006,13 @@ OMS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
 
 [13] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 9032 strings out of 256216
- 134096 string characters out of 1917072
+ 9038 strings out of 256216
+ 134218 string characters out of 1917072
  211598 words of memory out of 1500000
- 11924 multiletter control sequences out of 10000+200000
+ 11928 multiletter control sequences out of 10000+200000
  89396 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,11n,48p,574b,544s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 45i,11n,48p,574b,490s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit
 .enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc
 /dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sh
@@ -1019,9 +1030,9 @@ f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
 /type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
 bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb>
-Output written on mitschrieb_geotopo.pdf (14 pages, 348338 bytes).
+Output written on mitschrieb_geotopo.pdf (14 pages, 362001 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 131072)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
