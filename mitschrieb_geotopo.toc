@@ -1,32 +1,32 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Homotopie und Fundamentalgruppe}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Vorwort}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Topologischer Raum}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Metrischer Raum}{3}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Stetigkeit}{3}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}Homotopie}{4}{subsection.1.1.4}
+\contentsline {chapter}{\numberline {I}Homotopie und Fundamentalgruppe}{2}{chapter.1}
+\contentsline {section}{\numberline {0}Vorwort}{2}{section.1.0}
+\contentsline {subsection}{\numberline {0.1}Topologischer Raum}{2}{subsection.1.0.1}
+\contentsline {subsection}{\numberline {0.2}Metrischer Raum}{3}{subsection.1.0.2}
+\contentsline {subsection}{\numberline {0.3}Stetigkeit}{3}{subsection.1.0.3}
+\contentsline {subsection}{\numberline {0.4}Homotopie}{4}{subsection.1.0.4}
 \contentsline {paragraph}{Erinnerung}{4}{section*.3}
-\contentsline {subsection}{\numberline {1.1.5}Homotope Abbildungen}{5}{subsection.1.1.5}
-\contentsline {subsection}{\numberline {1.1.6}Nullhomotopie}{5}{subsection.1.1.6}
-\contentsline {subsection}{\numberline {1.1.7}Teilraumtopologie}{6}{subsection.1.1.7}
-\contentsline {section}{\numberline {1.2}Grundlagen der allgemeinen Topologie}{6}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Abgeschlossenheit}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Umgebung}{7}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Basis}{7}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Feiner und gr\IeC {\"o}ber}{8}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {0.5}Homotope Abbildungen}{4}{subsection.1.0.5}
+\contentsline {subsection}{\numberline {0.6}Nullhomotopie}{5}{subsection.1.0.6}
+\contentsline {subsection}{\numberline {0.7}Teilraumtopologie}{6}{subsection.1.0.7}
+\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{6}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Abgeschlossenheit}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Umgebung}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.3}Basis}{7}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.4}Feiner und gr\IeC {\"o}ber}{8}{subsection.1.1.4}
 \contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{8}{section*.4}
-\contentsline {subsection}{\numberline {1.2.5}$\epsilon $-Ball, Sph\IeC {\"a}re}{8}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Metrischer Unterraum}{9}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Beschr\IeC {\"a}nktheit, Durchmesser}{9}{subsection.1.2.7}
-\contentsline {subsection}{\numberline {1.2.8}Abstand}{9}{subsection.1.2.8}
-\contentsline {paragraph}{Erinnerung}{10}{section*.5}
-\contentsline {subsection}{\numberline {1.2.9}Innerer Punkt, \IeC {\"a}u\IeC {\ss }erer Punkt, Randpunkt}{10}{subsection.1.2.9}
-\contentsline {subsection}{\numberline {1.2.10}Inneres}{10}{subsection.1.2.10}
-\contentsline {subsection}{\numberline {1.2.11}Abschluss}{11}{subsection.1.2.11}
-\contentsline {subsection}{\numberline {1.2.12}Rand}{11}{subsection.1.2.12}
-\contentsline {subsection}{\numberline {1.2.13}Stetigkeit}{11}{subsection.1.2.13}
-\contentsline {subsection}{\numberline {1.2.14}Stetigkeit}{11}{subsection.1.2.14}
-\contentsline {subsection}{\numberline {1.2.15}Isometrische Einbettung, Isometrie}{12}{subsection.1.2.15}
-\contentsline {subsection}{\numberline {1.2.16}Hom\IeC {\"o}omorphismus}{12}{subsection.1.2.16}
-\contentsline {subsection}{\numberline {1.2.17}hom\IeC {\"o}omorph}{12}{subsection.1.2.17}
+\contentsline {subsection}{\numberline {1.5}$\epsilon $-Ball, Sph\IeC {\"a}re}{8}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.6}Metrischer Unterraum}{8}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.7}Beschr\IeC {\"a}nktheit, Durchmesser}{8}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.8}Abstand}{9}{subsection.1.1.8}
+\contentsline {paragraph}{Erinnerung}{9}{section*.5}
+\contentsline {subsection}{\numberline {1.9}Innerer Punkt, \IeC {\"a}u\IeC {\ss }erer Punkt, Randpunkt}{9}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.10}Inneres}{10}{subsection.1.1.10}
+\contentsline {subsection}{\numberline {1.11}Abschluss}{10}{subsection.1.1.11}
+\contentsline {subsection}{\numberline {1.12}Rand}{10}{subsection.1.1.12}
+\contentsline {subsection}{\numberline {1.13}Stetigkeit}{10}{subsection.1.1.13}
+\contentsline {subsection}{\numberline {1.14}Stetigkeit}{11}{subsection.1.1.14}
+\contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{11}{subsection.1.1.15}
+\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{11}{subsection.1.1.16}
+\contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{12}{subsection.1.1.17}
