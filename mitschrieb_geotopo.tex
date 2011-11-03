@@ -1,7 +1,7 @@
 \documentclass[a4paper,11pt,notitlepage]{report}
 
 \usepackage{graphicx}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{bibgerm}
@@ -13,7 +13,7 @@
 \usepackage{fancyhdr}
 \usepackage{upgreek}
 \usepackage[pdftex,pdfpagelabels,colorlinks,backref,pagebackref]{hyperref}
-\usepackage{tikz} % SELBST HINZUGEF‹GT
+\usepackage{tikz} % SELBST HINZUGEF√úGT
 \usepackage{graphicx}
 \usepackage{framed}
 \usepackage{lmodern}
@@ -45,7 +45,7 @@
 \renewcommand{\bottomfraction}{1.0}
 % ============================================================================
 
-% == German definitions for theorems etc. ====================================
+% == German definitions for theorems etc. ==================================== 
 \newtheorem{definition}{Definition}[chapter]
 \newtheorem{theorem}{Satz}[chapter]
 \newtheorem{lemma}{Lemma}[chapter]
@@ -57,7 +57,7 @@
 \newtheorem{example}{Beispiel}[chapter]
 % ============================================================================
 
-% == Abk¸rzungen f¸r die reellen, nat¸rlichen, ganzen,... Zahlen =============
+% == Abk√ºrzungen f√ºr die reellen, nat√ºrlichen, ganzen,... Zahlen =============
 \newcommand{\R}{{\ensuremath{\mathbb{R}}}}
 \newcommand{\N}{{\ensuremath{\mathbb{N}}}}
 \newcommand{\Z}{{\ensuremath{\mathbb{Z}}}}
@@ -67,13 +67,13 @@
 \newcommand{\Prim}{{\ensuremath{\mathbb{P}}}}
 % ============================================================================
 
-% == Makros f¸r Autorenname und -adresse =====================================
+% == Makros f√ºr Autorenname und -adresse =====================================
 \newcommand{\myaddress}[6]{%
   \parbox{\textwidth}{\textbf{\large #1}\\
-    #2\\ #3\\ #4\\
+    #2\\ #3\\ #4\\ 
     \ifthenelse{\equal{#5}{}}{}{Email: \href{mailto:#5}{\texttt{#5}}\\}
     \ifthenelse{\equal{#6}{}}{}{WWW: \href{#6}{\path|#6|}\\}
-  }
+  } 
 }
 
 \newcommand{\myauthor}[1]{%
@@ -120,39 +120,39 @@
 \setcounter{chapter}{0}
 
 \begin{titlepage}
-\begin{center}
-\LARGE \textbf{{Einf¸hrung in die Geometrie und Topologie - Mitschrieb -} \\[5ex]
-{\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}
-\end{center}
-\begin{center}
-\Large Sarah Lutteropp
-\end{center}
-\begin{center}
-\today
-\end{center}
-\vspace{2cm}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{torus2.pdf}
-\end{center}
+	\begin{center}	
+		\LARGE \textbf{{Einf√ºhrung in die Geometrie und Topologie - Mitschrieb -} \\[5ex] 
+    		{\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}
+	\end{center}
+	\begin{center}
+		\Large Sarah Lutteropp
+	\end{center}
+	\begin{center}
+		\today
+	\end{center}
+	\vspace{2cm}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{torus2.pdf}
+	\end{center}
 \end{titlepage}
 %\maketitle
 \setcounter{tocdepth}{1}
 \tableofcontents
 
 \section*{Zusammenfassung}
-Dies ist ein Mitschrieb der Vorlesung "Einf¸hrung in die Geometrie und Topologie" vom Wintersemester 2011/2012 am Karlsruher Institut f¸r Technologie, die von Herrn Prof. Dr. Wilderich Tuschmann gehalten wird.
+Dies ist ein Mitschrieb der Vorlesung ‚ÄúEinf√ºhrung in die Geometrie und Topologie‚Äù vom Wintersemester 2011/2012 am Karlsruher Institut f√ºr Technologie, die von Herrn Prof. Dr. Wilderich Tuschmann gehalten wird.
 
 \chapter{Homotopie und Fundamentalgruppe}
 \setcounter{section}{-1}
 \section{Vorwort}
 \begin{Kasten}{Topologischer Raum}
-Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enth‰lt.
+Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enth√§lt.
 \newline
 $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 \begin{enumerate}[(1)]
-\item $O_1, O_2 \in \OO \Rightarrow O_1 \cap O_2 \in \OO$
-\item $O_\alpha \in \OO, \alpha \in A, A \text{ Indexmenge} \Rightarrow \bigcup\limits_{\alpha \in A}{O_\alpha} \in \OO$
-\item $X, \emptyset \in \OO$
+	\item $O_1, O_2 \in \OO \Rightarrow O_1 \cap O_2 \in \OO$
+	\item $O_\alpha \in \OO, \alpha \in A, A \text{ Indexmenge} \Rightarrow \bigcup\limits_{\alpha \in A}{O_\alpha} \in \OO$
+	\item $X, \emptyset \in \OO$
 \end{enumerate}
 \end{Kasten}
 
@@ -161,24 +161,24 @@ $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 \end{example}
 
 \begin{example}
-$$X \text{ Menge, }\OO = \left\{\{x\} \mid x\in X\right\} + \text{Axiome, die zu erf¸llen sind} \leadsto \tilde{\OO} = \mathcal{P}(X)$$
+$$X \text{ Menge, }\OO = \left\{\{x\} \mid x\in X\right\} + \text{Axiome, die zu erf√ºllen sind} \leadsto \tilde{\OO} = \mathcal{P}(X)$$
 $\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
 $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 \end{example}
 
 \begin{Kasten}{Metrischer Raum}
-Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erf¸llt:
+Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erf√ºllt:
 $\forall x,y,z \in X$
 \begin{enumerate}[(1)]
-\item $d(x,y) = d(y,x)$ \underline{"Symmetrie"}
-\item $d(x,y) = 0 \Leftrightarrow x = y, d(x,y) \geq 0$ \underline{"Definitheit"}
-\item $d(x,z) \leq d(x,y) + d(y,z)$ \underline{"Dreiecksungleichung"}
+	\item $d(x,y) = d(y,x)$ \underline{"Symmetrie"}
+	\item $d(x,y) = 0 \Leftrightarrow x = y, d(x,y) \geq 0$ \underline{"Definitheit"}
+	\item $d(x,z) \leq d(x,y) + d(y,z)$ \underline{"Dreiecksungleichung"}
 \end{enumerate}
 \end{Kasten}
 
 %\begin{Kasten}[stetig]
 \begin{Kasten}{Stetigkeit}
-Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen R‰umen $X$ und $Y$ heiﬂt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
+Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen R√§umen $X$ und $Y$ hei√üt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
 %\end{Kasten}
 \end{Kasten}
 
@@ -190,8 +190,8 @@ Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen R‰umen $X$ und 
 
 \begin{remark}
 Ist $(X,d)$ ein metrischer Raum, so sind die offenen Mengen der von der Metrik induzierten Topologie Vereinigungen von endlichen Durchschnitten von Umgebungen
-$U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$,
-und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls f¸r alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
+$U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$, 
+und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls f√ºr alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
 \end{remark}
 
 %\begin{Kasten}[Homotopie]
@@ -205,7 +205,7 @@ Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbild
 \centering
 \includegraphics[width=0.8\textwidth]{images/homotopie.pdf}
 %die Anzahl der Linien links und rechts sollte gleich sein
-%Einheitsintervall nicht so hoch (2/3 der Grˆﬂe reichen)
+%Einheitsintervall nicht so hoch (2/3 der Gr√∂√üe reichen)
 %Raum Y umkreisen
 \caption{Homotopie}
 \end{figure}
@@ -213,43 +213,43 @@ Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbild
 TODO:BILDER
 
 \begin{remark}
-$H$ heiﬂt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ heiﬂen dann \underline{homotop}, in Zeichen: $f \simeq g$.
+$H$ hei√üt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ hei√üen dann \underline{homotop}, in Zeichen: $f \simeq g$.
 \end{remark}
 
 \paragraph{Erinnerung}
-Sind $X$ und $Y$ topologische R‰ume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. (TODO: BILD)
+Sind $X$ und $Y$ topologische R√§ume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. (TODO: BILD)
 
 %\begin{Kasten}[homotope Abbildungen]
 \begin{Kasten}{Homotope Abbildungen}
-Zwei (stetige) Abbildungen heiﬂen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
+	Zwei (stetige) Abbildungen hei√üen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
-"Homotop sein" ist eine ƒquivalenzrelation.
+"Homotop sein" ist eine √Ñquivalenzrelation.
 \end{remark}
 
 \begin{proof}
-\underline{Symmetrie}:
-Gilt f¸r $f,g \in C(X,Y) := \{F \colon X \rightarrow Y \text{ stetig } \}$ $f \simeq g$ vermˆge $H=(h_t), t \in [0,1],$ so liefert $(\tilde{h_t})$ mit $\tilde{h_t}:=h_{1-t}$ eine Homotopie von $g$ nach $f$, d.h. $f \simeq g \Leftrightarrow g \simeq f$.
-\newline
-\underline{Reflexivit‰t}:
-$f \simeq f$ vermˆge $h_t : \equiv f \forall t \in [0,1]$
-\newline
-\underline{Transitivit‰t}:
-Es sei $f \simeq g$ vermˆge $(h_t)$ und ferner $g \simeq l$ vermˆge $(k_t)$.
-Dann liefert $M \colon X \times [0,1] \rightarrow Y$ mit
-$$M_t := \begin{cases} h_{2t} & 0 \leq t \leq \frac{1}{2} \\
-k_{2t-1} & \frac{1}{2} \leq t \leq 1
-\end{cases}$$
-eine Homotopie von $f$ nach $l$.
-\newline
-Also ist $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
+	\underline{Symmetrie}:
+	Gilt f√ºr $f,g \in C(X,Y) := \{F \colon X \rightarrow Y \text{ stetig } \}$ $f \simeq g$ verm√∂ge $H=(h_t), t \in [0,1],$ so liefert $(\tilde{h_t})$ mit $\tilde{h_t}:=h_{1-t}$ eine Homotopie von $g$ nach $f$, d.h. $f \simeq g \Leftrightarrow g \simeq f$.
+	\newline
+	\underline{Reflexivit√§t}:
+	$f \simeq f$ verm√∂ge $h_t : \equiv f \forall t \in [0,1]$
+	\newline
+	\underline{Transitivit√§t}:
+	Es sei $f \simeq g$ verm√∂ge $(h_t)$ und ferner $g \simeq l$ verm√∂ge $(k_t)$.
+	Dann liefert $M \colon X \times [0,1] \rightarrow Y$ mit
+	$$M_t := \begin{cases} h_{2t} & 0 \leq t \leq \frac{1}{2} \\
+	k_{2t-1} & \frac{1}{2} \leq t \leq 1
+	\end{cases}$$
+	eine Homotopie von $f$ nach $l$.
+	\newline
+	Also ist $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
 \end{proof}
 (TODO:BILD)
 
 \begin{remark}
-Die ƒquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in ƒquivalenzklassen. Diese heiﬂen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
+Die √Ñquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in √Ñquivalenzklassen. Diese hei√üen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
 (TODO: BILD)
 \end{remark}
 
@@ -263,17 +263,17 @@ Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $
 
 %\begin{Kasten}
 \begin{Kasten}{Nullhomotopie}
-Eine stetige Abbildung $f \colon X \rightarrow Y$ heiﬂt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist. (TODO:BILD)
+Eine stetige Abbildung $f \colon X \rightarrow Y$ hei√üt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist. (TODO:BILD)
 %\end{Kasten}
 \end{Kasten}
 
 \begin{corollary}
-Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. f¸r jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
+Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. f√ºr jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
 \end{corollary}
 
 \begin{example}
 Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
-$\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der ƒquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$. (TODO: BILD)
+$\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der √Ñquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$. (TODO: BILD)
 Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1 := \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
 \newline
 \underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial! (TODO: BILD)
@@ -283,7 +283,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 \begin{Kasten}{Teilraumtopologie}
 Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
 $$\OO \Big |_{A} := \{U \cap A \mid U \in \OO \}$$
-induzierte Topologie heiﬂt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heiﬂt \underline{Teilraum} von $(X, \OO)$.
+induzierte Topologie hei√üt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ hei√üt \underline{Teilraum} von $(X, \OO)$.
 %\end{Kasten}
 \end{Kasten}
 
@@ -292,7 +292,7 @@ $B \subset A$ ist also genau dann \underline{offen \underline{in $A$}}, wenn $B$
 \end{remark}
 
 \begin{example}
-$X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
+$X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ 
 \newline
 (TODO: BILD)
 \newline
@@ -300,137 +300,137 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \end{example}
 
 \section{Grundlagen der allgemeinen Topologie}
-\begin{example}[Beispiele topologischer R‰ume]
-\begin{enumerate}[(1)]
-\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
-\item $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
-\item Metrische R‰ume, siehe unten
-\item $X:= \{a,b,c,d\} \Rightarrow \OO := \left\{X, \emptyset, \{a\}, \{b\}, \{a,c\}, \{a,b,c\}, \{a,b\} \right \}$ definiert eine Topologie auf $X$, aber $\OO^\prime:= \left \{ X, \emptyset, \{a,c,d\}, \{b,d\} \right \}$ nicht!
-\item $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ heiﬂt \underline{Standard-Topologie}.
-\item $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\mathcal{T}_1$-Topologie.
-\end{enumerate}
+\begin{example}[Beispiele topologischer R√§ume]
+	\begin{enumerate}[(1)]
+		\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
+		\item $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
+		\item Metrische R√§ume, siehe unten
+		\item $X:= \{a,b,c,d\} \Rightarrow \OO := \left\{X, \emptyset, \{a\}, \{b\}, \{a,c\}, \{a,b,c\}, \{a,b\} \right \}$ definiert eine Topologie auf $X$, aber $\OO^\prime:= \left \{ X, \emptyset, \{a,c,d\}, \{b,d\} \right \}$ nicht!
+		\item $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ hei√üt \underline{Standard-Topologie}.
+		\item $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\mathcal{T}_1$-Topologie.
+	\end{enumerate}
 \end{example}
 
 %\begin{Kasten}
 \begin{Kasten}{Abgeschlossenheit}
-$A \subset X, X$ topologischer Raum, heiﬂt \underline{abgeschlossen} $:\Leftrightarrow X \backslash A \text{ ist offen}$.
+	$A \subset X, X$ topologischer Raum, hei√üt \underline{abgeschlossen} $:\Leftrightarrow X \backslash A \text{ ist offen}$.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
-Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
+	Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
 \end{remark}
 
 \begin{example}
-In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\mathcal{T}_1}$\footnote{$\R$ mit $\mathcal{T}_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
+	In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\mathcal{T}_1}$\footnote{$\R$ mit $\mathcal{T}_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
 \end{example}
 
 %\begin{Kasten}
 \begin{Kasten}{Umgebung}
-Ist $X$ topologischer Raum und $x \in X$, so heiﬂt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
+	Ist $X$ topologischer Raum und $x \in X$, so hei√üt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
-Umgebungen sind per definitionem offen! (TODO: BILD)
+	Umgebungen sind per definitionem offen! (TODO: BILD)
 \end{remark}
 
 \begin{remark}
-Jede offene Teilmenge von $\R_{Standard}$ ist eine Vereinigung disjunkter offener Intervalle, doch abgeschlossene Teilmengen von $\R$ sind keinesfalls immer Vereinigungen abgeschlossener Intervalle!
+	Jede offene Teilmenge von $\R_{Standard}$ ist eine Vereinigung disjunkter offener Intervalle, doch abgeschlossene Teilmengen von $\R$ sind keinesfalls immer Vereinigungen abgeschlossener Intervalle!
 \end{remark}
 
 \begin{example}[Die \underline{Cantor-Menge} $\mathcal{C}:= \left \{ x \in \R \mid x = \sum\limits_{k=1}^{\infty}{\frac{a_k}{3^k}}, a_k \in \{0,2\} \right \}$]
-(TODO: BILD)
-\newline
-$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enth‰lt ¸berabz‰hlbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
+	(TODO: BILD)
+	\newline
+	$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enth√§lt √ºberabz√§hlbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
 \end{example}
 
 %\begin{Kasten}
 \begin{Kasten}{Basis}
-Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, so heiﬂt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
+	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, so hei√üt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{example}
-\begin{enumerate}[(1)]
-\item Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
-\item S‰mtliche offenen\footnote{bez¸glich der euklidischen Metrik} Kreisscheiben (TODO: BILD) und auch s‰mtliche offenen Quadrate (TODO: BILD) bilden Basen ein und derselben Topologie auf $\R^2$.
-\end{enumerate}
-(TODO: BILD)
+	\begin{enumerate}[(1)]
+		\item Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
+		\item S√§mtliche offenen\footnote{bez√ºglich der euklidischen Metrik} Kreisscheiben (TODO: BILD) und auch s√§mtliche offenen Quadrate (TODO: BILD) bilden Basen ein und derselben Topologie auf $\R^2$.
+	\end{enumerate}
+	(TODO: BILD)
 \end{example}
 
 \begin{remark}
-$\bullet$ $\mathcal{B} \subset \OO$ ist Basis der Topologie von $X$ $\Leftrightarrow \forall O \in \OO \forall x \in O \exists B \in \mathcal{B} \colon x \in B \subset O$.
-\newline
-$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Bais \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Vereinigung von Mengen aus $\mathcal{B}$.
-\newline
-(TODO: BILD)
+	$\bullet$ $\mathcal{B} \subset \OO$ ist Basis der Topologie von $X$ $\Leftrightarrow \forall O \in \OO \forall x \in O \exists B \in \mathcal{B} \colon x \in B \subset O$.
+	\newline
+	$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Bais \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Vereinigung von Mengen aus $\mathcal{B}$.
+	\newline
+	(TODO: BILD)
 \end{remark}
 
 %\begin{Kasten}
-\begin{Kasten}{Feiner und grˆber}
-Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, so heiﬂt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{grˆber} als $\OO_2$.
+\begin{Kasten}{Feiner und gr√∂ber}
+	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, so hei√üt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gr√∂ber} als $\OO_2$.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{example}
-$\bullet$ Die triviale Topologie ist die grˆbste Topologie auf $X$, die diskrete Topologie die feinste.
-\newline
-$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\mathcal{T}_1$-Topologie.
+	$\bullet$ Die triviale Topologie ist die gr√∂bste Topologie auf $X$, die diskrete Topologie die feinste.
+	\newline
+	$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\mathcal{T}_1$-Topologie.
 \end{example}
 
-\paragraph{Mehr zu metrischen R‰umen}
+\paragraph{Mehr zu metrischen R√§umen}
 
 %\begin{Kasten}
-\begin{Kasten}{$\epsilon$-Ball, Sph‰re}
-F¸r einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei f¸r $p \in X$
-\begin{itemize}
-\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
-\item $D_\epsilon(p):=\{x \in C \mid d(p,x) \leq \epsilon \}$ der \underline{abgeschlossene $\epsilon$-Ball um $p$}
-\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sph‰re} um $p$ (oder \underline{Sph‰re vom Radius $\epsilon$})
-\end{itemize}
+\begin{Kasten}{$\epsilon$-Ball, Sph√§re}
+	F√ºr einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei f√ºr $p \in X$
+	\begin{itemize}
+		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
+		\item $D_\epsilon(p):=\{x \in C \mid d(p,x) \leq \epsilon \}$ der \underline{abgeschlossene $\epsilon$-Ball um $p$}
+		\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sph√§re} um $p$ (oder \underline{Sph√§re vom Radius $\epsilon$})
+	\end{itemize}
 %\end{Kasten}
 \end{Kasten}
 
 %\begin{Kasten}
 \begin{Kasten}{Metrischer Unterraum}
-Ist $(X,d)$ metrischer Raum und $A \subset X$, so heiﬂt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
+	Ist $(X,d)$ metrischer Raum und $A \subset X$, so hei√üt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{example}
-F¸r $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1(0)$ metrische Unterr‰ume und heiﬂen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sph‰re.
-\newline
-(TODO: BILD)
+	F√ºr $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1(0)$ metrische Unterr√§ume und hei√üen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sph√§re.
+	\newline
+	(TODO: BILD)
 \end{example}
 
 %\begin{Kasten}
-\begin{Kasten}{Beschr‰nktheit, Durchmesser}
-$A \subset (X,d)$ heiﬂt \underline{beschr‰nkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho \text{ } \forall x,y \in A$
-\newline
-(TODO: BILD)
-\newline
-Das Infimum, diam $A$, dieser $\rho$ heiﬂt dann \underline{Durchmesser von $A$}.
+\begin{Kasten}{Beschr√§nktheit, Durchmesser}
+	$A \subset (X,d)$ hei√üt \underline{beschr√§nkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho  \text{   } \forall x,y \in A$
+	\newline
+	(TODO: BILD)
+	\newline
+	Das Infimum, diam $A$, dieser $\rho$ hei√üt dann \underline{Durchmesser von $A$}.
 %\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
-In einem metrischen Raum $(X,d)$ bilden die offenen B‰lle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese heiﬂt \underline{die von der Metrik induzierte Topologie}.
+	In einem metrischen Raum $(X,d)$ bilden die offenen B√§lle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese hei√üt \underline{die von der Metrik induzierte Topologie}.
 \end{remark}
 
 \begin{remark}
-$A \subset (X,d)$ ist \underline{offen}
-\newline
-$\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
-\newline
-(TODO: BILD)
+	$A \subset (X,d)$ ist \underline{offen}
+	\newline
+	$\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
+	\newline
+	(TODO: BILD)
 \end{remark}
 
 %\begin{Kasten}
 \begin{Kasten}{Abstand}
-$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
-$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
-heiﬂt \underline{Abstand von $p$ und $A$}.
+	$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
+	$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
+	hei√üt \underline{Abstand von $p$ und $A$}.
 %\end{Kasten}
 \end{Kasten}
 
@@ -440,132 +440,132 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
  \underline{Teilraumtopologie} der \underline{in A} offenen Mengen.
  
 \begin{remark}
-\label{offenAbgeschlossen}
-Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
-
-(TODO:BILD)
-\newline
-Aber abgeschlossene Mengen $B$ in $A \subset X$ sind f¸r beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
+	\label{offenAbgeschlossen}
+	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
+	
+	(TODO:BILD)
+	\newline
+	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind f√ºr beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
 
 \begin{example}[Beispiel zu Bemerkung~\ref{offenAbgeschlossen}]
-$B := A := (a,b) \subset X := \R$
+	$B := A := (a,b) \subset X := \R$
 \end{example}
 
-\begin{Kasten}{Innerer Punkt, ‰uﬂerer Punkt, Randpunkt}
-F¸r $p \in A \subset X$, $X$ topologischer Raum, heiﬂt $p$
-\newline
-\begin{enumerate}[(1)]
-\item \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. (TODO:BILD)
-\item \underline{‰uﬂerer Punkt}, falls eine zu $p$ disjunkte Umgebung $V$ in $X$ existiert.
-\item \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
-\end{enumerate}
+\begin{Kasten}{Innerer Punkt, √§u√üerer Punkt, Randpunkt}
+	F√ºr $p \in A \subset X$, $X$ topologischer Raum, hei√üt $p$
+	\newline
+	\begin{enumerate}[(1)]
+		\item \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. (TODO:BILD)
+		\item \underline{√§u√üerer Punkt}, falls eine zu $p$ disjunkte Umgebung $V$ in $X$ existiert.
+		\item \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
+	\end{enumerate}
 \end{Kasten}
 
 \begin{Kasten}{Inneres}
-F¸r $A \subset X$ heiﬂt die grˆﬂte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
+	F√ºr $A \subset X$ hei√üt die gr√∂√üte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
 \end{Kasten}
 
 \begin{remark}
-$\mathring A$ ist die Menge aller inneren Punkte von $A$ und die Vereinigung aller in $X$ offenen Teilmengen von $A$, und $A \text{ ist offen } \Leftrightarrow A = \mathring A$
+	$\mathring A$ ist die Menge aller inneren Punkte von $A$ und die Vereinigung aller in $X$ offenen Teilmengen von $A$, und $A \text{ ist offen } \Leftrightarrow A = \mathring A$
 \end{remark}
 
 \begin{example}
-$\mathring {\R \backslash \Q} = \mathring \Q = \emptyset$
+	$\mathring {\R \backslash \Q} = \mathring \Q = \emptyset$
 \end{example}
 
 \begin{Kasten}{Abschluss}
-Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {(X \backslash A} ) \right )$.
+	Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {(X \backslash A} ) \right )$.
 \end{Kasten}
 
 \begin{Kasten}{Rand}
-Der \underline{Rand} $\partial A$ von $A$ ist $\partial A := \bar{A} \backslash \mathring A$, d.h. Rand $A$ = \{ Randpunkte von A \}.
+	Der \underline{Rand} $\partial A$ von $A$ ist $\partial A := \bar{A} \backslash \mathring A$, d.h. Rand $A$ = \{ Randpunkte von A \}.
 \end{Kasten}
 
 (TODO:Exkurs zu `Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander')
 
 \begin{Kasten}{Stetigkeit}
-$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
+	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
 \end{Kasten}
 
 \begin{example}
-\begin{itemize}
-\item $f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ Urbilder abgeschlossener Mengen sind abgeschlossen.
-\item Sind $\OO_1$ und $\OO_2$ Topologien auf $X$, so ist die Identit‰t $\text{id} \colon (X,\OO_1) \rightarrow (X,\OO_2)$ stetig $\Leftrightarrow \OO_2 \subset \OO_1$.
-\item F¸r $A \subset X$ ist die Teilraumtopologie $\OO_A = \OO \big |_A$ die grˆbste Topologie, bez¸glich der die Inklusion $i \colon A \hookrightarrow X, a \mapsto a$ stetig ist.
-\end{itemize}
+	\begin{itemize}
+		\item $f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ Urbilder abgeschlossener Mengen sind abgeschlossen.
+		\item Sind $\OO_1$ und $\OO_2$ Topologien auf $X$, so ist die Identit√§t $\text{id} \colon (X,\OO_1) \rightarrow (X,\OO_2)$ stetig $\Leftrightarrow \OO_2 \subset \OO_1$.
+		\item F√ºr $A \subset X$ ist die Teilraumtopologie $\OO_A = \OO \big |_A$ die gr√∂bste Topologie, bez√ºglich der die Inklusion $i \colon A \hookrightarrow X, a \mapsto a$ stetig ist.
+	\end{itemize}
 \end{example}
 
 \begin{Kasten}{Stetigkeit} %spacings stimmen nicht ganz (TODO)
-$f \colon X \rightarrow Y$ ist stetig in $x \in X$
-$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ und } f(U) \subset V$
-\newline
-(TODO:BILD)
+	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
+	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ und } f(U) \subset V$
+	\newline
+	(TODO:BILD)
 \end{Kasten}
 
 \begin{remark}
-$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
+	$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
 \end{remark}
 
 \begin{example}
-Eine Abbildung $f \colon X \rightarrow Y$ zwischen \underline{metrischen} R‰umen ist bez¸glich der von den Metriken induzierten Topologien stetig in $x \in X$ genau dann, wenn f¸r jeden offenen Ball $B$ um $f(x)$ ein offener Ball um $x$ existiert, der unter $f$ in $B$ abgebildet wird. (Und ferner stetig in $x \in X$ genau dann, wenn f¸r alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass f¸r alle $x^\prime \in X$ mit $d_X(x,x^\prime) < \delta$ auch $d_Y \left( f(x), f(x^\prime) \right) < \epsilon$ folgt.)
+	Eine Abbildung $f \colon X \rightarrow Y$ zwischen \underline{metrischen} R√§umen ist bez√ºglich der von den Metriken induzierten Topologien stetig in $x \in X$ genau dann, wenn f√ºr jeden offenen Ball $B$ um $f(x)$ ein offener Ball um $x$ existiert, der unter $f$ in $B$ abgebildet wird. (Und ferner stetig in $x \in X$ genau dann, wenn f√ºr alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass f√ºr alle $x^\prime \in X$ mit $d_X(x,x^\prime) < \delta$ auch $d_Y \left( f(x), f(x^\prime) \right) < \epsilon$ folgt.) 
 \end{example}
 
 \begin{Kasten}{Isometrische Einbettung, Isometrie}
-Sind $X,Y$ metrische R‰ume, so heiﬂt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
-\newline
-$: \Leftrightarrow \forall x, x^\prime \in X$ gilt $d_Y \left ( f(x), f(x^\prime) \right ) = d_X (x, x^\prime)$.
-\newline
-Eine isometrische Einbettung ist immer injektiv.
-\newline
-Ist $f$ zus‰tzlich \underline{bijektiv}, so heiﬂt $f$ \underline{\underline{Isometrie}}.
+	Sind $X,Y$ metrische R√§ume, so hei√üt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
+	\newline	
+	 $: \Leftrightarrow \forall x, x^\prime \in X$ gilt $d_Y \left ( f(x), f(x^\prime) \right ) = d_X (x, x^\prime)$.
+	\newline
+	Eine isometrische Einbettung ist immer injektiv.
+	\newline
+	Ist $f$ zus√§tzlich \underline{bijektiv}, so hei√üt $f$ \underline{\underline{Isometrie}}. 
 \end{Kasten}
 
-\begin{Kasten}{Homˆomorphismus}
-Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer R‰ume heiﬂt \underline{Homˆomorphismus}, falls $f$ und $f^{-1}$ stetig sind.
+\begin{Kasten}{Hom√∂omorphismus}
+	Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer R√§ume hei√üt \underline{Hom√∂omorphismus}, falls $f$ und $f^{-1}$ stetig sind.
 \end{Kasten}
 
 \begin{example}
-\begin{itemize}
-\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homˆomorphismus!
-\newline
-(TODO:BILD)
-\item $id_X \colon X \rightarrow X$ ist immer ein Homˆomorphismus, Kompositionen von Homˆomorphismen ebenfalls.
-\end{itemize}
+	\begin{itemize}
+		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Hom√∂omorphismus!
+		\newline
+		(TODO:BILD)
+		\item $id_X \colon X \rightarrow X$ ist immer ein Hom√∂omorphismus, Kompositionen von Hom√∂omorphismen ebenfalls.
+	\end{itemize}
 \end{example}
 
 \begin{remark}
-`Homˆomorph sein' ist eine ƒquivalenzrelation f¸r topologische R‰ume.
+	`Hom√∂omorph sein' ist eine √Ñquivalenzrelation f√ºr topologische R√§ume.
 \end{remark}
 
-\begin{Kasten}{homˆomorph}
-Zwei topologische R‰ume $X$ und $Y$ heiﬂen \underline{homˆomorph} oder \underline{vom gleichen Homˆomorphietyp}, in Zeichen $X \cong Y$, falls es einen Homˆomorphismus $f \colon X \rightarrow Y$ gibt.
+\begin{Kasten}{hom√∂omorph}
+	Zwei topologische R√§ume $X$ und $Y$ hei√üen \underline{hom√∂omorph} oder \underline{vom gleichen Hom√∂omorphietyp}, in Zeichen $X \cong Y$, falls es einen Hom√∂omorphismus $f \colon X \rightarrow Y$ gibt.
 \end{Kasten}
 
 \begin{remark}
-Homˆomorphismen erhalten s‰mtliche topologischen Strukturen:
-\begin{itemize}
-\item Ist $f \colon X \rightarrow Y$ Homˆomorphismus, so ist $U \subset X$ offen $\Leftrightarrow f(U)$ offen in $Y$.
-\item $A \subset X$ ist abgeschlossen $\Leftrightarrow f(A)$ ist abgeschlossen in $Y$.
-\item $f(\bar{A}) = \overline{f(A)}, f(\mathring A) = \mathring{\left(f(A)\right)}$.
-\item $U$ ist Umgebung von $x \in X$ $\Leftrightarrow f(U)$ ist Umgebung von $f(x)$.
-\end{itemize}
+	Hom√∂omorphismen erhalten s√§mtliche topologischen Strukturen:
+	\begin{itemize}
+		\item Ist $f \colon X \rightarrow Y$ Hom√∂omorphismus, so ist $U \subset X$ offen $\Leftrightarrow f(U)$ offen in $Y$.
+		\item $A \subset X$ ist abgeschlossen $\Leftrightarrow f(A)$ ist abgeschlossen in $Y$.
+		\item $f(\bar{A}) = \overline{f(A)}, f(\mathring A) = \mathring{\left(f(A)\right)}$.
+		\item $U$ ist Umgebung von $x \in X$ $\Leftrightarrow f(U)$ ist Umgebung von $f(x)$.
+	\end{itemize}
 \end{remark}
 
 \begin{example}
-\begin{itemize}
-\item Jede Isometrie zwischen metrischen R‰umen ist ein Homˆomorphismus.
-\item $[0,1] \cong [a,b] \forall a < b \in \R$
-\item $(0,1) \cong (a,b) \cong \R \forall a < b \in \R$
-\end{itemize}
+	\begin{itemize}
+		\item Jede Isometrie zwischen metrischen R√§umen ist ein Hom√∂omorphismus.
+		\item $[0,1] \cong [a,b] \forall a < b \in \R$
+		\item $(0,1) \cong (a,b) \cong \R \forall a < b \in \R$
+	\end{itemize}
 \end{example}
 
 \begin{example}{Stereographische Projektion}
-(TODO:BILD)
-\newline
-Die stereographische Projektion ist ein Homˆomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
-\newline
-Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, $f(x)$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{||y||^2+1}, \ldots, \frac{2 y_n}{||y||^2+1},\frac{||y||^2-1}{||y||^2+1})$.
+	(TODO:BILD)
+	\newline
+	Die stereographische Projektion ist ein Hom√∂omorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
+	\newline
+	Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, $f(x)$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{||y||^2+1}, \ldots, \frac{2 y_n}{||y||^2+1},\frac{||y||^2-1}{||y||^2+1})$.
 \end{example}
 
 \end{document}

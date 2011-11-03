@@ -14,19 +14,19 @@
 \contentsline {subsection}{\numberline {1.1}Abgeschlossenheit}{6}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.2}Umgebung}{7}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.3}Basis}{7}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.4}Feiner und gr\"ober}{8}{subsection.1.1.4}
-\contentsline {paragraph}{Mehr zu metrischen R\"aumen}{8}{section*.4}
-\contentsline {subsection}{\numberline {1.5}$\epsilon $-Ball, Sph\"are}{8}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.4}Feiner und gr\IeC {\"o}ber}{8}{subsection.1.1.4}
+\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{8}{section*.4}
+\contentsline {subsection}{\numberline {1.5}$\epsilon $-Ball, Sph\IeC {\"a}re}{8}{subsection.1.1.5}
 \contentsline {subsection}{\numberline {1.6}Metrischer Unterraum}{8}{subsection.1.1.6}
-\contentsline {subsection}{\numberline {1.7}Beschr\"anktheit, Durchmesser}{8}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.7}Beschr\IeC {\"a}nktheit, Durchmesser}{8}{subsection.1.1.7}
 \contentsline {subsection}{\numberline {1.8}Abstand}{9}{subsection.1.1.8}
 \contentsline {paragraph}{Erinnerung}{9}{section*.5}
-\contentsline {subsection}{\numberline {1.9}Innerer Punkt, \"au\IeC {\ss }erer Punkt, Randpunkt}{9}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.9}Innerer Punkt, \IeC {\"a}u\IeC {\ss }erer Punkt, Randpunkt}{9}{subsection.1.1.9}
 \contentsline {subsection}{\numberline {1.10}Inneres}{10}{subsection.1.1.10}
 \contentsline {subsection}{\numberline {1.11}Abschluss}{10}{subsection.1.1.11}
 \contentsline {subsection}{\numberline {1.12}Rand}{10}{subsection.1.1.12}
 \contentsline {subsection}{\numberline {1.13}Stetigkeit}{10}{subsection.1.1.13}
 \contentsline {subsection}{\numberline {1.14}Stetigkeit}{11}{subsection.1.1.14}
 \contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{11}{subsection.1.1.15}
-\contentsline {subsection}{\numberline {1.16}Hom\"oomorphismus}{11}{subsection.1.1.16}
-\contentsline {subsection}{\numberline {1.17}hom\"oomorph}{12}{subsection.1.1.17}
+\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{11}{subsection.1.1.16}
+\contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{12}{subsection.1.1.17}
