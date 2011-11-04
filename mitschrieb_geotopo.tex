@@ -203,14 +203,16 @@ Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbild
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/homotopie.pdf}
-%die Anzahl der Linien links und rechts sollte gleich sein
-%Einheitsintervall nicht so hoch (2/3 der Größe reichen)
-%Raum Y umkreisen
+\includegraphics[width=0.7\textwidth]{images/Homotopie.jpg}
 \caption{Homotopie}
 \end{figure}
 
-TODO:BILDER
+\begin{figure}[h]
+\centering
+\subfloat{\includegraphics[width=0.5\textwidth]{images/nicht_homotop_1.jpg}}\qquad
+\subfloat{\includegraphics[width=0.4\textwidth]{images/nicht_homotop_2.jpg}}
+\caption{f und g sind jeweils \underline{nicht} homotop!}
+\end{figure}
 
 \begin{remark}
 $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
@@ -246,11 +248,20 @@ Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0
 	\newline
 	Also ist $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
 \end{proof}
-(TODO:BILD)
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Homotopie_Transitivitaet.jpg}
+\caption{Transitivität der Relation "homotop sein"}
+\end{figure}
 
 \begin{remark}
 Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in Äquivalenzklassen. Diese heißen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
-(TODO: BILD)
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Äquivalenzklassen.jpg}
+\caption{Äquivalenzklassen $[X,Y]$ von $C(X,Y)$}
+\end{figure}
 \end{remark}
 
 \begin{remark}
@@ -258,14 +269,24 @@ $C(X,Y)$ ist im Allgemeinen \underline{\underline{viel}} schwieriger zu verstehe
 \end{remark}
 
 \begin{example}
-Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $H(x,t):= (1-t) f(x) + t \cdot g(x)$ liefert eine Homotopie von $f$ nach $g$: (TODO: BILD)
+Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $H(x,t):= (1-t) f(x) + t \cdot g(x)$ liefert eine Homotopie von $f$ nach $g$:
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/R_n_immer_homotop.jpg}
+\end{figure} 
 \end{example}
 
 %\begin{Kasten}
 \begin{Kasten}{Nullhomotopie}
-Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist. (TODO:BILD)
+Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist.
 %\end{Kasten}
 \end{Kasten}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Nullhomotopie.jpg}
+\caption{f ist nullhomotop}
+\end{figure}
 
 \begin{corollary}
 Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
@@ -273,11 +294,24 @@ Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für 
 
 \begin{example}
 Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
-$\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$. (TODO: BILD)
+$\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Geschlossene_Wege.jpg}
+\caption{Geschlossene Wege in $\R^n$}
+\end{figure}
+
 Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1 := \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
 \newline
 \underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial! (TODO: BILD)
 \end{example}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/S1_und_R2_ohne_0.jpg}
+\caption{$[S^1,\R^2\setminus\{(0,0)\}]\text{ "=" }[S^1,S^1]$}
+\end{figure}
 
 %\begin{Kasten}
 \begin{Kasten}{Teilraumtopologie}
@@ -294,7 +328,10 @@ $B \subset A$ ist also genau dann \underline{offen \underline{in $A$}}, wenn $B$
 \begin{example}
 $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ 
 \newline
-(TODO: BILD)
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Teilraumtopologie.jpg}
+\end{figure}
 \newline
 \underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $\R^2$!
 \end{example}
@@ -340,10 +377,13 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \end{remark}
 
 \begin{example}[Die \underline{Cantor-Menge} $\mathcal{C}:= \left \{ x \in \R \mid x = \sum\limits_{k=1}^{\infty}{\frac{a_k}{3^k}}, a_k \in \{0,2\} \right \}$]
-	(TODO: BILD)
-	\newline
 	$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enthält überabzählbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
 \end{example}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Cantormenge_5te_Iteration.jpg}
+\end{figure}
 
 %\begin{Kasten}
 \begin{Kasten}{Basis}
@@ -354,9 +394,8 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \begin{example}
 	\begin{enumerate}[(1)]
 		\item Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
-		\item Sämtliche offenen\footnote{bezüglich der euklidischen Metrik} Kreisscheiben (TODO: BILD) und auch sämtliche offenen Quadrate (TODO: BILD) bilden Basen ein und derselben Topologie auf $\R^2$.
+		\item Sämtliche offenen\footnote{bezüglich der euklidischen Metrik} Kreisscheiben \includegraphics[scale=0.07]{images/offener_Kreis.jpg} und auch sämtliche offenen Quadrate \includegraphics[scale=0.07]{images/offenes_Quadrat.jpg} bilden Basen ein und derselben Topologie auf $\R^2$.
 	\end{enumerate}
-	(TODO: BILD)
 \end{example}
 
 \begin{remark}
@@ -364,7 +403,8 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\newline
 	$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Bais \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Vereinigung von Mengen aus $\mathcal{B}$.
 	\newline
-	(TODO: BILD)
+	\includegraphics[scale=0.3]{images/Quadrate_Schnitt.jpg}\qquad
+	\includegraphics[scale=0.3]{images/Kreis_Schnitt.jpg}
 \end{remark}
 
 %\begin{Kasten}
@@ -560,8 +600,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{itemize}
 \end{example}
 
-\begin{example}{Stereographische Projektion}
-	(TODO:BILD)
+\begin{example}{Stereographische Projektion}\newline
+	\includegraphics[scale=0.4]{images/Stereographie_S1_R1.jpg}
 	\newline
 	Die stereographische Projektion ist ein Homöomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
 	\newline

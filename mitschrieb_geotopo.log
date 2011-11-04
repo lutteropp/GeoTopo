@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  3 NOV 2011 17:26
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  4 NOV 2011 23:06
 entering extended mode
 **mitschrieb_geotopo.tex
 (mitschrieb_geotopo.tex
@@ -861,96 +861,167 @@ File: images/stetigeAbb.pdf Graphic file (type pdf)
 <use images/stetigeAbb.pdf> [3 <images/stetigeAbb.pdf
 Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: Page Group detec
 ted which pdfTeX can't handle. Ignoring it.
->]
-Warning: pdflatex (file images/homotopie.pdf): pdf inclusion: found pdf version
- <1.5>, but at most version <1.4> allowed
-<images/homotopie.pdf, id=104, 542.42867pt x 252.2145pt>
-File: images/homotopie.pdf Graphic file (type pdf)
+>] <images/Homotopie.jpg, id=104, 690.9012pt x 427.8384pt>
+File: images/Homotopie.jpg Graphic file (type jpg)
 
-<use images/homotopie.pdf> [4 <images/homotopie.pdf
-Warning: pdflatex (file images/homotopie.pdf): pdf inclusion: Page Group detect
-ed which pdfTeX can't handle. Ignoring it.
->] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+<use images/Homotopie.jpg>
+<images/nicht_homotop_1.jpg, id=105, 1054.94125pt x 422.57875pt>
+File: images/nicht_homotop_1.jpg Graphic file (type jpg)
+
+<use images/nicht_homotop_1.jpg>
+<images/nicht_homotop_2.jpg, id=106, 372.9132pt x 218.2554pt>
+File: images/nicht_homotop_2.jpg Graphic file (type jpg)
+
+<use images/nicht_homotop_2.jpg> [4 <images/Homotopie.jpg> <images/nicht_homoto
+p_1.jpg> <images/nicht_homotop_2.jpg>]
+<images/Homotopie_Transitivitaet.jpg, id=136, 506.8536pt x 372.9132pt>
+File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
+
+<use images/Homotopie_Transitivitaet.jpg>
+<images/Äquivalenzklassen.jpg, id=137, 638.385pt x 269.3262pt>
+File: images/Äquivalenzklassen.jpg Graphic file (type jpg)
+
+<use images/Äquivalenzklassen.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <images/Homotopie_Transitivitaet.jpg>]
+<images/R_n_immer_homotop.jpg, id=146, 580.0872pt x 413.8662pt>
+File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
+
+<use images/R_n_immer_homotop.jpg>
+<images/Nullhomotopie.jpg, id=147, 577.6782pt x 338.2236pt>
+File: images/Nullhomotopie.jpg Graphic file (type jpg)
+
+<use images/Nullhomotopie.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <images/Äquivalenzklassen.jpg> <images/R_n_immer_homotop.jpg>]
+<images/Geschlossene_Wege.jpg, id=159, 551.1792pt x 403.2666pt>
+File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
+
+<use images/Geschlossene_Wege.jpg>
+<images/S1_und_R2_ohne_0.jpg, id=160, 631.6398pt x 459.1554pt>
+File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
+
+<use images/S1_und_R2_ohne_0.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <images/Nullhomotopie.jpg> <images/Geschlossene_Wege.jpg>]
+<images/Teilraumtopologie.jpg, id=167, 616.2222pt x 476.0184pt>
+File: images/Teilraumtopologie.jpg Graphic file (type jpg)
+
+<use images/Teilraumtopologie.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []$\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/n/10.95 O \OT1/cmr/m/n/10.95 := \OMS/cmsy
 /m/n/10.95 f\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/n/10.95 ;g$
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--318
+[8 <images/S1_und_R2_ohne_0.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
 $\OML/cmm/m/it/10.95 A \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 X; X$ \T1/lmr/
 m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/cmr/m/n/10.95 :\OMS/cmsy/m/
 n/10.95 ,
  []
 
-[6]
-Underfull \hbox (badness 4279) in paragraph at lines 350--352
+[9 <images/Teilraumtopologie.jpg>]
+<images/Cantormenge_5te_Iteration.jpg, id=203, 183.68625pt x 82.80937pt>
+File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
+
+<use images/Cantormenge_5te_Iteration.jpg>
+Underfull \hbox (badness 4279) in paragraph at lines 390--392
 \T1/lmr/m/it/10.95 Ist $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/
 n/10.95 O\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
 OMS/cmsy/m/n/10.95 B  O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/cmsy/m/n/10.95 B$
  []
 
-[7]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 388.
+<images/offener_Kreis.jpg, id=204, 209.1012pt x 208.6194pt>
+File: images/offener_Kreis.jpg Graphic file (type jpg)
 
-LaTeX Font Info:    No file OMSlmr.fd. on input line 388.
+<use images/offener_Kreis.jpg>
+<images/offenes_Quadrat.jpg, id=205, 219.7008pt x 220.1826pt>
+File: images/offenes_Quadrat.jpg Graphic file (type jpg)
+
+<use images/offenes_Quadrat.jpg>
+<images/Quadrate_Schnitt.jpg, id=206, 281.853pt x 214.401pt>
+File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
+
+<use images/Quadrate_Schnitt.jpg>
+<images/Kreis_Schnitt.jpg, id=207, 345.4506pt x 211.5102pt>
+File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
+
+<use images/Kreis_Schnitt.jpg> [10 <images/Cantormenge_5te_Iteration.jpg> <imag
+es/offener_Kreis.jpg> <images/offenes_Quadrat.jpg> <images/Quadrate_Schnitt.jpg
+> <images/Kreis_Schnitt.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 428.
+
+LaTeX Font Info:    No file OMSlmr.fd. on input line 428.
 
 
 LaTeX Font Warning: Font shape `OMS/lmr/m/it' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 388.
+(Font)              for symbol `textbullet' on input line 428.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 418--419
+Underfull \hbox (badness 1173) in paragraph at lines 458--459
 []\T1/lmr/bx/n/10.95 Bemerkung I.11. []\T1/lmr/m/it/10.95 In ei-nem me-tri-sche
 n Raum $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; d\OT1/cmr/m/n/10.95 )$ \T1/l
 mr/m/it/10.95 bil-den die of-
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 456--458
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 500--504
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 540--544
 $\OML/cmm/m/it/10.95 f [] [] X \OMS/lmr/m/it/10.95 ! \OML/cmm/m/it/10.95 Y$ \T1
 /lmr/m/it/10.95 ist ste-tig in $\OML/cmm/m/it/10.95 x \OMS/lmr/m/it/10.95 2 \OM
 L/cmm/m/it/10.95 X$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,
  []
 
-[10]
-Underfull \hbox (badness 1383) in paragraph at lines 542--543
+[13]
+Underfull \hbox (badness 1383) in paragraph at lines 582--583
 \T1/lmr/m/it/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/cmm/m/it/10.95 X$ \T1/lmr
 /m/it/10.95 und $\OML/cmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
-[11]
-Overfull \hbox (4.15164pt too wide) in paragraph at lines 563--569
+[14] <images/Stereographie_S1_R1.jpg, id=275, 590.6868pt x 331.4784pt>
+File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
+
+<use images/Stereographie_S1_R1.jpg>
+Overfull \hbox (4.15164pt too wide) in paragraph at lines 603--609
 \T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
 is-mus von $\OML/cmm/m/it/10.95 S[]\OMS/lmr/m/it/10.95 nf\OML/cmm/m/it/10.95 N\
 OMS/lmr/m/it/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
  []
 
-[12] (mitschrieb_geotopo.aux)
+[15 <images/Stereographie_S1_R1.jpg>] (mitschrieb_geotopo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13812 strings out of 95516
- 226569 string characters out of 1189554
- 274875 words of memory out of 1273035
- 16204 multiletter control sequences out of 35000
+ 13928 strings out of 95516
+ 229110 string characters out of 1189554
+ 274876 words of memory out of 1273036
+ 16264 multiletter control sequences out of 35000
  75408 words of font info for 74 fonts, out of 500000 for 1000
  14 hyphenation exceptions out of 607
- 56i,12n,55p,563b,484s stack positions out of 1500i,500n,5000p,200000b,32768s
- 250 PDF objects out of 300000
- 100 named destinations out of 300000
- 68 words of extra memory for PDF output out of 65536
-<C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb>{cork-lm.enc}<C:\texmf\fonts\type
-1\public\lm\lmr9.pfb><C:\texmf\fonts\type1\public\lm\lmr6.pfb><C:\texmf\fonts\t
-ype1\bluesky\cm\cmmi6.pfb><C:\texmf\fonts\type1\public\lm\lmr8.pfb><C:\texmf\fo
+ 56i,11n,55p,563b,576s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 283 PDF objects out of 300000
+ 111 named destinations out of 300000
+ 143 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\fonts\type1\bluesky\cm\
+cmmi6.pfb>{cork-lm.enc}<C:\texmf\fonts\type1\public\lm\lmr9.pfb><C:\texmf\fonts
+\type1\public\lm\lmr6.pfb><C:\texmf\fonts\type1\public\lm\lmr8.pfb><C:\texmf\fo
 nts\type1\bluesky\cm\cmr6.pfb><C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb>
 <C:\texmf\fonts\type1\bluesky\cm\cmsy9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr
 9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi9.pfb><C:\texmf\fonts\type1\public\l
@@ -963,4 +1034,4 @@ y\cm\cmsy10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi10.pfb><C:\texmf\fonts\typ
 e1\public\lm\lmri10.pfb><C:\texmf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fo
 nts\type1\public\lm\lmr10.pfb><C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\tex
 mf\fonts\type1\public\lm\lmbx12.pfb>
-Output written on mitschrieb_geotopo.pdf (13 pages, 272418 bytes).
+Output written on mitschrieb_geotopo.pdf (16 pages, 1113940 bytes).

@@ -7,26 +7,26 @@
 \contentsline {subsection}{\numberline {0.3}Stetigkeit}{3}{subsection.1.0.3}
 \contentsline {subsection}{\numberline {0.4}Homotopie}{4}{subsection.1.0.4}
 \contentsline {paragraph}{Erinnerung}{4}{section*.3}
-\contentsline {subsection}{\numberline {0.5}Homotope Abbildungen}{4}{subsection.1.0.5}
-\contentsline {subsection}{\numberline {0.6}Nullhomotopie}{5}{subsection.1.0.6}
-\contentsline {subsection}{\numberline {0.7}Teilraumtopologie}{6}{subsection.1.0.7}
-\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{6}{section.1.1}
-\contentsline {subsection}{\numberline {1.1}Abgeschlossenheit}{6}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.2}Umgebung}{7}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.3}Basis}{7}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.4}Feiner und gr\IeC {\"o}ber}{8}{subsection.1.1.4}
-\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{8}{section*.4}
-\contentsline {subsection}{\numberline {1.5}$\epsilon $-Ball, Sph\IeC {\"a}re}{8}{subsection.1.1.5}
-\contentsline {subsection}{\numberline {1.6}Metrischer Unterraum}{8}{subsection.1.1.6}
-\contentsline {subsection}{\numberline {1.7}Beschr\IeC {\"a}nktheit, Durchmesser}{8}{subsection.1.1.7}
-\contentsline {subsection}{\numberline {1.8}Abstand}{9}{subsection.1.1.8}
-\contentsline {paragraph}{Erinnerung}{9}{section*.5}
-\contentsline {subsection}{\numberline {1.9}Innerer Punkt, \IeC {\"a}u\IeC {\ss }erer Punkt, Randpunkt}{9}{subsection.1.1.9}
-\contentsline {subsection}{\numberline {1.10}Inneres}{10}{subsection.1.1.10}
-\contentsline {subsection}{\numberline {1.11}Abschluss}{10}{subsection.1.1.11}
-\contentsline {subsection}{\numberline {1.12}Rand}{10}{subsection.1.1.12}
-\contentsline {subsection}{\numberline {1.13}Stetigkeit}{10}{subsection.1.1.13}
-\contentsline {subsection}{\numberline {1.14}Stetigkeit}{11}{subsection.1.1.14}
-\contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{11}{subsection.1.1.15}
-\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{11}{subsection.1.1.16}
-\contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{12}{subsection.1.1.17}
+\contentsline {subsection}{\numberline {0.5}Homotope Abbildungen}{5}{subsection.1.0.5}
+\contentsline {subsection}{\numberline {0.6}Nullhomotopie}{6}{subsection.1.0.6}
+\contentsline {subsection}{\numberline {0.7}Teilraumtopologie}{8}{subsection.1.0.7}
+\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{8}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Abgeschlossenheit}{9}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Umgebung}{9}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.3}Basis}{10}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.4}Feiner und gr\IeC {\"o}ber}{11}{subsection.1.1.4}
+\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{11}{section*.4}
+\contentsline {subsection}{\numberline {1.5}$\epsilon $-Ball, Sph\IeC {\"a}re}{11}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.6}Metrischer Unterraum}{11}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.7}Beschr\IeC {\"a}nktheit, Durchmesser}{11}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.8}Abstand}{12}{subsection.1.1.8}
+\contentsline {paragraph}{Erinnerung}{12}{section*.5}
+\contentsline {subsection}{\numberline {1.9}Innerer Punkt, \IeC {\"a}u\IeC {\ss }erer Punkt, Randpunkt}{12}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.10}Inneres}{13}{subsection.1.1.10}
+\contentsline {subsection}{\numberline {1.11}Abschluss}{13}{subsection.1.1.11}
+\contentsline {subsection}{\numberline {1.12}Rand}{13}{subsection.1.1.12}
+\contentsline {subsection}{\numberline {1.13}Stetigkeit}{13}{subsection.1.1.13}
+\contentsline {subsection}{\numberline {1.14}Stetigkeit}{14}{subsection.1.1.14}
+\contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{14}{subsection.1.1.15}
+\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{14}{subsection.1.1.16}
+\contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{15}{subsection.1.1.17}
