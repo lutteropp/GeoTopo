@@ -30,3 +30,14 @@
 \contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{14}{subsection.1.1.15}
 \contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{14}{subsection.1.1.16}
 \contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{15}{subsection.1.1.17}
+\contentsline {subsection}{\numberline {1.18}Einbettung}{16}{subsection.1.1.18}
+\contentsline {section}{\numberline {2}Trennungeigenschaften}{16}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}$T_1$-Raum}{16}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.2}$T_2$-Raum}{16}{subsection.1.2.2}
+\contentsline {section}{\numberline {3}Abz\IeC {\"a}hlbarkeitsaxiome}{17}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}Umgebungsbasis}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.2}Abz\IeC {\"a}hlbarkeitsaxiome, Separabilit\IeC {\"a}t}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.3}Lokale Kompaktheit}{18}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.4}Lokale Endlichkeit}{18}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {3.5}Verfeinerung}{18}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {3.6}Parakompaktheit}{18}{subsection.1.3.6}
