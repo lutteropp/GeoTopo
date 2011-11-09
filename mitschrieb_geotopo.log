@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  9 NOV 2011 08:38
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  9 NOV 2011 08:58
 entering extended mode
 **mitschrieb_geotopo.tex
 (mitschrieb_geotopo.tex
@@ -822,7 +822,7 @@ LaTeX Info: Redefining \ref on input line 118.
 LaTeX Info: Redefining \pageref on input line 118.
  (mitschrieb_geotopo.out)
 (mitschrieb_geotopo.out) ABD: EveryShipout initializing macros
-<torus2.pdf, id=22, 241.73793pt x 175.65433pt>
+<torus2.pdf, id=30, 241.73793pt x 175.65433pt>
 File: torus2.pdf Graphic file (type pdf)
  <use torus2.pdf> [1
 
@@ -855,62 +855,61 @@ Kapitel I.
 ]
 Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: found pdf versio
 n <1.5>, but at most version <1.4> allowed
-<images/stetigeAbb.pdf, id=87, 553.81313pt x 338.39552pt>
+<images/stetigeAbb.pdf, id=97, 553.81313pt x 338.39552pt>
 File: images/stetigeAbb.pdf Graphic file (type pdf)
 
 <use images/stetigeAbb.pdf> [3 <images/stetigeAbb.pdf
 Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: Page Group detec
 ted which pdfTeX can't handle. Ignoring it.
->] <images/Homotopie.jpg, id=104, 690.9012pt x 427.8384pt>
+>] <images/Homotopie.jpg, id=114, 690.9012pt x 427.8384pt>
 File: images/Homotopie.jpg Graphic file (type jpg)
 
 <use images/Homotopie.jpg>
-<images/nicht_homotop_1.jpg, id=105, 1054.94125pt x 422.57875pt>
+<images/nicht_homotop_1.jpg, id=115, 1054.94125pt x 422.57875pt>
 File: images/nicht_homotop_1.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_1.jpg>
-<images/nicht_homotop_2.jpg, id=106, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_2.jpg, id=116, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_2.jpg> [4 <images/Homotopie.jpg> <images/nicht_homoto
 p_1.jpg> <images/nicht_homotop_2.jpg>]
-<images/Homotopie_Transitivitaet.jpg, id=136, 506.8536pt x 372.9132pt>
+<images/Homotopie_Transitivitaet.jpg, id=146, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
-<images/Äquivalenzklassen.jpg, id=137, 638.385pt x 269.3262pt>
-File: images/Äquivalenzklassen.jpg Graphic file (type jpg)
-
-<use images/Äquivalenzklassen.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <images/Homotopie_Transitivitaet.jpg>]
-<images/R_n_immer_homotop.jpg, id=146, 580.0872pt x 413.8662pt>
+<images/R_n_immer_homotop.jpg, id=155, 580.0872pt x 413.8662pt>
 File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 
 <use images/R_n_immer_homotop.jpg>
-<images/Nullhomotopie.jpg, id=147, 577.6782pt x 338.2236pt>
+<images/Nullhomotopie.jpg, id=156, 577.6782pt x 338.2236pt>
 File: images/Nullhomotopie.jpg Graphic file (type jpg)
 
 <use images/Nullhomotopie.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <images/Äquivalenzklassen.jpg> <images/R_n_immer_homotop.jpg>]
-<images/Geschlossene_Wege.jpg, id=159, 551.1792pt x 403.2666pt>
+<images/Geschlossene_Wege.jpg, id=157, 551.1792pt x 403.2666pt>
 File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
 
 <use images/Geschlossene_Wege.jpg>
-<images/S1_und_R2_ohne_0.jpg, id=160, 631.6398pt x 459.1554pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/S1_und_R2_ohne_0.jpg, id=158, 631.6398pt x 459.1554pt>
 File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 
 <use images/S1_und_R2_ohne_0.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <images/Nullhomotopie.jpg> <images/Geschlossene_Wege.jpg>]
-<images/Teilraumtopologie.jpg, id=167, 616.2222pt x 476.0184pt>
+[6 <images/R_n_immer_homotop.jpg>] [7 <images/Nullhomotopie.jpg> <images/Geschl
+ossene_Wege.jpg>]
+<images/Teilraumtopologie.jpg, id=176, 616.2222pt x 476.0184pt>
 File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 
 <use images/Teilraumtopologie.jpg>
@@ -931,7 +930,7 @@ n/10.95 ,
  []
 
 [9 <images/Teilraumtopologie.jpg>]
-<images/Cantormenge_5te_Iteration.jpg, id=203, 183.68625pt x 82.80937pt>
+<images/Cantormenge_5te_Iteration.jpg, id=212, 183.68625pt x 82.80937pt>
 File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
 
 <use images/Cantormenge_5te_Iteration.jpg>
@@ -941,19 +940,19 @@ n/10.95 O\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
 OMS/cmsy/m/n/10.95 B  O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/cmsy/m/n/10.95 B$
  []
 
-<images/offener_Kreis.jpg, id=204, 209.1012pt x 208.6194pt>
+<images/offener_Kreis.jpg, id=213, 209.1012pt x 208.6194pt>
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 
 <use images/offener_Kreis.jpg>
-<images/offenes_Quadrat.jpg, id=205, 219.7008pt x 220.1826pt>
+<images/offenes_Quadrat.jpg, id=214, 219.7008pt x 220.1826pt>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
 <use images/offenes_Quadrat.jpg>
-<images/Quadrate_Schnitt.jpg, id=206, 281.853pt x 214.401pt>
+<images/Quadrate_Schnitt.jpg, id=215, 281.853pt x 214.401pt>
 File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Quadrate_Schnitt.jpg>
-<images/Kreis_Schnitt.jpg, id=207, 345.4506pt x 211.5102pt>
+<images/Kreis_Schnitt.jpg, id=216, 345.4506pt x 211.5102pt>
 File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Kreis_Schnitt.jpg> [10 <images/Cantormenge_5te_Iteration.jpg> <imag
@@ -993,7 +992,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 582--583
 /m/it/10.95 und $\OML/cmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
-[14] <images/Stereographie_S1_R1.jpg, id=275, 590.6868pt x 331.4784pt>
+[14] <images/Stereographie_S1_R1.jpg, id=284, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
@@ -1003,35 +1002,53 @@ is-mus von $\OML/cmm/m/it/10.95 S[]\OMS/lmr/m/it/10.95 nf\OML/cmm/m/it/10.95 N\
 OMS/lmr/m/it/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
  []
 
-[15 <images/Stereographie_S1_R1.jpg>] (mitschrieb_geotopo.aux)
+[15 <images/Stereographie_S1_R1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 624--627
+\T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/cmm/m/it/10.95 X$ \T1/lmr/m
+/it/10.95 heiÿt $[]$ bzw.
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 624--627
+[]$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,$ \T1/lmr/m/it/10.95 Für je zwei 
+ver-schie-de-ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--634
+$\OML/cmm/m/it/10.95 X$ \T1/lmr/m/it/10.95 heiÿt $[]$- oder $[]$ bzw.
+ []
+
+[16] [17] [18] (mitschrieb_geotopo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13928 strings out of 95516
- 229110 string characters out of 1189554
- 274876 words of memory out of 1273036
- 16264 multiletter control sequences out of 35000
+ 13953 strings out of 95516
+ 229372 string characters out of 1189554
+ 274416 words of memory out of 1273088
+ 16263 multiletter control sequences out of 35000
  75408 words of font info for 74 fonts, out of 500000 for 1000
  14 hyphenation exceptions out of 607
  56i,11n,55p,563b,576s stack positions out of 1500i,500n,5000p,200000b,32768s
- 283 PDF objects out of 300000
- 111 named destinations out of 300000
- 143 words of extra memory for PDF output out of 65536
-<C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\fonts\type1\bluesky\cm\
-cmmi6.pfb>{cork-lm.enc}<C:\texmf\fonts\type1\public\lm\lmr9.pfb><C:\texmf\fonts
-\type1\public\lm\lmr6.pfb><C:\texmf\fonts\type1\public\lm\lmr8.pfb><C:\texmf\fo
-nts\type1\bluesky\cm\cmr6.pfb><C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb>
-<C:\texmf\fonts\type1\bluesky\cm\cmsy9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr
-9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi9.pfb><C:\texmf\fonts\type1\public\l
-m\lmri7.pfb><C:\texmf\fonts\type1\public\lm\lmri8.pfb><C:\texmf\fonts\type1\blu
-esky\symbols\msbm10.pfb><C:\texmf\fonts\type1\bluesky\symbols\msam10.pfb><C:\te
-xmf\fonts\type1\bluesky\cm\cmsy8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmex10.pf
-b><C:\texmf\fonts\type1\bluesky\cm\cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\c
-mr8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesk
-y\cm\cmsy10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi10.pfb><C:\texmf\fonts\typ
-e1\public\lm\lmri10.pfb><C:\texmf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fo
-nts\type1\public\lm\lmr10.pfb><C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\tex
-mf\fonts\type1\public\lm\lmbx12.pfb>
-Output written on mitschrieb_geotopo.pdf (16 pages, 1113939 bytes).
+ 333 PDF objects out of 300000
+ 140 named destinations out of 300000
+ 154 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\symbols\msbm7.pfb><C:\texmf\fonts\type1\bluesky
+\cm\cmmi12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi6.pfb>{cork-lm.enc}<C:\texm
+f\fonts\type1\public\lm\lmr9.pfb><C:\texmf\fonts\type1\public\lm\lmr6.pfb><C:\t
+exmf\fonts\type1\public\lm\lmr8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr6.pfb><
+C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\texmf\fonts\type1\bluesky\c
+m\cmsy9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr9.pfb><C:\texmf\fonts\type1\blu
+esky\cm\cmmi9.pfb><C:\texmf\fonts\type1\public\lm\lmri7.pfb><C:\texmf\fonts\typ
+e1\public\lm\lmri8.pfb><C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\tex
+mf\fonts\type1\bluesky\symbols\msam10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy
+8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmex10.pfb><C:\texmf\fonts\type1\bluesky
+\cm\cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type1\b
+luesky\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts
+\type1\bluesky\cm\cmmi10.pfb><C:\texmf\fonts\type1\public\lm\lmri10.pfb><C:\tex
+mf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fonts\type1\public\lm\lmr10.pfb><
+C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\texmf\fonts\type1\public\lm\lmbx12
+.pfb>
+Output written on mitschrieb_geotopo.pdf (19 pages, 1086709 bytes).

@@ -125,7 +125,7 @@
     		{\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}
 	\end{center}
 	\begin{center}
-		\Large Sarah Lutteropp
+		\Large Sarah Lutteropp, Simon Bischof
 	\end{center}
 	\begin{center}
 		\today
@@ -259,7 +259,7 @@ Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0
 Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in Äquivalenzklassen. Diese heißen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Äquivalenzklassen.jpg}
+%\includegraphics[width=0.8\textwidth]{images/Äquivalenzklassen.jpg}
 \caption{Äquivalenzklassen $[X,Y]$ von $C(X,Y)$}
 \end{figure}
 \end{remark}
@@ -608,4 +608,134 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, $f(x)$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{||y||^2+1}, \ldots, \frac{2 y_n}{||y||^2+1},\frac{||y||^2-1}{||y||^2+1})$.
 \end{example}
 
+\begin{Kasten}{Einbettung}
+	$f \colon X \rightarrow Y$ stetig heißt \underline{Einbettung} $:\Leftrightarrow X \overset{f}{\rightarrow}f(X) \subset Y$ Homöomorphismus.
+\end{Kasten}
+
+\begin{example}
+	\begin{itemize}
+		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X$
+	\end{itemize}
+\end{example}
+TODO: Vorlesung vom Donnerstag
+
+\section{Trennungseigenschaften}
+\begin{Kasten}{$T_1$-Raum}
+Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüllt das erste Trennungsaxiom} $:\Leftrightarrow$ Für je zwei verschiedene Punkte von $X$ existiert für jeden dieser Punkte eine Umgebung in $X$, die den anderen nicht enthält. (TODO:Bild)
+\newline
+$\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$ 
+\end{Kasten}
+
+\begin{Kasten}{$T_2$-Raum}
+	$X$ heißt \underline{Hausdorff}- oder \underline{$T_2$-Raum} bzw. \underline{erfüllt das zweite Trennungsaxiom} $:\Leftrightarrow$ Je zwei verschiedene Punkte in $X$ besitzen disjunkte Umgebungen.
+	\newline
+	$\forall x \neq y \in X \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
+	(TODO:Bild)
+\end{Kasten}
+
+\begin{example}
+	Jeder metrische Raum ist Hausdorff-Raum.
+\end{example}
+
+\begin{remark}
+Hausdorff-Räume sind z.B. deshalb wichtig, weil Grenzwerte dort eindeutig sind!
+\end{remark}
+
+\begin{definition}
+Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \forall n \geq N$. 
+\newline
+(TODO:Bild)
+\end{definition}
+
+\begin{example}
+In einem Hausdorff-Raum hat jede Folge höchstens einen Grenzwert.
+\end{example}
+
+\begin{remark}
+Hausdorff-Räume sind auch $T_1$-Räume, aber:
+\end{remark}
+
+\begin{example}
+	In $X=\R_{\mathcal{T}_1}$ ist jeder Punkt abgeschlossen ($\Rightarrow T_1$), doch je zwei nichtleere offene Mengen schneiden sich - $X$ ist damit nicht $T_2$!
+	%newline
+	\underline{"Schlimmer":} In $\R_{\mathcal{T}_1}$ ist \underline{jeder} Punkt Grenzwert der Folge $x_n = n$!
+	Denn eine Umgebung eines Punktes in $\R_{\mathcal{T}_1}$ hat die Form $U = \R \backslash \{x_1, \ldots, x_M\}$ mit $x_1 < \ldots < x_M$. Dann gilt aber $x_n = n \in U \forall n > x_M$.
+\end{example}
+
+\section{Abzählbarkeitsaxiome}
+\begin{Kasten}{Umgebungsbasis}
+	Ist $X$ topologischer Raum und $x \in X$, so ist eine \underline{Umgebungsbasis} oder \underline{Basis von $X$} \underline{\underline{in $x$}} eine Familie von Umgebungen von $x$, sodass \underline{jede} Umgebung von $x$ eine Umgebung aus der Familie enthält.
+\end{Kasten}
+
+\begin{example}
+	Ist $B$ Basis der Topologie eines Raumes $X$, so ist für jedes $x \in X$ $\{U \in B \mid x \in U\}$ eine Basis von $X$ \underline{\underline{in $x$}}.
+\end{example}
+
+\begin{example}
+	In einem \underline{metrischen} Raum $X$ sind folgende Mengen von Bällen Basen von $X$ in $x \in X$:
+	\begin{itemize}
+		\item alle offenen Bälle mit Zentrum $x$
+		\item alle offenen Bälle mit Zentrum $x$ und rationalen Radii
+	\end{itemize}
+\end{example}
+
+\begin{example}
+	\label{UmgebungsbasisDiskreteTopologie}
+	Ist $X$ mit der diskreten bzw. trivialen Topologie versehen, so ist die `kleinste' Basis in $x \in X$ gegeben durch $\left\{\{x\}\right\}$ bzw. $\{X\}$.
+\end{example}
+
+\begin{Kasten}{Abzählbarkeitsaxiome, Separabilität}
+	$X$ \underline{erfüllt das erste Abzählbarkeitsaxiom}
+	$:\Leftrightarrow$ jeder Punkt $x \in X$ besitzt eine abzählbare Basis.
+	\newline
+	$X$ \underline{erfüllt das zweite Abzählbarkeitsaxiom}
+	$:\Leftrightarrow$ $X$ selbst besitzt eine abzählbare Basis.
+	\newline
+	$X$ heißt \underline{separabel} $:\Leftrightarrow$ $X$ enthält eine abzählbare und dichte ($\bar{A} = X$) Menge $A$.
+\end{Kasten}
+ 
+\begin{remark}
+	Das zweite Abzählbarkeitsaxiom impliziert das erste, aber:
+\end{remark} 
+
+\begin{example}
+	Überabzählbare diskrete Räume (wie $(\R, \OO_{diskret})$) erfüllen nach Beispiel~\ref{UmgebungsbasisDiskreteTopologie} das erste Abzählbarkeitsaxiom, nicht aber das zweite!
+\end{example}
+ 
+\begin{remark}
+	Jeder metrische Raum erfüllt das erste Abzählbarkeitsaxiom und jeder \underline{separable} metrische Raum auch das zweite.
+\end{remark} 
+ 
+\begin{example}
+	$\R_{\mathcal{T}_1}$ erfüllt \underline{nicht} das erste Abzählbarkeitsaxiom, ist aber separabel - $\N$ ist dicht!
+\end{example} 
+ 
+\begin{example}
+	Euklidische Räume und alle ihre Teilmengen erfüllen das 2. Abzählbarkeitsaxiom und sind separabel.
+\end{example} 
+ 
+Wozu das Ganze? 
+\newline $\rightsquigarrow$ Funktionenräume
+\newline $\rightsquigarrow$ Mannigfaltigkeiten
+\newline $\rightsquigarrow$ \underline{Satz von Lindelöf:}
+Jede offene Überdeckung eines Raumes, der das zweite Abzählbarkeitsaxiom erfüllt, enthält auch eine abzählbare \underline{Teilüberdeckung}.
+ 
+\begin{Kasten}{Lokale Kompaktheit}
+$X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jeder Punkt $x \in X$ besitzt eine Umgebung $U$, sodass $\overline{U}$ kompakt ist.
+\end{Kasten} 
+
+\begin{Kasten}{Lokale Endlichkeit}
+	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \exists U = U(x) \colon A \cap U = \emptyset \forall A \in \Gamma$ bis auf endlich viele $A$. (TODO:Bild)
+\end{Kasten}
+ 
+\begin{Kasten}{Verfeinerung}
+	$\Gamma, \Delta$ Überdeckungen von $X$. $\Delta$ heißt \underline{Verfeinerung} von $\Gamma$ \newline $:\Leftrightarrow \forall A \in \Delta \exists B \in \Gamma \colon A \subset B$.
+\end{Kasten} 
+
+\begin{Kasten}{Parakompaktheit}
+	$X$ heißt \underline{parakompakt} $:\Leftrightarrow$ Jede offene Überdeckung besitzt eine lokal endliche offene Verfeinerung. 
+\end{Kasten}
+
+(TODO:Bild) \underline{\underline{Cut-off}}
+ 
 \end{document}
