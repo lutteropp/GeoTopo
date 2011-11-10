@@ -259,7 +259,7 @@ Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0
 Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in Äquivalenzklassen. Diese heißen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
 \begin{figure}[h]
 \centering
-%\includegraphics[width=0.8\textwidth]{images/Äquivalenzklassen.jpg}
+\includegraphics[width=0.8\textwidth]{images/Aequivalenzklassen.jpg}
 \caption{Äquivalenzklassen $[X,Y]$ von $C(X,Y)$}
 \end{figure}
 \end{remark}
@@ -310,7 +310,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{images/S1_und_R2_ohne_0.jpg}
-\caption{$[S^1,\R^2\setminus\{(0,0)\}]\text{ "=" }[S^1,S^1]$}
+\caption{$[S^1,\R^2\backslash\{(0,0)\}]\text{ "=" }[S^1,S^1]$}
 \end{figure}
 
 %\begin{Kasten}
@@ -602,6 +602,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \begin{example}{Stereographische Projektion}\newline
 	\includegraphics[scale=0.4]{images/Stereographie_S1_R1.jpg}
+	(TODO: BILD S2)
 	\newline
 	Die stereographische Projektion ist ein Homöomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
 	\newline
@@ -647,21 +648,21 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\newline
 	$\mathcal{U}$ heißt \underline{offene} beziehungsweise \underline{abgeschlossene} Überdeckung $\Leftrightarrow$ alle $U_\alpha$ sind offen beziehungsweise abgeschlossen.
 	\newline
-	Für $X^\prime \subset X$ heißt eine Familie $\mathcal{U} = \{U_\alpha\}$ wie oben Überdeckung von $X^\prime$ $\Leftrightarrow X^\prime \subset \bigcup\limits_{\alpha \in A}{U_\alpha}$.
+	Für $X^\prime \subset X$ heißt eine Familie $\mathcal{U} = \{U_\alpha\}$ wie oben Überdeckung von $X^\prime$ $:\Leftrightarrow X^\prime \subset \bigcup\limits_{\alpha \in A}{U_\alpha}$.
 	\newline
 	(TODO:Bild)
 \end{Kasten}
 
 \begin{Kasten}{Partition}
-	Eine \underline{Partition} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
+	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
 	\newline
 	(TODO:Bild)
 \end{Kasten}
 
 \begin{remark}
 	Ein topologischer Raum $X$ ist zusammenhängend 
-	$:\Leftrightarrow$ Es existiert keine Partition von $X$ in zwei nichtleere offene Teilmengen
-	$\Leftrightarrow$ es existiert keine Partition von $X$ in zwei nichtleere abgecshlossene Teilmengen
+	$\Leftrightarrow$ Es existiert keine Partition von $X$ in zwei nichtleere offene Teilmengen
+	$\Leftrightarrow$ es existiert keine Partition von $X$ in zwei nichtleere abgeschlossene Teilmengen
 	\newline
 	\underline{Denn:} $A \subset X$ ist offen \underline{und} abgeschlossen
 	$\Leftrightarrow$ $A$ und $X \backslash A$ sind offen
@@ -692,7 +693,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\begin{itemize}
 		\item $A$ zusammenhängend $\Rightarrow$ $\bar{A}$ zusammenhängend
 		\item $A,B \subset X$ zusammenhängend, $A \cap B \neq \emptyset \Rightarrow A \cup B$ zusammenhängend
-		\item $A \cup B$ zusammenhängend, $A \cap B$ zusammenhängend $\not{\Rightarrow} A,B$ zusammenhängend ($A = \Q, B = \R \backslash \Q$)
+		\item $A \cup B$ zusammenhängend, $A \cap B$ zusammenhängend $\not\Rightarrow A,B$ zusammenhängend ($A = \Q, B = \R \backslash \Q$)
 	\end{itemize}
 \end{remark}
 
@@ -718,7 +719,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Es sei ohne Einschränkung $Y=f(X)$ und sei $Y=U \cup V$ Partition von $Y$ in zwei offene Mengen $\Rightarrow f^{-1}(U), f^{-1}(V)$ sind offen in $X$ ($f$ stetig) und bilden eine Partition von $X$. $X$ ist zusammenhängend.
 	$\Rightarrow f^{-1}(U) \text{ oder } f^{-1}(V) = \emptyset$.
 	\newline
-	Sei $f^{-1}(U) = \emptyset \Rightarrow U = f(\emptyset) = \emptyset \Rightarrow V = f(X)$ ($f$ surjektiv auf $f(X)$)
+	Sei o.E. $f^{-1}(U) = \emptyset \Rightarrow U = f(\emptyset) = \emptyset \Rightarrow V = f(X)$ ($f$ surjektiv auf $f(X)$)
 	\newline
 	$\Rightarrow$ Es existiert \underline{keine} Partition von $Y$ in nichtleere offene Mengen $\Leftrightarrow Y$ zusammenhängend.
 \end{proof}
@@ -730,18 +731,18 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{example}
 	Für $n > 1$ sind $\R^n$ und $\R$ nicht homöomorph!
 	\newline
-	\underline{Denn:} $\R^n \cong \mathring{D}^n$\footnote{Einheitskugel} und nimmt man aus $\mathring{D}^n$ einen Punkt $p$ heraus, so bleibt für $n>1$ $\mathring{D}^n \backslash \{p\}$ zusammenhängend, $\mathring{D}^1 = (-1,1) \cong \R$ aber nicht!
+	\underline{Denn:} $\R^n \cong \mathring{D}^n$ (Einheitskugel) und nimmt man aus $\mathring{D}^n$ einen Punkt $p$ heraus, so bleibt für $n>1$ $\mathring{D}^n \backslash \{p\}$ zusammenhängend, $\mathring{D}^1 = (-1,1) \cong \R$ aber nicht!
 	\newline
 	(TODO:Bild)
 	\newline
 	\underline{Allgemeiner (Brouwder)} $\R^m \cong \R^n \Leftrightarrow m=n$
 \end{example}
 
-\begin{corollary}{Zwischenwertsatz}
+\begin{corollary}{Zwischenwertsatz:}
 	Eine stetige Funktion $f \colon [a,b] \rightarrow \R$ nimmt jeden Wert zwischen $f(a)$ und $f(b)$ an.
 \end{corollary}
 
-\begin{example}{Waffel teilen}
+\begin{example}{Waffel teilen.}
 	Eine Waffel, wie unregelmäßig auch immer, lässt sich immer in zwei gleich große Teile schneiden.
 	\newline
 	(TODO:Bild) (TODO:Bild)
@@ -763,7 +764,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	(TODO:Bild)
 	\newline
 	$$A=\{(x,y) \in \R^2 \mid x>0, y = \sin{\frac{1}{x}}\} \subset \R^2$$
-	$$B=A \cup \{(0,0=\}$$
+	$$B=A \cup \{(0,0)\}$$
 	$\Rightarrow B$ ist zusammenhängend, aber \underline{nicht} wegzusammenhängend.
 \end{example}
 
