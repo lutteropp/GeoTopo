@@ -614,10 +614,162 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \begin{example}
 	\begin{itemize}
-		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X$
+		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X, x \mapsto x$, stets eine Einbettung.
+		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung! (TODO: Bild)
+		\item \underline{Der Satz über die Umkehrabbildung/ Impliziter Funktionensatz} aus der Analysis zeigt: 
+			\newline
+			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung von $p$, auf der $f \big |_U$ eine Einbettung ist.
 	\end{itemize}
 \end{example}
-TODO: Vorlesung vom Donnerstag
+
+\begin{Kasten}{Äquivalenz von Einbettungen}
+	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm (TODO:Bild) kommutiert.
+\end{Kasten}
+
+\begin{Kasten}{Knoten}
+	Eine Einbettung $S^1 \rightarrow \R^3$ heißt \underline{Knoten}.
+\end{Kasten}
+
+\begin{example}
+	Die Knoten mit Bildern (TODO:Bild) und (TODO:Bild) sind äquivalent, die mit (TODO:Bild) und (TODO:Bild) nicht!
+\end{example}
+
+\chapter{Topologische Eigenschaften}
+
+\begin{Kasten}{zusammenhängend}
+	Ein topologischer Raum heißt \underline{zusammenhängend} $:\Leftrightarrow$ Die einzigen in $X$ gleichzeitig offenen und abgeschlossenen Teilmengen sind $\emptyset$ und $X$.
+	\newline
+	Ansonsten heißt $X$ \underline{un-} oder \underline{nicht zusammenhängend}.
+\end{Kasten}
+
+\begin{Kasten}{Überdeckung}
+	Eine Familie $\mathcal{U} = \{U_\alpha \mid \alpha \in A\}$\footnote{$A$ Indexmenge} von Teilmengen von $X$ heißt \underline{Überdeckung von $X$} $:\Leftrightarrow X = \bigcup\limits_{\alpha \in A}{U_\alpha}$.
+	\newline
+	$\mathcal{U}$ heißt \underline{offene} beziehungsweise \underline{abgeschlossene} Überdeckung $\Leftrightarrow$ alle $U_\alpha$ sind offen beziehungsweise abgeschlossen.
+	\newline
+	Für $X^\prime \subset X$ heißt eine Familie $\mathcal{U} = \{U_\alpha\}$ wie oben Überdeckung von $X^\prime$ $\Leftrightarrow X^\prime \subset \bigcup\limits_{\alpha \in A}{U_\alpha}$.
+	\newline
+	(TODO:Bild)
+\end{Kasten}
+
+\begin{Kasten}{Partition}
+	Eine \underline{Partition} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
+	\newline
+	(TODO:Bild)
+\end{Kasten}
+
+\begin{remark}
+	Ein topologischer Raum $X$ ist zusammenhängend 
+	$:\Leftrightarrow$ Es existiert keine Partition von $X$ in zwei nichtleere offene Teilmengen
+	$\Leftrightarrow$ es existiert keine Partition von $X$ in zwei nichtleere abgecshlossene Teilmengen
+	\newline
+	\underline{Denn:} $A \subset X$ ist offen \underline{und} abgeschlossen
+	$\Leftrightarrow$ $A$ und $X \backslash A$ sind offen
+	$\Leftrightarrow$ $A$ und $X \backslash A$ sind abgeschlossen
+\end{remark}
+
+\begin{example}
+	\begin{itemize}
+		\item $\Q$ als Teilmenge von $\R$ ist nicht zusammenhängend, denn $\Q = (\Q \cap (- \infty, \pi)) \cup (\Q \cap (\pi, +\infty)).$
+		\item Die einzigen zusammenhängenden und mit der diskreten Topologie versehenen Räume sind $\emptyset$ und der nur aus einem Punkt bestehende Raum.
+	\end{itemize}
+\end{example}
+
+\begin{remark}
+	Allgemein sagt man von einer Menge, sie sei zusammenhängend, wenn diese, aufgefasst als Teilraum eines topologischen Raumes, zusammenhängend ist.
+\end{remark}
+
+\begin{example}
+	$[0,1] (\subset \R)$ ist zusammenhängend, aber $[0,1] \cup (2,3)$ nicht!
+\end{example}
+
+\begin{example}
+	Eine Teilmenge $A$ von $\R_{\mathcal{T}_1}$ ist zusammenhängend
+	$\Leftrightarrow$ $A$ ist leer, einpunktig, oder unendlich!
+\end{example}
+
+\begin{remark}[Eigenschaften zusammenhängender Mengen]
+	\begin{itemize}
+		\item $A$ zusammenhängend $\Rightarrow$ $\bar{A}$ zusammenhängend
+		\item $A,B \subset X$ zusammenhängend, $A \cap B \neq \emptyset \Rightarrow A \cup B$ zusammenhängend
+		\item $A \cup B$ zusammenhängend, $A \cap B$ zusammenhängend $\not{\Rightarrow} A,B$ zusammenhängend ($A = \Q, B = \R \backslash \Q$)
+	\end{itemize}
+\end{remark}
+
+\begin{Kasten}{Zusammenhangskomponente}
+	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine maximale zusammenhängende Teilmenge von $X$.
+\end{Kasten}
+
+\begin{remark}
+	\begin{itemize}
+		\item Jeder Punkt von $X$ liegt genau in einer Zusammenhangskomponente, und diese ist die Vereinigung aller diesen Punkt enthaltenden zusammenhängenden Teilmengen.
+		\item Zwei Zusammenhangskomponenten sind damit entweder gleich oder disjunkt.
+		\item Zusammenhangskomponenten sind abgeschlossen.
+	\end{itemize}
+\end{remark}
+
+\begin{theorem}
+	Stetige Bilder zusammenhängender Mengen sind zusammenhängend.
+	\newline
+	(D.h.: Ist $f \colon X \rightarrow Y$ stetig und $X$ zusammenhängend, so auch $f(X)\subset Y$.)
+\end{theorem}
+
+\begin{proof}
+	Es sei ohne Einschränkung $Y=f(X)$ und sei $Y=U \cup V$ Partition von $Y$ in zwei offene Mengen $\Rightarrow f^{-1}(U), f^{-1}(V)$ sind offen in $X$ ($f$ stetig) und bilden eine Partition von $X$. $X$ ist zusammenhängend.
+	$\Rightarrow f^{-1}(U) \text{ oder } f^{-1}(V) = \emptyset$.
+	\newline
+	Sei $f^{-1}(U) = \emptyset \Rightarrow U = f(\emptyset) = \emptyset \Rightarrow V = f(X)$ ($f$ surjektiv auf $f(X)$)
+	\newline
+	$\Rightarrow$ Es existiert \underline{keine} Partition von $Y$ in nichtleere offene Mengen $\Leftrightarrow Y$ zusammenhängend.
+\end{proof}
+
+\begin{corollary}
+	Zusammenhang bleibt unter Homöomorphismen erhalten, und ebenso die Zahl der Zusammenhangskomponenten.
+\end{corollary}
+
+\begin{example}
+	Für $n > 1$ sind $\R^n$ und $\R$ nicht homöomorph!
+	\newline
+	\underline{Denn:} $\R^n \cong \mathring{D}^n$\footnote{Einheitskugel} und nimmt man aus $\mathring{D}^n$ einen Punkt $p$ heraus, so bleibt für $n>1$ $\mathring{D}^n \backslash \{p\}$ zusammenhängend, $\mathring{D}^1 = (-1,1) \cong \R$ aber nicht!
+	\newline
+	(TODO:Bild)
+	\newline
+	\underline{Allgemeiner (Brouwder)} $\R^m \cong \R^n \Leftrightarrow m=n$
+\end{example}
+
+\begin{corollary}{Zwischenwertsatz}
+	Eine stetige Funktion $f \colon [a,b] \rightarrow \R$ nimmt jeden Wert zwischen $f(a)$ und $f(b)$ an.
+\end{corollary}
+
+\begin{example}{Waffel teilen}
+	Eine Waffel, wie unregelmäßig auch immer, lässt sich immer in zwei gleich große Teile schneiden.
+	\newline
+	(TODO:Bild) (TODO:Bild)
+\end{example}
+
+\begin{Kasten}{Weg, Anfangspunkt, Endpunkt}
+	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
+	\newline
+	(TODO:Bild)
+\end{Kasten}
+
+\begin{Kasten}{Wegzusammenhang}
+	$X$ heißt \underline{wegzusammenhängend} $:\Leftrightarrow$ Zu je zwei Punkten $x,x^\prime \in X \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X \text{ mit } \gamma(0)=x, \gamma(1)=x^\prime$.
+	\newline
+	(TODO: Bild) (TODO: Bild)
+\end{Kasten}
+
+\begin{example}
+	(TODO:Bild)
+	\newline
+	$$A=\{(x,y) \in \R^2 \mid x>0, y = \sin{\frac{1}{x}}\} \subset \R^2$$
+	$$B=A \cup \{(0,0=\}$$
+	$\Rightarrow B$ ist zusammenhängend, aber \underline{nicht} wegzusammenhängend.
+\end{example}
+
+\begin{Kasten}{Kompaktheit}
+	Ein topologischer Raum $X$ heißt \underline{kompakt}, falls jede offene Überdeckung von $X$ eine endliche Teilüberdeckung enthält.
+\end{Kasten}
 
 \section{Trennungseigenschaften}
 \begin{Kasten}{$T_1$-Raum}

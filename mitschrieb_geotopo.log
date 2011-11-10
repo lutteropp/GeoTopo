@@ -1,14 +1,20 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  9 NOV 2011 08:58
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  10 NOV 2011 02:10
 entering extended mode
+ %&-line parsing enabled.
 **mitschrieb_geotopo.tex
-(mitschrieb_geotopo.tex
-LaTeX2e <2003/12/01>
-Babel <v3.8a> and hyphenation patterns for english, german, ngerman, dumylang, 
-nohyphenation, loaded.
-(C:\texmf\tex\latex\base\report.cls
-Document Class: report 2004/02/16 v1.4f Standard LaTeX document class
-(C:\texmf\tex\latex\base\size11.clo
-File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+(./mitschrieb_geotopo.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -22,39 +28,46 @@ File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (C:\texmf\tex\latex\graphics\graphicx.sty
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\texmf\tex\latex\graphics\keyval.sty
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\texmf\tex\latex\graphics\graphics.sty
-Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
- (C:\texmf\tex\latex\graphics\trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-) (C:\texmf\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 80.
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\texmf\tex\latex\graphics\pdftex.def
-File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(C:\texmf\tex\latex\base\inputenc.sty
-Package: inputenc 2004/02/05 v1.0d Input encoding file
- (C:\texmf\tex\latex\base\utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
+... processing UTF-8 mapping file for font encodingT1
 
-(C:\texmf\tex\latex\base\t1enc.dfu
-File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -142,6 +155,8 @@ File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+011F (decimal 287)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
    defining Unicode char U+013D (decimal 317)
@@ -199,9 +214,10 @@ File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 )
 Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
- (C:\texmf\tex\latex\base\ot1enc.dfu
-File: ot1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -229,13 +245,13 @@ File: ot1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+201D (decimal 8221)
 )
 Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
+... processing UTF-8 mapping file for font encodingOMS
 
-(C:\texmf\tex\latex\base\omsenc.dfu
-File: omsenc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+00B7 (decimal 183)
    defining Unicode char U+2020 (decimal 8224)
    defining Unicode char U+2021 (decimal 8225)
    defining Unicode char U+2022 (decimal 8226)
@@ -249,52 +265,58 @@ Now handling font encoding U ...
    defining Unicode char U+00AE (decimal 174)
    defining Unicode char U+00BA (decimal 186)
    defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02CA (decimal 714)
+   defining Unicode char U+02DC (decimal 732)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (C:\texmf\tex\latex\base\fontenc.sty
-Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\texmf\tex\latex\base\t1enc.def
-File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (C:\texmf\tex\generic\babel\babel.sty
-Package: babel 2004/02/19 v3.8a The Babel package
+))
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
 
-(C:\texmf\tex\generic\babel\ngermanb.ldf
+(/usr/share/texmf/tex/generic/babel/ngermanb.ldf
 Language: ngermanb 2004/02/20 v2.6m new German support from the babel system
- (C:\texmf\tex\generic\babel\babel.def
-File: babel.def 2004/02/19 v3.8a Babel common definitions
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen105
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-)) (C:\texmf\tex\latex\germbib\bibgerm.sty
+))
+(/usr/share/texmf/tex/latex/germbib/bibgerm.sty
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-(C:\texmf\tex\latex\amsmath\amsmath.sty
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\texmf\tex\latex\amsmath\amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
- (C:\texmf\tex\latex\amsmath\amsgen.sty
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
+\@emptytoks=\toks17
 \ex@=\dimen106
-)) (C:\texmf\tex\latex\amsmath\amsbsy.sty
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-(C:\texmf\tex\latex\amsmath\amsopn.sty
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -317,63 +339,66 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip10
 \c@parentequation=\count97
 \dspbrk@lvl=\count98
-\tag@help=\toks16
+\tag@help=\toks18
 \row@=\count99
 \column@=\count100
 \maxfields@=\count101
-\andhelp@=\toks17
+\andhelp@=\toks19
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
 \tagshift@=\dimen111
 \tagwidth@=\dimen112
 \totwidth@=\dimen113
 \lineht@=\dimen114
-\@envbody=\toks18
+\@envbody=\toks20
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(C:\texmf\tex\latex\amsfonts\amssymb.sty
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2002/01/22 v2.2d
 
-(C:\texmf\tex\latex\amsfonts\amsfonts.sty
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
-(C:\texmf\tex\latex\amscls\amsthm.sty
+(/usr/share/texmf/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
 \thm@preskip=\skip46
 \thm@postskip=\skip47
 \thm@headsep=\skip48
-\dth@everypar=\toks25
-) (C:\texmf\tex\latex\graphics\color.sty
-Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+\dth@everypar=\toks27
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(C:\texmf\tex\latex\00miktex\color.cfg
-File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 125.
+Package color Info: Driver file: pdftex.def on input line 130.
 )
-(C:\texmf\tex\latex\tools\enumerate.sty
+(/usr/share/texmf/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks26
-) (C:\texmf\tex\latex\tools\tabularx.sty
+\@enLab=\toks28
+)
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-(C:\texmf\tex\latex\tools\array.sty
-Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
 \col@sep=\dimen115
 \extrarowheight=\dimen116
-\NC@list=\toks27
+\NC@list=\toks29
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
@@ -383,21 +408,26 @@ Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
 \TX@target=\dimen120
 \TX@delta=\dimen121
 \TX@cols=\count102
-\TX@ftn=\toks28
-) (C:\texmf\tex\latex\subfig\subfig.sty
-Package: subfig 2004/01/28 ver: 1.2 subfig package
-
-(C:\texmf\tex\latex\caption\caption.sty
-Package: caption 2004/07/16 v3.0c Customising captions (AS)
-\captionmargin=\dimen122
-\captionwidth=\dimen123
-\captionindent=\dimen124
-\captionparindent=\dimen125
-\captionhangindent=\dimen126
+\TX@ftn=\toks30
 )
+(/usr/share/texmf/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf/tex/latex/caption/caption.sty
+Package: caption 2007/01/07 v3.0k Customising captions (AR)
+
+(/usr/share/texmf/tex/latex/caption/caption3.sty
+Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+\captionmargin=\dimen122
+\captionmarginx=\dimen123
+\captionwidth=\dimen124
+\captionindent=\dimen125
+\captionparindent=\dimen126
+\captionhangindent=\dimen127
+))
 \c@KVtest=\count103
 \sf@farskip=\skip51
-\sf@captopadj=\dimen127
+\sf@captopadj=\dimen128
 \sf@capskip=\skip52
 \sf@nearskip=\skip53
 \c@subfigure=\count104
@@ -409,7 +439,7 @@ Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \sf@top=\skip54
 \sf@bottom=\skip55
 )
-(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip56
 \f@ncyO@elh=\skip57
 \f@ncyO@erh=\skip58
@@ -419,176 +449,138 @@ Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \f@ncyO@erf=\skip62
 \f@ncyO@olf=\skip63
 \f@ncyO@orf=\skip64
-) (C:\texmf\tex\latex\was\upgreek.sty
+)
+(/usr/share/texmf/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-) (C:\texmf\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
-\@linkdim=\dimen128
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen129
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
-(C:\texmf\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\texmf\tex\latex\00miktex\hyperref.cfg
-File: hyperref.cfg 2003/03/08 v1.0 MiKTeX 'hyperref' configuration
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 1830.
-Package hyperref Info: Option `colorlinks' set `true' on input line 1830.
-Package hyperref Info: Hyper figures OFF on input line 1880.
-Package hyperref Info: Link nesting OFF on input line 1885.
-Package hyperref Info: Hyper index ON on input line 1888.
-Package hyperref Info: Plain pages ON on input line 1893.
-Package hyperref Info: Backreferencing ON on input line 1898.
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2238.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2238.
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing ON on input line 2306.
 
 Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 2004.
-(C:\texmf\tex\latex\hyperref\backref.sty
-Package: backref 2003/03/20 v1.23 Bibliographical back referencing
-) (C:\texmf\tex\latex\ltxmisc\url.sty
-\Urlmuskip=\muskip11
-Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2006/10/06 v1.27 Bibliographical back referencing
 )
-LaTeX Info: Redefining \url on input line 2143.
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
 \Fld@menulength=\count112
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
-\Choice@toks=\toks29
-\Field@toks=\toks30
-Package hyperref Info: Hyper figures OFF on input line 2618.
-Package hyperref Info: Link nesting OFF on input line 2623.
-Package hyperref Info: Hyper index ON on input line 2626.
-Package hyperref Info: backreferencing ON on input line 2631.
-Package hyperref Info: Link coloring ON on input line 2636.
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
+\Choice@toks=\toks31
+\Field@toks=\toks32
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing ON on input line 3115.
+Package hyperref Info: Link coloring ON on input line 3120.
 \Hy@abspage=\count113
 \c@Item=\count114
 )
 *hyperref using driver hpdftex*
-(C:\texmf\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
- (C:\texmf\tex\latex\psnfss\pifont.sty
-Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
-
-(C:\texmf\tex\latex\psnfss\upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
-)
-LaTeX Font Info:    Try loading font information for U+psy on input line 64.
- (C:\texmf\tex\latex\psnfss\upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
 \Fld@listcount=\count115
-\@outlinefile=\write3
 )
-(C:\localtexfiles\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\localtexfiles\tex\latex\pgf\basiclayer\pgf.sty
-(C:\localtexfiles\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks31
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2006/10/26 v1.10 (rcs-revision 1.14)
+))
+Package: pgf 2006/10/11 v1.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2006/10/16 v1.10 (rcs-revision 1.19)
+\pgf@x=\dimen132
+\pgf@y=\dimen133
+\pgf@xa=\dimen134
+\pgf@ya=\dimen135
+\pgf@xb=\dimen136
+\pgf@yb=\dimen137
+\pgf@xc=\dimen138
+\pgf@yc=\dimen139
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-latex.def
-\pgfutil@abb=\box28
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 845.
 
-(C:\texmf\tex\latex\ms\everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2006/10/23  (rcs-revision 1.14)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2006/10/16  (rcs-revision 1.7)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2006/10/16  (rcs-revision 1.4)
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfrcs.code.tex
-Package: pgfrcs 2008/05/19 v2.00-cvs (rcs-revision 1.22)
-))
-Package: pgf 2008/01/15 v2.00-cvs (rcs-revision 1.12)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\localtexfiles\tex\latex\pgf\basiclayer\pgfcore.sty
-(C:\localtexfiles\tex\latex\pgf\systemlayer\pgfsys.sty
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.00-cvs (rcs-revision 1.37)
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2006/10/11 v1.10 (rcs-revision 1.4)
 
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
-
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
-))
-\pgf@x=\dimen131
-\pgf@y=\dimen132
-\pgf@xa=\dimen133
-\pgf@ya=\dimen134
-\pgf@xb=\dimen135
-\pgf@yb=\dimen136
-\pgf@xc=\dimen137
-\pgf@yc=\dimen138
-\w@pgf@writea=\write4
-\r@pgf@reada=\read1
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoremath.code.tex
+File: pgfcoremath.code.tex 2006/10/15  (rcs-revision 1.3)
 \c@pgf@counta=\count116
 \c@pgf@countb=\count117
 \c@pgf@countc=\count118
 \c@pgf@countd=\count119
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
-)))
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count120
-\pgfsyssoftpath@bigbuffer@items=\count121
-)
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(C:\texmf\tex\latex\xcolor\xcolor.sty
-Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
- (C:\texmf\tex\latex\00miktex\color.cfg
-File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 136.
-LaTeX Info: Redefining \color on input line 494.
-Package xcolor Info: Color model `cmy' added on input line 972.
-Package xcolor Info: Color model `hsb' added on input line 980.
-Package xcolor Info: Color model `HTML' added on input line 1000.
-Package xcolor Info: Color model `HSB' added on input line 1006.
-Package xcolor Info: Color model `Gray' added on input line 1012.
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.00-cvs (rcs-revision 1.7)
-
-(C:\localtexfiles\tex\generic\pgf\math\pgfmath.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathcalc.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathutil.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen139
-\pgfmath@count=\count122
-\pgfmath@box=\box29
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
-)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count123
-))
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2006/10/16  (rcs-revision 1.7)
 \pgf@picminx=\dimen140
 \pgf@picmaxx=\dimen141
 \pgf@picminy=\dimen142
@@ -597,148 +589,196 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@pathmaxx=\dimen145
 \pgf@pathminy=\dimen146
 \pgf@pathmaxy=\dimen147
-\pgf@xx=\dimen148
-\pgf@xy=\dimen149
-\pgf@yx=\dimen150
-\pgf@yy=\dimen151
-\pgf@zx=\dimen152
-\pgf@zy=\dimen153
+\pgf@tempdim=\dimen148
+\c@pgf@tempcount=\count120
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2009/01/22  (rcs-revision 1.21)
-\pgf@path@lastx=\dimen154
-\pgf@path@lasty=\dimen155
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen156
-\pgf@shorten@start@additional=\dimen157
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2010/06/30  (rcs-revision 1.31)
-\pgfpic=\box30
-\pgf@hbox=\box31
-\pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count124
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2006/10/23  (rcs-revision 1.20)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count121
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen158
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgflinewidth=\dimen159
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen159
-\pgf@pt@y=\dimen160
-\pgf@pt@temp=\dimen161
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2006/10/11  (rcs-revision 1.4)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2006/10/16  (rcs-revision 1.5)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2006/10/16  (rcs-revision 1.6)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count125
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
-
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2010/07/14  (rcs-revision 1.9)
-\pgfexternal@startupbox=\box33
-))
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count122
 )))
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2009/10/13  (rcs-revision 1.9)
-\pgfnodeparttextbox=\box34
-)
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2010/05/26  (rcs-revision 1.7)
-)
-(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.00-cvs (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen163
-\pgf@nodesepend=\dimen164
-)
-(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.00-cvs (rcs-revision 1.1)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseshapes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseshapes.code.tex
+Package: pgfbaseshapes 2006/10/16 v1.10 (rcs-revision 1.16)
+\pgfnodeparttextbox=\box31
 ))
-(C:\localtexfiles\tex\latex\pgf\utilities\pgffor.sty
-(C:\localtexfiles\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(C:\localtexfiles\tex\generic\pgf\utilities\pgffor.code.tex
-Package: pgffor 2010/03/23 v2.00-cvs (rcs-revision 1.18)
-\pgffor@iter=\dimen165
-\pgffor@skip=\dimen166
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseplot.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseplot.code.tex
+Package: pgfbaseplot 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgf@plotwrite=\write3
 ))
-(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-Package: tikz 2010/06/30 v2.00-cvs (rcs-revision 1.70)
-
-(C:\localtexfiles\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.00-cvs (rcs-revision 1.15)
-\pgf@plot@mark@count=\count126
-\pgfplotmarksize=\dimen167
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseimage.code.tex
+Package: pgfbaseimage 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaselayers.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaselayers.code.tex
+Package: pgfbaselayers 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasesnakes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasesnakes.code.tex
+Package: pgfbasesnakes 2006/10/16 v1.10 (rcs-revision 1.10)
+\pgfsnakeremainingdistance=\dimen164
+\pgfsnakecompleteddistance=\dimen165
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasepatterns.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasepatterns.code.tex
+Package: pgfbasepatterns 2006/10/16 v1.10 (rcs-revision 1.9)
+))
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2006/10/11 v1.10 (rcs-revision 1.4)
+\pgf@nodesepstart=\dimen166
+\pgf@nodesepend=\dimen167
+))
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count123
+\calc@Bcount=\count124
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count125
+\calc@Cskip=\skip67
 )
-\tikz@lastx=\dimen168
-\tikz@lasty=\dimen169
-\tikz@lastxsaved=\dimen170
-\tikz@lastysaved=\dimen171
-\tikzleveldistance=\dimen172
-\tikzsiblingdistance=\dimen173
-\tikz@figbox=\box35
-\tikz@tempbox=\box36
-\tikztreelevel=\count127
-\tikznumberofchildren=\count128
-\tikznumberofcurrentchild=\count129
-\tikz@fig@count=\count130
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+))
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
 
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2008/11/24  (rcs-revision 1.3)
-\pgfmatrixcurrentrow=\count131
-\pgfmatrixcurrentcolumn=\count132
-\pgf@matrix@numberofcolumns=\count133
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks33
+\XKV@depth=\count126
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz.code.tex
+Package: tikz 2006/10/17 v1.10 (rcs-revision 1.68)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2006/10/16 v1.10 (rcs-revision 1.8)
+\pgf@plot@mark@count=\count127
+\pgfplotmarksize=\dimen172
 )
-\tikz@expandcount=\count134
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box32
+\tikz@tempbox=\box33
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
+\tikz@expandcount=\count132
 
-(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopat
-hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.00-cvs (rcs-revision 1.2)
-))) (C:\texmf\tex\latex\ltxmisc\framed.sty
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarytikztopaths.code.tex
+File: pgflibrarytikztopaths.code.tex 2006/10/16 v1.10 (rcs-revision 1.5)
+)))
+(/usr/share/texmf/tex/latex/ltxmisc/framed.sty
 Package: framed 2003/07/21 v 0.8a: framed or shaded text with page breaks
-\FrameRule=\dimen174
-\FrameSep=\dimen175
+\FrameRule=\dimen179
+\FrameSep=\dimen180
 )
-(C:\texmf\tex\latex\lm\lmodern.sty
-Package: lmodern 2003/07/16
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2007/01/14 v1.3 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 14.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 15.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 18.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 19.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 24.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 25.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 29.
 )
-\c@definition=\count135
-\c@theorem=\count136
-\c@lemma=\count137
-\c@proposition=\count138
-\c@corollary=\count139
-\c@observation=\count140
-\c@fact=\count141
-\c@remark=\count142
-\c@example=\count143
- (mitschrieb_geotopo.aux)
+\c@definition=\count133
+\c@theorem=\count134
+\c@lemma=\count135
+\c@proposition=\count136
+\c@corollary=\count137
+\c@observation=\count138
+\c@fact=\count139
+\c@remark=\count140
+\c@example=\count141
+ (./mitschrieb_geotopo.aux)
+\openout1 = `mitschrieb_geotopo.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
 LaTeX Font Info:    ... okay on input line 118.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
@@ -755,96 +795,107 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
 LaTeX Font Info:    ... okay on input line 118.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 118.
 
-(C:\texmf\tex\latex\lm\t1lmr.fd
-File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
-) (C:\texmf\tex\context\base\supp-pdf.tex
-(C:\texmf\tex\context\base\supp-mis.tex
-loading : Context Support Macros / Miscellaneous (2004.10.26)
-\protectiondepth=\count144
-\scratchcounter=\count145
-\scratchtoks=\toks40
-\scratchdimen=\dimen176
-\scratchskip=\skip65
-\scratchmuskip=\muskip12
-\scratchbox=\box37
-\scratchread=\read2
-\scratchwrite=\write5
-\zeropoint=\dimen177
-\onepoint=\dimen178
-\onebasepoint=\dimen179
-\minusone=\count146
-\thousandpoint=\dimen180
-\onerealpoint=\dimen181
-\emptytoks=\toks41
-\nextbox=\box38
-\nextdepth=\dimen182
-\everyline=\toks42
-\!!counta=\count147
-\!!countb=\count148
-\recursecounter=\count149
-)
-loading : Context Support Macros / PDF (2004.10.26)
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPtoPDFconversion=\toks43
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 
 bibgerm.sty: babel.sty detected
 
-(C:\texmf\tex\latex\ms\ragged2e.sty
+(/usr/share/texmf/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
- (C:\texmf\tex\latex\ms\everysel.sty
+
+(/usr/share/texmf/tex/latex/everysel/everysel.sty
 Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
 LaTeX Info: Redefining \selectfont on input line 125.
 )
-\CenteringLeftskip=\skip66
-\RaggedLeftLeftskip=\skip67
-\RaggedRightLeftskip=\skip68
-\CenteringRightskip=\skip69
-\RaggedLeftRightskip=\skip70
-\RaggedRightRightskip=\skip71
-\CenteringParfillskip=\skip72
-\RaggedLeftParfillskip=\skip73
-\RaggedRightParfillskip=\skip74
-\JustifyingParfillskip=\skip75
-\CenteringParindent=\skip76
-\RaggedLeftParindent=\skip77
-\RaggedRightParindent=\skip78
-\JustifyingParindent=\skip79
+\CenteringLeftskip=\skip68
+\RaggedLeftLeftskip=\skip69
+\RaggedRightLeftskip=\skip70
+\CenteringRightskip=\skip71
+\RaggedLeftRightskip=\skip72
+\RaggedRightRightskip=\skip73
+\CenteringParfillskip=\skip74
+\RaggedLeftParfillskip=\skip75
+\RaggedRightParfillskip=\skip76
+\JustifyingParfillskip=\skip77
+\CenteringParindent=\skip78
+\RaggedLeftParindent=\skip79
+\RaggedRightParindent=\skip80
+\JustifyingParindent=\skip81
 )
+Package caption Info: hyperref package v6.74m (or newer) detected on input line
+ 118.
+Package caption Info: subref 1.2 or 1.3 detected on input line 118.
+LaTeX Info: Redefining \subref on input line 118.
 Package hyperref Info: Link coloring ON on input line 118.
 
-(C:\texmf\tex\latex\hyperref\nameref.sty
-Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
-\c@section@level=\count152
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count142
 )
 LaTeX Info: Redefining \ref on input line 118.
 LaTeX Info: Redefining \pageref on input line 118.
- (mitschrieb_geotopo.out)
-(mitschrieb_geotopo.out) ABD: EveryShipout initializing macros
-<torus2.pdf, id=30, 241.73793pt x 175.65433pt>
-File: torus2.pdf Graphic file (type pdf)
- <use torus2.pdf> [1
+ (./mitschrieb_geotopo.out)
+(./mitschrieb_geotopo.out)
+\@outlinefile=\write4
+\openout4 = `mitschrieb_geotopo.out'.
 
-{psfonts.map} <torus2.pdf
-Warning: pdflatex (file torus2.pdf): pdf inclusion: Page Group detected which p
-dfTeX can't handle. Ignoring it.
->] (mitschrieb_geotopo.toc
+ <torus2.pdf, id=31, 241.73793pt x 175.65433pt>
+File: torus2.pdf Graphic file (type pdf)
+
+<use torus2.pdf> [1
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./torus2.pdf
+
+pdfTeX warning: pdflatex (file ./torus2.pdf): PDF inclusion: Page Group detecte
+d which pdfTeX can't handle. Ignoring it.
+>] (./mitschrieb_geotopo.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
- (C:\texmf\tex\latex\amsfonts\umsa.fd
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(C:\texmf\tex\latex\amsfonts\umsb.fd
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ))
-\tf@toc=\write6
+\tf@toc=\write5
+\openout5 = `mitschrieb_geotopo.toc'.
 
-! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
-                   \penalty 
+                   \relax 
 l.145 \chapter
               {Homotopie und Fundamentalgruppe} [1
 
@@ -853,63 +904,70 @@ Kapitel I.
 [2
 
 ]
-Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: found pdf versio
-n <1.5>, but at most version <1.4> allowed
-<images/stetigeAbb.pdf, id=97, 553.81313pt x 338.39552pt>
+
+pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: found P
+DF version <1.5>, but at most version <1.4> allowed
+<images/stetigeAbb.pdf, id=73, 553.81313pt x 338.39552pt>
 File: images/stetigeAbb.pdf Graphic file (type pdf)
 
-<use images/stetigeAbb.pdf> [3 <images/stetigeAbb.pdf
-Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: Page Group detec
-ted which pdfTeX can't handle. Ignoring it.
->] <images/Homotopie.jpg, id=114, 690.9012pt x 427.8384pt>
+<use images/stetigeAbb.pdf>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 199.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 199.
+ [3 <./images/stetigeAbb.pdf
+
+pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
+oup detected which pdfTeX can't handle. Ignoring it.
+>] <images/Homotopie.jpg, id=88, 690.9012pt x 427.8384pt>
 File: images/Homotopie.jpg Graphic file (type jpg)
 
 <use images/Homotopie.jpg>
-<images/nicht_homotop_1.jpg, id=115, 1054.94125pt x 422.57875pt>
+<images/nicht_homotop_1.jpg, id=89, 1054.94125pt x 422.57875pt>
 File: images/nicht_homotop_1.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_1.jpg>
-<images/nicht_homotop_2.jpg, id=116, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_2.jpg, id=90, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 
-<use images/nicht_homotop_2.jpg> [4 <images/Homotopie.jpg> <images/nicht_homoto
-p_1.jpg> <images/nicht_homotop_2.jpg>]
-<images/Homotopie_Transitivitaet.jpg, id=146, 506.8536pt x 372.9132pt>
+<use images/nicht_homotop_2.jpg> [4 <./images/Homotopie.jpg> <./images/nicht_ho
+motop_1.jpg> <./images/nicht_homotop_2.jpg>]
+<images/Homotopie_Transitivitaet.jpg, id=108, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <images/Homotopie_Transitivitaet.jpg>]
-<images/R_n_immer_homotop.jpg, id=155, 580.0872pt x 413.8662pt>
+[5 <./images/Homotopie_Transitivitaet.jpg>]
+<images/R_n_immer_homotop.jpg, id=117, 580.0872pt x 413.8662pt>
 File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 
 <use images/R_n_immer_homotop.jpg>
-<images/Nullhomotopie.jpg, id=156, 577.6782pt x 338.2236pt>
+<images/Nullhomotopie.jpg, id=118, 577.6782pt x 338.2236pt>
 File: images/Nullhomotopie.jpg Graphic file (type jpg)
 
 <use images/Nullhomotopie.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Geschlossene_Wege.jpg, id=157, 551.1792pt x 403.2666pt>
+<images/Geschlossene_Wege.jpg, id=119, 551.1792pt x 403.2666pt>
 File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
 
 <use images/Geschlossene_Wege.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/S1_und_R2_ohne_0.jpg, id=158, 631.6398pt x 459.1554pt>
+<images/S1_und_R2_ohne_0.jpg, id=120, 631.6398pt x 459.1554pt>
 File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 
 <use images/S1_und_R2_ohne_0.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <images/R_n_immer_homotop.jpg>] [7 <images/Nullhomotopie.jpg> <images/Geschl
-ossene_Wege.jpg>]
-<images/Teilraumtopologie.jpg, id=176, 616.2222pt x 476.0184pt>
+[6 <./images/R_n_immer_homotop.jpg>] [7 <./images/Nullhomotopie.jpg> <./images/
+Geschlossene_Wege.jpg>]
+<images/Teilraumtopologie.jpg, id=138, 616.2222pt x 476.0184pt>
 File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 
 <use images/Teilraumtopologie.jpg>
@@ -918,59 +976,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 342--343
-[]$\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/n/10.95 O \OT1/cmr/m/n/10.95 := \OMS/cmsy
-/m/n/10.95 f\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/n/10.95 ;g$
+[]$\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS/lmsy
+/m/n/10.95 f\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 ;g$
  []
 
-[8 <images/S1_und_R2_ohne_0.jpg>]
+[8 <./images/S1_und_R2_ohne_0.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 353--355
-$\OML/cmm/m/it/10.95 A \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 X; X$ \T1/lmr/
-m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/cmr/m/n/10.95 :\OMS/cmsy/m/
-n/10.95 ,
+$\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \OML/lmm/m/it/10.95 X; X$ \T1/lm
+r/m/it/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/
+m/n/10.95 ,
  []
 
-[9 <images/Teilraumtopologie.jpg>]
-<images/Cantormenge_5te_Iteration.jpg, id=212, 183.68625pt x 82.80937pt>
+[9 <./images/Teilraumtopologie.jpg>]
+<images/Cantormenge_5te_Iteration.jpg, id=166, 183.68625pt x 82.80937pt>
 File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
 
 <use images/Cantormenge_5te_Iteration.jpg>
 Underfull \hbox (badness 4279) in paragraph at lines 390--392
-\T1/lmr/m/it/10.95 Ist $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; \OMS/cmsy/m/
-n/10.95 O\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
-OMS/cmsy/m/n/10.95 B  O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/cmsy/m/n/10.95 B$
+\T1/lmr/m/it/10.95 Ist $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/
+n/10.95 O\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 to-po-lo-gi-scher Raum mit $\
+OMS/lmsy/m/n/10.95 B ^^Z O$\T1/lmr/m/it/10.95 , so heiÿt $\OMS/lmsy/m/n/10.95 B
+$
  []
 
-<images/offener_Kreis.jpg, id=213, 209.1012pt x 208.6194pt>
+<images/offener_Kreis.jpg, id=167, 209.1012pt x 208.6194pt>
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 
 <use images/offener_Kreis.jpg>
-<images/offenes_Quadrat.jpg, id=214, 219.7008pt x 220.1826pt>
+<images/offenes_Quadrat.jpg, id=168, 219.7008pt x 220.1826pt>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
 <use images/offenes_Quadrat.jpg>
-<images/Quadrate_Schnitt.jpg, id=215, 281.853pt x 214.401pt>
+<images/Quadrate_Schnitt.jpg, id=169, 281.853pt x 214.401pt>
 File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Quadrate_Schnitt.jpg>
-<images/Kreis_Schnitt.jpg, id=216, 345.4506pt x 211.5102pt>
+<images/Kreis_Schnitt.jpg, id=170, 345.4506pt x 211.5102pt>
 File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
 
-<use images/Kreis_Schnitt.jpg> [10 <images/Cantormenge_5te_Iteration.jpg> <imag
-es/offener_Kreis.jpg> <images/offenes_Quadrat.jpg> <images/Quadrate_Schnitt.jpg
-> <images/Kreis_Schnitt.jpg>]
+<use images/Kreis_Schnitt.jpg> [10 <./images/Cantormenge_5te_Iteration.jpg> <./
+images/offener_Kreis.jpg> <./images/offenes_Quadrat.jpg> <./images/Quadrate_Sch
+nitt.jpg> <./images/Kreis_Schnitt.jpg>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 425.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 428.
 
-LaTeX Font Info:    No file OMSlmr.fd. on input line 428.
 
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 428.
 
-LaTeX Font Warning: Font shape `OMS/lmr/m/it' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 428.
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 458--459
+Underfull \hbox (badness 1178) in paragraph at lines 458--459
 []\T1/lmr/bx/n/10.95 Bemerkung I.11. []\T1/lmr/m/it/10.95 In ei-nem me-tri-sche
-n Raum $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; d\OT1/cmr/m/n/10.95 )$ \T1/l
+n Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/it/10.95 bil-den die of-
  []
 
@@ -981,74 +1041,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 496--498
 
 [12]
 Underfull \hbox (badness 10000) in paragraph at lines 540--544
-$\OML/cmm/m/it/10.95 f [] [] X \OMS/lmr/m/it/10.95 ! \OML/cmm/m/it/10.95 Y$ \T1
-/lmr/m/it/10.95 ist ste-tig in $\OML/cmm/m/it/10.95 x \OMS/lmr/m/it/10.95 2 \OM
-L/cmm/m/it/10.95 X$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,
+$\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1
+/lmr/m/it/10.95 ist ste-tig in $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
+L/lmm/m/it/10.95 X$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
  []
 
 [13]
 Underfull \hbox (badness 1383) in paragraph at lines 582--583
-\T1/lmr/m/it/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/cmm/m/it/10.95 X$ \T1/lmr
-/m/it/10.95 und $\OML/cmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
+\T1/lmr/m/it/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr
+/m/it/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
-[14] <images/Stereographie_S1_R1.jpg, id=284, 590.6868pt x 331.4784pt>
+[14] <images/Stereographie_S1_R1.jpg, id=234, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
-Overfull \hbox (4.15164pt too wide) in paragraph at lines 603--609
+Overfull \hbox (4.43005pt too wide) in paragraph at lines 603--609
 \T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
-is-mus von $\OML/cmm/m/it/10.95 S[]\OMS/lmr/m/it/10.95 nf\OML/cmm/m/it/10.95 N\
-OMS/lmr/m/it/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
+is-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\
+OMS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
  []
 
-[15 <images/Stereographie_S1_R1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 624--627
-\T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/cmm/m/it/10.95 X$ \T1/lmr/m
+[15 <./images/Stereographie_S1_R1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 619--622
+[]$[]$ \T1/lmr/m/it/10.95 aus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\T1/lmr/m/it/10.95 Zwei Ein-bet-tun-gen $\OML/lmm/m/it/10.95 f; g [] [] X \OMS/
+lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ $\OT1/l
+mr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
+ []
+
+[16]
+Kapitel II.
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+[]$\OML/lmm/m/it/10.95 A$
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 763--765
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 776--779
+\T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m
 /it/10.95 heiÿt $[]$ bzw.
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 624--627
-[]$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,$ \T1/lmr/m/it/10.95 Für je zwei 
+Underfull \hbox (badness 3312) in paragraph at lines 776--779
+[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,$ \T1/lmr/m/it/10.95 Für je zwei 
 ver-schie-de-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--634
-$\OML/cmm/m/it/10.95 X$ \T1/lmr/m/it/10.95 heiÿt $[]$- oder $[]$ bzw.
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/it/10.95 heiÿt $[]$- oder $[]$ bzw.
  []
 
-[16] [17] [18] (mitschrieb_geotopo.aux)
+[20] [21] [22] (./mitschrieb_geotopo.aux)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 13953 strings out of 95516
- 229372 string characters out of 1189554
- 274416 words of memory out of 1273088
- 16263 multiletter control sequences out of 35000
- 75408 words of font info for 74 fonts, out of 500000 for 1000
- 14 hyphenation exceptions out of 607
- 56i,11n,55p,563b,576s stack positions out of 1500i,500n,5000p,200000b,32768s
- 333 PDF objects out of 300000
- 140 named destinations out of 300000
- 154 words of extra memory for PDF output out of 65536
-<C:\texmf\fonts\type1\bluesky\symbols\msbm7.pfb><C:\texmf\fonts\type1\bluesky
-\cm\cmmi12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi6.pfb>{cork-lm.enc}<C:\texm
-f\fonts\type1\public\lm\lmr9.pfb><C:\texmf\fonts\type1\public\lm\lmr6.pfb><C:\t
-exmf\fonts\type1\public\lm\lmr8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr6.pfb><
-C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\texmf\fonts\type1\bluesky\c
-m\cmsy9.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr9.pfb><C:\texmf\fonts\type1\blu
-esky\cm\cmmi9.pfb><C:\texmf\fonts\type1\public\lm\lmri7.pfb><C:\texmf\fonts\typ
-e1\public\lm\lmri8.pfb><C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\tex
-mf\fonts\type1\bluesky\symbols\msam10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy
-8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmex10.pfb><C:\texmf\fonts\type1\bluesky
-\cm\cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type1\b
-luesky\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts
-\type1\bluesky\cm\cmmi10.pfb><C:\texmf\fonts\type1\public\lm\lmri10.pfb><C:\tex
-mf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fonts\type1\public\lm\lmr10.pfb><
-C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\texmf\fonts\type1\public\lm\lmbx12
-.pfb>
-Output written on mitschrieb_geotopo.pdf (19 pages, 1086709 bytes).
+ 9210 strings out of 256216
+ 137481 string characters out of 1917072
+ 211696 words of memory out of 1500000
+ 12001 multiletter control sequences out of 10000+200000
+ 89396 words of font info for 71 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 45i,11n,61p,563b,595s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/blue
+sky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (23 pages, 1197706 bytes).
+PDF statistics:
+ 435 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 131072)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+
