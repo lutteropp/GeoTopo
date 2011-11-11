@@ -890,5 +890,52 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \end{Kasten}
 
 (TODO:Bild) \underline{\underline{Cut-off}}
+
+%hier beginnt der 10.11.11
+
+\chapter{Beispiele und Konstruktionen topologischer Räume}
+
+\paragraph{Beispiele zu Mannigfaltigkeiten (Exkurs)}
+	(TODO:Bild 1)
+
+\begin{Kasten}{Mannigfaltigkeit, Karte}
+	Ein topologischer Raum $M$ heißt \underline{$n$-dimensionale} \underline{(topologische) Mannigfaltigkeit}, wenn gilt:
+	\begin{enumerate}
+		\item $M$ ist ein Hausdorff-Raum mit abzählbarer Basis der Topologie
+		\item $M$ ist lokal homöomorph zu $\R^n$, d.h. zu jedem $p \in M$ existieren eine Umgebung $U=U(p) \subset_{offen} M$ und ein Homöomorphismus $\varphi \colon U \rightarrow V, V \subset_{offen} \R^n$.
+			\newline
+			Jedes solche Paar $(U,\varphi)$ heißt eine \underline{Karte} oder ein \underline{lokales Koordinatensystem} um $p$.
+	\end{enumerate}	 
+	(TODO:Bild 2)
+\end{Kasten}
+ 
+\begin{remark}
+	Die Zahl $n$, die \underline{Dimension von $M$}, ist eindeutig bestimmt!
+	(folgt aus Brouwers Satz von der Invarianz des Gebietes) 
+\end{remark}
+
+\begin{Kasten}{Atlas}
+	Ein \underline{Atlas} für eine topologische $n$-Mannigfaltigkeit $M$ ist eine Menge $\mathcal{A} = \{(\varphi_\alpha, U_\alpha) \mid \alpha \in \Lambda\}$\footnote{$\Lambda$ Indexmenge}
+	von Karten $\varphi_\alpha \colon U_\alpha \rightarrow V_\alpha = \varphi(U_\alpha) \subset \R^n$, so dass $M = \bigcup\limits_{a \in \Lambda}{U_\alpha}$
+\end{Kasten}
+
+\begin{Kasten}{$C^k$-Atlas, Kartenwechsel}
+	Ein Atlas heißt \underline{differenzierbar} \underline{von der Klasse $C^k$} (oder: $C^k$-Atlas von $M$), wenn für alle $\alpha, \beta \in \Lambda$ mit $U_\alpha \cap U_\beta \neq \emptyset$ der \underline{Kartenwechsel} $\varphi_\beta \circ \varphi_\alpha^{-1} \colon \varphi_\alpha(U_\alpha \cap U_\beta) \rightarrow \varphi_\beta(U_\alpha \cap U_\beta)$ eine $C^k$-Abbildung, also $k$-mal stetig differenzierbar ist. $(k=0,1,2,\ldots,\infty,\omega)$
+	\newline
+	(TODO:Bild 3)
+\end{Kasten}
+ 
+\begin{Kasten}{Verträglichkeit, differenzierbare Struktur}
+	Ist $M$ topologische Mannigfaltigkeit und $\mathcal{A}=\{(\varphi_\alpha,U_\alpha) \mid \alpha \in \Lambda\}$ ein $C^k$-Atlas von $M$, so heißt eine Karte $(\varphi,U)$ von $M$ \underline{mit $\mathcal{A}$ verträglich}, falls $\mathcal{A}^\prime := \mathcal{A} \cup \{(\varphi,U)\}$ ebenfalls $C^k$-Atlas ist. 
+	Ein $C^k$-Atlas heißt \underline{maximal} (oder \underline{differenzierbare Struktur} (der Klasse $C^k$)), falls $\mathcal{A}$ alle mit $\mathcal{A}$ verträglichen Karten enthält.
+\end{Kasten} 
+
+\begin{Kasten}{$C^k$-Mannigfaltigkeit, glatt}
+	Eine \underline{differenzierbare Mannigfaltigkeit der Klasse $C^k$} (kurz: $C^k$-Mannigfaltigkeit) ist ein Paar $(M,\mathcal{A})$ bestehend aus einer topologischen Mannigfaltigkeit $M$ und einer $C^k$-Struktur auf $M$. Eine $C^\infty$-Mannigfaltigkeit heißt auch \underline{\underline{glatt}}.
+	\newline
+	(TODO:Bild 4)
+\end{Kasten}
+
+\paragraph{Richtig toller Exkurs zu Mannigfaltigkeiten}...
  
 \end{document}
