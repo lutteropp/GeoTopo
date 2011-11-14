@@ -219,7 +219,7 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, 
 \end{remark}
 
 \paragraph{Erinnerung}
-Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. (TODO: BILD)
+Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. \includegraphics[width=1\textwidth]{images/Homotopie_param.jpg}
 
 %\begin{Kasten}[homotope Abbildungen]
 \begin{Kasten}{Homotope Abbildungen}
@@ -296,7 +296,7 @@ Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für 
 Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
 $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{images/Geschlossene_Wege.jpg}
 \caption{Geschlossene Wege in $\R^n$}
@@ -304,7 +304,8 @@ $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem
 
 Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1 := \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
 \newline
-\underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial! (TODO: BILD)
+\underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial!\newline
+ \includegraphics[scale=0.5]{images/R2_ohne_0.jpg}
 \end{example}
 
 \begin{figure}[h]
@@ -369,7 +370,8 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \end{Kasten}
 
 \begin{remark}
-	Umgebungen sind per definitionem offen! (TODO: BILD)
+	Umgebungen sind per definitionem offen! \newline
+	\includegraphics[scale=0.3]{images/offener_Kreis.jpg} $\qquad\qquad$ \includegraphics[scale=0.3]{images/offenes_Quadrat.jpg}
 \end{remark}
 
 \begin{remark}
@@ -441,19 +443,19 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \begin{example}
 	Für $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1(0)$ metrische Unterräume und heißen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sphäre.
 	\newline
-	(TODO: BILD)
+	\includegraphics[width=0.3\textwidth]{images/metrischer_unterraum.jpg}
 \end{example}
 
 %\begin{Kasten}
 \begin{Kasten}{Beschränktheit, Durchmesser}
 	$A \subset (X,d)$ heißt \underline{beschränkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho  \text{   } \forall x,y \in A$
 	\newline
-	(TODO: BILD)
-	\newline
 	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
+	\newline
 %\end{Kasten}
 \end{Kasten}
-
+	\includegraphics[width=0.4\textwidth]{images/Durchmesser.jpg}
+	
 \begin{remark}
 	In einem metrischen Raum $(X,d)$ bilden die offenen Bälle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese heißt \underline{die von der Metrik induzierte Topologie}.
 \end{remark}
@@ -463,7 +465,7 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\newline
 	$\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
 	\newline
-	(TODO: BILD)
+	\includegraphics[width=0.6\textwidth]{images/metrisch_offen.jpg}
 \end{remark}
 
 %\begin{Kasten}
@@ -482,8 +484,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{remark}
 	\label{offenAbgeschlossen}
 	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
-	
-	(TODO:BILD)
+		
+	\includegraphics[width=0.6\textwidth]{images/offen_abgeschlossen.jpg}
 	\newline
 	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
@@ -496,11 +498,12 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Für $p \in A \subset X$, $X$ topologischer Raum, heißt $p$
 	\newline
 	\begin{enumerate}[(1)]
-		\item \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. (TODO:BILD)
+		\item \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. 
 		\item \underline{äußerer Punkt}, falls eine zu $p$ disjunkte Umgebung $V$ in $X$ existiert.
 		\item \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
 	\end{enumerate}
 \end{Kasten}
+	\includegraphics[width=0.6\textwidth]{images/innen_aussen.jpg}
 
 \begin{Kasten}{Inneres}
 	Für $A \subset X$ heißt die größte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
