@@ -751,27 +751,34 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{example}{Waffel teilen.}
 	Eine Waffel, wie unregelmäßig auch immer, lässt sich immer in zwei gleich große Teile schneiden.
 	\newline
-	(TODO:Bild) (TODO:Bild)
+\includegraphics[scale=0.4]{images/Waffel_zshgd.jpg}
+\newline
+\includegraphics[scale=0.3]{images/Waffel_unzshgd.jpg} $\qquad$
+\includegraphics[scale=0.3]{images/Waffel_unzshgd_Fkt.jpg}
+\newline
+Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener Schnittrichtung nicht eindeutig.
 \end{example}
 
 \begin{Kasten}{Weg, Anfangspunkt, Endpunkt}
 	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
 	\newline
-	(TODO:Bild)
 \end{Kasten}
+\includegraphics[scale=0.4]{images/Weg.jpg}
 
 \begin{Kasten}{Wegzusammenhang}
 	$X$ heißt \underline{wegzusammenhängend} $:\Leftrightarrow$ Zu je zwei Punkten $x,x^\prime \in X \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X \text{ mit } \gamma(0)=x, \gamma(1)=x^\prime$.
 	\newline
-	(TODO: Bild) (TODO: Bild)
 \end{Kasten}
+\includegraphics[scale=0.4]{images/Wegzshgd.jpg}
 
 \begin{example}
-	(TODO:Bild)
-	\newline
 	$$A=\{(x,y) \in \R^2 \mid x>0, y = \sin{\frac{1}{x}}\} \subset \R^2$$
 	$$B=A \cup \{(0,0)\}$$
 	$\Rightarrow B$ ist zusammenhängend, aber \underline{nicht} wegzusammenhängend.
+	\newline
+	\includegraphics[scale=0.4]{images/Sinuseinsdurchx.png}
+	\newline
+	\scriptsize{Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsdurchx.png\&filetimestamp=20080624085708}
 \end{example}
 
 \begin{Kasten}{Kompaktheit}
@@ -780,17 +787,18 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \section{Trennungseigenschaften}
 \begin{Kasten}{$T_1$-Raum}
-Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüllt das erste Trennungsaxiom} $:\Leftrightarrow$ Für je zwei verschiedene Punkte von $X$ existiert für jeden dieser Punkte eine Umgebung in $X$, die den anderen nicht enthält. (TODO:Bild)
+Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüllt das erste Trennungsaxiom} $:\Leftrightarrow$ Für je zwei verschiedene Punkte von $X$ existiert für jeden dieser Punkte eine Umgebung in $X$, die den anderen nicht enthält.
 \newline
 $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$ 
 \end{Kasten}
+\includegraphics[scale=0.4]{images/T1.jpg}
 
 \begin{Kasten}{$T_2$-Raum}
 	$X$ heißt \underline{Hausdorff}- oder \underline{$T_2$-Raum} bzw. \underline{erfüllt das zweite Trennungsaxiom} $:\Leftrightarrow$ Je zwei verschiedene Punkte in $X$ besitzen disjunkte Umgebungen.
 	\newline
 	$\forall x \neq y \in X \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
-	(TODO:Bild)
 \end{Kasten}
+\includegraphics[scale=0.4]{images/T2.jpg}
 
 \begin{example}
 	Jeder metrische Raum ist Hausdorff-Raum.
@@ -803,8 +811,8 @@ Hausdorff-Räume sind z.B. deshalb wichtig, weil Grenzwerte dort eindeutig sind!
 \begin{Kasten}{Grenzwert}
 Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \forall n \geq N$. 
 \newline
-(TODO:Bild)
 \end{Kasten}
+\includegraphics[scale=0.5]{images/Grenzwert.jpg}
 
 \begin{example}
 In einem Hausdorff-Raum hat jede Folge höchstens einen Grenzwert.
@@ -884,8 +892,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \end{Kasten} 
 
 \begin{Kasten}{Lokale Endlichkeit}
-	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \exists U = U(x) \colon A \cap U = \emptyset \forall A \in \Gamma$ bis auf endlich viele $A$. (TODO:Bild)
+	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \exists U = U(x) \colon A \cap U = \emptyset \forall A \in \Gamma$ bis auf endlich viele $A$.
 \end{Kasten}
+\includegraphics[scale=0.5]{images/lokal_endlich.jpg}
  
 \begin{Kasten}{Verfeinerung}
 	$\Gamma, \Delta$ Überdeckungen von $X$. $\Delta$ heißt \underline{Verfeinerung} von $\Gamma$ \newline $:\Leftrightarrow \forall A \in \Delta \exists B \in \Gamma \colon A \subset B$.
@@ -895,7 +904,8 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	$X$ heißt \underline{parakompakt} $:\Leftrightarrow$ Jede offene Überdeckung besitzt eine lokal endliche offene Verfeinerung. 
 \end{Kasten}
 
-(TODO:Bild) \underline{\underline{Cut-off}}
+
+\includegraphics[scale=0.5]{images/Cutoff.jpg} \underline{\underline{Cut-off}}
 
 %hier beginnt der 10.11.11
 \chapter{Beispiele und Konstruktionen topologischer Räume}
@@ -996,28 +1006,28 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
  
 \begin{theorem}[Äquivalente Beschreibungen einer Untermannigfaltigkeit von $\R^{n+l}$]
 	Für Teilmengen $M \subset \R^{n+l}$ sind äquivalent:
-	\begin{itemize}
-		\item (a) $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) =: \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ (TODO: Bild 5)
-		\item (b) $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
-		$\varphi(U) \subset \R^{n+l}$ ist offen, $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y^1, \ldots, y^{n+l}) \in \varphi(U) \mid y^{n+1} = \ldots = y^{n+l} = 0 \}$$
-		\item (c) $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
+	\begin{enumerate}[(a)]
+		\item $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) := \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ (TODO: Bild 5)
+		\item $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+		$\varphi(U) \subset \R^{n+l}$ ist offen, $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
+		\item $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
 			\begin{itemize}
 				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
 				\item $D\psi(w)$ ist injektiv für alle $w \in W$
 			\end{itemize}
 			(Jedes solche $\psi$ heißt \underline{lokale Parametrisierung von $M$}).
-	\end{itemize}
+	\end{enumerate}
 \end{theorem}
 
 \paragraph{Interpretation}
-\begin{itemize}
-	\item (a) besagt: $U \cap M$ ist (im Sinne der Rangbedingung) durch $l$ unabhängige Gleichungen $f^1(x) = \ldots = f^l(x) = 0$ definiert.
-	\item (b) besagt: nach Anwendung eines Diffeomorphismus sieht $U \cap M$ wie eine offene Teilmenge eines linearen Unterraumes von $\R^{n+l}$ aus.
-	\item (c) besagt: $M$ lässt sich lokal parametrisieren.
-\end{itemize}
+\begin{enumerate}[(a)]
+	\item besagt: $U \cap M$ ist (im Sinne der Rangbedingung) durch $l$ unabhängige Gleichungen $f_1(x) = \ldots = f_l(x) = 0$ definiert.
+	\item besagt: nach Anwendung eines Diffeomorphismus sieht $U \cap M$ wie eine offene Teilmenge eines linearen Unterraumes von $\R^{n+l}$ aus.
+	\item besagt: $M$ lässt sich lokal parametrisieren.
+\end{enumerate}
 
 \begin{Kasten}{Untermannigfaltigkeit}
-Eine Menge $M \subset \R^{n+l}$, die einer der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
+Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
 \end{Kasten}
  
 \end{document}
