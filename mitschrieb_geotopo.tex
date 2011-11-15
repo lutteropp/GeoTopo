@@ -898,10 +898,10 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 (TODO:Bild) \underline{\underline{Cut-off}}
 
 %hier beginnt der 10.11.11
-
 \chapter{Beispiele und Konstruktionen topologischer Räume}
+\section{Mannigfaltigkeiten}
 
-\paragraph{Beispiele zu Mannigfaltigkeiten (Exkurs)}
+\paragraph{Beispiele zu Mannigfaltigkeiten (Exkurs)} Doppelpendel, Quantenfeldtheorie
 	(TODO:Bild 1)
 
 \begin{Kasten}{Mannigfaltigkeit, Karte}
@@ -942,6 +942,82 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	(TODO:Bild 4)
 \end{Kasten}
 
-\paragraph{Richtig toller Exkurs zu Mannigfaltigkeiten}...
+\paragraph{Richtig toller Exkurs zu Mannigfaltigkeiten}... Killing-Fields, Lie-Groups (festgenommener Matheprof kurz nach 9/11), Perverse Garben, wir leben in einer 4-dimensionalen Mannigfaltigkeit, ...
+
+\newpage
+\section{Produkt-Topologie}
+\begin{Kasten}{Produkt-Topologie}
+	Sind $(X, \OO_X)$ und $(Y, \OO_Y)$ topologische Räume, so bildet $$\mathcal{B}_{X \times Y} := \{U \times V \mid U \in \OO_X, V \in \OO_Y\}$$
+	die Basis einer Topologie für die Menge $X \times Y$, und diese heißt \underline{Produkt-Topologie auf $X \times Y$}.
+	\newline
+	Versehen mit der Produkt-Topologie ist $X \times Y$ sebst ein topologischer Raum und für gegebene $X, Y$ denkt man sich $X \times Y$ stillschweigend mit der Produkt-Topologie versehen.
+\end{Kasten}
+
+\begin{example}
+	$\R \times \R = \R^2$ als topologische Räume! (TODO: Bild 1)
+	\newline
+	Ebenso: $(\R^1)^n = \R^n$!
+\end{example}
+
+\paragraph{Einige Eigenschaften der Produkt-Topologie}
+\begin{itemize}
+	\item Produkte von Hausdorff-Räumen sind Hausdorff-Räume.
+	\item Produkte von zusammenhängenden Räumen sind zusammenhängend.
+	\item Produkte von wegzusammenhängenden Räumen sind wegzusammenhängend.
+	\item Produkte von kompakten/separablen Räumen sind kompakt/separabel.
+	\item Produkte von Räumen, die das erste oder zweite Abzählbarkeitsaxiom erfüllen, erfüllen diese auch.
+\end{itemize}
+ 
+\begin{example}
+	Produkte topologischer oder differenzierbarer Mannigfaltigkeiten sind topologische oder differenzierbare\footnote{($C^\infty$)} Mannigfaltigkeiten.
+\end{example} 
+ 
+\begin{example}
+	\begin{itemize}
+		\item $\R^2 \backslash \{0\} \cong S^1 \times \R^{> 0}$ (Polarkoordinaten) (TODO: Bild 2)
+		\item $O(n) \cong SO(n) \times O(1)$
+		\item $(S^1)^n :=  \underbrace{S^1 \times \ldots \times S^1}_{\text{n mal}}$ heißt \underline{n-dimensionaler Torus} (TODO: Bild 3)
+	\end{itemize}
+\end{example}
+
+\section{Differenzierbare Abbildungen}
+\begin{Kasten}{$C^l$-Abbildung}
+Es seien $(M, \mathcal{A})$ eine $n$-dimensionale $C^k$-Mannigfaltigkeit, $(M^\prime, \mathcal{A}^\prime)$ eine $n^\prime$-dimensionale $C^{k^\prime}$-Mannigfaltigkeit und $l \leq \min(k,k^\prime)$. Eine stetige Abbildung $f \colon M \rightarrow M^\prime$ heißt \underline{differenzierbar} (\underline{von der Klasse $C^l$}) oder kurz: $C^l$-Abbildung, falls gilt:
+$$\forall (\varphi,U) \in \mathcal{A} \text{ und } (\varphi^\prime, U^\prime) \in \mathcal{A}^\prime \text{ mit } f(U) \cap U^\prime \neq \emptyset \text{ ist}$$
+$$\boxed{\varphi^\prime \circ f \circ \varphi^{-1} \colon \varphi(U \cap f^{-1}(U^\prime)) \rightarrow \varphi^\prime(f(U)\cap U^\prime)}$$
+eine $C^l$-Abbildung im üblichen Sinn.
+(TODO: Bild 4)
+\end{Kasten}
+ 
+TODO: Exkurs über Tangentialvektoren, Vektorfelder, Satz vom Igel, Physik des starren Körpers, Differentialtopologie
+
+\paragraph{
+Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
+ 
+\begin{theorem}[Äquivalente Beschreibungen einer Untermannigfaltigkeit von $\R^{n+l}$]
+	Für Teilmengen $M \subset \R^{n+l}$ sind äquivalent:
+	\begin{itemize}
+		\item (a) $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) =: \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ (TODO: Bild 5)
+		\item (b) $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+		$\varphi(U) \subset \R^{n+l}$ ist offen, $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y^1, \ldots, y^{n+l}) \in \varphi(U) \mid y^{n+1} = \ldots = y^{n+l} = 0 \}$$
+		\item (c) $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
+			\begin{itemize}
+				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
+				\item $D\psi(w)$ ist injektiv für alle $w \in W$
+			\end{itemize}
+			(Jedes solche $\psi$ heißt \underline{lokale Parametrisierung von $M$}).
+	\end{itemize}
+\end{theorem}
+
+\paragraph{Interpretation}
+\begin{itemize}
+	\item (a) besagt: $U \cap M$ ist (im Sinne der Rangbedingung) durch $l$ unabhängige Gleichungen $f^1(x) = \ldots = f^l(x) = 0$ definiert.
+	\item (b) besagt: nach Anwendung eines Diffeomorphismus sieht $U \cap M$ wie eine offene Teilmenge eines linearen Unterraumes von $\R^{n+l}$ aus.
+	\item (c) besagt: $M$ lässt sich lokal parametrisieren.
+\end{itemize}
+
+\begin{Kasten}{Untermannigfaltigkeit}
+Eine Menge $M \subset \R^{n+l}$, die einer der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
+\end{Kasten}
  
 \end{document}
