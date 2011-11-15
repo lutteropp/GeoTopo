@@ -541,10 +541,10 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \begin{Kasten}{Stetigkeit} %spacings stimmen nicht ganz (TODO)
 	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
-	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ und } f(U) \subset V$
+	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ mit } f(U) \subset V$.
 	\newline
-	(TODO:BILD)
 \end{Kasten}
+\includegraphics[width=0.7\textwidth]{images/stetig_in_x.jpg}
 
 \begin{remark}
 	$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
@@ -572,7 +572,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\begin{itemize}
 		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homöomorphismus!
 		\newline
-		(TODO:BILD)
+		\includegraphics[width=0.7\textwidth]{images/0_1_nach_S1_f-1_nicht_stetig.jpg}
 		\item $id_X \colon X \rightarrow X$ ist immer ein Homöomorphismus, Kompositionen von Homöomorphismen ebenfalls.
 	\end{itemize}
 \end{example}
@@ -604,8 +604,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{example}
 
 \begin{example}{Stereographische Projektion}\newline
-	\includegraphics[scale=0.4]{images/Stereographie_S1_R1.jpg}
-	(TODO: BILD S2)
+	\includegraphics[scale=0.35]{images/Stereographie_S1_R1.jpg}
+	\includegraphics[scale=0.35]{images/Stereographie_S2_R2.jpg}
 	\newline
 	Die stereographische Projektion ist ein Homöomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
 	\newline
@@ -619,7 +619,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{example}
 	\begin{itemize}
 		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X, x \mapsto x$, stets eine Einbettung.
-		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung! (TODO: Bild)
+		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung! \newline
+		\includegraphics[scale=0.25]{images/0_1_nach_S1_Pfeil.jpg}
 		\item \underline{Der Satz über die Umkehrabbildung/ Impliziter Funktionensatz} aus der Analysis zeigt: 
 			\newline
 			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung von $p$, auf der $f \big |_U$ eine Einbettung ist.
@@ -627,7 +628,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{example}
 
 \begin{Kasten}{Äquivalenz von Einbettungen}
-	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm (TODO:Bild) kommutiert.
+	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm 
+		\includegraphics[scale=0.3]{images/homotopieaequivalenz.jpg} kommutiert.
 \end{Kasten}
 
 \begin{Kasten}{Knoten}
@@ -635,7 +637,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{Kasten}
 
 \begin{example}
-	Die Knoten mit Bildern (TODO:Bild) und (TODO:Bild) sind äquivalent, die mit (TODO:Bild) und (TODO:Bild) nicht!
+	Die Knoten mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_aequivalent_zu_Kreis.jpg} sind äquivalent, die mit \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_nicht_aequivalent_zu_Kreis.jpg} nicht!
 \end{example}
 
 \chapter{Topologische Eigenschaften}
@@ -653,14 +655,14 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\newline
 	Für $X^\prime \subset X$ heißt eine Familie $\mathcal{U} = \{U_\alpha\}$ wie oben Überdeckung von $X^\prime$ $:\Leftrightarrow X^\prime \subset \bigcup\limits_{\alpha \in A}{U_\alpha}$.
 	\newline
-	(TODO:Bild)
 \end{Kasten}
+\includegraphics[scale=0.5]{images/Ueberdeckung.jpg}
 
 \begin{Kasten}{Partition}
 	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
 	\newline
-	(TODO:Bild)
 \end{Kasten}
+\includegraphics[scale=0.5]{images/Partition.jpg}
 
 \begin{remark}
 	Ein topologischer Raum $X$ ist zusammenhängend 
@@ -736,7 +738,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\newline
 	\underline{Denn:} $\R^n \cong \mathring{D}^n$ (Einheitskugel) und nimmt man aus $\mathring{D}^n$ einen Punkt $p$ heraus, so bleibt für $n>1$ $\mathring{D}^n \backslash \{p\}$ zusammenhängend, $\mathring{D}^1 = (-1,1) \cong \R$ aber nicht!
 	\newline
-	(TODO:Bild)
+\includegraphics[scale=0.4]{images/R_ohne_p.jpg}$\qquad\qquad$
+\includegraphics[scale=0.4]{images/R2_ohne_p.jpg}
 	\newline
 	\underline{Allgemeiner (Brouwder)} $\R^m \cong \R^n \Leftrightarrow m=n$
 \end{example}

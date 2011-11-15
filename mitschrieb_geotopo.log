@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  14 NOV 2011 20:12
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  15 NOV 2011 09:03
 entering extended mode
 **mitschrieb_geotopo.tex
 (mitschrieb_geotopo.tex
@@ -1042,89 +1042,155 @@ File: images/innen_aussen.jpg Graphic file (type jpg)
 
 <use images/innen_aussen.jpg> [14 <images/offen_abgeschlossen.jpg>] [15 <images
 /innen_aussen.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+Underfull \hbox (badness 10000) in paragraph at lines 543--546
 $\OML/cmm/m/it/10.95 f [] [] X \OMS/lmr/m/it/10.95 ! \OML/cmm/m/it/10.95 Y$ \T1
 /lmr/m/it/10.95 ist ste-tig in $\OML/cmm/m/it/10.95 x \OMS/lmr/m/it/10.95 2 \OM
 L/cmm/m/it/10.95 X$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,
  []
 
-[16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--546
+
+ []
+
+<images/stetig_in_x.jpg, id=298, 630.6762pt x 405.6756pt>
+File: images/stetig_in_x.jpg Graphic file (type jpg)
+
+<use images/stetig_in_x.jpg> [16 <images/stetig_in_x.jpg>]
+<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=307, 648.021pt x 356.0502pt>
+File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
+
+<use images/0_1_nach_S1_f-1_nicht_stetig.jpg>
 Underfull \hbox (badness 1383) in paragraph at lines 585--586
 \T1/lmr/m/it/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/cmm/m/it/10.95 X$ \T1/lmr
 /m/it/10.95 und $\OML/cmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ oder
  []
 
-<images/Stereographie_S1_R1.jpg, id=309, 590.6868pt x 331.4784pt>
+[17 <images/0_1_nach_S1_f-1_nicht_stetig.jpg>]
+<images/Stereographie_S1_R1.jpg, id=318, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
+<images/Stereographie_S2_R2.jpg, id=319, 590.6868pt x 393.6306pt>
+File: images/Stereographie_S2_R2.jpg Graphic file (type jpg)
+
+<use images/Stereographie_S2_R2.jpg>
+Overfull \hbox (56.28528pt too wide) in paragraph at lines 606--613
+[] [] 
+ []
+
+
 Overfull \hbox (4.15164pt too wide) in paragraph at lines 606--613
 \T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
 is-mus von $\OML/cmm/m/it/10.95 S[]\OMS/lmr/m/it/10.95 nf\OML/cmm/m/it/10.95 N\
 OMS/lmr/m/it/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
  []
 
-[17 <images/Stereographie_S1_R1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 623--626
+<images/0_1_nach_S1_Pfeil.jpg, id=320, 678.3744pt x 361.35pt>
+File: images/0_1_nach_S1_Pfeil.jpg Graphic file (type jpg)
+
+<use images/0_1_nach_S1_Pfeil.jpg> [18 <images/Stereographie_S1_R1.jpg> <images
+/Stereographie_S2_R2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 624--627
 []$[]$ \T1/lmr/m/it/10.95 aus
  []
 
+<images/homotopieaequivalenz.jpg, id=330, 330.9966pt x 256.7994pt>
+File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
+<use images/homotopieaequivalenz.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 631--633
 \T1/lmr/m/it/10.95 Zwei Ein-bet-tun-gen $\OML/cmm/m/it/10.95 f; g [] [] X \OMS/
 lmr/m/it/10.95 ! \OML/cmm/m/it/10.95 Y$ \T1/lmr/m/it/10.95 hei-ÿen $[]$ $\OT1/c
 mr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,
  []
 
-[18]
+<images/Knoten_Kreis.jpg, id=331, 184.5294pt x 184.5294pt>
+File: images/Knoten_Kreis.jpg Graphic file (type jpg)
+
+<use images/Knoten_Kreis.jpg>
+<images/Knoten_aequivalent_zu_Kreis.jpg, id=332, 241.3818pt x 223.0734pt>
+File: images/Knoten_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
+
+<use images/Knoten_aequivalent_zu_Kreis.jpg>
+File: images/Knoten_Kreis.jpg Graphic file (type jpg)
+ <use images/Knoten_Kreis.jpg>
+<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=333, 241.8636pt x 223.5552pt>
+File: images/Knoten_nicht_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
+<use images/Knoten_nicht_aequivalent_zu_Kreis.jpg> [19 <images/0_1_nach_S1_Pfei
+l.jpg> <images/homotopieaequivalenz.jpg> <images/Knoten_Kreis.jpg> <images/Knot
+en_aequivalent_zu_Kreis.jpg> <images/Knoten_nicht_aequivalent_zu_Kreis.jpg>]
 Kapitel II.
-[19
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--658
+
+ []
+
+<images/Ueberdeckung.jpg, id=341, 661.9932pt x 502.9992pt>
+File: images/Ueberdeckung.jpg Graphic file (type jpg)
+
+<use images/Ueberdeckung.jpg> [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 662--664
+
+ []
+
+<images/Partition.jpg, id=348, 638.385pt x 276.5532pt>
+File: images/Partition.jpg Graphic file (type jpg)
+
+<use images/Partition.jpg> [21 <images/Ueberdeckung.jpg> <images/Partition.jpg>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 699--700
 []$\OML/cmm/m/it/10.95 A$
  []
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 767--769
+<images/R_ohne_p.jpg, id=356, 327.624pt x 92.5056pt>
+File: images/R_ohne_p.jpg Graphic file (type jpg)
+ <use images/R_ohne_p.jpg>
+<images/R2_ohne_p.jpg, id=357, 256.7994pt x 211.0284pt>
+File: images/R2_ohne_p.jpg Graphic file (type jpg)
+
+<use images/R2_ohne_p.jpg> [22]
+Underfull \hbox (badness 10000) in paragraph at lines 770--772
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 780--783
+[23 <images/R_ohne_p.jpg> <images/R2_ohne_p.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 783--786
 \T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/cmm/m/it/10.95 X$ \T1/lmr/m
 /it/10.95 heiÿt $[]$ bzw.
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 780--783
+Underfull \hbox (badness 3514) in paragraph at lines 783--786
 []$ $\OT1/cmr/m/n/10.95 :\OMS/lmr/m/it/10.95 ,$ \T1/lmr/m/it/10.95 Für je zwei 
 ver-schie-de-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--790
+Underfull \hbox (badness 10000) in paragraph at lines 789--793
 $\OML/cmm/m/it/10.95 X$ \T1/lmr/m/it/10.95 heiÿt $[]$- oder $[]$ bzw.
  []
 
-[22] [23] [24]
+[24] [25] [26]
 Kapitel III.
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--907
+Underfull \hbox (badness 10000) in paragraph at lines 908--910
 \T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/cmm/m/it/10.95 M$ \T1/lmr/m
 /it/10.95 heiÿt $[]$
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 908--911
+Underfull \hbox (badness 7081) in paragraph at lines 911--914
 \T1/lmr/m/it/10.95 Jedes sol-che Paar $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 
 U; '\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 heiÿt ei-ne $[]$ oder ein
  []
 
-[25
+[27
 
 ]
-Underfull \hbox (badness 1168) in paragraph at lines 932--934
+Underfull \hbox (badness 1168) in paragraph at lines 935--937
 \OT1/cmr/m/n/10.95 \OMS/lmr/m/it/10.95 g$ \T1/lmr/m/it/10.95 ein $\OML/cmm/m/i
 t/10.95 C[]$\T1/lmr/m/it/10.95 -Atlas von $\OML/cmm/m/it/10.95 M$\T1/lmr/m/it/1
 0.95 , so heiÿt ei-ne Kar-te $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 '; U\OT1/
@@ -1132,30 +1198,27 @@ cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 von $\OML/cmm/m/it/10.95 M$
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 937--940
+Underfull \hbox (badness 5939) in paragraph at lines 940--943
 \T1/lmr/m/it/10.95 Eine $[]$ (kurz: $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95
  -
  []
 
-[26] (mitschrieb_geotopo.aux)
+[28] (mitschrieb_geotopo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14060 strings out of 95516
- 231161 string characters out of 1189554
+ 14149 strings out of 95516
+ 233159 string characters out of 1189554
  274929 words of memory out of 1273089
- 16297 multiletter control sequences out of 35000
+ 16345 multiletter control sequences out of 35000
  75408 words of font info for 74 fonts, out of 500000 for 1000
  14 hyphenation exceptions out of 607
  56i,12n,55p,563b,576s stack positions out of 1500i,500n,5000p,200000b,32768s
- 417 PDF objects out of 300000
- 183 named destinations out of 300000
- 210 words of extra memory for PDF output out of 65536
+ 437 PDF objects out of 300000
+ 185 named destinations out of 300000
+ 270 words of extra memory for PDF output out of 65536
 <C:\texmf\fonts\type1\bluesky\symbols\msbm7.pfb><C:\texmf\fonts\type1\bluesky
 \cm\cmmi12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi6.pfb>{cork-lm.enc}<C:\texm
 f\fonts\type1\public\lm\lmr9.pfb><C:\texmf\fonts\type1\public\lm\lmr6.pfb><C:\t
@@ -1172,4 +1235,4 @@ luesky\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts
 mf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fonts\type1\public\lm\lmr10.pfb><
 C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\texmf\fonts\type1\public\lm\lmbx12
 .pfb>
-Output written on mitschrieb_geotopo.pdf (27 pages, 1440700 bytes).
+Output written on mitschrieb_geotopo.pdf (29 pages, 1912312 bytes).

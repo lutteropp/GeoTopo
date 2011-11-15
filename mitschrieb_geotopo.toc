@@ -27,36 +27,36 @@
 \contentsline {subsection}{\numberline {1.12}Rand}{15}{subsection.1.1.12}
 \contentsline {subsection}{\numberline {1.13}Stetigkeit}{15}{subsection.1.1.13}
 \contentsline {subsection}{\numberline {1.14}Stetigkeit}{16}{subsection.1.1.14}
-\contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{16}{subsection.1.1.15}
-\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{16}{subsection.1.1.16}
+\contentsline {subsection}{\numberline {1.15}Isometrische Einbettung, Isometrie}{17}{subsection.1.1.15}
+\contentsline {subsection}{\numberline {1.16}Hom\IeC {\"o}omorphismus}{17}{subsection.1.1.16}
 \contentsline {subsection}{\numberline {1.17}hom\IeC {\"o}omorph}{17}{subsection.1.1.17}
 \contentsline {subsection}{\numberline {1.18}Einbettung}{18}{subsection.1.1.18}
-\contentsline {subsection}{\numberline {1.19}\IeC {\"A}quivalenz von Einbettungen}{18}{subsection.1.1.19}
-\contentsline {subsection}{\numberline {1.20}Knoten}{18}{subsection.1.1.20}
-\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{19}{chapter.2}
-\contentsline {subsection}{\numberline {0.21}zusammenh\IeC {\"a}ngend}{19}{subsection.2.0.21}
-\contentsline {subsection}{\numberline {0.22}\IeC {\"U}berdeckung}{19}{subsection.2.0.22}
-\contentsline {subsection}{\numberline {0.23}Partition}{19}{subsection.2.0.23}
-\contentsline {subsection}{\numberline {0.24}Zusammenhangskomponente}{20}{subsection.2.0.24}
-\contentsline {subsection}{\numberline {0.25}Weg, Anfangspunkt, Endpunkt}{21}{subsection.2.0.25}
-\contentsline {subsection}{\numberline {0.26}Wegzusammenhang}{21}{subsection.2.0.26}
-\contentsline {subsection}{\numberline {0.27}Kompaktheit}{22}{subsection.2.0.27}
-\contentsline {section}{\numberline {1}Trennungseigenschaften}{22}{section.2.1}
-\contentsline {subsection}{\numberline {1.1}$T_1$-Raum}{22}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {1.2}$T_2$-Raum}{22}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {1.3}Grenzwert}{22}{subsection.2.1.3}
-\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{23}{section.2.2}
-\contentsline {subsection}{\numberline {2.1}Umgebungsbasis}{23}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2}Abz\IeC {\"a}hlbarkeitsaxiome, Separabilit\IeC {\"a}t}{23}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Lokale Kompaktheit}{24}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.4}Lokale Endlichkeit}{24}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.5}Verfeinerung}{24}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.6}Parakompaktheit}{24}{subsection.2.2.6}
-\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{25}{chapter.3}
-\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{25}{section*.6}
-\contentsline {subsection}{\numberline {0.7}Mannigfaltigkeit, Karte}{25}{subsection.3.0.7}
-\contentsline {subsection}{\numberline {0.8}Atlas}{26}{subsection.3.0.8}
-\contentsline {subsection}{\numberline {0.9}$C^k$-Atlas, Kartenwechsel}{26}{subsection.3.0.9}
-\contentsline {subsection}{\numberline {0.10}Vertr\IeC {\"a}glichkeit, differenzierbare Struktur}{26}{subsection.3.0.10}
-\contentsline {subsection}{\numberline {0.11}$C^k$-Mannigfaltigkeit, glatt}{26}{subsection.3.0.11}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{26}{section*.7}
+\contentsline {subsection}{\numberline {1.19}\IeC {\"A}quivalenz von Einbettungen}{19}{subsection.1.1.19}
+\contentsline {subsection}{\numberline {1.20}Knoten}{19}{subsection.1.1.20}
+\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{20}{chapter.2}
+\contentsline {subsection}{\numberline {0.21}zusammenh\IeC {\"a}ngend}{20}{subsection.2.0.21}
+\contentsline {subsection}{\numberline {0.22}\IeC {\"U}berdeckung}{20}{subsection.2.0.22}
+\contentsline {subsection}{\numberline {0.23}Partition}{21}{subsection.2.0.23}
+\contentsline {subsection}{\numberline {0.24}Zusammenhangskomponente}{22}{subsection.2.0.24}
+\contentsline {subsection}{\numberline {0.25}Weg, Anfangspunkt, Endpunkt}{23}{subsection.2.0.25}
+\contentsline {subsection}{\numberline {0.26}Wegzusammenhang}{23}{subsection.2.0.26}
+\contentsline {subsection}{\numberline {0.27}Kompaktheit}{24}{subsection.2.0.27}
+\contentsline {section}{\numberline {1}Trennungseigenschaften}{24}{section.2.1}
+\contentsline {subsection}{\numberline {1.1}$T_1$-Raum}{24}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {1.2}$T_2$-Raum}{24}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {1.3}Grenzwert}{24}{subsection.2.1.3}
+\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{25}{section.2.2}
+\contentsline {subsection}{\numberline {2.1}Umgebungsbasis}{25}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Abz\IeC {\"a}hlbarkeitsaxiome, Separabilit\IeC {\"a}t}{25}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Lokale Kompaktheit}{26}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.4}Lokale Endlichkeit}{26}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.5}Verfeinerung}{26}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.6}Parakompaktheit}{26}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{27}{chapter.3}
+\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{27}{section*.6}
+\contentsline {subsection}{\numberline {0.7}Mannigfaltigkeit, Karte}{27}{subsection.3.0.7}
+\contentsline {subsection}{\numberline {0.8}Atlas}{28}{subsection.3.0.8}
+\contentsline {subsection}{\numberline {0.9}$C^k$-Atlas, Kartenwechsel}{28}{subsection.3.0.9}
+\contentsline {subsection}{\numberline {0.10}Vertr\IeC {\"a}glichkeit, differenzierbare Struktur}{28}{subsection.3.0.10}
+\contentsline {subsection}{\numberline {0.11}$C^k$-Mannigfaltigkeit, glatt}{28}{subsection.3.0.11}
+\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{28}{section*.7}
