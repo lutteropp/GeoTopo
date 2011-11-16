@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  16 NOV 2011 00:15
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  16 NOV 2011 23:22
 entering extended mode
 **mitschrieb_geotopo.tex
 (mitschrieb_geotopo.tex
@@ -1239,22 +1239,63 @@ File: images/Cutoff.jpg Graphic file (type jpg)
  <use images/Cutoff.jpg>
 [28 <images/lokal_endlich.jpg>] [29 <images/Cutoff.jpg>]
 Kapitel III.
+<images/Mannigfaltigkeiten1.jpg, id=458, 649.4664pt x 370.5042pt>
+File: images/Mannigfaltigkeiten1.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 918--920
+<use images/Mannigfaltigkeiten1.jpg>
+<images/S1_Pendel.jpg, id=459, 598.8774pt x 421.0932pt>
+File: images/S1_Pendel.jpg Graphic file (type jpg)
+
+<use images/S1_Pendel.jpg>
+<images/Torus_Doppelpendel.jpg, id=460, 669.2202pt x 471.6822pt>
+File: images/Torus_Doppelpendel.jpg Graphic file (type jpg)
+
+<use images/Torus_Doppelpendel.jpg>
+<images/Stringtheorie.jpg, id=461, 322.806pt x 421.0932pt>
+File: images/Stringtheorie.jpg Graphic file (type jpg)
+
+<use images/Stringtheorie.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 916--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--920
+
+ []
+
+[30
+
+ <images/Mannigfaltigkeiten1.jpg> <images/S1_Pendel.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 922--924
 \T1/lmr/m/it/10.95 Ein to-po-lo-gi-scher Raum $\OML/cmm/m/it/10.95 M$ \T1/lmr/m
 /it/10.95 heiÿt $[]$
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 921--924
+Underfull \hbox (badness 7081) in paragraph at lines 925--928
 \T1/lmr/m/it/10.95 Jedes sol-che Paar $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 
 U; '\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 heiÿt ei-ne $[]$ oder ein
  []
 
-[30
+<images/Karte.jpg, id=468, 554.07pt x 483.7272pt>
+File: images/Karte.jpg Graphic file (type jpg)
+ <use images/Karte.jpg>
+[31 <images/Torus_Doppelpendel.jpg> <images/Stringtheorie.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 943--945
 
-]
-Underfull \hbox (badness 1168) in paragraph at lines 945--947
+ []
+
+<images/Kartenwechsel.jpg, id=476, 615.2586pt x 486.618pt>
+File: images/Kartenwechsel.jpg Graphic file (type jpg)
+
+<use images/Kartenwechsel.jpg> [32 <images/Karte.jpg>]
+Underfull \hbox (badness 1168) in paragraph at lines 949--951
 \OT1/cmr/m/n/10.95 \OMS/lmr/m/it/10.95 g$ \T1/lmr/m/it/10.95 ein $\OML/cmm/m/i
 t/10.95 C[]$\T1/lmr/m/it/10.95 -Atlas von $\OML/cmm/m/it/10.95 M$\T1/lmr/m/it/1
 0.95 , so heiÿt ei-ne Kar-te $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 '; U\OT1/
@@ -1262,25 +1303,25 @@ cmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 von $\OML/cmm/m/it/10.95 M$
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 950--953
+Underfull \hbox (badness 5939) in paragraph at lines 954--957
 \T1/lmr/m/it/10.95 Eine $[]$ (kurz: $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95
  -
  []
 
-[31]
+[33 <images/Kartenwechsel.jpg>]
 
 LaTeX Font Warning: Font shape `OMS/lmr/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 974.
+(Font)              for symbol `textbullet' on input line 978.
 
 
-Overfull \hbox (4.05649pt too wide) in paragraph at lines 977--978
+Overfull \hbox (4.05649pt too wide) in paragraph at lines 981--982
 []\T1/lmr/m/n/10.95 Produkte von kom-pak-ten/separablen Räu-men sind kom-pakt/s
 eparabel. 
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 995--996
+Underfull \hbox (badness 1331) in paragraph at lines 999--1000
 \T1/lmr/m/it/10.95 ei-ne $\OML/cmm/m/it/10.95 n[]$\T1/lmr/m/it/10.95 -dimension
 ale $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeit und $\OML/cmm
 /m/it/10.95 l \OMS/lmr/m/n/10.95  []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 k;
@@ -1288,13 +1329,13 @@ ale $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeit und $\OML/cmm
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 995--996
+Underfull \hbox (badness 5189) in paragraph at lines 999--1000
 \T1/lmr/m/it/10.95 Ei-ne ste-ti-ge Ab-bil-dung $\OML/cmm/m/it/10.95 f [] [] M \
 OMS/lmr/m/n/10.95 ! \OML/cmm/m/it/10.95 M[]$ \T1/lmr/m/it/10.95 heiÿt $[]$
  []
 
-[32]
-Overfull \hbox (5.67049pt too wide) detected at line 1010
+[34]
+Overfull \hbox (5.67049pt too wide) detected at line 1014
 \OML/cmm/m/it/10.95 f \OMS/lmr/m/n/10.95 2 \OML/cmm/m/it/10.95 C[]\OT1/cmr/m/n/
 10.95 (\OML/cmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/cmr/m/n/10.95 ) := \OMS/
 lmr/m/n/10.95 f\OML/cmm/m/it/10.95 g [] [] U \OMS/lmr/m/n/10.95 ! \U/msb/m/n/10
@@ -1305,7 +1346,7 @@ ML/cmm/m/it/10.95 Df\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95
  []
 
 
-Overfull \hbox (36.05983pt too wide) detected at line 1012
+Overfull \hbox (36.05983pt too wide) detected at line 1016
 \OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U \OMS/lmr/m/n/10.
 95 \ \OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 '\OT1/cmr/
 m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 ) \OMS/lmr/m/n/10.95 \ \OT1/
@@ -1317,33 +1358,33 @@ OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95
 cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = 0\OMS/lmr/m/n/10.95 g
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 \T1/lmr/m/it/10.95 Eine Men-ge $\OML/cmm/m/it/10.95 M \OMS/lmr/m/n/10.95  \U/m
 sb/m/n/10.95 R[]$\T1/lmr/m/it/10.95 , die ei-ne der Be-din-gun-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 \T1/lmr/m/it/10.95 (a), (b) oder (c) er-füllt, heiÿt dann $[]$
  []
 
-[34] (mitschrieb_geotopo.aux)
+[36] (mitschrieb_geotopo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14255 strings out of 95516
- 234821 string characters out of 1189554
- 274927 words of memory out of 1273087
- 16393 multiletter control sequences out of 35000
+ 14299 strings out of 95516
+ 235688 string characters out of 1189554
+ 274929 words of memory out of 1273089
+ 16417 multiletter control sequences out of 35000
  75408 words of font info for 74 fonts, out of 500000 for 1000
  14 hyphenation exceptions out of 607
  56i,12n,55p,563b,576s stack positions out of 1500i,500n,5000p,200000b,32768s
- 507 PDF objects out of 300000
- 210 named destinations out of 300000
- 349 words of extra memory for PDF output out of 65536
+ 522 PDF objects out of 300000
+ 212 named destinations out of 300000
+ 379 words of extra memory for PDF output out of 65536
 <C:\texmf\fonts\type1\bluesky\cm\cmsy6.pfb><C:\texmf\fonts\type1\bluesky\symb
 ols\msbm7.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\fonts\type1
 \bluesky\cm\cmmi6.pfb>{cork-lm.enc}<C:\texmf\fonts\type1\public\lm\lmr9.pfb><C:
@@ -1360,4 +1401,4 @@ type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi10.pfb><C:\tex
 mf\fonts\type1\public\lm\lmri10.pfb><C:\texmf\fonts\type1\public\lm\lmbx10.pfb>
 <C:\texmf\fonts\type1\public\lm\lmr10.pfb><C:\texmf\fonts\type1\public\lm\lmr12
 .pfb><C:\texmf\fonts\type1\public\lm\lmbx12.pfb>
-Output written on mitschrieb_geotopo.pdf (35 pages, 2373007 bytes).
+Output written on mitschrieb_geotopo.pdf (37 pages, 2744376 bytes).
