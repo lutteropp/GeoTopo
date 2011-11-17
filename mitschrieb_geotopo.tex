@@ -1033,5 +1033,113 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
 \begin{Kasten}{Untermannigfaltigkeit}
 Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
 \end{Kasten}
+
+%hier beginnt der 17.11.
+
+\begin{theorem}{Äquivalente Beschreibung einer glatten Untermannigfaltigkeit von $\R^{n+l}$}
+	Es sei $M \subseteq \R^{n+l}$. Es sind äquivalent:
+	\begin{enumerate}
+		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l} \text{ und } f \in C^\infty(U,\R^l)$ $\text{ mit Rang }Df(x) = l \text{ für alle } x \in U$ dergestalt, dass $U \cap M = f^{-1}(0)$.
+		\item $\forall x_0 \in M \exists U = U(x) \subseteq_{\text{offen}} \R^{n+l} \text{ und } \varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+			\begin{itemize}
+				\item $\varphi(U) \subseteq \R^{n+l}$ ist offen
+				\item $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$
+				\item $\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\})$ $= \{(y_1, \ldots, y_n) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0\}$
+			\end{itemize}
+		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l}$, $W \subseteq \R^n$ offen und $\psi \in C^\infty(W,U)$ mit folgenden Eigenschaften:
+			\begin{itemize}
+				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
+				\item $D\psi(w)$ ist injektiv für alle $w \in W$.
+			\end{itemize}
+	\end{enumerate}
+\end{theorem}
+
+\begin{example}
+	\underline{zu (1)}
+	\newline
+	Die $n$-Sphäre vom Radius $r$
+	$$S_r^n = \{x \in \R^{n+1} \mid ||x|| = r\}$$
+	ist eine $n$-dimensionale glatte Untermannigfaltigkeit von $\R^{n+1}$.
+	\newline
+	\underline{Denn:}
+	Definiere $f \colon \R^{n+1} \rightarrow \R, x \mapsto ||x||^2 - r^2$.
+	Dann gilt:
+	\begin{itemize}
+		\item $S_r^n = f^{-1}(0)$ und
+		\item $Df(x) = (2x_1, \ldots, 2x_{n+1}) = 2x$
+	erfüllt Rang $Df(x)=1$ für alle $x \in \R^{n+1}\backslash\{0\} \supseteq S_r^n$.
+		\end{itemize}
+		
+	Allgemeiner:
+	\begin{itemize}
+		\item \underline{Niveaumengen:}
+			Es seien $V \subseteq_{\text{offen}} \R^{n+l}, f \in C^\infty(V, \R^l), c \in \R^l$
+			Gilt Rang $Df(x) = l$ in jedem Punkt $x$ der \underline{Niveaumenge} $$f^{-1}(c)=\{x \in V \mid f(x)=c\},$$ so ist $f^{-1}(c)$ eine glatte $n$-dimensionale Untermannigfaltigkeit von $\R^{n+l}$.
+	\end{itemize}
+\end{example}
+
+\begin{proof}
+		\underline{(1)$\Rightarrow$(2):} Es seien $U$ und $f$ wie in (1) gewählt und $f^1, \ldots, f^l$ die Komponenten von $f$. Sei $x_0 \in M$. Durch Umnummerierung seien die Indizes so gewählt, dass ohne Einschränkung die Reihenfolge so, dass die $(l \times l)$-Matrix 
+		$$\left(\frac{\delta f^i}{\delta x_{n+j}}\right)_{i,j \in \{1, \ldots, l\}}$$
+		in $x_0$ invertierbar ist.
+		Definiere die Abbildung $\varphi \colon U \rightarrow \R^{n+l}, x \mapsto (x_1, \ldots, x_n, f^1(x), \ldots, f^l(x))$.
+		Dann gilt:
+		$$D \varphi(x_0)= (TODO:Matrix 2)$$ und damit 
+		$$\det{D \varphi(x_0)} = \det{\left(\frac{\delta f^i}{\delta x_{n+j}}\right)_{i,j}} \neq 0.$$
+		Mit dem Satz über inverse Funktionen (oder "Satz über die Umkehrabbildung") folgt:
+		Es existieren Umgebungen $U^\prime = U^\prime(x_0) \subseteq U$ und $V^\prime(\varphi(x_0)) \subseteq V = \varphi(U)$, so dass
+		$\varphi \big |_{U^\prime} \colon U^\prime \rightarrow V^\prime$ ist $C^\infty$-Diffeomorphismus.
+		\newline
+		Es gilt: $\varphi(U^\prime \cap M) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U^\prime) \mid y_{n+1} = \ldots = y_{n+l}=0\}$,
+		\underline{denn:} \newline $"\subseteq":$ ist klar nach Definition von $f$ und $\varphi$.
+		\newline
+		$"\supseteq":$ Ist $y$ Element der rechten Seite, so existiert $x \in U^\prime$ mit $\varphi(x)=y$ und $f(x)=0$. Da $x \in U^\prime \subseteq U$ und $f(x)=0$, gilt: $x \in U \cap M$, und damit $y = \varphi(x) \in \varphi(U^\prime \cap M)$.
+		\newline
+		 \underline{(2)$\Rightarrow$(3):} Es seien $U$ und $\varphi$ wie in (2) gewählt und
+		 $$\pi \colon \R^{n+l} = \R^n \times \R^l \rightarrow \R^n, (x_1, \ldots, x_{n+l}) \mapsto (x_1, \ldots, x_n),$$
+		 die \underline{Projektion}
+		 $$\iota \colon \R^n \rightarrow \R^{n+l}, (x_1, \ldots, x_n) \rightarrow (x_1, \ldots, x_n, 0, \ldots, 0)$$ die \underline{Inklusion}.
+		 \newline
+		 Setze $W := \pi(\varphi(U \cap M))$ und definiere $\psi \colon W \rightarrow U$ durch $\psi := \varphi^{-1} \circ \iota$.
+		 \newline
+		 (TODO: Bild 1)
+		 \newline
+		 Dann ist $W$ offen und $\psi \colon W \rightarrow U \cap M$ ein Homöomorphismus, denn $\iota \colon W \rightarrow \varphi(U \cap M)$ ist Homöomorphismus und $\varphi^{-1} \colon \varphi(U \cap M) \rightarrow U \cap M$ ist Homöomorphismus.
+		 \newline
+		 Mit der Kettenregel folgt: Für alle $w \in W$ gilt:
+		 $$D \psi(w) = D(\varphi^{-1} \circ \iota)(w) = \underline{(D \varphi^{-1}) (\iota(w))} \cdot D\iota (w)$$ 
+		 $$\overset{(D \varphi^{-1})(y) = ((D \varphi)(\varphi^{-1}(y)))^{-1}}{=} ((D \varphi) (\varphi^{-1}(\iota(w))))^{-1} \circ \iota$$
+		 $$= (D \varphi ( \psi(w))^{-1} \circ \iota.$$
+		 Somit ist $D \psi(w)$ als Komposition einer bijektiven und einer injektiven Abbildung injektiv für alle $w \in W$.
+		 \newline
+		 \underline{(3)$\Rightarrow$(1):} Es seien $U$, $W$ und $\psi$ wie in (3) gewählt und $\psi(\hat{w})= x_0$ für $\hat{w} \in W$.
+		 Da Rang $D \psi(\hat{w}) = n$ folgt nach evtl. Umnummerierung
+		 $$\left(\frac{\delta \psi^i}{\delta w_j}(\hat{w})\right)_{i,j \in \{1, \ldots, n\}}$$ ist invertierbar.
+		 Definiere $g \colon W \times \R^l \rightarrow \R^{n+l}, (w,y) \mapsto \psi(w) + (0,y)$, d.h. $g(w_1, \ldots,w_n,y_1,\ldots,y_l) = (\psi^1(w), \ldots, \psi^n(w), \psi^{n+1}(w)+y_1, \psi^{n+l}(w)+y_l).$
+		 Dann gilt: 
+		 $$Dy(\hat{w},0)= (TODO:Matrix 4)$$ ist invertierbar.
+		 Mit dem Satz über inverse Funktionen folgt:
+		 Es existieren Umgebungen $V = V((\hat{w},0)) \subseteq W \times \R^l$ und $U^\prime = U^\prime(g(\hat{w},0))$, so dass $g \big |_V \colon V \rightarrow U^\prime$ ein $C^\infty$-Diffeomorphismus ist. \newline
+		 Verkleinert man gegebenenfalls $V$, so kann man ohne Einschränkung annehmen, dass gilt: $U^\prime \subseteq U$.
+		 Da $\{w \in W \mid (w,0) \in V\}$ offen ist in $W$ und $\psi \colon W \rightarrow \psi(W)$ nach Voraussetzung ein Homöomorphismus ist, folgt: $\{\psi(w) \mid (w,0) \in V\}$ ist offen in $\psi(W)$.
+		 \newline
+		 Nach Definition der Unterraumtopologie existiert $U^{\prime\prime} \subseteq_{\text{offen}} \R^{n+l}$ mit $\{\psi(w)\mid(w,0) \in V\} = U^\prime \cap \psi(W)$.
+		 \newline
+		 Wegen $\psi(w)=g(w,0)$ bedeutet dies:
+		 $$(*) U^{\prime\prime} \cap \psi(W) = g(V \cap(W \times \{0\})).$$
+		 Setze $\tilde{U} := U^\prime \cap U^{\prime\prime}, \tilde{V} := (g \big |_V)^{-1}(\tilde{U}) = g^{-1}(\tilde{U}) \cap V.$
+		 Dann ist $g \big |_{\tilde{V}} \colon \tilde{V} \rightarrow \tilde{U}$ ein $C^\infty$-Diffeomorphismus.
+		 \newline
+		 \underline{Behauptung:} Es gilt: $\tilde{U} \cap M = g(\tilde{U} \cap (\R^n \times \{0\}))$. 
+		 \newline
+		 \underline{Beweis:} folgt mit (*).
+		 \newline
+		 Ist $\pi \colon \R^{n+l} \rightarrow \R^l, (x_1, \ldots, x_{n+l}) \mapsto (x_{n+1}, \ldots, x_{n+l})$ die Projektion, so erfüllt $f := \pi \circ (g \big |_{\tilde{V}})^{-1} \colon \tilde{U} \rightarrow \R^l$ die Bedingung in (1).
+\end{proof}
+
+\begin{theorem}{($C^\infty$-Untermannigfaltigkeiten von $\R^{n+l}$ sind $C^\infty$-Mannigfaltigkeiten)}
+	Es sei $M \subseteq \R^{n+l}$ $n$-dimensionale $C^\infty$-Untermannigfaltigkeit von $\R^{n+l}$ und $\{\psi_\alpha \colon W_\alpha \rightarrow U_\alpha \cap M \mid \alpha \in \Lambda\}$ eine Menge lokaler Parametrisierungen (wie in (3)) mit $M \subseteq \bigcup\limits_{\alpha \in \Lambda}{U_\alpha}$.
+	Dann ist $\mathcal{A} = (\{(\psi_\alpha^{-1}, U_\alpha \cap M) \mid \alpha \in \Lambda\}$ ein $C^\infty$-Atlas und $M$ eine $C^\infty$-Mannigfaltigkeit.
+\end{theorem}
  
 \end{document}
