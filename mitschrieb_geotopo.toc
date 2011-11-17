@@ -60,12 +60,12 @@
 \contentsline {subsection}{\numberline {1.3}$C^k$-Atlas, Kartenwechsel}{32}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {1.4}Vertr\IeC {\"a}glichkeit, differenzierbare Struktur}{33}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {1.5}$C^k$-Mannigfaltigkeit, glatt}{33}{subsection.3.1.5}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{33}{section*.7}
-\contentsline {section}{\numberline {2}Produkt-Topologie}{34}{section.3.2}
-\contentsline {subsection}{\numberline {2.1}Produkt-Topologie}{34}{subsection.3.2.1}
-\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{34}{section*.8}
-\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{35}{section.3.3}
-\contentsline {subsection}{\numberline {3.1}$C^l$-Abbildung}{35}{subsection.3.3.1}
-\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{35}{section*.9}
-\contentsline {paragraph}{Interpretation}{36}{section*.10}
-\contentsline {subsection}{\numberline {3.2}Untermannigfaltigkeit}{36}{subsection.3.3.2}
+\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{34}{section*.7}
+\contentsline {section}{\numberline {2}Produkt-Topologie}{35}{section.3.2}
+\contentsline {subsection}{\numberline {2.1}Produkt-Topologie}{35}{subsection.3.2.1}
+\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{35}{section*.8}
+\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{36}{section.3.3}
+\contentsline {subsection}{\numberline {3.1}$C^l$-Abbildung}{36}{subsection.3.3.1}
+\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{36}{section*.9}
+\contentsline {paragraph}{Interpretation}{37}{section*.10}
+\contentsline {subsection}{\numberline {3.2}Untermannigfaltigkeit}{37}{subsection.3.3.2}
