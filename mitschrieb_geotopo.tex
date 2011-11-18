@@ -994,9 +994,10 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
  
 \begin{example}
 	\begin{itemize}
-		\item $\R^2 \backslash \{0\} \cong S^1 \times \R^{> 0}$ (Polarkoordinaten) (TODO: Bild 2)
+		\item $\R^2 \backslash \{0\} \cong S^1 \times \R^{> 0}$ (Polarkoordinaten) \newline
+		\includegraphics[scale=0.4]{images/Polarkoordinaten.jpg}
 		\item $O(n) \cong SO(n) \times O(1)$
-		\item $(S^1)^n :=  \underbrace{S^1 \times \ldots \times S^1}_{\text{n mal}}$ heißt \underline{n-dimensionaler Torus} (TODO: Bild 3)
+		\item $(S^1)^n :=  \underbrace{S^1 \times \ldots \times S^1}_{\text{n mal}}$ heißt \underline{n-dimensionaler Torus} (TODO: Bild 3: Exkurs höherdimensionale Sphären)
 	\end{itemize}
 \end{example}
 
@@ -1006,8 +1007,8 @@ Es seien $(M, \mathcal{A})$ eine $n$-dimensionale $C^k$-Mannigfaltigkeit, $(M^\p
 $$\forall (\varphi,U) \in \mathcal{A} \text{ und } (\varphi^\prime, U^\prime) \in \mathcal{A}^\prime \text{ mit } f(U) \cap U^\prime \neq \emptyset \text{ ist}$$
 $$\boxed{\varphi^\prime \circ f \circ \varphi^{-1} \colon \varphi(U \cap f^{-1}(U^\prime)) \rightarrow \varphi^\prime(f(U)\cap U^\prime)}$$
 eine $C^l$-Abbildung im üblichen Sinn.
-(TODO: Bild 4)
 \end{Kasten}
+\includegraphics[scale=0.5]{images/Abb_diffbar.jpg}
  
 TODO: Exkurs über Tangentialvektoren, Vektorfelder, Satz vom Igel, Physik des starren Körpers, Differentialtopologie
 
@@ -1017,7 +1018,8 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
 \begin{theorem}[Äquivalente Beschreibungen einer Untermannigfaltigkeit von $\R^{n+l}$]
 	Für Teilmengen $M \subset \R^{n+l}$ sind äquivalent:
 	\begin{enumerate}[(a)]
-		\item $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) := \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ (TODO: Bild 5)
+		\item $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) := \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ 
+\includegraphics[scale=0.5]{images/Satz_UnterMf.jpg}
 		\item $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
 		$\varphi(U) \subset \R^{n+l}$ ist offen, $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
 		\item $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
@@ -1108,7 +1110,7 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 		 \newline
 		 Setze $W := \pi(\varphi(U \cap M))$ und definiere $\psi \colon W \rightarrow U$ durch $\psi := \varphi^{-1} \circ \iota$.
 		 \newline
-		 (TODO: Bild 1)
+\includegraphics[scale=0.5]{images/Beweis_Satz_UMF_Diagramm.jpg}
 		 \newline
 		 Dann ist $W$ offen und $\psi \colon W \rightarrow U \cap M$ ein Homöomorphismus, denn $\iota^\prime \colon W \rightarrow \varphi(U \cap M)$ ist Homöomorphismus und $\varphi^{-1} \colon \varphi(U \cap M) \rightarrow U \cap M$ ist Homöomorphismus.
 		 \newline

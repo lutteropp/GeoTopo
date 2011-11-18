@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  17 NOV 2011 17:11
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  19 NOV 2011 00:33
 entering extended mode
 **mitschrieb_geotopo.tex
 (mitschrieb_geotopo.tex
@@ -1363,8 +1363,11 @@ eparabel.
  []
 
 [35 <images/Produkt_RxR.jpg> <images/Kreis_Rechteck.jpg> <images/Kreis_Rechteck
-_Basis.jpg>]
-Underfull \hbox (badness 1331) in paragraph at lines 1005--1006
+_Basis.jpg>] <images/Polarkoordinaten.jpg, id=508, 465.4188pt x 286.1892pt>
+File: images/Polarkoordinaten.jpg Graphic file (type jpg)
+
+<use images/Polarkoordinaten.jpg>
+Underfull \hbox (badness 1331) in paragraph at lines 1006--1007
 \T1/lmr/m/it/10.95 ei-ne $\OML/cmm/m/it/10.95 n[]$\T1/lmr/m/it/10.95 -dimension
 ale $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeit und $\OML/cmm
 /m/it/10.95 l \OMS/lmr/m/n/10.95  []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 k;
@@ -1372,13 +1375,16 @@ ale $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeit und $\OML/cmm
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 1005--1006
+Underfull \hbox (badness 5189) in paragraph at lines 1006--1007
 \T1/lmr/m/it/10.95 Ei-ne ste-ti-ge Ab-bil-dung $\OML/cmm/m/it/10.95 f [] [] M \
 OMS/lmr/m/n/10.95 ! \OML/cmm/m/it/10.95 M[]$ \T1/lmr/m/it/10.95 heiÿt $[]$
  []
 
+<images/Abb_diffbar.jpg, id=509, 697.1646pt x 366.6498pt>
+File: images/Abb_diffbar.jpg Graphic file (type jpg)
 
-Overfull \hbox (5.67049pt too wide) detected at line 1020
+<use images/Abb_diffbar.jpg> [36 <images/Polarkoordinaten.jpg>]
+Overfull \hbox (5.67049pt too wide) detected at line 1021
 \OML/cmm/m/it/10.95 f \OMS/lmr/m/n/10.95 2 \OML/cmm/m/it/10.95 C[]\OT1/cmr/m/n/
 10.95 (\OML/cmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/cmr/m/n/10.95 ) := \OMS/
 lmr/m/n/10.95 f\OML/cmm/m/it/10.95 g [] [] U \OMS/lmr/m/n/10.95 ! \U/msb/m/n/10
@@ -1388,8 +1394,12 @@ ML/cmm/m/it/10.95 Df\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95
 /n/10.95 2 \OML/cmm/m/it/10.95 U
  []
 
+<images/Satz_UnterMf.jpg, id=521, 381.5856pt x 406.6392pt>
+File: images/Satz_UnterMf.jpg Graphic file (type jpg)
 
-Overfull \hbox (36.05983pt too wide) detected at line 1022
+<use images/Satz_UnterMf.jpg> [37 <images/Abb_diffbar.jpg> <images/Satz_UnterMf
+.jpg>]
+Overfull \hbox (36.05983pt too wide) detected at line 1024
 \OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U \OMS/lmr/m/n/10.
 95 \ \OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 '\OT1/cmr/
 m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 ) \OMS/lmr/m/n/10.95 \ \OT1/
@@ -1401,19 +1411,19 @@ OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95
 cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = 0\OMS/lmr/m/n/10.95 g
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 \T1/lmr/m/it/10.95 Eine Men-ge $\OML/cmm/m/it/10.95 M \OMS/lmr/m/n/10.95  \U/m
 sb/m/n/10.95 R[]$\T1/lmr/m/it/10.95 , die ei-ne der Be-din-gun-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 \T1/lmr/m/it/10.95 (a), (b) oder (c) er-füllt, heiÿt dann $[]$
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 1048--1049
+Underfull \hbox (badness 4967) in paragraph at lines 1050--1051
 []$\OMS/lmr/m/n/10.95 8\OML/cmm/m/it/10.95 x[] \OMS/lmr/m/n/10.95 2 \OML/cmm/m/
 it/10.95 M\OMS/lmr/m/n/10.95 9\OML/cmm/m/it/10.95 U \OT1/cmr/m/n/10.95 = \OML/c
 mm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) 
@@ -1422,30 +1432,35 @@ mm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )
 sb/m/n/10.95 R[]\OT1/cmr/m/n/10.95 )$
  []
 
-[37] [38] [39]
-Overfull \hbox (24.1837pt too wide) in paragraph at lines 1146--1149
+[38] [39]
+<images/Beweis_Satz_UMF_Diagramm.jpg, id=549, 378.213pt x 174.8934pt>
+File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
+
+<use images/Beweis_Satz_UMF_Diagramm.jpg> [40 <images/Beweis_Satz_UMF_Diagramm.
+jpg>]
+Overfull \hbox (24.1837pt too wide) in paragraph at lines 1148--1151
 []\T1/lmr/bx/n/10.95 Satz III.3. []\T1/lmr/m/it/10.95 ($\OML/cmm/m/it/10.95 C[]
 $\T1/lmr/m/it/10.95 -Untermannigfaltigkeiten von $\U/msb/m/n/10.95 R[]$ \T1/lmr
 /m/it/10.95 sind $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeite
 n)
  []
 
-[40] (mitschrieb_geotopo.aux)
+[41] (mitschrieb_geotopo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14354 strings out of 95516
- 236647 string characters out of 1189554
- 274929 words of memory out of 1273089
- 16441 multiletter control sequences out of 35000
+ 14383 strings out of 95516
+ 237281 string characters out of 1189554
+ 274927 words of memory out of 1273087
+ 16457 multiletter control sequences out of 35000
  75408 words of font info for 74 fonts, out of 500000 for 1000
  14 hyphenation exceptions out of 607
  56i,12n,55p,563b,627s stack positions out of 1500i,500n,5000p,200000b,32768s
- 550 PDF objects out of 300000
- 222 named destinations out of 300000
- 409 words of extra memory for PDF output out of 65536
+ 558 PDF objects out of 300000
+ 223 named destinations out of 300000
+ 429 words of extra memory for PDF output out of 65536
 <C:\texmf\fonts\type1\bluesky\cm\cmsy6.pfb><C:\texmf\fonts\type1\bluesky\symb
 ols\msbm7.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\fonts\type1
 \bluesky\cm\cmmi6.pfb>{cork-lm.enc}<C:\texmf\fonts\type1\public\lm\lmr9.pfb><C:
@@ -1462,4 +1477,4 @@ type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi10.pfb><C:\tex
 mf\fonts\type1\public\lm\lmri10.pfb><C:\texmf\fonts\type1\public\lm\lmbx10.pfb>
 <C:\texmf\fonts\type1\public\lm\lmr10.pfb><C:\texmf\fonts\type1\public\lm\lmr12
 .pfb><C:\texmf\fonts\type1\public\lm\lmbx12.pfb>
-Output written on mitschrieb_geotopo.pdf (41 pages, 3204445 bytes).
+Output written on mitschrieb_geotopo.pdf (42 pages, 3385740 bytes).
