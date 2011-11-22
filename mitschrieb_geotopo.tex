@@ -1149,5 +1149,106 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 	Es sei $M \subseteq \R^{n+l}$ $n$-dimensionale $C^\infty$-Untermannigfaltigkeit von $\R^{n+l}$ und $\{\psi_\alpha \colon W_\alpha \rightarrow U_\alpha \cap M \mid \alpha \in \Lambda\}$ eine Menge lokaler Parametrisierungen (wie in (c)) mit $M \subseteq \bigcup\limits_{\alpha \in \Lambda}{U_\alpha}$.
 	Dann ist $\mathcal{A} = \{(\psi_\alpha^{-1}, U_\alpha \cap M) \mid \alpha \in \Lambda\}$ ein $C^\infty$-Atlas und $M$ eine $C^\infty$-Mannigfaltigkeit.
 \end{theorem}
+
+% hier beginnt der 22.11.11
+
+(TODO:Bild)
  
+\section{Quotientenräume}
+\paragraph{Erinnerung} Jede Partition (TODO:Bild) $S$ einer Menge $X$ bestimmt eine Äquivalenzrelation auf $X$ (und umgekehrt).
+\newline
+Menge der Äquivalenzklassen (oder auch: Quotient von $X$ nach $S$) ist $X/S$.
+Zusätzlich existiert dann die Quotientenabbildung $\pi \colon X \rightarrow X/S, x \mapsto [x]$ 
+
+\begin{remark}
+	Ist $X$ ein topologischer Raum und $X/S$ ein Quotientenraum von $X$, so gibt es auf $X/S$ eine natürliche Topologie:
+\end{remark}
+
+\begin{Kasten}{Quotienten(raum)topologie}
+	Eine Teilmenge $U \subset X/S$ heißt \underline{offen}
+	$:\Leftrightarrow \pi^{-1}(U)$ ist offen in $X$
+\end{Kasten}
+ 
+\begin{remark}
+	Alle im Sinne dieser Definition offenen Teilmengen von $X/S$ definieren dann eine Topologie auf $X/S$ und die Menge $X/S$ zusammen mit dieser Topologie heißt \underline{Qotienten\underline{raum}} von $X$ nach $S$.
+\end{remark}
+
+\begin{remark}
+	$\pi \colon X \rightarrow X/S$, $X/S$ versehen mit der Quotiententopologie, ist dann eine  \underline{stetige} Abbildung zwischen topologischen Räumen.
+\end{remark}
+
+\paragraph{Eigenschaften der Quotiententopologie}
+\begin{itemize}
+	\item Quotientenräume zusammenhängender Räume sind zusammenhängend.
+	\item Quotientenräume wegzusammenhängender Räume sind wegzusammenhängend.
+	\item Quotientenräume separabler Räume sind separabel.
+	\item Quotientenräume kompakter Räume sind kompakt.
+\end{itemize}
+
+\paragraph{Achtung:}
+Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
+
+\begin{example}
+	$X = \R, \quad S:= \{\R^{>0}, \R \backslash \R^{>0}\}$
+	(TODO: Bild)(TODO:Bild)
+	\newline
+	$\alpha \in \R \backslash \Q$: \underline{\underline{ÜBEL!}}
+	(TODO:Bild)
+	\newline
+	$t \mapsto e^{2 \pi i t}$
+	\newline
+	$T^2$ ist Hausdorffsch, $T^2/\textcolor{red}{\sim \underline{nicht}!}$
+\end{example}
+
+\paragraph{TODO: Exkurs: Instabilität von Planetensystemen}
+
+
+
+\section{Quotientenabbildungen}
+Ist $S$ eine Partition von $X$ in nichtleere disjunkte Teilmengen und $f \colon X \rightarrow Y$ eine Abbildung, (TODO: Bild) die auf jedem Element von $S$ konstant ist, so existiert eine Abbildung $X/S \rightarrow Y$, die jedes Element $A$ von $S$ auf $f(a), a \in A,$ abbildet.
+Diese heißt dann \textbf{Quotientenabbildung} von $f$ nach $S$, $f/S$.
+
+\paragraph{Interpretation}
+(TODO:Bild)
+
+\paragraph{Allgemeiner}
+$S$ Partition von $X$, $T$ Partition von $Y$
+\newline
+$\Rightarrow$ Jede Abbildung $f \colon X \rightarrow Y$, die jedes Element von $S$ auf ein Element von $T$ abbildet, induziert eine Abbildung 
+$$f/_{S,T} \colon X/S \rightarrow Y/T$$
+(TODO: Bild)
+
+\begin{remark}
+	Sind $X,Y$ topologische Räume, $S$ Partition von $X$ und $f \colon X \rightarrow Y$ auf Elementen von $S$ konstante, \underline{stetige} Abbildung, so ist auch $f/S \colon X/S \rightarrow Y$ stetig.
+	\newline
+	$f \mapsto f/S$ ist \underline{dann} Bijektion! 
+\end{remark}
+
+\paragraph{Erinnerung}
+$F \colon X \rightarrow Y$ stetige Bijektion von einem kompakten Raum $X$ auf einen Hausdorff-Raum $Y$ $\Rightarrow$ $F$ ist Homöomorphismus!
+
+\begin{corollary}
+	$X$ kompakt, $Y$ Hausdorffsch und $f \colon X \rightarrow Y$ sei stetig 
+	$\Rightarrow$ Der \underline{injektive Quotient} $f/_{S(f)}$ ist Homöomorphismus $X/_{S(f)} \rightarrow f(X)$
+\end{corollary}
+
+%\paragraph{Beispiel/Definition}
+\begin{Kasten}{injektiver Quotient}
+\underline{\underline{Jede}} Abbildung $f \colon X \rightarrow Y$ definiert eine Partition $S = S(f)$ von $X$, und zwar in die nichtleeren Urbilder der Elemente von $Y$ unter $f$.
+\newline
+Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \underline{injektiv} und heißt \underline{injektiver Quotient} von $f$.
+\end{Kasten}
+
+\begin{example}
+	(TODO: Bild)
+	\newline
+	$(x,0) \sim (x,1)$
+	\newline
+	$(0,y) \sim (1,y)$
+	\newline
+	(TODO: Bild)
+	$(x,0) \sim (1-x,1)$
+	\newline Möbiusband (TODO: Bild)
+\end{example}
+
 \end{document}

@@ -69,3 +69,14 @@
 \contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{37}{section*.9}
 \contentsline {paragraph}{Interpretation}{38}{section*.10}
 \contentsline {subsection}{\numberline {3.2}Untermannigfaltigkeit}{38}{subsection.3.3.2}
+\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{41}{section.3.4}
+\contentsline {paragraph}{Erinnerung}{41}{section*.11}
+\contentsline {subsection}{\numberline {4.1}Quotienten(raum)topologie}{41}{subsection.3.4.1}
+\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{42}{section*.12}
+\contentsline {paragraph}{Achtung:}{42}{section*.13}
+\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{42}{section*.14}
+\contentsline {section}{\numberline {5}Quotientenabbildungen}{42}{section.3.5}
+\contentsline {paragraph}{Interpretation}{42}{section*.15}
+\contentsline {paragraph}{Allgemeiner}{42}{section*.16}
+\contentsline {paragraph}{Erinnerung}{43}{section*.17}
+\contentsline {subsection}{\numberline {5.1}injektiver Quotient}{43}{subsection.3.5.1}
