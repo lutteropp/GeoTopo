@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  22 NOV 2011 23:09
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  22 NOV 2011 23:21
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -1510,46 +1510,47 @@ n)
 [41] <images/Quotientenabbildung.jpg, id=515, 395.076pt x 235.6002pt>
 File: images/Quotientenabbildung.jpg Graphic file (type jpg)
 
-<use images/Quotientenabbildung.jpg>
-<images/f_modulo_S_Diagramm.jpg, id=516, 305.4612pt x 253.9086pt>
+<use images/Quotientenabbildung.jpg> [42 <./images/Quotientenabbildung.jpg>]
+<images/f_modulo_S_Diagramm.jpg, id=528, 305.4612pt x 253.9086pt>
 File: images/f_modulo_S_Diagramm.jpg Graphic file (type jpg)
 
-<use images/f_modulo_S_Diagramm.jpg> [42 <./images/Quotientenabbildung.jpg>]
-<images/f_modulo_S_T_Diagramm.jpg, id=527, 317.0244pt x 281.3712pt>
+<use images/f_modulo_S_Diagramm.jpg>
+<images/f_modulo_S_T_Diagramm.jpg, id=529, 317.0244pt x 281.3712pt>
 File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_T_Diagramm.jpg> [43 <./images/f_modulo_S_Diagramm.jpg> <
 ./images/f_modulo_S_T_Diagramm.jpg>] [44] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 9542 strings out of 256216
- 145163 string characters out of 1917072
+ 9545 strings out of 256216
+ 145207 string characters out of 1917072
  211696 words of memory out of 1500000
- 12207 multiletter control sequences out of 10000+200000
- 89396 words of font info for 71 fonts, out of 1200000 for 2000
+ 12208 multiletter control sequences out of 10000+200000
+ 93671 words of font info for 72 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  45i,12n,61p,563b,646s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/
+re/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/
 fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 }</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-y8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/font
-s/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10
-.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (45 pages, 3543480 bytes).
+e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.
+pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/font
+s/type1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (45 pages, 3557725 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 244 named destinations out of 1000 (max. 131072)
+ 684 PDF objects out of 1000 (max. 8388607)
+ 245 named destinations out of 1000 (max. 131072)
  448 words of extra memory for PDF output out of 10000 (max. 10000000)
 

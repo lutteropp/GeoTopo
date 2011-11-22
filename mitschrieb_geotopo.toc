@@ -76,7 +76,8 @@
 \contentsline {paragraph}{Achtung:}{42}{section*.13}
 \contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{42}{section*.14}
 \contentsline {section}{\numberline {5}Quotientenabbildungen}{42}{section.3.5}
+\contentsline {subsection}{\numberline {5.1}Quotientenabbildung}{42}{subsection.3.5.1}
 \contentsline {paragraph}{Interpretation}{43}{section*.15}
 \contentsline {paragraph}{Allgemeiner}{43}{section*.16}
 \contentsline {paragraph}{Erinnerung}{43}{section*.17}
-\contentsline {subsection}{\numberline {5.1}injektiver Quotient}{43}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {5.2}injektiver Quotient}{43}{subsection.3.5.2}
