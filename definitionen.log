@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  22 NOV 2011 23:08
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  23 NOV 2011 11:14
 entering extended mode
  %&-line parsing enabled.
 **definitionen.tex
@@ -907,29 +907,16 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.179 \section
-              {Teilraumtopologie} [1]
+              *{Teilraumtopologie} [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 202.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 202.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `\epsilon' on input line 202.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 202.
-
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 205.
 
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
@@ -972,7 +959,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
  []
 
-<images/homotopieaequivalenz.jpg, id=271, 330.9966pt x 256.7994pt>
+<images/homotopieaequivalenz.jpg, id=289, 330.9966pt x 256.7994pt>
 File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
 <use images/homotopieaequivalenz.jpg>
@@ -1019,34 +1006,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--323
  []
 
 
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `subscript' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 329.
-
-
 Overfull \hbox (21.43134pt too wide) in paragraph at lines 330--333
 \T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/
 n/10.95 heiÿt $[]$ bzw. $[]$
  []
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 335.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `subscript' on input line 335.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 335.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 342--344
@@ -1066,34 +1029,9 @@ Overfull \hbox (26.73549pt too wide) in paragraph at lines 380--383
  []
 
 [7]
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `superscript' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 391.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 401.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `superscript' on input line 401.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 401.
 
 
 Overfull \hbox (23.19408pt too wide) in paragraph at lines 402--404
@@ -1114,51 +1052,199 @@ ie-se heiÿt
  []
 
 [8]
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `superscript' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 413.
-
-
 Overfull \hbox (40.03812pt too wide) in paragraph at lines 421--422
 \T1/lmr/m/n/10.95 heiÿt dann $[]$ $[]$. 
  []
 
 [9] [10] (./definitionen.aux) ) 
 Here is how much of TeX's memory you used:
- 9071 strings out of 256216
- 134529 string characters out of 1917072
+ 9124 strings out of 256216
+ 135107 string characters out of 1917072
  209603 words of memory out of 1500000
- 11970 multiletter control sequences out of 10000+200000
+ 11969 multiletter control sequences out of 10000+200000
  66968 words of font info for 74 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,12n,43p,493b,492s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/l
-m/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb
->
-Output written on definitionen.pdf (11 pages, 322652 bytes).
+ 45i,11n,43p,493b,422s stack positions out of 5000i,500n,6000p,200000b,15000s
+pdfTeX warning (dest): name{section.0.54} has be
+en referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.53} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.52} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.51} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.50} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.49} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.48} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.47} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.46} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.45} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.44} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.43} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.42} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.41} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.40} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.39} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.38} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.37} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.36} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.35} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.34} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.33} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.32} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.31} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.30} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.29} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.28} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.0.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></u
+sr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on definitionen.pdf (11 pages, 325713 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 131072)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 131072)
  459 words of extra memory for PDF output out of 10000 (max. 10000000)
 
