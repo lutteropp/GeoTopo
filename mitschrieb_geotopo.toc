@@ -3,27 +3,27 @@
 \contentsline {chapter}{\numberline {I}Homotopie und Fundamentalgruppe}{2}{chapter.1}
 \contentsline {section}{\numberline {0}Vorwort}{2}{section.1.0}
 \contentsline {paragraph}{Erinnerung}{4}{section*.9}
-\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{9}{section.1.1}
+\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{10}{section.1.1}
 \contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{12}{section*.25}
 \contentsline {paragraph}{Erinnerung}{14}{section*.31}
-\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{21}{chapter.2}
-\contentsline {section}{\numberline {1}Trennungseigenschaften}{27}{section.2.1}
-\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{28}{section.2.2}
-\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{32}{chapter.3}
-\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{32}{section.3.1}
-\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{32}{section*.84}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{36}{section*.90}
-\contentsline {section}{\numberline {2}Produkt-Topologie}{37}{section.3.2}
-\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{37}{section*.93}
-\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{38}{section.3.3}
-\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{39}{section*.97}
-\contentsline {paragraph}{Interpretation}{40}{section*.98}
-\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{43}{section.3.4}
-\contentsline {paragraph}{Erinnerung}{43}{section*.101}
-\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{44}{section*.103}
-\contentsline {paragraph}{Achtung:}{44}{section*.104}
-\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{44}{section*.106}
-\contentsline {section}{\numberline {5}Quotientenabbildungen}{44}{section.3.5}
-\contentsline {paragraph}{Interpretation}{45}{section*.108}
-\contentsline {paragraph}{Allgemeiner}{45}{section*.109}
-\contentsline {paragraph}{Erinnerung}{46}{section*.110}
+\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{22}{chapter.2}
+\contentsline {section}{\numberline {1}Trennungseigenschaften}{28}{section.2.1}
+\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{30}{section.2.2}
+\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{33}{chapter.3}
+\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{33}{section.3.1}
+\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{33}{section*.84}
+\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{37}{section*.90}
+\contentsline {section}{\numberline {2}Produkt-Topologie}{38}{section.3.2}
+\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{38}{section*.93}
+\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{40}{section.3.3}
+\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{40}{section*.97}
+\contentsline {paragraph}{Interpretation}{41}{section*.98}
+\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{45}{section.3.4}
+\contentsline {paragraph}{Erinnerung}{45}{section*.101}
+\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{45}{section*.103}
+\contentsline {paragraph}{Achtung:}{45}{section*.104}
+\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{45}{section*.106}
+\contentsline {section}{\numberline {5}Quotientenabbildungen}{46}{section.3.5}
+\contentsline {paragraph}{Interpretation}{46}{section*.108}
+\contentsline {paragraph}{Allgemeiner}{46}{section*.109}
+\contentsline {paragraph}{Erinnerung}{47}{section*.110}
