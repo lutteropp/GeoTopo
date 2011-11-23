@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  23 NOV 2011 10:41
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  23 NOV 2011 11:11
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -779,21 +779,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  (./mitschrieb_geotopo.aux)
 \openout1 = `mitschrieb_geotopo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 132.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
@@ -824,10 +824,10 @@ LaTeX Info: Redefining \selectfont on input line 125.
 \JustifyingParindent=\skip81
 )
 Package caption Info: hyperref package v6.74m (or newer) detected on input line
- 120.
-Package caption Info: subref 1.2 or 1.3 detected on input line 120.
-LaTeX Info: Redefining \subref on input line 120.
-Package hyperref Info: Link coloring ON on input line 120.
+ 132.
+Package caption Info: subref 1.2 or 1.3 detected on input line 132.
+LaTeX Info: Redefining \subref on input line 132.
+Package hyperref Info: Link coloring ON on input line 132.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
@@ -837,8 +837,8 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
  (./mitschrieb_geotopo.out)
 (./mitschrieb_geotopo.out)
 \@outlinefile=\write4
@@ -896,7 +896,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \chapter
+l.159 \chapter
               {Homotopie und Fundamentalgruppe} [1
 
 ]
@@ -907,14 +907,14 @@ Kapitel I.
 
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<images/stetigeAbb.pdf, id=104, 553.81313pt x 338.39552pt>
+<images/stetigeAbb.pdf, id=103, 553.81313pt x 338.39552pt>
 File: images/stetigeAbb.pdf Graphic file (type pdf)
 
 <use images/stetigeAbb.pdf>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 201.
+(Font)              <9> on input line 212.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 201.
+(Font)              <5> on input line 212.
  [3 <./images/stetigeAbb.pdf
 
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
@@ -935,14 +935,14 @@ File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 File: images/Homotopie_param.jpg Graphic file (type jpg)
 
 <use images/Homotopie_param.jpg>
-Underfull \hbox (badness 1789) in paragraph at lines 224--225
+Underfull \hbox (badness 1789) in paragraph at lines 234--235
  \T1/lmr/bx/n/10.95 Er-in-ne-rung[] \T1/lmr/m/n/10.95 Sind $\OML/lmm/m/it/10.95
  X$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 to-po-lo-gi
 -sche Räu-me, so ist ei-ne Ho-
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 224--225
+Underfull \hbox (badness 1540) in paragraph at lines 234--235
 \T1/lmr/m/n/10.95 mo-to-pie $\OML/lmm/m/it/10.95 H \OT1/lmr/m/n/10.95 = (\OML/l
 mm/m/it/10.95 h[]\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; t \OMS/lmsy/m/n/10.9
 5 2 \OT1/lmr/m/n/10.95 [0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]$\T1/lmr/m/
@@ -950,7 +950,7 @@ n/10.95 , ei-ne pa-ra-me-tri-sier-te Schar von ste-
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 224--225
+Underfull \hbox (badness 4084) in paragraph at lines 234--235
 \T1/lmr/m/n/10.95 ti-gen Ab-bil-dun-gen $\OML/lmm/m/it/10.95 h[] [] [] X \OMS/l
 msy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 mit $[]$ $\OML/lmm/m/i
 t/10.95 h[]$ \T1/lmr/m/n/10.95 und En-de $\OML/lmm/m/it/10.95 h[]$\T1/lmr/m/n/1
@@ -981,26 +981,21 @@ File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Nullhomotopie.jpg, id=151, 577.6782pt x 338.2236pt>
+[6 <./images/Homotopie_Transitivitaet.jpg> <./images/Aequivalenzklassen.jpg>]
+<images/Nullhomotopie.jpg, id=159, 577.6782pt x 338.2236pt>
 File: images/Nullhomotopie.jpg Graphic file (type jpg)
 
-<use images/Nullhomotopie.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6 <./images/Homotopie_Transitivitaet.jpg> <./images/Aequivalenzklassen.jpg>]
-<images/Geschlossene_Wege.jpg, id=162, 551.1792pt x 403.2666pt>
+<use images/Nullhomotopie.jpg> [7 <./images/R_n_immer_homotop.jpg> <./images/Nu
+llhomotopie.jpg>]
+<images/Geschlossene_Wege.jpg, id=167, 551.1792pt x 403.2666pt>
 File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
 
 <use images/Geschlossene_Wege.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/R2_ohne_0.jpg, id=163, 500.5902pt x 375.804pt>
+<images/R2_ohne_0.jpg, id=168, 500.5902pt x 375.804pt>
 File: images/R2_ohne_0.jpg Graphic file (type jpg)
 
-<use images/R2_ohne_0.jpg> [7 <./images/R_n_immer_homotop.jpg> <./images/Nullho
-motopie.jpg>] <images/S1_und_R2_ohne_0.jpg, id=170, 631.6398pt x 459.1554pt>
+<use images/R2_ohne_0.jpg>
+<images/S1_und_R2_ohne_0.jpg, id=169, 631.6398pt x 459.1554pt>
 File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 
 <use images/S1_und_R2_ohne_0.jpg>
@@ -1008,417 +1003,385 @@ File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/Geschlossene_Wege.jpg> <./images/R2_ohne_0.jpg>]
-<images/Teilraumtopologie.jpg, id=177, 616.2222pt x 476.0184pt>
+<images/Teilraumtopologie.jpg, id=176, 616.2222pt x 476.0184pt>
 File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 
 <use images/Teilraumtopologie.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-[]$\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 O \OT1/lmr/m/n/10.95 := \OMS/lmsy
-/m/n/10.95 f\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/n/10.95 ;g$
- []
 
-[9 <./images/S1_und_R2_ohne_0.jpg> <./images/Teilraumtopologie.jpg>]
-Underfull \hbox (badness 6625) in paragraph at lines 356--358
-$\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \OML/lmm/m/it/10.95 X; X$ \T1/lm
-r/m/sl/10.95 to-po-lo-gi-scher Raum, heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/
-m/n/10.95 ,
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/offener_Kreis.jpg, id=185, 209.1012pt x 208.6194pt>
+[9 <./images/S1_und_R2_ohne_0.jpg>] [10 <./images/Teilraumtopologie.jpg>]
+<images/offener_Kreis.jpg, id=203, 209.1012pt x 208.6194pt>
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 
 <use images/offener_Kreis.jpg>
-<images/offenes_Quadrat.jpg, id=186, 219.7008pt x 220.1826pt>
+<images/offenes_Quadrat.jpg, id=204, 219.7008pt x 220.1826pt>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
-<use images/offenes_Quadrat.jpg> [10 <./images/offener_Kreis.jpg> <./images/off
-enes_Quadrat.jpg>]
-<images/Cantormenge_5te_Iteration.jpg, id=208, 183.68625pt x 82.80937pt>
+<use images/offenes_Quadrat.jpg>
+<images/Cantormenge_5te_Iteration.jpg, id=205, 183.68625pt x 82.80937pt>
 File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
 
 <use images/Cantormenge_5te_Iteration.jpg>
-Underfull \hbox (badness 3449) in paragraph at lines 394--396
-\T1/lmr/m/sl/10.95 Ist $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; \OMS/lmsy/m/
-n/10.95 O\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/sl/10.95 to-po-lo-gi-scher Raum mit $\
-OMS/lmsy/m/n/10.95 B ^^Z O$\T1/lmr/m/sl/10.95 , so heiÿt $\OMS/lmsy/m/n/10.95 B
-$
- []
-
 File: images/offener_Kreis.jpg Graphic file (type jpg)
-<use images/offener_Kreis.jpg>
+ <use images/offener_Kreis.jpg>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
- <use images/offenes_Quadrat.jpg>
-<images/Quadrate_Schnitt.jpg, id=209, 281.853pt x 214.401pt>
+
+<use images/offenes_Quadrat.jpg> [11 <./images/offener_Kreis.jpg> <./images/off
+enes_Quadrat.jpg> <./images/Cantormenge_5te_Iteration.jpg>]
+<images/Quadrate_Schnitt.jpg, id=217, 281.853pt x 214.401pt>
 File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Quadrate_Schnitt.jpg>
-<images/Kreis_Schnitt.jpg, id=210, 345.4506pt x 211.5102pt>
+<images/Kreis_Schnitt.jpg, id=218, 345.4506pt x 211.5102pt>
 File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
 
-<use images/Kreis_Schnitt.jpg> [11 <./images/Cantormenge_5te_Iteration.jpg> <./
-images/Quadrate_Schnitt.jpg> <./images/Kreis_Schnitt.jpg>]
+<use images/Kreis_Schnitt.jpg>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 429.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 432.
+(Font)              <12> on input line 435.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 438.
 
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 432.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 438.
 
-<images/metrischer_unterraum.jpg, id=222, 190.311pt x 231.264pt>
+[12 <./images/Quadrate_Schnitt.jpg> <./images/Kreis_Schnitt.jpg>]
+<images/metrischer_unterraum.jpg, id=231, 190.311pt x 231.264pt>
 File: images/metrischer_unterraum.jpg Graphic file (type jpg)
 
 <use images/metrischer_unterraum.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 453--458
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
  []
 
-[12 <./images/metrischer_unterraum.jpg>]
-<images/Durchmesser.jpg, id=235, 316.5426pt x 200.9106pt>
+<images/Durchmesser.jpg, id=232, 316.5426pt x 200.9106pt>
 File: images/Durchmesser.jpg Graphic file (type jpg)
 
 <use images/Durchmesser.jpg>
-Underfull \hbox (badness 1178) in paragraph at lines 462--463
+Underfull \hbox (badness 1178) in paragraph at lines 468--469
 []\T1/lmr/bx/n/10.95 Bemerkung I.11. []\T1/lmr/m/it/10.95 In ei-nem me-tri-sche
 n Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/it/10.95 bil-den die of-
  []
 
-<images/metrisch_offen.jpg, id=236, 523.2348pt x 437.4744pt>
+<images/metrisch_offen.jpg, id=233, 523.2348pt x 437.4744pt>
 File: images/metrisch_offen.jpg Graphic file (type jpg)
 
-<use images/metrisch_offen.jpg> [13 <./images/Durchmesser.jpg> <./images/metris
-ch_offen.jpg>]
-<images/offen_abgeschlossen.jpg, id=245, 635.976pt x 376.2858pt>
+<use images/metrisch_offen.jpg> [13 <./images/metrischer_unterraum.jpg> <./imag
+es/Durchmesser.jpg>]
+<images/offen_abgeschlossen.jpg, id=243, 635.976pt x 376.2858pt>
 File: images/offen_abgeschlossen.jpg Graphic file (type jpg)
 
-<use images/offen_abgeschlossen.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 500--502
+<use images/offen_abgeschlossen.jpg> [14 <./images/metrisch_offen.jpg> <./image
+s/offen_abgeschlossen.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
 
  []
 
-<images/innen_aussen.jpg, id=247, 523.2348pt x 437.4744pt>
+<images/innen_aussen.jpg, id=251, 523.2348pt x 437.4744pt>
 File: images/innen_aussen.jpg Graphic file (type jpg)
 
-<use images/innen_aussen.jpg> [14 <./images/offen_abgeschlossen.jpg>]
-LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 538.
- [15 <./images/innen_aussen.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 545--548
-$\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1
-/lmr/m/sl/10.95 ist ste-tig in $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
-L/lmm/m/it/10.95 X$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
- []
+<use images/innen_aussen.jpg> [15 <./images/innen_aussen.jpg>]
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 544.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--548
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
-<images/stetig_in_x.jpg, id=269, 630.6762pt x 405.6756pt>
+[16] <images/stetig_in_x.jpg, id=272, 630.6762pt x 405.6756pt>
 File: images/stetig_in_x.jpg Graphic file (type jpg)
 
-<use images/stetig_in_x.jpg> [16 <./images/stetig_in_x.jpg>]
-<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=278, 648.021pt x 356.0502pt>
+<use images/stetig_in_x.jpg> [17 <./images/stetig_in_x.jpg>]
+<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=281, 648.021pt x 356.0502pt>
 File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
 
-<use images/0_1_nach_S1_f-1_nicht_stetig.jpg> [17 <./images/0_1_nach_S1_f-1_nic
-ht_stetig.jpg>]
-<images/Stereographie_S1_R1.jpg, id=289, 590.6868pt x 331.4784pt>
+<use images/0_1_nach_S1_f-1_nicht_stetig.jpg>
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 599.
+ [18 <./images/0_1_nach_S1_f-1_nicht_stetig.jpg>]
+<images/Stereographie_S1_R1.jpg, id=292, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
-<images/Stereographie_S2_R2.jpg, id=290, 590.6868pt x 393.6306pt>
+<images/Stereographie_S2_R2.jpg, id=293, 590.6868pt x 393.6306pt>
 File: images/Stereographie_S2_R2.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S2_R2.jpg>
-Overfull \hbox (56.28528pt too wide) in paragraph at lines 608--615
+Overfull \hbox (55.92027pt too wide) in paragraph at lines 615--622
 [] [] 
  []
 
 
-Overfull \hbox (4.43005pt too wide) in paragraph at lines 608--615
-\T1/lmr/m/it/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-ph
-is-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\
-OMS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
+Overfull \hbox (5.25787pt too wide) in paragraph at lines 615--622
+\T1/lmr/m/n/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-phi
+s-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\O
+MS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
  []
 
-<images/0_1_nach_S1_Pfeil.jpg, id=291, 678.3744pt x 361.35pt>
+<images/0_1_nach_S1_Pfeil.jpg, id=294, 678.3744pt x 361.35pt>
 File: images/0_1_nach_S1_Pfeil.jpg Graphic file (type jpg)
 
-<use images/0_1_nach_S1_Pfeil.jpg> [18 <./images/Stereographie_S1_R1.jpg> <./im
+<use images/0_1_nach_S1_Pfeil.jpg> [19 <./images/Stereographie_S1_R1.jpg> <./im
 ages/Stereographie_S2_R2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
-[]$[]$ \T1/lmr/m/it/10.95 aus
+Underfull \hbox (badness 5446) in paragraph at lines 632--635
+[]$[]$ \T1/lmr/m/n/10.95 aus
  []
 
-<images/homotopieaequivalenz.jpg, id=301, 330.9966pt x 256.7994pt>
+<images/homotopieaequivalenz.jpg, id=304, 330.9966pt x 256.7994pt>
 File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
 <use images/homotopieaequivalenz.jpg>
-Underfull \hbox (badness 7081) in paragraph at lines 633--635
+Underfull \hbox (badness 7081) in paragraph at lines 639--641
 \T1/lmr/m/sl/10.95 Zwei Ein-bet-tun-gen $\OML/lmm/m/it/10.95 f; g [] [] X \OMS/
 lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/sl/10.95 hei-ÿen $[]$ $\OT1/l
 mr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
  []
 
-<images/Knoten_Kreis.jpg, id=302, 184.5294pt x 184.5294pt>
+<images/Knoten_Kreis.jpg, id=305, 184.5294pt x 184.5294pt>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_Kreis.jpg>
-<images/Knoten_aequivalent_zu_Kreis.jpg, id=303, 241.3818pt x 223.0734pt>
+<images/Knoten_aequivalent_zu_Kreis.jpg, id=306, 241.3818pt x 223.0734pt>
 File: images/Knoten_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_aequivalent_zu_Kreis.jpg>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
  <use images/Knoten_Kreis.jpg>
-<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=304, 241.8636pt x 223.5552pt>
+<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=307, 241.8636pt x 223.5552pt>
 File: images/Knoten_nicht_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
-<use images/Knoten_nicht_aequivalent_zu_Kreis.jpg> [19 <./images/0_1_nach_S1_Pf
+<use images/Knoten_nicht_aequivalent_zu_Kreis.jpg> [20 <./images/0_1_nach_S1_Pf
 eil.jpg> <./images/homotopieaequivalenz.jpg> <./images/Knoten_Kreis.jpg> <./ima
 ges/Knoten_aequivalent_zu_Kreis.jpg> <./images/Knoten_nicht_aequivalent_zu_Krei
 s.jpg>]
 Kapitel II.
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--660
+Underfull \hbox (badness 10000) in paragraph at lines 660--666
 
  []
 
-<images/Ueberdeckung.jpg, id=312, 661.9932pt x 502.9992pt>
+<images/Ueberdeckung.jpg, id=315, 661.9932pt x 502.9992pt>
 File: images/Ueberdeckung.jpg Graphic file (type jpg)
 
-<use images/Ueberdeckung.jpg> [20
+<use images/Ueberdeckung.jpg> [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 664--666
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
 
  []
 
-<images/Partition.jpg, id=319, 638.385pt x 276.5532pt>
+<images/Partition.jpg, id=322, 638.385pt x 276.5532pt>
 File: images/Partition.jpg Graphic file (type jpg)
 
-<use images/Partition.jpg> [21 <./images/Ueberdeckung.jpg> <./images/Partition.
+<use images/Partition.jpg> [22 <./images/Ueberdeckung.jpg> <./images/Partition.
 jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
 []$\OML/lmm/m/it/10.95 A$
  []
 
-<images/R_ohne_p.jpg, id=327, 327.624pt x 92.5056pt>
+[23] <images/R_ohne_p.jpg, id=341, 327.624pt x 92.5056pt>
 File: images/R_ohne_p.jpg Graphic file (type jpg)
- <use images/R_ohne_p.jpg>
-<images/R2_ohne_p.jpg, id=328, 256.7994pt x 211.0284pt>
+
+<use images/R_ohne_p.jpg>
+<images/R2_ohne_p.jpg, id=342, 256.7994pt x 211.0284pt>
 File: images/R2_ohne_p.jpg Graphic file (type jpg)
 
-<use images/R2_ohne_p.jpg> [22]
-<images/Waffel_zshgd.jpg, id=341, 607.5498pt x 467.8278pt>
+<use images/R2_ohne_p.jpg>
+<images/Waffel_zshgd.jpg, id=343, 607.5498pt x 467.8278pt>
 File: images/Waffel_zshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_zshgd.jpg>
-<images/Waffel_unzshgd.jpg, id=342, 529.98pt x 404.2302pt>
+<images/Waffel_unzshgd.jpg, id=344, 529.98pt x 404.2302pt>
 File: images/Waffel_unzshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd.jpg>
-<images/Waffel_unzshgd_Fkt.jpg, id=343, 587.796pt x 377.2494pt>
+<images/Waffel_unzshgd_Fkt.jpg, id=345, 587.796pt x 377.2494pt>
 File: images/Waffel_unzshgd_Fkt.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd_Fkt.jpg>
-Overfull \hbox (3.31845pt too wide) in paragraph at lines 753--762
+Overfull \hbox (2.10202pt too wide) in paragraph at lines 760--769
 [] $ $ [] 
  []
 
-[23 <./images/R_ohne_p.jpg> <./images/R2_ohne_p.jpg> <./images/Waffel_zshgd.jpg
-> <./images/Waffel_unzshgd.jpg> <./images/Waffel_unzshgd_Fkt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
+[24 <./images/R_ohne_p.jpg> <./images/R2_ohne_p.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 771--773
 
  []
 
-<images/Weg.jpg, id=351, 358.4592pt x 325.6968pt>
+<images/Weg.jpg, id=355, 358.4592pt x 325.6968pt>
 File: images/Weg.jpg Graphic file (type jpg)
- <use images/Weg.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 771--773
-$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/sl/10.95 heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS
-/lmsy/m/n/10.95 ,$ \T1/lmr/m/sl/10.95 Zu je zwei Punk-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 771--773
-
- []
-
-<images/Wegzshgd.jpg, id=352, 649.4664pt x 416.2752pt>
+ <use images/Weg.jpg> [25 <./images/Waffel_zshgd.jpg> <./images/Waffel_unzshgd.
+jpg> <./images/Waffel_unzshgd_Fkt.jpg> <./images/Weg.jpg>]
+<images/Wegzshgd.jpg, id=361, 649.4664pt x 416.2752pt>
 File: images/Wegzshgd.jpg Graphic file (type jpg)
 
 <use images/Wegzshgd.jpg>
-<images/Sinuseinsdurchx.png, id=353, 803.0pt x 342.27875pt>
+<images/Sinuseinsdurchx.png, id=362, 803.0pt x 342.27875pt>
 File: images/Sinuseinsdurchx.png Graphic file (type png)
 
 <use images/Sinuseinsdurchx.png>
-Overfull \hbox (43.1522pt too wide) in paragraph at lines 778--784
-\T1/lmr/m/it/8 Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsd
-urchx.png&filetimestamp=20080624085708 
+Overfull \hbox (44.61572pt too wide) in paragraph at lines 783--790
+\T1/lmr/m/n/8 Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsdu
+rchx.png&filetimestamp=20080624085708
  []
 
-[24 <./images/Weg.jpg> <./images/Wegzshgd.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 792--795
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--790
+
+ []
+
+[26 <./images/Wegzshgd.jpg> <./images/Sinuseinsdurchx.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 797--800
 \T1/lmr/m/sl/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m
 /sl/10.95 heiÿt $[]$ bzw.
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 792--795
+Underfull \hbox (badness 3281) in paragraph at lines 797--800
 []$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,$ \T1/lmr/m/sl/10.95 Für je zwei 
 ver-schie-de-ne
  []
 
-<images/T1.jpg, id=362, 209.583pt x 114.6684pt>
+<images/T1.jpg, id=370, 209.583pt x 114.6684pt>
 File: images/T1.jpg Graphic file (type jpg)
  <use images/T1.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 799--802
+Underfull \hbox (badness 10000) in paragraph at lines 804--807
 $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/sl/10.95 heiÿt $[]$- oder $[]$ bzw.
  []
 
-<images/T2.jpg, id=363, 248.6088pt x 140.2038pt>
+<images/T2.jpg, id=371, 248.6088pt x 140.2038pt>
 File: images/T2.jpg Graphic file (type jpg)
- <use images/T2.jpg> [25 <./images/Sinuseinsdurchx.png> <./images/T1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 814--816
+ <use images/T2.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 819--821
 
  []
 
-<images/Grenzwert.jpg, id=372, 378.213pt x 468.7914pt>
+[27 <./images/T1.jpg> <./images/T2.jpg>]
+<images/Grenzwert.jpg, id=381, 378.213pt x 468.7914pt>
 File: images/Grenzwert.jpg Graphic file (type jpg)
 
-<use images/Grenzwert.jpg> [26 <./images/T2.jpg> <./images/Grenzwert.jpg>]
-[27] <images/lokal_endlich.jpg, id=399, 444.2196pt x 325.215pt>
+<use images/Grenzwert.jpg> [28 <./images/Grenzwert.jpg>] [29]
+<images/lokal_endlich.jpg, id=404, 444.2196pt x 325.215pt>
 File: images/lokal_endlich.jpg Graphic file (type jpg)
 
-<use images/lokal_endlich.jpg>
-<images/Cutoff.jpg, id=400, 587.796pt x 363.759pt>
+<use images/lokal_endlich.jpg> [30 <./images/lokal_endlich.jpg>]
+<images/Cutoff.jpg, id=414, 587.796pt x 363.759pt>
 File: images/Cutoff.jpg Graphic file (type jpg)
  <use images/Cutoff.jpg>
-[28 <./images/lokal_endlich.jpg>] [29 <./images/Cutoff.jpg>]
+[31 <./images/Cutoff.jpg>]
 Kapitel III.
-<images/Mannigfaltigkeiten1.jpg, id=413, 649.4664pt x 370.5042pt>
+<images/Mannigfaltigkeiten1.jpg, id=421, 649.4664pt x 370.5042pt>
 File: images/Mannigfaltigkeiten1.jpg Graphic file (type jpg)
 
 <use images/Mannigfaltigkeiten1.jpg>
-<images/S1_Pendel.jpg, id=414, 598.8774pt x 421.0932pt>
+<images/S1_Pendel.jpg, id=422, 598.8774pt x 421.0932pt>
 File: images/S1_Pendel.jpg Graphic file (type jpg)
 
 <use images/S1_Pendel.jpg>
-<images/Torus_Doppelpendel.jpg, id=415, 669.2202pt x 471.6822pt>
+<images/Torus_Doppelpendel.jpg, id=423, 669.2202pt x 471.6822pt>
 File: images/Torus_Doppelpendel.jpg Graphic file (type jpg)
 
 <use images/Torus_Doppelpendel.jpg>
-<images/Stringtheorie.jpg, id=416, 322.806pt x 421.0932pt>
+<images/Stringtheorie.jpg, id=424, 322.806pt x 421.0932pt>
 File: images/Stringtheorie.jpg Graphic file (type jpg)
 
 <use images/Stringtheorie.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 918--922
+Underfull \hbox (badness 10000) in paragraph at lines 923--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 918--922
+Underfull \hbox (badness 10000) in paragraph at lines 923--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 918--922
+Underfull \hbox (badness 10000) in paragraph at lines 923--927
 
  []
 
-[30
+[32
 
  <./images/Mannigfaltigkeiten1.jpg> <./images/S1_Pendel.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 924--926
+Underfull \hbox (badness 10000) in paragraph at lines 929--931
 \T1/lmr/m/sl/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 M$ \T1/lmr/m
 /sl/10.95 heiÿt $[]$
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 927--930
+Underfull \hbox (badness 6236) in paragraph at lines 932--935
 \T1/lmr/m/sl/10.95 Jedes sol-che Paar $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
 U; '\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/sl/10.95 heiÿt ei-ne $[]$ oder ein
  []
 
-<images/Karte.jpg, id=423, 554.07pt x 483.7272pt>
+<images/Karte.jpg, id=430, 554.07pt x 483.7272pt>
 File: images/Karte.jpg Graphic file (type jpg)
  <use images/Karte.jpg>
-[31 <./images/Torus_Doppelpendel.jpg> <./images/Stringtheorie.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 945--947
+[33 <./images/Torus_Doppelpendel.jpg> <./images/Stringtheorie.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 950--952
 
  []
 
-<images/Kartenwechsel.jpg, id=431, 615.2586pt x 486.618pt>
+<images/Kartenwechsel.jpg, id=438, 615.2586pt x 486.618pt>
 File: images/Kartenwechsel.jpg Graphic file (type jpg)
 
-<use images/Kartenwechsel.jpg> [32 <./images/Karte.jpg>]
-Underfull \hbox (badness 4765) in paragraph at lines 956--958
+<use images/Kartenwechsel.jpg> [34 <./images/Karte.jpg>]
+Underfull \hbox (badness 4765) in paragraph at lines 961--963
 \T1/lmr/m/sl/10.95 Eine $[]$ (kurz: $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/sl/10.95
  -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--958
+Underfull \hbox (badness 10000) in paragraph at lines 961--963
 
  []
 
-<images/Verkleben.jpg, id=439, 679.338pt x 472.6458pt>
+<images/Verkleben.jpg, id=446, 679.338pt x 472.6458pt>
 File: images/Verkleben.jpg Graphic file (type jpg)
 
 <use images/Verkleben.jpg>
-<images/Verkleben_S2.jpg, id=440, 363.2772pt x 450.9648pt>
+<images/Verkleben_S2.jpg, id=447, 363.2772pt x 450.9648pt>
 File: images/Verkleben_S2.jpg Graphic file (type jpg)
 
 <use images/Verkleben_S2.jpg>
-<images/Norm_invers.jpg, id=441, 509.2626pt x 286.671pt>
+<images/Norm_invers.jpg, id=448, 509.2626pt x 286.671pt>
 File: images/Norm_invers.jpg Graphic file (type jpg)
 
 <use images/Norm_invers.jpg>
-Overfull \hbox (59.47202pt too wide) in paragraph at lines 959--962
+Overfull \hbox (59.47202pt too wide) in paragraph at lines 964--967
 [] []
  []
 
-[33 <./images/Kartenwechsel.jpg>] [34 <./images/Verkleben.jpg> <./images/Verkle
+[35 <./images/Kartenwechsel.jpg>] [36 <./images/Verkleben.jpg> <./images/Verkle
 ben_S2.jpg> <./images/Norm_invers.jpg>]
 File: images/offener_Kreis.jpg Graphic file (type jpg)
  <use images/offener_Kreis.jpg>
-<images/Produkt_RxR.jpg, id=453, 324.7332pt x 197.0562pt>
+<images/Produkt_RxR.jpg, id=461, 324.7332pt x 197.0562pt>
 File: images/Produkt_RxR.jpg Graphic file (type jpg)
 
 <use images/Produkt_RxR.jpg>
-<images/Kreis_Rechteck.jpg, id=454, 163.812pt x 164.2938pt>
+<images/Kreis_Rechteck.jpg, id=462, 163.812pt x 164.2938pt>
 File: images/Kreis_Rechteck.jpg Graphic file (type jpg)
 
 <use images/Kreis_Rechteck.jpg>
-<images/Kreis_Rechteck_Basis.jpg, id=455, 326.6604pt x 345.4506pt>
+<images/Kreis_Rechteck_Basis.jpg, id=463, 326.6604pt x 345.4506pt>
 File: images/Kreis_Rechteck_Basis.jpg Graphic file (type jpg)
 
 <use images/Kreis_Rechteck_Basis.jpg>
-Overfull \hbox (31.30667pt too wide) in paragraph at lines 976--982
-[]\T1/lmr/bx/n/10.95 Beispiel III.1. []$\U/msb/m/n/10.95 R \OMS/lmsy/m/n/10.95 
-^^B \U/msb/m/n/10.95 R \OT1/lmr/m/n/10.95 = \U/msb/m/n/10.95 R[]$ [] \T1/lmr/m/
-it/10.95 als to-po-lo-gi-sche Räu-me! []
- []
-
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 986.
-
-Overfull \hbox (4.05664pt too wide) in paragraph at lines 989--990
+Overfull \hbox (4.05664pt too wide) in paragraph at lines 994--995
 []\T1/lmr/m/n/10.95 Produkte von kom-pak-ten/separablen Räu-men sind kom-pakt/s
 eparabel. 
  []
 
-[35 <./images/Produkt_RxR.jpg> <./images/Kreis_Rechteck.jpg> <./images/Kreis_Re
+[37 <./images/Produkt_RxR.jpg> <./images/Kreis_Rechteck.jpg> <./images/Kreis_Re
 chteck_Basis.jpg>]
-<images/Polarkoordinaten.jpg, id=463, 465.4188pt x 286.1892pt>
+<images/Polarkoordinaten.jpg, id=471, 465.4188pt x 286.1892pt>
 File: images/Polarkoordinaten.jpg Graphic file (type jpg)
 
 <use images/Polarkoordinaten.jpg>
-Underfull \hbox (badness 1297) in paragraph at lines 1008--1009
+Underfull \hbox (badness 1297) in paragraph at lines 1013--1014
 \T1/lmr/m/sl/10.95 ei-ne $\OML/lmm/m/it/10.95 n[]$\T1/lmr/m/sl/10.95 -dimension
 ale $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/sl/10.95 -Mannigfaltigkeit und $\OML/lmm
 /m/it/10.95 l \OMS/lmsy/m/n/10.95 ^^T []\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95
@@ -1426,16 +1389,16 @@ ale $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/sl/10.95 -Mannigfaltigkeit und $\OML/lmm
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 1008--1009
+Underfull \hbox (badness 3724) in paragraph at lines 1013--1014
 \T1/lmr/m/sl/10.95 Ei-ne ste-ti-ge Ab-bil-dung $\OML/lmm/m/it/10.95 f [] [] M \
 OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 M[]$ \T1/lmr/m/sl/10.95 heiÿt $[]$
  []
 
-<images/Abb_diffbar.jpg, id=464, 697.1646pt x 366.6498pt>
+<images/Abb_diffbar.jpg, id=472, 697.1646pt x 366.6498pt>
 File: images/Abb_diffbar.jpg Graphic file (type jpg)
 
-<use images/Abb_diffbar.jpg> [36 <./images/Polarkoordinaten.jpg>]
-Overfull \hbox (5.67163pt too wide) detected at line 1023
+<use images/Abb_diffbar.jpg> [38 <./images/Polarkoordinaten.jpg>]
+Overfull \hbox (5.67163pt too wide) detected at line 1028
 \OML/lmm/m/it/10.95 f \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n
 /10.95 (\OML/lmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 ) := \OMS
 /lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 g [] [] U \OMS/lmsy/m/n/10.95 ! \U/msb/m/n
@@ -1445,12 +1408,12 @@ g[]\OML/lmm/m/it/10.95 Df\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/
 /lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 U
  []
 
-<images/Satz_UnterMf.jpg, id=474, 381.5856pt x 406.6392pt>
+<images/Satz_UnterMf.jpg, id=481, 381.5856pt x 406.6392pt>
 File: images/Satz_UnterMf.jpg Graphic file (type jpg)
 
-<use images/Satz_UnterMf.jpg> [37 <./images/Abb_diffbar.jpg> <./images/Satz_Unt
+<use images/Satz_UnterMf.jpg> [39 <./images/Abb_diffbar.jpg> <./images/Satz_Unt
 erMf.jpg>]
-Overfull \hbox (36.06137pt too wide) detected at line 1026
+Overfull \hbox (36.06137pt too wide) detected at line 1031
 \OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10
 .95 \ \OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 '\OT1/lmr
 /m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 \ \OT
@@ -1463,18 +1426,18 @@ Overfull \hbox (36.06137pt too wide) detected at line 1026
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 \T1/lmr/m/sl/10.95 Eine Men-ge $\OML/lmm/m/it/10.95 M \OMS/lmsy/m/n/10.95 ^^Z \
 U/msb/m/n/10.95 R[]$\T1/lmr/m/sl/10.95 , die ei-ne der Be-din-gun-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 \T1/lmr/m/sl/10.95 (a), (b) oder (c) er-füllt, heiÿt dann $[]$
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 1052--1053
+Underfull \hbox (badness 4967) in paragraph at lines 1057--1058
 []$\OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x[] \OMS/lmsy/m/n/10.95 2 \OML/lmm/
 m/it/10.95 M\OMS/lmsy/m/n/10.95 9\OML/lmm/m/it/10.95 U \OT1/lmr/m/n/10.95 = \OM
 L/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95
@@ -1483,64 +1446,64 @@ msy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95
 U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 )$
  []
 
-[38] [39]
-<images/Beweis_Satz_UMF_Diagramm.jpg, id=502, 378.213pt x 174.8934pt>
+[40] [41]
+<images/Beweis_Satz_UMF_Diagramm.jpg, id=509, 378.213pt x 174.8934pt>
 File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
 
-<use images/Beweis_Satz_UMF_Diagramm.jpg> [40 <./images/Beweis_Satz_UMF_Diagram
+<use images/Beweis_Satz_UMF_Diagramm.jpg> [42 <./images/Beweis_Satz_UMF_Diagram
 m.jpg>]
-Overfull \hbox (24.00633pt too wide) in paragraph at lines 1150--1153
+Overfull \hbox (24.00633pt too wide) in paragraph at lines 1155--1158
 []\T1/lmr/bx/n/10.95 Satz III.3. []\T1/lmr/m/it/10.95 ($\OML/lmm/m/it/10.95 C[]
 $\T1/lmr/m/it/10.95 -Untermannigfaltigkeiten von $\U/msb/m/n/10.95 R[]$ \T1/lmr
 /m/it/10.95 sind $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeite
 n)
  []
 
-[41] <images/Quotientenabbildung.jpg, id=516, 395.076pt x 235.6002pt>
+[43] <images/Quotientenabbildung.jpg, id=524, 395.076pt x 235.6002pt>
 File: images/Quotientenabbildung.jpg Graphic file (type jpg)
 
-<use images/Quotientenabbildung.jpg> [42 <./images/Quotientenabbildung.jpg>]
-<images/f_modulo_S_Diagramm.jpg, id=529, 305.4612pt x 253.9086pt>
+<use images/Quotientenabbildung.jpg> [44]
+<images/f_modulo_S_Diagramm.jpg, id=534, 305.4612pt x 253.9086pt>
 File: images/f_modulo_S_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_Diagramm.jpg>
-<images/f_modulo_S_T_Diagramm.jpg, id=530, 317.0244pt x 281.3712pt>
+<images/f_modulo_S_T_Diagramm.jpg, id=535, 317.0244pt x 281.3712pt>
 File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
 
-<use images/f_modulo_S_T_Diagramm.jpg> [43 <./images/f_modulo_S_Diagramm.jpg> <
-./images/f_modulo_S_T_Diagramm.jpg>] [44] (./mitschrieb_geotopo.aux) ) 
+<use images/f_modulo_S_T_Diagramm.jpg> [45 <./images/Quotientenabbildung.jpg> <
+./images/f_modulo_S_Diagramm.jpg> <./images/f_modulo_S_T_Diagramm.jpg>]
+[46] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 9551 strings out of 256216
- 145285 string characters out of 1917072
- 211696 words of memory out of 1500000
- 12212 multiletter control sequences out of 10000+200000
+ 9555 strings out of 256216
+ 145014 string characters out of 1917072
+ 211732 words of memory out of 1500000
+ 12214 multiletter control sequences out of 10000+200000
  101686 words of font info for 75 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,12n,61p,563b,646s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/
-fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
-}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pf
-b></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/
-type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pf
-b>
-Output written on mitschrieb_geotopo.pdf (45 pages, 3608987 bytes).
+ 45i,12n,61p,553b,646s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public
+/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/blues
+ky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (47 pages, 3604020 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 245 named destinations out of 1000 (max. 131072)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 247 named destinations out of 1000 (max. 131072)
  448 words of extra memory for PDF output out of 10000 (max. 10000000)
 

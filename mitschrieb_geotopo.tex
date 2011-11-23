@@ -104,7 +104,8 @@
 \definecolor{framecolor}{gray}{0}
 \def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
 \MakeFramed {\FrameRestore}
-\subsection{#1}
+%\subsection{#1}
+\subsection*{#1}
 %\begin{itshape}
 \begin{slshape}
 }
@@ -115,6 +116,17 @@
 \end{minipage}
 \end{center}
 %\vspace{1em}
+}
+
+
+\newenvironment{bsp}[1]
+{
+\setlength{\fboxsep}{10pt}
+\subsection*{Beispiel}
+\begin{upshape}
+}
+{
+\end{upshape}
 }
 
 \begin{document}
@@ -158,15 +170,15 @@ $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 \end{enumerate}
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 \OO = $\{X, \emptyset\} \Rightarrow (X,\OO)$ ist topologischer Raum!
-\end{example}
+\end{bsp}
 
-\begin{example}
+\begin{bsp}{}
 $$X \text{ Menge, }\OO = \left\{\{x\} \mid x\in X\right\} + \text{Axiome, die zu erfüllen sind} \leadsto \tilde{\OO} = \mathcal{P}(X)$$
 $\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
 $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Metrischer Raum}
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
@@ -196,10 +208,8 @@ $U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$,
 und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
 \end{remark}
 
-%\begin{Kasten}[Homotopie]
 \begin{Kasten}{Homotopie}
-Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \forall x \in X$.
-%\end{Kasten}
+Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
 \end{Kasten}
 
 
@@ -223,10 +233,8 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, 
 \paragraph{Erinnerung}
 Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. \includegraphics[width=1\textwidth]{images/Homotopie_param.jpg}
 
-%\begin{Kasten}[homotope Abbildungen]
 \begin{Kasten}{Homotope Abbildungen}
 	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
-%\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
@@ -270,13 +278,14 @@ Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition 
 $C(X,Y)$ ist im Allgemeinen \underline{\underline{viel}} schwieriger zu verstehen als $[X,Y]$!
 \end{remark}
 
-\begin{example}
-Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn $H(x,t):= (1-t) f(x) + t \cdot g(x)$ liefert eine Homotopie von $f$ nach $g$:
+\begin{bsp}{}
+Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn 
+$$H(x,t):= (1-t) f(x) + t \cdot g(x)$$ liefert eine Homotopie von $f$ nach $g$:
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{images/R_n_immer_homotop.jpg}
 \end{figure} 
-\end{example}
+\end{bsp}
 
 %\begin{Kasten}
 \begin{Kasten}{Nullhomotopie}
@@ -294,7 +303,7 @@ Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}
 Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
 \end{corollary}
 
-\begin{example}
+\begin{bsp}{}
 Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
 $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$.
 
@@ -308,7 +317,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 \newline
 \underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial!\newline
  \includegraphics[scale=0.5]{images/R2_ohne_0.jpg}
-\end{example}
+\end{bsp}
 
 \begin{figure}[h]
 \centering
@@ -328,7 +337,7 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 $B \subset A$ ist also genau dann \underline{offen \underline{in $A$}}, wenn $B$ der Schnitt einer \underline{in $X$} offenen Menge mit $A$ ist.
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ 
 \newline
 \begin{figure}[h]
@@ -337,10 +346,10 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \end{figure}
 \newline
 \underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $\R^2$!
-\end{example}
+\end{bsp}
 
 \section{Grundlagen der allgemeinen Topologie}
-\begin{example}[Beispiele topologischer Räume]
+\begin{bsp}{Beispiele topologischer Räume}
 	\begin{enumerate}[(1)]
 		\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
 		\item $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
@@ -349,21 +358,19 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 		\item $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ heißt \underline{Standard-Topologie}.
 		\item $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\mathcal{T}_1$-Topologie.
 	\end{enumerate}
-\end{example}
+\end{bsp}
 
-%\begin{Kasten}
 \begin{Kasten}{Abgeschlossenheit}
-	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $:\Leftrightarrow X \backslash A \text{ ist offen}$.
-%\end{Kasten}
+	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $$:\Leftrightarrow X \backslash A \text{ ist offen.}$$
 \end{Kasten}
 
 \begin{remark}
 	Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\mathcal{T}_1}$\footnote{$\R$ mit $\mathcal{T}_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
-\end{example}
+\end{bsp}
 
 %\begin{Kasten}
 \begin{Kasten}{Umgebung}
@@ -380,27 +387,27 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	Jede offene Teilmenge von $\R_{Standard}$ ist eine Vereinigung disjunkter offener Intervalle, doch abgeschlossene Teilmengen von $\R$ sind keinesfalls immer Vereinigungen abgeschlossener Intervalle!
 \end{remark}
 
-\begin{example}[Die \underline{Cantor-Menge} $\mathcal{C}:= \left \{ x \in \R \mid x = \sum\limits_{k=1}^{\infty}{\frac{a_k}{3^k}}, a_k \in \{0,2\} \right \}$]
+\begin{bsp}{Die \underline{Cantor-Menge} $\mathcal{C}:= \left \{ x \in \R \mid x = \sum\limits_{k=1}^{\infty}{\frac{a_k}{3^k}}, a_k \in \{0,2\} \right \}$}
 	$\Rightarrow$ $\mathcal{C}$ ist abgeschlossen in $\R$, enthält überabzählbar viele Elemente und hat `Hausdorff-Dimension' $\frac{\ln 2}{\ln 3} \approx 0,6 \ldots$
-\end{example}
+\end{bsp}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{images/Cantormenge_5te_Iteration.jpg}
 \end{figure}
 
-%\begin{Kasten}
 \begin{Kasten}{Basis}
-	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
-%\end{Kasten}
+	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, 
+	\newline
+	so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{enumerate}[(1)]
 		\item Die offenen Intervalle bilden eine Basis der Standard-Topologie von $\R$.
 		\item Sämtliche offenen\footnote{bezüglich der euklidischen Metrik} Kreisscheiben \includegraphics[scale=0.07]{images/offener_Kreis.jpg} und auch sämtliche offenen Quadrate \includegraphics[scale=0.07]{images/offenes_Quadrat.jpg} bilden Basen ein und derselben Topologie auf $\R^2$.
 	\end{enumerate}
-\end{example}
+\end{bsp}
 
 \begin{remark}
 	$\bullet$ $\mathcal{B} \subset \OO$ ist Basis der Topologie von $X$ $\Leftrightarrow \forall O \in \OO \forall x \in O \exists B \in \mathcal{B} \colon x \in B \subset O$.
@@ -411,17 +418,16 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\includegraphics[scale=0.3]{images/Kreis_Schnitt.jpg}
 \end{remark}
 
-%\begin{Kasten}
 \begin{Kasten}{Feiner und gröber}
-	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
-%\end{Kasten}
+	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, 
+	\newline so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	$\bullet$ Die triviale Topologie ist die gröbste Topologie auf $X$, die diskrete Topologie die feinste.
 	\newline
 	$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\mathcal{T}_1$-Topologie.
-\end{example}
+\end{bsp}
 
 \paragraph{Mehr zu metrischen Räumen}
 
@@ -442,11 +448,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 %\end{Kasten}
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	Für $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1(0)$ metrische Unterräume und heißen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sphäre.
 	\newline
 	\includegraphics[width=0.3\textwidth]{images/metrischer_unterraum.jpg}
-\end{example}
+\end{bsp}
 
 %\begin{Kasten}
 \begin{Kasten}{Beschränktheit, Durchmesser}
@@ -492,9 +498,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
 
-\begin{example}[Beispiel zu Bemerkung~\ref{offenAbgeschlossen}]
+\begin{bsp}{Beispiel zu Bemerkung~\ref{offenAbgeschlossen}}
 	$B := A := (a,b) \subset X := \R$
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Innerer Punkt, äußerer Punkt, Randpunkt}
 	Für $p \in A \subset X$, $X$ topologischer Raum, heißt $p$
@@ -515,16 +521,16 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$\mathring A$ ist die Menge aller inneren Punkte von $A$ und die Vereinigung aller in $X$ offenen Teilmengen von $A$, und $A \text{ ist offen } \Leftrightarrow A = \mathring A$
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	$\mathring {\R \backslash \Q} = \mathring \Q = \emptyset$
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Abschluss}
 	Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {(X \backslash A} ) \right )$.
 \end{Kasten}
 
 \begin{Kasten}{Rand}
-	Der \underline{Rand} $\partial A$ von $A$ ist $\partial A := \bar{A} \backslash \mathring A$, d.h. Rand $A$ = \{ Randpunkte von A \}.
+	Der \underline{Rand} $\partial A$ von $A$ ist $$\partial A := \bar{A} \backslash \mathring A,$$ d.h. Rand $A$ = \{ Randpunkte von A \}.
 \end{Kasten}
 
 (TODO:Exkurs zu `Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander')
@@ -533,17 +539,17 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item $f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ Urbilder abgeschlossener Mengen sind abgeschlossen.
 		\item Sind $\OO_1$ und $\OO_2$ Topologien auf $X$, so ist die Identität $\text{id} \colon (X,\OO_1) \rightarrow (X,\OO_2)$ stetig $\Leftrightarrow \OO_2 \subset \OO_1$.
 		\item Für $A \subset X$ ist die Teilraumtopologie $\OO_A = \OO \big |_A$ die gröbste Topologie, bezüglich der die Inklusion $i \colon A \hookrightarrow X, a \mapsto a$ stetig ist.
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Stetigkeit} %spacings stimmen nicht ganz (TODO)
 	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
-	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ mit } f(U) \subset V$.
+	$$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \quad \exists \text{ Umgebung } U \text{ von } x \text{ mit }$$ $$f(U) \subset V.$$
 	\newline
 \end{Kasten}
 \includegraphics[width=0.7\textwidth]{images/stetig_in_x.jpg}
@@ -552,9 +558,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	Eine Abbildung $f \colon X \rightarrow Y$ zwischen \underline{metrischen} Räumen ist bezüglich der von den Metriken induzierten Topologien stetig in $x \in X$ genau dann, wenn für jeden offenen Ball $B$ um $f(x)$ ein offener Ball um $x$ existiert, der unter $f$ in $B$ abgebildet wird. (Und ferner stetig in $x \in X$ genau dann, wenn für alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass für alle $x^\prime \in X$ mit $d_X(x,x^\prime) < \delta$ auch $d_Y \left( f(x), f(x^\prime) \right) < \epsilon$ folgt.) 
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Isometrische Einbettung, Isometrie}
 	Sind $X,Y$ metrische Räume, so heißt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
@@ -570,14 +576,14 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer Räume heißt \underline{Homöomorphismus}, falls $f$ und $f^{-1}$ stetig sind.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homöomorphismus!
 		\newline
 		\includegraphics[width=0.7\textwidth]{images/0_1_nach_S1_f-1_nicht_stetig.jpg}
 		\item $id_X \colon X \rightarrow X$ ist immer ein Homöomorphismus, Kompositionen von Homöomorphismen ebenfalls.
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \begin{remark}
 	`Homöomorph sein' ist eine Äquivalenzrelation für topologische Räume.
@@ -597,28 +603,28 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{itemize}
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item Jede Isometrie zwischen metrischen Räumen ist ein Homöomorphismus.
 		\item $[0,1] \cong [a,b] \forall a < b \in \R$
 		\item $(0,1) \cong (a,b) \cong \R \forall a < b \in \R$
 	\end{itemize}
-\end{example}
+\end{bsp}
 
-\begin{example}{Stereographische Projektion}\newline
+\begin{bsp}{Stereographische Projektion}
 	\includegraphics[scale=0.35]{images/Stereographie_S1_R1.jpg}
 	\includegraphics[scale=0.35]{images/Stereographie_S2_R2.jpg}
 	\newline
 	Die stereographische Projektion ist ein Homöomorphismus von $S^n \backslash \{N\}, N := (0, \ldots, 0, 1) \in \R^{n+1}$, gegeben wie folgt:
 	\newline
 	Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, $f(x)$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{||y||^2+1}, \ldots, \frac{2 y_n}{||y||^2+1},\frac{||y||^2-1}{||y||^2+1})$.
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Einbettung}
-	$f \colon X \rightarrow Y$ stetig heißt \underline{Einbettung} $:\Leftrightarrow X \overset{f}{\rightarrow}f(X) \subset Y$ Homöomorphismus.
+	$f \colon X \rightarrow Y$ stetig heißt \underline{Einbettung} $$:\Leftrightarrow X \overset{f}{\rightarrow}f(X) \subset Y \text{ Homöomorphismus.}$$
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X, x \mapsto x$, stets eine Einbettung.
 		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung! \newline
@@ -627,7 +633,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 			\newline
 			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung von $p$, auf der $f \big |_U$ eine Einbettung ist.
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Äquivalenz von Einbettungen}
 	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm 
@@ -638,9 +644,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine Einbettung $S^1 \rightarrow \R^3$ heißt \underline{Knoten}.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	Die Knoten mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_aequivalent_zu_Kreis.jpg} sind äquivalent, die mit \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_nicht_aequivalent_zu_Kreis.jpg} nicht!
-\end{example}
+\end{bsp}
 
 \chapter{Topologische Eigenschaften}
 
@@ -676,25 +682,25 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$\Leftrightarrow$ $A$ und $X \backslash A$ sind abgeschlossen
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item $\Q$ als Teilmenge von $\R$ ist nicht zusammenhängend, denn $\Q = (\Q \cap (- \infty, \pi)) \cup (\Q \cap (\pi, +\infty)).$
 		\item Die einzigen zusammenhängenden und mit der diskreten Topologie versehenen Räume sind $\emptyset$ und der nur aus einem Punkt bestehende Raum.
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \begin{remark}
 	Allgemein sagt man von einer Menge, sie sei zusammenhängend, wenn diese, aufgefasst als Teilraum eines topologischen Raumes, zusammenhängend ist.
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	$[0,1] (\subset \R)$ ist zusammenhängend, aber $[0,1] \cup (2,3)$ nicht!
-\end{example}
+\end{bsp}
 
-\begin{example}
+\begin{bsp}{}
 	Eine Teilmenge $A$ von $\R_{\mathcal{T}_1}$ ist zusammenhängend
 	$\Leftrightarrow$ $A$ ist leer, einpunktig, oder unendlich!
-\end{example}
+\end{bsp}
 
 \begin{remark}[Eigenschaften zusammenhängender Mengen]
 	\begin{itemize}
@@ -735,7 +741,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Zusammenhang bleibt unter Homöomorphismen erhalten, und ebenso die Zahl der Zusammenhangskomponenten.
 \end{corollary}
 
-\begin{example}
+\begin{bsp}{}
 	Für $n > 1$ sind $\R^n$ und $\R$ nicht homöomorph!
 	\newline
 	\underline{Denn:} $\R^n \cong \mathring{D}^n$ (Einheitskugel) und nimmt man aus $\mathring{D}^n$ einen Punkt $p$ heraus, so bleibt für $n>1$ $\mathring{D}^n \backslash \{p\}$ zusammenhängend, $\mathring{D}^1 = (-1,1) \cong \R$ aber nicht!
@@ -744,13 +750,13 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \includegraphics[scale=0.4]{images/R2_ohne_p.jpg}
 	\newline
 	\underline{Allgemeiner (Brouwder)} $\R^m \cong \R^n \Leftrightarrow m=n$
-\end{example}
+\end{bsp}
 
 \begin{corollary}{Zwischenwertsatz:}
 	Eine stetige Funktion $f \colon [a,b] \rightarrow \R$ nimmt jeden Wert zwischen $f(a)$ und $f(b)$ an.
 \end{corollary}
 
-\begin{example}{Waffel teilen.}
+\begin{bsp}{Waffel teilen.}
 	Eine Waffel, wie unregelmäßig auch immer, lässt sich immer in zwei gleich große Teile schneiden.
 	\newline
 \includegraphics[scale=0.4]{images/Waffel_zshgd.jpg}
@@ -759,7 +765,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \includegraphics[scale=0.3]{images/Waffel_unzshgd_Fkt.jpg}
 \newline
 Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener Schnittrichtung nicht eindeutig.
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Weg, Anfangspunkt, Endpunkt}
 	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
@@ -768,12 +774,11 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 \includegraphics[scale=0.4]{images/Weg.jpg}
 
 \begin{Kasten}{Wegzusammenhang}
-	$X$ heißt \underline{wegzusammenhängend} $:\Leftrightarrow$ Zu je zwei Punkten $x,x^\prime \in X \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X \text{ mit } \gamma(0)=x, \gamma(1)=x^\prime$.
-	\newline
+	$X$ heißt \underline{wegzusammenhängend} $$:\Leftrightarrow \text{ Zu je zwei Punkten } x,x^\prime \in X \quad \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X$$ $$\text{ mit } \gamma(0)=x, \gamma(1)=x^\prime.$$
 \end{Kasten}
 \includegraphics[scale=0.4]{images/Wegzshgd.jpg}
 
-\begin{example}
+\begin{bsp}{}
 	$$A=\{(x,y) \in \R^2 \mid x>0, y = \sin{\frac{1}{x}}\} \subset \R^2$$
 	$$B=A \cup \{(0,0)\}$$
 	$\Rightarrow B$ ist zusammenhängend, aber \underline{nicht} wegzusammenhängend.
@@ -781,7 +786,7 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 	\includegraphics[scale=0.4]{images/Sinuseinsdurchx.png}
 	\newline
 	\scriptsize{Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsdurchx.png\&filetimestamp=20080624085708}
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Kompaktheit}
 	Ein topologischer Raum $X$ heißt \underline{kompakt}, falls jede offene Überdeckung von $X$ eine endliche Teilüberdeckung enthält.
@@ -802,56 +807,56 @@ $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$
 \end{Kasten}
 \includegraphics[scale=0.4]{images/T2.jpg}
 
-\begin{example}
+\begin{bsp}{}
 	Jeder metrische Raum ist Hausdorff-Raum.
-\end{example}
+\end{bsp}
 
 \begin{remark}
 Hausdorff-Räume sind z.B. deshalb wichtig, weil Grenzwerte dort eindeutig sind!
 \end{remark}
 
 \begin{Kasten}{Grenzwert}
-Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \forall n \geq N$. 
+Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \quad \forall n \geq N$. 
 \newline
 \end{Kasten}
 \includegraphics[scale=0.5]{images/Grenzwert.jpg}
 
-\begin{example}
+\begin{bsp}{}
 In einem Hausdorff-Raum hat jede Folge höchstens einen Grenzwert.
-\end{example}
+\end{bsp}
 
 \begin{remark}
 Hausdorff-Räume sind auch $T_1$-Räume, aber:
 \end{remark}
 
-\begin{example}
+\begin{bsp}{}
 	In $X=\R_{\mathcal{T}_1}$ ist jeder Punkt abgeschlossen ($\Rightarrow T_1$), doch je zwei nichtleere offene Mengen schneiden sich - $X$ ist damit nicht $T_2$!
 	%newline
 	\underline{"Schlimmer":} In $\R_{\mathcal{T}_1}$ ist \underline{jeder} Punkt Grenzwert der Folge $x_n = n$!
 	Denn eine Umgebung eines Punktes in $\R_{\mathcal{T}_1}$ hat die Form $U = \R \backslash \{x_1, \ldots, x_M\}$ mit $x_1 < \ldots < x_M$. Dann gilt aber $x_n = n \in U \forall n > x_M$.
-\end{example}
+\end{bsp}
 
 \section{Abzählbarkeitsaxiome}
 \begin{Kasten}{Umgebungsbasis}
 	Ist $X$ topologischer Raum und $x \in X$, so ist eine \underline{Umgebungsbasis} oder \underline{Basis von $X$} \underline{\underline{in $x$}} eine Familie von Umgebungen von $x$, sodass \underline{jede} Umgebung von $x$ eine Umgebung aus der Familie enthält.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	Ist $B$ Basis der Topologie eines Raumes $X$, so ist für jedes $x \in X$ $\{U \in B \mid x \in U\}$ eine Basis von $X$ \underline{\underline{in $x$}}.
-\end{example}
+\end{bsp}
 
-\begin{example}
+\begin{bsp}{}
 	In einem \underline{metrischen} Raum $X$ sind folgende Mengen von Bällen Basen von $X$ in $x \in X$:
 	\begin{itemize}
 		\item alle offenen Bälle mit Zentrum $x$
 		\item alle offenen Bälle mit Zentrum $x$ und rationalen Radii
 	\end{itemize}
-\end{example}
+\end{bsp}
 
-\begin{example}
+\begin{bsp}{}
 	\label{UmgebungsbasisDiskreteTopologie}
 	Ist $X$ mit der diskreten bzw. trivialen Topologie versehen, so ist die `kleinste' Basis in $x \in X$ gegeben durch $\left\{\{x\}\right\}$ bzw. $\{X\}$.
-\end{example}
+\end{bsp}
 
 \begin{Kasten}{Abzählbarkeitsaxiome, Separabilität}
 	$X$ \underline{erfüllt das erste Abzählbarkeitsaxiom}
@@ -867,21 +872,21 @@ Hausdorff-Räume sind auch $T_1$-Räume, aber:
 	Das zweite Abzählbarkeitsaxiom impliziert das erste, aber:
 \end{remark} 
 
-\begin{example}
+\begin{bsp}{}
 	Überabzählbare diskrete Räume (wie $(\R, \OO_{diskret})$) erfüllen nach Beispiel~\ref{UmgebungsbasisDiskreteTopologie} das erste Abzählbarkeitsaxiom, nicht aber das zweite!
-\end{example}
+\end{bsp}
  
 \begin{remark}
 	Jeder metrische Raum erfüllt das erste Abzählbarkeitsaxiom und jeder \underline{separable} metrische Raum auch das zweite.
 \end{remark} 
  
-\begin{example}
+\begin{bsp}{}
 	$\R_{\mathcal{T}_1}$ erfüllt \underline{nicht} das erste Abzählbarkeitsaxiom, ist aber separabel - $\N$ ist dicht!
-\end{example} 
+\end{bsp} 
  
-\begin{example}
+\begin{bsp}{}
 	Euklidische Räume und alle ihre Teilmengen erfüllen das 2. Abzählbarkeitsaxiom und sind separabel.
-\end{example} 
+\end{bsp} 
  
 Wozu das Ganze? 
 \newline $\rightsquigarrow$ Funktionenräume
@@ -894,7 +899,7 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \end{Kasten} 
 
 \begin{Kasten}{Lokale Endlichkeit}
-	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \exists U = U(x) \colon A \cap U = \emptyset \forall A \in \Gamma$ bis auf endlich viele $A$.
+	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \quad \exists U = U(x) \colon A \cap U = \emptyset \quad \forall A \in \Gamma$ bis auf endlich viele $A$.
 \end{Kasten}
 \includegraphics[scale=0.5]{images/lokal_endlich.jpg}
  
@@ -972,14 +977,14 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	Versehen mit der Produkt-Topologie ist $X \times Y$ sebst ein topologischer Raum und für gegebene $X, Y$ denkt man sich $X \times Y$ stillschweigend mit der Produkt-Topologie versehen.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	$\R \times \R = \R^2$ \includegraphics[scale=0.06]{images/offener_Kreis.jpg}
 	als topologische Räume!
 \includegraphics[scale=0.4]{images/Produkt_RxR.jpg} 
 \includegraphics[scale=0.4]{images/Kreis_Rechteck.jpg} 
 \includegraphics[scale=0.4]{images/Kreis_Rechteck_Basis.jpg} 
 	Ebenso: $(\R^1)^n = \R^n$!
-\end{example}
+\end{bsp}
 
 \paragraph{Einige Eigenschaften der Produkt-Topologie}
 \begin{itemize}
@@ -990,18 +995,18 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	\item Produkte von Räumen, die das erste oder zweite Abzählbarkeitsaxiom erfüllen, erfüllen diese auch.
 \end{itemize}
  
-\begin{example}
+\begin{bsp}{}
 	Produkte topologischer oder differenzierbarer Mannigfaltigkeiten sind topologische oder differenzierbare\footnote{($C^\infty$)} Mannigfaltigkeiten.
-\end{example} 
+\end{bsp} 
  
-\begin{example}
+\begin{bsp}{}
 	\begin{itemize}
 		\item $\R^2 \backslash \{0\} \cong S^1 \times \R^{> 0}$ (Polarkoordinaten) \newline
 		\includegraphics[scale=0.4]{images/Polarkoordinaten.jpg}
 		\item $O(n) \cong SO(n) \times O(1)$
 		\item $(S^1)^n :=  \underbrace{S^1 \times \ldots \times S^1}_{\text{n mal}}$ heißt \underline{n-dimensionaler Torus} (TODO: Bild 3: Exkurs höherdimensionale Sphären)
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \section{Differenzierbare Abbildungen}
 \begin{Kasten}{$C^l$-Abbildung}
@@ -1064,7 +1069,7 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 	\end{enumerate}
 \end{theorem}
 
-\begin{example}
+\begin{bsp}{}
 	\underline{zu (a)}
 	\newline
 	Die $n$-Sphäre vom Radius $r$ %TODO: r=0, r<0?
@@ -1086,7 +1091,7 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 			Es seien $V \subseteq_{\text{offen}} \R^{n+l}, f \in C^\infty(V, \R^l), c \in \R^l$.
 			Gilt Rang $Df(x) = l$ in jedem Punkt $x$ der \underline{Niveaumenge} $$f^{-1}(c)=\{x \in V \mid f(x)=c\},$$ so ist $f^{-1}(c)$ eine glatte $n$-dimensionale Untermannigfaltigkeit von $\R^{n+l}$.
 	\end{itemize}
-\end{example}
+\end{bsp}
 
 \begin{proof}
 		\underline{(a)$\Rightarrow$(b):} Es seien $U$ und $f$ wie in (a) gewählt und $f_1, \ldots, f_l$ die Komponenten von $f$. Sei $x_0 \in M$. Durch Umnummerierung seien die Indizes so gewählt, dass ohne Einschränkung die Reihenfolge so, dass die $(l \times l)$-Matrix 
@@ -1190,7 +1195,7 @@ Zusätzlich existiert dann die Quotientenabbildung $\pi \colon X \rightarrow X/S
 \paragraph{Achtung:}
 Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
 
-\begin{example}
+\begin{bsp}{}
 	$X = \R, \quad S:= \{\R^{>0}, \R \backslash \R^{>0}\}$
 	(TODO: Bild)(TODO:Bild)
 	\newline
@@ -1200,7 +1205,7 @@ Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
 	$t \mapsto e^{2 \pi i t}$
 	\newline
 	$T^2$ ist Hausdorffsch, $T^2/\textcolor{red}{\sim \underline{nicht}!}$
-\end{example}
+\end{bsp}
 
 \paragraph{TODO: Exkurs: Instabilität von Planetensystemen}
 
@@ -1245,7 +1250,7 @@ $F \colon X \rightarrow Y$ stetige Bijektion von einem kompakten Raum $X$ auf ei
 Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \underline{injektiv} und heißt \underline{injektiver Quotient} von $f$.
 \end{Kasten}
 
-\begin{example}
+\begin{bsp}{}
 	(TODO: Bild)
 	\newline
 	$(x,0) \sim (x,1)$
@@ -1255,6 +1260,6 @@ Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \un
 	(TODO: Bild)
 	$(x,0) \sim (1-x,1)$
 	\newline Möbiusband (TODO: Bild)
-\end{example}
+\end{bsp}
 
 \end{document}
