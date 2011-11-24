@@ -121,7 +121,7 @@
 
 \begin{titlepage}
 	\begin{center}	
-		\LARGE \textbf{{Einführung in die Geometrie und Topologie - Definitionen -} \\[5ex] 
+		\LARGE \textbf{{Einführung in die Geometrie und Topologie - Definitionen und Sätze -} \\[5ex] 
     		{\Large Vorlesung im Wintersemester 2011/2012\\[5ex]}}
 	\end{center}
 	\begin{center}
@@ -311,6 +311,10 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 \section*{Zusammenhangskomponente}
 	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine maximale zusammenhängende Teilmenge von $X$.
 
+\section*{Satz}
+	Stetige Bilder zusammenhängender Mengen sind zusammenhängend.
+	\newline
+	(D.h.: Ist $f \colon X \rightarrow Y$ stetig und $X$ zusammenhängend, so auch $f(X)\subset Y$.)
 
 \section*{Weg, Anfangspunkt, Endpunkt}
 	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
@@ -419,6 +423,33 @@ eine $C^l$-Abbildung im üblichen Sinn.
 
 \section*{Untermannigfaltigkeit}
 Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
+\newline
+\hrule
+Hier endet der Stoff für den ersten Test.
+\newline
+\hrule
+
+\section*{Satz: Äquivalente Beschreibung einer glatten Untermannigfaltigkeit von $\R^{n+l}$}
+
+	Es sei $M \subseteq \R^{n+l}$. Es sind äquivalent:
+	\begin{enumerate}[(a)]
+		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l} \text{ und } f \in C^\infty(U,\R^l)$ $\text{ mit Rang }Df(x) = l \text{ für alle } x \in U$ dergestalt, dass $U \cap M = f^{-1}(0)$.
+		\item $\forall x_0 \in M \exists U = U(x) \subseteq_{\text{offen}} \R^{n+l} \text{ und } \varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+			\begin{itemize}
+				\item $\varphi(U) \subseteq \R^{n+l}$ ist offen
+				\item $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$
+				\item $\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\})$ $= \{(y_1, \ldots, y_n) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0\}$
+			\end{itemize}
+		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l}$, $W \subseteq \R^n$ offen und $\psi \in C^\infty(W,U)$ mit folgenden Eigenschaften:
+			\begin{itemize}
+				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
+				\item $D\psi(w)$ ist injektiv für alle $w \in W$.
+			\end{itemize}
+	\end{enumerate}
+
+\section*{Satz: $C^\infty$-Untermannigfaltigkeiten von $\R^{n+l}$ sind $C^\infty$-Mannigfaltigkeiten}
+	Es sei $M \subseteq \R^{n+l}$ $n$-dimensionale $C^\infty$-Untermannigfaltigkeit von $\R^{n+l}$ und $\{\psi_\alpha \colon W_\alpha \rightarrow U_\alpha \cap M \mid \alpha \in \Lambda\}$ eine Menge lokaler Parametrisierungen (wie in (c)) mit $M \subseteq \bigcup\limits_{\alpha \in \Lambda}{U_\alpha}$.
+	Dann ist $\mathcal{A} = \{(\psi_\alpha^{-1}, U_\alpha \cap M) \mid \alpha \in \Lambda\}$ ein $C^\infty$-Atlas und $M$ eine $C^\infty$-Mannigfaltigkeit.
 
 
 \section*{Quotienten(raum)topologie}
@@ -438,5 +469,23 @@ Diese heißt dann \textbf{Quotientenabbildung} von $f$ nach $S$, in Zeichen $f/S
 \newline
 Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \underline{injektiv} und heißt \underline{injektiver Quotient} von $f$.
 
+\section*{Kontraktion}
+	Die Quotientenmenge eines topologischen Raumes $X$ bzgl. einer Partition $S$ von $X$, welche aus einer Teilmenge $A$ von $X$ und allen Einpunktmengen aus $X \backslash A$ besteht, $$S = A \cup \left\{\{x\} \mid x \in X \backslash A\right \}$$
+	heißt \underline{Kontraktion} (\underline{von $X$ bzgl. $X \backslash A$}), und für $X/S$ schreibt man einfach $X/A$.
+	
+\section*{Verkleben}
+Sind $A$ und $B$ disjunkte Teilräume eines topologischen Raumes $X$ und ist $f \colon A \rightarrow B$ ein Homöomorphismus, (TODO: Bild) so heißt der Übergang zum Quotientenraum, der durch die Partition von $X$ in die Einpunktmengen von $X \backslash (A \cup B)$ und die Zweipunktmengen $\{x,f(x)\}, x \in A$ gegeben ist, als \underline{Verkleben} (\underline{von $X$ längs $A$ und $B$ via des Homöomorphismus $f$}) und dieser Prozess einfach auch \underline{Verkleben von $A$ und $B$}.
+\newline
+\textbf{Notation}
+$$X/_{[a \sim f(a)]} \quad \text{(mit $a \in A$)}$$
+
+\section*{$n$-dimensionaler reell-projektiver Raum}
+	Der $n$-dimensionale reell-projektive Raum ist 
+	$$\R \Prim^n := S^n/_{[x \sim -x]}$$
+	\footnote{Anschaulich (projektive Geometrie): 
+	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$}
+	
+	und der $n$-dimensionale komplex-projektive Raum ist 
+	$$\C \Prim^n := \underbrace{S^{2n+1}}_{\subset \C^{n+1}}/_{[v \sim \lambda v, \lambda \in S^1]}$$
 
 \end{document}

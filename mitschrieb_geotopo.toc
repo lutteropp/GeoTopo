@@ -27,3 +27,6 @@
 \contentsline {paragraph}{Interpretation}{50}{section*.108}
 \contentsline {paragraph}{Allgemeiner}{50}{section*.109}
 \contentsline {paragraph}{Erinnerung}{51}{section*.110}
+\contentsline {section}{\numberline {6}Konstruktionen von Quotientenr\IeC {\"a}umen}{54}{section.3.6}
+\contentsline {paragraph}{Andere Sichtweise:}{55}{section*.116}
+\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{56}{section*.123}
