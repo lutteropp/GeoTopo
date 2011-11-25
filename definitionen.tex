@@ -165,7 +165,7 @@ Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und
 
 
 \section*{Homotopie}
-Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \forall x \in X$.
+Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $$f,g \colon X \rightarrow Y$$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \forall x \in X$.
 
 
 \section*{Homotope Abbildungen}
@@ -248,12 +248,12 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 
 
 \section*{Stetigkeit}
-	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
+	$f \colon X \rightarrow Y$ ist stetig \newline $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
 
 
-\section*{Stetigkeit} %spacings stimmen nicht ganz (TODO)
-	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
-	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \exists \text{ Umgebung } U \text{ von } x \text{ mit } f(U) \subset V$.
+\section*{Stetigkeit}
+	$f \colon X \rightarrow Y$ ist stetig in $x \in X$ \newline
+	$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \quad \exists \text{ Umgebung } U \text{ von } x \text{ mit } f(U) \subset V$.
 	\newline
 
 
@@ -280,7 +280,7 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 
 
 \section*{Äquivalenz von Einbettungen}
-	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm 
+	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} \newline $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm 
 		\includegraphics[scale=0.3]{images/homotopieaequivalenz.jpg} kommutiert.
 
 
@@ -322,7 +322,7 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 
 
 \section*{Wegzusammenhang}
-	$X$ heißt \underline{wegzusammenhängend} $:\Leftrightarrow$ Zu je zwei Punkten $x,x^\prime \in X \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X \text{ mit } \gamma(0)=x, \gamma(1)=x^\prime$.
+	$X$ heißt \underline{wegzusammenhängend} \newline $:\Leftrightarrow$ Zu je zwei Punkten $x,x^\prime \in X$ \newline $\quad \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X \text{ mit } \gamma(0)=x, \gamma(1)=x^\prime$.
 	\newline
 
 
@@ -423,34 +423,36 @@ eine $C^l$-Abbildung im üblichen Sinn.
 
 \section*{Untermannigfaltigkeit}
 Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
-\newline
-\hrule
-Hier endet der Stoff für den ersten Test.
-\newline
-\hrule
 
+\newpage
 \section*{Satz: Äquivalente Beschreibung einer glatten Untermannigfaltigkeit von $\R^{n+l}$}
-
-	Es sei $M \subseteq \R^{n+l}$. Es sind äquivalent:
+Für Teilmengen $M \subset \R^{n+l}$ sind äquivalent:
 	\begin{enumerate}[(a)]
-		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l} \text{ und } f \in C^\infty(U,\R^l)$ $\text{ mit Rang }Df(x) = l \text{ für alle } x \in U$ dergestalt, dass $U \cap M = f^{-1}(0)$.
-		\item $\forall x_0 \in M \exists U = U(x) \subseteq_{\text{offen}} \R^{n+l} \text{ und } \varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
-			\begin{itemize}
-				\item $\varphi(U) \subseteq \R^{n+l}$ ist offen
-				\item $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$
-				\item $\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\})$ $= \{(y_1, \ldots, y_n) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0\}$
-			\end{itemize}
-		\item $\forall x_0 \in M \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l}$, $W \subseteq \R^n$ offen und $\psi \in C^\infty(W,U)$ mit folgenden Eigenschaften:
+		\item $\forall x_0 \in M \quad \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) := \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ 
+
+\begin{center}
+\includegraphics[scale=0.5]{images/Satz_UnterMf.jpg}
+\end{center}
+
+		\item $\forall x_0 \in M \quad \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+		$\varphi(U) \subset \R^{n+l}$ ist offen, \newline $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
+		\item $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
 			\begin{itemize}
 				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
-				\item $D\psi(w)$ ist injektiv für alle $w \in W$.
+				\item $D\psi(w)$ ist injektiv für alle $w \in W$
 			\end{itemize}
+			(Jedes solche $\psi$ heißt \underline{lokale Parametrisierung von $M$}).
 	\end{enumerate}
 
 \section*{Satz: $C^\infty$-Untermannigfaltigkeiten von $\R^{n+l}$ sind $C^\infty$-Mannigfaltigkeiten}
 	Es sei $M \subseteq \R^{n+l}$ $n$-dimensionale $C^\infty$-Untermannigfaltigkeit von $\R^{n+l}$ und $\{\psi_\alpha \colon W_\alpha \rightarrow U_\alpha \cap M \mid \alpha \in \Lambda\}$ eine Menge lokaler Parametrisierungen (wie in (c)) mit $M \subseteq \bigcup\limits_{\alpha \in \Lambda}{U_\alpha}$.
 	Dann ist $\mathcal{A} = \{(\psi_\alpha^{-1}, U_\alpha \cap M) \mid \alpha \in \Lambda\}$ ein $C^\infty$-Atlas und $M$ eine $C^\infty$-Mannigfaltigkeit.
 
+\vspace{1cm}
+\hrule
+Hier endet der Stoff für den ersten Test.
+\newline
+\hrule
 
 \section*{Quotienten(raum)topologie}
 	Eine Teilmenge $U \subset X/S$ heißt \underline{offen}
@@ -474,16 +476,15 @@ Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \un
 	heißt \underline{Kontraktion} (\underline{von $X$ bzgl. $X \backslash A$}), und für $X/S$ schreibt man einfach $X/A$.
 	
 \section*{Verkleben}
-Sind $A$ und $B$ disjunkte Teilräume eines topologischen Raumes $X$ und ist $f \colon A \rightarrow B$ ein Homöomorphismus, (TODO: Bild) so heißt der Übergang zum Quotientenraum, der durch die Partition von $X$ in die Einpunktmengen von $X \backslash (A \cup B)$ und die Zweipunktmengen $\{x,f(x)\}, x \in A$ gegeben ist, als \underline{Verkleben} (\underline{von $X$ längs $A$ und $B$ via des Homöomorphismus $f$}) und dieser Prozess einfach auch \underline{Verkleben von $A$ und $B$}.
+Sind $A$ und $B$ disjunkte Teilräume eines topologischen Raumes $X$ und ist $f \colon A \rightarrow B$ ein Homöomorphismus, (TODO: Bild) so heißt der Übergang zum Quotientenraum, der durch die Partition von $X$ in die Einpunktmengen von $X \backslash (A \cup B)$ und die Zweipunktmengen $\{x,f(x)\}, x \in A$ gegeben ist, \underline{Verkleben} (\underline{von $X$ längs $A$ und $B$ via des Homöomorphismus $f$}) und dieser Prozess einfach auch \underline{Verkleben von $A$ und $B$}.
 \newline
 \textbf{Notation}
 $$X/_{[a \sim f(a)]} \quad \text{(mit $a \in A$)}$$
 
 \section*{$n$-dimensionaler reell-projektiver Raum}
-	Der $n$-dimensionale reell-projektive Raum ist 
+	Der $n$-dimensionale reell-projektive Raum\footnote{Anschaulich (projektive Geometrie): 
+	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$} ist 
 	$$\R \Prim^n := S^n/_{[x \sim -x]}$$
-	\footnote{Anschaulich (projektive Geometrie): 
-	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$}
 	
 	und der $n$-dimensionale komplex-projektive Raum ist 
 	$$\C \Prim^n := \underbrace{S^{2n+1}}_{\subset \C^{n+1}}/_{[v \sim \lambda v, \lambda \in S^1]}$$

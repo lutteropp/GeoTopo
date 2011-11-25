@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  24 NOV 2011 15:32
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 NOV 2011 13:39
 entering extended mode
  %&-line parsing enabled.
 **definitionen.tex
@@ -932,16 +932,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--231
  []
 
 [3]
-Overfull \hbox (89.20317pt too wide) in paragraph at lines 255--258
-$\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1
-/lmr/m/n/10.95 ist ste-tig in $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OML
-/lmm/m/it/10.95 X$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 , 8[]\OML/lmm/m/it/
-10.95 V[]f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )\OMS/lms
-y/m/n/10.95 9[]\OML/lmm/m/it/10.95 U[]x[]f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.
-95 U\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^Z
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 255--258
 
  []
@@ -959,26 +949,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
  []
 
-<images/homotopieaequivalenz.jpg, id=73, 330.9966pt x 256.7994pt>
+[4] <images/homotopieaequivalenz.jpg, id=83, 330.9966pt x 256.7994pt>
 File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
 <use images/homotopieaequivalenz.jpg>
-Overfull \hbox (47.69841pt too wide) in paragraph at lines 283--285
-\T1/lmr/m/n/10.95 Zwei Ein-bet-tun-gen $\OML/lmm/m/it/10.95 f; g [] [] X \OMS/l
-msy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ $\OT1/lmr
-/m/n/10.95 :\OMS/lmsy/m/n/10.95 , 9[]\OML/lmm/m/it/10.95 h[] [] [] X \OMS/lmsy/
-m/n/10.95 !
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 283--285
-\OML/lmm/m/it/10.95 X; h[] [] [] Y \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y[
-]g \OMS/lmsy/m/n/10.95 ^^N \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OML/lm
-m/m/it/10.95 h[] \OMS/lmsy/m/n/10.95 ^^N \OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.9
-5 , d.h. dass das Dia-gramm
- []
-
-[4]
 Underfull \hbox (badness 10000) in paragraph at lines 298--304
 
  []
@@ -991,13 +965,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--309
 [5 <./images/homotopieaequivalenz.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
- []
-
-
-Underfull \hbox (badness 4467) in paragraph at lines 325--327
-$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 heiÿt $[]$ $\OT1/lmr/m/n/10.95 :\OMS/
-lmsy/m/n/10.95 ,$ \T1/lmr/m/n/10.95 Zu je zwei Punk-ten $\OML/lmm/m/it/10.95 x;
- x[] \OMS/lmsy/m/n/10.95 2
  []
 
 
@@ -1052,58 +1019,70 @@ ie-se heiÿt
  []
 
 
-Overfull \hbox (40.03812pt too wide) in paragraph at lines 425--427
+Overfull \hbox (40.03812pt too wide) in paragraph at lines 425--426
 \T1/lmr/m/n/10.95 heiÿt dann $[]$ $[]$. 
  []
 
+[9]
+Overfull \hbox (5.5862pt too wide) detected at line 431
+\OML/lmm/m/it/10.95 f \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n
+/10.95 (\OML/lmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 ) := \OMS
+/lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 g [] [] U \OMS/lmsy/m/n/10.95 ! \U/msb/m/n
+/10.95 R[] \OMS/lmsy/m/n/10.95 j \OML/lmm/m/it/10.95 g[]C[]\OMS/lmsy/m/n/10.95 
+g[]\OML/lmm/m/it/10.95 Df\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/
+10.95 ) = \OML/lmm/m/it/10.95 l \OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x \OMS
+/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 U
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+<images/Satz_UnterMf.jpg, id=138, 381.5856pt x 406.6392pt>
+File: images/Satz_UnterMf.jpg Graphic file (type jpg)
+
+<use images/Satz_UnterMf.jpg>
+Overfull \hbox (36.06137pt too wide) detected at line 438
+\OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10
+.95 \ \OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 '\OT1/lmr
+/m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 \ \OT
+1/lmr/m/n/10.95 (\U/msb/m/n/10.95 R[] \OMS/lmsy/m/n/10.95 ^^B f\OT1/lmr/m/n/10.
+95 0\OMS/lmsy/m/n/10.95 g\OT1/lmr/m/n/10.95 ) = \OMS/lmsy/m/n/10.95 f\OT1/lmr/m
+/n/10.95 (\OML/lmm/m/it/10.95 y[]; [] ; y[]\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/1
+0.95 2 \OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m
+/n/10.95 ) \OMS/lmsy/m/n/10.95 j \OML/lmm/m/it/10.95 y[] \OT1/lmr/m/n/10.95 = [
+] = \OML/lmm/m/it/10.95 y[] \OT1/lmr/m/n/10.95 = 0\OMS/lmsy/m/n/10.95 g
+ []
+
+[10 <./images/Satz_UnterMf.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
-
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 436--437
-[]$\OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x[] \OMS/lmsy/m/n/10.95 2 \OML/lmm/
-m/it/10.95 M\OMS/lmsy/m/n/10.95 9\OML/lmm/m/it/10.95 U \OT1/lmr/m/n/10.95 = \OM
-L/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95
- ) \OMS/lmsy/m/n/10.95 ^^R[] \U/msb/m/n/10.95 R[][]\OML/lmm/m/it/10.95 f \OMS/l
-msy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
-U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 )$
- []
-
-[9] [10] [11] (./definitionen.aux) ) 
+[11] [12] (./definitionen.aux) ) 
 Here is how much of TeX's memory you used:
- 9025 strings out of 256216
- 133813 string characters out of 1917072
+ 9031 strings out of 256216
+ 133947 string characters out of 1917072
  209603 words of memory out of 1500000
- 11914 multiletter control sequences out of 10000+200000
+ 11918 multiletter control sequences out of 10000+200000
  66968 words of font info for 74 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,12n,43p,519b,443s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.
-enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/
-enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr
-/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.
-pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on definitionen.pdf (12 pages, 329177 bytes).
+ 45i,12n,43p,515b,410s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/
+lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+mi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on definitionen.pdf (13 pages, 368538 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 131072)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 131072)
+ 32 words of extra memory for PDF output out of 10000 (max. 10000000)
 
