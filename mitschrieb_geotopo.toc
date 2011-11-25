@@ -4,29 +4,29 @@
 \contentsline {section}{\numberline {0}Vorwort}{2}{section.1.0}
 \contentsline {paragraph}{Erinnerung}{4}{section*.9}
 \contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{10}{section.1.1}
-\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{12}{section*.25}
-\contentsline {paragraph}{Erinnerung}{14}{section*.31}
-\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{21}{chapter.2}
-\contentsline {section}{\numberline {1}Trennungseigenschaften}{27}{section.2.1}
-\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{29}{section.2.2}
-\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{32}{chapter.3}
-\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{32}{section.3.1}
-\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{32}{section*.84}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{36}{section*.90}
-\contentsline {section}{\numberline {2}Produkt-Topologie}{37}{section.3.2}
-\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{37}{section*.93}
-\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{39}{section.3.3}
-\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{39}{section*.97}
-\contentsline {paragraph}{Interpretation}{40}{section*.98}
-\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{46}{section.3.4}
-\contentsline {paragraph}{Erinnerung}{46}{section*.101}
-\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{46}{section*.103}
-\contentsline {paragraph}{Achtung:}{46}{section*.104}
-\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{48}{section*.106}
-\contentsline {section}{\numberline {5}Quotientenabbildungen}{49}{section.3.5}
-\contentsline {paragraph}{Interpretation}{49}{section*.108}
-\contentsline {paragraph}{Allgemeiner}{49}{section*.109}
-\contentsline {paragraph}{Erinnerung}{50}{section*.110}
-\contentsline {section}{\numberline {6}Konstruktionen von Quotientenr\IeC {\"a}umen}{53}{section.3.6}
-\contentsline {paragraph}{Andere Sichtweise:}{54}{section*.116}
-\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{57}{section*.123}
+\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{13}{section*.25}
+\contentsline {paragraph}{Erinnerung}{15}{section*.31}
+\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{22}{chapter.2}
+\contentsline {section}{\numberline {1}Trennungseigenschaften}{28}{section.2.1}
+\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{30}{section.2.2}
+\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{33}{chapter.3}
+\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{33}{section.3.1}
+\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{33}{section*.84}
+\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{37}{section*.90}
+\contentsline {section}{\numberline {2}Produkt-Topologie}{38}{section.3.2}
+\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{38}{section*.93}
+\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{40}{section.3.3}
+\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{41}{section*.97}
+\contentsline {paragraph}{Interpretation}{42}{section*.98}
+\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{48}{section.3.4}
+\contentsline {paragraph}{Erinnerung}{48}{section*.101}
+\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{48}{section*.103}
+\contentsline {paragraph}{Achtung:}{48}{section*.104}
+\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{50}{section*.106}
+\contentsline {section}{\numberline {5}Quotientenabbildungen}{51}{section.3.5}
+\contentsline {paragraph}{Interpretation}{51}{section*.108}
+\contentsline {paragraph}{Allgemeiner}{51}{section*.109}
+\contentsline {paragraph}{Erinnerung}{52}{section*.110}
+\contentsline {section}{\numberline {6}Konstruktionen von Quotientenr\IeC {\"a}umen}{55}{section.3.6}
+\contentsline {paragraph}{Andere Sichtweise:}{56}{section*.116}
+\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{59}{section*.123}

@@ -313,7 +313,9 @@ $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem
 Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1 := \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
 \newline
 \underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial!\newline
+\begin{center}
  \includegraphics[scale=0.5]{images/R2_ohne_0.jpg}
+ \end{center}
 \end{bsp}
 
 \begin{figure}[h]
@@ -427,6 +429,7 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	$\bullet$ Die Standard-Topologie auf $\R$ ist feiner als die $\mathcal{T}_1$-Topologie.
 \end{bsp}
 
+\newpage
 \paragraph{Mehr zu metrischen Räumen}
 
 %\begin{Kasten}
@@ -449,7 +452,9 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \begin{bsp}{}
 	Für $X=\R_{Eukl.}^{n}$ sind $B_1(0), D_1(0) =: D^n$ und $S^{n-1}:=S_1(0)$ metrische Unterräume und heißen auch offener bzw. abgeschlossener Einheitsball bzw. $(n-1)$-Sphäre.
 	\newline
+	\begin{center}
 	\includegraphics[width=0.3\textwidth]{images/metrischer_unterraum.jpg}
+	\end{center}
 \end{bsp}
 
 %\begin{Kasten}
@@ -458,9 +463,11 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\newline
 	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
 	\newline
+	\begin{center}
+	\includegraphics[width=0.4\textwidth]{images/Durchmesser.jpg}
+	\end{center}
 %\end{Kasten}
 \end{Kasten}
-	\includegraphics[width=0.4\textwidth]{images/Durchmesser.jpg}
 	
 \begin{remark}
 	In einem metrischen Raum $(X,d)$ bilden die offenen Bälle die Basis einer Topologie $\OO=\OO_d$ von $X$, diese heißt \underline{die von der Metrik induzierte Topologie}.
@@ -471,7 +478,9 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\newline
 	$\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
 	\newline
+	\begin{center}
 	\includegraphics[width=0.6\textwidth]{images/metrisch_offen.jpg}
+	\end{center}
 \end{remark}
 
 %\begin{Kasten}
@@ -491,8 +500,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\label{offenAbgeschlossen}
 	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
 		
+		\begin{center}
 	\includegraphics[width=0.6\textwidth]{images/offen_abgeschlossen.jpg}
-	\newline
+	\end{center}
 	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
 
@@ -509,8 +519,10 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 		\item \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
 	\end{enumerate}
 \end{Kasten}
+	\begin{center}
 	\includegraphics[width=0.6\textwidth]{images/innen_aussen.jpg}
-
+	\end{center}
+	
 \begin{Kasten}{Inneres}
 	Für $A \subset X$ heißt die größte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
 \end{Kasten}
@@ -550,7 +562,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \quad \exists \text{ Umgebung } U \text{ von } x \text{ mit }$$ $$f(U) \subset V.$$
 	\newline
 \end{Kasten}
+\begin{center}
 \includegraphics[width=0.7\textwidth]{images/stetig_in_x.jpg}
+\end{center}
 
 \begin{remark}
 	$f \colon X \rightarrow Y$ ist stetig $\Leftrightarrow$ $f$ ist stetig in jedem Punkt $x \in X$.
@@ -577,8 +591,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{bsp}{}
 	\begin{itemize}
 		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homöomorphismus!
-		\newline
+		\begin{center}
 		\includegraphics[width=0.7\textwidth]{images/0_1_nach_S1_f-1_nicht_stetig.jpg}
+		\end{center}
 		\item $id_X \colon X \rightarrow X$ ist immer ein Homöomorphismus, Kompositionen von Homöomorphismen ebenfalls.
 	\end{itemize}
 \end{bsp}
@@ -625,8 +640,10 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \begin{bsp}{}
 	\begin{itemize}
 		\item Für $A \subset X$ ist die Inklusion $\iota \colon A \hookrightarrow X, x \mapsto x$, stets eine Einbettung.
-		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung! \newline
-		\includegraphics[scale=0.25]{images/0_1_nach_S1_Pfeil.jpg}
+		\item $[0,1) \rightarrow S^1$ ist \underline{keine} Einbettung!
+		\begin{center}
+			\includegraphics[scale=0.25]{images/0_1_nach_S1_Pfeil.jpg}
+		\end{center}
 		\item \underline{Der Satz über die Umkehrabbildung/ Impliziter Funktionensatz} aus der Analysis zeigt: 
 			\newline
 			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung von $p$, auf der $f \big |_U$ eine Einbettung ist.
@@ -668,7 +685,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
 	\newline
 \end{Kasten}
-\includegraphics[scale=0.5]{images/Partition.jpg}
+\begin{center}
+	\includegraphics[scale=0.5]{images/Partition.jpg}
+\end{center}
 
 \begin{remark}
 	Ein topologischer Raum $X$ ist zusammenhängend 
@@ -700,7 +719,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$\Leftrightarrow$ $A$ ist leer, einpunktig, oder unendlich!
 \end{bsp}
 
-\begin{remark}[Eigenschaften zusammenhängender Mengen]
+\begin{remark}{Eigenschaften zusammenhängender Mengen}
 	\begin{itemize}
 		\item $A$ zusammenhängend $\Rightarrow$ $\bar{A}$ zusammenhängend
 		\item $A,B \subset X$ zusammenhängend, $A \cap B \neq \emptyset \Rightarrow A \cup B$ zusammenhängend
@@ -712,7 +731,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine maximale zusammenhängende Teilmenge von $X$.
 \end{Kasten}
 
-\begin{remark}
+\begin{remark}{}
 	\begin{itemize}
 		\item Jeder Punkt von $X$ liegt genau in einer Zusammenhangskomponente, und diese ist die Vereinigung aller diesen Punkt enthaltenden zusammenhängenden Teilmengen.
 		\item Zwei Zusammenhangskomponenten sind damit entweder gleich oder disjunkt.
@@ -769,12 +788,16 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
 	\newline
 \end{Kasten}
-\includegraphics[scale=0.4]{images/Weg.jpg}
+\begin{center}
+	\includegraphics[scale=0.4]{images/Weg.jpg}
+\end{center}
 
 \begin{Kasten}{Wegzusammenhang}
 	$X$ heißt \underline{wegzusammenhängend} $$:\Leftrightarrow \text{ Zu je zwei Punkten } x,x^\prime \in X \quad \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X$$ $$\text{ mit } \gamma(0)=x, \gamma(1)=x^\prime.$$
 \end{Kasten}
+\begin{center}
 \includegraphics[scale=0.4]{images/Wegzshgd.jpg}
+\end{center}
 
 \begin{bsp}{}
 	$$A=\{(x,y) \in \R^2 \mid x>0, y = \sin{\frac{1}{x}}\} \subset \R^2$$
@@ -796,14 +819,18 @@ Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüll
 \newline
 $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$ 
 \end{Kasten}
+\begin{center}
 \includegraphics[scale=0.4]{images/T1.jpg}
+\end{center}
 
 \begin{Kasten}{$T_2$-Raum}
 	$X$ heißt \underline{Hausdorff}- oder \underline{$T_2$-Raum} bzw. \underline{erfüllt das zweite Trennungsaxiom} $:\Leftrightarrow$ Je zwei verschiedene Punkte in $X$ besitzen disjunkte Umgebungen.
 	\newline
 	$\forall x \neq y \in X \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
 \end{Kasten}
+\begin{center}
 \includegraphics[scale=0.4]{images/T2.jpg}
+\end{center}
 
 \begin{bsp}{}
 	Jeder metrische Raum ist Hausdorff-Raum.
@@ -817,7 +844,9 @@ Hausdorff-Räume sind z.B. deshalb wichtig, weil Grenzwerte dort eindeutig sind!
 Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \quad \forall n \geq N$. 
 \newline
 \end{Kasten}
-\includegraphics[scale=0.5]{images/Grenzwert.jpg}
+\begin{center}
+	\includegraphics[scale=0.5]{images/Grenzwert.jpg}
+\end{center}
 
 \begin{bsp}{}
 In einem Hausdorff-Raum hat jede Folge höchstens einen Grenzwert.
@@ -900,7 +929,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \begin{Kasten}{Lokale Endlichkeit}
 	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \quad \exists U = U(x) \colon A \cap U = \emptyset \quad \forall A \in \Gamma$ bis auf endlich viele $A$.
 \end{Kasten}
-\includegraphics[scale=0.5]{images/lokal_endlich.jpg}
+\begin{center}
+	\includegraphics[scale=0.5]{images/lokal_endlich.jpg}
+\end{center} 
  
 \begin{Kasten}{Verfeinerung}
 	$\Gamma, \Delta$ Überdeckungen von $X$. $\Delta$ heißt \underline{Verfeinerung} von $\Gamma$ \newline $:\Leftrightarrow \forall A \in \Delta \exists B \in \Gamma \colon A \subset B$.
@@ -933,7 +964,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 			Jedes solche Paar $(U,\varphi)$ heißt eine \underline{Karte} oder ein \underline{lokales Koordinatensystem} um $p$.
 	\end{enumerate}
 \end{Kasten}
-\includegraphics[scale=0.4]{images/Karte.jpg} 
+\begin{center}
+	\includegraphics[scale=0.4]{images/Karte.jpg} 
+\end{center} 
  
 \begin{remark}
 	Die Zahl $n$, die \underline{Dimension von $M$}, ist eindeutig bestimmt!
@@ -949,7 +982,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	Ein Atlas heißt \underline{differenzierbar} \underline{von der Klasse $C^k$} (oder: $C^k$-Atlas von $M$), wenn für alle $\alpha, \beta \in \Lambda$ mit $U_\alpha \cap U_\beta \neq \emptyset$ der \underline{Kartenwechsel} $\varphi_\beta \circ \varphi_\alpha^{-1} \colon \varphi_\alpha(U_\alpha \cap U_\beta) \rightarrow \varphi_\beta(U_\alpha \cap U_\beta)$ eine $C^k$-Abbildung, also $k$-mal stetig differenzierbar ist. $(k=0,1,2,\ldots,\infty,\omega)$
 	\newline
 \end{Kasten}
-\includegraphics[scale=0.4]{images/Kartenwechsel.jpg}
+\begin{center}
+	\includegraphics[scale=0.4]{images/Kartenwechsel.jpg}
+\end{center} 
  
 \begin{Kasten}{Verträglichkeit, differenzierbare Struktur}
 	Ist $M$ topologische Mannigfaltigkeit und $\mathcal{A}=\{(\varphi_\alpha,U_\alpha) \mid \alpha \in \Lambda\}$ ein $C^k$-Atlas von $M$, so heißt eine Karte $(\varphi,U)$ von $M$ \underline{mit $\mathcal{A}$ verträglich}, falls $\mathcal{A}^\prime := \mathcal{A} \cup \{(\varphi,U)\}$ ebenfalls $C^k$-Atlas ist. 
@@ -1001,7 +1036,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \begin{bsp}{}
 	\begin{itemize}
 		\item $\R^2 \backslash \{0\} \cong S^1 \times \R^{> 0}$ (Polarkoordinaten) \newline
-		\includegraphics[scale=0.4]{images/Polarkoordinaten.jpg}
+		\begin{center}		
+			\includegraphics[scale=0.4]{images/Polarkoordinaten.jpg}
+		\end{center}
 		\item $O(n) \cong SO(n) \times O(1)$
 		\item $(S^1)^n :=  \underbrace{S^1 \times \ldots \times S^1}_{\text{n mal}}$ heißt \underline{n-dimensionaler Torus} (TODO: Bild 3: Exkurs höherdimensionale Sphären)
 	\end{itemize}
@@ -1015,10 +1052,13 @@ $$\forall (\varphi,U) \in \mathcal{A} \text{ und } (\varphi^\prime, U^\prime) \i
 $$\boxed{\varphi^\prime \circ f \circ \varphi^{-1} \colon \varphi(U \cap f^{-1}(U^\prime)) \rightarrow \varphi^\prime(f(U)\cap U^\prime)}$$
 eine $C^l$-Abbildung im üblichen Sinn.
 \end{Kasten}
-\includegraphics[scale=0.5]{images/Abb_diffbar.jpg}
- 
+\begin{center}
+	\includegraphics[scale=0.5]{images/Abb_diffbar.jpg}
+\end{center}
+
 TODO: Exkurs über Tangentialvektoren, Vektorfelder, Satz vom Igel, Physik des starren Körpers, Differentialtopologie
 
+\newpage 
 \paragraph{
 Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
  
@@ -1026,9 +1066,11 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
 	Für Teilmengen $M \subset \R^{n+l}$ sind äquivalent:
 	\begin{enumerate}[(a)]
 		\item $\forall x_0 \in M \exists \text{ Umgebung } U = U(x_0) \subset_{offen} \R^{n+l}$ und $$f \in C^\infty(U, \R^l) := \{g \colon U \rightarrow \R^l \mid g \text{ ist } C^\infty\}\text{ mit Rang }Df(x) = l \quad \forall x \in U$$ \footnote{$Df$ ist die Jacobi-Matrix von $f$} dergestalt, dass $U \cap M = f^{-1}(0) = \{x \in U \mid f(x) = 0\}$ 
+	\begin{center}
 \includegraphics[scale=0.5]{images/Satz_UnterMf.jpg}
+	\end{center}
 		\item $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
-		$\varphi(U) \subset \R^{n+l}$ ist offen, $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
+		$\varphi(U) \subset \R^{n+l}$ ist offen, \newline $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
 		\item $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
 			\begin{itemize}
 				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
@@ -1114,11 +1156,11 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 		 $$\pi \colon \R^{n+l} = \R^n \times \R^l \rightarrow \R^n, (x_1, \ldots, x_{n+l}) \mapsto (x_1, \ldots, x_n),$$
 		 die \underline{Projektion} und
 		 $$\iota \colon \R^n \rightarrow \R^{n+l}, (x_1, \ldots, x_n) \rightarrow (x_1, \ldots, x_n, 0, \ldots, 0)$$ die \underline{Inklusion}.
-		 \newline
+		 \newpage
 		 Setze $W := \pi(\varphi(U \cap M))$ und definiere $\psi \colon W \rightarrow U$ durch $\psi := \varphi^{-1} \circ \iota$.
-		 \newline
-\includegraphics[scale=0.5]{images/Beweis_Satz_UMF_Diagramm.jpg}
-		 \newline
+\begin{center}
+	\includegraphics[scale=0.5]{images/Beweis_Satz_UMF_Diagramm.jpg}
+\end{center}
 		 Dann ist $W$ offen und $\psi \colon W \rightarrow U \cap M$ ein Homöomorphismus, denn $\iota^\prime \colon W \rightarrow \varphi(U \cap M)$ ist Homöomorphismus und $\varphi^{-1} \colon \varphi(U \cap M) \rightarrow U \cap M$ ist Homöomorphismus.
 		 \newline
 		 Mit der Kettenregel folgt: Für alle $w \in W$ gilt:
@@ -1347,16 +1389,16 @@ $$\includegraphics[scale=0.2]{images/Quadrat.jpg} \leadsto \includegraphics[scal
 \end{bsp}
 
 \begin{bsp}{Die projektive Ebene}
-	\includegraphics[scale=0.4]{images/RP2.jpg}
+	\begin{center}
+		\includegraphics[scale=0.4]{images/RP2.jpg}
+	\end{center}
 	$$\Prim^2 \R \text{ (oder auch $\R \Prim^2$)}$$
 \end{bsp}
 
 \begin{Kasten}{$n$-dimensionaler reell-projektiver Raum}
-	Der $n$-dimensionale reell-projektive Raum ist 
+	Der $n$-dimensionale reell-projektive Raum\footnote{Anschaulich (projektive Geometrie): 
+	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$} ist 
 	$$\R \Prim^n := S^n/_{[x \sim -x]}$$
-	\footnote{Anschaulich (projektive Geometrie): 
-	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$}
-	
 	und der $n$-dimensionale komplex-projektive Raum ist 
 	$$\C \Prim^n := \underbrace{S^{2n+1}}_{\subset \C^{n+1}}/_{[v \sim \lambda v, \lambda \in S^1]}$$
 \end{Kasten}
