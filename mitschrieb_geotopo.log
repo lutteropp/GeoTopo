@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 NOV 2011 14:22
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 NOV 2011 14:42
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -1550,23 +1550,23 @@ File: images/Quotient_Torus.jpg Graphic file (type jpg)
 File: images/Quotient_Moebius.jpg Graphic file (type jpg)
 
 <use images/Quotient_Moebius.jpg>
-Overfull \hbox (53.96576pt too wide) in paragraph at lines 1304--1316
+Overfull \hbox (53.96576pt too wide) in paragraph at lines 1309--1321
 [] 
  []
 
 
-Overfull \hbox (54.83301pt too wide) in paragraph at lines 1304--1316
+Overfull \hbox (54.83301pt too wide) in paragraph at lines 1309--1321
 [] 
  []
 
 
-Overfull \hbox (41.71655pt too wide) in paragraph at lines 1304--1316
+Overfull \hbox (41.71655pt too wide) in paragraph at lines 1309--1321
 \T1/lmr/m/n/8 http://de.wikipedia.org/w/index.php?title=Datei:M%C3%B6biusband.p
 ng&filetimestamp=20090802105255
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1304--1316
+Underfull \hbox (badness 10000) in paragraph at lines 1309--1321
 
  []
 
@@ -1621,27 +1621,27 @@ File: images/I_Verkleben.jpg Graphic file (type jpg)
 File: images/Def_Verkleben.jpg Graphic file (type jpg)
 
 <use images/Def_Verkleben.jpg>
-Underfull \hbox (badness 2809) in paragraph at lines 1366--1369
+Underfull \hbox (badness 2809) in paragraph at lines 1371--1374
 \T1/lmr/m/n/10.95 Sind $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 und $\OML/lmm/
 m/it/10.95 B$ \T1/lmr/m/n/10.95 dis-junk-te Teil-räu-me ei-nes to-po-lo-gi-sche
 n Raum-
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 1366--1369
+Underfull \hbox (badness 1577) in paragraph at lines 1371--1374
 \T1/lmr/m/n/10.95 es $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 und ist $\OML/lm
 m/m/it/10.95 f [] [] A \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 B$ \T1/lmr/m/n
 /10.95 ein Ho-möo-mor-phis-mus, []
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 1366--1369
+Underfull \hbox (badness 1043) in paragraph at lines 1371--1374
 \T1/lmr/m/n/10.95 so heiÿt der Über-gang zum Quo-ti-en-ten-raum, der durch die 
 Par-
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 1366--1369
+Underfull \hbox (badness 6001) in paragraph at lines 1371--1374
 \T1/lmr/m/n/10.95 ti-ti-on von $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 in die
  Ein-punkt-men-gen von $\OML/lmm/m/it/10.95 X\OMS/lmsy/m/n/10.95 n\OT1/lmr/m/n/
 10.95 (\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 [ \OML/lmm/m/it/10.95 B\OT1/lm
@@ -1649,7 +1649,7 @@ r/m/n/10.95 )$ \T1/lmr/m/n/10.95 und
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 1366--1369
+Underfull \hbox (badness 2846) in paragraph at lines 1371--1374
 \T1/lmr/m/n/10.95 die Zwei-punkt-men-gen $\OMS/lmsy/m/n/10.95 f\OML/lmm/m/it/10
 .95 x; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )\OMS/lmsy/
 m/n/10.95 g\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 A$
@@ -1685,13 +1685,13 @@ File: images/Quadrat_Moebiusband.jpg Graphic file (type jpg)
 File: images/Moebiusband.png Graphic file (type png)
 
 <use images/Moebiusband.png>
-Overfull \hbox (41.71655pt too wide) in paragraph at lines 1379--1383
+Overfull \hbox (41.71655pt too wide) in paragraph at lines 1387--1391
 \T1/lmr/m/n/8 http://de.wikipedia.org/w/index.php?title=Datei:M%C3%B6biusband.p
 ng&filetimestamp=20090802105255
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1391
 
  []
 
@@ -1737,7 +1737,7 @@ exmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fon
 ts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm1
 0.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (60 pages, 4847415 bytes).
+Output written on mitschrieb_geotopo.pdf (60 pages, 4847420 bytes).
 PDF statistics:
  801 PDF objects out of 1000 (max. 8388607)
  273 named destinations out of 1000 (max. 131072)
