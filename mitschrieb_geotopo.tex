@@ -348,7 +348,7 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \end{bsp}
 
 \newpage
-\section{Grundlagen der allgemeinen Topologie}
+\section{Grundlagen der allgemeinen Topologie} % TODO: Römisch 1
 \begin{bsp}{Beispiele topologischer Räume}
 	\begin{enumerate}[(1)]
 		\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
@@ -1412,5 +1412,82 @@ $$\includegraphics[scale=0.2]{images/Quadrat.jpg} \leadsto \includegraphics[scal
 \end{Kasten}
 
 \paragraph{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}
+
+%hier beginnt der 29.11.11
+\paragraph{TODO: Exkurs: Homotopietheorie, Homologietheorie}
+
+\chapter{Konzepte der Algebraischen Topologie} % Römisch 2 ???
+\section{Die Fundamentalgruppe}
+
+\paragraph{Erinnerung} Homotopie von Abbildungen
+\newline
+$X,Y$ topologische Räume, $f,g \colon X \rightarrow Y$ stetig.
+\newline
+Eine \underline{stetige} Abbildung $$H \colon X \times I \rightarrow Y, (x,t) \mapsto H(x,t)$$
+mit $$H(x,0)=f(x), H(x,1)=g(x) \quad \forall x \in X$$
+heißt \underline{Homotopie von $f$ nach $g$}, und $f$ und $g$ dann \underline{homotop}, 
+\newline in Zeichen: $$f \simeq g.$$
+(TODO: Bild 1)
+$$H \hat{=} (h_t)_{t \in I}, h_t \colon X \rightarrow Y$$
+$$h_0 =f, \quad h_1 = g$$
+
+\underline{Wege} $u \colon I \rightarrow X$, $u$ stetig, spielen eine ganz wesentliche Rolle im Homotopiebegriff für Abbildungen.
+
+\begin{bsp}{}
+	\begin{itemize}
+		\item Jeder Weg $u$ ist selbst eine Homotopie, und zwar zwischen den konstanten Abbildungen $f \equiv u(0), g \equiv u(1)$.
+			\newline (TODO: Bild 2)
+		\item Jede Homotopie besteht aus Wegen:
+			\newline Ist $(h_t)_{t \in I}$ Homotopie $f \simeq g$ und $x \in X$, so ist 
+			$u_x \colon I \rightarrow X, t \mapsto h_t(x)$ ein Weg.
+		\item Jede (allgemeine) Homotopie ist (selber) ein Weg: \newline
+		$\forall t \in I$ ist $h_t \colon X \rightarrow Y$ stetige Abbildung.
+		\newline
+		$\leadsto \Gamma \colon I \rightarrow C(X,Y) := \{f \colon X \rightarrow Y \text{ stetig}\}, \quad t \mapsto h_t$
+	\end{itemize}
+\end{bsp}
+
+\begin{remark}{}
+	$C(X,Y)$ ist, versehen mit der sogenannten \underline{kompakt-offenen} \underline{Topologie}, selbst ein topologischer Raum und jede Homotopie $H \colon f \simeq g, \quad f,g \in C(X,Y)$ ist bezüglich dieser Topologie auf $C(X,Y)$ dann tatsächlich als \underline{stetige} Abbildung (also Weg) $I \rightarrow C(X,Y)$ interpretierbar.
+\newline
+Die kompakt-offene Topologie auf $C(X,Y)$ wird erzeugt von allen Mengen der Form $\{\varphi \in C(X,Y) \mid \varphi(A) \subset B\}, \quad A \subset X \text{ kompakt}, B \subset Y \text{ offen}$
+\end{remark}
+
+\paragraph{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: Lösen von DGL, DGL-Systemen usw.}
+
+Homotopie \underline{von Wegen} ist zunächst nicht sehr interessant:
+
+\begin{remark}{}
+	Zwei Wege $u,v \colon I \rightarrow X$ sind homotop
+	$$\Leftrightarrow u(I) \text{ und } v(I) \text{ liegen in derselben Wegzusammenhangskomponente}$$
+	(TODO: Bild 3) (TODO: Bild 4)
+\end{remark}
+
+\begin{Kasten}{homotop bezüglich der Endpunkte}
+	Zwei Wege $u,v \colon I \rightarrow X$, $X$ topologischer Raum, heißen \underline{homotop} (\underline{\underline{bezüglich der Endpunkte}})
+	$:\Leftrightarrow$
+	\begin{enumerate}
+		\item $u(0) = v(0), u(1) = v(1)$
+		\item $\exists$ Homotopie $H \colon u \simeq v$ $\left(\text{mit } H(0,t) \equiv u(0), H(1,t) \equiv u(1)\right)$
+	\end{enumerate}
+	(TODO: Bild 5)		
+\end{Kasten}
+
+(TODO: Bild 6) (TODO: Bild 7)
+
+$u,v \colon \underbrace{I}_{= X} \rightarrow \underbrace{X}_{=Y}$ \newline
+$H \colon I \times I \rightarrow X, (s,t) \mapsto H(s,t)$ \newline
+$u = u(s), v= v(s)$ \newline
+$H(s,0) = u(s), H(s,1)=v(s)$ \newline
+$H(0,t) \equiv u(0) (=v(0) = H(0,0))$ \newline
+$H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
+(TODO: Bild 8)
+
+\begin{bsp}{}
+	$\int\limits_{-\infty}^{\infty}{\frac{1}{1+x^4} dx} = \pi \frac{\sqrt{2}}{2}$ (TODO: Bild 9)
+	\footnote{Explodiert für $x^4 = -1$ (Singularität)}
+	\newline
+	TODO: Exkurs: Residuensatz, Wegintegrale
+\end{bsp}
 
 \end{document}

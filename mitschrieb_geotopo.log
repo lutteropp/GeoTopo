@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 NOV 2011 14:42
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  29 NOV 2011 15:38
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -844,7 +844,7 @@ LaTeX Info: Redefining \pageref on input line 129.
 \@outlinefile=\write4
 \openout4 = `mitschrieb_geotopo.out'.
 
- <torus2.pdf, id=59, 241.73793pt x 175.65433pt>
+ <torus2.pdf, id=67, 241.73793pt x 175.65433pt>
 File: torus2.pdf Graphic file (type pdf)
 
 <use torus2.pdf> [1
@@ -907,7 +907,7 @@ Kapitel I.
 
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<images/stetigeAbb.pdf, id=107, 553.81313pt x 338.39552pt>
+<images/stetigeAbb.pdf, id=117, 553.81313pt x 338.39552pt>
 File: images/stetigeAbb.pdf Graphic file (type pdf)
 
 <use images/stetigeAbb.pdf>
@@ -919,19 +919,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
 oup detected which pdfTeX can't handle. Ignoring it.
->] <images/Homotopie.jpg, id=123, 690.9012pt x 427.8384pt>
+>] <images/Homotopie.jpg, id=133, 690.9012pt x 427.8384pt>
 File: images/Homotopie.jpg Graphic file (type jpg)
 
 <use images/Homotopie.jpg>
-<images/nicht_homotop_1.jpg, id=124, 1054.94125pt x 422.57875pt>
+<images/nicht_homotop_1.jpg, id=134, 1054.94125pt x 422.57875pt>
 File: images/nicht_homotop_1.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_1.jpg>
-<images/nicht_homotop_2.jpg, id=125, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_2.jpg, id=135, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_2.jpg>
-<images/Homotopie_param.jpg, id=126, 690.9012pt x 439.8834pt>
+<images/Homotopie_param.jpg, id=136, 690.9012pt x 439.8834pt>
 File: images/Homotopie_param.jpg Graphic file (type jpg)
 
 <use images/Homotopie_param.jpg>
@@ -959,14 +959,14 @@ t/10.95 h[]$ \T1/lmr/m/n/10.95 und En-de $\OML/lmm/m/it/10.95 h[]$\T1/lmr/m/n/1
 
 [4 <./images/Homotopie.jpg> <./images/nicht_homotop_1.jpg> <./images/nicht_homo
 top_2.jpg>]
-<images/Homotopie_Transitivitaet.jpg, id=144, 506.8536pt x 372.9132pt>
+<images/Homotopie_Transitivitaet.jpg, id=154, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Aequivalenzklassen.jpg, id=145, 638.385pt x 269.3262pt>
+<images/Aequivalenzklassen.jpg, id=155, 638.385pt x 269.3262pt>
 File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
 
 <use images/Aequivalenzklassen.jpg>
@@ -974,7 +974,7 @@ File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./images/Homotopie_param.jpg>]
-<images/R_n_immer_homotop.jpg, id=154, 580.0872pt x 413.8662pt>
+<images/R_n_immer_homotop.jpg, id=164, 580.0872pt x 413.8662pt>
 File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 
 <use images/R_n_immer_homotop.jpg>
@@ -982,12 +982,12 @@ File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./images/Homotopie_Transitivitaet.jpg> <./images/Aequivalenzklassen.jpg>]
-<images/Nullhomotopie.jpg, id=163, 577.6782pt x 338.2236pt>
+<images/Nullhomotopie.jpg, id=173, 577.6782pt x 338.2236pt>
 File: images/Nullhomotopie.jpg Graphic file (type jpg)
 
 <use images/Nullhomotopie.jpg> [7 <./images/R_n_immer_homotop.jpg> <./images/Nu
 llhomotopie.jpg>]
-<images/Geschlossene_Wege.jpg, id=171, 551.1792pt x 403.2666pt>
+<images/Geschlossene_Wege.jpg, id=181, 551.1792pt x 403.2666pt>
 File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
 
 <use images/Geschlossene_Wege.jpg>
@@ -995,11 +995,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--316
 
  []
 
-<images/R2_ohne_0.jpg, id=172, 500.5902pt x 375.804pt>
+<images/R2_ohne_0.jpg, id=182, 500.5902pt x 375.804pt>
 File: images/R2_ohne_0.jpg Graphic file (type jpg)
 
 <use images/R2_ohne_0.jpg>
-<images/S1_und_R2_ohne_0.jpg, id=173, 631.6398pt x 459.1554pt>
+<images/S1_und_R2_ohne_0.jpg, id=183, 631.6398pt x 459.1554pt>
 File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 
 <use images/S1_und_R2_ohne_0.jpg>
@@ -1007,7 +1007,7 @@ File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/Geschlossene_Wege.jpg> <./images/R2_ohne_0.jpg>]
-<images/Teilraumtopologie.jpg, id=180, 616.2222pt x 476.0184pt>
+<images/Teilraumtopologie.jpg, id=190, 616.2222pt x 476.0184pt>
 File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 
 <use images/Teilraumtopologie.jpg>
@@ -1015,18 +1015,18 @@ File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./images/S1_und_R2_ohne_0.jpg>] [10 <./images/Teilraumtopologie.jpg>]
-<images/offener_Kreis.jpg, id=202, 209.1012pt x 208.6194pt>
+<images/offener_Kreis.jpg, id=212, 209.1012pt x 208.6194pt>
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 
 <use images/offener_Kreis.jpg>
-<images/offenes_Quadrat.jpg, id=203, 219.7008pt x 220.1826pt>
+<images/offenes_Quadrat.jpg, id=213, 219.7008pt x 220.1826pt>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
 <use images/offenes_Quadrat.jpg>
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 390.
 
-<images/Cantormenge_5te_Iteration.jpg, id=204, 183.68625pt x 82.80937pt>
+<images/Cantormenge_5te_Iteration.jpg, id=214, 183.68625pt x 82.80937pt>
 File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
 
 <use images/Cantormenge_5te_Iteration.jpg> [11 <./images/offener_Kreis.jpg> <./
@@ -1036,11 +1036,11 @@ File: images/offener_Kreis.jpg Graphic file (type jpg)
 <use images/offener_Kreis.jpg>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
  <use images/offenes_Quadrat.jpg>
-<images/Quadrate_Schnitt.jpg, id=221, 281.853pt x 214.401pt>
+<images/Quadrate_Schnitt.jpg, id=231, 281.853pt x 214.401pt>
 File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Quadrate_Schnitt.jpg>
-<images/Kreis_Schnitt.jpg, id=222, 345.4506pt x 211.5102pt>
+<images/Kreis_Schnitt.jpg, id=232, 345.4506pt x 211.5102pt>
 File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Kreis_Schnitt.jpg> [12 <./images/Quadrate_Schnitt.jpg> <./images/Kr
@@ -1057,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
-<images/metrischer_unterraum.jpg, id=235, 190.311pt x 231.264pt>
+<images/metrischer_unterraum.jpg, id=245, 190.311pt x 231.264pt>
 File: images/metrischer_unterraum.jpg Graphic file (type jpg)
 
 <use images/metrischer_unterraum.jpg>
@@ -1065,7 +1065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--466
 
  []
 
-<images/Durchmesser.jpg, id=236, 316.5426pt x 200.9106pt>
+<images/Durchmesser.jpg, id=246, 316.5426pt x 200.9106pt>
 File: images/Durchmesser.jpg Graphic file (type jpg)
 
 <use images/Durchmesser.jpg> [13 <./images/metrischer_unterraum.jpg>]
@@ -1080,12 +1080,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 477--481
 
  []
 
-<images/metrisch_offen.jpg, id=245, 523.2348pt x 437.4744pt>
+<images/metrisch_offen.jpg, id=255, 523.2348pt x 437.4744pt>
 File: images/metrisch_offen.jpg Graphic file (type jpg)
 
 <use images/metrisch_offen.jpg> [14 <./images/Durchmesser.jpg> <./images/metris
 ch_offen.jpg>]
-<images/offen_abgeschlossen.jpg, id=254, 635.976pt x 376.2858pt>
+<images/offen_abgeschlossen.jpg, id=264, 635.976pt x 376.2858pt>
 File: images/offen_abgeschlossen.jpg Graphic file (type jpg)
 
 <use images/offen_abgeschlossen.jpg>
@@ -1093,7 +1093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--516
 
  []
 
-<images/innen_aussen.jpg, id=256, 523.2348pt x 437.4744pt>
+<images/innen_aussen.jpg, id=266, 523.2348pt x 437.4744pt>
 File: images/innen_aussen.jpg Graphic file (type jpg)
 
 <use images/innen_aussen.jpg> [15 <./images/offen_abgeschlossen.jpg>] [16 <./im
@@ -1102,11 +1102,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--564
 
  []
 
-<images/stetig_in_x.jpg, id=277, 630.6762pt x 405.6756pt>
+<images/stetig_in_x.jpg, id=287, 630.6762pt x 405.6756pt>
 File: images/stetig_in_x.jpg Graphic file (type jpg)
 
 <use images/stetig_in_x.jpg> [17 <./images/stetig_in_x.jpg>]
-<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=286, 648.021pt x 356.0502pt>
+<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=296, 648.021pt x 356.0502pt>
 File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
 
 <use images/0_1_nach_S1_f-1_nicht_stetig.jpg> [18 <./images/0_1_nach_S1_f-1_nic
@@ -1118,11 +1118,11 @@ m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
 
 LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 612.
-<images/Stereographie_S1_R1.jpg, id=297, 590.6868pt x 331.4784pt>
+<images/Stereographie_S1_R1.jpg, id=307, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
-<images/Stereographie_S2_R2.jpg, id=298, 590.6868pt x 393.6306pt>
+<images/Stereographie_S2_R2.jpg, id=308, 590.6868pt x 393.6306pt>
 File: images/Stereographie_S2_R2.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S2_R2.jpg>
@@ -1138,7 +1138,7 @@ MS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
  []
 
 [19 <./images/Stereographie_S1_R1.jpg> <./images/Stereographie_S2_R2.jpg>]
-<images/0_1_nach_S1_Pfeil.jpg, id=307, 678.3744pt x 361.35pt>
+<images/0_1_nach_S1_Pfeil.jpg, id=317, 678.3744pt x 361.35pt>
 File: images/0_1_nach_S1_Pfeil.jpg Graphic file (type jpg)
 
 <use images/0_1_nach_S1_Pfeil.jpg>
@@ -1146,7 +1146,7 @@ Underfull \hbox (badness 5446) in paragraph at lines 647--650
 []$[]$ \T1/lmr/m/n/10.95 aus
  []
 
-<images/homotopieaequivalenz.jpg, id=308, 330.9966pt x 256.7994pt>
+<images/homotopieaequivalenz.jpg, id=318, 330.9966pt x 256.7994pt>
 File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
 <use images/homotopieaequivalenz.jpg>
@@ -1157,17 +1157,17 @@ msy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ $\OT1/lmr
  []
 
 [20 <./images/0_1_nach_S1_Pfeil.jpg> <./images/homotopieaequivalenz.jpg>]
-<images/Knoten_Kreis.jpg, id=316, 184.5294pt x 184.5294pt>
+<images/Knoten_Kreis.jpg, id=326, 184.5294pt x 184.5294pt>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_Kreis.jpg>
-<images/Knoten_aequivalent_zu_Kreis.jpg, id=317, 241.3818pt x 223.0734pt>
+<images/Knoten_aequivalent_zu_Kreis.jpg, id=327, 241.3818pt x 223.0734pt>
 File: images/Knoten_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_aequivalent_zu_Kreis.jpg>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
  <use images/Knoten_Kreis.jpg>
-<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=318, 241.8636pt x 223.5552pt>
+<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=328, 241.8636pt x 223.5552pt>
 File: images/Knoten_nicht_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
 <use images/Knoten_nicht_aequivalent_zu_Kreis.jpg> [21 <./images/Knoten_Kreis.j
 pg> <./images/Knoten_aequivalent_zu_Kreis.jpg> <./images/Knoten_nicht_aequivale
@@ -1178,7 +1178,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 675--681
 
  []
 
-<images/Ueberdeckung.jpg, id=325, 661.9932pt x 502.9992pt>
+<images/Ueberdeckung.jpg, id=335, 661.9932pt x 502.9992pt>
 File: images/Ueberdeckung.jpg Graphic file (type jpg)
 
 <use images/Ueberdeckung.jpg> [22
@@ -1188,27 +1188,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 685--687
 
  []
 
-<images/Partition.jpg, id=332, 638.385pt x 276.5532pt>
+<images/Partition.jpg, id=342, 638.385pt x 276.5532pt>
 File: images/Partition.jpg Graphic file (type jpg)
 
 <use images/Partition.jpg> [23 <./images/Ueberdeckung.jpg> <./images/Partition.
-jpg>] [24] <images/R_ohne_p.jpg, id=352, 327.624pt x 92.5056pt>
+jpg>] [24] <images/R_ohne_p.jpg, id=362, 327.624pt x 92.5056pt>
 File: images/R_ohne_p.jpg Graphic file (type jpg)
 
 <use images/R_ohne_p.jpg>
-<images/R2_ohne_p.jpg, id=353, 256.7994pt x 211.0284pt>
+<images/R2_ohne_p.jpg, id=363, 256.7994pt x 211.0284pt>
 File: images/R2_ohne_p.jpg Graphic file (type jpg)
 
 <use images/R2_ohne_p.jpg>
-<images/Waffel_zshgd.jpg, id=354, 607.5498pt x 467.8278pt>
+<images/Waffel_zshgd.jpg, id=364, 607.5498pt x 467.8278pt>
 File: images/Waffel_zshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_zshgd.jpg>
-<images/Waffel_unzshgd.jpg, id=355, 529.98pt x 404.2302pt>
+<images/Waffel_unzshgd.jpg, id=365, 529.98pt x 404.2302pt>
 File: images/Waffel_unzshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd.jpg>
-<images/Waffel_unzshgd_Fkt.jpg, id=356, 587.796pt x 377.2494pt>
+<images/Waffel_unzshgd_Fkt.jpg, id=366, 587.796pt x 377.2494pt>
 File: images/Waffel_unzshgd_Fkt.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd_Fkt.jpg>
@@ -1221,15 +1221,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 788--790
 
  []
 
-<images/Weg.jpg, id=365, 358.4592pt x 325.6968pt>
+<images/Weg.jpg, id=375, 358.4592pt x 325.6968pt>
 File: images/Weg.jpg Graphic file (type jpg)
  <use images/Weg.jpg> [26 <./images/Waffel_zshgd.jpg> <./images/Waffel_unzshgd.
 jpg> <./images/Waffel_unzshgd_Fkt.jpg> <./images/Weg.jpg>]
-<images/Wegzshgd.jpg, id=371, 649.4664pt x 416.2752pt>
+<images/Wegzshgd.jpg, id=381, 649.4664pt x 416.2752pt>
 File: images/Wegzshgd.jpg Graphic file (type jpg)
 
 <use images/Wegzshgd.jpg>
-<images/Sinuseinsdurchx.png, id=372, 803.0pt x 342.27875pt>
+<images/Sinuseinsdurchx.png, id=382, 803.0pt x 342.27875pt>
 File: images/Sinuseinsdurchx.png Graphic file (type png)
 
 <use images/Sinuseinsdurchx.png>
@@ -1249,7 +1249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 818--821
 n/10.95 heiÿt $[]$ bzw.
  []
 
-<images/T1.jpg, id=380, 209.583pt x 114.6684pt>
+<images/T1.jpg, id=390, 209.583pt x 114.6684pt>
 File: images/T1.jpg Graphic file (type jpg)
  <use images/T1.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 827--830
@@ -1262,7 +1262,7 @@ Underfull \hbox (badness 2393) in paragraph at lines 827--830
 chie-de-ne Punk-
  []
 
-<images/T2.jpg, id=381, 248.6088pt x 140.2038pt>
+<images/T2.jpg, id=391, 248.6088pt x 140.2038pt>
 File: images/T2.jpg Graphic file (type jpg)
  <use images/T2.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 844--846
@@ -1270,32 +1270,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 844--846
  []
 
 [28 <./images/T1.jpg> <./images/T2.jpg>]
-<images/Grenzwert.jpg, id=391, 378.213pt x 468.7914pt>
+<images/Grenzwert.jpg, id=401, 378.213pt x 468.7914pt>
 File: images/Grenzwert.jpg Graphic file (type jpg)
 
 <use images/Grenzwert.jpg> [29 <./images/Grenzwert.jpg>] [30]
-<images/lokal_endlich.jpg, id=415, 444.2196pt x 325.215pt>
+<images/lokal_endlich.jpg, id=425, 444.2196pt x 325.215pt>
 File: images/lokal_endlich.jpg Graphic file (type jpg)
 
 <use images/lokal_endlich.jpg> [31 <./images/lokal_endlich.jpg>]
-<images/Cutoff.jpg, id=424, 587.796pt x 363.759pt>
+<images/Cutoff.jpg, id=434, 587.796pt x 363.759pt>
 File: images/Cutoff.jpg Graphic file (type jpg)
  <use images/Cutoff.jpg>
 [32 <./images/Cutoff.jpg>]
 Kapitel III.
-<images/Mannigfaltigkeiten1.jpg, id=431, 649.4664pt x 370.5042pt>
+<images/Mannigfaltigkeiten1.jpg, id=441, 649.4664pt x 370.5042pt>
 File: images/Mannigfaltigkeiten1.jpg Graphic file (type jpg)
 
 <use images/Mannigfaltigkeiten1.jpg>
-<images/S1_Pendel.jpg, id=432, 598.8774pt x 421.0932pt>
+<images/S1_Pendel.jpg, id=442, 598.8774pt x 421.0932pt>
 File: images/S1_Pendel.jpg Graphic file (type jpg)
 
 <use images/S1_Pendel.jpg>
-<images/Torus_Doppelpendel.jpg, id=433, 669.2202pt x 471.6822pt>
+<images/Torus_Doppelpendel.jpg, id=443, 669.2202pt x 471.6822pt>
 File: images/Torus_Doppelpendel.jpg Graphic file (type jpg)
 
 <use images/Torus_Doppelpendel.jpg>
-<images/Stringtheorie.jpg, id=434, 322.806pt x 421.0932pt>
+<images/Stringtheorie.jpg, id=444, 322.806pt x 421.0932pt>
 File: images/Stringtheorie.jpg Graphic file (type jpg)
 
 <use images/Stringtheorie.jpg>
@@ -1327,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 962--965
 ; '\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 heiÿt ei-ne $[]$ oder ein
  []
 
-<images/Karte.jpg, id=440, 554.07pt x 483.7272pt>
+<images/Karte.jpg, id=450, 554.07pt x 483.7272pt>
 File: images/Karte.jpg Graphic file (type jpg)
  <use images/Karte.jpg>
 [34 <./images/Torus_Doppelpendel.jpg> <./images/Stringtheorie.jpg>]
@@ -1341,7 +1341,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 982--984
 
  []
 
-<images/Kartenwechsel.jpg, id=448, 615.2586pt x 486.618pt>
+<images/Kartenwechsel.jpg, id=458, 615.2586pt x 486.618pt>
 File: images/Kartenwechsel.jpg Graphic file (type jpg)
 
 <use images/Kartenwechsel.jpg> [35 <./images/Karte.jpg>]
@@ -1362,15 +1362,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 995--997
 
  []
 
-<images/Verkleben.jpg, id=456, 679.338pt x 472.6458pt>
+<images/Verkleben.jpg, id=466, 679.338pt x 472.6458pt>
 File: images/Verkleben.jpg Graphic file (type jpg)
 
 <use images/Verkleben.jpg>
-<images/Verkleben_S2.jpg, id=457, 363.2772pt x 450.9648pt>
+<images/Verkleben_S2.jpg, id=467, 363.2772pt x 450.9648pt>
 File: images/Verkleben_S2.jpg Graphic file (type jpg)
 
 <use images/Verkleben_S2.jpg>
-<images/Norm_invers.jpg, id=458, 509.2626pt x 286.671pt>
+<images/Norm_invers.jpg, id=468, 509.2626pt x 286.671pt>
 File: images/Norm_invers.jpg Graphic file (type jpg)
 
 <use images/Norm_invers.jpg>
@@ -1382,15 +1382,15 @@ Overfull \hbox (59.47202pt too wide) in paragraph at lines 998--1001
 ben_S2.jpg> <./images/Norm_invers.jpg>]
 File: images/offener_Kreis.jpg Graphic file (type jpg)
  <use images/offener_Kreis.jpg>
-<images/Produkt_RxR.jpg, id=471, 324.7332pt x 197.0562pt>
+<images/Produkt_RxR.jpg, id=481, 324.7332pt x 197.0562pt>
 File: images/Produkt_RxR.jpg Graphic file (type jpg)
 
 <use images/Produkt_RxR.jpg>
-<images/Kreis_Rechteck.jpg, id=472, 163.812pt x 164.2938pt>
+<images/Kreis_Rechteck.jpg, id=482, 163.812pt x 164.2938pt>
 File: images/Kreis_Rechteck.jpg Graphic file (type jpg)
 
 <use images/Kreis_Rechteck.jpg>
-<images/Kreis_Rechteck_Basis.jpg, id=473, 326.6604pt x 345.4506pt>
+<images/Kreis_Rechteck_Basis.jpg, id=483, 326.6604pt x 345.4506pt>
 File: images/Kreis_Rechteck_Basis.jpg Graphic file (type jpg)
 
 <use images/Kreis_Rechteck_Basis.jpg>
@@ -1405,11 +1405,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
 
-<images/Polarkoordinaten.jpg, id=481, 465.4188pt x 286.1892pt>
+<images/Polarkoordinaten.jpg, id=491, 465.4188pt x 286.1892pt>
 File: images/Polarkoordinaten.jpg Graphic file (type jpg)
 
 <use images/Polarkoordinaten.jpg> [39 <./images/Polarkoordinaten.jpg>]
-<images/Abb_diffbar.jpg, id=489, 697.1646pt x 366.6498pt>
+<images/Abb_diffbar.jpg, id=499, 697.1646pt x 366.6498pt>
 File: images/Abb_diffbar.jpg Graphic file (type jpg)
 
 <use images/Abb_diffbar.jpg> [40 <./images/Abb_diffbar.jpg>]
@@ -1423,7 +1423,7 @@ g[]\OML/lmm/m/it/10.95 Df\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/
 /lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 U
  []
 
-<images/Satz_UnterMf.jpg, id=495, 381.5856pt x 406.6392pt>
+<images/Satz_UnterMf.jpg, id=505, 381.5856pt x 406.6392pt>
 File: images/Satz_UnterMf.jpg Graphic file (type jpg)
 
 <use images/Satz_UnterMf.jpg>
@@ -1461,7 +1461,7 @@ U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 )$
  []
 
 [42] [43]
-<images/Beweis_Satz_UMF_Diagramm.jpg, id=524, 378.213pt x 174.8934pt>
+<images/Beweis_Satz_UMF_Diagramm.jpg, id=534, 378.213pt x 174.8934pt>
 File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
 
 <use images/Beweis_Satz_UMF_Diagramm.jpg> [44 <./images/Beweis_Satz_UMF_Diagram
@@ -1473,19 +1473,19 @@ $\T1/lmr/m/it/10.95 -Untermannigfaltigkeiten von $\U/msb/m/n/10.95 R[]$ \T1/lmr
 n)
  []
 
-<images/Identifizierung1.jpg, id=529, 654.7662pt x 467.346pt>
+<images/Identifizierung1.jpg, id=539, 654.7662pt x 467.346pt>
 File: images/Identifizierung1.jpg Graphic file (type jpg)
 
 <use images/Identifizierung1.jpg>
-<images/Identifizierung2.jpg, id=530, 454.3374pt x 427.8384pt>
+<images/Identifizierung2.jpg, id=540, 454.3374pt x 427.8384pt>
 File: images/Identifizierung2.jpg Graphic file (type jpg)
 
 <use images/Identifizierung2.jpg>
-<images/Identifizierung_Umgebungen.jpg, id=531, 635.976pt x 473.6094pt>
+<images/Identifizierung_Umgebungen.jpg, id=541, 635.976pt x 473.6094pt>
 File: images/Identifizierung_Umgebungen.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Umgebungen.jpg>
-<images/Identifizierung_Umgebungen2.jpg, id=532, 276.0714pt x 276.0714pt>
+<images/Identifizierung_Umgebungen2.jpg, id=542, 276.0714pt x 276.0714pt>
 File: images/Identifizierung_Umgebungen2.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Umgebungen2.jpg>
@@ -1503,50 +1503,50 @@ Overfull \hbox (21.58853pt too wide) in paragraph at lines 1204--1209
 gen2.jpg>]
 File: images/Partition.jpg Graphic file (type jpg)
  <use images/Partition.jpg>
-<images/Partition_R.jpg, id=546, 543.4704pt x 153.6942pt>
+<images/Partition_R.jpg, id=556, 543.4704pt x 153.6942pt>
 File: images/Partition_R.jpg Graphic file (type jpg)
 
 <use images/Partition_R.jpg>
-<images/Identifizierung_Linien.jpg, id=547, 559.3698pt x 158.5122pt>
+<images/Identifizierung_Linien.jpg, id=557, 559.3698pt x 158.5122pt>
 File: images/Identifizierung_Linien.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Linien.jpg>
-<images/Linien_Quadrat.jpg, id=548, 488.0634pt x 433.62pt>
+<images/Linien_Quadrat.jpg, id=558, 488.0634pt x 433.62pt>
 File: images/Linien_Quadrat.jpg Graphic file (type jpg)
 
 <use images/Linien_Quadrat.jpg>
-<images/Linien_Torus_rational.jpg, id=549, 369.0588pt x 227.8914pt>
+<images/Linien_Torus_rational.jpg, id=559, 369.0588pt x 227.8914pt>
 File: images/Linien_Torus_rational.jpg Graphic file (type jpg)
 
 <use images/Linien_Torus_rational.jpg>
-<images/Linien_Torus_irrational.jpg, id=550, 428.802pt x 264.99pt>
+<images/Linien_Torus_irrational.jpg, id=560, 428.802pt x 264.99pt>
 File: images/Linien_Torus_irrational.jpg Graphic file (type jpg)
 
 <use images/Linien_Torus_irrational.jpg> [48] [49 <./images/Partition_R.jpg> <.
 /images/Identifizierung_Linien.jpg> <./images/Linien_Quadrat.jpg>] [50 <./image
 s/Linien_Torus_rational.jpg> <./images/Linien_Torus_irrational.jpg>]
-<images/Quotientenabbildung.jpg, id=573, 395.076pt x 235.6002pt>
+<images/Quotientenabbildung.jpg, id=583, 395.076pt x 235.6002pt>
 File: images/Quotientenabbildung.jpg Graphic file (type jpg)
 
 <use images/Quotientenabbildung.jpg>
-<images/f_modulo_S_Diagramm.jpg, id=574, 305.4612pt x 253.9086pt>
+<images/f_modulo_S_Diagramm.jpg, id=584, 305.4612pt x 253.9086pt>
 File: images/f_modulo_S_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_Diagramm.jpg>
-<images/f_modulo_S_T_Diagramm.jpg, id=575, 317.0244pt x 281.3712pt>
+<images/f_modulo_S_T_Diagramm.jpg, id=585, 317.0244pt x 281.3712pt>
 File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_T_Diagramm.jpg> [51 <./images/Quotientenabbildung.jpg> <
 ./images/f_modulo_S_Diagramm.jpg> <./images/f_modulo_S_T_Diagramm.jpg>]
-<images/Quadrat_nach_Torus.jpg, id=584, 269.3262pt x 461.0826pt>
+<images/Quadrat_nach_Torus.jpg, id=594, 269.3262pt x 461.0826pt>
 File: images/Quadrat_nach_Torus.jpg Graphic file (type jpg)
 
 <use images/Quadrat_nach_Torus.jpg>
-<images/Quotient_Torus.jpg, id=585, 689.9376pt x 356.0502pt>
+<images/Quotient_Torus.jpg, id=595, 689.9376pt x 356.0502pt>
 File: images/Quotient_Torus.jpg Graphic file (type jpg)
 
 <use images/Quotient_Torus.jpg>
-<images/Quotient_Moebius.jpg, id=586, 691.383pt x 423.5022pt>
+<images/Quotient_Moebius.jpg, id=596, 691.383pt x 423.5022pt>
 File: images/Quotient_Moebius.jpg Graphic file (type jpg)
 
 <use images/Quotient_Moebius.jpg>
@@ -1572,52 +1572,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 1309--1321
 
 [52] [53 <./images/Quadrat_nach_Torus.jpg> <./images/Quotient_Torus.jpg>]
 [54 <./images/Quotient_Moebius.jpg>]
-<images/0_1_drittel.jpg, id=604, 552.1428pt x 81.906pt>
+<images/0_1_drittel.jpg, id=614, 552.1428pt x 81.906pt>
 File: images/0_1_drittel.jpg Graphic file (type jpg)
 
 <use images/0_1_drittel.jpg>
-<images/0_1_drittel_2.jpg, id=605, 552.1428pt x 81.906pt>
+<images/0_1_drittel_2.jpg, id=615, 552.1428pt x 81.906pt>
 File: images/0_1_drittel_2.jpg Graphic file (type jpg)
 
 <use images/0_1_drittel_2.jpg>
-<images/1_nach_1durch3.jpg, id=606, 547.3248pt x 232.7094pt>
+<images/1_nach_1durch3.jpg, id=616, 547.3248pt x 232.7094pt>
 File: images/1_nach_1durch3.jpg Graphic file (type jpg)
 
 <use images/1_nach_1durch3.jpg>
-<images/1_nach_1durch3_2.jpg, id=607, 129.1224pt x 175.3752pt>
+<images/1_nach_1durch3_2.jpg, id=617, 129.1224pt x 175.3752pt>
 File: images/1_nach_1durch3_2.jpg Graphic file (type jpg)
 
 <use images/1_nach_1durch3_2.jpg>
-<images/P.jpg, id=608, 61.1886pt x 159.4758pt>
+<images/P.jpg, id=618, 61.1886pt x 159.4758pt>
 File: images/P.jpg Graphic file (type jpg)
  <use images/P.jpg>
-<images/Q.jpg, id=609, 113.7048pt x 112.2594pt>
+<images/Q.jpg, id=619, 113.7048pt x 112.2594pt>
 File: images/Q.jpg Graphic file (type jpg)
  <use images/Q.jpg>
-<images/0_1.jpg, id=610, 593.0958pt x 126.2316pt>
+<images/0_1.jpg, id=620, 593.0958pt x 126.2316pt>
 File: images/0_1.jpg Graphic file (type jpg)
  <use images/0_1.jpg>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_Kreis.jpg>
-<images/B2_mit_Rand.jpg, id=611, 245.2362pt x 251.9814pt>
+<images/B2_mit_Rand.jpg, id=621, 245.2362pt x 251.9814pt>
 File: images/B2_mit_Rand.jpg Graphic file (type jpg)
 
-<use images/B2_mit_Rand.jpg> <images/S2.jpg, id=612, 184.5294pt x 184.5294pt>
+<use images/B2_mit_Rand.jpg> <images/S2.jpg, id=622, 184.5294pt x 184.5294pt>
 File: images/S2.jpg Graphic file (type jpg)
 
 <use images/S2.jpg> [55 <./images/0_1_drittel.jpg> <./images/0_1_drittel_2.jpg>
  <./images/1_nach_1durch3.jpg> <./images/1_nach_1durch3_2.jpg> <./images/P.jpg>
  <./images/Q.jpg> <./images/0_1.jpg>]
-<images/Zylinder.jpg, id=619, 119.0046pt x 284.262pt>
+<images/Zylinder.jpg, id=629, 119.0046pt x 284.262pt>
 File: images/Zylinder.jpg Graphic file (type jpg)
 
 <use images/Zylinder.jpg>
-<images/I_Verkleben.jpg, id=620, 351.2322pt x 269.3262pt>
+<images/I_Verkleben.jpg, id=630, 351.2322pt x 269.3262pt>
 File: images/I_Verkleben.jpg Graphic file (type jpg)
 
 <use images/I_Verkleben.jpg>
-<images/Def_Verkleben.jpg, id=621, 306.4248pt x 269.3262pt>
+<images/Def_Verkleben.jpg, id=631, 306.4248pt x 269.3262pt>
 File: images/Def_Verkleben.jpg Graphic file (type jpg)
 
 <use images/Def_Verkleben.jpg>
@@ -1658,14 +1658,14 @@ m/n/10.95 g\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 A$
 
 [56 <./images/B2_mit_Rand.jpg> <./images/S2.jpg> <./images/Zylinder.jpg> <./ima
 ges/I_Verkleben.jpg>]
-<images/Quadrat_Zylinder.jpg, id=629, 665.8476pt x 373.395pt>
+<images/Quadrat_Zylinder.jpg, id=639, 665.8476pt x 373.395pt>
 File: images/Quadrat_Zylinder.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Zylinder.jpg>
-<images/Torus.jpg, id=630, 273.1806pt x 169.1118pt>
+<images/Torus.jpg, id=640, 273.1806pt x 169.1118pt>
 File: images/Torus.jpg Graphic file (type jpg)
  <use images/Torus.jpg>
-<images/Quadrat.jpg, id=631, 269.808pt x 269.3262pt>
+<images/Quadrat.jpg, id=641, 269.808pt x 269.3262pt>
 File: images/Quadrat.jpg Graphic file (type jpg)
  <use images/Quadrat.jpg>
 File: images/Zylinder.jpg Graphic file (type jpg)
@@ -1673,15 +1673,15 @@ File: images/Zylinder.jpg Graphic file (type jpg)
 <use images/Zylinder.jpg>
 File: images/Torus.jpg Graphic file (type jpg)
  <use images/Torus.jpg>
-<images/Quadrat_Torus.jpg, id=632, 306.4248pt x 306.9066pt>
+<images/Quadrat_Torus.jpg, id=642, 306.4248pt x 306.9066pt>
 File: images/Quadrat_Torus.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Torus.jpg>
-<images/Quadrat_Moebiusband.jpg, id=633, 382.5492pt x 269.3262pt>
+<images/Quadrat_Moebiusband.jpg, id=643, 382.5492pt x 269.3262pt>
 File: images/Quadrat_Moebiusband.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Moebiusband.jpg>
-<images/Moebiusband.png, id=634, 323.2878pt x 257.763pt>
+<images/Moebiusband.png, id=644, 323.2878pt x 257.763pt>
 File: images/Moebiusband.png Graphic file (type png)
 
 <use images/Moebiusband.png>
@@ -1697,49 +1697,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 1387--1391
 
 [57 <./images/Def_Verkleben.jpg> <./images/Quadrat_Zylinder.jpg> <./images/Toru
 s.jpg> <./images/Quadrat.jpg> <./images/Quadrat_Torus.jpg>]
-<images/Quadrat_Kleinsche_Flasche.jpg, id=641, 306.4248pt x 306.9066pt>
+<images/Quadrat_Kleinsche_Flasche.jpg, id=651, 306.4248pt x 306.9066pt>
 File: images/Quadrat_Kleinsche_Flasche.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Kleinsche_Flasche.jpg>
-<images/Zylinder_nach_Kleinsche_Flasche.jpg, id=642, 530.4618pt x 338.2236pt>
+<images/Zylinder_nach_Kleinsche_Flasche.jpg, id=652, 530.4618pt x 338.2236pt>
 File: images/Zylinder_nach_Kleinsche_Flasche.jpg Graphic file (type jpg)
 
 <use images/Zylinder_nach_Kleinsche_Flasche.jpg>
-<images/RP2.jpg, id=643, 674.0382pt x 306.4248pt>
+<images/RP2.jpg, id=653, 674.0382pt x 306.4248pt>
 File: images/RP2.jpg Graphic file (type jpg)
  <use images/RP2.jpg> [58 <./images/Quadrat_Moebiusband.jpg> <./images/Moebiusb
 and.png> <./images/Quadrat_Kleinsche_Flasche.jpg> <./images/Zylinder_nach_Klein
-sche_Flasche.jpg>] [59 <./images/RP2.jpg>] (./mitschrieb_geotopo.aux) ) 
+sche_Flasche.jpg>] [59 <./images/RP2.jpg>]
+Kapitel IV.
+[60
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1454
+[]\T1/lmr/bx/n/10.95 Bemerkung IV.1. []$\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95
+ (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/it/10.95 ist, ver-se-
+hen mit der so-ge-nann-ten
+ []
+
+[61] [62] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 9739 strings out of 256216
- 149671 string characters out of 1917072
+ 9756 strings out of 256216
+ 149842 string characters out of 1917072
  211721 words of memory out of 1500000
- 12342 multiletter control sequences out of 10000+200000
+ 12344 multiletter control sequences out of 10000+200000
  89396 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  45i,12n,61p,586b,518s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf
-/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.en
-c}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-sy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fon
-ts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm1
-0.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (60 pages, 4847420 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/font
+s/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/p
+ublic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+mi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb><
+/usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (63 pages, 4860335 bytes).
 PDF statistics:
- 801 PDF objects out of 1000 (max. 8388607)
- 273 named destinations out of 1000 (max. 131072)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 836 PDF objects out of 1000 (max. 8388607)
+ 288 named destinations out of 1000 (max. 131072)
+ 637 words of extra memory for PDF output out of 10000 (max. 10000000)
 
