@@ -1490,4 +1490,121 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	TODO: Exkurs: Residuensatz, Wegintegrale
 \end{bsp}
 
+\begin{remark}{}
+	Die Homotopie von Wegen ist eine Äquivalenzrelation und für die Homotopieklasse eines Weges $u$ schreibt man $[0]$.
+\end{remark}
+
+\begin{Kasten}{Produkt von Wegen}
+	Sind $u$, $v$ wege in $X$ mit $u(1)=v(0)$, so heißen $u$ und $v$ \underline{zusammensetzbar} oder \underline{aneinanderfügbar} und ihr \underline{Produkt} $u \cdot v$ ist definiert als
+	$$(u \cdot v) (t) := \begin{cases} u(2t) & 0 \leq t \leq \frac{1}{2} \\ v(2t-1) & \frac{1}{2} \leq t \leq 1 \end{cases}$$
+	(TODO: Bild 1)
+\end{Kasten}
+
+\begin{remark}{}
+	Gilt $u \simeq u^\prime$ und $v \simeq v^\prime$ und ist $u \cdot v$ definiert, so auch $u^\prime \cdot v^\prime$, und $u^\prime \cdot v$ ist dann auch homotop zu $u \cdot v$.
+	\newline (TODO: Bild 2)
+	\newline
+	\underline{Denn}
+	$$u_t \colon I \rightarrow X \text{ sei Homotopie } u \simeq u^\prime,$$
+	$$v_t \colon I \rightarrow X \text{ sei Homotopie } v \simeq v^\prime$$
+	$$\Rightarrow u_t \cdot v_t \colon I \rightarrow X \text{ ist Homotopie } uv \simeq u^\prime v^\prime$$
+	\underline{Formal(er)}: $u \cdot v$ ist definiert $\Rightarrow u(1) = v(0)$
+	$$u \simeq u^\prime \Rightarrow u^\prime(1)=u(1), \quad v \simeq v^\prime \Rightarrow v^\prime(0) = v(0)  \big(=u(1)=u^\prime(1)\big)$$
+	$$\Rightarrow u^\prime \cdot v^\prime \text{ ist definiert.}$$
+	Homotopie $H$ von $u \cdot v$ zu $u^\prime \cdot v^\prime$ ist dann die stetige Abbildung
+	$$H \colon I \times I \rightarrow X \text{ mit } (s,t) \mapsto \begin{cases} H^{u,u^\prime}(2s,t) & s \in [0,\frac{1}{2}] \\ H^{v,v^\prime}(2s-1,t) & s \in [\frac{1}{2},1] \end{cases}$$
+	wobei $H^{u,u^\prime} \colon u \simeq u^\prime, \quad H^{v,v^\prime} \colon v \simeq v^\prime$.
+	\newline
+	\underline{Folgerung}: Setzt man für aneinanderfügbare Wege $u,v$
+	$$[u] \cdot [v] := [u \cdot v],$$
+	so ist dieses Produkt wohldefiniert.
+\end{remark}
+
+\begin{Kasten}{Konstanter Weg, Inverser Weg, Geschlossener Weg}
+	\begin{itemize}
+		\item Für $x \in X$ sei $c_x \colon I \rightarrow X$ mit $c_x \equiv x$ \underline{der konstante Weg in $x \in X$}.
+		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, t \mapsto u(1-t)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. (TODO: Bild 3)
+		\item $u \colon I \rightarrow X$ heißt \underline{geschlossener Weg} (oder: \underline{Schleife}) \underline{in $x \in X$} 
+		$$:\Leftrightarrow u(0) = x = u(1)$$ (TODO: Bild 4)
+	\end{itemize}
+\end{Kasten}
+
+\begin{remark}{}
+	Geschlossene Wege (in $x$) sind \underline{immer} aneinanderfügbar.
+\end{remark}
+
+\begin{Kasten}{nullhomotop, einfach zusammenhängend}
+	\begin{itemize}
+	\item Ein geschlossener Weg $u$ in $x$ heißt \underline{nullhomotop} \newline
+		$:\Leftrightarrow [u] = [c_x]$
+	\item $X$ heißt \underline{einfach zusammenhängend} \newline
+	$:\Leftrightarrow \text{ jeder geschlossene Weg $u$ in $X$ ist nullhomotop (zu $c_{u(0)}$).}$
+	\end{itemize}
+\end{Kasten}
+
+\begin{lemma}{}
+	Für Wege $u,v,w \colon I \rightarrow X$ \newline mit $u(0)=x, u(1)=y=v(0), \quad v(1)=z= w(0)$ (TODO: Bild 5) gilt
+	\begin{enumerate}
+		\item $[u^{-1}] \cdot [u] = [u^{-1} \cdot u] = [c_y]$
+		\item $[u] \cdot [u^{-1}] = [u u^{-1}] = [c_x]$
+		\item $[u] \cdot [c_y] = [u] = [c_x] \cdot [u]$
+		\item $[u] \cdot ([v] \cdot [w]) = ([u] \cdot [v]) \cdot [w]$
+	\end{enumerate}
+\end{lemma}
+
+\begin{proof} (von (1), Rest analog)
+\newline
+Es sei $H$ die Homotopie 
+$$(s,t) \mapsto \begin{cases} u(2s) & 0 \leq s \leq \frac{t}{2} \\ u(t) & \frac{t}{2} \leq s \leq 1- \frac{t}{2} \\ u(2-2s) & 1-\frac{t}{2} \leq s \leq 1 \end{cases}$$
+Es gilt 
+$$(u^{-1} \cdot u)(s) = \begin{cases} u(2s) & 0 \leq s \leq \frac{1}{2} \\ u^{-1}(2s-1) & \frac{1}{2} \leq s \leq 1 \end{cases}$$
+$H$ ist stetig und erfüllt
+\begin{enumerate}
+	\item $H(s,0) = u(2s) = u(0) = x = c_x(s)$
+	\item $H(s,1) = (u^{-1} \cdot u)(s)$, denn
+	\begin{itemize}
+		\item $H(s,1) \big |_{[0, \frac{1}{2}]} = u(2s) = (u^{-1} \cdot u) \big |_{[0, \frac{1}{2}]}$
+		\item $H(s,1) \big |_{[\frac{1}{2},1]} = u(2-2s) = u(1-(2s-1)) = u^{-1}(2s-1) = (u^{-1} \cdot u) \big |_{[\frac{1}{2},1]}$  
+	\end{itemize}
+	\item $H(0,t) = u(0) = x = c_x(0) = (u^{-1} \cdot u)(0)$
+	\item $H(1,t) = u(2-2) = u(0) = x = c_x(1) = (u^{-1} \cdot u)(1)$
+\end{enumerate}
+
+\underline{Schematisch:} (TODO: Bild 6)
+
+Also ist $H$ Homotopie von $c_y$ nach $(u^{-1} \cdot u)$ und $$[u^{-1}] \cdot [u] = [u^{-1} \cdot u] = [c_y]$$
+\end{proof}
+
+\begin{theorem}{}
+	Für einen topologischen Raum $X$ und $x_0 \in X$ ist 
+	$$\pi_1 (X,x_0) := \{ [u] \mid u \colon I \rightarrow X \text{ geschlossener Weg in } x_0 \}$$
+	bezüglich $[u] \cdot [v] := [u \cdot v]$ eine Gruppe, die sogenannte \underline{Fundamentalgruppe} oder \underline{erste Homotopiegruppe} von $X$ in $x_0$. (TODO: Bild 7)
+	\newline
+	Neutrales Element ist $1 = 1_{x_0} := [c_{x_0}]$ \newline und Inverses zu $\alpha = [u]$ ist $\alpha^{-1} = [u^{-1}]$.
+\end{theorem}
+
+\paragraph{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots} (TODO: Bild 8) 
+
+\begin{theorem}[Unabhängigkeit vom Basispunkt]
+	Ist $w \colon I \rightarrow X$ Weg von $x_0$ nach $x_1$, so ist die Abbildung 
+	$$w_\# \colon \pi_1(X,x_0) \rightarrow \pi_1(X,x_1), \quad [u] \mapsto [w^{-1} \cdot u \cdot w]$$ (TODO: Bild 9)
+	ein \underline{Gruppen-Isomorphismus}.
+\end{theorem}
+
+\begin{proof}
+	Lemma $\Rightarrow w_\#$ ist Homomorphismus und $(w_\#)^{-1} = (w^{-1})_\#$ \newline $\Rightarrow w_\#$ ist Isomorphismus!
+\end{proof}
+
+\begin{remark}
+	Dieser Isomorphismus hängt von $w$ ab und ist deshalb im Allgemeinen nicht kanonisch!
+	Kanonisch ist er, falls $\pi_1$ \underline{\underline{abelsche}} Gruppe ist!
+	\newline
+$[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w]$
+\newline
+$\overset{\text{abelsch}}{=} [u v] [w w^{-1}] = [u v]$
+
+\end{remark}
+
+$\pi_1(T^n) \cong \Z^n$
+
 \end{document}
