@@ -1427,7 +1427,7 @@ Eine \underline{stetige} Abbildung $$H \colon X \times I \rightarrow Y, (x,t) \m
 mit $$H(x,0)=f(x), H(x,1)=g(x) \quad \forall x \in X$$
 heißt \underline{Homotopie von $f$ nach $g$}, und $f$ und $g$ dann \underline{homotop}, 
 \newline in Zeichen: $$f \simeq g.$$
-(TODO: Bild 1)
+\includegraphics[scale=0.4]{images/Homotopie_in_Y.jpg}
 $$H \hat{=} (h_t)_{t \in I}, h_t \colon X \rightarrow Y$$
 $$h_0 =f, \quad h_1 = g$$
 
@@ -1436,7 +1436,7 @@ $$h_0 =f, \quad h_1 = g$$
 \begin{bsp}{}
 	\begin{itemize}
 		\item Jeder Weg $u$ ist selbst eine Homotopie, und zwar zwischen den konstanten Abbildungen $f \equiv u(0), g \equiv u(1)$.
-			\newline (TODO: Bild 2)
+			\newline \includegraphics[scale=0.4]{images/Weg_als_Homotopie.jpg}
 		\item Jede Homotopie besteht aus Wegen:
 			\newline Ist $(h_t)_{t \in I}$ Homotopie $f \simeq g$ und $x \in X$, so ist 
 			$u_x \colon I \rightarrow X, t \mapsto h_t(x)$ ein Weg.
@@ -1460,7 +1460,7 @@ Homotopie \underline{von Wegen} ist zunächst nicht sehr interessant:
 \begin{remark}{}
 	Zwei Wege $u,v \colon I \rightarrow X$ sind homotop
 	$$\Leftrightarrow u(I) \text{ und } v(I) \text{ liegen in derselben Wegzusammenhangskomponente}$$
-	(TODO: Bild 3) (TODO: Bild 4)
+	\includegraphics[scale=0.5]{images/Homotopie_zwischen_Wegen.jpg} \includegraphics[scale=0.35]{images/Homotopie_zwischen_Wegen2.jpg}
 \end{remark}
 
 \begin{Kasten}{homotop bezüglich der Endpunkte}
@@ -1470,10 +1470,10 @@ Homotopie \underline{von Wegen} ist zunächst nicht sehr interessant:
 		\item $u(0) = v(0), u(1) = v(1)$
 		\item $\exists$ Homotopie $H \colon u \simeq v$ $\left(\text{mit } H(0,t) \equiv u(0), H(1,t) \equiv u(1)\right)$
 	\end{enumerate}
-	(TODO: Bild 5)		
+	\includegraphics[scale=0.4]{images/Homotop_Endpunkte.jpg}		
 \end{Kasten}
 
-(TODO: Bild 6) (TODO: Bild 7)
+\includegraphics[scale=0.4]{images/Homotop_Schleifen_R_ohne_0.jpg} $\qquad$ \includegraphics[scale=0.4]{images/nicht_homotop_Wege_Torus.jpg}
 
 $u,v \colon \underbrace{I}_{= X} \rightarrow \underbrace{X}_{=Y}$ \newline
 $H \colon I \times I \rightarrow X, (s,t) \mapsto H(s,t)$ \newline
@@ -1481,28 +1481,28 @@ $u = u(s), v= v(s)$ \newline
 $H(s,0) = u(s), H(s,1)=v(s)$ \newline
 $H(0,t) \equiv u(0) (=v(0) = H(0,0))$ \newline
 $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
-(TODO: Bild 8)
+\includegraphics[scale=0.4]{images/Homotopie_Menge_von_Wegen.jpg}
 
 \begin{bsp}{}
-	$\int\limits_{-\infty}^{\infty}{\frac{1}{1+x^4} dx} = \pi \frac{\sqrt{2}}{2}$ (TODO: Bild 9)
-	\footnote{Explodiert für $x^4 = -1$ (Singularität)}
+	$\int\limits_{-\infty}^{\infty}{\frac{1}{1+x^4} dx} = \pi \frac{\sqrt{2}}{2}$\footnote{Explodiert für $x^4 = -1$ (Singularität)}
+	\includegraphics[scale=0.4]{images/Residuensatz.jpg}
 	\newline
 	TODO: Exkurs: Residuensatz, Wegintegrale
 \end{bsp}
 
 \begin{remark}{}
-	Die Homotopie von Wegen ist eine Äquivalenzrelation und für die Homotopieklasse eines Weges $u$ schreibt man $[0]$.
+	Die Homotopie von Wegen ist eine Äquivalenzrelation und für die Homotopieklasse eines Weges $u$ schreibt man $[u]$.
 \end{remark}
 
 \begin{Kasten}{Produkt von Wegen}
-	Sind $u$, $v$ wege in $X$ mit $u(1)=v(0)$, so heißen $u$ und $v$ \underline{zusammensetzbar} oder \underline{aneinanderfügbar} und ihr \underline{Produkt} $u \cdot v$ ist definiert als
+	Sind $u$, $v$ Wege in $X$ mit $u(1)=v(0)$, so heißen $u$ und $v$ \underline{zusammensetzbar} oder \underline{aneinanderfügbar} und ihr \underline{Produkt} $u \cdot v$ ist definiert als
 	$$(u \cdot v) (t) := \begin{cases} u(2t) & 0 \leq t \leq \frac{1}{2} \\ v(2t-1) & \frac{1}{2} \leq t \leq 1 \end{cases}$$
-	(TODO: Bild 1)
+	\includegraphics[scale=0.4]{images/aneinanderfuegbar.jpg}
 \end{Kasten}
 
 \begin{remark}{}
 	Gilt $u \simeq u^\prime$ und $v \simeq v^\prime$ und ist $u \cdot v$ definiert, so auch $u^\prime \cdot v^\prime$, und $u^\prime \cdot v$ ist dann auch homotop zu $u \cdot v$.
-	\newline (TODO: Bild 2)
+	\newline \includegraphics[scale=0.4]{images/Homotopie_Produkt.jpg}
 	\newline
 	\underline{Denn}
 	$$u_t \colon I \rightarrow X \text{ sei Homotopie } u \simeq u^\prime,$$
@@ -1517,15 +1517,15 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	\newline
 	\underline{Folgerung}: Setzt man für aneinanderfügbare Wege $u,v$
 	$$[u] \cdot [v] := [u \cdot v],$$
-	so ist dieses Produkt wohldefiniert.
+	so ist dieses Produkt wohldefiniert!
 \end{remark}
 
 \begin{Kasten}{Konstanter Weg, Inverser Weg, Geschlossener Weg}
 	\begin{itemize}
 		\item Für $x \in X$ sei $c_x \colon I \rightarrow X$ mit $c_x \equiv x$ \underline{der konstante Weg in $x \in X$}.
-		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, t \mapsto u(1-t)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. (TODO: Bild 3)
+		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, t \mapsto u(1-t)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. \includegraphics[scale=0.4]{images/inverser_Weg.jpg}
 		\item $u \colon I \rightarrow X$ heißt \underline{geschlossener Weg} (oder: \underline{Schleife}) \underline{in $x \in X$} 
-		$$:\Leftrightarrow u(0) = x = u(1)$$ (TODO: Bild 4)
+		$$:\Leftrightarrow u(0) = x = u(1)$$ \includegraphics[scale=0.4]{images/Schleifen.jpg}
 	\end{itemize}
 \end{Kasten}
 
@@ -1543,10 +1543,10 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 \end{Kasten}
 
 \begin{lemma}{}
-	Für Wege $u,v,w \colon I \rightarrow X$ \newline mit $u(0)=x, u(1)=y=v(0), \quad v(1)=z= w(0)$ (TODO: Bild 5) gilt
+	Für Wege $u,v,w \colon I \rightarrow X$ \newline mit $u(0)=x, u(1)=y=v(0), \quad v(1)=z= w(0)$ \includegraphics[scale=0.4]{images/Produkt_Lemma.jpg} gilt
 	\begin{enumerate}
+		\item $[u] \cdot [u^{-1}] = [u \cdot u^{-1}] = [c_x]$
 		\item $[u^{-1}] \cdot [u] = [u^{-1} \cdot u] = [c_y]$
-		\item $[u] \cdot [u^{-1}] = [u u^{-1}] = [c_x]$
 		\item $[u] \cdot [c_y] = [u] = [c_x] \cdot [u]$
 		\item $[u] \cdot ([v] \cdot [w]) = ([u] \cdot [v]) \cdot [w]$
 	\end{enumerate}
@@ -1557,37 +1557,37 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 Es sei $H$ die Homotopie 
 $$(s,t) \mapsto \begin{cases} u(2s) & 0 \leq s \leq \frac{t}{2} \\ u(t) & \frac{t}{2} \leq s \leq 1- \frac{t}{2} \\ u(2-2s) & 1-\frac{t}{2} \leq s \leq 1 \end{cases}$$
 Es gilt 
-$$(u^{-1} \cdot u)(s) = \begin{cases} u(2s) & 0 \leq s \leq \frac{1}{2} \\ u^{-1}(2s-1) & \frac{1}{2} \leq s \leq 1 \end{cases}$$
+$$(u \cdot u^{-1})(s) = \begin{cases} u(2s) & 0 \leq s \leq \frac{1}{2} \\ u^{-1}(2s-1) & \frac{1}{2} \leq s \leq 1 \end{cases}$$
 $H$ ist stetig und erfüllt
 \begin{enumerate}
-	\item $H(s,0) = u(2s) = u(0) = x = c_x(s)$
-	\item $H(s,1) = (u^{-1} \cdot u)(s)$, denn
+	\item $H(s,0) = u(t) = u(0) = x = c_x(s)$
+	\item $H(s,1) = (u \cdot u^{-1})(s)$, denn
 	\begin{itemize}
-		\item $H(s,1) \big |_{[0, \frac{1}{2}]} = u(2s) = (u^{-1} \cdot u) \big |_{[0, \frac{1}{2}]}$
-		\item $H(s,1) \big |_{[\frac{1}{2},1]} = u(2-2s) = u(1-(2s-1)) = u^{-1}(2s-1) = (u^{-1} \cdot u) \big |_{[\frac{1}{2},1]}$  
+		\item $H(s,1) \big |_{[0, \frac{1}{2}]} = u(2s) = (u \cdot u^{-1}) \big |_{[0, \frac{1}{2}]}$
+		\item $H(s,1) \big |_{[\frac{1}{2},1]} = u(2-2s) = u(1-(2s-1)) = u^{-1}(2s-1) = (u \cdot u^{-1}) \big |_{[\frac{1}{2},1]}$  
 	\end{itemize}
-	\item $H(0,t) = u(0) = x = c_x(0) = (u^{-1} \cdot u)(0)$
-	\item $H(1,t) = u(2-2) = u(0) = x = c_x(1) = (u^{-1} \cdot u)(1)$
+	\item $H(0,t) = u(0) = x = c_x(0) = (u \cdot u^{-1})(0)$
+	\item $H(1,t) = u(2-2) = u(0) = x = c_x(1) = (u \cdot u^{-1})(1)$
 \end{enumerate}
 
-\underline{Schematisch:} (TODO: Bild 6)
+\underline{Schematisch:} \includegraphics[scale=0.4]{images/Beweis_Produkt_Lemma.jpg}
 
-Also ist $H$ Homotopie von $c_y$ nach $(u^{-1} \cdot u)$ und $$[u^{-1}] \cdot [u] = [u^{-1} \cdot u] = [c_y]$$
+Also ist $H$ Homotopie von $c_x$ nach $(u \cdot u^{-1})$ und $$[u] \cdot [u^{-1}] = [u \cdot u^{-1}] = [c_x]$$
 \end{proof}
 
 \begin{theorem}{}
 	Für einen topologischen Raum $X$ und $x_0 \in X$ ist 
 	$$\pi_1 (X,x_0) := \{ [u] \mid u \colon I \rightarrow X \text{ geschlossener Weg in } x_0 \}$$
-	bezüglich $[u] \cdot [v] := [u \cdot v]$ eine Gruppe, die sogenannte \underline{Fundamentalgruppe} oder \underline{erste Homotopiegruppe} von $X$ in $x_0$. (TODO: Bild 7)
+	bezüglich $[u] \cdot [v] := [u \cdot v]$ eine Gruppe, die sogenannte \underline{Fundamentalgruppe} oder \underline{erste Homotopiegruppe} von $X$ in $x_0$. \includegraphics[scale=0.4]{images/Fundamentalgruppe.jpg}
 	\newline
 	Neutrales Element ist $1 = 1_{x_0} := [c_{x_0}]$ \newline und Inverses zu $\alpha = [u]$ ist $\alpha^{-1} = [u^{-1}]$.
 \end{theorem}
 
-\paragraph{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots} (TODO: Bild 8) 
+\paragraph{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots} \includegraphics[scale=0.4]{images/Kobordismus.jpg} 
 
 \begin{theorem}[Unabhängigkeit vom Basispunkt]
 	Ist $w \colon I \rightarrow X$ Weg von $x_0$ nach $x_1$, so ist die Abbildung 
-	$$w_\# \colon \pi_1(X,x_0) \rightarrow \pi_1(X,x_1), \quad [u] \mapsto [w^{-1} \cdot u \cdot w]$$ (TODO: Bild 9)
+	$$w_\# \colon \pi_1(X,x_0) \rightarrow \pi_1(X,x_1), \quad [u] \mapsto [w^{-1} \cdot u \cdot w]$$ \includegraphics[scale=0.4]{images/Basispunkt_Unabhaengigkeit.jpg}
 	ein \underline{Gruppen-Isomorphismus}.
 \end{theorem}
 
