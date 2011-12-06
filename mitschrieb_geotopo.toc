@@ -38,6 +38,6 @@
 \contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{67}{section*.133}
 \contentsline {paragraph}{Erinnerung}{68}{section*.134}
 \contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{68}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{69}{subsection.4.1.2}
-\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{70}{section*.141}
-\contentsline {paragraph}{Erinnerung(Lebesquelemma)}{70}{section*.142}
+\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{71}{subsection.4.1.2}
+\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{71}{section*.141}
+\contentsline {paragraph}{Erinnerung(Lebesguelemma)}{72}{section*.142}
