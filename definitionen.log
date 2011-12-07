@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 NOV 2011 13:39
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  7 DEC 2011 11:17
 entering extended mode
  %&-line parsing enabled.
 **definitionen.tex
@@ -779,21 +779,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  (./definitionen.aux)
 \openout1 = `definitionen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 129.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
@@ -824,10 +824,10 @@ LaTeX Info: Redefining \selectfont on input line 125.
 \JustifyingParindent=\skip81
 )
 Package caption Info: hyperref package v6.74m (or newer) detected on input line
- 118.
-Package caption Info: subref 1.2 or 1.3 detected on input line 118.
-LaTeX Info: Redefining \subref on input line 118.
-Package hyperref Info: Link coloring ON on input line 118.
+ 129.
+Package caption Info: subref 1.2 or 1.3 detected on input line 129.
+LaTeX Info: Redefining \subref on input line 129.
+Package hyperref Info: Link coloring ON on input line 129.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
@@ -837,8 +837,8 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
  (./definitionen.out)
 (./definitionen.out)
 \@outlinefile=\write4
@@ -848,7 +848,7 @@ LaTeX Info: Redefining \pageref on input line 118.
 
 pdfTeX warning: pdflatex (file ./images/ditto_loecher.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<images/ditto_loecher.pdf, id=7, 220.825pt x 240.9pt>
+<images/ditto_loecher.pdf, id=15, 220.825pt x 240.9pt>
 File: images/ditto_loecher.pdf Graphic file (type pdf)
 
 <use images/ditto_loecher.pdf> [1
@@ -858,141 +858,140 @@ df
 
 pdfTeX warning: pdflatex (file ./images/ditto_loecher.pdf): PDF inclusion: Page
  Group detected which pdfTeX can't handle. Ignoring it.
->]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 143.
+>] (./definitionen.toc)
+\tf@toc=\write5
+\openout5 = `definitionen.toc'.
 
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 \chapter
+              {Definitionen und SÃ¤tze aus der Vorlesung} [1
+
+]
+Kapitel I.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 159.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 143.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 159.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 143
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 159
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 143
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 159
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 143.
+(Font)              <10.95> on input line 159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 143.
+(Font)              <8> on input line 159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 143.
-LaTeX Font Info:    Try loading font information for U+msa on input line 143.
+(Font)              <6> on input line 159.
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 143.
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 168.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 168.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.179 \section
-              *{Teilraumtopologie} [1]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 202.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 202.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 202.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 205.
+) [2
 
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 193.
+ [3]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 242.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 205.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 216--220
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 242.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
 
  []
 
+<images/Durchmesser.jpg, id=78, 316.5426pt x 200.9106pt>
+File: images/Durchmesser.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+<use images/Durchmesser.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
-
-Underfull \hbox (badness 1430) in paragraph at lines 261--268
-\T1/lmr/m/n/10.95 Sind $\OML/lmm/m/it/10.95 X; Y$ \T1/lmr/m/n/10.95 me-tri-sche
- Räu-me, so heiÿt ei-ne Ab-bil-dung $\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/
-n/10.95 ! \OML/lmm/m/it/10.95 Y$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-\T1/lmr/m/n/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr/
-m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
- []
-
-[4] <images/homotopieaequivalenz.jpg, id=83, 330.9966pt x 256.7994pt>
-File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
-
-<use images/homotopieaequivalenz.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-[5 <./images/homotopieaequivalenz.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--327
-
- []
-
-
-Overfull \hbox (21.43134pt too wide) in paragraph at lines 334--337
-\T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/
-n/10.95 heiÿt $[]$ bzw. $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
+[5 <./images/Durchmesser.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
 [6]
-Overfull \hbox (22.08101pt too wide) in paragraph at lines 381--383
-\T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/
-n/10.95 heiÿt $[]$ $[]$,
+Underfull \hbox (badness 3354) in paragraph at lines 316--317
+\T1/lmr/m/n/10.95 Zwei to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr/
+m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
+ []
+
+<images/homotopieaequivalenz.jpg, id=100, 330.9966pt x 256.7994pt>
+File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
+
+<use images/homotopieaequivalenz.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+\T1/lmr/m/n/10.95 Zwei Ein-bet-tun-gen $\OML/lmm/m/it/10.95 f; g [] [] X \OMS/l
+msy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 hei-ÿen $[]$ $\OT1/lmr
+/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
  []
 
 [7]
-Overfull \hbox (26.73549pt too wide) in paragraph at lines 384--387
-\T1/lmr/m/n/10.95 Jedes sol-che Paar $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U
-; '\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 heiÿt ei-ne $[]$ oder ein $[]$
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 339.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 339.
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+[8 <./images/homotopieaequivalenz.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
+\T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/
+n/10.95 heiÿt $[]$ bzw.
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
+$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 heiÿt $[]$- oder $[]$ bzw.
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 390--393
+[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,$ \T1/lmr/m/n/10.95 Je zwei ver-s
+chie-de-ne Punk-
  []
 
 
@@ -1000,31 +999,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
+\T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/
+n/10.95 heiÿt $[]$
+ []
 
-Overfull \hbox (23.19408pt too wide) in paragraph at lines 406--408
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+\T1/lmr/m/n/10.95 Jedes sol-che Paar $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U
+; '\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 heiÿt ei-ne $[]$ oder ein
+ []
+
+[11]
+Underfull \hbox (badness 1675) in paragraph at lines 445--447
+\T1/lmr/m/n/10.95 Ein At-las heiÿt $[]$ $[]$ (oder: $\OML/lmm/m/it/10.95 C[]$\T
+1/lmr/m/n/10.95 -Atlas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
 \T1/lmr/m/n/10.95 Eine $[]$ (kurz: $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -
-Mannigfaltigkeit)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
 
  []
 
-[8]
-Underfull \hbox (badness 1968) in paragraph at lines 411--415
-\T1/lmr/m/n/10.95 die Ba-sis ei-ner To-po-lo-gie für die Men-ge $\OML/lmm/m/it/
-10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , und d
-ie-se heiÿt
+
+Underfull \hbox (badness 1577) in paragraph at lines 455--457
+\T1/lmr/m/n/10.95 Mannigfaltigkeit) ist ein Paar $\OT1/lmr/m/n/10.95 (\OML/lmm/
+m/it/10.95 M; \OMS/lmsy/m/n/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be-s
+te-hend aus ei-ner to-po-
  []
 
 
-Overfull \hbox (40.03812pt too wide) in paragraph at lines 425--426
-\T1/lmr/m/n/10.95 heiÿt dann $[]$ $[]$. 
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
+
  []
 
-[9]
-Overfull \hbox (5.5862pt too wide) detected at line 431
+[12]
+Overfull \hbox (5.67163pt too wide) detected at line 469
 \OML/lmm/m/it/10.95 f \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n
 /10.95 (\OML/lmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 ) := \OMS
 /lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 g [] [] U \OMS/lmsy/m/n/10.95 ! \U/msb/m/n
@@ -1034,11 +1051,11 @@ g[]\OML/lmm/m/it/10.95 Df\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/
 /lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 U
  []
 
-<images/Satz_UnterMf.jpg, id=138, 381.5856pt x 406.6392pt>
+<images/Satz_UnterMf.jpg, id=165, 381.5856pt x 406.6392pt>
 File: images/Satz_UnterMf.jpg Graphic file (type jpg)
 
 <use images/Satz_UnterMf.jpg>
-Overfull \hbox (36.06137pt too wide) detected at line 438
+Overfull \hbox (36.06137pt too wide) detected at line 474
 \OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10
 .95 \ \OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 '\OT1/lmr
 /m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 \ \OT
@@ -1050,20 +1067,161 @@ Overfull \hbox (36.06137pt too wide) detected at line 438
 ] = \OML/lmm/m/it/10.95 y[] \OT1/lmr/m/n/10.95 = 0\OMS/lmsy/m/n/10.95 g
  []
 
-[10 <./images/Satz_UnterMf.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+[13 <./images/Satz_UnterMf.jpg>]
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 477.
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+\T1/lmr/m/n/10.95 Eine Men-ge $\OML/lmm/m/it/10.95 M \OMS/lmsy/m/n/10.95 ^^Z \U
+/msb/m/n/10.95 R[]$\T1/lmr/m/n/10.95 , die ei-ne der Be-din-gun-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+\T1/lmr/m/n/10.95 (a), (b) oder (c) er-füllt, heiÿt dann $[]$
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 491--492
+[]$\OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x[] \OMS/lmsy/m/n/10.95 2 \OML/lmm/
+m/it/10.95 M\OMS/lmsy/m/n/10.95 9\OML/lmm/m/it/10.95 U \OT1/lmr/m/n/10.95 = \OM
+L/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95
+ ) \OMS/lmsy/m/n/10.95 ^^R[] \U/msb/m/n/10.95 R[][]\OML/lmm/m/it/10.95 f \OMS/l
+msy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
+U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 )$
+ []
+
+
+Overfull \hbox (13.93114pt too wide) in paragraph at lines 507--510
+[]\T1/lmr/bx/n/10.95 Satz I.4. []\T1/lmr/m/it/10.95 ($\OML/lmm/m/it/10.95 C[]$\
+T1/lmr/m/it/10.95 -Untermannigfaltigkeiten von $\U/msb/m/n/10.95 R[]$ \T1/lmr/m
+/it/10.95 sind $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeiten)
 
  []
 
-[11] [12] (./definitionen.aux) ) 
+<images/Quotientenabbildung.jpg, id=177, 395.076pt x 235.6002pt>
+File: images/Quotientenabbildung.jpg Graphic file (type jpg)
+
+<use images/Quotientenabbildung.jpg> [14]
+<images/Def_Verkleben.jpg, id=190, 306.4248pt x 269.3262pt>
+File: images/Def_Verkleben.jpg Graphic file (type jpg)
+
+<use images/Def_Verkleben.jpg>
+Underfull \hbox (badness 2809) in paragraph at lines 540--543
+\T1/lmr/m/n/10.95 Sind $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 und $\OML/lmm/
+m/it/10.95 B$ \T1/lmr/m/n/10.95 dis-junk-te Teil-räu-me ei-nes to-po-lo-gi-sche
+n Raum-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 540--543
+\T1/lmr/m/n/10.95 es $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 und ist $\OML/lm
+m/m/it/10.95 f [] [] A \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 B$ \T1/lmr/m/n
+/10.95 ein Ho-möo-mor-phis-mus, []
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 540--543
+\T1/lmr/m/n/10.95 so heiÿt der Über-gang zum Quo-ti-en-ten-raum, der durch die 
+Par-
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 540--543
+\T1/lmr/m/n/10.95 ti-ti-on von $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 in die
+ Ein-punkt-men-gen von $\OML/lmm/m/it/10.95 X\OMS/lmsy/m/n/10.95 n\OT1/lmr/m/n/
+10.95 (\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 [ \OML/lmm/m/it/10.95 B\OT1/lm
+r/m/n/10.95 )$ \T1/lmr/m/n/10.95 und
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 540--543
+\T1/lmr/m/n/10.95 die Zwei-punkt-men-gen $\OMS/lmsy/m/n/10.95 f\OML/lmm/m/it/10
+.95 x; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )\OMS/lmsy/
+m/n/10.95 g\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 A$
+ \T1/lmr/m/n/10.95 ge-ge-ben ist, $[]$
+ []
+
+[15 <./images/Quotientenabbildung.jpg>]
+<images/Homotop_Endpunkte.jpg, id=199, 653.8026pt x 297.7524pt>
+File: images/Homotop_Endpunkte.jpg Graphic file (type jpg)
+
+<use images/Homotop_Endpunkte.jpg> [16 <./images/Def_Verkleben.jpg>]
+<images/aneinanderfuegbar.jpg, id=209, 448.074pt x 178.7478pt>
+File: images/aneinanderfuegbar.jpg Graphic file (type jpg)
+
+<use images/aneinanderfuegbar.jpg>
+<images/inverser_Weg.jpg, id=210, 428.802pt x 185.0112pt>
+File: images/inverser_Weg.jpg Graphic file (type jpg)
+
+<use images/inverser_Weg.jpg>
+Underfull \hbox (badness 3108) in paragraph at lines 574--575
+\OML/lmm/m/it/10.95 s\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , der zu $\OML/lmm/
+m/it/10.95 u$ $[]$ \T1/lmr/m/n/10.95 (oder: $[]$) $[]$.
+ []
+
+<images/Schleifen.jpg, id=211, 281.3712pt x 230.3004pt>
+File: images/Schleifen.jpg Graphic file (type jpg)
+
+<use images/Schleifen.jpg> [17 <./images/Homotop_Endpunkte.jpg> <./images/anein
+anderfuegbar.jpg>] <images/Produkt_Lemma.jpg, id=220, 387.849pt x 242.3454pt>
+File: images/Produkt_Lemma.jpg Graphic file (type jpg)
+
+<use images/Produkt_Lemma.jpg>
+Overfull \hbox (30.23625pt too wide) in paragraph at lines 590--592
+\T1/lmr/m/it/10.95 mit $\OML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (0) = \OML/lmm/
+m/it/10.95 x; u\OT1/lmr/m/n/10.95 (1) = \OML/lmm/m/it/10.95 y \OT1/lmr/m/n/10.9
+5 = \OML/lmm/m/it/10.95 v\OT1/lmr/m/n/10.95 (0)\OML/lmm/m/it/10.95 ;  v\OT1/lmr
+/m/n/10.95 (1) = \OML/lmm/m/it/10.95 z \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95
+ w\OT1/lmr/m/n/10.95 (0)$ []
+ []
+
+[18 <./images/inverser_Weg.jpg> <./images/Schleifen.jpg> <./images/Produkt_Lemm
+a.jpg>] <images/Fundamentalgruppe.jpg, id=229, 262.581pt x 230.3004pt>
+File: images/Fundamentalgruppe.jpg Graphic file (type jpg)
+
+<use images/Fundamentalgruppe.jpg>
+<images/Basispunkt_Unabhaengigkeit.jpg, id=230, 294.3798pt x 431.6928pt>
+File: images/Basispunkt_Unabhaengigkeit.jpg Graphic file (type jpg)
+
+<use images/Basispunkt_Unabhaengigkeit.jpg>
+<images/S1_mit_1.jpg, id=231, 392.1852pt x 361.35pt>
+File: images/S1_mit_1.jpg Graphic file (type jpg)
+ <use images/S1_mit_1.jpg>
+<images/Schleife.jpg, id=232, 391.7034pt x 338.2236pt>
+File: images/Schleife.jpg Graphic file (type jpg)
+
+<use images/Schleife.jpg> [19 <./images/Fundamentalgruppe.jpg> <./images/Basisp
+unkt_Unabhaengigkeit.jpg>]
+<images/schleifenhomotop.jpg, id=243, 244.7544pt x 247.6452pt>
+File: images/schleifenhomotop.jpg Graphic file (type jpg)
+
+<use images/schleifenhomotop.jpg> [20 <./images/S1_mit_1.jpg> <./images/Schleif
+e.jpg> <./images/schleifenhomotop.jpg>]
+Kapitel II.
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+\T1/lmr/m/n/10.95 Für zwei to-po-lo-gi-sche Räu-me $\OML/lmm/m/it/10.95 X; Y$ \
+T1/lmr/m/n/10.95 heiÿt ei-ne
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 677--678
+[]$ \T1/lmr/bx/n/10.95 Ho-mo-to-pie-äqui-va-lenz\T1/lmr/m/n/10.95 , falls es ei
+-ne
+ []
+
+[22] [23] (./definitionen.aux) ) 
 Here is how much of TeX's memory you used:
- 9031 strings out of 256216
- 133947 string characters out of 1917072
- 209603 words of memory out of 1500000
- 11918 multiletter control sequences out of 10000+200000
- 66968 words of font info for 74 fonts, out of 1200000 for 2000
+ 9154 strings out of 256216
+ 136330 string characters out of 1917072
+ 212644 words of memory out of 1500000
+ 11978 multiletter control sequences out of 10000+200000
+ 89396 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,12n,43p,515b,410s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 45i,14n,43p,580b,573s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
@@ -1076,13 +1234,14 @@ b></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on definitionen.pdf (13 pages, 368538 bytes).
+/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/b
+luesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on definitionen.pdf (24 pages, 808372 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 131072)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
