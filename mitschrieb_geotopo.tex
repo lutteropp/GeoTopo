@@ -153,9 +153,12 @@
 \section*{Zusammenfassung}
 Dies ist ein Mitschrieb der Vorlesung “Einführung in die Geometrie und Topologie” vom Wintersemester 2011/2012 am Karlsruher Institut für Technologie, die von Herrn Prof. Dr. Wilderich Tuschmann gehalten wird.
 
-\chapter{Homotopie und Fundamentalgruppe}
+\setcounter{chapter}{-1}
+\chapter{Einführung}
 \setcounter{section}{-1}
-\section{Vorwort}
+
+Topologie ist qualitative Geometrie. Ihr grundlegendes Studienobjekt sind topologische Räume und Abbildungen zwischen diesen.
+
 \begin{Kasten}{Topologischer Raum}
 Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enthält.
 \newline
@@ -179,7 +182,7 @@ $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 
 \begin{Kasten}{Metrischer Raum}
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
-$\forall x,y,z \in X$
+$\forall x,y,z \in X$ gilt:
 \begin{enumerate}[(1)]
 	\item $d(x,y) = d(y,x)$ \underline{"Symmetrie"}
 	\item $d(x,y) = 0 \Leftrightarrow x = y, d(x,y) \geq 0$ \underline{"Definitheit"}
@@ -200,15 +203,22 @@ Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und
 \end{figure}
 
 \begin{remark}
-Ist $(X,d)$ ein metrischer Raum, so sind die offenen Mengen der von der Metrik induzierten Topologie Vereinigungen von endlichen Durchschnitten von Umgebungen
+Ist $(X,d)$ ein metrischer Raum, so sind die offenen Mengen der von der Metrik induzierten Topologie\footnote{siehe später} Vereinigungen von endlichen Durchschnitten von Umgebungen
 $U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$, 
-und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
+und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ und alle $x \in X$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
 \end{remark}
 
 \begin{Kasten}{Homotopie}
-Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \footnote{$I = [0,1] \subset \R$} \rightarrow Y, (x,t) \mapsto H(x,t)$$ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
+Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \rightarrow Y, (x,t) \mapsto H(x,t)$$ 
+mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
+\newline
+(Hier ist $I = [0,1] \subset \R$)
+\newline
+$f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
 \end{Kasten}
 
+\paragraph{Achtung:} "Stetig" meint hier im Sinne der Produkt-Topologie (siehe später) auf $
+X \times I$.
 
 \begin{figure}[h]
 \centering
@@ -220,17 +230,21 @@ Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbild
 \centering
 \subfloat{\includegraphics[width=0.5\textwidth]{images/nicht_homotop_1.jpg}}\qquad
 \subfloat{\includegraphics[width=0.4\textwidth]{images/nicht_homotop_2.jpg}}
-\caption{f und g sind jeweils \underline{nicht} homotop!}
+\caption{f und g sind jeweils homotop, vgl. Bemerkung \ref{nichttrivial}!}
 \end{figure}
 
 \begin{remark}
-$H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}, eine solche ist also eine parametrisierte Schar von Abbildungen mit "Anfang" $f$ und "Ende" $g$. $f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
+$H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}. Eine solche ist auch interpretierbar als eine stetige parametrisierte Schar.
 \end{remark}
 
-\paragraph{Erinnerung}
-Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0,1]$, eine parametrisierte Schar von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0$ und Ende $h_1$. \includegraphics[width=1\textwidth]{images/Homotopie_param.jpg}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{images/Homotopie_param.jpg}
+\caption{$H = (h_t), t \in [0,1]$, von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0=f$ und \underline{Ende} $h_1=g$.}
+\end{figure}
 
-\begin{Kasten}{Homotope Abbildungen}
+
+\begin{Kasten}{Homotope Abbildungen $f,g \colon X \rightarrow Y$}
 	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
 \end{Kasten}
 
@@ -251,9 +265,7 @@ Sind $X$ und $Y$ topologische Räume, so ist eine Homotopie $H = (h_t), t \in [0
 	$$M_t := \begin{cases} h_{2t} & 0 \leq t \leq \frac{1}{2} \\
 	k_{2t-1} & \frac{1}{2} \leq t \leq 1
 	\end{cases}$$
-	eine Homotopie von $f$ nach $l$.
-	\newline
-	Also ist $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
+	eine Homotopie von $f$ nach $l$, d.h. $f \simeq g, g \simeq l \Rightarrow f \simeq l$.
 \end{proof}
 
 \begin{figure}[h]
@@ -281,6 +293,7 @@ $$H(x,t):= (1-t) f(x) + t \cdot g(x)$$ liefert eine Homotopie von $f$ nach $g$:
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{images/R_n_immer_homotop.jpg}
+\caption{Zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind immer homotop.}
 \end{figure} 
 \end{bsp}
 
@@ -304,18 +317,23 @@ Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für 
 Jeder \underline{geschlossene Weg im $\R^2$}, d.h. jede stetige Abbildung $f \colon [0,1] \rightarrow \R^2$ mit $f(0) = f(1)$ ist nullhomotop.
 $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem Punkt, zum Beispiel der Äquivalenzklasse der konstanten Kurve $t \mapsto (1,0)$.
 
-\begin{figure}[h!]
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{images/Geschlossene_Wege.jpg}
 \caption{Geschlossene Wege in $\R^n$}
 \end{figure}
 
+\begin{remark}{}\label{nichttrivial}
 Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $S^1 := \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$ in $\R^2$, so gilt also $[S^1, \R^2]$ ist einelementig.
 \newline
-\underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial!\newline
-\begin{center}
+\underline{Aber} $[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial, wenn für $f \colon S^1 \rightarrow \R^2 \backslash \{0\}$ der Punkt $f(1), 1 = (1,0) \in S^1$, unter allen betrachteten Homotopien festgelassen werden soll. Dieses Phänomen wird uns zum Studium der Fundamentalgruppe führen \ldots
+\end{remark}
+
+\begin{figure}[h]
+\centering
  \includegraphics[scale=0.5]{images/R2_ohne_0.jpg}
- \end{center}
+\caption{$[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial}
+\end{figure}
 \end{bsp}
 
 \begin{figure}[h]
@@ -324,12 +342,26 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 \caption{$[S^1,\R^2\backslash\{(0,0)\}]\text{ "=" }[S^1,S^1]$}
 \end{figure}
 
-%\begin{Kasten}
+
+
+\newpage
+\chapter{Grundlagen der Allgemeinen Topologie}
+\section{Erste Beispiele topologischer Räume}
+\begin{bsp}{}
+	\begin{enumerate}[(1)]
+		\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
+		\item $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
+		\item Metrische Räume, siehe unten
+		\item $X:= \{a,b,c,d\} \Rightarrow \OO := \left\{X, \emptyset, \{a\}, \{b\}, \{a,c\}, \{a,b,c\}, \{a,b\} \right \}$ definiert eine Topologie auf $X$, aber $\OO^\prime:= \left \{ X, \emptyset, \{a,c,d\}, \{b,d\} \right \}$ nicht!
+		\item $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ heißt \underline{Standard-Topologie}.
+		\item $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\mathcal{T}_1$-Topologie.
+	\end{enumerate}
+\end{bsp}
+
 \begin{Kasten}{Teilraumtopologie}
 Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
 $$\OO \Big |_{A} := \{U \cap A \mid U \in \OO \}$$
 induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heißt \underline{Teilraum} von $(X, \OO)$.
-%\end{Kasten}
 \end{Kasten}
 
 \begin{remark}
@@ -347,22 +379,13 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $\R^2$!
 \end{bsp}
 
-\newpage
-\section{Grundlagen der allgemeinen Topologie} % TODO: Römisch 1
-\begin{bsp}{Beispiele topologischer Räume}
-	\begin{enumerate}[(1)]
-		\item $X, \OO := \{X, \emptyset\}$ \underline{`triviale Topologie'}
-		\item $X, \OO := \mathcal{P}(X)$ \underline{`diskrete Topologie'}
-		\item Metrische Räume, siehe unten
-		\item $X:= \{a,b,c,d\} \Rightarrow \OO := \left\{X, \emptyset, \{a\}, \{b\}, \{a,c\}, \{a,b,c\}, \{a,b\} \right \}$ definiert eine Topologie auf $X$, aber $\OO^\prime:= \left \{ X, \emptyset, \{a,c,d\}, \{b,d\} \right \}$ nicht!
-		\item $X := \R, \OO := \{O \mid \text{O ist Vereinigung von Intervallen } (a,b) \text{ mit } a,b \in \R\}$. $\Rightarrow (X, \OO) \text{ ist topologischer Raum}$, und $\OO$ heißt \underline{Standard-Topologie}.
-		\item $X:= \R, \tilde{\OO} := \{O \mid O = \R \backslash E, E \subset \R \text{ endlich}\} \cup \{\emptyset\}$ ist auch eine Topologie auf $\R$, die so genannte $\mathcal{T}_1$-Topologie.
-	\end{enumerate}
-\end{bsp}
+\section{Topologische Grundbegriffe}
 
 \begin{Kasten}{Abgeschlossenheit}
 	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $$:\Leftrightarrow X \backslash A \text{ ist offen.}$$
 \end{Kasten}
+
+Die De Morgan'schen Regeln der Mengenlehre zeigen:
 
 \begin{remark}
 	Beliebige Durchschnitte abgeschlossener Mengen sind abgeschlossen, ebenso endliche Vereinigungen und genauso $X$ und $\emptyset$.
@@ -418,6 +441,22 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 	\includegraphics[scale=0.3]{images/Kreis_Schnitt.jpg}
 \end{remark}
 
+\begin{Kasten}{Produkt-Topologie}
+	Sind $(X, \OO_X)$ und $(Y, \OO_Y)$ topologische Räume, so bildet $$\mathcal{B}_{X \times Y} := \{U \times V \mid U \in \OO_X, V \in \OO_Y\}$$
+	die Basis einer Topologie für die Menge $X \times Y$, und diese heißt \underline{Produkt-Topologie auf $X \times Y$}.
+	\newline
+	Versehen mit der Produkt-Topologie ist $X \times Y$ sebst ein topologischer Raum und für gegebene $X, Y$ denkt man sich $X \times Y$ stillschweigend mit der Produkt-Topologie versehen.
+\end{Kasten}
+
+\begin{bsp}{}
+	$\R \times \R = \R^2$ \includegraphics[scale=0.06]{images/offener_Kreis.jpg}
+	als topologische Räume!
+\includegraphics[scale=0.4]{images/Produkt_RxR.jpg} 
+\includegraphics[scale=0.4]{images/Kreis_Rechteck.jpg} 
+\includegraphics[scale=0.4]{images/Kreis_Rechteck_Basis.jpg} 
+	Ebenso: $(\R^1)^n = \R^n$!
+\end{bsp}
+
 \begin{Kasten}{Feiner und gröber}
 	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, 
 	\newline so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
@@ -432,21 +471,17 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \newpage
 \paragraph{Mehr zu metrischen Räumen}
 
-%\begin{Kasten}
 \begin{Kasten}{$\epsilon$-Ball, Sphäre}
 	Für einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei für $p \in X$
 	\begin{itemize}
 		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
 		\item $D_\epsilon(p):=\{x \in C \mid d(p,x) \leq \epsilon \}$ der \underline{abgeschlossene $\epsilon$-Ball um $p$}
-		\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sphäre} um $p$ (oder \underline{Sphäre vom Radius $\epsilon$})
+		\item $S_\epsilon(p):=\{x \in C \mid d(p,x) = \epsilon \}$ die \underline{ $\epsilon$-Sphäre} um $p$ (oder \underline{Sphäre vom Radius $\epsilon$} um $p$)
 	\end{itemize}
-%\end{Kasten}
 \end{Kasten}
 
-%\begin{Kasten}
 \begin{Kasten}{Metrischer Unterraum}
 	Ist $(X,d)$ metrischer Raum und $A \subset X$, so heißt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
-%\end{Kasten}
 \end{Kasten}
 
 \begin{bsp}{}
@@ -543,7 +578,9 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Der \underline{Rand} $\partial A$ von $A$ ist $$\partial A := \bar{A} \backslash \mathring A,$$ d.h. Rand $A$ = \{ Randpunkte von A \}.
 \end{Kasten}
 
-(TODO:Exkurs zu `Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander')
+\paragraph{TODO:Exkurs zu "Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander"}
+
+\section{Stetige Abbildungen}
 
 \begin{Kasten}{Stetigkeit}
 	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
@@ -663,7 +700,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Die Knoten mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_aequivalent_zu_Kreis.jpg} sind äquivalent, die mit \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_nicht_aequivalent_zu_Kreis.jpg} nicht!
 \end{bsp}
 
-\chapter{Topologische Eigenschaften}
+\section{Zusammenhang und Kompaktheit}
 
 \begin{Kasten}{zusammenhängend}
 	Ein topologischer Raum heißt \underline{zusammenhängend} $:\Leftrightarrow$ Die einzigen in $X$ gleichzeitig offenen und abgeschlossenen Teilmengen sind $\emptyset$ und $X$.
@@ -682,7 +719,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \includegraphics[scale=0.5]{images/Ueberdeckung.jpg}
 
 \begin{Kasten}{Partition}
-	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte Teilmengen.
+	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte, nichtleere Teilmengen.
 	\newline
 \end{Kasten}
 \begin{center}
@@ -728,7 +765,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{remark}
 
 \begin{Kasten}{Zusammenhangskomponente}
-	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine maximale zusammenhängende Teilmenge von $X$.
+	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine im Sinne der Inklusion von Mengen maximale zusammenhängende Teilmenge von $X$.
 \end{Kasten}
 
 \begin{remark}{}
@@ -773,7 +810,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine stetige Funktion $f \colon [a,b] \rightarrow \R$ nimmt jeden Wert zwischen $f(a)$ und $f(b)$ an.
 \end{corollary}
 
-\begin{bsp}{Waffel teilen.}
+\begin{bsp}{Waffelteilen}
 	Eine Waffel, wie unregelmäßig auch immer, lässt sich immer in zwei gleich große Teile schneiden.
 	\newline
 \includegraphics[scale=0.4]{images/Waffel_zshgd.jpg}
@@ -864,7 +901,7 @@ Hausdorff-Räume sind auch $T_1$-Räume, aber:
 \end{bsp}
 
 \newpage
-\section{Abzählbarkeitsaxiome}
+\section{Abzählbarkeitsaxiome und lokale Kompaktheit}
 \begin{Kasten}{Umgebungsbasis}
 	Ist $X$ topologischer Raum und $x \in X$, so ist eine \underline{Umgebungsbasis} oder \underline{Basis von $X$} \underline{\underline{in $x$}} eine Familie von Umgebungen von $x$, sodass \underline{jede} Umgebung von $x$ eine Umgebung aus der Familie enthält.
 \end{Kasten}
@@ -941,11 +978,22 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	$X$ heißt \underline{parakompakt} $:\Leftrightarrow$ Jede offene Überdeckung besitzt eine lokal endliche offene Verfeinerung. 
 \end{Kasten}
 
-
 \includegraphics[scale=0.5]{images/Cutoff.jpg} \underline{\underline{Cut-off}}
 
+\begin{bsp}{}
+	 \begin{itemize}
+	 	\item Kompakte Räume sind parakompakt.
+	 	\item $\R^n$ ist parakompakt.
+	 	\item Mannigfaltigkeiten sind parakompakt!
+	 \end{itemize}
+\end{bsp}
+
+\begin{remark}{}
+	Parakompaktheit ist wichtig, da dann bestimmte Einbettungen und sogenannte Zerlegungen der Eins existieren.
+\end{remark}
+
 %hier beginnt der 10.11.11
-\chapter{Beispiele und Konstruktionen topologischer Räume}
+\chapter{Geometrische Beispiele und Konstruktionen topologischer Räume}
 \section{Mannigfaltigkeiten}
 
 \paragraph{Beispiele zu Mannigfaltigkeiten (Exkurs)} Doppelpendel, Quantenfeldtheorie
@@ -1003,24 +1051,7 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \paragraph{Richtig toller Exkurs zu Mannigfaltigkeiten}... Killing-Fields, Lie-Groups (festgenommener Matheprof kurz nach 9/11), Perverse Garben, wir leben in einer 4-dimensionalen Mannigfaltigkeit, ...
 
 \newpage
-\section{Produkt-Topologie}
-\begin{Kasten}{Produkt-Topologie}
-	Sind $(X, \OO_X)$ und $(Y, \OO_Y)$ topologische Räume, so bildet $$\mathcal{B}_{X \times Y} := \{U \times V \mid U \in \OO_X, V \in \OO_Y\}$$
-	die Basis einer Topologie für die Menge $X \times Y$, und diese heißt \underline{Produkt-Topologie auf $X \times Y$}.
-	\newline
-	Versehen mit der Produkt-Topologie ist $X \times Y$ sebst ein topologischer Raum und für gegebene $X, Y$ denkt man sich $X \times Y$ stillschweigend mit der Produkt-Topologie versehen.
-\end{Kasten}
-
-\begin{bsp}{}
-	$\R \times \R = \R^2$ \includegraphics[scale=0.06]{images/offener_Kreis.jpg}
-	als topologische Räume!
-\includegraphics[scale=0.4]{images/Produkt_RxR.jpg} 
-\includegraphics[scale=0.4]{images/Kreis_Rechteck.jpg} 
-\includegraphics[scale=0.4]{images/Kreis_Rechteck_Basis.jpg} 
-	Ebenso: $(\R^1)^n = \R^n$!
-\end{bsp}
-
-\paragraph{Einige Eigenschaften der Produkt-Topologie}
+\begin{remark}{Bemerkung zur Produkt-Topologie}
 \begin{itemize}
 	\item Produkte von Hausdorff-Räumen sind Hausdorff-Räume.
 	\item Produkte von zusammenhängenden Räumen sind zusammenhängend.
@@ -1029,9 +1060,9 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	\item Produkte von Räumen, die das erste oder zweite Abzählbarkeitsaxiom erfüllen, erfüllen diese auch.
 \end{itemize}
  
-\begin{bsp}{}
+\paragraph{Folgerung}
 	Produkte topologischer oder differenzierbarer Mannigfaltigkeiten sind topologische oder differenzierbare\footnote{($C^\infty$)} Mannigfaltigkeiten.
-\end{bsp} 
+\end{remark}
  
 \begin{bsp}{}
 	\begin{itemize}
@@ -1045,7 +1076,7 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \end{bsp}
 
 \newpage
-\section{Differenzierbare Abbildungen}
+\subsection{Differenzierbare Abbildungen}
 \begin{Kasten}{$C^l$-Abbildung}
 Es seien $(M, \mathcal{A})$ eine $n$-dimensionale $C^k$-Mannigfaltigkeit, $(M^\prime, \mathcal{A}^\prime)$ eine $n^\prime$-dimensionale $C^{k^\prime}$-Mannigfaltigkeit und $l \leq \min(k,k^\prime)$. Eine stetige Abbildung $f \colon M \rightarrow M^\prime$ heißt \underline{differenzierbar} (\underline{von der Klasse $C^l$}) oder kurz: $C^l$-Abbildung, falls gilt:
 $$\forall (\varphi,U) \in \mathcal{A} \text{ und } (\varphi^\prime, U^\prime) \in \mathcal{A}^\prime \text{ mit } f(U) \cap U^\prime \neq \emptyset \text{ ist}$$
@@ -1247,6 +1278,11 @@ Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
 	\includegraphics[scale=0.6]{images/Partition_R.jpg}\newline
 	\includegraphics[scale=0.6]{images/Identifizierung_Linien.jpg}\newline
 	\includegraphics[scale=0.6]{images/Linien_Quadrat.jpg}\newline
+
+	Ist $\alpha$ rational, so schließen sich die ins Einheitsquadrat "zurückgeholten" Kurvensegmente zu einer geschlossenen Kurve $K_\alpha$ auf dem Torus $T^2$, doch für $\alpha \in \R \backslash \Q$ füllt die entsprechende Kurve $K_\alpha$ den $T^2$ \underline{dicht} aus. $\leadsto$
+	$$\alpha \in \Q \Rightarrow K_\alpha \cong S^1$$
+	$$\alpha \in \R \backslash \Q \Rightarrow K_\alpha \cong \R \ldots !$$	
+	
 	\includegraphics[scale=0.6]{images/Linien_Torus_rational.jpg}
 	\newline
 	$\alpha \in \R \backslash \Q$: \underline{\underline{ÜBEL!}}\newline
@@ -1320,7 +1356,6 @@ Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \un
 \end{bsp}
 
 %hier beginnt der 24.11.11
-% diese Woche noch nicht relevant, hört auf mit diffbaren Mfkten
 
 \newpage
 \section{Konstruktionen von Quotientenräumen}
@@ -1339,7 +1374,7 @@ Im Folgenden "Kontrahieren", "Anheften", "Verkleben" etc.
 	$$\Rightarrow X/A \cong \includegraphics[scale=0.2]{images/1_nach_1durch3.jpg} \cong \includegraphics[scale=0.2]{images/1_nach_1durch3_2.jpg} \cong \includegraphics[scale=0.2]{images/P.jpg} \cong \includegraphics[scale=0.2]{images/Q.jpg}$$
 		\item $X = [0,1], A = \{0,1\}$ \includegraphics[scale=0.2]{images/0_1.jpg}
 			$$\Rightarrow X/A \cong \includegraphics[scale=0.1]{images/Knoten_Kreis.jpg} S^1$$
-		\item $X = \overline{B^n}$ abgeschlossener Einheitsball in $\R^n$ mit Rand $S^{n-1}$ und Inneren $B^n$. $A:= S^{n-1}= \partial \overline{B^n}, X = \overline{B^n}$ \newline
+		\item $X = \overline{B^n} = D^n$ abgeschlossener Einheitsball in $\R^n$ mit Rand $S^{n-1}$ und Innerem $B^n$. $A:= S^{n-1}= \partial \overline{B^n}, X = \overline{B^n}$ \newline
 		$X/A = S^n$ \includegraphics[scale=0.2]{images/B2_mit_Rand.jpg}
 		$$\overline{B^2}/_{S^1} = \includegraphics[scale=0.2]{images/S2.jpg} S^2$$
 		\underline{Formal:} $S = S^{n-1} \cup \{\{x\} \mid x \in B^n = \mathring{(\overline{B^n})}\}$ \footnote{$S$ ist die Partition.}
@@ -1403,11 +1438,11 @@ $$\includegraphics[scale=0.2]{images/Quadrat.jpg} \leadsto \includegraphics[scal
 	$$\Prim^2 \R \text{ (oder auch $\R \Prim^2$)}$$
 \end{bsp}
 
-\begin{Kasten}{$n$-dimensionaler reell-projektiver Raum}
-	Der $n$-dimensionale reell-projektive Raum\footnote{Anschaulich (projektive Geometrie): 
+\begin{Kasten}{$n$-dimensionaler projektiver Raum}
+	Der $n$-dimensionale \underline{reell-projektive} Raum\footnote{Anschaulich (projektive Geometrie): 
 	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$} ist 
 	$$\R \Prim^n := S^n/_{[x \sim -x]}$$
-	und der $n$-dimensionale komplex-projektive Raum ist 
+	und der $n$-dimensionale \underline{komplex-projektive} Raum ist 
 	$$\C \Prim^n := \underbrace{S^{2n+1}}_{\subset \C^{n+1}}/_{[v \sim \lambda v, \lambda \in S^1]}$$
 \end{Kasten}
 
@@ -1445,13 +1480,14 @@ $$h_0 =f, \quad h_1 = g$$
 		\newline
 		$\leadsto \Gamma \colon I \rightarrow C(X,Y) := \{f \colon X \rightarrow Y \text{ stetig}\}, \quad t \mapsto h_t$
 	\end{itemize}
-\end{bsp}
-
-\begin{remark}{}
-	$C(X,Y)$ ist, versehen mit der sogenannten \underline{kompakt-offenen} \underline{Topologie}, selbst ein topologischer Raum und jede Homotopie $H \colon f \simeq g, \quad f,g \in C(X,Y)$ ist bezüglich dieser Topologie auf $C(X,Y)$ dann tatsächlich als \underline{stetige} Abbildung (also Weg) $I \rightarrow C(X,Y)$ interpretierbar.
+	$\Gamma$ ist zunächst nur eine Abbildung, doch gilt:
+	\begin{remark}{}
+	$C(X,Y)$ ist, versehen mit der sogenannten \underline{kompakt-offenen} \underline{Topologie}, selbst ein topologischer Raum und jede Homotopie $H \colon f \simeq g, \quad f,g \in C(X,Y)$ ist bezüglich dieser Topologie auf $C(X,Y)$ dann tatsächlich als \underline{stetige} Abbildung (also Weg) $\Gamma \colon I \rightarrow C(X,Y)$, $\Gamma$ wie oben, interpretierbar.
 \newline
 Die kompakt-offene Topologie auf $C(X,Y)$ wird erzeugt von allen Mengen der Form $\{\varphi \in C(X,Y) \mid \varphi(A) \subset B\}, \quad A \subset X \text{ kompakt}, B \subset Y \text{ offen}$
 \end{remark}
+
+\end{bsp}
 
 \paragraph{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: Lösen von DGL, DGL-Systemen usw.}
 
@@ -1462,6 +1498,8 @@ Homotopie \underline{von Wegen} ist zunächst nicht sehr interessant:
 	$$\Leftrightarrow u(I) \text{ und } v(I) \text{ liegen in derselben Wegzusammenhangskomponente}$$
 	\includegraphics[scale=0.5]{images/Homotopie_zwischen_Wegen.jpg} \includegraphics[scale=0.35]{images/Homotopie_zwischen_Wegen2.jpg}
 \end{remark}
+
+Deshalb \underline{neues} Konzept:
 
 \begin{Kasten}{homotop bezüglich der Endpunkte}
 	Zwei Wege $u,v \colon I \rightarrow X$, $X$ topologischer Raum, heißen \underline{homotop} (\underline{\underline{bezüglich der Endpunkte}})
@@ -1496,7 +1534,7 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 
 \begin{Kasten}{Produkt von Wegen}
 	Sind $u$, $v$ Wege in $X$ mit $u(1)=v(0)$, so heißen $u$ und $v$ \underline{zusammensetzbar} oder \underline{aneinanderfügbar} und ihr \underline{Produkt} $u \cdot v$ ist definiert als
-	$$(u \cdot v) (t) := \begin{cases} u(2t) & 0 \leq t \leq \frac{1}{2} \\ v(2t-1) & \frac{1}{2} \leq t \leq 1 \end{cases}$$
+	$$(u \cdot v) (s) := \begin{cases} u(2s) & 0 \leq s \leq \frac{1}{2} \\ v(2s-1) & \frac{1}{2} \leq s \leq 1 \end{cases}$$
 	\includegraphics[scale=0.4]{images/aneinanderfuegbar.jpg}
 \end{Kasten}
 
@@ -1523,7 +1561,7 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 \begin{Kasten}{Konstanter Weg, Inverser Weg, Geschlossener Weg}
 	\begin{itemize}
 		\item Für $x \in X$ sei $c_x \colon I \rightarrow X$ mit $c_x \equiv x$ \underline{der konstante Weg in $x \in X$}.
-		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, t \mapsto u(1-t)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. \includegraphics[scale=0.4]{images/inverser_Weg.jpg}
+		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, s \mapsto u(1-s)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. \includegraphics[scale=0.4]{images/inverser_Weg.jpg}
 		\item $u \colon I \rightarrow X$ heißt \underline{geschlossener Weg} (oder: \underline{Schleife}) \underline{in $x \in X$} 
 		$$:\Leftrightarrow u(0) = x = u(1)$$ \includegraphics[scale=0.4]{images/Schleifen.jpg}
 	\end{itemize}
@@ -1537,8 +1575,8 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	\begin{itemize}
 	\item Ein geschlossener Weg $u$ in $x$ heißt \underline{nullhomotop} \newline
 		$:\Leftrightarrow [u] = [c_x]$
-	\item $X$ heißt \underline{einfach zusammenhängend} \newline
-	$:\Leftrightarrow \text{ jeder geschlossene Weg $u$ in $X$ ist nullhomotop (zu $c_{u(0)}$).}$
+	\item $X$ heißt \underline{einfach zusammenhängend} $:\Leftrightarrow$ \newline
+	$X \text{ ist wegzusammenhängend und}$ \newline $\text{ jeder geschlossene Weg $u$ in $X$ ist nullhomotop (zu $c_{u(0)}$).}$
 	\end{itemize}
 \end{Kasten}
 
@@ -1599,18 +1637,14 @@ Also ist $H$ Homotopie von $c_x$ nach $(u \cdot u^{-1})$ und $$[u] \cdot [u^{-1}
 	Dieser Isomorphismus hängt von $w$ ab und ist deshalb im Allgemeinen nicht kanonisch!
 	Kanonisch ist er, falls $\pi_1$ \underline{\underline{abelsche}} Gruppe ist!
 	\newline
-$[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w]$
-\newline
-$\overset{\text{abelsch}}{=} [u v] [w w^{-1}] = [u v]$
+$[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomorphismus.
 
 \end{remark}
-
-$\pi_1(T^n) \cong \Z^n$
 
 %hier beginnt der 6.12.11
 
 \paragraph{Erinnerung} $\forall$ topologischen Räume $X$ und $x_0 \in X$ ist $\pi_1(X,x_0)$, die Menge der Homotopieklassen $[u]$ geschlossener Wege in $x_0$, mit der Multiplikation $[u] \cdot [v] = [u \cdot v]$ eine Gruppe, die sogenannte \underline{Fundamentalgruppe von $X$ in $x_0$}.
-
+\newpage
 \subsection{Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}
 \begin{Kasten}{Schleife}
 	Es sei $S^1 = \{x \in \R^2 \mid ||x|| = 1\} = \{z \in \C \mid |z| = 1\}$

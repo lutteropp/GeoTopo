@@ -1,43 +1,45 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {I}Homotopie und Fundamentalgruppe}{2}{chapter.1}
-\contentsline {section}{\numberline {0}Vorwort}{2}{section.1.0}
-\contentsline {paragraph}{Erinnerung}{4}{section*.9}
-\contentsline {section}{\numberline {1}Grundlagen der allgemeinen Topologie}{10}{section.1.1}
-\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{13}{section*.25}
-\contentsline {paragraph}{Erinnerung}{15}{section*.31}
-\contentsline {chapter}{\numberline {II}Topologische Eigenschaften}{22}{chapter.2}
-\contentsline {section}{\numberline {1}Trennungseigenschaften}{28}{section.2.1}
-\contentsline {section}{\numberline {2}Abz\IeC {\"a}hlbarkeitsaxiome}{30}{section.2.2}
-\contentsline {chapter}{\numberline {III}Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{33}{chapter.3}
-\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{33}{section.3.1}
-\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{33}{section*.84}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{37}{section*.90}
-\contentsline {section}{\numberline {2}Produkt-Topologie}{38}{section.3.2}
-\contentsline {paragraph}{Einige Eigenschaften der Produkt-Topologie}{38}{section*.93}
-\contentsline {section}{\numberline {3}Differenzierbare Abbildungen}{40}{section.3.3}
-\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{41}{section*.97}
-\contentsline {paragraph}{Interpretation}{42}{section*.98}
-\contentsline {section}{\numberline {4}Quotientenr\IeC {\"a}ume}{48}{section.3.4}
-\contentsline {paragraph}{Erinnerung}{48}{section*.101}
-\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{48}{section*.103}
-\contentsline {paragraph}{Achtung:}{48}{section*.104}
-\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{50}{section*.106}
-\contentsline {section}{\numberline {5}Quotientenabbildungen}{51}{section.3.5}
-\contentsline {paragraph}{Interpretation}{51}{section*.108}
-\contentsline {paragraph}{Allgemeiner}{51}{section*.109}
-\contentsline {paragraph}{Erinnerung}{52}{section*.110}
-\contentsline {section}{\numberline {6}Konstruktionen von Quotientenr\IeC {\"a}umen}{55}{section.3.6}
-\contentsline {paragraph}{Andere Sichtweise:}{56}{section*.116}
-\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{59}{section*.123}
-\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{59}{section*.124}
-\contentsline {chapter}{\numberline {IV}Konzepte der Algebraischen Topologie}{60}{chapter.4}
-\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{60}{section.4.1}
-\contentsline {paragraph}{Erinnerung}{60}{section*.125}
-\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{61}{section*.127}
-\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{67}{section*.133}
-\contentsline {paragraph}{Erinnerung}{68}{section*.134}
-\contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{68}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{71}{subsection.4.1.2}
-\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{71}{section*.141}
-\contentsline {paragraph}{Erinnerung(Lebesguelemma)}{72}{section*.142}
+\contentsline {chapter}{\numberline {}Einf\IeC {\"u}hrung}{2}{chapter.0}
+\contentsline {paragraph}{Achtung:}{4}{section*.9}
+\contentsline {chapter}{\numberline {I}Grundlagen der Allgemeinen Topologie}{10}{chapter.1}
+\contentsline {section}{\numberline {1}Erste Beispiele topologischer R\IeC {\"a}ume}{10}{section.1.1}
+\contentsline {section}{\numberline {2}Topologische Grundbegriffe}{11}{section.1.2}
+\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{15}{section*.27}
+\contentsline {paragraph}{Erinnerung}{17}{section*.33}
+\contentsline {paragraph}{TODO:Exkurs zu "Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander"}{18}{section*.40}
+\contentsline {section}{\numberline {3}Stetige Abbildungen}{19}{section.1.3}
+\contentsline {section}{\numberline {4}Zusammenhang und Kompaktheit}{23}{section.1.4}
+\contentsline {section}{\numberline {5}Trennungseigenschaften}{29}{section.1.5}
+\contentsline {section}{\numberline {6}Abz\IeC {\"a}hlbarkeitsaxiome und lokale Kompaktheit}{31}{section.1.6}
+\contentsline {chapter}{\numberline {II}Geometrische Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{34}{chapter.2}
+\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{34}{section.2.1}
+\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{34}{section*.88}
+\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{38}{section*.94}
+\contentsline {paragraph}{Folgerung}{39}{section*.95}
+\contentsline {subsection}{\numberline {1.1}Differenzierbare Abbildungen}{40}{subsection.2.1.1}
+\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{41}{section*.98}
+\contentsline {paragraph}{Interpretation}{42}{section*.99}
+\contentsline {section}{\numberline {2}Quotientenr\IeC {\"a}ume}{48}{section.2.2}
+\contentsline {paragraph}{Erinnerung}{48}{section*.102}
+\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{48}{section*.104}
+\contentsline {paragraph}{Achtung:}{48}{section*.105}
+\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{50}{section*.107}
+\contentsline {section}{\numberline {3}Quotientenabbildungen}{51}{section.2.3}
+\contentsline {paragraph}{Interpretation}{51}{section*.109}
+\contentsline {paragraph}{Allgemeiner}{51}{section*.110}
+\contentsline {paragraph}{Erinnerung}{52}{section*.111}
+\contentsline {section}{\numberline {4}Konstruktionen von Quotientenr\IeC {\"a}umen}{55}{section.2.4}
+\contentsline {paragraph}{Andere Sichtweise:}{56}{section*.117}
+\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{59}{section*.124}
+\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{59}{section*.125}
+\contentsline {chapter}{\numberline {III}Konzepte der Algebraischen Topologie}{60}{chapter.3}
+\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{60}{section.3.1}
+\contentsline {paragraph}{Erinnerung}{60}{section*.126}
+\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{61}{section*.128}
+\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{67}{section*.134}
+\contentsline {paragraph}{Erinnerung}{68}{section*.135}
+\contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{69}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{71}{subsection.3.1.2}
+\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{71}{section*.142}
+\contentsline {paragraph}{Erinnerung(Lebesguelemma)}{72}{section*.143}
