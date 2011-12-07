@@ -1705,9 +1705,10 @@ $[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomo
 
 \begin{bsp}{}
 	$\pi_1\left(S^n, N:= (0,\ldots, 0,1)\right) = \{0\} \quad \forall n \geq 2$
-	(TODO: Bild 8)
+	\newline \includegraphics[scale=0.4]{images/I_S2_surjektiv.jpg}
 	\newline
-	\underline{Achtung:} $\forall n \in \N$ existieren stetige Surjektionen $I \rightarrow S^n$ (TODO: Bild 9)
+	\underline{Achtung:} $\forall n \in \N$ existieren stetige Surjektionen $I \rightarrow S^n$
+	\newline \includegraphics[scale=0.4]{images/I_I2_surjektiv.jpg}
 	\newline
 	\underline{Frage:} Gibt es stetige Surjektionen $I \rightarrow S^n$, die nullhomotop sind? Ja: Ist $u$ eine, so ist $u \cdot u^{-1}$ auch eine, doch $\sim 0$!
 \end{bsp}
@@ -1716,7 +1717,7 @@ $[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomo
 \begin{enumerate}
 	\item Jeder geschlossene Weg $u \colon I \rightarrow S^n$ mit $u(I) \neq S^n$ ist für $n \geq 2$ nullhomotop.
 	\newline
-	\underline{Denn:} Es sei $p \in S^n \backslash u(I)$ und $\pi \colon S^n \backslash \{p\} \rightarrow \R^n$ die stereographische Projektion (von $p$ aus). Dann ist $\pi \circ u$ geschlossener Weg in $\R^n$ und nullhomotop in $\R^n$. (TODO: Bild 10)
+	\underline{Denn:} Es sei $p \in S^n \backslash u(I)$ und $\pi \colon S^n \backslash \{p\} \rightarrow \R^n$ die stereographische Projektion (von $p$ aus). Dann ist $\pi \circ u$ geschlossener Weg in $\R^n$ und nullhomotop in $\R^n$. \newline \includegraphics[scale=0.4]{images/Weg_S2_nullhomotop.jpg}
 	\newline
 	Ist $H$ Homotopie, so ist $H^\prime := \pi^{-1} \circ H$ eine Homotopie, die $u$ auf $S^n$ zu einer konstanten Kurve homotopiert, d.h. $u \sim c_{x_0}$.
 	
@@ -1724,18 +1725,19 @@ $[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomo
 \end{enumerate}
 
 \paragraph{Erinnerung(Lebesguelemma)}
-Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer Raum und $\Gamma$ eine offene Überdeckung von $Y$, so existiert $\delta > 0$ mit: \newline  $\forall A \subset Z \text{ mit } diam(A) < \delta$ ist $f(A)$ in einem Element von $\Gamma$ (ganz) enthalten. (TODO: Bild 11)
+Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer Raum und $\Gamma$ eine offene Überdeckung von $Y$, so existiert $\delta > 0$ mit: \newline  $\forall A \subset Z \text{ mit } diam(A) < \delta$ ist $f(A)$ in einem Element von $\Gamma$ (ganz) enthalten. \newline \includegraphics[scale=0.4]{images/Lebesguelemma.jpg}
 
 \begin{corollary}{}
 	Ist $s \colon I \rightarrow X$ Weg und $\Gamma$ offene Überdeckung von $X$, so existiert eine Folge von Punkten \newline $a_1, \ldots, a_N \in I$ mit $0 = a_1 < \ldots < a_{N-1} < a_N = 1$ mit \newline $s([a_i, a_{i+1}])$ ist in einem Element von $\Gamma$ enthalten.
 \end{corollary}
 
 \begin{lemma}{}
-	$\forall n \geq 2$ gilt: $\forall$ Wege $s \colon I \rightarrow S^n$ existiert eine endliche Unterteilung von $I$ in Teilintervalle, so dass die Einschränkung von $s$ auf jedes der Teilintervalle homotop zu einer Abbildung mit nirgendwo dichtem Bild ist, und zwar durch eine Homotopie, die auf den Endpunkten des Intervalls fixiert ist. (TODO: Bild 12)
+	$\forall n \geq 2$ gilt: $\forall$ Wege $s \colon I \rightarrow S^n$ existiert eine endliche Unterteilung von $I$ in Teilintervalle, so dass die Einschränkung von $s$ auf jedes der Teilintervalle homotop zu einer Abbildung mit nirgendwo dichtem Bild ist, und zwar durch eine Homotopie, die auf den Endpunkten des Intervalls fixiert ist. \newline \includegraphics[scale=0.4]{images/glaetten.jpg}
 	\end{lemma}
 	\begin{proof}
 	\underline{Denn:} Sei $x \in S^n$ beliebig und überdecke $S^n$ durch $U:= S^n \backslash \{x\}$ und $V:= S^n \backslash \{-x\}$. Korollar zu Lebesgue-Lemma $\Rightarrow$ $\exists a_0, \ldots, a_N \in I, 0 = a_1 < \ldots < a_N = 1 \colon \forall i$ liegt $s([a_i, a_{i+1}])$ ganz in $U$ oder $V$.
 	\newline
-	$U,V \cong \R^n$ (hier sind alle Wege homotop) $\Rightarrow \forall i \colon s \big |_{[a_i, a_{i+1}]} \sim$ Weg, der Teil eines Großkreises auf $S^n$ ist. (TODO: Bild 13) Für $n\geq 2$ füllt letzterer nicht $S^n$.
+	$U,V \cong \R^n$ (hier sind alle Wege homotop) $\Rightarrow \forall i \colon s \big |_{[a_i, a_{i+1}]} \sim$ Weg, der Teil eines Großkreises auf $S^n$ ist. \newline \includegraphics[scale=0.4]{images/Grosskreis.jpg} \newline
+	Für $n\geq 2$ füllt letzterer nicht $S^n$.
 \end{proof}
 \end{document}
