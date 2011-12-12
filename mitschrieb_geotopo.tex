@@ -1744,7 +1744,7 @@ Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer
 % hier beginnt der 08.12.11
 \subsection{Induzierte Homomorphismen}
 \begin{remark}
-	Ist $f \colon X \rightarrow Y$ eine stetige Abbildung zwischen topologischen Räumen, so liefert jeder Weg in $X$ einen Weg in $Y$, (TODO: Bild 1) und für aneinanderfügbare Wege $u,v \colon I \rightarrow X$ gilt offenbar $f \circ (u \cdot v) = (f \circ u) \cdot (f \circ v)$.
+	Ist $f \colon X \rightarrow Y$ eine stetige Abbildung zwischen topologischen Räumen, so liefert jeder Weg in $X$ einen Weg in $Y$, \includegraphics[scale=0.4]{images/Weg_stetige_Abbildung.jpg} und für aneinanderfügbare Wege $u,v \colon I \rightarrow X$ gilt offenbar $f \circ (u \cdot v) = (f \circ u) \cdot (f \circ v)$.
 	\newline
 	Sind $u$ und $v$ ferner homotop, so auch $f \circ u$ und $f \circ v$, denn ist $H \colon I \times I \rightarrow X$ eine Homotopie zwischen $u$ und $v$, so ist $f \circ H \colon I \times I \rightarrow Y$ eine Homotopie zwischen $f \circ u$ und $f \circ v$.
 	\newline
@@ -1769,7 +1769,7 @@ Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer
 	Tatsächlich hängt der von einer stetigen Abbildung $f \colon X \rightarrow Y$ induzierte Homomorphismus $f_* \colon \pi_1(X,x_0) \rightarrow \pi_1(Y,f(x_0))$ sogar nur von der \underline{Homotopieklasse} von $f \in C(X,Y)$ ab, und damit gilt:
 	\newline
 	Die Fundamentalgruppe eines (wegzusammenhängenden) topologischen Raumes ist nicht nur eine Homöomorphie-, sondern sogar eine Homotopie-Invariante, d.h. hängt nur vom Homotopietyp des Raumes ab! \newline
-	(TODO: Bild 2) 
+	\includegraphics[scale=0.4]{images/f_g_homotop.jpg}
 	\newline
 	$f \simeq g \Rightarrow f_* = g_*$
 \end{remark}
@@ -1785,7 +1785,9 @@ Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer
 \end{theorem}
 
 \begin{proof}
-	$p_1 \colon X \times Y \rightarrow X$ und $p_2 \colon X \times Y \rightarrow Y$ seinen die Projektionen von $X \times Y$ auf den erstem bzw. zweiten Faktor. (TODO: Bild 3) \newline Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbildung $f \colon Z \rightarrow X \times Y$ bijektiv ein Paar $(f_1, f_2)$ stetiger Abbildungen $f_1 \colon Z \rightarrow X, f_2 \colon Z \rightarrow Y$ mit $f_i = p_i \circ f, \quad i=1,2$
+	$p_1 \colon X \times Y \rightarrow X$ und $p_2 \colon X \times Y \rightarrow Y$ seinen die Projektionen von $X \times Y$ auf den erstem bzw. zweiten Faktor. \newline
+	\includegraphics[scale=0.4]{images/Produkt_Fundamentalgruppe.jpg} \newline
+Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbildung $f \colon Z \rightarrow X \times Y$ bijektiv ein Paar $(f_1, f_2)$ stetiger Abbildungen $f_1 \colon Z \rightarrow X, f_2 \colon Z \rightarrow Y$ mit $f_i = p_i \circ f, \quad i=1,2$
 	\newline
 	Insbesondere entspricht jeder Weg $u$ in $X \times Y$ seinen Projektionen $u_1$ in $X$ und $u_2$ in $Y$ ($u_i = p_i \circ u$),  und zwei Wege in $X \times Y$ sind homotop genau dann, wenn ihre Projektionen in $X$ und in $Y$ homotop sind.
 	\newline
@@ -1806,21 +1808,23 @@ Ist $f \colon Z \rightarrow Y$, $Z$ kompakter metrischer Raum, $Y$ topologischer
 		\item $\pi_1(X,x_0) = \{0\}$ (für ein und damit alle $x_0 \in X$);
 		\item Jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ ist (frei) nullhomotop;
 		\item Jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ setzt sich stetig auf $D^2$ fort; % D^2 ist die Kreisscheibe
-		\item Je zwei Wege $u_1, u_2$ in $X$ mit gleichen Anfangs- bzw. Endpunkten sind homotop. (TODO: Bild 4)
+		\item Je zwei Wege $u_1, u_2$ in $X$ mit gleichen Anfangs- bzw. Endpunkten sind homotop. \newline
+		\includegraphics[scale=0.4]{images/Wege_homotop.jpg}
 	\end{enumerate}
 \end{theorem}
 
 \begin{proof}
-	(TODO: Bild 5)
+	\includegraphics[scale=0.4]{images/geschlossener_Weg_nullhomotop.jpg}
 	\newline
 	(1) $\Rightarrow$ (2): $X$ einfach zusammenhängend $\Rightarrow$ Jeder geschlossene Weg in $X$ ist nullhomotop $\Rightarrow$ Jede Schleife in $X$ ist nullhomotop $\Rightarrow$ jede Schleife in $X$ ist frei nullhomotop
 	\newline
-	(2) $\Rightarrow$ (3): Für jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ existiert eine Homotopie $H \colon S^1 \times I \rightarrow X$ mit $H(z,0) = \gamma(z), H(z,1) = x_0$ \newline (TODO: Bild 6) \newline $\Rightarrow \exists$ stetige Abbildung $H^\prime \colon S^1 \times I/_{S^1 \times \{1\}} \rightarrow X$ mit $H = H^\prime \circ \pi$, \newline mit $\pi \colon S^1 \times I \rightarrow \underbrace{S^1 \times I /_{S^1 \times \{1\}}}_{\cong D^2}$: (TODO: Bild 7)
+	(2) $\Rightarrow$ (3): Für jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ existiert eine Homotopie $H \colon S^1 \times I \rightarrow X$ mit $H(z,0) = \gamma(z), H(z,1) = x_0$ \newline \includegraphics[scale=0.4]{images/Schleife_frei_homotop.jpg} \newline $\Rightarrow \exists$ stetige Abbildung $H^\prime \colon S^1 \times I/_{S^1 \times \{1\}} \rightarrow X$ mit $H = H^\prime \circ \pi$, \newline mit $\pi \colon S^1 \times I \rightarrow \underbrace{S^1 \times I /_{S^1 \times \{1\}}}_{\cong D^2}$: \newline
+	\includegraphics[scale=0.4]{images/Zylinder_nach_D2.jpg}
 	\newline
 	(3) $\Rightarrow$ (4): Es sei $G$ die Abbildung mit 
 	$$G(t,0) = u_1(t), G(t,1)=u_2(t), G(0,t) = x_0, G(1,t)=x_1 \text{ für } t \in I,$$
 	d.h. $G$ bildet den $\underbrace{\text{Rand von }I \times I}_{\cong S^1}$ auf $X$ ab.
-	(TODO: Bild 8)
+	\includegraphics[scale=0.4]{images/Rand_I2_S1.jpg}
 	\newline
 	Wegen $I \times I \cong D^2$ und $\partial(I \times I) \cong S^1$, setzt sich $G$ stetig auf ganz $I \times I$ fort und ist Homotopie $u_1 \simeq u_2$.
 	\newline
