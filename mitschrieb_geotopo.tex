@@ -1821,11 +1821,91 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 	(3) $\Rightarrow$ (4): Es sei $G$ die Abbildung mit 
 	$$G(t,0) = u_1(t), G(t,1)=u_2(t), G(0,t) = x_0, G(1,t)=x_1 \text{ für } t \in I,$$
 	d.h. $G$ bildet den $\underbrace{\text{Rand von }I \times I}_{\cong S^1}$ auf $X$ ab.
-	\includegraphics[scale=0.4]{images/Rand_I2_S1.jpg}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.4]{images/Rand_I2_S1.jpg}
+		\caption{Der Rand des Einheitsquadrates ist homöomorph zur $S^1$.}
+	\end{figure}	
 	\newline
 	Wegen $I \times I \cong D^2$ und $\partial(I \times I) \cong S^1$, setzt sich $G$ stetig auf ganz $I \times I$ fort und ist Homotopie $u_1 \simeq u_2$.
 	\newline
 	(4) $\Rightarrow$ (1): klar
 \end{proof}
+
+\newpage
+
+\section{Überlagerungen}
+\paragraph{Motivation} Betrachte die stetige und surjektive Abbildung $$\pi \colon \R \rightarrow S^1 \subset \R^2, t \mapsto (\cos 2 \pi t, \sin 2 \pi t) = e^{2 \pi i t}$$
+Entfernt man aus $S^1$ einen Punkt oder auch ein abgeschlossenes Kreissegment (TODO: Bild 1), so erhält man eine offene Teilmenge $U$ von $S^1$, deren Urbild unter $\pi$ aus disjunkten offenen Intervallen besteht, und jedes dieser Intervalle wird unter $\pi$ homöomorph auf $U$ abgebildet.
+
+\paragraph{Veranschaulichung}
+Indentifiziere $\R$ zunächst mit einer "Spirale" im $\R^3$ via $t \mapsto (\cos 2 \pi t, \sin 2 \pi t, t);$ (TODO: Bild 2)
+projiziere orthogonal auf die x-y-Ebene, die $S^1$ enthält.
+
+\paragraph{}
+Zu $\pi$ gehört zudem eine \underline{Gruppe von Homöomorphismen} von $\R$, die Gruppe der ganzzahligen Translationen $$\tau_k \colon \R \rightarrow \R, x \mapsto x + k, k \in \Z$$
+und zwei Punkte $t_0, t_1 \in \R$ haben dasselbe Bild unter $\pi$ genau dann, wenn sie sich um eine ganze Zahl $k \in \Z$ unterscheiden.
+\newline
+Jede solche "\underline{Deckbewegung}" ist durch eine ganze Zahl, z.B. das Bild von $0 \in \R$, eindeutig bestimmt.
+\newline
+Es gilt ferner:
+$$\tau_{(k+l)} = \tau_k \circ \tau_l$$
+
+Betrachtet man abermals $\R$ als via $\pi$ auf $S^1$ "aufgewickelt", so wird jedes Intervall der Form $[0,n]$ bzw. $[-n,0]$, $n \in \N$, auf einen geschlossenen Weg auf $S^1$ abgebildet, und man erhält dadurch alle Elemente der Fundamentalgruppe $\pi_1(S^1,1)$.
+\newline
+Wir werden sehen: $\pi_1(S^1,1)$ ist isomorph zur Gruppe der Deckbewegungen von $\pi \colon \R \rightarrow S^1$, also $\cong \Z$, weil $\R$ einfach zusammenhängend ist und dieses Phänomen allgemein für sogenannte "\underline{universelle}" Überlagerungen gilt.
+\newline
+\paragraph{}
+$\R / \Z \cong S^1$ \newline
+$\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
+
+\newpage 
+
+\begin{definition}[Überlagerung]
+	Ist $X$ ein wegzusammenhängender topologischer Raum, so ist eine \underline{Überlagerung} von $X$ ein wegzusammenhängender Raum $\tilde{X}$ zusammen mit einer stetigen surjektiven Abbildung $\pi \colon \tilde{X} \rightarrow X$, so dass gilt:
+	%\newline
+	\paragraph{(Ü)} \label{Ü} Jeder Punkt $x \in X$ besitzt eine offene Umgebung $U=U(x)$, so dass das Urbild $\pi^{-1}(U(x)) \subset \tilde{X}$ eine disjunkte Vereinigung von offenen Teilmengen von $\tilde{X}$ ist, 
+	$$\pi^{-1}(U(x)) = \{\tilde{U}_\lambda\}_{\lambda \in \Lambda}, \tilde{U}_\lambda \subset \tilde{X}\text{ ist offen}, \tilde{U}_\lambda \cap \tilde{U}_\mu = \emptyset \quad \forall \lambda \neq \mu,$$ 
+	so dass für alle $\lambda \in \Lambda$ 
+	$$\pi \big |_{\tilde{U}_\lambda \colon \tilde{U}_\lambda \rightarrow U(X)}$$ ein Homöomorphismus ist. (TODO: Bild 3)
+	\paragraph{Terminologie/Sprechweisen} $\pi \colon \tilde{X} \rightarrow X$ heißt auch \underline{Projektion} oder \underline{Überlagerungsabbildung}, $\tilde{X}$ der \underline{überlagernde} und $X$ der \underline{überlagerte} Raum.
+	Für $A \subset X$ sagt man auch, $\tilde{A} := \pi^{-1}(A)$ \underline{liege} über $A$, und speziell für $x \in X$ heißt $\pi^{-1}(x) \subset \tilde{X}$ auch \underline{Faser über $x$}. Für die Einschränkung $\pi^{-1}(A), \pi \big |_{\pi^{-1}(A)}$ von $\pi \colon \tilde{X} \rightarrow X$ auf $A \subset X$ schreibt man auch kurz $\tilde{X} \big |_A$.
+	\newline
+	$U(x)$ wie in \ref{Ü}.(Ü) heißt auch \underline{kanonische} oder \underline{lokal trivialisierende} Umgebung von $x$.
+\end{definition}
+
+\begin{remark}
+	$\pi \colon \tilde{X} \rightarrow X$ ist also eine Überlagerung, wenn es für alle $x \in X$ offenes $U=U(x)$ und einen diskreten Raum $\Lambda$ gibt, so dass $\tilde{X} \big |_U$ und $U \times \Lambda$ \underline{über $U$} homöomorph sind:
+	(TODO: Bild 4) (TODO: Bild 5) \newline
+	Für $\Lambda$ kann natürlich auch $\pi^{-1}(x)$ gewählt werden!
+\end{remark}
+
+\begin{remark}
+	Die Kardinalität von $\pi^{-1}(x)$ heißt \underline{Blätterzahl} der Überlagerung $\pi \colon \tilde{X} \rightarrow X$ und ist für zusammenhängendes $X$ konstant.
+	(TODO: Bild 6) 
+\end{remark}
+
+\begin{bsp}{Beispiele für Überlagerungen}
+\begin{enumerate}
+	\item $\pi \colon \R \rightarrow S^1$
+	\item $\pi \colon \C^* := \C \backslash \{0\} \rightarrow \C^*, z \mapsto z^n, n \in \N$, ist für jedes $n = 1, 2, 3, \ldots$ eine Überlagerung.
+	(TODO: Bild 7)
+	Für alle $n \in \N$ überlagert $S^1$ sich aber selber, und läuft auf unendlich viele verschiedene Arten.
+	\paragraph{Mini-Exkurs: Funktionentheorie, verzweigte Überlagerung}...
+\end{enumerate}
+\end{bsp}
+
+\begin{definition}[Äquivalenz von Überlagerungen]
+	Zwei Überlagerungen $\pi \colon \tilde{X} \rightarrow X, \pi^\prime \colon \tilde{X}^\prime \rightarrow X$ heißen \underline{äquivalent}
+	$$:\Leftrightarrow \exists \text{ Homöomorphismus } f \colon \tilde{X} \rightarrow \tilde{X}^\prime$$
+	mit $\pi^\prime \circ f = \pi:$
+	(TODO: Bild 8)
+\end{definition}
+
+\begin{bsp}{}
+	$\R^2 \rightarrow \underbrace{S^1 \times \R}_{\cong \C^*}, (x,y) \mapsto (e^{2 \pi i x}, y)$
+	und $\C \rightarrow \C^*, z \mapsto e^z$
+	sind (wenn man $S^1 \times \R$ mit $\C^*$ identifiziert) äquivalent.
+\end{bsp}
 
 \end{document}
