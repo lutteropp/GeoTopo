@@ -92,28 +92,25 @@
 \renewcommand{\thesection}{\arabic{section}}
 
 
-\newenvironment{Kasten}[1]
-{
-\hspace{0.05\linewidth}
-\begin{center}
-\begin{minipage}{0.95\linewidth}
-\setlength{\fboxsep}{10pt}
-%\setlength{\fboxsep}{18pt}
-%\definecolor{shadecolor}{gray}{0.9}
-\definecolor{shadecolor}{rgb}{0.9,1,1}
-\definecolor{framecolor}{gray}{0}
-\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
-\MakeFramed {\FrameRestore}
-\subsection*{#1}
-%\begin{itshape}
-}
-{
-%\end{itshape}
-\endMakeFramed
-\end{minipage}
-\end{center}
-%\vspace{1em}
-}
+%\newenvironment{Kasten}[1]
+%{
+%\hspace{0.05\linewidth}
+%\begin{center}
+%\begin{minipage}{0.95\linewidth}
+%\setlength{\fboxsep}{10pt}
+%\definecolor{shadecolor}{rgb}{0.9,1,1}
+%\definecolor{framecolor}{gray}{0}
+%\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
+%\MakeFramed {\FrameRestore}
+%\subsection*{#1}
+%}
+%{
+%\endMakeFramed
+%\end{minipage}
+%\end{center}
+%}
+
+\newtheorem{Kasten}{Definition}[chapter]
 
 
 \newenvironment{bsp}[1]
@@ -155,7 +152,7 @@ Dies ist ein Mitschrieb der Vorlesung “Einführung in die Geometrie und Topolo
 
 \chapter{Definitionen und Sätze aus der Vorlesung}
 
-\begin{Kasten}{Topologischer Raum}
+\begin{Kasten}[Topologischer Raum]
 Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enthält.
 \newline
 $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
@@ -166,7 +163,7 @@ $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
 \end{enumerate}
 \end{Kasten}
 
-\begin{Kasten}{Metrischer Raum}
+\begin{Kasten}[Metrischer Raum]
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
 $\forall x,y,z \in X$ gilt:
 \begin{enumerate}[(1)]
@@ -176,12 +173,12 @@ $\forall x,y,z \in X$ gilt:
 \end{enumerate}
 \end{Kasten}
 
-\begin{Kasten}{Stetigkeit}
+\begin{Kasten}[Stetigkeit]
 Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und $Y$ heißt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
 %\end{Kasten}
 \end{Kasten}
 
-\begin{Kasten}{Homotopie}
+\begin{Kasten}[Homotopie]
 Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \rightarrow Y, (x,t) \mapsto H(x,t)$$ 
 mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
 \newline
@@ -190,11 +187,11 @@ mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
 $f$ und $g$ heißen dann \underline{homotop}, in Zeichen: $f \simeq g$.
 \end{Kasten}
 
-\begin{Kasten}{Homotope Abbildungen $f,g \colon X \rightarrow Y$}
+\begin{Kasten}[Homotope Abbildungen $f,g \colon X \rightarrow Y$]
 	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
 \end{Kasten}
 
-\begin{Kasten}{Nullhomotopie}
+\begin{Kasten}[Nullhomotopie]
 Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist.
 \end{Kasten}
 
@@ -202,41 +199,40 @@ Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}
 Jede stetige Abbildung $f \colon X \rightarrow \R^n$ ist nullhomotop, d.h. für jeden topologischen Raum $X$ besteht $[X, \R^n]$, $n$ beliebig, nur aus einem Punkt!
 \end{corollary}
 
-\begin{Kasten}{Teilraumtopologie}
+\begin{Kasten}[Teilraumtopologie]
 Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
 $$\OO \Big |_{A} := \{U \cap A \mid U \in \OO \}$$
 induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heißt \underline{Teilraum} von $(X, \OO)$.
 \end{Kasten}
 
-\begin{Kasten}{Abgeschlossenheit}
+\begin{Kasten}[Abgeschlossenheit]
 	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $$:\Leftrightarrow X \backslash A \text{ ist offen.}$$
 \end{Kasten}
 
-\begin{Kasten}{Umgebung}
+\begin{Kasten}[Umgebung]
 	Ist $X$ topologischer Raum und $x \in X$, so heißt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
 %\end{Kasten}
 \end{Kasten}
 
-
-\begin{Kasten}{Basis}
+\begin{Kasten}[Basis]
 	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, 
 	\newline
 	so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
 \end{Kasten}
 
-\begin{Kasten}{Produkt-Topologie}
+\begin{Kasten}[Produkt-Topologie]
 	Sind $(X, \OO_X)$ und $(Y, \OO_Y)$ topologische Räume, so bildet $$\mathcal{B}_{X \times Y} := \{U \times V \mid U \in \OO_X, V \in \OO_Y\}$$
 	die Basis einer Topologie für die Menge $X \times Y$, und diese heißt \underline{Produkt-Topologie auf $X \times Y$}.
 	\newline
 	Versehen mit der Produkt-Topologie ist $X \times Y$ sebst ein topologischer Raum und für gegebene $X, Y$ denkt man sich $X \times Y$ stillschweigend mit der Produkt-Topologie versehen.
 \end{Kasten}
 
-\begin{Kasten}{Feiner und gröber}
+\begin{Kasten}[Feiner und gröber]
 	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, 
 	\newline so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
 \end{Kasten}
 
-\begin{Kasten}{$\epsilon$-Ball, Sphäre}
+\begin{Kasten}[$\epsilon$-Ball, Sphäre]
 	Für einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei für $p \in X$
 	\begin{itemize}
 		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
@@ -245,11 +241,11 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 	\end{itemize}
 \end{Kasten}
 
-\begin{Kasten}{Metrischer Unterraum}
+\begin{Kasten}[Metrischer Unterraum]
 	Ist $(X,d)$ metrischer Raum und $A \subset X$, so heißt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
 \end{Kasten}
 
-\begin{Kasten}{Beschränktheit, Durchmesser}
+\begin{Kasten}[Beschränktheit, Durchmesser]
 	$A \subset (X,d)$ heißt \underline{beschränkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho  \text{   } \forall x,y \in A$
 	\newline
 	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
@@ -259,13 +255,13 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 	\end{center}
 \end{Kasten}
 
-\begin{Kasten}{Abstand}
+\begin{Kasten}[Abstand]
 	$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
 	$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
 	heißt \underline{Abstand von $p$ und $A$}.
 \end{Kasten}
 
-\begin{Kasten}{Innerer Punkt, äußerer Punkt, Randpunkt}
+\begin{Kasten}[Innerer Punkt, äußerer Punkt, Randpunkt]
 	Für $p \in A \subset X$, $X$ topologischer Raum, heißt $p$
 	\newline
 	\begin{enumerate}[(1)]
@@ -275,29 +271,29 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 	\end{enumerate}
 \end{Kasten}
 	
-\begin{Kasten}{Inneres}
+\begin{Kasten}[Inneres]
 	Für $A \subset X$ heißt die größte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
 \end{Kasten}
 
-\begin{Kasten}{Abschluss}
+\begin{Kasten}[Abschluss]
 	Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {(X \backslash A} ) \right )$.
 \end{Kasten}
 
-\begin{Kasten}{Rand}
+\begin{Kasten}[Rand]
 	Der \underline{Rand} $\partial A$ von $A$ ist $$\partial A := \bar{A} \backslash \mathring A,$$ d.h. Rand $A$ = \{ Randpunkte von A \}.
 \end{Kasten}
 
-\begin{Kasten}{Stetigkeit}
+\begin{Kasten}[Stetigkeit]
 	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
 \end{Kasten}
 
-\begin{Kasten}{Stetigkeit}
+\begin{Kasten}[Stetigkeit]
 	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
 	$$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \quad \exists \text{ Umgebung } U \text{ von } x \text{ mit }$$ $$f(U) \subset V.$$
 	\newline
 \end{Kasten}
 
-\begin{Kasten}{Isometrische Einbettung, Isometrie}
+\begin{Kasten}[Isometrische Einbettung, Isometrie]
 	Sind $X,Y$ metrische Räume, so heißt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
 	\newline	
 	 $: \Leftrightarrow \forall x, x^\prime \in X$ gilt $d_Y \left ( f(x), f(x^\prime) \right ) = d_X (x, x^\prime)$.
@@ -307,12 +303,12 @@ induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebe
 	Ist $f$ zusätzlich \underline{bijektiv}, so heißt $f$ \underline{\underline{Isometrie}}. 
 \end{Kasten}
 
-\begin{Kasten}{Homöomorphismus}
+\begin{Kasten}[Homöomorphismus]
 	Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer Räume heißt \underline{Homöomorphismus}, falls $f$ und $f^{-1}$ stetig sind.
 \end{Kasten}
 
 
-\begin{Kasten}{homöomorph}
+\begin{Kasten}[homöomorph]
 	Zwei topologische Räume $X$ und $Y$ heißen \underline{homöomorph} oder \underline{vom gleichen Homöomorphietyp}, in Zeichen $X \cong Y$, falls es einen Homöomorphismus $f \colon X \rightarrow Y$ gibt.
 \end{Kasten}
 
