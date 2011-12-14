@@ -327,7 +327,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 
 \begin{figure}[h]
 \centering
- \includegraphics[scale=0.5]{images/R2_ohne_0.jpg}
+\includegraphics[scale=0.4]{images/Homotop_Schleifen_R_ohne_0.jpg}
 \caption{$[S^1, \R^2 \backslash \{0\}]$ ist nichttrivial.}
 \end{figure}
 \end{bsp}
@@ -1227,16 +1227,17 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 	Dann ist $\mathcal{A} = \{(\psi_\alpha^{-1}, U_\alpha \cap M) \mid \alpha \in \Lambda\}$ ein $C^\infty$-Atlas und $M$ eine $C^\infty$-Mannigfaltigkeit.
 \end{theorem}
 
+\newpage
 % hier beginnt der 22.11.11
-
+\section{Quotientenräume}
+Motivation:\newline
 \includegraphics[scale=0.6]{images/Identifizierung1.jpg}\newline
 %TODO: Abstand zwischen den Bildern
 \includegraphics[scale=0.6]{images/Identifizierung2.jpg}\newline
 \includegraphics[scale=0.6]{images/Identifizierung_Umgebungen.jpg}\newline
 \includegraphics[scale=0.6]{images/Identifizierung_Umgebungen2.jpg}
- 
+
 \newpage
-\section{Quotientenräume}
 \paragraph{Erinnerung} Jede Partition \includegraphics[scale=0.2]{images/Partition.jpg} $S$ einer Menge $X$ bestimmt eine Äquivalenzrelation auf $X$ (und umgekehrt).
 \newline
 Menge der Äquivalenzklassen (oder auch: Quotient von $X$ nach $S$) ist $X/S$.
@@ -1836,10 +1837,10 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 
 \section{Überlagerungen}
 \paragraph{Motivation} Betrachte die stetige und surjektive Abbildung $$\pi \colon \R \rightarrow S^1 \subset \R^2, t \mapsto (\cos 2 \pi t, \sin 2 \pi t) = e^{2 \pi i t}$$
-Entfernt man aus $S^1$ einen Punkt oder auch ein abgeschlossenes Kreissegment (TODO: Bild 1), so erhält man eine offene Teilmenge $U$ von $S^1$, deren Urbild unter $\pi$ aus disjunkten offenen Intervallen besteht, und jedes dieser Intervalle wird unter $\pi$ homöomorph auf $U$ abgebildet.
+Entfernt man aus $S^1$ einen Punkt oder auch ein abgeschlossenes Kreissegment \includegraphics[scale=0.2]{images/Kreissegment.jpg}, so erhält man eine offene Teilmenge $U$ von $S^1$, deren Urbild unter $\pi$ aus disjunkten offenen Intervallen besteht, und jedes dieser Intervalle wird unter $\pi$ homöomorph auf $U$ abgebildet.
 
 \paragraph{Veranschaulichung}
-Indentifiziere $\R$ zunächst mit einer "Spirale" im $\R^3$ via $t \mapsto (\cos 2 \pi t, \sin 2 \pi t, t);$ (TODO: Bild 2)
+Indentifiziere $\R$ zunächst mit einer "Spirale" im $\R^3$ via $t \mapsto (\cos 2 \pi t, \sin 2 \pi t, t);$\newline \includegraphics[scale=0.4]{images/U_Spirale.jpg} \newline
 projiziere orthogonal auf die x-y-Ebene, die $S^1$ enthält.
 
 \paragraph{}
@@ -1867,7 +1868,8 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 	\paragraph{(Ü)} \label{Ü} Jeder Punkt $x \in X$ besitzt eine offene Umgebung $U=U(x)$, so dass das Urbild $\pi^{-1}(U(x)) \subset \tilde{X}$ eine disjunkte Vereinigung von offenen Teilmengen von $\tilde{X}$ ist, 
 	$$\pi^{-1}(U(x)) = \{\tilde{U}_\lambda\}_{\lambda \in \Lambda}, \tilde{U}_\lambda \subset \tilde{X}\text{ ist offen}, \tilde{U}_\lambda \cap \tilde{U}_\mu = \emptyset \quad \forall \lambda \neq \mu,$$ 
 	so dass für alle $\lambda \in \Lambda$ 
-	$$\pi \big |_{\tilde{U}_\lambda \colon \tilde{U}_\lambda \rightarrow U(X)}$$ ein Homöomorphismus ist. (TODO: Bild 3)
+	$$\pi \big |_{\tilde{U}_\lambda \colon \tilde{U}_\lambda \rightarrow U(X)}$$ ein Homöomorphismus ist.\newline
+	\includegraphics[scale=0.4]{images/Spirale_disjunkt.jpg}
 	\paragraph{Terminologie/Sprechweisen} $\pi \colon \tilde{X} \rightarrow X$ heißt auch \underline{Projektion} oder \underline{Überlagerungsabbildung}, $\tilde{X}$ der \underline{überlagernde} und $X$ der \underline{überlagerte} Raum.
 	Für $A \subset X$ sagt man auch, $\tilde{A} := \pi^{-1}(A)$ \underline{liege} über $A$, und speziell für $x \in X$ heißt $\pi^{-1}(x) \subset \tilde{X}$ auch \underline{Faser über $x$}. Für die Einschränkung $\pi^{-1}(A), \pi \big |_{\pi^{-1}(A)}$ von $\pi \colon \tilde{X} \rightarrow X$ auf $A \subset X$ schreibt man auch kurz $\tilde{X} \big |_A$.
 	\newline
@@ -1876,20 +1878,21 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 
 \begin{remark}
 	$\pi \colon \tilde{X} \rightarrow X$ ist also eine Überlagerung, wenn es für alle $x \in X$ offenes $U=U(x)$ und einen diskreten Raum $\Lambda$ gibt, so dass $\tilde{X} \big |_U$ und $U \times \Lambda$ \underline{über $U$} homöomorph sind:
-	(TODO: Bild 4) (TODO: Bild 5) \newline
+	\includegraphics[scale=0.4]{images/lokal_trivialisierend.jpg} \newline
+	\includegraphics[scale=0.4]{images/lokal_trivialisierend2.jpg} \newline
 	Für $\Lambda$ kann natürlich auch $\pi^{-1}(x)$ gewählt werden!
 \end{remark}
 
 \begin{remark}
 	Die Kardinalität von $\pi^{-1}(x)$ heißt \underline{Blätterzahl} der Überlagerung $\pi \colon \tilde{X} \rightarrow X$ und ist für zusammenhängendes $X$ konstant.
-	(TODO: Bild 6) 
+	\newline \includegraphics[scale=0.4]{images/Blaetterzahl.jpg}
 \end{remark}
 
 \begin{bsp}{Beispiele für Überlagerungen}
 \begin{enumerate}
 	\item $\pi \colon \R \rightarrow S^1$
-	\item $\pi \colon \C^* := \C \backslash \{0\} \rightarrow \C^*, z \mapsto z^n, n \in \N$, ist für jedes $n = 1, 2, 3, \ldots$ eine Überlagerung.
-	(TODO: Bild 7)
+	\item $\pi \colon \C^* := \C \backslash \{0\} \rightarrow \C^*, z \mapsto z^n, n \in \N$, ist für jedes $n = 1, 2, 3, \ldots$ eine Überlagerung. \newline
+	\includegraphics[scale=0.4]{images/Selbstueberlagerung_C_Stern.jpg} \newline
 	Für alle $n \in \N$ überlagert $S^1$ sich aber selber, und läuft auf unendlich viele verschiedene Arten.
 	\paragraph{Mini-Exkurs: Funktionentheorie, verzweigte Überlagerung}...
 \end{enumerate}
@@ -1899,7 +1902,7 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 	Zwei Überlagerungen $\pi \colon \tilde{X} \rightarrow X, \pi^\prime \colon \tilde{X}^\prime \rightarrow X$ heißen \underline{äquivalent}
 	$$:\Leftrightarrow \exists \text{ Homöomorphismus } f \colon \tilde{X} \rightarrow \tilde{X}^\prime$$
 	mit $\pi^\prime \circ f = \pi:$
-	(TODO: Bild 8)
+	\newline \includegraphics[scale=0.4]{images/Aequivalenz_Ueberlagerungen.jpg}
 \end{definition}
 
 \begin{bsp}{}

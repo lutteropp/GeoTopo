@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {1.1}Differenzierbare Abbildungen}{36}{subsection.2.1.1}
 \contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{37}{section*.48}
 \contentsline {paragraph}{Interpretation}{38}{section*.49}
-\contentsline {section}{\numberline {2}Quotientenr\IeC {\"a}ume}{44}{section.2.2}
+\contentsline {section}{\numberline {2}Quotientenr\IeC {\"a}ume}{42}{section.2.2}
 \contentsline {paragraph}{Erinnerung}{44}{section*.51}
 \contentsline {paragraph}{Eigenschaften der Quotiententopologie}{44}{section*.52}
 \contentsline {paragraph}{Achtung:}{44}{section*.53}
@@ -50,7 +50,7 @@
 \contentsline {paragraph}{Motivation}{74}{section*.83}
 \contentsline {paragraph}{Veranschaulichung}{74}{section*.84}
 \contentsline {paragraph}{}{74}{section*.85}
-\contentsline {paragraph}{}{74}{section*.86}
-\contentsline {paragraph}{(\IeC {\"U})}{75}{section*.87}
-\contentsline {paragraph}{Terminologie/Sprechweisen}{75}{section*.88}
-\contentsline {paragraph}{Mini-Exkurs: Funktionentheorie, verzweigte \IeC {\"U}berlagerung}{75}{section*.90}
+\contentsline {paragraph}{}{75}{section*.86}
+\contentsline {paragraph}{(\IeC {\"U})}{76}{section*.87}
+\contentsline {paragraph}{Terminologie/Sprechweisen}{76}{section*.88}
+\contentsline {paragraph}{Mini-Exkurs: Funktionentheorie, verzweigte \IeC {\"U}berlagerung}{78}{section*.90}
