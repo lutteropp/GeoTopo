@@ -46,15 +46,17 @@
 % ============================================================================
 
 % == German definitions for theorems etc. ==================================== 
-\newtheorem{definition}{Definition}[chapter]
 \newtheorem{theorem}{Satz}[chapter]
 \newtheorem{lemma}{Lemma}[chapter]
 \newtheorem{proposition}{Proposition}[chapter]
 \newtheorem{corollary}{Korollar}[chapter]
 \newtheorem{observation}{Beobachtung}[chapter]
 \newtheorem{fact}{Fakt}[chapter]
-\newtheorem{remark}{Bemerkung}[chapter]
 \newtheorem{example}{Beispiel}[chapter]
+\theoremstyle{remark} 
+\newtheorem{remark}{Bemerkung}[chapter]
+\theoremstyle{definition} 
+\newtheorem{definition}{Definition}[chapter]
 % ============================================================================
 
 % == Abkürzungen für die reellen, natürlichen, ganzen,... Zahlen =============
