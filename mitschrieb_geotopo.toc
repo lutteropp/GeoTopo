@@ -54,3 +54,9 @@
 \contentsline {paragraph}{(\IeC {\"U})}{76}{section*.87}
 \contentsline {paragraph}{Terminologie/Sprechweisen}{76}{section*.88}
 \contentsline {paragraph}{Mini-Exkurs: Funktionentheorie, verzweigte \IeC {\"U}berlagerung}{78}{section*.90}
+\contentsline {subsection}{\numberline {2.1}Induzierte Homomorphismen}{79}{subsection.3.2.1}
+\contentsline {paragraph}{Folgerung}{80}{section*.92}
+\contentsline {subsection}{\numberline {2.2}Produkte}{81}{subsection.3.2.2}
+\contentsline {section}{\numberline {3}Liften von Abbildungen}{84}{section.3.3}
+\contentsline {paragraph}{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann R\IeC {\"a}ume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}{85}{section*.94}
+\contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{85}{subsection.3.3.1}
