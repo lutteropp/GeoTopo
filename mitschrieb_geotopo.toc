@@ -60,3 +60,6 @@
 \contentsline {section}{\numberline {3}Liften von Abbildungen}{84}{section.3.3}
 \contentsline {paragraph}{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann R\IeC {\"a}ume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}{85}{section*.94}
 \contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{85}{subsection.3.3.1}
+\contentsline {paragraph}{Erinnerung}{86}{section*.95}
+\contentsline {paragraph}{Andere Interpretation:}{87}{section*.96}
+\contentsline {paragraph}{Erl\IeC {\"a}uterung}{88}{section*.97}

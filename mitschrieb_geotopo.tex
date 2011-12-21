@@ -53,9 +53,9 @@
 \newtheorem{observation}{Beobachtung}[chapter]
 \newtheorem{fact}{Fakt}[chapter]
 \newtheorem{example}{Beispiel}[chapter]
-\theoremstyle{remark} 
-\newtheorem{remark}{Bemerkung}[chapter]
+%\theoremstyle{remark} 
 \theoremstyle{definition} 
+\newtheorem{remark}{Bemerkung}[chapter]
 \newtheorem{definition}{Definition}[chapter]
 % ============================================================================
 
@@ -1865,6 +1865,7 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 \newpage 
 
 \begin{definition}[Überlagerung]
+	(TODO: Tuschmann wegen Wegzusammenhang fragen)
 	Ist $X$ ein wegzusammenhängender topologischer Raum, so ist eine \underline{Überlagerung} von $X$ ein wegzusammenhängender Raum $\tilde{X}$ zusammen mit einer stetigen surjektiven Abbildung $\pi \colon \tilde{X} \rightarrow X$, so dass gilt:
 	%\newline
 	\paragraph{(Ü)} \label{Ü} Jeder Punkt $x \in X$ besitzt eine offene Umgebung $U=U(x)$, so dass das Urbild $\pi^{-1}(U(x)) \subset \tilde{X}$ eine disjunkte Vereinigung von offenen Teilmengen von $\tilde{X}$ ist, 
@@ -2120,5 +2121,76 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 	\newline
 	$\Rightarrow (\pi \circ w^{-1}) \cdot (\pi \circ v) \cdot (\pi \circ w)$ hat in $\pi_1(X, \pi(\widetilde{x}))$ die Form $\pi(w^{-1} \cdot v \cdot w)$, d.h. gehört zu $U(\pi, \widetilde{x^\prime})$.
 \end{remark}
+
+%hier beginnt der 20.12.2011
+
+\paragraph{Erinnerung} $\pi \colon \widetilde{X} \rightarrow X, \widetilde{x} \in \widetilde{X}, x = \pi(\widetilde{x})$
+$$\Rightarrow \pi_* \colon \pi_1(\widetilde{X},\widetilde{x}) \rightarrow \pi_1(X,x) \text{ ist Monomorphismus!}$$
+$U(\pi, \widetilde{x}) := \pi_*(\pi_1(\widetilde{X},\widetilde{x}))$ heißt \underline{charakterisierende} \underline{Untergruppe der Überlagerung $\pi \colon \widetilde{X} \rightarrow X$}.
+(TODO Bild 1)
+
+\begin{remark}
+	Für $U(\pi, \widetilde{x})$ gilt:
+	\newline
+	Sind $\widetilde{x}, \widetilde{x^\prime} \in \widetilde{X}$ Punkte über $x = \pi(\widetilde{x}) = \pi(\widetilde{x^\prime}) \in X,$ und ist $H:=\pi_*(\pi_1(\widetilde{X},\widetilde{x})), H^\prime:= \pi_*(\pi_1(\widetilde{X},\widetilde{x^\prime}))$ sowie $\widetilde{w}$ Weg in $\widetilde{X}$ von $\widetilde{x}$ nach $\widetilde{x^\prime}$ und $w = \pi \circ \widetilde{w}$, so gilt $\boxed{H^\prime = [w]^{-1} H [w]}$ und für jedes $\alpha \in \pi_1(X,x)$ existiert auch immer ein $\widetilde{x^\prime} \in \widetilde{X}$ über $x$, so dass $H^\prime = \alpha H \alpha^{-1}$ ist, d.h. $\pi \colon \widetilde{X} \rightarrow X$ entspricht einer Klasse von zueinander konjugierten Untergruppen von $\pi_1(X,x)$. (TODO: Bild 2)
+	\newline
+	Diese\footnote{Klasse von Untergruppen} hängt auch nicht von der Wahl des Punktes $x \in X$ ab, da für $x, x^\prime \in X$ ja auch $\pi_1(X,x)$ und $\pi_1(X,x^\prime)$ konjugiert sind.
+\end{remark}	
+\hrule
+	$w$ sei Weg in $X$ mit Anfangspunkt $x$ und $\widetilde{w}$ sei Lift von $w$ zu $\widetilde{z} \in \pi^{-1}(x) \subset \widetilde{X}$. $\widetilde{w}(1)$ hängt (TODO: Bild 3) nur von $[w]$ ab und es gilt
+
+\begin{theorem}
+	Es seien $\widetilde{w_1}$ und $\widetilde{w_2}$ wege in $\widetilde{X}$ mit $\widetilde{w_1}(0) = \widetilde{x} = \widetilde{w_2}(0)$ sowie $w_1 = \pi \circ \widetilde{w_1}, w_2 = \pi \circ \widetilde{w_2}$. Dann gilt
+	$$\widetilde{w_1}(1) = \widetilde{w_2}(1) \Leftrightarrow w_1(1) = w_2(1) \text{ und } [w_1 \cdot w_2^{-1}] \in H = \pi_*(\pi_1(\widetilde{X}, \widetilde{x})) = U(\pi, \widetilde{x})$$
+\end{theorem}
+
+\begin{proof}
+	\underline{Denn:} $\widetilde{w_1}(1) = \widetilde{w_2}(1) \Rightarrow \exists \widetilde{w_1} \cdot \widetilde{w_2}^{-1}$, und dies ist geschlossener Weg $\Rightarrow w_1(1) = w_2(1), [w_1 \cdot w_2^{-1}] \in H$.
+	\newline
+	Sei umgekehrt $w_1(1)=w_2(1)$, also damit $w_1 w_2^{-1}$ definiert, und $[w_1 \cdot w_2^{-1}] \in H$. Über (TODO: Bild 4) $w_2^{-1}$ liegt ein Weg $\widetilde{v}$ mit $\widetilde{v}(0) = \widetilde{w_1}(1),$ und $\widetilde{w_1} \cdot \widetilde{v}$ liegt über $w_1 \cdot w_2^{-1}$.
+	\newline
+	Ferner existiert nach Voraussetzung in $\widetilde{X}$ ein geschlossener Weg $\widetilde{u}$ mit $\widetilde{u}(0) = \widetilde{x}$ sowie $\pi_*([u]) = [w_1 \cdot w_2^{-1}]$. Eindeutigkeit von Lifts/Homotopien $\Rightarrow \widetilde{u} \simeq \widetilde{w_1} \cdot \widetilde{v} \Rightarrow \widetilde{w_1} \cdot v$ ist geschlossen $\Rightarrow \widetilde{v}(1) = \widetilde{x}$.
+	\newline
+	$\widetilde{v}^{-1}, \widetilde{w_2}$ liegen über $\widetilde{w_2}$ $\Rightarrow \widetilde{w_2} = \widetilde{v}^{-1} \Rightarrow \widetilde{w_2}(1) = \widetilde{v}(0) = \widetilde{w_1}(1)$.
+\end{proof}
+
+\paragraph{Andere Interpretation:}
+Betrachte alle Homotopieklassen von Wegen in $X$ mit Anfangspunkt $x$. \newline
+Es sei $H < \pi_1(X,x)$ eine Untergruppe, und setze
+$$H[w] := \{\gamma \cdot [w] \mid \gamma \in H\}$$
+$[w^\prime] \in H \cdot [w]$ bedeutet: $\exists$ geschlossenen Weg $v$ mit $[w^\prime] = [v] \cdot [w]$ und $[v] \in H$.
+\newline
+Hier ist $w^\prime(1) = w(1)$, also $w^\prime \cdot w^{-1}$ erklärt, und es gilt $[w^\prime \cdot w^{-1}] = [w^\prime] \cdot [w^{-1}] = [v] \cdot [w] \cdot [w^{-1}] = [v] \in H$.
+\newline
+Ist umgekehrt $w^\prime(1) = w(1)$ und $[w^\prime \cdot w^{-1}] \in H$, so ist $[w^\prime] = [w^\prime][w^{-1} \cdot w] = [w^\prime \cdot w^{-1}] [w] \in H [w],$ d.h.
+$$(*) \qquad [w^\prime] \in H [w] \Leftrightarrow w^\prime(1) = w(1) \text{ und } [w^\prime][w^{-1}] \in H.$$
+Wegen $[w][{w^\prime}^{-1}] = [w \cdot {w^\prime}^{-1}] = [(w^\prime \cdot w^{-1})^{-1}] = [w^\prime \cdot w^{-1}]^{-1}$ ist deshalb $[w^\prime] \in H [w] \Leftrightarrow [w] \in H [w^\prime]$ \newline
+$\Rightarrow$ Für zwei Wege $w_1, w_2$ mit Anfangspunkt $x \in X$ gilt entweder $H[w_1] = H[w_2]$ oder $H[w_1] \cap H[w_2] = \emptyset$ !
+\newline
+$H[w]$ heißt \underline{Rechtsnebenklasse} von $[w]$ nach $H$, 
+\newline
+und ist $w$ geschlossen, so ist $H[w]$ eine Rechtsnebenklasse (oder Rechtsrestklasse) von $\pi_1(X,x)$ nach $H$ im üblichen Sinn der Gruppentheorie.  
+\newline
+Damit gilt der
+\begin{theorem}
+	Ist $H = \pi_*(\pi_1(\widetilde{X}, \widetilde{x})) = U(\pi, \widetilde{x})$ und $w$ Weg in $X$ mit Anfangspunkt $x = \pi(\widetilde{x})$ sowie $\widetilde{w}$ der Lift von $w$ mit Anfangspunkt $\widetilde{x}$, so ist 
+	$$(**) \qquad H[w] \mapsto \widetilde{w}(1)$$
+	eine Bijektion zwischen der Menge der Rechtsnebenklassen $\{H [w]\}$ und $\widetilde{X}$!
+\end{theorem}
+
+\paragraph{Erläuterung}
+Dies gilt, weil $\widetilde{X}$ wegzusammenhängend ist und also \underline{jeder} Punkt von $\widetilde{X}$ als $\widetilde{w}(1)$ für geeignetes $w$ erhalten werden kann. Durch $H[w] \mapsto \widetilde{w}(1)$ ist $\pi \colon \widetilde{X} \rightarrow X$ nun eindeutig charakterisiert: $(**)$ legt zunächst die Menge der Punkte von $\widetilde{X}$\footnote{im Überlagerungsraum} fest und wegen $\pi \circ \widetilde{w} = w$ lässt sich $\pi$ dann durch $\widetilde{X} \ni \widetilde{w}(1) \mapsto H [w] \mapsto w(1) \in X$ beschreiben!
+
+\begin{theorem}[Liften von Abbildungen in Überlagerungen]
+	Es sei $\pi \colon \widetilde{X} \rightarrow X$ eine Überlagerung, $\widetilde{x} \in \widetilde{X}$ und $x = \pi(\widetilde{x}) \in X$. Ferner sei $Z$ ein wegzusammenhängender und lokal wegzusammenhängender topologischer Raum mit $z \in Z$ sowie $f \colon Z \rightarrow X$ mit $f(z)=x$ stetig. Dann sind äquivalent:
+	\begin{enumerate}
+		\item $f$ besitzt einen Lift $\widetilde{f} \colon (Z,z) \rightarrow (\widetilde{X}, \widetilde{x})$ (TODO: Bild 5) (mit $\widetilde{f}(z) = \widetilde{x}$)
+		\item $f_*(\pi_1(Z,z)) \subset \pi_*(\pi_1(\widetilde{X}, \widetilde{x}))$
+	\end{enumerate}
+\end{theorem}
+
+\begin{definition}[lokal wegzusammenhängend]
+	$Z$ \underline{lokal wegzusammenhängend} $:\Leftrightarrow$ in jeder Umgebung jedes Punktes in $Z$ ist immer eine wegzusammenhängende Umgebung enthalten. (TODO: Bild 6)
+\end{definition}
 
 \end{document}

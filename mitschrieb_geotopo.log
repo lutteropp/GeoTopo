@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  15 DEC 2011 21:38
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  20 DEC 2011 15:25
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -945,14 +945,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
 oup detected which pdfTeX can't handle. Ignoring it.
->] <images/Homotopie_Transitivitaet.jpg, id=157, 506.8536pt x 372.9132pt>
+>] <images/Homotopie_Transitivitaet.jpg, id=156, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Aequivalenzklassen.jpg, id=158, 638.385pt x 269.3262pt>
+<images/Aequivalenzklassen.jpg, id=157, 638.385pt x 269.3262pt>
 File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
 
 <use images/Aequivalenzklassen.jpg> [4 <./images/Homotopie.jpg> <./images/nicht
@@ -1089,13 +1089,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--503
 File: images/Durchmesser.jpg Graphic file (type jpg)
 
 <use images/Durchmesser.jpg>
-Underfull \hbox (badness 2529) in paragraph at lines 509--510
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 I.6\T1/lmr/m/it/10.95 . []\T1/
-lmr/m/n/10.95 In ei-nem me-tri-schen Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10
-.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 bil-den die of-fe-
- []
-
-
 Underfull \hbox (badness 1484) in paragraph at lines 509--510
 \T1/lmr/m/n/10.95 nen Bäl-le die Ba-sis ei-ner To-po-lo-gie $\OMS/lmsy/m/n/10.9
 5 O \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 O[]$ \T1/lmr/m/n/10.95 von $\OML/l
@@ -1147,13 +1140,8 @@ Underfull \hbox (badness 3098) in paragraph at lines 624--625
 <images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=321, 648.021pt x 356.0502pt>
 File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
 
-<use images/0_1_nach_S1_f-1_nicht_stetig.jpg>
-Underfull \hbox (badness 2617) in paragraph at lines 646--647
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 I.12\T1/lmr/m/it/10.95 . []\T1
-/lmr/m/n/10.95 Ho-möo-mor-phis-men er-hal-ten sämt-li-che to-po-lo-gi-schen
- []
-
-[18 <./images/0_1_nach_S1_f-1_nicht_stetig.jpg>]
+<use images/0_1_nach_S1_f-1_nicht_stetig.jpg> [18 <./images/0_1_nach_S1_f-1_nic
+ht_stetig.jpg>]
 <images/Stereographie_S1_R1.jpg, id=334, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
@@ -1720,10 +1708,10 @@ File: images/Weg_als_Homotopie.jpg Graphic file (type jpg)
 <use images/Weg_als_Homotopie.jpg> [56
 
  <./images/Homotopie_in_Y.jpg>]
-Overfull \hbox (4.78929pt too wide) in paragraph at lines 1485--1488
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 III.1\T1/lmr/m/it/10.95 . []$\
-OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10
-.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-hen mit der so-ge-nann-ten $[]$
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1488
+[]\T1/lmr/bx/n/10.95 Bemerkung III.1. []$\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.9
+5 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-
+hen mit der so-ge-nann-ten
  []
 
 <images/Homotopie_zwischen_Wegen.jpg, id=685, 209.1012pt x 211.5102pt>
@@ -1904,13 +1892,6 @@ File: images/Grosskreis.jpg Graphic file (type jpg)
 File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
-Underfull \hbox (badness 1389) in paragraph at lines 1747--1754
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 III.11\T1/lmr/m/it/10.95 . []\
-T1/lmr/m/n/10.95 Ist $\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/
-lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 ei-ne ste-ti-ge Ab-bil-dung zwi-schen
- []
-
-
 Underfull \hbox (badness 1147) in paragraph at lines 1747--1754
 \T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/lm
 m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m
@@ -1994,14 +1975,14 @@ File: images/lokal_trivialisierend.jpg Graphic file (type jpg)
 File: images/lokal_trivialisierend2.jpg Graphic file (type jpg)
 
 <use images/lokal_trivialisierend2.jpg>
-Underfull \hbox (badness 2865) in paragraph at lines 1882--1886
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 III.13\T1/lmr/m/it/10.95 . []$
-\OML/lmm/m/it/10.95 ^^Y [] [] [] \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X$ \
-T1/lmr/m/n/10.95 ist al-so ei-ne Über-la-ge-rung, wenn
+Underfull \hbox (badness 1127) in paragraph at lines 1883--1887
+[]\T1/lmr/bx/n/10.95 Bemerkung III.13. []$\OML/lmm/m/it/10.95 ^^Y [] [] [] \OMS
+/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 ist al-so ei-ne Über
+-la-ge-rung, wenn
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 1882--1886
+Underfull \hbox (badness 4660) in paragraph at lines 1883--1887
 \T1/lmr/m/n/10.95 es für al-le $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
 L/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 of-fe-nes $\OML/lmm/m/it/10.95 U \OT1/lmr
 /m/n/10.95 = \OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1
@@ -2009,7 +1990,7 @@ L/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 of-fe-nes $\OML/lmm/m/it/10.95 U \OT1/lmr
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 1882--1886
+Underfull \hbox (badness 1205) in paragraph at lines 1883--1887
 \T1/lmr/m/n/10.95 Raum $\OT1/lmr/m/n/10.95 ^^C$ \T1/lmr/m/n/10.95 gibt, so dass
  $[][][]$ und $\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10.95 ^^B \OT1/lmr/m/n/10.95
  ^^C$ $[]$ \T1/lmr/m/n/10.95 ho-möo-morph sind:
@@ -2033,21 +2014,14 @@ File: images/Aequivalenz_Ueberlagerungen.jpg Graphic file (type jpg)
 File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
-Underfull \hbox (badness 1389) in paragraph at lines 1919--1926
-[]\T1/lmr/m/it/10.95 Bemerkung \T1/lmr/m/n/10.95 III.15\T1/lmr/m/it/10.95 . []\
-T1/lmr/m/n/10.95 Ist $\OML/lmm/m/it/10.95 f [] [] X \OMS/lmsy/m/n/10.95 ! \OML/
-lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 ei-ne ste-ti-ge Ab-bil-dung zwi-schen
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 1919--1926
+Underfull \hbox (badness 1147) in paragraph at lines 1920--1927
 \T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/lm
 m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m
 /n/10.95 ,
  []
 
 
-Overfull \hbox (0.13126pt too wide) in paragraph at lines 1919--1926
+Overfull \hbox (0.13126pt too wide) in paragraph at lines 1920--1927
 \T1/lmr/m/n/10.95 so-ge-nann-ten von $\OML/lmm/m/it/10.95 f$ $[]$\T1/lmr/m/n/10
 .95 . 
  []
@@ -2055,7 +2029,7 @@ Overfull \hbox (0.13126pt too wide) in paragraph at lines 1919--1926
 [79 <./images/Aequivalenz_Ueberlagerungen.jpg>]
 File: images/f_g_homotop.jpg Graphic file (type jpg)
  <use images/f_g_homotop.jpg>
-Underfull \hbox (badness 1546) in paragraph at lines 1941--1947
+Underfull \hbox (badness 1546) in paragraph at lines 1942--1948
 \T1/lmr/m/n/10.95 Die Fun-da-men-tal-grup-pe ei-nes (weg-zu-sam-men-hän-gen-den
 ) to-po-lo-gi-schen
  []
@@ -2063,7 +2037,7 @@ Underfull \hbox (badness 1546) in paragraph at lines 1941--1947
 [80]
 File: images/Produkt_Fundamentalgruppe.jpg Graphic file (type jpg)
  <use images/Produkt_Fundamentalgruppe.jpg>
-Underfull \hbox (badness 2653) in paragraph at lines 1960--1966
+Underfull \hbox (badness 2653) in paragraph at lines 1961--1967
 \T1/lmr/m/n/10.95 Betrachtet man nun die Fun-da-men-tal-grup-pen von $\OML/lmm/
 m/it/10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y; X; Y$ \T1/lmr/m/n/1
 0.95 in
@@ -2086,7 +2060,7 @@ File: images/Rand_I2_S1.jpg Graphic file (type jpg)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [82] [83] [84]
-Overfull \hbox (1.7369pt too wide) in paragraph at lines 2099--2100
+Overfull \hbox (1.7369pt too wide) in paragraph at lines 2100--2101
 \OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m/
 n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^
 ^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 )) \OML/lm
@@ -2094,37 +2068,62 @@ m/m/it/10.95 < ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; ^^Y\OT1/lmr/m/n/
 10.95 ([]))$ \T1/lmr/m/n/10.95 heiÿt $[]$
  []
 
-[85] [86] (./mitschrieb_geotopo.aux) ) 
+[85]
+Overfull \hbox (76.02501pt too wide) in paragraph at lines 2128--2131
+$\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m
+/n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
+^^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 ))$ \T1/l
+mr/m/n/10.95 heiÿt $[]$ $[]$.
+ []
+
+
+Overfull \hbox (6.88216pt too wide) detected at line 2144
+[]\OT1/lmr/m/n/10.95 (1) = [](1) \OMS/lmsy/m/n/10.95 , \OML/lmm/m/it/10.95 w[]\
+OT1/lmr/m/n/10.95 (1) = \OML/lmm/m/it/10.95 w[]\OT1/lmr/m/n/10.95 (1)[][\OML/lm
+m/m/it/10.95 w[] \OMS/lmsy/m/n/10.95 ^^A \OML/lmm/m/it/10.95 w[]\OT1/lmr/m/n/10
+.95 ] \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 H \OT1/lmr/m/n/10.95 = \OML/lmm
+/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.9
+5 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 )) = \OML/lmm/m/it/10.95 U\OT1/
+lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m/n/10.95 )
+ []
+
+[86] [87]
+Overfull \hbox (25.67804pt too wide) in paragraph at lines 2193--2194
+[]\T1/lmr/bx/n/10.95 Definition III.12 \T1/lmr/m/n/10.95 (lo-kal weg-zu-sam-men
+-hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 Z$ $[]$
+ []
+
+[88] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 10161 strings out of 256216
- 158954 string characters out of 1917072
- 212795 words of memory out of 1500000
+ 10173 strings out of 256216
+ 159077 string characters out of 1917072
+ 214795 words of memory out of 1500000
  12568 multiletter control sequences out of 10000+200000
  89727 words of font info for 72 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,12n,61p,587b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-e
-c.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/font
-s/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/u
-sr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/p
-ublic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-mi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (87 pages, 6842076 bytes).
+ 45i,12n,61p,762b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public
+/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/
+share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bl
+uesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (89 pages, 6856439 bytes).
 PDF statistics:
- 1130 PDF objects out of 1200 (max. 8388607)
- 419 named destinations out of 1000 (max. 131072)
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 431 named destinations out of 1000 (max. 131072)
  883 words of extra memory for PDF output out of 10000 (max. 10000000)
 
