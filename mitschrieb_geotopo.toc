@@ -63,3 +63,4 @@
 \contentsline {paragraph}{Erinnerung}{86}{section*.95}
 \contentsline {paragraph}{Andere Interpretation:}{87}{section*.96}
 \contentsline {paragraph}{Erl\IeC {\"a}uterung}{88}{section*.97}
+\contentsline {paragraph}{FAZIT}{90}{section*.98}

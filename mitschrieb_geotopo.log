@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  20 DEC 2011 15:25
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  22 DEC 2011 15:33
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -2093,12 +2093,51 @@ Overfull \hbox (25.67804pt too wide) in paragraph at lines 2193--2194
 -hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 Z$ $[]$
  []
 
-[88] (./mitschrieb_geotopo.aux) ) 
+[88]
+Overfull \hbox (36.09799pt too wide) in paragraph at lines 2241--2242
+[]\T1/lmr/bx/n/10.95 Definition III.13 \T1/lmr/m/n/10.95 (Deck-trans-for-ma-ti-
+on)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Ei-ne $[]$/$[]$
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 2245--2246
+[]\T1/lmr/bx/n/10.95 Bemerkung III.20. []\T1/lmr/m/n/10.95 Die Deck-trans-for-m
+a-tio-nen ei-ner Über-la-ge-rung
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 2256--2265
+\T1/lmr/m/n/10.95 Dies lie-fert (s.o.) ei-ne Bi-jek-ti-on der Rechts-ne-ben-kla
+s-sen $\OMS/lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 [\OML/lmm/m
+/it/10.95 u\OT1/lmr/m/n/10.95 ]\OMS/lmsy/m/n/10.95 g$ \T1/lmr/m/n/10.95 von
+ []
+
+[89]
+Underfull \hbox (badness 2538) in paragraph at lines 2292--2295
+[]\T1/lmr/bx/n/10.95 Bemerkung III.22. []\T1/lmr/m/n/10.95 Für $[]$ Über-la-ge-
+run-gen ope-riert $\OML/lmm/m/it/10.95 D\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.
+95 ; ^^Y\OT1/lmr/m/n/10.95 )$
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 2298--2301
+[]\T1/lmr/bx/n/10.95 Definition III.15 \T1/lmr/m/n/10.95 (se-mi-lo-kal ein-fach
+ zu-sam-men-hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n
+/10.95 heiÿt
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 2304--2306
+[]\T1/lmr/bx/n/10.95 Beispiel III.5 \T1/lmr/m/n/10.95 (Der Ha-wai-ia-ni-sche Oh
+r-ring)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/it/10.95 (TO-DO: Bild 9) Der
+ []
+
+[90] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 10173 strings out of 256216
- 159077 string characters out of 1917072
+ 10191 strings out of 256216
+ 159283 string characters out of 1917072
  214795 words of memory out of 1500000
- 12568 multiletter control sequences out of 10000+200000
+ 12569 multiletter control sequences out of 10000+200000
  89727 words of font info for 72 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  45i,12n,61p,762b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -2115,15 +2154,15 @@ pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/
-share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bl
-uesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (89 pages, 6856439 bytes).
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/blues
+ky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (91 pages, 6882039 bytes).
 PDF statistics:
- 1150 PDF objects out of 1200 (max. 8388607)
- 431 named destinations out of 1000 (max. 131072)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 448 named destinations out of 1000 (max. 131072)
  883 words of extra memory for PDF output out of 10000 (max. 10000000)
 
