@@ -2015,10 +2015,10 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 
 \begin{definition}[Lift, Hochhebung]
 	Ist $\pi \colon \widetilde{X} \rightarrow X$ Überlagerung und $f \colon Z \rightarrow X$ eine Abbildung, so heißt eine Abbildung $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $f = \pi \circ \widetilde{f}$ ein \underline{Lift} oder \underline{Hochhebung} von $f$ (in $\widetilde{X}$).
-	(TODO: Bild 1)
 \end{definition}
 
-(TODO: Bild 2)
+\includegraphics[scale=0.4]{images/Lift_Abbildung.jpg} $\qquad$
+\includegraphics[scale=0.4]{images/Lift_Abbildung_Torus.jpg}
 
 \begin{theorem}[Liften von Wegen]
 	Es sei $\pi \colon \widetilde{X} \rightarrow X$ Überlagerung. 
@@ -2026,7 +2026,8 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 	Ist $[a,b] \subset \R$ und $v \colon [a,b] \rightarrow X$ stetig sowie
 	$v(a)=x_0 \in X$ und $\widetilde{x_0} \in \widetilde{X}$ mit $\pi(\widetilde{x_0}) = x_0$, so existiert genau ein stetiger Lift $\widetilde{v}$ von $v$ in $\widetilde{X}$ mit $\widetilde{v}(a) = \widetilde{x_0}$.
 	Insbesondere lassen sich Wege in $X$ bei vorgegebenem Anfangspunkt in der Faser stets eindeutig zu Wegen in $\widetilde{X}$ liften.
-	(TODO: Bild 3)
+\newline
+\includegraphics[scale=0.4]{images/Lift_nicht_stetig.jpg}
 \end{theorem}
 
 \begin{proof}
@@ -2041,7 +2042,9 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 \end{proof}
 
 \begin{corollary}
-	Ist $w \colon I \rightarrow X$ ein Weg mit Lift $\widetilde{w}$ und $\widetilde{v}$ ein Lift von $w^{-1}$, so dass $\widetilde{v}(0) = \widetilde{w}(1)$ (TODO: Bild 4)
+	Ist $w \colon I \rightarrow X$ ein Weg mit Lift $\widetilde{w}$ und $\widetilde{v}$ ein Lift von $w^{-1}$, so dass $\widetilde{v}(0) = \widetilde{w}(1)$ 
+\newline
+\includegraphics[scale=0.4]{images/Lift_inverser_Weg.jpg}\newline
 	so gilt $\widetilde{v} = (\widetilde{w})^{-1}$, denn $\widetilde{v}$ und $\widetilde{w}^{-1}$ liegen über $w^{-1}$ und haben denselben Anfangspunkt.
 \end{corollary}
 
@@ -2065,7 +2068,8 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 	$\forall z \in Z $ muss $\widetilde{H_z} \colon I \rightarrow \widetilde{X}$ derjenige Weg sein, der über $H_z$ liegt und Anfangspunkt $\widetilde{f}(z)$ besitzt. $\Rightarrow$
 	\newline
 	$\Rightarrow \widetilde{H}$ ist eindeutig bestimmt, und damit folgt auch der letzte Teil des Satzes. \newline
-	$\widetilde{H}$ ist stetig: Folgt daraus, dass $\pi \colon \widetilde{X} \rightarrow X$ lokaler Homöomorphismus ist. (TODO: Bild 5)
+	$\widetilde{H}$ ist stetig: Folgt daraus, dass $\pi \colon \widetilde{X} \rightarrow X$ lokaler Homöomorphismus ist. \newline
+\includegraphics[scale=0.4]{images/Lift_Homotopie.jpg}
 \end{proof}
 
 \paragraph{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann Räume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}
@@ -2091,7 +2095,9 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 	Ist $w$ geschlossener Weg in $\widetilde{x} \in \widetilde{X}$ und
 $$\pi_*([w]) = [\pi \circ w] = 1 \in \pi_1(X, \pi(\widetilde{x})),$$
 so ist $\pi \circ w$ homotop zum konstanten Weg $c_{\pi(\widetilde{x})}$. Ist nun $H$ eine Homotopie von Wegen zwischen $\pi \circ w$ und $c_\pi(\widetilde{x})$, so liefert ein Lift von $H$ eine Homotopie von Wegen zwischen $w$ und einem Lift von $c_{\pi(\widetilde{x})}$. 
-(TODO: Bild 6, Bild 7)
+\newline
+\includegraphics[scale=0.4]{images/Homotopie_konstanter_Weg.jpg} $\qquad$
+\includegraphics[scale=0.4]{images/Homotopie_konstanter_Weg_Lift.jpg}
 \newline
 Aber jeder Lift eines konstanten Weges ist konstant!
 \end{proof}
@@ -2101,14 +2107,15 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 \end{definition}
 
 \begin{remark}
-	$U(\pi, \widetilde{x})$ besteht also aus den Homotopieklassen von Schleifen in $X$, deren lift mit Anfangspunkt $\widetilde{x}$ wieder eine Schleife in $\widetilde{x}$ ist.
+	$U(\pi, \widetilde{x})$ besteht also aus den Homotopieklassen von Schleifen in $X$, deren Lift mit Anfangspunkt $\widetilde{x}$ wieder eine Schleife in $\widetilde{x}$ ist.
 \end{remark}
 
 \begin{definition}[Lift]
 	$L_{\pi}(w, \widetilde{x}):=$ Lift von $w$ zu $\widetilde{X}$ mit Anfangspunkt $\widetilde{x}$ ($w$ Weg in $X$)
 	\newline
 	D.h. $U(\pi, \widetilde{x}) = \{[w] \mid \text{$w$ ist Schleife in $\pi(\widetilde{x})$ und $L_\pi(w, \widetilde{x}(1)) = \widetilde{x}$}$
-	(TODO: Bild 8)
+\newline
+\includegraphics[scale=0.4]{images/Lift.jpg}\newline
 	Wie hängt $U(\pi, \widetilde{x})$ von $\widetilde{x}$ ab?
 \end{definition}
 
@@ -2117,7 +2124,8 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 	$$U(\pi, \widetilde{x^\prime}) = [\pi \circ w]^{-1} \cdot U(\pi, \widetilde{x})[\pi \circ w]$$
 	d.h. $U(\pi, \widetilde{x^\prime})$ und $U(\pi, \widetilde{x})$ sind \underline{konjugiert} und \newline $U(\pi, \widetilde{x^\prime}) = U(\pi, \widetilde{x}) \Leftrightarrow [\pi \circ w] \text{ normalisiert } U(\pi, \widetilde{x})$
 	\newline
-	\underline{Denn:} $[\pi \circ w]^{-1} U(\pi, \widetilde{x}) [\pi \circ w] \subset U(\pi, x^\prime)$: $v$ Schleife in $(\widetilde{X}, \widetilde{x})$ (TODO: Bild 9)
+	\underline{Denn:} $[\pi \circ w]^{-1} U(\pi, \widetilde{x}) [\pi \circ w] \subset U(\pi, x^\prime)$: $v$ Schleife in $(\widetilde{X}, \widetilde{x})$ \newline
+	\includegraphics[scale=0.4]{images/Normalisation.jpg}
 	\newline
 	$\Rightarrow (\pi \circ w^{-1}) \cdot (\pi \circ v) \cdot (\pi \circ w)$ hat in $\pi_1(X, \pi(\widetilde{x}))$ die Form $\pi(w^{-1} \cdot v \cdot w)$, d.h. gehört zu $U(\pi, \widetilde{x^\prime})$.
 \end{remark}

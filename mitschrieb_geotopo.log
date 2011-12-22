@@ -1,20 +1,14 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  22 DEC 2011 15:33
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  22 DEC 2011 21:17
 entering extended mode
- %&-line parsing enabled.
 **mitschrieb_geotopo.tex
-(./mitschrieb_geotopo.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
-erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
- french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
-us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
-tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
-turkish, ukenglish, ukrainian, loaded.
-(/usr/share/texmf/tex/latex/base/report.cls
-Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size11.clo
-File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+(mitschrieb_geotopo.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, german, ngerman, dumylang, 
+nohyphenation, loaded.
+(C:\texmf\tex\latex\base\report.cls
+Document Class: report 2004/02/16 v1.4f Standard LaTeX document class
+(C:\texmf\tex\latex\base\size11.clo
+File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -28,46 +22,39 @@ File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+) (C:\texmf\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
+(C:\texmf\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf/tex/latex/graphics/trig.sty
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
 )
-(/usr/share/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 80.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+(C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texmf/tex/latex/base/inputenc.sty
-Package: inputenc 2006/05/05 v1.1b Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+(C:\texmf\tex\latex\base\inputenc.sty
+Package: inputenc 2004/02/05 v1.0d Input encoding file
+ (C:\texmf\tex\latex\base\utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encodingT1
+... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+(C:\texmf\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -155,8 +142,6 @@ File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+011F (decimal 287)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
    defining Unicode char U+013D (decimal 317)
@@ -214,10 +199,9 @@ File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 )
 Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encodingOT1
-
-(/usr/share/texmf/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+... processing UTF-8 mapping file for font encoding OT1
+ (C:\texmf\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -245,13 +229,13 @@ File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+201D (decimal 8221)
 )
 Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encodingOMS
+... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+(C:\texmf\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+02D9 (decimal 729)
    defining Unicode char U+2020 (decimal 8224)
    defining Unicode char U+2021 (decimal 8225)
    defining Unicode char U+2022 (decimal 8226)
@@ -265,58 +249,52 @@ Now handling font encoding U ...
    defining Unicode char U+00AE (decimal 174)
    defining Unicode char U+00BA (decimal 186)
    defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+02CA (decimal 714)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texmf/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)) (C:\texmf\tex\latex\base\fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
 
-(/usr/share/texmf/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+(C:\texmf\tex\latex\base\t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texmf/tex/generic/babel/babel.sty
-Package: babel 2005/11/23 v3.8h The Babel package
+)) (C:\texmf\tex\generic\babel\babel.sty
+Package: babel 2004/02/19 v3.8a The Babel package
 
-(/usr/share/texmf/tex/generic/babel/ngermanb.ldf
+(C:\texmf\tex\generic\babel\ngermanb.ldf
 Language: ngermanb 2004/02/20 v2.6m new German support from the babel system
-
-(/usr/share/texmf/tex/generic/babel/babel.def
-File: babel.def 2005/11/23 v3.8h Babel common definitions
+ (C:\texmf\tex\generic\babel\babel.def
+File: babel.def 2004/02/19 v3.8a Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen105
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-))
-(/usr/share/texmf/tex/latex/germbib/bibgerm.sty
+)) (C:\texmf\tex\latex\germbib\bibgerm.sty
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+(C:\texmf\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(C:\texmf\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
-
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+ (C:\texmf\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
+\@emptytoks=\toks15
 \ex@=\dimen106
-))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+)) (C:\texmf\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+(C:\texmf\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -339,66 +317,63 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip10
 \c@parentequation=\count97
 \dspbrk@lvl=\count98
-\tag@help=\toks18
+\tag@help=\toks16
 \row@=\count99
 \column@=\count100
 \maxfields@=\count101
-\andhelp@=\toks19
+\andhelp@=\toks17
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
 \tagshift@=\dimen111
 \tagwidth@=\dimen112
 \totwidth@=\dimen113
 \lineht@=\dimen114
-\@envbody=\toks20
+\@envbody=\toks18
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+(C:\texmf\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2002/01/22 v2.2d
 
-(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+(C:\texmf\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
-(/usr/share/texmf/tex/latex/amscls/amsthm.sty
+(C:\texmf\tex\latex\amscls\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks22
-\thm@bodyfont=\toks23
-\thm@headfont=\toks24
-\thm@notefont=\toks25
-\thm@headpunct=\toks26
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
 \thm@preskip=\skip46
 \thm@postskip=\skip47
 \thm@headsep=\skip48
-\dth@everypar=\toks27
-)
-(/usr/share/texmf/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+\dth@everypar=\toks25
+) (C:\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
 
-(/usr/share/texmf/tex/latex/config/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 125.
 )
-(/usr/share/texmf/tex/latex/tools/enumerate.sty
+(C:\texmf\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks28
-)
-(/usr/share/texmf/tex/latex/tools/tabularx.sty
+\@enLab=\toks26
+) (C:\texmf\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-
-(/usr/share/texmf/tex/latex/tools/array.sty
-Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+(C:\texmf\tex\latex\tools\array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
 \col@sep=\dimen115
 \extrarowheight=\dimen116
-\NC@list=\toks29
+\NC@list=\toks27
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
@@ -408,26 +383,21 @@ Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
 \TX@target=\dimen120
 \TX@delta=\dimen121
 \TX@cols=\count102
-\TX@ftn=\toks30
-)
-(/usr/share/texmf/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+\TX@ftn=\toks28
+) (C:\texmf\tex\latex\subfig\subfig.sty
+Package: subfig 2004/01/28 ver: 1.2 subfig package
 
-(/usr/share/texmf/tex/latex/caption/caption.sty
-Package: caption 2007/01/07 v3.0k Customising captions (AR)
-
-(/usr/share/texmf/tex/latex/caption/caption3.sty
-Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+(C:\texmf\tex\latex\caption\caption.sty
+Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \captionmargin=\dimen122
-\captionmarginx=\dimen123
-\captionwidth=\dimen124
-\captionindent=\dimen125
-\captionparindent=\dimen126
-\captionhangindent=\dimen127
-))
+\captionwidth=\dimen123
+\captionindent=\dimen124
+\captionparindent=\dimen125
+\captionhangindent=\dimen126
+)
 \c@KVtest=\count103
 \sf@farskip=\skip51
-\sf@captopadj=\dimen128
+\sf@captopadj=\dimen127
 \sf@capskip=\skip52
 \sf@nearskip=\skip53
 \c@subfigure=\count104
@@ -439,7 +409,7 @@ Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
 \sf@top=\skip54
 \sf@bottom=\skip55
 )
-(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip56
 \f@ncyO@elh=\skip57
 \f@ncyO@erh=\skip58
@@ -449,138 +419,176 @@ Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
 \f@ncyO@erf=\skip62
 \f@ncyO@olf=\skip63
 \f@ncyO@orf=\skip64
-)
-(/usr/share/texmf/tex/latex/was/upgreek.sty
+) (C:\texmf\tex\latex\was\upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-)
-(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
-\@linkdim=\dimen129
+) (C:\texmf\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen128
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
-(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+(C:\texmf\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/share/texmf/tex/latex/config/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(C:\texmf\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2003/03/08 v1.0 MiKTeX 'hyperref' configuration
 )
-(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
-HO)
-)
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2238.
-Package hyperref Info: Option `colorlinks' set `true' on input line 2238.
-Package hyperref Info: Hyper figures OFF on input line 2288.
-Package hyperref Info: Link nesting OFF on input line 2293.
-Package hyperref Info: Hyper index ON on input line 2296.
-Package hyperref Info: Plain pages OFF on input line 2303.
-Package hyperref Info: Backreferencing ON on input line 2306.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 1830.
+Package hyperref Info: Option `colorlinks' set `true' on input line 1830.
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing ON on input line 1898.
 
 Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 2444.
-(/usr/share/texmf/tex/latex/hyperref/backref.sty
-Package: backref 2006/10/06 v1.27 Bibliographical back referencing
-)
-(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+Package hyperref Info: Bookmarks ON on input line 2004.
+(C:\texmf\tex\latex\hyperref\backref.sty
+Package: backref 2003/03/20 v1.23 Bibliographical back referencing
+) (C:\texmf\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
-Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 2599.
+LaTeX Info: Redefining \url on input line 2143.
 \Fld@menulength=\count112
-\Field@Width=\dimen130
-\Fld@charsize=\dimen131
-\Choice@toks=\toks31
-\Field@toks=\toks32
-Package hyperref Info: Hyper figures OFF on input line 3102.
-Package hyperref Info: Link nesting OFF on input line 3107.
-Package hyperref Info: Hyper index ON on input line 3110.
-Package hyperref Info: backreferencing ON on input line 3115.
-Package hyperref Info: Link coloring ON on input line 3120.
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+\Choice@toks=\toks29
+\Field@toks=\toks30
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing ON on input line 2631.
+Package hyperref Info: Link coloring ON on input line 2636.
 \Hy@abspage=\count113
 \c@Item=\count114
 )
 *hyperref using driver hpdftex*
-(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+(C:\texmf\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
+ (C:\texmf\tex\latex\psnfss\pifont.sty
+Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(C:\texmf\tex\latex\psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+ (C:\texmf\tex\latex\psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
 \Fld@listcount=\count115
+\@outlinefile=\write3
 )
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2006/10/26 v1.10 (rcs-revision 1.14)
+(C:\localtexfiles\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\localtexfiles\tex\latex\pgf\basiclayer\pgf.sty
+(C:\localtexfiles\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks31
+)
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(C:\texmf\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-Package: pgf 2006/10/11 v1.10 (rcs-revision 1.7)
-
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2006/10/16 v1.10 (rcs-revision 1.19)
-\pgf@x=\dimen132
-\pgf@y=\dimen133
-\pgf@xa=\dimen134
-\pgf@ya=\dimen135
-\pgf@xb=\dimen136
-\pgf@yb=\dimen137
-\pgf@xc=\dimen138
-\pgf@yc=\dimen139
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2006/10/11  (rcs-revision 1.2)
-)
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 845.
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2006/10/23  (rcs-revision 1.14)
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2006/10/16  (rcs-revision 1.7)
-)))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2006/10/16  (rcs-revision 1.4)
-)
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2008/05/19 v2.00-cvs (rcs-revision 1.22)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Package: pgf 2008/01/15 v2.00-cvs (rcs-revision 1.12)
 
-(/usr/share/texmf/tex/latex/config/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 702.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2006/10/11 v1.10 (rcs-revision 1.4)
+(C:\localtexfiles\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\localtexfiles\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.00-cvs (rcs-revision 1.37)
 
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoremath.code.tex
-File: pgfcoremath.code.tex 2006/10/15  (rcs-revision 1.3)
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write4
+\r@pgf@reada=\read1
 \c@pgf@counta=\count116
 \c@pgf@countb=\count117
 \c@pgf@countc=\count118
 \c@pgf@countd=\count119
+
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2006/10/16  (rcs-revision 1.7)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count120
+\pgfsyssoftpath@bigbuffer@items=\count121
+)
+(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\texmf\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
+ (C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 136.
+LaTeX Info: Redefining \color on input line 494.
+Package xcolor Info: Color model `cmy' added on input line 972.
+Package xcolor Info: Color model `hsb' added on input line 980.
+Package xcolor Info: Color model `HTML' added on input line 1000.
+Package xcolor Info: Color model `HSB' added on input line 1006.
+Package xcolor Info: Color model `Gray' added on input line 1012.
+)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.00-cvs (rcs-revision 1.7)
+
+(C:\localtexfiles\tex\generic\pgf\math\pgfmath.code.tex
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count122
+\pgfmath@box=\box29
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
+(C:\localtexfiles\tex\generic\pgf\math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count123
+))
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen140
 \pgf@picmaxx=\dimen141
 \pgf@picminy=\dimen142
@@ -589,196 +597,148 @@ File: pgfcorepoints.code.tex 2006/10/16  (rcs-revision 1.7)
 \pgf@pathmaxx=\dimen145
 \pgf@pathminy=\dimen146
 \pgf@pathmaxy=\dimen147
-\pgf@tempdim=\dimen148
-\c@pgf@tempcount=\count120
-\pgf@xx=\dimen149
-\pgf@xy=\dimen150
-\pgf@yx=\dimen151
-\pgf@yy=\dimen152
-\pgf@zx=\dimen153
-\pgf@zy=\dimen154
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2006/10/16  (rcs-revision 1.6)
-\pgf@path@lastx=\dimen155
-\pgf@path@lasty=\dimen156
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2009/01/22  (rcs-revision 1.21)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2006/10/16  (rcs-revision 1.7)
-\pgf@shorten@end@additional=\dimen157
-\pgf@shorten@start@additional=\dimen158
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2006/10/23  (rcs-revision 1.20)
-\pgfpic=\box28
-\pgf@hbox=\box29
-\pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count121
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/06/30  (rcs-revision 1.31)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count124
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2006/10/16  (rcs-revision 1.6)
-\pgflinewidth=\dimen159
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen158
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2006/10/11  (rcs-revision 1.4)
-\pgf@pt@x=\dimen160
-\pgf@pt@y=\dimen161
-\pgf@pt@temp=\dimen162
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2006/10/16  (rcs-revision 1.5)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2006/10/16  (rcs-revision 1.6)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2006/10/16  (rcs-revision 1.7)
-\pgf@max=\dimen163
-\pgf@sys@shading@range@num=\count122
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count125
+)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/07/14  (rcs-revision 1.9)
+\pgfexternal@startupbox=\box33
+))
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseshapes.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseshapes.code.tex
-Package: pgfbaseshapes 2006/10/16 v1.10 (rcs-revision 1.16)
-\pgfnodeparttextbox=\box31
-))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseplot.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseplot.code.tex
-Package: pgfbaseplot 2006/10/16 v1.10 (rcs-revision 1.5)
-\pgf@plotwrite=\write3
-))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseimage.code.tex
-Package: pgfbaseimage 2006/10/16 v1.10 (rcs-revision 1.5)
-))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaselayers.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaselayers.code.tex
-Package: pgfbaselayers 2006/10/16 v1.10 (rcs-revision 1.5)
-))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasesnakes.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasesnakes.code.tex
-Package: pgfbasesnakes 2006/10/16 v1.10 (rcs-revision 1.10)
-\pgfsnakeremainingdistance=\dimen164
-\pgfsnakecompleteddistance=\dimen165
-))
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasepatterns.sty
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasepatterns.code.tex
-Package: pgfbasepatterns 2006/10/16 v1.10 (rcs-revision 1.9)
-))
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2006/10/11 v1.10 (rcs-revision 1.4)
-\pgf@nodesepstart=\dimen166
-\pgf@nodesepend=\dimen167
-))
-(/usr/share/texmf/tex/latex/tools/calc.sty
-Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count123
-\calc@Bcount=\count124
-\calc@Adimen=\dimen168
-\calc@Bdimen=\dimen169
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count125
-\calc@Cskip=\skip67
+(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2009/10/13  (rcs-revision 1.9)
+\pgfnodeparttextbox=\box34
 )
-(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2006/10/16 v1.10 (rcs-revision 1.5)
-\pgffor@iter=\dimen170
-\pgffor@skip=\dimen171
-))
-(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
-
-(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
-\XKV@toks=\toks33
-\XKV@depth=\count126
-File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
-))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz.code.tex
-Package: tikz 2006/10/17 v1.10 (rcs-revision 1.68)
-
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2006/10/16 v1.10 (rcs-revision 1.8)
-\pgf@plot@mark@count=\count127
-\pgfplotmarksize=\dimen172
+(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/05/26  (rcs-revision 1.7)
 )
-\tikz@lastx=\dimen173
-\tikz@lasty=\dimen174
-\tikz@lastxsaved=\dimen175
-\tikz@lastysaved=\dimen176
-\tikzleveldistance=\dimen177
-\tikzsiblingdistance=\dimen178
-\tikz@figbox=\box32
-\tikz@tempbox=\box33
-\tikztreelevel=\count128
-\tikznumberofchildren=\count129
-\tikznumberofcurrentchild=\count130
-\tikz@fig@count=\count131
-\tikz@expandcount=\count132
+(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.00-cvs (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen163
+\pgf@nodesepend=\dimen164
+)
+(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.00-cvs (rcs-revision 1.1)
+))
+(C:\localtexfiles\tex\latex\pgf\utilities\pgffor.sty
+(C:\localtexfiles\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\localtexfiles\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2010/03/23 v2.00-cvs (rcs-revision 1.18)
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Package: tikz 2010/06/30 v2.00-cvs (rcs-revision 1.70)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarytikztopaths.code.tex
-File: pgflibrarytikztopaths.code.tex 2006/10/16 v1.10 (rcs-revision 1.5)
-)))
-(/usr/share/texmf/tex/latex/ltxmisc/framed.sty
+(C:\localtexfiles\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.00-cvs (rcs-revision 1.15)
+\pgf@plot@mark@count=\count126
+\pgfplotmarksize=\dimen167
+)
+\tikz@lastx=\dimen168
+\tikz@lasty=\dimen169
+\tikz@lastxsaved=\dimen170
+\tikz@lastysaved=\dimen171
+\tikzleveldistance=\dimen172
+\tikzsiblingdistance=\dimen173
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count127
+\tikznumberofchildren=\count128
+\tikznumberofcurrentchild=\count129
+\tikz@fig@count=\count130
+
+(C:\localtexfiles\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2008/11/24  (rcs-revision 1.3)
+\pgfmatrixcurrentrow=\count131
+\pgfmatrixcurrentcolumn=\count132
+\pgf@matrix@numberofcolumns=\count133
+)
+\tikz@expandcount=\count134
+
+(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.00-cvs (rcs-revision 1.2)
+))) (C:\texmf\tex\latex\ltxmisc\framed.sty
 Package: framed 2003/07/21 v 0.8a: framed or shaded text with page breaks
-\FrameRule=\dimen179
-\FrameSep=\dimen180
+\FrameRule=\dimen174
+\FrameSep=\dimen175
 )
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2007/01/14 v1.3 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 13.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 14.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 15.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 16.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 17.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 18.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 19.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 24.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 25.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 28.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 29.
+(C:\texmf\tex\latex\lm\lmodern.sty
+Package: lmodern 2003/07/16
 )
-\c@theorem=\count133
-\c@lemma=\count134
-\c@proposition=\count135
-\c@corollary=\count136
-\c@observation=\count137
-\c@fact=\count138
-\c@example=\count139
-\c@remark=\count140
-\c@definition=\count141
- (./mitschrieb_geotopo.aux)
-\openout1 = `mitschrieb_geotopo.aux'.
-
+\c@theorem=\count135
+\c@lemma=\count136
+\c@proposition=\count137
+\c@corollary=\count138
+\c@observation=\count139
+\c@fact=\count140
+\c@example=\count141
+\c@remark=\count142
+\c@definition=\count143
+ (mitschrieb_geotopo.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
 LaTeX Font Info:    ... okay on input line 131.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
@@ -795,107 +755,96 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
 LaTeX Font Info:    ... okay on input line 131.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 131.
 
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+(C:\texmf\tex\latex\lm\t1lmr.fd
+File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
+) (C:\texmf\tex\context\base\supp-pdf.tex
+(C:\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count144
+\scratchcounter=\count145
+\scratchtoks=\toks40
+\scratchdimen=\dimen176
+\scratchskip=\skip65
+\scratchmuskip=\muskip12
+\scratchbox=\box37
+\scratchread=\read2
+\scratchwrite=\write5
+\zeropoint=\dimen177
+\onepoint=\dimen178
+\onebasepoint=\dimen179
+\minusone=\count146
+\thousandpoint=\dimen180
+\onerealpoint=\dimen181
+\emptytoks=\toks41
+\nextbox=\box38
+\nextdepth=\dimen182
+\everyline=\toks42
+\!!counta=\count147
+\!!countb=\count148
+\recursecounter=\count149
+)
+loading : Context Support Macros / PDF (2004.10.26)
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPtoPDFconversion=\toks43
 )
 
 bibgerm.sty: babel.sty detected
 
-(/usr/share/texmf/tex/latex/ragged2e/ragged2e.sty
+(C:\texmf\tex\latex\ms\ragged2e.sty
 Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
-
-(/usr/share/texmf/tex/latex/everysel/everysel.sty
+ (C:\texmf\tex\latex\ms\everysel.sty
 Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
 LaTeX Info: Redefining \selectfont on input line 125.
 )
-\CenteringLeftskip=\skip68
-\RaggedLeftLeftskip=\skip69
-\RaggedRightLeftskip=\skip70
-\CenteringRightskip=\skip71
-\RaggedLeftRightskip=\skip72
-\RaggedRightRightskip=\skip73
-\CenteringParfillskip=\skip74
-\RaggedLeftParfillskip=\skip75
-\RaggedRightParfillskip=\skip76
-\JustifyingParfillskip=\skip77
-\CenteringParindent=\skip78
-\RaggedLeftParindent=\skip79
-\RaggedRightParindent=\skip80
-\JustifyingParindent=\skip81
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
 )
-Package caption Info: hyperref package v6.74m (or newer) detected on input line
- 131.
-Package caption Info: subref 1.2 or 1.3 detected on input line 131.
-LaTeX Info: Redefining \subref on input line 131.
 Package hyperref Info: Link coloring ON on input line 131.
 
-(/usr/share/texmf/tex/latex/hyperref/nameref.sty
-Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
-
-(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
-Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
-)
-\c@section@level=\count142
+(C:\texmf\tex\latex\hyperref\nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count152
 )
 LaTeX Info: Redefining \ref on input line 131.
 LaTeX Info: Redefining \pageref on input line 131.
- (./mitschrieb_geotopo.out)
-(./mitschrieb_geotopo.out)
-\@outlinefile=\write4
-\openout4 = `mitschrieb_geotopo.out'.
-
- <torus2.pdf, id=75, 241.73793pt x 175.65433pt>
+ (mitschrieb_geotopo.out)
+(mitschrieb_geotopo.out) ABD: EveryShipout initializing macros
+<torus2.pdf, id=78, 241.73793pt x 175.65433pt>
 File: torus2.pdf Graphic file (type pdf)
+ <use torus2.pdf> [1
 
-<use torus2.pdf> [1
-
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./torus2.pdf
-
-pdfTeX warning: pdflatex (file ./torus2.pdf): PDF inclusion: Page Group detecte
-d which pdfTeX can't handle. Ignoring it.
->] (./mitschrieb_geotopo.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
+{psfonts.map} <torus2.pdf
+Warning: pdflatex (file torus2.pdf): pdf inclusion: Page Group detected which p
+dfTeX can't handle. Ignoring it.
+>] (mitschrieb_geotopo.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+ (C:\texmf\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+(C:\texmf\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ))
-\tf@toc=\write5
-\openout5 = `mitschrieb_geotopo.toc'.
+\tf@toc=\write6
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
+s been already used, duplicate ignored
 <to be read again> 
-                   \relax 
+                   \penalty 
 l.159 \chapter
               {EinfÃ¼hrung} [1
 
@@ -904,112 +853,108 @@ Kapitel .
 [2
 
 ]
-
-pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: found P
-DF version <1.5>, but at most version <1.4> allowed
-<images/stetigeAbb.pdf, id=132, 553.81313pt x 338.39552pt>
+Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: found pdf versio
+n <1.5>, but at most version <1.4> allowed
+<images/stetigeAbb.pdf, id=161, 553.81313pt x 338.39552pt>
 File: images/stetigeAbb.pdf Graphic file (type pdf)
 
 <use images/stetigeAbb.pdf>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 206.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 206.
-
-<images/Homotopie.jpg, id=133, 690.9012pt x 427.8384pt>
+<images/Homotopie.jpg, id=162, 690.9012pt x 427.8384pt>
 File: images/Homotopie.jpg Graphic file (type jpg)
 
 <use images/Homotopie.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/nicht_homotop_1.jpg, id=134, 1054.94125pt x 422.57875pt>
+<images/nicht_homotop_1.jpg, id=163, 1054.94125pt x 422.57875pt>
 File: images/nicht_homotop_1.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_1.jpg>
-<images/nicht_homotop_2.jpg, id=135, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_2.jpg, id=164, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_2.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Homotopie_param.jpg, id=138, 690.9012pt x 439.8834pt>
+<images/Homotopie_param.jpg, id=165, 690.9012pt x 439.8834pt>
 File: images/Homotopie_param.jpg Graphic file (type jpg)
 
 <use images/Homotopie_param.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./images/stetigeAbb.pdf
+[3 <images/stetigeAbb.pdf
+Warning: pdflatex (file images/stetigeAbb.pdf): pdf inclusion: Page Group detec
+ted which pdfTeX can't handle. Ignoring it.
+>]
 
-pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
-oup detected which pdfTeX can't handle. Ignoring it.
->] <images/Homotopie_Transitivitaet.jpg, id=156, 506.8536pt x 372.9132pt>
+LaTeX Warning: Text page 4 contains only floats.
+
+
+Overfull \vbox (1.60983pt too high) has occurred while \output is active []
+
+
+[4 <images/Homotopie.jpg> <images/nicht_homotop_1.jpg> <images/nicht_homotop_2.
+jpg> <images/Homotopie_param.jpg>]
+<images/Homotopie_Transitivitaet.jpg, id=200, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/Aequivalenzklassen.jpg, id=157, 638.385pt x 269.3262pt>
+<images/Aequivalenzklassen.jpg, id=201, 638.385pt x 269.3262pt>
 File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
 
-<use images/Aequivalenzklassen.jpg> [4 <./images/Homotopie.jpg> <./images/nicht
-_homotop_1.jpg> <./images/nicht_homotop_2.jpg>]
+<use images/Aequivalenzklassen.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./images/Homotopie_param.jpg> <./images/Homotopie_Transitivitaet.jpg>]
-<images/R_n_immer_homotop.jpg, id=177, 580.0872pt x 413.8662pt>
+[5 <images/Homotopie_Transitivitaet.jpg>]
+<images/R_n_immer_homotop.jpg, id=213, 580.0872pt x 413.8662pt>
 File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
 
 <use images/R_n_immer_homotop.jpg>
-<images/Nullhomotopie.jpg, id=178, 577.6782pt x 338.2236pt>
+<images/Nullhomotopie.jpg, id=214, 577.6782pt x 338.2236pt>
 File: images/Nullhomotopie.jpg Graphic file (type jpg)
 
 <use images/Nullhomotopie.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./images/Aequivalenzklassen.jpg> <./images/R_n_immer_homotop.jpg>]
-<images/Geschlossene_Wege.jpg, id=189, 551.1792pt x 403.2666pt>
+[6 <images/Aequivalenzklassen.jpg> <images/R_n_immer_homotop.jpg>]
+<images/Geschlossene_Wege.jpg, id=225, 551.1792pt x 403.2666pt>
 File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
 
-<use images/Geschlossene_Wege.jpg> [7 <./images/Nullhomotopie.jpg> <./images/Ge
-schlossene_Wege.jpg>]
-<images/Homotop_Schleifen_R_ohne_0.jpg, id=197, 271.7352pt x 317.5062pt>
+<use images/Geschlossene_Wege.jpg> [7 <images/Nullhomotopie.jpg> <images/Geschl
+ossene_Wege.jpg>]
+<images/Homotop_Schleifen_R_ohne_0.jpg, id=233, 271.7352pt x 317.5062pt>
 File: images/Homotop_Schleifen_R_ohne_0.jpg Graphic file (type jpg)
 
 <use images/Homotop_Schleifen_R_ohne_0.jpg>
-<images/S1_und_R2_ohne_0.jpg, id=198, 631.6398pt x 459.1554pt>
+<images/S1_und_R2_ohne_0.jpg, id=234, 631.6398pt x 459.1554pt>
 File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
 
-<use images/S1_und_R2_ohne_0.jpg> [8 <./images/Homotop_Schleifen_R_ohne_0.jpg> 
-<./images/S1_und_R2_ohne_0.jpg>]
+<use images/S1_und_R2_ohne_0.jpg> [8 <images/Homotop_Schleifen_R_ohne_0.jpg> <i
+mages/S1_und_R2_ohne_0.jpg>]
 Kapitel I.
-<images/Teilraumtopologie.jpg, id=205, 616.2222pt x 476.0184pt>
+<images/Teilraumtopologie.jpg, id=241, 616.2222pt x 476.0184pt>
 File: images/Teilraumtopologie.jpg Graphic file (type jpg)
 
 <use images/Teilraumtopologie.jpg> [9
 
 ]
-<images/offener_Kreis.jpg, id=219, 209.1012pt x 208.6194pt>
+<images/offener_Kreis.jpg, id=255, 209.1012pt x 208.6194pt>
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 
 <use images/offener_Kreis.jpg>
-<images/offenes_Quadrat.jpg, id=220, 219.7008pt x 220.1826pt>
+<images/offenes_Quadrat.jpg, id=256, 219.7008pt x 220.1826pt>
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
 <use images/offenes_Quadrat.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <./images/Teilraumtopologie.jpg>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 412.
-
-<images/Cantormenge_5te_Iteration.jpg, id=235, 183.68625pt x 82.80937pt>
+[10 <images/Teilraumtopologie.jpg>]
+<images/Cantormenge_5te_Iteration.jpg, id=277, 183.68625pt x 82.80937pt>
 File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
 
 <use images/Cantormenge_5te_Iteration.jpg>
@@ -1018,50 +963,51 @@ File: images/offener_Kreis.jpg Graphic file (type jpg)
 File: images/offenes_Quadrat.jpg Graphic file (type jpg)
 
 <use images/offenes_Quadrat.jpg>
-<images/Quadrate_Schnitt.jpg, id=236, 281.853pt x 214.401pt>
+<images/Quadrate_Schnitt.jpg, id=278, 281.853pt x 214.401pt>
 File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
 
 <use images/Quadrate_Schnitt.jpg>
-<images/Kreis_Schnitt.jpg, id=237, 345.4506pt x 211.5102pt>
+<images/Kreis_Schnitt.jpg, id=279, 345.4506pt x 211.5102pt>
 File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
 
-<use images/Kreis_Schnitt.jpg> [11 <./images/offener_Kreis.jpg> <./images/offen
-es_Quadrat.jpg> <./images/Cantormenge_5te_Iteration.jpg>]
+<use images/Kreis_Schnitt.jpg> [11 <images/offener_Kreis.jpg> <images/offenes_Q
+uadrat.jpg> <images/Cantormenge_5te_Iteration.jpg>]
 Underfull \hbox (badness 1968) in paragraph at lines 448--452
-\T1/lmr/m/n/10.95 die Ba-sis ei-ner To-po-lo-gie für die Men-ge $\OML/lmm/m/it/
-10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , und d
-ie-se heiÿt
+\T1/lmr/m/n/10.95 die Ba-sis ei-ner To-po-lo-gie für die Men-ge $\OML/cmm/m/it/
+10.95 X \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , und die
+-se heiÿt
  []
 
 File: images/offener_Kreis.jpg Graphic file (type jpg)
 <use images/offener_Kreis.jpg>
-<images/Produkt_RxR.jpg, id=254, 324.7332pt x 197.0562pt>
+<images/Produkt_RxR.jpg, id=302, 324.7332pt x 197.0562pt>
 File: images/Produkt_RxR.jpg Graphic file (type jpg)
 
 <use images/Produkt_RxR.jpg>
-<images/Kreis_Rechteck.jpg, id=255, 163.812pt x 164.2938pt>
+<images/Kreis_Rechteck.jpg, id=303, 163.812pt x 164.2938pt>
 File: images/Kreis_Rechteck.jpg Graphic file (type jpg)
 
 <use images/Kreis_Rechteck.jpg>
-<images/Kreis_Rechteck_Basis.jpg, id=256, 326.6604pt x 345.4506pt>
+<images/Kreis_Rechteck_Basis.jpg, id=304, 326.6604pt x 345.4506pt>
 File: images/Kreis_Rechteck_Basis.jpg Graphic file (type jpg)
 
-<use images/Kreis_Rechteck_Basis.jpg> [12 <./images/Quadrate_Schnitt.jpg> <./im
-ages/Kreis_Schnitt.jpg> <./images/Produkt_RxR.jpg> <./images/Kreis_Rechteck.jpg
-> <./images/Kreis_Rechteck_Basis.jpg>] [13]
+<use images/Kreis_Rechteck_Basis.jpg> [12 <images/Quadrate_Schnitt.jpg> <images
+/Kreis_Schnitt.jpg> <images/Produkt_RxR.jpg> <images/Kreis_Rechteck.jpg> <image
+s/Kreis_Rechteck_Basis.jpg>] [13]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 480.
 
+LaTeX Font Info:    No file OMSlmr.fd. on input line 480.
 
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 480.
 
-Overfull \hbox (17.75693pt too wide) in paragraph at lines 487--488
-\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \OML/lmm/m/it/10.95 X$\T1/lmr/m/n
-/10.95 , so heiÿt der me-tri-sche Raum $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95
- A; d[][]\OT1/lmr/m/n/10.95 )$ $[]$\T1/lmr/m/n/10.95 . 
+LaTeX Font Warning: Font shape `OMS/lmr/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 480.
+
+
+Overfull \hbox (18.074pt too wide) in paragraph at lines 487--488
+\OML/cmm/m/it/10.95 A \OMS/lmr/m/n/10.95  \OML/cmm/m/it/10.95 X$\T1/lmr/m/n/10
+.95 , so heiÿt der me-tri-sche Raum $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 A;
+ d[][]\OT1/cmr/m/n/10.95 )$ $[]$\T1/lmr/m/n/10.95 . 
  []
 
 
@@ -1069,15 +1015,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 491--493
 
  []
 
-<images/metrischer_unterraum.jpg, id=272, 190.311pt x 231.264pt>
+<images/metrischer_unterraum.jpg, id=320, 190.311pt x 231.264pt>
 File: images/metrischer_unterraum.jpg Graphic file (type jpg)
 
 <use images/metrischer_unterraum.jpg>
-Underfull \hbox (badness 3148) in paragraph at lines 499--503
+Underfull \hbox (badness 3158) in paragraph at lines 499--503
 []\T1/lmr/bx/n/10.95 Definition I.9 \T1/lmr/m/n/10.95 (Be-schränkt-heit, Durch-
-mes-ser)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 ^^Z \
-OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; d\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10
-.95 heiÿt
+mes-ser)\T1/lmr/bx/n/10.95 . []$\OML/cmm/m/it/10.95 A \OMS/lmr/m/n/10.95  \OT1
+/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; d\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/n/10.95
+ heiÿt
  []
 
 
@@ -1085,14 +1031,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--503
 
  []
 
-<images/Durchmesser.jpg, id=273, 316.5426pt x 200.9106pt>
+<images/Durchmesser.jpg, id=321, 316.5426pt x 200.9106pt>
 File: images/Durchmesser.jpg Graphic file (type jpg)
 
 <use images/Durchmesser.jpg>
 Underfull \hbox (badness 1484) in paragraph at lines 509--510
-\T1/lmr/m/n/10.95 nen Bäl-le die Ba-sis ei-ner To-po-lo-gie $\OMS/lmsy/m/n/10.9
-5 O \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 O[]$ \T1/lmr/m/n/10.95 von $\OML/l
-mm/m/it/10.95 X$\T1/lmr/m/n/10.95 , die-se heiÿt
+\T1/lmr/m/n/10.95 nen Bäl-le die Ba-sis ei-ner To-po-lo-gie $\OMS/lmr/m/n/10.95
+ O \OT1/cmr/m/n/10.95 = \OMS/lmr/m/n/10.95 O[]$ \T1/lmr/m/n/10.95 von $\OML/cmm
+/m/it/10.95 X$\T1/lmr/m/n/10.95 , die-se heiÿt
  []
 
 
@@ -1100,21 +1046,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--517
 
  []
 
-[14 <./images/metrischer_unterraum.jpg> <./images/Durchmesser.jpg>]
-<images/metrisch_offen.jpg, id=284, 523.2348pt x 437.4744pt>
+[14 <images/metrischer_unterraum.jpg> <images/Durchmesser.jpg>]
+<images/metrisch_offen.jpg, id=332, 523.2348pt x 437.4744pt>
 File: images/metrisch_offen.jpg Graphic file (type jpg)
 
 <use images/metrisch_offen.jpg>
-<images/offen_abgeschlossen.jpg, id=285, 635.976pt x 376.2858pt>
+<images/offen_abgeschlossen.jpg, id=333, 635.976pt x 376.2858pt>
 File: images/offen_abgeschlossen.jpg Graphic file (type jpg)
 
-<use images/offen_abgeschlossen.jpg> [15 <./images/metrisch_offen.jpg> <./image
-s/offen_abgeschlossen.jpg>]
+<use images/offen_abgeschlossen.jpg> [15 <images/metrisch_offen.jpg> <images/of
+fen_abgeschlossen.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 548--550
 
  []
 
-<images/innen_aussen.jpg, id=296, 523.2348pt x 437.4744pt>
+<images/innen_aussen.jpg, id=345, 523.2348pt x 437.4744pt>
 File: images/innen_aussen.jpg Graphic file (type jpg)
 
 <use images/innen_aussen.jpg>
@@ -1123,30 +1069,30 @@ Underfull \hbox (badness 1173) in paragraph at lines 582--582
 tung
  []
 
-[16 <./images/innen_aussen.jpg>]
+[16 <images/innen_aussen.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 598--600
 
  []
 
-<images/stetig_in_x.jpg, id=311, 630.6762pt x 405.6756pt>
+<images/stetig_in_x.jpg, id=361, 630.6762pt x 405.6756pt>
 File: images/stetig_in_x.jpg Graphic file (type jpg)
 
-<use images/stetig_in_x.jpg> [17 <./images/stetig_in_x.jpg>]
-Underfull \hbox (badness 3098) in paragraph at lines 624--625
+<use images/stetig_in_x.jpg> [17 <images/stetig_in_x.jpg>]
+Underfull \hbox (badness 3118) in paragraph at lines 624--625
 []\T1/lmr/bx/n/10.95 Definition I.18 \T1/lmr/m/n/10.95 (Ho-möo-mor-phis-mus)\T1
 /lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Ei-ne in-ver-tier-ba-re Ab-bil-dung
  []
 
-<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=321, 648.021pt x 356.0502pt>
+<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=371, 648.021pt x 356.0502pt>
 File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
 
-<use images/0_1_nach_S1_f-1_nicht_stetig.jpg> [18 <./images/0_1_nach_S1_f-1_nic
-ht_stetig.jpg>]
-<images/Stereographie_S1_R1.jpg, id=334, 590.6868pt x 331.4784pt>
+<use images/0_1_nach_S1_f-1_nicht_stetig.jpg> [18 <images/0_1_nach_S1_f-1_nicht
+_stetig.jpg>]
+<images/Stereographie_S1_R1.jpg, id=384, 590.6868pt x 331.4784pt>
 File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S1_R1.jpg>
-<images/Stereographie_S2_R2.jpg, id=335, 590.6868pt x 393.6306pt>
+<images/Stereographie_S2_R2.jpg, id=385, 590.6868pt x 393.6306pt>
 File: images/Stereographie_S2_R2.jpg Graphic file (type jpg)
 
 <use images/Stereographie_S2_R2.jpg>
@@ -1155,52 +1101,52 @@ Overfull \hbox (55.92027pt too wide) in paragraph at lines 664--671
  []
 
 
-Overfull \hbox (5.25787pt too wide) in paragraph at lines 664--671
+Overfull \hbox (5.56189pt too wide) in paragraph at lines 664--671
 \T1/lmr/m/n/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-phi
-s-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\O
-MS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
+s-mus von $\OML/cmm/m/it/10.95 S[]\OMS/lmr/m/n/10.95 nf\OML/cmm/m/it/10.95 N\OM
+S/lmr/m/n/10.95 g\OML/cmm/m/it/10.95 ; N \OT1/cmr/m/n/10.95 :=
  []
 
-<images/0_1_nach_S1_Pfeil.jpg, id=336, 678.3744pt x 361.35pt>
+<images/0_1_nach_S1_Pfeil.jpg, id=386, 678.3744pt x 361.35pt>
 File: images/0_1_nach_S1_Pfeil.jpg Graphic file (type jpg)
 
-<use images/0_1_nach_S1_Pfeil.jpg> [19 <./images/Stereographie_S1_R1.jpg> <./im
-ages/Stereographie_S2_R2.jpg>]
+<use images/0_1_nach_S1_Pfeil.jpg> [19 <images/Stereographie_S1_R1.jpg> <images
+/Stereographie_S2_R2.jpg>]
 Underfull \hbox (badness 5446) in paragraph at lines 683--686
 []$[]$ \T1/lmr/m/n/10.95 aus
  []
 
-<images/homotopieaequivalenz.jpg, id=345, 330.9966pt x 256.7994pt>
+<images/homotopieaequivalenz.jpg, id=395, 330.9966pt x 256.7994pt>
 File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
 
 <use images/homotopieaequivalenz.jpg>
-Underfull \hbox (badness 1668) in paragraph at lines 690--692
+Underfull \hbox (badness 1675) in paragraph at lines 690--692
 []\T1/lmr/bx/n/10.95 Definition I.21 \T1/lmr/m/n/10.95 (Äqui-va-lenz von Ein-be
 t-tun-gen)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Zwei Ein-bet-tun-gen
  []
 
 
 Underfull \hbox (badness 2027) in paragraph at lines 690--692
-\OML/lmm/m/it/10.95 X; h[] [] [] Y \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y[
-]g \OMS/lmsy/m/n/10.95 ^^N \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OML/lm
-m/m/it/10.95 h[] \OMS/lmsy/m/n/10.95 ^^N \OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.9
-5 , d.h. dass das Dia-gramm
+\OML/cmm/m/it/10.95 X; h[] [] [] Y \OMS/lmr/m/n/10.95 ! \OML/cmm/m/it/10.95 Y[]
+g \OMS/lmr/m/n/10.95  \OML/cmm/m/it/10.95 h[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/
+it/10.95 h[] \OMS/lmr/m/n/10.95  \OML/cmm/m/it/10.95 f$\T1/lmr/m/n/10.95 , d.h
+. dass das Dia-gramm
  []
 
-<images/Knoten_Kreis.jpg, id=346, 184.5294pt x 184.5294pt>
+<images/Knoten_Kreis.jpg, id=396, 184.5294pt x 184.5294pt>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_Kreis.jpg>
-<images/Knoten_aequivalent_zu_Kreis.jpg, id=347, 241.3818pt x 223.0734pt>
+<images/Knoten_aequivalent_zu_Kreis.jpg, id=397, 241.3818pt x 223.0734pt>
 File: images/Knoten_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_aequivalent_zu_Kreis.jpg>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
  <use images/Knoten_Kreis.jpg>
-<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=348, 241.8636pt x 223.5552pt>
+<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=398, 241.8636pt x 223.5552pt>
 File: images/Knoten_nicht_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
 <use images/Knoten_nicht_aequivalent_zu_Kreis.jpg>
-Underfull \hbox (badness 1484) in paragraph at lines 705--708
+Underfull \hbox (badness 1490) in paragraph at lines 705--708
 []\T1/lmr/bx/n/10.95 Definition I.23 \T1/lmr/m/n/10.95 (zu-sam-men-hän-gend)\T1
 /lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Ein to-po-lo-gi-scher Raum heiÿt
  []
@@ -1210,10 +1156,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 711--717
 
  []
 
-[20 <./images/0_1_nach_S1_Pfeil.jpg> <./images/homotopieaequivalenz.jpg> <./ima
-ges/Knoten_Kreis.jpg> <./images/Knoten_aequivalent_zu_Kreis.jpg> <./images/Knot
-en_nicht_aequivalent_zu_Kreis.jpg>]
-<images/Ueberdeckung.jpg, id=357, 661.9932pt x 502.9992pt>
+[20 <images/0_1_nach_S1_Pfeil.jpg> <images/homotopieaequivalenz.jpg> <images/Kn
+oten_Kreis.jpg> <images/Knoten_aequivalent_zu_Kreis.jpg> <images/Knoten_nicht_a
+equivalent_zu_Kreis.jpg>]
+<images/Ueberdeckung.jpg, id=407, 661.9932pt x 502.9992pt>
 File: images/Ueberdeckung.jpg Graphic file (type jpg)
 
 <use images/Ueberdeckung.jpg>
@@ -1221,33 +1167,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 721--723
 
  []
 
-<images/Partition.jpg, id=358, 638.385pt x 276.5532pt>
+<images/Partition.jpg, id=408, 638.385pt x 276.5532pt>
 File: images/Partition.jpg Graphic file (type jpg)
 
-<use images/Partition.jpg> [21 <./images/Ueberdeckung.jpg> <./images/Partition.
-jpg>]
-Overfull \hbox (34.99297pt too wide) in paragraph at lines 767--768
+<use images/Partition.jpg> [21 <images/Ueberdeckung.jpg> <images/Partition.jpg>
+]
+Overfull \hbox (34.9524pt too wide) in paragraph at lines 767--768
 []\T1/lmr/bx/n/10.95 Definition I.26 \T1/lmr/m/n/10.95 (Zu-sam-men-hangs-kom-po
 -nen-te)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Ei-ne $[]$
  []
 
-[22] <images/R_ohne_p.jpg, id=377, 327.624pt x 92.5056pt>
+[22] <images/R_ohne_p.jpg, id=427, 327.624pt x 92.5056pt>
 File: images/R_ohne_p.jpg Graphic file (type jpg)
 
 <use images/R_ohne_p.jpg>
-<images/R2_ohne_p.jpg, id=378, 256.7994pt x 211.0284pt>
+<images/R2_ohne_p.jpg, id=428, 256.7994pt x 211.0284pt>
 File: images/R2_ohne_p.jpg Graphic file (type jpg)
 
 <use images/R2_ohne_p.jpg>
-<images/Waffel_zshgd.jpg, id=379, 607.5498pt x 467.8278pt>
+<images/Waffel_zshgd.jpg, id=429, 607.5498pt x 467.8278pt>
 File: images/Waffel_zshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_zshgd.jpg>
-<images/Waffel_unzshgd.jpg, id=380, 529.98pt x 404.2302pt>
+<images/Waffel_unzshgd.jpg, id=430, 529.98pt x 404.2302pt>
 File: images/Waffel_unzshgd.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd.jpg>
-<images/Waffel_unzshgd_Fkt.jpg, id=381, 587.796pt x 377.2494pt>
+<images/Waffel_unzshgd_Fkt.jpg, id=431, 587.796pt x 377.2494pt>
 File: images/Waffel_unzshgd_Fkt.jpg Graphic file (type jpg)
 
 <use images/Waffel_unzshgd_Fkt.jpg>
@@ -1255,24 +1201,24 @@ Overfull \hbox (2.10202pt too wide) in paragraph at lines 813--822
 [] $ $ [] 
  []
 
-[23 <./images/R_ohne_p.jpg> <./images/R2_ohne_p.jpg>]
+[23 <images/R_ohne_p.jpg> <images/R2_ohne_p.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 824--826
 
  []
 
-<images/Weg.jpg, id=391, 358.4592pt x 325.6968pt>
+<images/Weg.jpg, id=441, 358.4592pt x 325.6968pt>
 File: images/Weg.jpg Graphic file (type jpg)
  <use images/Weg.jpg>
-<images/Wegzshgd.jpg, id=392, 649.4664pt x 416.2752pt>
+<images/Wegzshgd.jpg, id=442, 649.4664pt x 416.2752pt>
 File: images/Wegzshgd.jpg Graphic file (type jpg)
 
-<use images/Wegzshgd.jpg> [24 <./images/Waffel_zshgd.jpg> <./images/Waffel_unzs
-hgd.jpg> <./images/Waffel_unzshgd_Fkt.jpg> <./images/Weg.jpg>]
-<images/Sinuseinsdurchx.png, id=400, 803.0pt x 342.27875pt>
+<use images/Wegzshgd.jpg> [24 <images/Waffel_zshgd.jpg> <images/Waffel_unzshgd.
+jpg> <images/Waffel_unzshgd_Fkt.jpg> <images/Weg.jpg>]
+<images/Sinuseinsdurchx.png, id=450, 803.0pt x 342.27875pt>
 File: images/Sinuseinsdurchx.png Graphic file (type png)
 
 <use images/Sinuseinsdurchx.png>
-Overfull \hbox (44.61572pt too wide) in paragraph at lines 840--847
+Overfull \hbox (44.61316pt too wide) in paragraph at lines 840--847
 \T1/lmr/m/n/8 Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsdu
 rchx.png&filetimestamp=20080624085708
  []
@@ -1282,49 +1228,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--847
 
  []
 
-<images/T1.jpg, id=401, 209.583pt x 114.6684pt>
+<images/T1.jpg, id=451, 209.583pt x 114.6684pt>
 File: images/T1.jpg Graphic file (type jpg)
- <use images/T1.jpg> [25 <./images/Wegzshgd.jpg> <./images/Sinuseinsdurchx.png>
-]
-<images/T2.jpg, id=410, 248.6088pt x 140.2038pt>
+ <use images/T1.jpg> [25 <images/Wegzshgd.jpg> <images/Sinuseinsdurchx.png>]
+<images/T2.jpg, id=459, 248.6088pt x 140.2038pt>
 File: images/T2.jpg Graphic file (type jpg)
  <use images/T2.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 880--882
 
  []
 
-<images/Grenzwert.jpg, id=411, 378.213pt x 468.7914pt>
+<images/Grenzwert.jpg, id=460, 378.213pt x 468.7914pt>
 File: images/Grenzwert.jpg Graphic file (type jpg)
 
-<use images/Grenzwert.jpg> [26 <./images/T1.jpg> <./images/T2.jpg> <./images/Gr
-enzwert.jpg>] [27]
-Overfull \hbox (100.59059pt too wide) in paragraph at lines 926--933
+<use images/Grenzwert.jpg> [26 <images/T1.jpg> <images/T2.jpg> <images/Grenzwer
+t.jpg>] [27]
+Overfull \hbox (100.54675pt too wide) in paragraph at lines 926--933
 []\T1/lmr/bx/n/10.95 Definition I.34 \T1/lmr/m/n/10.95 (Ab-zähl-bar-keitsaxio-m
-e, Se-pa-ra-bi-li-tät)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 X$ $[]$
+e, Se-pa-ra-bi-li-tät)\T1/lmr/bx/n/10.95 . []$\OML/cmm/m/it/10.95 X$ $[]$
  []
 
-[28] <images/lokal_endlich.jpg, id=442, 444.2196pt x 325.215pt>
+[28] <images/lokal_endlich.jpg, id=493, 444.2196pt x 325.215pt>
 File: images/lokal_endlich.jpg Graphic file (type jpg)
 
 <use images/lokal_endlich.jpg>
-<images/Cutoff.jpg, id=443, 587.796pt x 363.759pt>
+<images/Cutoff.jpg, id=494, 587.796pt x 363.759pt>
 File: images/Cutoff.jpg Graphic file (type jpg)
  <use images/Cutoff.jpg>
-[29 <./images/lokal_endlich.jpg>] [30 <./images/Cutoff.jpg>]
+[29 <images/lokal_endlich.jpg>] [30 <images/Cutoff.jpg>]
 Kapitel II.
-<images/Mannigfaltigkeiten1.jpg, id=460, 649.4664pt x 370.5042pt>
+<images/Mannigfaltigkeiten1.jpg, id=511, 649.4664pt x 370.5042pt>
 File: images/Mannigfaltigkeiten1.jpg Graphic file (type jpg)
 
 <use images/Mannigfaltigkeiten1.jpg>
-<images/S1_Pendel.jpg, id=461, 598.8774pt x 421.0932pt>
+<images/S1_Pendel.jpg, id=512, 598.8774pt x 421.0932pt>
 File: images/S1_Pendel.jpg Graphic file (type jpg)
 
 <use images/S1_Pendel.jpg>
-<images/Torus_Doppelpendel.jpg, id=462, 669.2202pt x 471.6822pt>
+<images/Torus_Doppelpendel.jpg, id=513, 669.2202pt x 471.6822pt>
 File: images/Torus_Doppelpendel.jpg Graphic file (type jpg)
 
 <use images/Torus_Doppelpendel.jpg>
-<images/Stringtheorie.jpg, id=463, 322.806pt x 421.0932pt>
+<images/Stringtheorie.jpg, id=514, 322.806pt x 421.0932pt>
 File: images/Stringtheorie.jpg Graphic file (type jpg)
 
 <use images/Stringtheorie.jpg>
@@ -1344,27 +1289,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 1000--1004
 
 [31
 
- <./images/Mannigfaltigkeiten1.jpg> <./images/S1_Pendel.jpg>]
-Overfull \hbox (26.73549pt too wide) in paragraph at lines 1009--1012
-\T1/lmr/m/n/10.95 Jedes sol-che Paar $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U
-; '\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 heiÿt ei-ne $[]$ oder ein $[]$
+ <images/Mannigfaltigkeiten1.jpg> <images/S1_Pendel.jpg>]
+Overfull \hbox (26.7335pt too wide) in paragraph at lines 1009--1012
+\T1/lmr/m/n/10.95 Jedes sol-che Paar $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U
+; '\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 heiÿt ei-ne $[]$ oder ein $[]$
  []
 
-<images/Karte.jpg, id=469, 554.07pt x 483.7272pt>
+<images/Karte.jpg, id=520, 554.07pt x 483.7272pt>
 File: images/Karte.jpg Graphic file (type jpg)
  <use images/Karte.jpg>
-[32 <./images/Torus_Doppelpendel.jpg> <./images/Stringtheorie.jpg>]
+[32 <images/Torus_Doppelpendel.jpg> <images/Stringtheorie.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
  []
 
-<images/Kartenwechsel.jpg, id=477, 615.2586pt x 486.618pt>
+<images/Kartenwechsel.jpg, id=528, 615.2586pt x 486.618pt>
 File: images/Kartenwechsel.jpg Graphic file (type jpg)
 
-<use images/Kartenwechsel.jpg> [33 <./images/Karte.jpg> <./images/Kartenwechsel
-.jpg>]
-Overfull \hbox (109.59842pt too wide) in paragraph at lines 1042--1044
-[]\T1/lmr/bx/n/10.95 Definition II.5 \T1/lmr/m/n/10.95 ($\OML/lmm/m/it/10.95 C[
+<use images/Kartenwechsel.jpg> [33 <images/Karte.jpg> <images/Kartenwechsel.jpg
+>]
+Overfull \hbox (109.64128pt too wide) in paragraph at lines 1042--1044
+[]\T1/lmr/bx/n/10.95 Definition II.5 \T1/lmr/m/n/10.95 ($\OML/cmm/m/it/10.95 C[
 ]$\T1/lmr/m/n/10.95 -Mannigfaltigkeit, glatt)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n
 /10.95 Ei-ne $[]$
  []
@@ -1374,15 +1319,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1042--1044
 
  []
 
-<images/Verkleben.jpg, id=487, 679.338pt x 472.6458pt>
+<images/Verkleben.jpg, id=540, 679.338pt x 472.6458pt>
 File: images/Verkleben.jpg Graphic file (type jpg)
 
 <use images/Verkleben.jpg>
-<images/Verkleben_S2.jpg, id=488, 363.2772pt x 450.9648pt>
+<images/Verkleben_S2.jpg, id=541, 363.2772pt x 450.9648pt>
 File: images/Verkleben_S2.jpg Graphic file (type jpg)
 
 <use images/Verkleben_S2.jpg>
-<images/Norm_invers.jpg, id=489, 509.2626pt x 286.671pt>
+<images/Norm_invers.jpg, id=542, 509.2626pt x 286.671pt>
 File: images/Norm_invers.jpg Graphic file (type jpg)
 
 <use images/Norm_invers.jpg>
@@ -1390,9 +1335,8 @@ Overfull \hbox (76.47202pt too wide) in paragraph at lines 1045--1048
 [][] []
  []
 
-[34 <./images/Verkleben.jpg> <./images/Verkleben_S2.jpg> <./images/Norm_invers.
-jpg>]
-Overfull \hbox (4.05664pt too wide) in paragraph at lines 1058--1059
+[34 <images/Verkleben.jpg> <images/Verkleben_S2.jpg> <images/Norm_invers.jpg>]
+Overfull \hbox (4.05649pt too wide) in paragraph at lines 1058--1059
 []\T1/lmr/m/n/10.95 Produkte von kom-pak-ten/separablen Räu-men sind kom-pakt/s
 eparabel. 
  []
@@ -1402,79 +1346,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 
  []
 
-<images/Polarkoordinaten.jpg, id=496, 465.4188pt x 286.1892pt>
+<images/Polarkoordinaten.jpg, id=549, 465.4188pt x 286.1892pt>
 File: images/Polarkoordinaten.jpg Graphic file (type jpg)
 
-<use images/Polarkoordinaten.jpg> [35 <./images/Polarkoordinaten.jpg>]
-<images/Abb_diffbar.jpg, id=505, 697.1646pt x 366.6498pt>
+<use images/Polarkoordinaten.jpg> [35 <images/Polarkoordinaten.jpg>]
+<images/Abb_diffbar.jpg, id=560, 697.1646pt x 366.6498pt>
 File: images/Abb_diffbar.jpg Graphic file (type jpg)
 
-<use images/Abb_diffbar.jpg> [36 <./images/Abb_diffbar.jpg>]
-Overfull \hbox (5.67163pt too wide) detected at line 1098
-\OML/lmm/m/it/10.95 f \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n
-/10.95 (\OML/lmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 ) := \OMS
-/lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 g [] [] U \OMS/lmsy/m/n/10.95 ! \U/msb/m/n
-/10.95 R[] \OMS/lmsy/m/n/10.95 j \OML/lmm/m/it/10.95 g[]C[]\OMS/lmsy/m/n/10.95 
-g[]\OML/lmm/m/it/10.95 Df\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/
-10.95 ) = \OML/lmm/m/it/10.95 l \OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x \OMS
-/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 U
+<use images/Abb_diffbar.jpg> [36 <images/Abb_diffbar.jpg>]
+Overfull \hbox (5.67049pt too wide) detected at line 1098
+\OML/cmm/m/it/10.95 f \OMS/lmr/m/n/10.95 2 \OML/cmm/m/it/10.95 C[]\OT1/cmr/m/n/
+10.95 (\OML/cmm/m/it/10.95 U; \U/msb/m/n/10.95 R[]\OT1/cmr/m/n/10.95 ) := \OMS/
+lmr/m/n/10.95 f\OML/cmm/m/it/10.95 g [] [] U \OMS/lmr/m/n/10.95 ! \U/msb/m/n/10
+.95 R[] \OMS/lmr/m/n/10.95 j \OML/cmm/m/it/10.95 g[]C[]\OMS/lmr/m/n/10.95 g[]\O
+ML/cmm/m/it/10.95 Df\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95
+ ) = \OML/cmm/m/it/10.95 l \OMS/lmr/m/n/10.95 8\OML/cmm/m/it/10.95 x \OMS/lmr/m
+/n/10.95 2 \OML/cmm/m/it/10.95 U
  []
 
-<images/Satz_UnterMf.jpg, id=513, 381.5856pt x 406.6392pt>
+<images/Satz_UnterMf.jpg, id=568, 381.5856pt x 406.6392pt>
 File: images/Satz_UnterMf.jpg Graphic file (type jpg)
 
 <use images/Satz_UnterMf.jpg>
-Overfull \hbox (36.06137pt too wide) detected at line 1103
-\OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10
-.95 \ \OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 '\OT1/lmr
-/m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 \ \OT
-1/lmr/m/n/10.95 (\U/msb/m/n/10.95 R[] \OMS/lmsy/m/n/10.95 ^^B f\OT1/lmr/m/n/10.
-95 0\OMS/lmsy/m/n/10.95 g\OT1/lmr/m/n/10.95 ) = \OMS/lmsy/m/n/10.95 f\OT1/lmr/m
-/n/10.95 (\OML/lmm/m/it/10.95 y[]; [] ; y[]\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/1
-0.95 2 \OML/lmm/m/it/10.95 '\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m
-/n/10.95 ) \OMS/lmsy/m/n/10.95 j \OML/lmm/m/it/10.95 y[] \OT1/lmr/m/n/10.95 = [
-] = \OML/lmm/m/it/10.95 y[] \OT1/lmr/m/n/10.95 = 0\OMS/lmsy/m/n/10.95 g
+Overfull \hbox (36.05983pt too wide) detected at line 1103
+\OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U \OMS/lmr/m/n/10.
+95 \ \OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 '\OT1/cmr/
+m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 ) \OMS/lmr/m/n/10.95 \ \OT1/
+cmr/m/n/10.95 (\U/msb/m/n/10.95 R[] \OMS/lmr/m/n/10.95  f\OT1/cmr/m/n/10.95 0\
+OMS/lmr/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = \OMS/lmr/m/n/10.95 f\OT1/cmr/m/n/10.9
+5 (\OML/cmm/m/it/10.95 y[]; [] ; y[]\OT1/cmr/m/n/10.95 ) \OMS/lmr/m/n/10.95 2 \
+OML/cmm/m/it/10.95 '\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95
+ ) \OMS/lmr/m/n/10.95 j \OML/cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = [] = \OML/
+cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = 0\OMS/lmr/m/n/10.95 g
  []
 
-LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1106.
 
-[37 <./images/Satz_UnterMf.jpg>]
+LaTeX Font Warning: Font shape `OMS/lmr/m/it' undefined
+(Font)              using `OMS/lmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 1106.
+
+[37 <images/Satz_UnterMf.jpg>]
 Underfull \hbox (badness 4967) in paragraph at lines 1129--1130
-[]$\OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 x[] \OMS/lmsy/m/n/10.95 2 \OML/lmm/
-m/it/10.95 M\OMS/lmsy/m/n/10.95 9\OML/lmm/m/it/10.95 U \OT1/lmr/m/n/10.95 = \OM
-L/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95
- ) \OMS/lmsy/m/n/10.95 ^^R[] \U/msb/m/n/10.95 R[][]\OML/lmm/m/it/10.95 f \OMS/l
-msy/m/n/10.95 2 \OML/lmm/m/it/10.95 C[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
-U; \U/msb/m/n/10.95 R[]\OT1/lmr/m/n/10.95 )$
+[]$\OMS/lmr/m/it/10.95 8\OML/cmm/m/it/10.95 x[] \OMS/lmr/m/it/10.95 2 \OML/cmm/
+m/it/10.95 M\OMS/lmr/m/it/10.95 9\OML/cmm/m/it/10.95 U \OT1/cmr/m/n/10.95 = \OM
+L/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95
+ ) \OMS/lmr/m/it/10.95 [] \U/msb/m/n/10.95 R[][]\OML/cmm/m/it/10.95 f \OMS/lmr
+/m/it/10.95 2 \OML/cmm/m/it/10.95 C[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 U;
+ \U/msb/m/n/10.95 R[]\OT1/cmr/m/n/10.95 )$
  []
 
 [38] [39]
-<images/Beweis_Satz_UMF_Diagramm.jpg, id=542, 378.213pt x 174.8934pt>
+<images/Beweis_Satz_UMF_Diagramm.jpg, id=599, 378.213pt x 174.8934pt>
 File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
 
-<use images/Beweis_Satz_UMF_Diagramm.jpg> [40 <./images/Beweis_Satz_UMF_Diagram
-m.jpg>]
-Overfull \hbox (18.96873pt too wide) in paragraph at lines 1227--1230
-[]\T1/lmr/bx/n/10.95 Satz II.3. []\T1/lmr/m/it/10.95 ($\OML/lmm/m/it/10.95 C[]$
+<use images/Beweis_Satz_UMF_Diagramm.jpg> [40 <images/Beweis_Satz_UMF_Diagramm.
+jpg>]
+Overfull \hbox (19.0586pt too wide) in paragraph at lines 1227--1230
+[]\T1/lmr/bx/n/10.95 Satz II.3. []\T1/lmr/m/it/10.95 ($\OML/cmm/m/it/10.95 C[]$
 \T1/lmr/m/it/10.95 -Untermannigfaltigkeiten von $\U/msb/m/n/10.95 R[]$ \T1/lmr/
-m/it/10.95 sind $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeiten
+m/it/10.95 sind $\OML/cmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -Mannigfaltigkeiten
 )
  []
 
-[41] <images/Identifizierung1.jpg, id=552, 654.7662pt x 467.346pt>
+[41] <images/Identifizierung1.jpg, id=609, 654.7662pt x 467.346pt>
 File: images/Identifizierung1.jpg Graphic file (type jpg)
 
 <use images/Identifizierung1.jpg>
-<images/Identifizierung2.jpg, id=553, 454.3374pt x 427.8384pt>
+<images/Identifizierung2.jpg, id=610, 454.3374pt x 427.8384pt>
 File: images/Identifizierung2.jpg Graphic file (type jpg)
 
 <use images/Identifizierung2.jpg>
-<images/Identifizierung_Umgebungen.jpg, id=554, 635.976pt x 473.6094pt>
+<images/Identifizierung_Umgebungen.jpg, id=611, 635.976pt x 473.6094pt>
 File: images/Identifizierung_Umgebungen.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Umgebungen.jpg>
-<images/Identifizierung_Umgebungen2.jpg, id=555, 276.0714pt x 276.0714pt>
+<images/Identifizierung_Umgebungen2.jpg, id=612, 276.0714pt x 276.0714pt>
 File: images/Identifizierung_Umgebungen2.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Umgebungen2.jpg>
@@ -1487,19 +1433,20 @@ Overfull \hbox (21.58853pt too wide) in paragraph at lines 1235--1241
 [] 
  []
 
-[42 <./images/Identifizierung1.jpg> <./images/Identifizierung2.jpg>] [43 <./ima
-ges/Identifizierung_Umgebungen.jpg> <./images/Identifizierung_Umgebungen2.jpg>]
+[42 <images/Identifizierung1.jpg> <images/Identifizierung2.jpg>] [43 <images/Id
+entifizierung_Umgebungen.jpg> <images/Identifizierung_Umgebungen2.jpg>]
 File: images/Partition.jpg Graphic file (type jpg)
+
 <use images/Partition.jpg>
-<images/Partition_R.jpg, id=565, 543.4704pt x 153.6942pt>
+<images/Partition_R.jpg, id=622, 543.4704pt x 153.6942pt>
 File: images/Partition_R.jpg Graphic file (type jpg)
 
 <use images/Partition_R.jpg>
-<images/Identifizierung_Linien.jpg, id=566, 559.3698pt x 158.5122pt>
+<images/Identifizierung_Linien.jpg, id=623, 559.3698pt x 158.5122pt>
 File: images/Identifizierung_Linien.jpg Graphic file (type jpg)
 
 <use images/Identifizierung_Linien.jpg>
-<images/Linien_Quadrat.jpg, id=567, 488.0634pt x 433.62pt>
+<images/Linien_Quadrat.jpg, id=624, 488.0634pt x 433.62pt>
 File: images/Linien_Quadrat.jpg Graphic file (type jpg)
 
 <use images/Linien_Quadrat.jpg>
@@ -1507,39 +1454,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 1277--1281
 
  []
 
-[44 <./images/Partition_R.jpg>]
-<images/Linien_Torus_rational.jpg, id=580, 369.0588pt x 227.8914pt>
+[44 <images/Partition_R.jpg>]
+<images/Linien_Torus_rational.jpg, id=637, 369.0588pt x 227.8914pt>
 File: images/Linien_Torus_rational.jpg Graphic file (type jpg)
 
 <use images/Linien_Torus_rational.jpg>
-<images/Linien_Torus_irrational.jpg, id=581, 428.802pt x 264.99pt>
+<images/Linien_Torus_irrational.jpg, id=638, 428.802pt x 264.99pt>
 File: images/Linien_Torus_irrational.jpg Graphic file (type jpg)
 
-<use images/Linien_Torus_irrational.jpg> [45 <./images/Identifizierung_Linien.j
-pg> <./images/Linien_Quadrat.jpg>] [46 <./images/Linien_Torus_rational.jpg> <./
-images/Linien_Torus_irrational.jpg>]
-<images/Quotientenabbildung.jpg, id=591, 395.076pt x 235.6002pt>
+<use images/Linien_Torus_irrational.jpg> [45 <images/Identifizierung_Linien.jpg
+> <images/Linien_Quadrat.jpg>] [46 <images/Linien_Torus_rational.jpg> <images/L
+inien_Torus_irrational.jpg>]
+<images/Quotientenabbildung.jpg, id=648, 395.076pt x 235.6002pt>
 File: images/Quotientenabbildung.jpg Graphic file (type jpg)
 
 <use images/Quotientenabbildung.jpg>
-<images/f_modulo_S_Diagramm.jpg, id=592, 305.4612pt x 253.9086pt>
+<images/f_modulo_S_Diagramm.jpg, id=649, 305.4612pt x 253.9086pt>
 File: images/f_modulo_S_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_Diagramm.jpg>
-<images/f_modulo_S_T_Diagramm.jpg, id=593, 317.0244pt x 281.3712pt>
+<images/f_modulo_S_T_Diagramm.jpg, id=650, 317.0244pt x 281.3712pt>
 File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
 
-<use images/f_modulo_S_T_Diagramm.jpg> [47 <./images/Quotientenabbildung.jpg> <
-./images/f_modulo_S_Diagramm.jpg> <./images/f_modulo_S_T_Diagramm.jpg>]
-<images/Quadrat_nach_Torus.jpg, id=602, 613.8132pt x 460.6008pt>
+<use images/f_modulo_S_T_Diagramm.jpg> [47 <images/Quotientenabbildung.jpg> <im
+ages/f_modulo_S_Diagramm.jpg> <images/f_modulo_S_T_Diagramm.jpg>]
+<images/Quadrat_nach_Torus.jpg, id=659, 613.8132pt x 460.6008pt>
 File: images/Quadrat_nach_Torus.jpg Graphic file (type jpg)
 
 <use images/Quadrat_nach_Torus.jpg>
-<images/Quotient_Torus.jpg, id=603, 689.9376pt x 356.0502pt>
+<images/Quotient_Torus.jpg, id=660, 689.9376pt x 356.0502pt>
 File: images/Quotient_Torus.jpg Graphic file (type jpg)
 
 <use images/Quotient_Torus.jpg>
-<images/Quotient_Moebius.jpg, id=604, 691.383pt x 423.5022pt>
+<images/Quotient_Moebius.jpg, id=661, 691.383pt x 423.5022pt>
 File: images/Quotient_Moebius.jpg Graphic file (type jpg)
 
 <use images/Quotient_Moebius.jpg>
@@ -1558,7 +1505,7 @@ Overfull \hbox (54.83301pt too wide) in paragraph at lines 1345--1357
  []
 
 
-Overfull \hbox (41.71655pt too wide) in paragraph at lines 1345--1357
+Overfull \hbox (41.71413pt too wide) in paragraph at lines 1345--1357
 \T1/lmr/m/n/8 http://de.wikipedia.org/w/index.php?title=Datei:M%C3%B6biusband.p
 ng&filetimestamp=20090802105255
  []
@@ -1568,54 +1515,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 1345--1357
 
  []
 
-[48] [49 <./images/Quadrat_nach_Torus.jpg> <./images/Quotient_Torus.jpg>]
-[50 <./images/Quotient_Moebius.jpg>]
-<images/0_1_drittel.jpg, id=622, 552.1428pt x 81.906pt>
+[48] [49 <images/Quadrat_nach_Torus.jpg> <images/Quotient_Torus.jpg>] [50 <imag
+es/Quotient_Moebius.jpg>]
+<images/0_1_drittel.jpg, id=679, 552.1428pt x 81.906pt>
 File: images/0_1_drittel.jpg Graphic file (type jpg)
 
 <use images/0_1_drittel.jpg>
-<images/0_1_drittel_2.jpg, id=623, 552.1428pt x 81.906pt>
+<images/0_1_drittel_2.jpg, id=680, 552.1428pt x 81.906pt>
 File: images/0_1_drittel_2.jpg Graphic file (type jpg)
 
 <use images/0_1_drittel_2.jpg>
-<images/1_nach_1durch3.jpg, id=624, 547.3248pt x 232.7094pt>
+<images/1_nach_1durch3.jpg, id=681, 547.3248pt x 232.7094pt>
 File: images/1_nach_1durch3.jpg Graphic file (type jpg)
 
 <use images/1_nach_1durch3.jpg>
-<images/1_nach_1durch3_2.jpg, id=625, 129.1224pt x 175.3752pt>
+<images/1_nach_1durch3_2.jpg, id=682, 129.1224pt x 175.3752pt>
 File: images/1_nach_1durch3_2.jpg Graphic file (type jpg)
 
 <use images/1_nach_1durch3_2.jpg>
-<images/P.jpg, id=626, 61.1886pt x 159.4758pt>
+<images/P.jpg, id=683, 61.1886pt x 159.4758pt>
 File: images/P.jpg Graphic file (type jpg)
  <use images/P.jpg>
-<images/Q.jpg, id=627, 113.7048pt x 112.2594pt>
+<images/Q.jpg, id=684, 113.7048pt x 112.2594pt>
 File: images/Q.jpg Graphic file (type jpg)
  <use images/Q.jpg>
-<images/0_1.jpg, id=628, 593.0958pt x 126.2316pt>
+<images/0_1.jpg, id=685, 593.0958pt x 126.2316pt>
 File: images/0_1.jpg Graphic file (type jpg)
  <use images/0_1.jpg>
 File: images/Knoten_Kreis.jpg Graphic file (type jpg)
 
 <use images/Knoten_Kreis.jpg>
-<images/B2_mit_Rand.jpg, id=629, 245.2362pt x 251.9814pt>
+<images/B2_mit_Rand.jpg, id=686, 245.2362pt x 251.9814pt>
 File: images/B2_mit_Rand.jpg Graphic file (type jpg)
 
-<use images/B2_mit_Rand.jpg> <images/S2.jpg, id=630, 184.5294pt x 184.5294pt>
+<use images/B2_mit_Rand.jpg> <images/S2.jpg, id=687, 184.5294pt x 184.5294pt>
 File: images/S2.jpg Graphic file (type jpg)
 
-<use images/S2.jpg> [51 <./images/0_1_drittel.jpg> <./images/0_1_drittel_2.jpg>
- <./images/1_nach_1durch3.jpg> <./images/1_nach_1durch3_2.jpg> <./images/P.jpg>
- <./images/Q.jpg> <./images/0_1.jpg> <./images/B2_mit_Rand.jpg> <./images/S2.jp
-g>] <images/Zylinder.jpg, id=637, 119.0046pt x 284.262pt>
+<use images/S2.jpg> [51 <images/0_1_drittel.jpg> <images/0_1_drittel_2.jpg> <im
+ages/1_nach_1durch3.jpg> <images/1_nach_1durch3_2.jpg> <images/P.jpg> <images/Q
+.jpg> <images/0_1.jpg> <images/B2_mit_Rand.jpg> <images/S2.jpg>]
+<images/Zylinder.jpg, id=694, 119.0046pt x 284.262pt>
 File: images/Zylinder.jpg Graphic file (type jpg)
 
 <use images/Zylinder.jpg>
-<images/I_Verkleben.jpg, id=638, 351.2322pt x 269.3262pt>
+<images/I_Verkleben.jpg, id=695, 351.2322pt x 269.3262pt>
 File: images/I_Verkleben.jpg Graphic file (type jpg)
 
 <use images/I_Verkleben.jpg>
-<images/Def_Verkleben.jpg, id=639, 306.4248pt x 269.3262pt>
+<images/Def_Verkleben.jpg, id=696, 306.4248pt x 269.3262pt>
 File: images/Def_Verkleben.jpg Graphic file (type jpg)
 
 <use images/Def_Verkleben.jpg>
@@ -1625,17 +1572,17 @@ Underfull \hbox (badness 1454) in paragraph at lines 1406--1409
 
 
 Underfull \hbox (badness 1052) in paragraph at lines 1406--1409
-\T1/lmr/m/n/10.95 durch die Par-ti-ti-on von $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/
-n/10.95 in die Ein-punkt-men-gen von $\OML/lmm/m/it/10.95 X\OMS/lmsy/m/n/10.95 
-n\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A \OMS/lmsy/m/n/10.95 [ \OML/lmm/m/it/
-10.95 B\OT1/lmr/m/n/10.95 )$
+\T1/lmr/m/n/10.95 durch die Par-ti-ti-on von $\OML/cmm/m/it/10.95 X$ \T1/lmr/m/
+n/10.95 in die Ein-punkt-men-gen von $\OML/cmm/m/it/10.95 X\OMS/lmr/m/it/10.95 
+n\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 A \OMS/lmr/m/it/10.95 [ \OML/cmm/m/it/
+10.95 B\OT1/cmr/m/n/10.95 )$
  []
 
 
 Underfull \hbox (badness 1558) in paragraph at lines 1406--1409
-\T1/lmr/m/n/10.95 und die Zwei-punkt-men-gen $\OMS/lmsy/m/n/10.95 f\OML/lmm/m/i
-t/10.95 x; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )\OMS/l
-msy/m/n/10.95 g\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.9
+\T1/lmr/m/n/10.95 und die Zwei-punkt-men-gen $\OMS/lmr/m/it/10.95 f\OML/cmm/m/i
+t/10.95 x; f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )\OMS/l
+mr/m/it/10.95 g\OML/cmm/m/it/10.95 ; x \OMS/lmr/m/it/10.95 2 \OML/cmm/m/it/10.9
 5 A$ \T1/lmr/m/n/10.95 ge-ge-ben ist, $[]$
  []
 
@@ -1644,15 +1591,15 @@ Underfull \hbox (badness 1024) in paragraph at lines 1406--1409
 \T1/lmr/m/n/10.95 ($[]$) und die-ser Pro-zess
  []
 
-<images/Quadrat_Zylinder.jpg, id=640, 665.8476pt x 373.395pt>
+[52 <images/Zylinder.jpg> <images/I_Verkleben.jpg> <images/Def_Verkleben.jpg>]
+<images/Quadrat_Zylinder.jpg, id=705, 665.8476pt x 373.395pt>
 File: images/Quadrat_Zylinder.jpg Graphic file (type jpg)
 
-<use images/Quadrat_Zylinder.jpg> [52 <./images/Zylinder.jpg> <./images/I_Verkl
-eben.jpg> <./images/Def_Verkleben.jpg>]
-<images/Torus.jpg, id=649, 273.1806pt x 169.1118pt>
+<use images/Quadrat_Zylinder.jpg>
+<images/Torus.jpg, id=706, 273.1806pt x 169.1118pt>
 File: images/Torus.jpg Graphic file (type jpg)
  <use images/Torus.jpg>
-<images/Quadrat.jpg, id=650, 269.808pt x 269.3262pt>
+<images/Quadrat.jpg, id=707, 269.808pt x 269.3262pt>
 File: images/Quadrat.jpg Graphic file (type jpg)
  <use images/Quadrat.jpg>
 File: images/Zylinder.jpg Graphic file (type jpg)
@@ -1660,19 +1607,19 @@ File: images/Zylinder.jpg Graphic file (type jpg)
 <use images/Zylinder.jpg>
 File: images/Torus.jpg Graphic file (type jpg)
  <use images/Torus.jpg>
-<images/Quadrat_Torus.jpg, id=651, 306.4248pt x 306.9066pt>
+<images/Quadrat_Torus.jpg, id=708, 306.4248pt x 306.9066pt>
 File: images/Quadrat_Torus.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Torus.jpg>
-<images/Quadrat_Moebiusband.jpg, id=652, 382.5492pt x 269.3262pt>
+<images/Quadrat_Moebiusband.jpg, id=709, 382.5492pt x 269.3262pt>
 File: images/Quadrat_Moebiusband.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Moebiusband.jpg>
-<images/Moebiusband.png, id=653, 323.2878pt x 257.763pt>
+<images/Moebiusband.png, id=710, 323.2878pt x 257.763pt>
 File: images/Moebiusband.png Graphic file (type png)
 
 <use images/Moebiusband.png>
-Overfull \hbox (41.71655pt too wide) in paragraph at lines 1422--1426
+Overfull \hbox (41.71413pt too wide) in paragraph at lines 1422--1426
 \T1/lmr/m/n/8 http://de.wikipedia.org/w/index.php?title=Datei:M%C3%B6biusband.p
 ng&filetimestamp=20090802105255
  []
@@ -1682,172 +1629,171 @@ Underfull \hbox (badness 10000) in paragraph at lines 1422--1426
 
  []
 
-[53 <./images/Quadrat_Zylinder.jpg> <./images/Torus.jpg> <./images/Quadrat.jpg>
- <./images/Quadrat_Torus.jpg> <./images/Quadrat_Moebiusband.jpg> <./images/Moeb
-iusband.png>]
-<images/Quadrat_Kleinsche_Flasche.jpg, id=661, 306.4248pt x 306.9066pt>
+[53 <images/Quadrat_Zylinder.jpg> <images/Torus.jpg> <images/Quadrat.jpg> <imag
+es/Quadrat_Torus.jpg> <images/Quadrat_Moebiusband.jpg> <images/Moebiusband.png>
+] <images/Quadrat_Kleinsche_Flasche.jpg, id=717, 306.4248pt x 306.9066pt>
 File: images/Quadrat_Kleinsche_Flasche.jpg Graphic file (type jpg)
 
 <use images/Quadrat_Kleinsche_Flasche.jpg>
-<images/Zylinder_nach_Kleinsche_Flasche.jpg, id=662, 530.4618pt x 338.2236pt>
+<images/Zylinder_nach_Kleinsche_Flasche.jpg, id=718, 530.4618pt x 338.2236pt>
 File: images/Zylinder_nach_Kleinsche_Flasche.jpg Graphic file (type jpg)
 
 <use images/Zylinder_nach_Kleinsche_Flasche.jpg>
-<images/RP2.jpg, id=663, 674.0382pt x 306.4248pt>
+<images/RP2.jpg, id=719, 674.0382pt x 306.4248pt>
 File: images/RP2.jpg Graphic file (type jpg)
- <use images/RP2.jpg> [54 <./images/Quadrat_Kleinsche_Flasche.jpg> <./images/Zy
-linder_nach_Kleinsche_Flasche.jpg> <./images/RP2.jpg>] [55]
+ <use images/RP2.jpg> [54 <images/Quadrat_Kleinsche_Flasche.jpg> <images/Zylind
+er_nach_Kleinsche_Flasche.jpg> <images/RP2.jpg>] [55]
 Kapitel III.
-<images/Homotopie_in_Y.jpg, id=678, 344.487pt x 340.6326pt>
+<images/Homotopie_in_Y.jpg, id=734, 344.487pt x 340.6326pt>
 File: images/Homotopie_in_Y.jpg Graphic file (type jpg)
 
 <use images/Homotopie_in_Y.jpg>
-<images/Weg_als_Homotopie.jpg, id=679, 385.9218pt x 162.8484pt>
+<images/Weg_als_Homotopie.jpg, id=735, 385.9218pt x 162.8484pt>
 File: images/Weg_als_Homotopie.jpg Graphic file (type jpg)
 
 <use images/Weg_als_Homotopie.jpg> [56
 
- <./images/Homotopie_in_Y.jpg>]
+ <images/Homotopie_in_Y.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1485--1488
-[]\T1/lmr/bx/n/10.95 Bemerkung III.1. []$\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.9
-5 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-
+[]\T1/lmr/bx/n/10.95 Bemerkung III.1. []$\OML/cmm/m/it/10.95 C\OT1/cmr/m/n/10.9
+5 (\OML/cmm/m/it/10.95 X; Y\OT1/cmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-
 hen mit der so-ge-nann-ten
  []
 
-<images/Homotopie_zwischen_Wegen.jpg, id=685, 209.1012pt x 211.5102pt>
+<images/Homotopie_zwischen_Wegen.jpg, id=741, 209.1012pt x 211.5102pt>
 File: images/Homotopie_zwischen_Wegen.jpg Graphic file (type jpg)
 
 <use images/Homotopie_zwischen_Wegen.jpg>
-<images/Homotopie_zwischen_Wegen2.jpg, id=686, 571.4148pt x 345.4506pt>
+<images/Homotopie_zwischen_Wegen2.jpg, id=742, 571.4148pt x 345.4506pt>
 File: images/Homotopie_zwischen_Wegen2.jpg Graphic file (type jpg)
 
-<use images/Homotopie_zwischen_Wegen2.jpg> [57 <./images/Weg_als_Homotopie.jpg>
- <./images/Homotopie_zwischen_Wegen.jpg> <./images/Homotopie_zwischen_Wegen2.jp
-g>] <images/Homotop_Endpunkte.jpg, id=696, 653.8026pt x 297.7524pt>
+<use images/Homotopie_zwischen_Wegen2.jpg> [57 <images/Weg_als_Homotopie.jpg> <
+images/Homotopie_zwischen_Wegen.jpg> <images/Homotopie_zwischen_Wegen2.jpg>]
+<images/Homotop_Endpunkte.jpg, id=752, 653.8026pt x 297.7524pt>
 File: images/Homotop_Endpunkte.jpg Graphic file (type jpg)
 
 <use images/Homotop_Endpunkte.jpg>
 File: images/Homotop_Schleifen_R_ohne_0.jpg Graphic file (type jpg)
  <use images/Homotop_Schleifen_R_ohne_0.jpg>
-<images/nicht_homotop_Wege_Torus.jpg, id=697, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_Wege_Torus.jpg, id=753, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_Wege_Torus.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_Wege_Torus.jpg>
-<images/Homotopie_Menge_von_Wegen.jpg, id=698, 660.066pt x 379.1766pt>
+<images/Homotopie_Menge_von_Wegen.jpg, id=754, 660.066pt x 379.1766pt>
 File: images/Homotopie_Menge_von_Wegen.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Menge_von_Wegen.jpg>
-<images/Residuensatz.jpg, id=699, 544.9158pt x 340.1508pt>
+<images/Residuensatz.jpg, id=755, 544.9158pt x 340.1508pt>
 File: images/Residuensatz.jpg Graphic file (type jpg)
 
-<use images/Residuensatz.jpg> [58 <./images/Homotop_Endpunkte.jpg> <./images/ni
-cht_homotop_Wege_Torus.jpg> <./images/Homotopie_Menge_von_Wegen.jpg>]
-<images/aneinanderfuegbar.jpg, id=706, 448.074pt x 178.7478pt>
+<use images/Residuensatz.jpg> [58 <images/Homotop_Endpunkte.jpg> <images/nicht_
+homotop_Wege_Torus.jpg> <images/Homotopie_Menge_von_Wegen.jpg>]
+<images/aneinanderfuegbar.jpg, id=762, 448.074pt x 178.7478pt>
 File: images/aneinanderfuegbar.jpg Graphic file (type jpg)
 
 <use images/aneinanderfuegbar.jpg>
-<images/Homotopie_Produkt.jpg, id=707, 500.5902pt x 204.765pt>
+<images/Homotopie_Produkt.jpg, id=763, 500.5902pt x 204.765pt>
 File: images/Homotopie_Produkt.jpg Graphic file (type jpg)
 
-<use images/Homotopie_Produkt.jpg> [59 <./images/Residuensatz.jpg> <./images/an
-einanderfuegbar.jpg> <./images/Homotopie_Produkt.jpg>]
-Overfull \hbox (15.00143pt too wide) in paragraph at lines 1563--1564
+<use images/Homotopie_Produkt.jpg> [59 <images/Residuensatz.jpg> <images/aneina
+nderfuegbar.jpg> <images/Homotopie_Produkt.jpg>]
+Overfull \hbox (15.13298pt too wide) in paragraph at lines 1563--1564
 []
  []
 
-<images/inverser_Weg.jpg, id=716, 428.802pt x 185.0112pt>
+<images/inverser_Weg.jpg, id=772, 428.802pt x 185.0112pt>
 File: images/inverser_Weg.jpg Graphic file (type jpg)
 
 <use images/inverser_Weg.jpg>
 Underfull \hbox (badness 1990) in paragraph at lines 1564--1565
-[]\T1/lmr/m/n/10.95 Für einen Weg $\OML/lmm/m/it/10.95 u [] [] I \OMS/lmsy/m/n/
-10.95 ! \OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 sei $\OML/lmm/m/it/10.95 u[] [
-] [] I \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X; s \OMS/lmsy/m/n/10.95 7! \O
-ML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (1 \OMS/lmsy/m/n/10.95 ^^@
+[]\T1/lmr/m/n/10.95 Für einen Weg $\OML/cmm/m/it/10.95 u [] [] I \OMS/lmr/m/it/
+10.95 ! \OML/cmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 sei $\OML/cmm/m/it/10.95 u[] [
+] [] I \OMS/lmr/m/it/10.95 ! \OML/cmm/m/it/10.95 X; s \OMS/lmr/m/it/10.95 7! \O
+ML/cmm/m/it/10.95 u\OT1/cmr/m/n/10.95 (1 \OMS/lmr/m/it/10.95  
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1564--1565
-\OML/lmm/m/it/10.95 s\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , der zu $\OML/lmm/
+\OML/cmm/m/it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , der zu $\OML/cmm/
 m/it/10.95 u$ $[]$ \T1/lmr/m/n/10.95 (oder: $[]$) $[]$.
  []
 
-<images/Schleifen.jpg, id=717, 281.3712pt x 230.3004pt>
+<images/Schleifen.jpg, id=773, 281.3712pt x 230.3004pt>
 File: images/Schleifen.jpg Graphic file (type jpg)
 
 <use images/Schleifen.jpg>
-<images/Produkt_Lemma.jpg, id=718, 387.849pt x 242.3454pt>
+<images/Produkt_Lemma.jpg, id=774, 387.849pt x 242.3454pt>
 File: images/Produkt_Lemma.jpg Graphic file (type jpg)
 
 <use images/Produkt_Lemma.jpg>
-Overfull \hbox (30.23625pt too wide) in paragraph at lines 1584--1586
-\T1/lmr/m/it/10.95 mit $\OML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (0) = \OML/lmm/
-m/it/10.95 x; u\OT1/lmr/m/n/10.95 (1) = \OML/lmm/m/it/10.95 y \OT1/lmr/m/n/10.9
-5 = \OML/lmm/m/it/10.95 v\OT1/lmr/m/n/10.95 (0)\OML/lmm/m/it/10.95 ;  v\OT1/lmr
-/m/n/10.95 (1) = \OML/lmm/m/it/10.95 z \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95
- w\OT1/lmr/m/n/10.95 (0)$ []
+Overfull \hbox (30.23386pt too wide) in paragraph at lines 1584--1586
+\T1/lmr/m/it/10.95 mit $\OML/cmm/m/it/10.95 u\OT1/cmr/m/n/10.95 (0) = \OML/cmm/
+m/it/10.95 x; u\OT1/cmr/m/n/10.95 (1) = \OML/cmm/m/it/10.95 y \OT1/cmr/m/n/10.9
+5 = \OML/cmm/m/it/10.95 v\OT1/cmr/m/n/10.95 (0)\OML/cmm/m/it/10.95 ;  v\OT1/cmr
+/m/n/10.95 (1) = \OML/cmm/m/it/10.95 z \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95
+ w\OT1/cmr/m/n/10.95 (0)$ []
  []
 
-[60 <./images/inverser_Weg.jpg> <./images/Schleifen.jpg>]
-<images/Beweis_Produkt_Lemma.jpg, id=727, 370.0224pt x 369.0588pt>
+[60 <images/inverser_Weg.jpg> <images/Schleifen.jpg>]
+<images/Beweis_Produkt_Lemma.jpg, id=783, 370.0224pt x 369.0588pt>
 File: images/Beweis_Produkt_Lemma.jpg Graphic file (type jpg)
 
-<use images/Beweis_Produkt_Lemma.jpg> [61 <./images/Produkt_Lemma.jpg>]
-<images/Fundamentalgruppe.jpg, id=741, 262.581pt x 230.3004pt>
+<use images/Beweis_Produkt_Lemma.jpg> [61 <images/Produkt_Lemma.jpg>]
+<images/Fundamentalgruppe.jpg, id=797, 262.581pt x 230.3004pt>
 File: images/Fundamentalgruppe.jpg Graphic file (type jpg)
 
 <use images/Fundamentalgruppe.jpg>
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1624
 .
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
+ (C:\texmf\tex\latex\lm\t1lmtt.fd
+File: t1lmtt.fd 2003/07/22 v1.1 Font defs for Latin Modern
 )
-Overfull \hbox (64.99907pt too wide) in paragraph at lines 1624--1624
+Overfull \hbox (64.9992pt too wide) in paragraph at lines 1624--1624
 [][][][]$\T1/lmtt/m/n/9 http : / / www . scienceblogs . de / mathlog / 2008 / 0
 3 / physik-[]topologie-[]logik-[]und-[]berechenbarkeit .
  []
 
-<images/Kobordismus.jpg, id=743, 582.978pt x 283.2984pt>
+<images/Kobordismus.jpg, id=798, 582.978pt x 283.2984pt>
 File: images/Kobordismus.jpg Graphic file (type jpg)
 
-<use images/Kobordismus.jpg> [62 <./images/Beweis_Produkt_Lemma.jpg> <./images/
-Fundamentalgruppe.jpg> <./images/Kobordismus.jpg>]
-<images/Basispunkt_Unabhaengigkeit.jpg, id=753, 294.3798pt x 431.6928pt>
+<use images/Kobordismus.jpg> [62 <images/Beweis_Produkt_Lemma.jpg> <images/Fund
+amentalgruppe.jpg> <images/Kobordismus.jpg>]
+<images/Basispunkt_Unabhaengigkeit.jpg, id=811, 294.3798pt x 431.6928pt>
 File: images/Basispunkt_Unabhaengigkeit.jpg Graphic file (type jpg)
 
 <use images/Basispunkt_Unabhaengigkeit.jpg>
-Underfull \hbox (badness 1502) in paragraph at lines 1646--1647
-\T1/lmr/m/n/10.95 die Men-ge der Ho-mo-to-pie-klas-sen $\OT1/lmr/m/n/10.95 [\OM
-L/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 ge-schlos-se-ner We-g
-e in $\OML/lmm/m/it/10.95 x[]$\T1/lmr/m/n/10.95 , mit
+Underfull \hbox (badness 1509) in paragraph at lines 1646--1647
+\T1/lmr/m/n/10.95 die Men-ge der Ho-mo-to-pie-klas-sen $\OT1/cmr/m/n/10.95 [\OM
+L/cmm/m/it/10.95 u\OT1/cmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 ge-schlos-se-ner We-g
+e in $\OML/cmm/m/it/10.95 x[]$\T1/lmr/m/n/10.95 , mit
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 1646--1647
-\T1/lmr/m/n/10.95 der Mul-ti-pli-ka-ti-on $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10
-.95 u\OT1/lmr/m/n/10.95 ] \OMS/lmsy/m/n/10.95 ^^A \OT1/lmr/m/n/10.95 [\OML/lmm/
-m/it/10.95 v\OT1/lmr/m/n/10.95 ] = [\OML/lmm/m/it/10.95 u \OMS/lmsy/m/n/10.95 ^
-^A \OML/lmm/m/it/10.95 v\OT1/lmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 ei-ne Grup-pe, 
-die so-ge-nann-te
+Underfull \hbox (badness 1728) in paragraph at lines 1646--1647
+\T1/lmr/m/n/10.95 der Mul-ti-pli-ka-ti-on $\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10
+.95 u\OT1/cmr/m/n/10.95 ] \OMS/lmr/m/it/10.95  \OT1/cmr/m/n/10.95 [\OML/cmm/m/
+it/10.95 v\OT1/cmr/m/n/10.95 ] = [\OML/cmm/m/it/10.95 u \OMS/lmr/m/it/10.95  \
+OML/cmm/m/it/10.95 v\OT1/cmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 ei-ne Grup-pe, die 
+so-ge-nann-te
  []
 
-[63 <./images/Basispunkt_Unabhaengigkeit.jpg>]
-<images/S1_mit_1.jpg, id=760, 392.1852pt x 361.35pt>
+[63 <images/Basispunkt_Unabhaengigkeit.jpg>]
+<images/S1_mit_1.jpg, id=818, 392.1852pt x 361.35pt>
 File: images/S1_mit_1.jpg Graphic file (type jpg)
  <use images/S1_mit_1.jpg>
-<images/Schleife.jpg, id=761, 391.7034pt x 338.2236pt>
+<images/Schleife.jpg, id=819, 391.7034pt x 338.2236pt>
 File: images/Schleife.jpg Graphic file (type jpg)
 
-<use images/Schleife.jpg> <images/I_S1.jpg, id=762, 448.074pt x 190.311pt>
+<use images/Schleife.jpg> <images/I_S1.jpg, id=820, 448.074pt x 190.311pt>
 File: images/I_S1.jpg Graphic file (type jpg)
 
 <use images/I_S1.jpg>
-<images/schleifenhomotop.jpg, id=763, 244.7544pt x 247.6452pt>
+<images/schleifenhomotop.jpg, id=821, 244.7544pt x 247.6452pt>
 File: images/schleifenhomotop.jpg Graphic file (type jpg)
 
-<use images/schleifenhomotop.jpg> [64 <./images/S1_mit_1.jpg> <./images/Schleif
-e.jpg> <./images/I_S1.jpg> <./images/schleifenhomotop.jpg>]
-<images/Produkt_auf_S1.jpg, id=773, 362.3136pt x 361.35pt>
+<use images/schleifenhomotop.jpg> [64 <images/S1_mit_1.jpg> <images/Schleife.jp
+g> <images/I_S1.jpg> <images/schleifenhomotop.jpg>]
+<images/Produkt_auf_S1.jpg, id=831, 362.3136pt x 361.35pt>
 File: images/Produkt_auf_S1.jpg Graphic file (type jpg)
 
 <use images/Produkt_auf_S1.jpg>
@@ -1855,57 +1801,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 1686--1689
 
  []
 
-<images/Fundamentalgruppe_Rn.jpg, id=774, 374.8404pt x 318.4698pt>
+<images/Fundamentalgruppe_Rn.jpg, id=832, 374.8404pt x 318.4698pt>
 File: images/Fundamentalgruppe_Rn.jpg Graphic file (type jpg)
 
-<use images/Fundamentalgruppe_Rn.jpg> [65 <./images/Produkt_auf_S1.jpg>]
-<images/konvex_sternfoermig.jpg, id=783, 670.6656pt x 377.2494pt>
+<use images/Fundamentalgruppe_Rn.jpg> [65 <images/Produkt_auf_S1.jpg>]
+<images/konvex_sternfoermig.jpg, id=841, 670.6656pt x 377.2494pt>
 File: images/konvex_sternfoermig.jpg Graphic file (type jpg)
 
 <use images/konvex_sternfoermig.jpg>
-<images/I_S2_surjektiv.jpg, id=784, 492.3996pt x 224.037pt>
+<images/I_S2_surjektiv.jpg, id=842, 492.3996pt x 224.037pt>
 File: images/I_S2_surjektiv.jpg Graphic file (type jpg)
 
 <use images/I_S2_surjektiv.jpg>
-<images/I_I2_surjektiv.jpg, id=785, 543.9522pt x 256.3176pt>
+<images/I_I2_surjektiv.jpg, id=843, 543.9522pt x 256.3176pt>
 File: images/I_I2_surjektiv.jpg Graphic file (type jpg)
 
-<use images/I_I2_surjektiv.jpg> [66 <./images/Fundamentalgruppe_Rn.jpg> <./imag
-es/konvex_sternfoermig.jpg> <./images/I_S2_surjektiv.jpg>]
-<images/Weg_S2_nullhomotop.jpg, id=794, 609.9588pt x 453.8556pt>
+<use images/I_I2_surjektiv.jpg> [66 <images/Fundamentalgruppe_Rn.jpg> <images/k
+onvex_sternfoermig.jpg> <images/I_S2_surjektiv.jpg>]
+<images/Weg_S2_nullhomotop.jpg, id=852, 609.9588pt x 453.8556pt>
 File: images/Weg_S2_nullhomotop.jpg Graphic file (type jpg)
 
 <use images/Weg_S2_nullhomotop.jpg>
-<images/Lebesguelemma.jpg, id=795, 650.43pt x 410.4936pt>
+<images/Lebesguelemma.jpg, id=853, 650.43pt x 410.4936pt>
 File: images/Lebesguelemma.jpg Graphic file (type jpg)
 
-<use images/Lebesguelemma.jpg> [67 <./images/I_I2_surjektiv.jpg> <./images/Weg_
-S2_nullhomotop.jpg>] <images/glaetten.jpg, id=804, 565.6332pt x 238.491pt>
+<use images/Lebesguelemma.jpg> [67 <images/I_I2_surjektiv.jpg> <images/Weg_S2_n
+ullhomotop.jpg>] <images/glaetten.jpg, id=862, 565.6332pt x 238.491pt>
 File: images/glaetten.jpg Graphic file (type jpg)
 
 <use images/glaetten.jpg>
-<images/Grosskreis.jpg, id=805, 248.127pt x 249.0906pt>
+<images/Grosskreis.jpg, id=863, 248.127pt x 249.0906pt>
 File: images/Grosskreis.jpg Graphic file (type jpg)
 
 <use images/Grosskreis.jpg>
-<images/Weg_stetige_Abbildung.jpg, id=806, 611.4042pt x 428.802pt>
+<images/Weg_stetige_Abbildung.jpg, id=864, 611.4042pt x 428.802pt>
 File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
 Underfull \hbox (badness 1147) in paragraph at lines 1747--1754
-\T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/lm
-m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m
+\T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/cm
+m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/cmm/m/it/10.95 Y$\T1/lmr/m
 /n/10.95 ,
  []
 
 
-Overfull \hbox (0.13126pt too wide) in paragraph at lines 1747--1754
-\T1/lmr/m/n/10.95 so-ge-nann-ten von $\OML/lmm/m/it/10.95 f$ $[]$\T1/lmr/m/n/10
+Overfull \hbox (0.1331pt too wide) in paragraph at lines 1747--1754
+\T1/lmr/m/n/10.95 so-ge-nann-ten von $\OML/cmm/m/it/10.95 f$ $[]$\T1/lmr/m/n/10
 .95 . 
  []
 
-[68 <./images/Lebesguelemma.jpg> <./images/glaetten.jpg> <./images/Grosskreis.j
-pg>] <images/f_g_homotop.jpg, id=813, 251.9814pt x 161.403pt>
+[68 <images/Lebesguelemma.jpg> <images/glaetten.jpg> <images/Grosskreis.jpg>]
+<images/f_g_homotop.jpg, id=871, 251.9814pt x 161.403pt>
 File: images/f_g_homotop.jpg Graphic file (type jpg)
 
 <use images/f_g_homotop.jpg>
@@ -1914,47 +1860,47 @@ Underfull \hbox (badness 1546) in paragraph at lines 1769--1775
 ) to-po-lo-gi-schen
  []
 
-[69 <./images/Weg_stetige_Abbildung.jpg>] [70 <./images/f_g_homotop.jpg>]
-<images/Produkt_Fundamentalgruppe.jpg, id=826, 278.4804pt x 240.4182pt>
+[69 <images/Weg_stetige_Abbildung.jpg>] [70 <images/f_g_homotop.jpg>]
+<images/Produkt_Fundamentalgruppe.jpg, id=884, 278.4804pt x 240.4182pt>
 File: images/Produkt_Fundamentalgruppe.jpg Graphic file (type jpg)
 
 <use images/Produkt_Fundamentalgruppe.jpg>
 Underfull \hbox (badness 2653) in paragraph at lines 1788--1794
-\T1/lmr/m/n/10.95 Betrachtet man nun die Fun-da-men-tal-grup-pen von $\OML/lmm/
-m/it/10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y; X; Y$ \T1/lmr/m/n/1
-0.95 in
+\T1/lmr/m/n/10.95 Betrachtet man nun die Fun-da-men-tal-grup-pen von $\OML/cmm/
+m/it/10.95 X \OMS/lmr/m/it/10.95  \OML/cmm/m/it/10.95 Y; X; Y$ \T1/lmr/m/n/10.
+95 in
  []
 
-<images/Wege_homotop.jpg, id=827, 345.4506pt x 163.3302pt>
+<images/Wege_homotop.jpg, id=885, 345.4506pt x 163.3302pt>
 File: images/Wege_homotop.jpg Graphic file (type jpg)
 
-<use images/Wege_homotop.jpg> [71 <./images/Produkt_Fundamentalgruppe.jpg>]
-<images/geschlossener_Weg_nullhomotop.jpg, id=839, 273.1806pt x 241.8636pt>
+<use images/Wege_homotop.jpg> [71 <images/Produkt_Fundamentalgruppe.jpg>]
+<images/geschlossener_Weg_nullhomotop.jpg, id=897, 273.1806pt x 241.8636pt>
 File: images/geschlossener_Weg_nullhomotop.jpg Graphic file (type jpg)
 
 <use images/geschlossener_Weg_nullhomotop.jpg>
-<images/Schleife_frei_homotop.jpg, id=840, 272.6988pt x 241.8636pt>
+<images/Schleife_frei_homotop.jpg, id=898, 272.6988pt x 241.8636pt>
 File: images/Schleife_frei_homotop.jpg Graphic file (type jpg)
 
 <use images/Schleife_frei_homotop.jpg>
-<images/Zylinder_nach_D2.jpg, id=841, 673.0746pt x 203.3196pt>
+<images/Zylinder_nach_D2.jpg, id=899, 673.0746pt x 203.3196pt>
 File: images/Zylinder_nach_D2.jpg Graphic file (type jpg)
 
 <use images/Zylinder_nach_D2.jpg>
-<images/Rand_I2_S1.jpg, id=842, 378.213pt x 183.5658pt>
+<images/Rand_I2_S1.jpg, id=900, 378.213pt x 183.5658pt>
 File: images/Rand_I2_S1.jpg Graphic file (type jpg)
 
 <use images/Rand_I2_S1.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72 <./images/Wege_homotop.jpg> <./images/geschlossener_Weg_nullhomotop.jpg> <.
-/images/Schleife_frei_homotop.jpg> <./images/Zylinder_nach_D2.jpg>] [73 <./imag
-es/Rand_I2_S1.jpg>] <images/Kreissegment.jpg, id=854, 335.3328pt x 371.9496pt>
+[72 <images/Wege_homotop.jpg> <images/geschlossener_Weg_nullhomotop.jpg> <image
+s/Schleife_frei_homotop.jpg> <images/Zylinder_nach_D2.jpg>] [73 <images/Rand_I2
+_S1.jpg>] <images/Kreissegment.jpg, id=912, 335.3328pt x 371.9496pt>
 File: images/Kreissegment.jpg Graphic file (type jpg)
 
 <use images/Kreissegment.jpg>
-<images/U_Spirale.jpg, id=855, 522.2712pt x 495.7722pt>
+<images/U_Spirale.jpg, id=913, 522.2712pt x 495.7722pt>
 File: images/U_Spirale.jpg Graphic file (type jpg)
 
 <use images/U_Spirale.jpg>
@@ -1962,52 +1908,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 1857--1861
 
  []
 
-[74 <./images/Kreissegment.jpg> <./images/U_Spirale.jpg>] [75]
-<images/Spirale_disjunkt.jpg, id=868, 341.5962pt x 487.0998pt>
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.16498pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74 <images/Kreissegment.jpg> <images/U_Spirale.jpg>] [75]
+<images/Spirale_disjunkt.jpg, id=926, 341.5962pt x 487.0998pt>
 File: images/Spirale_disjunkt.jpg Graphic file (type jpg)
 
 <use images/Spirale_disjunkt.jpg>
-<images/lokal_trivialisierend.jpg, id=870, 896.148pt x 451.4466pt>
+<images/lokal_trivialisierend.jpg, id=927, 896.148pt x 451.4466pt>
 File: images/lokal_trivialisierend.jpg Graphic file (type jpg)
 
 <use images/lokal_trivialisierend.jpg>
-<images/lokal_trivialisierend2.jpg, id=871, 573.8238pt x 487.0998pt>
+<images/lokal_trivialisierend2.jpg, id=928, 573.8238pt x 487.0998pt>
 File: images/lokal_trivialisierend2.jpg Graphic file (type jpg)
 
 <use images/lokal_trivialisierend2.jpg>
-Underfull \hbox (badness 1127) in paragraph at lines 1883--1887
-[]\T1/lmr/bx/n/10.95 Bemerkung III.13. []$\OML/lmm/m/it/10.95 ^^Y [] [] [] \OMS
-/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 ist al-so ei-ne Über
--la-ge-rung, wenn
+Underfull \hbox (badness 1107) in paragraph at lines 1883--1887
+[]\T1/lmr/bx/n/10.95 Bemerkung III.13. []$\OML/cmm/m/it/10.95  [] [] [] \OMS/l
+mr/m/it/10.95 ! \OML/cmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 ist al-so ei-ne Über-l
+a-ge-rung, wenn
  []
 
 
 Underfull \hbox (badness 4660) in paragraph at lines 1883--1887
-\T1/lmr/m/n/10.95 es für al-le $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OM
-L/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 of-fe-nes $\OML/lmm/m/it/10.95 U \OT1/lmr
-/m/n/10.95 = \OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1
-/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 und einen dis-kre-ten
+\T1/lmr/m/n/10.95 es für al-le $\OML/cmm/m/it/10.95 x \OMS/lmr/m/it/10.95 2 \OM
+L/cmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 of-fe-nes $\OML/cmm/m/it/10.95 U \OT1/cmr
+/m/n/10.95 = \OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1
+/cmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 und einen dis-kre-ten
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 1883--1887
-\T1/lmr/m/n/10.95 Raum $\OT1/lmr/m/n/10.95 ^^C$ \T1/lmr/m/n/10.95 gibt, so dass
- $[][][]$ und $\OML/lmm/m/it/10.95 U \OMS/lmsy/m/n/10.95 ^^B \OT1/lmr/m/n/10.95
- ^^C$ $[]$ \T1/lmr/m/n/10.95 ho-möo-morph sind:
+Underfull \hbox (badness 1184) in paragraph at lines 1883--1887
+\T1/lmr/m/n/10.95 Raum $\OT1/cmr/m/n/10.95 $ \T1/lmr/m/n/10.95 gibt, so dass $
+[][][]$ und $\OML/cmm/m/it/10.95 U \OMS/lmr/m/it/10.95  \OT1/cmr/m/n/10.95 $ 
+$[]$ \T1/lmr/m/n/10.95 ho-möo-morph sind:
  []
 
-[76 <./images/Spirale_disjunkt.jpg>]
-<images/Blaetterzahl.jpg, id=880, 542.025pt x 434.1018pt>
+[76 <images/Spirale_disjunkt.jpg>]
+<images/Blaetterzahl.jpg, id=938, 542.025pt x 434.1018pt>
 File: images/Blaetterzahl.jpg Graphic file (type jpg)
 
-<use images/Blaetterzahl.jpg> [77 <./images/lokal_trivialisierend.jpg> <./image
-s/lokal_trivialisierend2.jpg>]
-<images/Selbstueberlagerung_C_Stern.jpg, id=886, 632.1216pt x 529.98pt>
+<use images/Blaetterzahl.jpg> [77 <images/lokal_trivialisierend.jpg> <images/lo
+kal_trivialisierend2.jpg>]
+<images/Selbstueberlagerung_C_Stern.jpg, id=944, 632.1216pt x 529.98pt>
 File: images/Selbstueberlagerung_C_Stern.jpg Graphic file (type jpg)
 
-<use images/Selbstueberlagerung_C_Stern.jpg> [78 <./images/Blaetterzahl.jpg> <.
-/images/Selbstueberlagerung_C_Stern.jpg>]
-<images/Aequivalenz_Ueberlagerungen.jpg, id=897, 309.3156pt x 255.354pt>
+<use images/Selbstueberlagerung_C_Stern.jpg> [78 <images/Blaetterzahl.jpg> <ima
+ges/Selbstueberlagerung_C_Stern.jpg>]
+<images/Aequivalenz_Ueberlagerungen.jpg, id=955, 309.3156pt x 255.354pt>
 File: images/Aequivalenz_Ueberlagerungen.jpg Graphic file (type jpg)
 
 <use images/Aequivalenz_Ueberlagerungen.jpg>
@@ -2015,18 +1967,18 @@ File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
 Underfull \hbox (badness 1147) in paragraph at lines 1920--1927
-\T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/lm
-m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m
+\T1/lmr/m/n/10.95 to-po-lo-gi-schen Räu-men, so lie-fert je-der Weg in $\OML/cm
+m/m/it/10.95 X$ \T1/lmr/m/n/10.95 einen Weg in $\OML/cmm/m/it/10.95 Y$\T1/lmr/m
 /n/10.95 ,
  []
 
 
-Overfull \hbox (0.13126pt too wide) in paragraph at lines 1920--1927
-\T1/lmr/m/n/10.95 so-ge-nann-ten von $\OML/lmm/m/it/10.95 f$ $[]$\T1/lmr/m/n/10
+Overfull \hbox (0.1331pt too wide) in paragraph at lines 1920--1927
+\T1/lmr/m/n/10.95 so-ge-nann-ten von $\OML/cmm/m/it/10.95 f$ $[]$\T1/lmr/m/n/10
 .95 . 
  []
 
-[79 <./images/Aequivalenz_Ueberlagerungen.jpg>]
+[79 <images/Aequivalenz_Ueberlagerungen.jpg>]
 File: images/f_g_homotop.jpg Graphic file (type jpg)
  <use images/f_g_homotop.jpg>
 Underfull \hbox (badness 1546) in paragraph at lines 1942--1948
@@ -2038,9 +1990,9 @@ Underfull \hbox (badness 1546) in paragraph at lines 1942--1948
 File: images/Produkt_Fundamentalgruppe.jpg Graphic file (type jpg)
  <use images/Produkt_Fundamentalgruppe.jpg>
 Underfull \hbox (badness 2653) in paragraph at lines 1961--1967
-\T1/lmr/m/n/10.95 Betrachtet man nun die Fun-da-men-tal-grup-pen von $\OML/lmm/
-m/it/10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y; X; Y$ \T1/lmr/m/n/1
-0.95 in
+\T1/lmr/m/n/10.95 Betrachtet man nun die Fun-da-men-tal-grup-pen von $\OML/cmm/
+m/it/10.95 X \OMS/lmr/m/it/10.95  \OML/cmm/m/it/10.95 Y; X; Y$ \T1/lmr/m/n/10.
+95 in
  []
 
 File: images/Wege_homotop.jpg Graphic file (type jpg)
@@ -2059,110 +2011,147 @@ File: images/Rand_I2_S1.jpg Graphic file (type jpg)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82] [83] [84]
-Overfull \hbox (1.7369pt too wide) in paragraph at lines 2100--2101
-\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m/
-n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^
-^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 )) \OML/lm
-m/m/it/10.95 < ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; ^^Y\OT1/lmr/m/n/
-10.95 ([]))$ \T1/lmr/m/n/10.95 heiÿt $[]$
+[82] [83] <images/Lift_Abbildung.jpg, id=990, 267.399pt x 252.4632pt>
+File: images/Lift_Abbildung.jpg Graphic file (type jpg)
+
+<use images/Lift_Abbildung.jpg>
+<images/Lift_Abbildung_Torus.jpg, id=991, 266.4354pt x 229.8186pt>
+File: images/Lift_Abbildung_Torus.jpg Graphic file (type jpg)
+
+<use images/Lift_Abbildung_Torus.jpg>
+<images/Lift_nicht_stetig.jpg, id=992, 542.025pt x 434.1018pt>
+File: images/Lift_nicht_stetig.jpg Graphic file (type jpg)
+
+<use images/Lift_nicht_stetig.jpg> [84 <images/Lift_Abbildung.jpg> <images/Lift
+_Abbildung_Torus.jpg> <images/Lift_nicht_stetig.jpg>]
+<images/Lift_inverser_Weg.jpg, id=1001, 356.532pt x 394.5942pt>
+File: images/Lift_inverser_Weg.jpg Graphic file (type jpg)
+
+<use images/Lift_inverser_Weg.jpg>
+<images/Lift_Homotopie.jpg, id=1002, 495.2904pt x 311.2428pt>
+File: images/Lift_Homotopie.jpg Graphic file (type jpg)
+
+<use images/Lift_Homotopie.jpg> [85 <images/Lift_inverser_Weg.jpg>]
+<images/Homotopie_konstanter_Weg.jpg, id=1010, 271.7352pt x 266.9172pt>
+File: images/Homotopie_konstanter_Weg.jpg Graphic file (type jpg)
+
+<use images/Homotopie_konstanter_Weg.jpg>
+<images/Homotopie_konstanter_Weg_Lift.jpg, id=1011, 292.9344pt x 369.0588pt>
+File: images/Homotopie_konstanter_Weg_Lift.jpg Graphic file (type jpg)
+
+<use images/Homotopie_konstanter_Weg_Lift.jpg> [86 <images/Lift_Homotopie.jpg>]
+
+Overfull \hbox (1.73514pt too wide) in paragraph at lines 2106--2107
+\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/
+10.95 ) := \OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 []\O
+T1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )) \OML/cmm/m/it
+/10.95 < []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; \OT1/cmr/m/n/10.95 ([])
+)$ \T1/lmr/m/n/10.95 heiÿt $[]$
  []
 
-[85]
-Overfull \hbox (76.02501pt too wide) in paragraph at lines 2128--2131
-$\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m
-/n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
-^^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 ))$ \T1/l
-mr/m/n/10.95 heiÿt $[]$ $[]$.
+<images/Lift.jpg, id=1020, 271.2534pt x 434.5836pt>
+File: images/Lift.jpg Graphic file (type jpg)
+ <use images/Lift.jpg>
+<images/Normalisation.jpg, id=1021, 393.1488pt x 452.4102pt>
+File: images/Normalisation.jpg Graphic file (type jpg)
+
+<use images/Normalisation.jpg> [87 <images/Homotopie_konstanter_Weg.jpg> <image
+s/Homotopie_konstanter_Weg_Lift.jpg> <images/Lift.jpg>]
+Overfull \hbox (76.02364pt too wide) in paragraph at lines 2136--2139
+$\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n
+/10.95 ) := \OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 []\
+OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 ))$ \T1/lmr/m/n
+/10.95 heiÿt $[]$ $[]$.
  []
 
 
-Overfull \hbox (6.88216pt too wide) detected at line 2144
-[]\OT1/lmr/m/n/10.95 (1) = [](1) \OMS/lmsy/m/n/10.95 , \OML/lmm/m/it/10.95 w[]\
-OT1/lmr/m/n/10.95 (1) = \OML/lmm/m/it/10.95 w[]\OT1/lmr/m/n/10.95 (1)[][\OML/lm
-m/m/it/10.95 w[] \OMS/lmsy/m/n/10.95 ^^A \OML/lmm/m/it/10.95 w[]\OT1/lmr/m/n/10
-.95 ] \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 H \OT1/lmr/m/n/10.95 = \OML/lmm
-/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.9
-5 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 )) = \OML/lmm/m/it/10.95 U\OT1/
-lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m/n/10.95 )
+Overfull \hbox (6.82605pt too wide) detected at line 2152
+[]\OT1/cmr/m/n/10.95 (1) = [](1) \OMS/lmr/m/it/10.95 , \OML/cmm/m/it/10.95 w[]\
+OT1/cmr/m/n/10.95 (1) = \OML/cmm/m/it/10.95 w[]\OT1/cmr/m/n/10.95 (1)[][\OML/cm
+m/m/it/10.95 w[] \OMS/lmr/m/it/10.95  \OML/cmm/m/it/10.95 w[]\OT1/cmr/m/n/10.9
+5 ] \OMS/lmr/m/it/10.95 2 \OML/cmm/m/it/10.95 H \OT1/cmr/m/n/10.95 = \OML/cmm/m
+/it/10.95 []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 ([]\
+OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )) = \OML/cmm/m/it/10.95 U\OT1/cmr/m/
+n/10.95 (\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )
  []
 
-[86] [87]
-Overfull \hbox (25.67804pt too wide) in paragraph at lines 2193--2194
+[88 <images/Normalisation.jpg>] [89]
+Overfull \hbox (25.81203pt too wide) in paragraph at lines 2201--2202
 []\T1/lmr/bx/n/10.95 Definition III.12 \T1/lmr/m/n/10.95 (lo-kal weg-zu-sam-men
--hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 Z$ $[]$
+-hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/cmm/m/it/10.95 Z$ $[]$
  []
 
-[88]
-Overfull \hbox (36.09799pt too wide) in paragraph at lines 2241--2242
+
+Overfull \hbox (36.22966pt too wide) in paragraph at lines 2249--2250
 []\T1/lmr/bx/n/10.95 Definition III.13 \T1/lmr/m/n/10.95 (Deck-trans-for-ma-ti-
 on)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Ei-ne $[]$/$[]$
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 2245--2246
+Underfull \hbox (badness 5417) in paragraph at lines 2253--2254
 []\T1/lmr/bx/n/10.95 Bemerkung III.20. []\T1/lmr/m/n/10.95 Die Deck-trans-for-m
 a-tio-nen ei-ner Über-la-ge-rung
  []
 
-
-Underfull \hbox (badness 1527) in paragraph at lines 2256--2265
+[90]
+Underfull \hbox (badness 1533) in paragraph at lines 2264--2273
 \T1/lmr/m/n/10.95 Dies lie-fert (s.o.) ei-ne Bi-jek-ti-on der Rechts-ne-ben-kla
-s-sen $\OMS/lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 [\OML/lmm/m
-/it/10.95 u\OT1/lmr/m/n/10.95 ]\OMS/lmsy/m/n/10.95 g$ \T1/lmr/m/n/10.95 von
+s-sen $\OMS/lmr/m/it/10.95 f\OML/cmm/m/it/10.95 H\OT1/cmr/m/n/10.95 [\OML/cmm/m
+/it/10.95 u\OT1/cmr/m/n/10.95 ]\OMS/lmr/m/it/10.95 g$ \T1/lmr/m/n/10.95 von
  []
 
-[89]
-Underfull \hbox (badness 2538) in paragraph at lines 2292--2295
+[91]
+Underfull \hbox (badness 2478) in paragraph at lines 2300--2303
 []\T1/lmr/bx/n/10.95 Bemerkung III.22. []\T1/lmr/m/n/10.95 Für $[]$ Über-la-ge-
-run-gen ope-riert $\OML/lmm/m/it/10.95 D\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.
-95 ; ^^Y\OT1/lmr/m/n/10.95 )$
+run-gen ope-riert $\OML/cmm/m/it/10.95 D\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.
+95 ; \OT1/cmr/m/n/10.95 )$
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 2298--2301
+Underfull \hbox (badness 4013) in paragraph at lines 2306--2309
 []\T1/lmr/bx/n/10.95 Definition III.15 \T1/lmr/m/n/10.95 (se-mi-lo-kal ein-fach
- zu-sam-men-hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n
+ zu-sam-men-hän-gend)\T1/lmr/bx/n/10.95 . []$\OML/cmm/m/it/10.95 X$ \T1/lmr/m/n
 /10.95 heiÿt
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 2304--2306
+Underfull \hbox (badness 1931) in paragraph at lines 2312--2314
 []\T1/lmr/bx/n/10.95 Beispiel III.5 \T1/lmr/m/n/10.95 (Der Ha-wai-ia-ni-sche Oh
 r-ring)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/it/10.95 (TO-DO: Bild 9) Der
  []
 
-[90] (./mitschrieb_geotopo.aux) ) 
-Here is how much of TeX's memory you used:
- 10191 strings out of 256216
- 159283 string characters out of 1917072
- 214795 words of memory out of 1500000
- 12569 multiletter control sequences out of 10000+200000
- 89727 words of font info for 72 fonts, out of 1200000 for 2000
- 645 hyphenation exceptions out of 8191
- 45i,12n,61p,762b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public
-/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/sha
-re/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/blues
-ky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (91 pages, 6882039 bytes).
-PDF statistics:
- 1183 PDF objects out of 1200 (max. 8388607)
- 448 named destinations out of 1000 (max. 131072)
- 883 words of extra memory for PDF output out of 10000 (max. 10000000)
+[92] (mitschrieb_geotopo.aux)
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15320 strings out of 95516
+ 254593 string characters out of 1189554
+ 276564 words of memory out of 1273188
+ 16848 multiletter control sequences out of 35000
+ 75729 words of font info for 75 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 56i,12n,55p,762b,569s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 1078 PDF objects out of 300000
+ 450 named destinations out of 300000
+ 940 words of extra memory for PDF output out of 65536
+{cork-lm.enc}<C:\texmf\fonts\type1\public\lm\lmri7.pfb> <C:\localtexmf\fonts\
+pk\ljfour\ams\cmextra\dpi600\cmex8.pk><C:\texmf\fonts\type1\public\lm\lmtt9.pfb
+><C:\texmf\fonts\type1\public\lm\lmri8.pfb><C:\texmf\fonts\type1\bluesky\cm\cms
+y6.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr9.pfb><C:\texmf\fonts\type1\bluesky\
+symbols\msbm7.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi9.pfb><C:\texmf\fonts\ty
+pe1\bluesky\cm\cmmi6.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\
+fonts\type1\bluesky\cm\cmr12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy9.pfb><C:
+\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\texmf\fonts\type1\bluesky\cm\
+cmr6.pfb><C:\texmf\fonts\type1\public\lm\lmri10.pfb><C:\texmf\fonts\type1\publi
+c\lm\lmr9.pfb><C:\texmf\fonts\type1\public\lm\lmr6.pfb><C:\texmf\fonts\type1\pu
+blic\lm\lmr8.pfb><C:\texmf\fonts\type1\bluesky\symbols\msbm10.pfb><C:\texmf\fon
+ts\type1\bluesky\symbols\msam10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy8.pfb>
+<C:\texmf\fonts\type1\bluesky\cm\cmex10.pfb><C:\texmf\fonts\type1\bluesky\cm\cm
+mi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type1\bluesky
+\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts\type1
+\bluesky\cm\cmmi10.pfb><C:\texmf\fonts\type1\public\lm\lmbx10.pfb><C:\texmf\fon
+ts\type1\public\lm\lmr10.pfb><C:\texmf\fonts\type1\public\lm\lmr12.pfb><C:\texm
+f\fonts\type1\public\lm\lmbx12.pfb>
+Output written on mitschrieb_geotopo.pdf (93 pages, 7067497 bytes).
