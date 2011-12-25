@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 DEC 2011 02:39
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  25 DEC 2011 02:41
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -930,8 +930,8 @@ Package marginnote Info: right page because not two side mode on input line 179
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 179.
 
-Overfull \hbox (11.28423pt too wide) in paragraph at lines 179--179
-|\T1/lmr/m/n/10.95 Topologischer 
+Overfull \hbox (10.0185pt too wide) in paragraph at lines 179--179
+|\T1/lmr/m/it/10.95 Topologischer 
  []
 
 Package marginnote Info: Margin note 3.2 is on absolute page 3
@@ -970,22 +970,22 @@ Package marginnote Info: right page because not two side mode on input line 226
 .
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 226.
- <images/Homotopie.jpg, id=134, 690.9012pt x 427.8384pt>
+ <images/Homotopie.jpg, id=135, 690.9012pt x 427.8384pt>
 File: images/Homotopie.jpg Graphic file (type jpg)
 
 <use images/Homotopie.jpg>
-<images/nicht_homotop_1.jpg, id=135, 1054.94125pt x 422.57875pt>
+<images/nicht_homotop_1.jpg, id=136, 1054.94125pt x 422.57875pt>
 File: images/nicht_homotop_1.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_1.jpg>
-<images/nicht_homotop_2.jpg, id=136, 372.9132pt x 218.2554pt>
+<images/nicht_homotop_2.jpg, id=137, 372.9132pt x 218.2554pt>
 File: images/nicht_homotop_2.jpg Graphic file (type jpg)
 
 <use images/nicht_homotop_2.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Homotopie_param.jpg, id=139, 690.9012pt x 439.8834pt>
+<images/Homotopie_param.jpg, id=140, 690.9012pt x 439.8834pt>
 File: images/Homotopie_param.jpg Graphic file (type jpg)
 
 <use images/Homotopie_param.jpg>
@@ -1003,14 +1003,14 @@ Package marginnote Info: xpos seams to be 5328321sp,
 pdfTeX warning: pdflatex (file ./images/stetigeAbb.pdf): PDF inclusion: Page Gr
 oup detected which pdfTeX can't handle. Ignoring it.
 > <./images/Homotopie.jpg>]
-<images/Homotopie_Transitivitaet.jpg, id=155, 506.8536pt x 372.9132pt>
+<images/Homotopie_Transitivitaet.jpg, id=156, 506.8536pt x 372.9132pt>
 File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Transitivitaet.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Aequivalenzklassen.jpg, id=156, 638.385pt x 269.3262pt>
+<images/Aequivalenzklassen.jpg, id=157, 638.385pt x 269.3262pt>
 File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
 
 <use images/Aequivalenzklassen.jpg>
@@ -1030,8 +1030,8 @@ Package marginnote Info: right page because not two side mode on input line 315
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 315.
 
-Overfull \hbox (16.05945pt too wide) in paragraph at lines 315--315
-|\T1/lmr/m/n/10.95 Nullhomotopie  
+Overfull \hbox (15.6118pt too wide) in paragraph at lines 315--315
+|\T1/lmr/m/it/10.95 Nullhomotopie  
  []
 
 [5 <./images/Homotopie_Transitivitaet.jpg> <./images/Aequivalenzklassen.jpg> <.
@@ -1077,8 +1077,8 @@ Package marginnote Info: right page because not two side mode on input line 374
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 374.
 
-Overfull \hbox (31.90636pt too wide) in paragraph at lines 374--374
-|\T1/lmr/m/n/10.95 Teilraumtopologie  
+Overfull \hbox (29.99861pt too wide) in paragraph at lines 374--374
+|\T1/lmr/m/it/10.95 Teilraumtopologie  
  []
 
 <images/Teilraumtopologie.jpg, id=200, 616.2222pt x 476.0184pt>
@@ -1095,8 +1095,8 @@ Package marginnote Info: right page because not two side mode on input line 397
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 397.
 
-Overfull \hbox (31.7551pt too wide) in paragraph at lines 397--397
-|\T1/lmr/m/n/10.95 Abgeschlossenheit  
+Overfull \hbox (29.9693pt too wide) in paragraph at lines 397--397
+|\T1/lmr/m/it/10.95 Abgeschlossenheit  
  []
 
 [8
@@ -1221,8 +1221,8 @@ Package marginnote Info: right page because not two side mode on input line 513
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 513.
 
-Overfull \hbox (20.56168pt too wide) in paragraph at lines 513--513
-|\T1/lmr/m/n/10.95 Beschränktheit, 
+Overfull \hbox (19.12555pt too wide) in paragraph at lines 513--513
+|\T1/lmr/m/it/10.95 Beschränktheit, 
  []
 
 
@@ -1317,8 +1317,8 @@ Package marginnote Info: right page because not two side mode on input line 628
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 628.
 
-Overfull \hbox (4.95766pt too wide) in paragraph at lines 628--628
-|\T1/lmr/m/n/10.95 Isometrische 
+Overfull \hbox (5.84618pt too wide) in paragraph at lines 628--628
+|\T1/lmr/m/it/10.95 Isometrische 
  []
 
 Package marginnote Info: Margin note 16.3 is on absolute page 17
@@ -1328,8 +1328,8 @@ Package marginnote Info: right page because not two side mode on input line 638
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 638.
 
-Overfull \hbox (37.50237pt too wide) in paragraph at lines 638--638
-|\T1/lmr/m/n/10.95 Homöomorphismus  
+Overfull \hbox (37.04344pt too wide) in paragraph at lines 638--638
+|\T1/lmr/m/it/10.95 Homöomorphismus  
  []
 
 [15 <./images/stetig_in_x.jpg>]
@@ -1344,8 +1344,8 @@ Package marginnote Info: right page because not two side mode on input line 656
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 656.
 
-Overfull \hbox (8.78937pt too wide) in paragraph at lines 656--656
-|\T1/lmr/m/n/10.95 homöomorph  
+Overfull \hbox (7.49776pt too wide) in paragraph at lines 656--656
+|\T1/lmr/m/it/10.95 homöomorph  
  []
 
 
@@ -1432,8 +1432,8 @@ Package marginnote Info: right page because not two side mode on input line 719
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 719.
 
-Overfull \hbox (35.89063pt too wide) in paragraph at lines 719--719
-|\T1/lmr/m/n/10.95 zusammenhängend  
+Overfull \hbox (35.34346pt too wide) in paragraph at lines 719--719
+|\T1/lmr/m/it/10.95 zusammenhängend  
  []
 
 Package marginnote Info: Margin note 19.3 is on absolute page 19
@@ -1443,8 +1443,8 @@ Package marginnote Info: right page because not two side mode on input line 725
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 725.
 
-Overfull \hbox (8.48631pt too wide) in paragraph at lines 725--725
-|\T1/lmr/m/n/10.95 Überdeckung  
+Overfull \hbox (5.33464pt too wide) in paragraph at lines 725--725
+|\T1/lmr/m/it/10.95 Überdeckung  
  []
 
 
@@ -1481,8 +1481,8 @@ Package marginnote Info: right page because not two side mode on input line 781
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 781.
 
-Overfull \hbox (82.79288pt too wide) in paragraph at lines 781--781
-|\T1/lmr/m/n/10.95 Zusammenhangskomponente  
+Overfull \hbox (81.06763pt too wide) in paragraph at lines 781--781
+|\T1/lmr/m/it/10.95 Zusammenhangskomponente  
  []
 
 <images/R_ohne_p.jpg, id=361, 327.624pt x 92.5056pt>
@@ -1527,8 +1527,8 @@ Package marginnote Info: right page because not two side mode on input line 846
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 846.
 
-Overfull \hbox (39.541pt too wide) in paragraph at lines 846--846
-|\T1/lmr/m/n/10.95 Wegzusammenhang  
+Overfull \hbox (37.93535pt too wide) in paragraph at lines 846--846
+|\T1/lmr/m/it/10.95 Wegzusammenhang  
  []
 
 <images/Wegzshgd.jpg, id=385, 649.4664pt x 416.2752pt>
@@ -1547,8 +1547,8 @@ Package marginnote Info: right page because not two side mode on input line 863
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 863.
 
-Overfull \hbox (8.456pt too wide) in paragraph at lines 863--863
-|\T1/lmr/m/n/10.95 Kompaktheit  
+Overfull \hbox (5.90364pt too wide) in paragraph at lines 863--863
+|\T1/lmr/m/it/10.95 Kompaktheit  
  []
 
 Package marginnote Info: Margin note 24.2 is on absolute page 24
@@ -1599,8 +1599,8 @@ Package marginnote Info: right page because not two side mode on input line 919
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 919.
 
-Overfull \hbox (24.7586pt too wide) in paragraph at lines 919--919
-|\T1/lmr/m/n/10.95 Umgebungsbasis  
+Overfull \hbox (22.35233pt too wide) in paragraph at lines 919--919
+|\T1/lmr/m/it/10.95 Umgebungsbasis  
  []
 
 Package marginnote Info: Margin note 26.2 is on absolute page 26
@@ -1610,8 +1610,8 @@ Package marginnote Info: right page because not two side mode on input line 940
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 940.
 
-Overfull \hbox (54.17212pt too wide) in paragraph at lines 940--940
-|\T1/lmr/m/n/10.95 Abzählbarkeitsaxiome, 
+Overfull \hbox (50.10226pt too wide) in paragraph at lines 940--940
+|\T1/lmr/m/it/10.95 Abzählbarkeitsaxiome, 
  []
 
 Package marginnote Info: Margin note 26.3 is on absolute page 27
@@ -1638,8 +1638,8 @@ Package marginnote Info: right page because not two side mode on input line 987
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 987.
 
-Overfull \hbox (6.38731pt too wide) in paragraph at lines 987--987
-|\T1/lmr/m/n/10.95 Verfeinerung  
+Overfull \hbox (7.99294pt too wide) in paragraph at lines 987--987
+|\T1/lmr/m/it/10.95 Verfeinerung  
  []
 
 Package marginnote Info: Margin note 27.3 is on absolute page 27
@@ -1649,8 +1649,8 @@ Package marginnote Info: right page because not two side mode on input line 991
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 991.
 
-Overfull \hbox (28.10506pt too wide) in paragraph at lines 991--991
-|\T1/lmr/m/n/10.95 Parakompaktheit  
+Overfull \hbox (25.7594pt too wide) in paragraph at lines 991--991
+|\T1/lmr/m/it/10.95 Parakompaktheit  
  []
 
 <images/Cutoff.jpg, id=433, 587.796pt x 363.759pt>
@@ -1698,8 +1698,8 @@ Package marginnote Info: right page because not two side mode on input line 102
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1020.
 
-Overfull \hbox (27.31465pt too wide) in paragraph at lines 1020--1020
-|\T1/lmr/m/n/10.95 Mannigfaltigkeit, 
+Overfull \hbox (26.13347pt too wide) in paragraph at lines 1020--1020
+|\T1/lmr/m/it/10.95 Mannigfaltigkeit, 
  []
 
 
@@ -1755,8 +1755,8 @@ Package marginnote Info: right page because not two side mode on input line 105
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1051.
 
-Overfull \hbox (19.1629pt too wide) in paragraph at lines 1051--1051
-|\T1/lmr/m/n/10.95 Verträglichkeit, 
+Overfull \hbox (18.29846pt too wide) in paragraph at lines 1051--1051
+|\T1/lmr/m/it/10.95 Verträglichkeit, 
  []
 
 Package marginnote Info: Margin note 31.4 is on absolute page 32
@@ -1766,8 +1766,8 @@ Package marginnote Info: right page because not two side mode on input line 105
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1056.
 
-Overfull \hbox (27.31465pt too wide) in paragraph at lines 1056--1056
-\T1/lmr/m/n/10.95 Mannigfaltigkeit, 
+Overfull \hbox (26.13347pt too wide) in paragraph at lines 1056--1056
+\T1/lmr/m/it/10.95 Mannigfaltigkeit, 
  []
 
 
@@ -1830,8 +1830,8 @@ Package marginnote Info: right page because not two side mode on input line 113
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1135.
 
-Overfull \hbox (50.76526pt too wide) in paragraph at lines 1135--1135
-|\T1/lmr/m/n/10.95 Untermannigfaltigkeit  
+Overfull \hbox (50.25673pt too wide) in paragraph at lines 1135--1135
+|\T1/lmr/m/it/10.95 Untermannigfaltigkeit  
  []
 
 
@@ -1886,8 +1886,8 @@ Package marginnote Info: right page because not two side mode on input line 126
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1267.
 
-Overfull \hbox (76.01132pt too wide) in paragraph at lines 1267--1267
-|\T1/lmr/m/n/10.95 Quotienten(raum)topologie  
+Overfull \hbox (73.65273pt too wide) in paragraph at lines 1267--1267
+|\T1/lmr/m/it/10.95 Quotienten(raum)topologie  
  []
 
 <images/Partition_R.jpg, id=552, 543.4704pt x 153.6942pt>
@@ -1923,8 +1923,8 @@ Package marginnote Info: right page because not two side mode on input line 131
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1317.
 
-Overfull \hbox (46.47649pt too wide) in paragraph at lines 1317--1317
-|\T1/lmr/m/n/10.95 Quotientenabbildung  
+Overfull \hbox (43.78677pt too wide) in paragraph at lines 1317--1317
+|\T1/lmr/m/it/10.95 Quotientenabbildung  
  []
 
 <images/Quotientenabbildung.jpg, id=579, 395.076pt x 235.6002pt>
@@ -1974,8 +1974,8 @@ Package marginnote Info: right page because not two side mode on input line 137
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1379.
 
-Overfull \hbox (3.9242pt too wide) in paragraph at lines 1379--1379
-|\T1/lmr/m/n/10.95 Kontraktion  
+Overfull \hbox (3.04448pt too wide) in paragraph at lines 1379--1379
+|\T1/lmr/m/it/10.95 Kontraktion  
  []
 
 <images/0_1_drittel.jpg, id=605, 552.1428pt x 81.906pt>
@@ -2105,8 +2105,8 @@ Package marginnote Info: right page because not two side mode on input line 145
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1456.
 
-Overfull \hbox (11.5882pt too wide) in paragraph at lines 1456--1456
-\T1/lmr/m/n/10.95 dimensionaler 
+Overfull \hbox (12.53706pt too wide) in paragraph at lines 1456--1456
+\T1/lmr/m/it/10.95 dimensionaler 
  []
 
 [50 <./images/Quadrat_Kleinsche_Flasche.jpg> <./images/Zylinder_nach_Kleinsche_
@@ -2196,8 +2196,8 @@ Package marginnote Info: right page because not two side mode on input line 158
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1589.
 
-Overfull \hbox (8.7593pt too wide) in paragraph at lines 1589--1589
-|\T1/lmr/m/n/10.95 nullhomotop, 
+Overfull \hbox (8.19945pt too wide) in paragraph at lines 1589--1589
+|\T1/lmr/m/it/10.95 nullhomotop, 
  []
 
 <images/Produkt_Lemma.jpg, id=702, 387.849pt x 242.3454pt>
@@ -2256,8 +2256,8 @@ Package marginnote Info: right page because not two side mode on input line 168
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1680.
 
-Overfull \hbox (27.98282pt too wide) in paragraph at lines 1680--1680
-|\T1/lmr/m/n/10.95 schleifenhomotop  
+Overfull \hbox (27.5153pt too wide) in paragraph at lines 1680--1680
+|\T1/lmr/m/it/10.95 schleifenhomotop  
  []
 
 <images/schleifenhomotop.jpg, id=746, 244.7544pt x 247.6452pt>
@@ -2365,8 +2365,8 @@ Package marginnote Info: right page because not two side mode on input line 188
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 1882.
 
-Overfull \hbox (10.34148pt too wide) in paragraph at lines 1882--1882
-|\T1/lmr/m/n/10.95 Überlagerung  
+Overfull \hbox (8.83249pt too wide) in paragraph at lines 1882--1882
+|\T1/lmr/m/it/10.95 Überlagerung  
  []
 
 <images/Spirale_disjunkt.jpg, id=847, 341.5962pt x 487.0998pt>
@@ -2477,8 +2477,8 @@ Package marginnote Info: right page because not two side mode on input line 212
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 2120.
 
-Overfull \hbox (32.33328pt too wide) in paragraph at lines 2120--2120
-|\T1/lmr/m/n/10.95 charakterisierende 
+Overfull \hbox (32.12532pt too wide) in paragraph at lines 2120--2120
+|\T1/lmr/m/it/10.95 charakterisierende 
  []
 
 Package marginnote Info: Margin note 81.2 is on absolute page 82
@@ -2513,8 +2513,8 @@ Package marginnote Info: right page because not two side mode on input line 226
 Package marginnote Info: xpos seams to be 5328321sp,
 (marginnote)             \marginnoterightadjust ignored on input line 2263.
 
-Overfull \hbox (40.36298pt too wide) in paragraph at lines 2263--2263
-|\T1/lmr/m/n/10.95 Decktransformation  
+Overfull \hbox (39.97037pt too wide) in paragraph at lines 2263--2263
+|\T1/lmr/m/it/10.95 Decktransformation  
  []
 
 Package marginnote Info: Margin note 85.2 is on absolute page 85
@@ -2558,7 +2558,7 @@ s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb>
 /public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/sh
 are/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/blue
 sky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (86 pages, 7153199 bytes).
+Output written on mitschrieb_geotopo.pdf (86 pages, 7157283 bytes).
 PDF statistics:
  1169 PDF objects out of 1200 (max. 8388607)
  443 named destinations out of 1000 (max. 131072)
