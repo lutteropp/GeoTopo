@@ -2,65 +2,65 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {0}Einf\IeC {\"u}hrung}{2}{chapter.0}
 \contentsline {paragraph}{Achtung:}{3}{section*.5}
-\contentsline {chapter}{\numberline {I}Grundlagen der Allgemeinen Topologie}{8}{chapter.1}
-\contentsline {section}{\numberline {1}Erste Beispiele topologischer R\IeC {\"a}ume}{8}{section.1.1}
-\contentsline {section}{\numberline {2}Topologische Grundbegriffe}{9}{section.1.2}
-\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{12}{shadedefinitions.1.7}
-\contentsline {paragraph}{Erinnerung}{13}{section*.17}
-\contentsline {paragraph}{TODO:Exkurs zu "Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander"}{14}{section*.20}
-\contentsline {section}{\numberline {3}Stetige Abbildungen}{14}{section.1.3}
-\contentsline {section}{\numberline {4}Zusammenhang und Kompaktheit}{17}{section.1.4}
-\contentsline {section}{\numberline {5}Trennungseigenschaften}{22}{section.1.5}
-\contentsline {section}{\numberline {6}Abz\IeC {\"a}hlbarkeitsaxiome und lokale Kompaktheit}{24}{section.1.6}
-\contentsline {chapter}{\numberline {II}Geometrische Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{26}{chapter.2}
-\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{26}{section.2.1}
-\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{26}{section*.44}
-\contentsline {paragraph}{Richtig toller Exkurs zu Mannigfaltigkeiten}{29}{section*.45}
-\contentsline {paragraph}{Folgerung}{30}{section*.46}
-\contentsline {subsection}{\numberline {1.1}Differenzierbare Abbildungen}{31}{subsection.2.1.1}
-\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{32}{Item.22}
-\contentsline {paragraph}{Interpretation}{32}{section*.49}
-\contentsline {section}{\numberline {2}Quotientenr\IeC {\"a}ume}{36}{section.2.2}
-\contentsline {paragraph}{Erinnerung}{38}{section*.51}
-\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{38}{section*.52}
-\contentsline {paragraph}{Achtung:}{38}{section*.53}
-\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{40}{section*.55}
-\contentsline {section}{\numberline {3}Quotientenabbildungen}{41}{section.2.3}
-\contentsline {paragraph}{Interpretation}{41}{section*.56}
-\contentsline {paragraph}{Allgemeiner}{41}{section*.57}
-\contentsline {paragraph}{Erinnerung}{41}{section*.58}
-\contentsline {section}{\numberline {4}Konstruktionen von Quotientenr\IeC {\"a}umen}{44}{section.2.4}
-\contentsline {paragraph}{Andere Sichtweise:}{45}{section*.62}
-\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{47}{section*.67}
-\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{47}{section*.68}
-\contentsline {chapter}{\numberline {III}Konzepte der Algebraischen Topologie}{48}{chapter.3}
-\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{48}{section.3.1}
-\contentsline {paragraph}{Erinnerung}{48}{section*.69}
-\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{49}{section*.71}
-\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{54}{section*.73}
-\contentsline {paragraph}{Erinnerung}{54}{section*.74}
-\contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{55}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{56}{subsection.3.1.2}
-\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{57}{section*.79}
-\contentsline {paragraph}{Erinnerung (Lebesguelemma)}{58}{section*.80}
-\contentsline {subsection}{\numberline {1.3}Induzierte Homomorphismen}{59}{subsection.3.1.3}
-\contentsline {paragraph}{Folgerung}{59}{section*.81}
-\contentsline {subsection}{\numberline {1.4}Produkte}{60}{subsection.3.1.4}
-\contentsline {section}{\numberline {2}\IeC {\"U}berlagerungen}{62}{section.3.2}
-\contentsline {paragraph}{Motivation}{62}{section*.83}
-\contentsline {paragraph}{Veranschaulichung}{62}{section*.84}
-\contentsline {paragraph}{}{62}{section*.85}
-\contentsline {paragraph}{}{63}{section*.86}
-\contentsline {paragraph}{(\IeC {\"U})}{64}{section*.87}
-\contentsline {paragraph}{Terminologie/Sprechweisen}{64}{section*.88}
-\contentsline {paragraph}{Mini-Exkurs: Funktionentheorie, verzweigte \IeC {\"U}berlagerung}{66}{section*.90}
-\contentsline {subsection}{\numberline {2.1}Induzierte Homomorphismen}{67}{subsection.3.2.1}
-\contentsline {paragraph}{Folgerung}{67}{section*.92}
-\contentsline {subsection}{\numberline {2.2}Produkte}{68}{subsection.3.2.2}
-\contentsline {section}{\numberline {3}Liften von Abbildungen}{70}{section.3.3}
-\contentsline {paragraph}{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann R\IeC {\"a}ume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}{71}{shadetheorem.3.9}
-\contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{72}{subsection.3.3.1}
-\contentsline {paragraph}{Erinnerung}{73}{section*.95}
-\contentsline {paragraph}{Andere Interpretation:}{74}{section*.96}
-\contentsline {paragraph}{Erl\IeC {\"a}uterung}{75}{section*.97}
-\contentsline {paragraph}{FAZIT}{77}{section*.98}
+\contentsline {chapter}{\numberline {I}Grundlagen der Allgemeinen Topologie}{7}{chapter.1}
+\contentsline {section}{\numberline {1}Erste Beispiele topologischer R\IeC {\"a}ume}{7}{section.1.1}
+\contentsline {section}{\numberline {2}Topologische Grundbegriffe}{8}{section.1.2}
+\contentsline {paragraph}{Mehr zu metrischen R\IeC {\"a}umen}{11}{shadedefinitions.1.7}
+\contentsline {paragraph}{Erinnerung}{12}{section*.17}
+\contentsline {paragraph}{TODO:Exkurs zu "Randbildung (topologisch) und Ableitung (analytisch) sind dual zueinander"}{13}{section*.20}
+\contentsline {section}{\numberline {3}Stetige Abbildungen}{13}{section.1.3}
+\contentsline {section}{\numberline {4}Zusammenhang und Kompaktheit}{16}{section.1.4}
+\contentsline {section}{\numberline {5}Trennungseigenschaften}{20}{section.1.5}
+\contentsline {section}{\numberline {6}Abz\IeC {\"a}hlbarkeitsaxiome und lokale Kompaktheit}{22}{section.1.6}
+\contentsline {chapter}{\numberline {II}Geometrische Beispiele und Konstruktionen topologischer R\IeC {\"a}ume}{24}{chapter.2}
+\contentsline {section}{\numberline {1}Mannigfaltigkeiten}{24}{section.2.1}
+\contentsline {paragraph}{Beispiele zu Mannigfaltigkeiten (Exkurs)}{24}{section*.44}
+\contentsline {paragraph}{TODO: Richtig toller Exkurs zu Mannigfaltigkeiten}{26}{section*.45}
+\contentsline {paragraph}{Folgerung}{26}{section*.46}
+\contentsline {subsection}{\numberline {1.1}Differenzierbare Abbildungen}{27}{subsection.2.1.1}
+\contentsline {paragraph}{ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer R\IeC {\"a}ume: }{28}{Item.22}
+\contentsline {paragraph}{Interpretation}{28}{section*.49}
+\contentsline {section}{\numberline {2}Quotientenr\IeC {\"a}ume}{32}{section.2.2}
+\contentsline {paragraph}{Erinnerung}{34}{section*.51}
+\contentsline {paragraph}{Eigenschaften der Quotiententopologie}{34}{section*.52}
+\contentsline {paragraph}{Achtung:}{34}{section*.53}
+\contentsline {paragraph}{TODO: Exkurs: Instabilit\IeC {\"a}t von Planetensystemen}{35}{section*.55}
+\contentsline {section}{\numberline {3}Quotientenabbildungen}{36}{section.2.3}
+\contentsline {paragraph}{Interpretation}{36}{section*.56}
+\contentsline {paragraph}{Allgemeiner}{36}{section*.57}
+\contentsline {paragraph}{Erinnerung}{36}{section*.58}
+\contentsline {section}{\numberline {4}Konstruktionen von Quotientenr\IeC {\"a}umen}{39}{section.2.4}
+\contentsline {paragraph}{Andere Sichtweise:}{40}{section*.62}
+\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{42}{section*.67}
+\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{42}{section*.68}
+\contentsline {chapter}{\numberline {III}Konzepte der Algebraischen Topologie}{43}{chapter.3}
+\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{43}{section.3.1}
+\contentsline {paragraph}{Erinnerung}{43}{section*.69}
+\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{44}{section*.71}
+\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{49}{section*.73}
+\contentsline {paragraph}{Erinnerung}{49}{section*.74}
+\contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{50}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{51}{subsection.3.1.2}
+\contentsline {paragraph}{Zwei Schritte zum Beweis von $\pi _1(S^n,N) = \{0\}:$}{52}{section*.79}
+\contentsline {paragraph}{Erinnerung (Lebesguelemma)}{53}{section*.80}
+\contentsline {subsection}{\numberline {1.3}Induzierte Homomorphismen}{54}{subsection.3.1.3}
+\contentsline {paragraph}{Folgerung}{54}{section*.81}
+\contentsline {subsection}{\numberline {1.4}Produkte}{55}{subsection.3.1.4}
+\contentsline {section}{\numberline {2}\IeC {\"U}berlagerungen}{57}{section.3.2}
+\contentsline {paragraph}{Motivation}{57}{section*.83}
+\contentsline {paragraph}{Veranschaulichung}{57}{section*.84}
+\contentsline {paragraph}{}{57}{section*.85}
+\contentsline {paragraph}{}{58}{section*.86}
+\contentsline {paragraph}{(\IeC {\"U})}{59}{section*.87}
+\contentsline {paragraph}{Terminologie/Sprechweisen}{59}{section*.88}
+\contentsline {paragraph}{Mini-Exkurs: Funktionentheorie, verzweigte \IeC {\"U}berlagerung}{61}{section*.90}
+\contentsline {subsection}{\numberline {2.1}Induzierte Homomorphismen}{62}{subsection.3.2.1}
+\contentsline {paragraph}{Folgerung}{62}{section*.92}
+\contentsline {subsection}{\numberline {2.2}Produkte}{63}{subsection.3.2.2}
+\contentsline {section}{\numberline {3}Liften von Abbildungen}{65}{section.3.3}
+\contentsline {paragraph}{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann R\IeC {\"a}ume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}{66}{shadetheorem.3.9}
+\contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{67}{subsection.3.3.1}
+\contentsline {paragraph}{Erinnerung}{68}{section*.95}
+\contentsline {paragraph}{Andere Interpretation:}{69}{section*.96}
+\contentsline {paragraph}{Erl\IeC {\"a}uterung}{70}{section*.97}
+\contentsline {paragraph}{FAZIT}{72}{section*.98}
