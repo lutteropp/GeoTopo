@@ -1,6 +1,6 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {}Einf\IeC {\"u}hrung}{2}{chapter.0}
+\contentsline {chapter}{\numberline {0}Einf\IeC {\"u}hrung}{2}{chapter.0}
 \contentsline {paragraph}{Achtung:}{3}{section*.5}
 \contentsline {chapter}{\numberline {I}Grundlagen der Allgemeinen Topologie}{8}{chapter.1}
 \contentsline {section}{\numberline {1}Erste Beispiele topologischer R\IeC {\"a}ume}{8}{section.1.1}
