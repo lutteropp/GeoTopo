@@ -17,6 +17,11 @@
 \usepackage{graphicx}
 \usepackage{framed}
 \usepackage{lmodern}
+\usepackage{a4wide}
+\setlength{\headwidth}{15.34cm}
+\setlength{\textwidth}{15.34cm}
+
+\usepackage{shadethm}
 % == Set the heading style ===================================================
 \setlength{\headheight}{14pt}
 \pagestyle{fancyplain}
@@ -46,17 +51,16 @@
 % ============================================================================
 
 % == German definitions for theorems etc. ==================================== 
-\newtheorem{theorem}{Satz}[chapter]
+%\newtheorem{theorem}{Satz}[chapter]
 \newtheorem{lemma}{Lemma}[chapter]
 \newtheorem{proposition}{Proposition}[chapter]
-\newtheorem{corollary}{Korollar}[chapter]
+%\newtheorem{corollary}{Korollar}[chapter]
 \newtheorem{observation}{Beobachtung}[chapter]
 \newtheorem{fact}{Fakt}[chapter]
 \newtheorem{example}{Beispiel}[chapter]
 %\theoremstyle{remark} 
 \theoremstyle{definition} 
 \newtheorem{remark}{Bemerkung}[chapter]
-\newtheorem{definition}{Definition}[chapter]
 % ============================================================================
 
 % == Abkürzungen für die reellen, natürlichen, ganzen,... Zahlen =============
@@ -104,14 +108,14 @@
 %\definecolor{shadecolor}{gray}{0.9}
 \definecolor{shadecolor}{rgb}{0.9,1,1}
 \definecolor{framecolor}{gray}{0}
-\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
-\MakeFramed {\FrameRestore}
+%\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}
+%\MakeFramed {\FrameRestore}
 \subsection*{#1}
 %\begin{itshape}
 }
 {
 %\end{itshape}
-\endMakeFramed
+%\endMakeFramed
 \end{minipage}
 \end{center}
 %\vspace{1em}
@@ -127,6 +131,10 @@
 {
 \end{upshape}
 }
+
+\newshadetheorem{theorem}{Satz}[chapter]
+\newshadetheorem{corollary}{Korollar}[chapter]
+\newshadetheorem{definition}{Definition}[chapter]
 
 \begin{document}
 \shorthandoff{"}
