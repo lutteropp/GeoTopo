@@ -17,10 +17,11 @@
 \usepackage{graphicx}
 \usepackage{framed}
 \usepackage{lmodern}
-\usepackage{a4wide}
+\usepackage{geometry}
+\geometry{a4paper,left=20mm,right=30mm, top=3cm, bottom=2cm} 
 \usepackage{marginnote}
-\setlength{\headwidth}{15.34cm}
-\setlength{\textwidth}{15.34cm}
+\setlength{\headwidth}{15cm}
+\setlength{\textwidth}{15cm}
 
 \usepackage{shadethm}
 % == Set the heading style ===================================================
@@ -135,7 +136,7 @@
 
 \newshadetheorem{theorem}{Satz}[chapter]
 \newshadetheorem{corollary}{Korollar}[chapter]
-\newshadetheorem{definitions}{Definition}[chapter]
+\newtheorem{definitions}{Definition}[chapter]
 
 \newenvironment{definition}[1]{
 	\begin{definitions}
