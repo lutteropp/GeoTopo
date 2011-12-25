@@ -18,6 +18,7 @@
 \usepackage{framed}
 \usepackage{lmodern}
 \usepackage{a4wide}
+\usepackage{marginnote}
 \setlength{\headwidth}{15.34cm}
 \setlength{\textwidth}{15.34cm}
 
@@ -134,7 +135,12 @@
 
 \newshadetheorem{theorem}{Satz}[chapter]
 \newshadetheorem{corollary}{Korollar}[chapter]
-\newshadetheorem{definition}{Definition}[chapter]
+\newshadetheorem{definitions}{Definition}[chapter]
+
+\newenvironment{definition}[1]{
+	\begin{definitions}
+	\marginnote{#1}
+}{\end{definitions}}
 
 \begin{document}
 \shorthandoff{"}
@@ -169,7 +175,7 @@ Dies ist ein Mitschrieb der Vorlesung “Einführung in die Geometrie und Topolo
 
 Topologie ist qualitative Geometrie. Ihr grundlegendes Studienobjekt sind topologische Räume und Abbildungen zwischen diesen.
 
-\begin{definition}[Topologischer Raum]
+\begin{definition}{Topologischer Raum}
 Ein \underline{topologischer Raum} $X$ ist gegeben durch eine Menge $X$ und ein System $\OO$ von Teilmengen von $X$, den so genannten \underline{offenen Mengen} von $X$, welches unter beliebigen Vereinigungen und endlichen Durchschnitten abgeschlossen ist und $X$ und die leere Menge $\emptyset$ als Elemente enthält.
 \newline
 $X$ Menge, $\OO \subset \mathcal{P}(X) \colon$
@@ -190,7 +196,7 @@ $\Rightarrow (X,\tilde{\OO})$ ist topologischer Raum.
 $\OO$ ist "Basis" der Topologie $\tilde{\OO}$.
 \end{bsp}
 
-\begin{definition}[Metrischer Raum]
+\begin{definition}{Metrischer Raum}
 Ein \underline{metrischer Raum} $X$ ist eine Menge $X$ mit einer Abbildung $d \colon X \times X \rightarrow \R$, der \underline{"Metrik"} auf $X$, die folgende Eigenschaften erfüllt:
 $\forall x,y,z \in X$ gilt:
 \begin{enumerate}[(1)]
@@ -200,13 +206,13 @@ $\forall x,y,z \in X$ gilt:
 \end{enumerate}
 \end{definition}
 
-\begin{definition}[Stetigkeit]
+\begin{definition}{Stetigkeit}
 Eine Abbildung $F \colon X \rightarrow Y$ zwischen topologischen Räumen $X$ und $Y$ heißt \underline{stetig}, falls die F-Urbilder offener Mengen in $Y$ offene Teilmengen von $X$ sind.
 \end{definition}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/stetigeAbb.pdf}
+\includegraphics[width=0.5\textwidth]{images/stetigeAbb.pdf}
 \caption{Stetige Abbildung}
 \end{figure}
 
@@ -216,7 +222,7 @@ $U_{\epsilon}(x):=\{y \in X \mid d (x,y) < \epsilon \} (\epsilon > 0)$,
 und $F \colon (X,d) \rightarrow (Y,d')$ ist stetig im obigen Sinn genau dann, falls für alle $\epsilon > 0$ und alle $x \in X$ ein $\delta > 0$ existiert mit $F(U_\delta (x)) \subset U_\epsilon (F(x))$.
 \end{remark}
 
-\begin{definition}[Homotopie]
+\begin{definition}{Homotopie}
 Eine \underline{Homotopie} $H \colon f \simeq g$ zwischen zwei (stetigen) Abbildungen $f,g \colon X \rightarrow Y$ ist eine (stetige) Abbildung $$H \colon X \times I \rightarrow Y, (x,t) \mapsto H(x,t)$$ 
 mit $H(x,0) = f(x) \text{ und } H(x,1) = g(x) \quad \forall x \in X$.
 \newline
@@ -230,7 +236,7 @@ X \times I$.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{images/Homotopie.jpg}
+\includegraphics[width=0.5\textwidth]{images/Homotopie.jpg}
 \caption{Homotopie}
 \end{figure}
 
@@ -247,12 +253,12 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\textwidth]{images/Homotopie_param.jpg}
+\includegraphics[width=0.5\textwidth]{images/Homotopie_param.jpg}
 \caption{$H = (h_t), t \in [0,1]$, von stetigen Abbildungen $h_t \colon X \rightarrow Y$ mit \underline{Anfang} $h_0=f$ und \underline{Ende} $h_1=g$.}
 \end{figure}
 
 
-\begin{definition}[Homotope Abbildungen $f,g \colon X \rightarrow Y$]
+\begin{definition}{Homotope Abbildungen $f,g \colon X \rightarrow Y$}
 	Zwei (stetige) Abbildungen heißen \underline{homotop}, in Zeichen: $f \simeq g$, falls eine Homotopie mit Anfang $f$ und Ende $g$ existiert.
 \end{definition}
 
@@ -278,7 +284,7 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Homotopie_Transitivitaet.jpg}
+\includegraphics[width=0.5\textwidth]{images/Homotopie_Transitivitaet.jpg}
 \caption{Transitivität der Relation "homotop sein"}
 \end{figure}
 
@@ -286,7 +292,7 @@ $H$ heißt auch \underline{Homotopie} \underline{\underline{von $f$ nach $g$}}. 
 Die Äquivalenzrelation "Homotopie von Abbildungen" liefert also eine Partition von $C(X,Y)$ in Äquivalenzklassen. Diese heißen Homotopieklassen und die \underline{Menge aller Homotopieklassen} \underline{stetiger Abbildungen} \underline{von $X$ nach $Y$} wird mit $[X,Y]$ bezeichnet.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Aequivalenzklassen.jpg}
+\includegraphics[width=0.5\textwidth]{images/Aequivalenzklassen.jpg}
 \caption{Äquivalenzklassen $[X,Y]$ von $C(X,Y)$}
 \end{figure}
 \end{remark}
@@ -300,18 +306,18 @@ Je zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind homotop! Denn
 $$H(x,t):= (1-t) f(x) + t \cdot g(x)$$ liefert eine Homotopie von $f$ nach $g$:
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/R_n_immer_homotop.jpg}
+\includegraphics[width=0.5\textwidth]{images/R_n_immer_homotop.jpg}
 \caption{Zwei stetige Abbildungen $f,g \colon X \rightarrow \R^n$ sind immer homotop.}
 \end{figure} 
 \end{bsp}
 
-\begin{definition}[Nullhomotopie]
+\begin{definition}{Nullhomotopie}
 Eine stetige Abbildung $f \colon X \rightarrow Y$ heißt \underline{nullhomotop}, falls sie homotop zu einer konstanten Abbildung ist.
 \end{definition}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Nullhomotopie.jpg}
+\includegraphics[width=0.5\textwidth]{images/Nullhomotopie.jpg}
 \caption{f ist nullhomotop.}
 \end{figure}
 
@@ -325,7 +331,7 @@ $\bigl[[0,1], \R^2\bigr]$ + gleicher Anfangs- und Endpunkt besteht nur aus einem
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Geschlossene_Wege.jpg}
+\includegraphics[width=0.5\textwidth]{images/Geschlossene_Wege.jpg}
 \caption{Geschlossene Wege in $\R^n$.}
 \end{figure}
 
@@ -344,7 +350,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/S1_und_R2_ohne_0.jpg}
+\includegraphics[width=0.5\textwidth]{images/S1_und_R2_ohne_0.jpg}
 \caption{$[S^1,\R^2\backslash\{(0,0)\}]\text{ "=" }[S^1,S^1]$.}
 \end{figure}
 
@@ -364,7 +370,7 @@ Interpretiere einen geschlossenen Weg im $\R^2$ auch als stetige Abbildung von $
 	\end{enumerate}
 \end{bsp}
 
-\begin{definition}[Teilraumtopologie]
+\begin{definition}{Teilraumtopologie}
 Es sei $(X, \OO)$ topologischer Raum und $A \subset X$. Die auf $A$ durch
 $$\OO \Big |_{A} := \{U \cap A \mid U \in \OO \}$$
 induzierte Topologie heißt \underline{Teilraumtopologie} und der dadurch gegebene topologische Raum $(A, \OO \Big |_{A})$ heißt \underline{Teilraum} von $(X, \OO)$.
@@ -379,7 +385,7 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 \newline
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Teilraumtopologie.jpg}
+\includegraphics[width=0.5\textwidth]{images/Teilraumtopologie.jpg}
 \end{figure}
 \newline
 \underline{Achtung:} $B$ ist \underline{\underline{nicht}} offen in $\R^2$!
@@ -387,7 +393,7 @@ $X = \R^2, A = S^1 = \{ x \in \R^2 \mid \text{ } ||x|| = 1\}$
 
 \section{Topologische Grundbegriffe}
 
-\begin{definition}[Abgeschlossenheit]
+\begin{definition}{Abgeschlossenheit}
 	$A \subset X, X$ topologischer Raum, heißt \underline{abgeschlossen} $$:\Leftrightarrow X \backslash A \text{ ist offen.}$$
 \end{definition}
 
@@ -401,7 +407,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	In einem diskreten topologischen Raum sind \underline{alle Teilmengen} abgeschlossen, in $\R_{\mathcal{T}_1}$\footnote{$\R$ mit $\mathcal{T}_1$-Topologie} alle endlichen Teilmengen und $X, \emptyset$.
 \end{bsp}
 
-\begin{definition}[Umgebung]
+\begin{definition}{Umgebung}
 	Ist $X$ topologischer Raum und $x \in X$, so heißt jede \underline{offene} Teilmenge $O \subset X$ mit $x \in O$ eine \underline{Umgebung} von $x$.
 \end{definition}
 
@@ -423,11 +429,11 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{images/Cantormenge_5te_Iteration.jpg}
+\includegraphics[width=0.5\textwidth]{images/Cantormenge_5te_Iteration.jpg}
 \caption{Die Cantor-Menge.}
 \end{figure}
 
-\begin{definition}[Basis]
+\begin{definition}{Basis}
 	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, 
 	\newline
 	so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
@@ -452,7 +458,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	\end{figure}
 \end{remark}
 
-\begin{definition}[Produkt-Topologie]
+\begin{definition}{Produkt-Topologie}
 	Sind $(X, \OO_X)$ und $(Y, \OO_Y)$ topologische Räume, so bildet $$\mathcal{B}_{X \times Y} := \{U \times V \mid U \in \OO_X, V \in \OO_Y\}$$
 	die Basis einer Topologie für die Menge $X \times Y$, und diese heißt \underline{Produkt-Topologie auf $X \times Y$}.
 	\newline
@@ -468,7 +474,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	Ebenso: $(\R^1)^n = \R^n$!
 \end{bsp}
 
-\begin{definition}[Feiner und gröber]
+\begin{definition}{Feiner und gröber}
 	Sind $\OO_1$ und $\OO_2$ Topologien auf $X$ und $\OO_1 \subset \OO_2$, 
 	\newline so heißt $\OO_2$ \underline{feiner} als $\OO_1$ und $\OO_1$ \underline{gröber} als $\OO_2$.
 \end{definition}
@@ -482,7 +488,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 \newpage
 \paragraph{Mehr zu metrischen Räumen}
 
-\begin{definition}[$\epsilon$-Ball, Sphäre]
+\begin{definition}{$\epsilon$-Ball, Sphäre}
 	Für einen metrischen Raum $(X,d)$ und $\epsilon > 0$ sei für $p \in X$
 	\begin{itemize}
 		\item $B_\epsilon(p):=\{x \in C \mid d(p,x) < \epsilon \}$ der \underline{offene $\epsilon$-Ball um $p$}
@@ -491,7 +497,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	\end{itemize}
 \end{definition}
 
-\begin{definition}[Metrischer Unterraum]
+\begin{definition}{Metrischer Unterraum}
 	Ist $(X,d)$ metrischer Raum und $A \subset X$, so heißt der metrische Raum $(A, d \big |_{A \times A})$ \underline{(metrischer) Unterraum von $X$}.
 \end{definition}
 
@@ -503,7 +509,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	\end{center}
 \end{bsp}
 
-\begin{definition}[Beschränktheit, Durchmesser]
+\begin{definition}{Beschränktheit, Durchmesser}
 	$A \subset (X,d)$ heißt \underline{beschränkt} \newline $:\Leftrightarrow \exists 0 < \rho \in \R \colon d(x,y) < \rho  \text{   } \forall x,y \in A$
 	\newline
 	Das Infimum, diam $A$, dieser $\rho$ heißt dann \underline{Durchmesser von $A$}.
@@ -523,11 +529,11 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 	$\Leftrightarrow \forall p \in A \exists \text{ ein offener Ball } B_\epsilon(p) \text{ um } p \text{ mit } B_\epsilon(p) \subset A$
 	\newline
 	\begin{center}
-	\includegraphics[width=0.6\textwidth]{images/metrisch_offen.jpg}
+	\includegraphics[width=0.5\textwidth]{images/metrisch_offen.jpg}
 	\end{center}
 \end{remark}
 
-\begin{definition}[Abstand]
+\begin{definition}{Abstand}
 	$(X,d)$ sei metrischer Raum und $A \subset X, p \in X$.
 	$$d(p,A) := dist(p,A):= \inf \{d(p,a) \mid a\in A \}$$
 	heißt \underline{Abstand von $p$ und $A$}.
@@ -543,7 +549,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
 		
 		\begin{center}
-	\includegraphics[width=0.6\textwidth]{images/offen_abgeschlossen.jpg}
+	\includegraphics[width=0.5\textwidth]{images/offen_abgeschlossen.jpg}
 	\end{center}
 	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
@@ -552,7 +558,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$B := A := (a,b) \subset X := \R$
 \end{bsp}
 
-\begin{definition}[Innerer Punkt, äußerer Punkt, Randpunkt]
+\begin{definition}{Innerer Punkt, äußerer Punkt, Randpunkt}
 	Für $p \in A \subset X$, $X$ topologischer Raum, heißt $p$
 	\newline
 	\begin{enumerate}[(1)]
@@ -562,10 +568,10 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{enumerate}
 \end{definition}
 	\begin{center}
-	\includegraphics[width=0.6\textwidth]{images/innen_aussen.jpg}
+	\includegraphics[width=0.5\textwidth]{images/innen_aussen.jpg}
 	\end{center}
 	
-\begin{definition}[Inneres]
+\begin{definition}{Inneres}
 	Für $A \subset X$ heißt die größte in $X$ offene und in $A$ enthaltene Teilmenge $\mathring A$ \underline{Inneres von $A$}.
 \end{definition}
 
@@ -577,11 +583,11 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$\mathring {\R \backslash \Q} = \mathring \Q = \emptyset$
 \end{bsp}
 
-\begin{definition}[Abschluss]
+\begin{definition}{Abschluss}
 	Der \underline{Abschluss} $\bar{A}$ von $A$ ist $X \backslash \left ( \mathring {(X \backslash A} ) \right )$.
 \end{definition}
 
-\begin{definition}[Rand]
+\begin{definition}{Rand}
 	Der \underline{Rand} $\partial A$ von $A$ ist $$\partial A := \bar{A} \backslash \mathring A,$$ d.h. Rand $A$ = \{ Randpunkte von A \}.
 \end{definition}
 
@@ -589,7 +595,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \section{Stetige Abbildungen}
 
-\begin{definition}[Stetigkeit]
+\begin{definition}{Stetigkeit}
 	$f \colon X \rightarrow Y$ ist stetig $:\Leftrightarrow \forall$ offenen Mengen in $Y$ ist das Urbild unter $f$ offene Menge in $X$.
 \end{definition}
 
@@ -601,13 +607,13 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{itemize}
 \end{bsp}
 
-\begin{definition}[Stetigkeit] %spacings stimmen nicht ganz (TODO)
+\begin{definition}{Stetigkeit}
 	$f \colon X \rightarrow Y$ ist stetig in $x \in X$
 	$$:\Leftrightarrow \forall \text{ Umgebungen } V \text{ von } f(x) \quad \exists \text{ Umgebung } U \text{ von } x \text{ mit }$$ $$f(U) \subset V.$$
 	\newline
 \end{definition}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{images/stetig_in_x.jpg}
+\includegraphics[width=0.5\textwidth]{images/stetig_in_x.jpg}
 \end{center}
 
 \begin{remark}
@@ -618,7 +624,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Eine Abbildung $f \colon X \rightarrow Y$ zwischen \underline{metrischen} Räumen ist bezüglich der von den Metriken induzierten Topologien stetig in $x \in X$ genau dann, wenn für jeden offenen Ball $B$ um $f(x)$ ein offener Ball um $x$ existiert, der unter $f$ in $B$ abgebildet wird. (Und ferner stetig in $x \in X$ genau dann, wenn für alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass für alle $x^\prime \in X$ mit $d_X(x,x^\prime) < \delta$ auch $d_Y \left( f(x), f(x^\prime) \right) < \epsilon$ folgt.) 
 \end{bsp}
 
-\begin{definition}[Isometrische Einbettung, Isometrie]
+\begin{definition}{Isometrische Einbettung, Isometrie}
 	Sind $X,Y$ metrische Räume, so heißt eine Abbildung $f \colon X \rightarrow Y$ \underline{isometrische Einbettung}
 	\newline	
 	 $: \Leftrightarrow \forall x, x^\prime \in X$ gilt $d_Y \left ( f(x), f(x^\prime) \right ) = d_X (x, x^\prime)$.
@@ -628,7 +634,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Ist $f$ zusätzlich \underline{bijektiv}, so heißt $f$ \underline{\underline{Isometrie}}. 
 \end{definition}
 
-\begin{definition}[Homöomorphismus]
+\begin{definition}{Homöomorphismus}
 	Eine invertierbare Abbildung $f \colon X \rightarrow Y$ topologischer Räume heißt \underline{Homöomorphismus}, falls $f$ und $f^{-1}$ stetig sind.
 \end{definition}
 
@@ -636,7 +642,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\begin{itemize}
 		\item $f \colon [0,1) \rightarrow S^1 \subset \C \hat{=} \R^2, t \mapsto e^{2 \pi i t} (= \cos {2 \pi t}, \sin {2 \pi t})$ ist stetig, injektiv, aber \underline{kein} Homöomorphismus!
 		\begin{center}
-		\includegraphics[width=0.7\textwidth]{images/0_1_nach_S1_f-1_nicht_stetig.jpg}
+		\includegraphics[width=0.5\textwidth]{images/0_1_nach_S1_f-1_nicht_stetig.jpg}
 		\end{center}
 		\item $id_X \colon X \rightarrow X$ ist immer ein Homöomorphismus, Kompositionen von Homöomorphismen ebenfalls.
 	\end{itemize}
@@ -646,7 +652,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	`Homöomorph sein' ist eine Äquivalenzrelation für topologische Räume.
 \end{remark}
 
-\begin{definition}[homöomorph]
+\begin{definition}{homöomorph}
 	Zwei topologische Räume $X$ und $Y$ heißen \underline{homöomorph} oder \underline{vom gleichen Homöomorphietyp}, in Zeichen $X \cong Y$, falls es einen Homöomorphismus $f \colon X \rightarrow Y$ gibt.
 \end{definition}
 
@@ -677,7 +683,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	Der Schnitt der Geraden im $\R^{n+1}$ durch $N$ und $x \in S^n \backslash \{N\}$ mit der Hyperebene $\R^n=\{x \in \R^{n+1} \mid x_{n+1} = 0 \}$, $f(x)$, ist gegeben durch $x = (x_1, \ldots, x_{n+1}) \mapsto (\frac{x_1}{1-x_{n+1}}, \frac{x_2}{1-x_{n+1}}, \ldots, \frac{x_n}{1-x_{n+1}}) =: f(x)$ mit Umkehrabbildung $y = (y_1, \ldots, y_n) \mapsto (\frac{2 y_1}{||y||^2+1}, \ldots, \frac{2 y_n}{||y||^2+1},\frac{||y||^2-1}{||y||^2+1})$.
 \end{bsp}
 
-\begin{definition}[Einbettung]
+\begin{definition}{Einbettung}
 	$f \colon X \rightarrow Y$ stetig heißt \underline{Einbettung} $$:\Leftrightarrow X \overset{f}{\rightarrow}f(X) \subset Y \text{ Homöomorphismus.}$$
 \end{definition}
 
@@ -694,12 +700,12 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{itemize}
 \end{bsp}
 
-\begin{definition}[Äquivalenz von Einbettungen]
+\begin{definition}{Äquivalenz von Einbettungen}
 	Zwei Einbettungen $f,g \colon X \rightarrow Y$ heißen \underline{äquivalent} $:\Leftrightarrow \exists \text{ Homöomorphismen } h_X \colon X \rightarrow X, h_Y \colon Y \rightarrow Y \text{ mit } g \circ h_X = h_Y \circ f$, d.h. dass das Diagramm 
 		\includegraphics[scale=0.3]{images/homotopieaequivalenz.jpg} kommutiert.
 \end{definition}
 
-\begin{definition}[Knoten]
+\begin{definition}{Knoten}
 	Eine Einbettung $S^1 \rightarrow \R^3$ heißt \underline{Knoten}.
 \end{definition}
 
@@ -709,13 +715,13 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 
 \section{Zusammenhang und Kompaktheit}
 
-\begin{definition}[zusammenhängend]
+\begin{definition}{zusammenhängend}
 	Ein topologischer Raum heißt \underline{zusammenhängend} $:\Leftrightarrow$ Die einzigen in $X$ gleichzeitig offenen und abgeschlossenen Teilmengen sind $\emptyset$ und $X$.
 	\newline
 	Ansonsten heißt $X$ \underline{un-} oder \underline{nicht zusammenhängend}.
 \end{definition}
 
-\begin{definition}[Überdeckung]
+\begin{definition}{Überdeckung}
 	Eine Familie $\mathcal{U} = \{U_\alpha \mid \alpha \in A\}$\footnote{$A$ Indexmenge} von Teilmengen von $X$ heißt \underline{Überdeckung von $X$} $:\Leftrightarrow X = \bigcup\limits_{\alpha \in A}{U_\alpha}$.
 	\newline
 	$\mathcal{U}$ heißt \underline{offene} beziehungsweise \underline{abgeschlossene} Überdeckung $\Leftrightarrow$ alle $U_\alpha$ sind offen beziehungsweise abgeschlossen.
@@ -725,7 +731,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{definition}
 \includegraphics[scale=0.5]{images/Ueberdeckung.jpg}
 
-\begin{definition}[Partition]
+\begin{definition}{Partition}
 	Eine \underline{Partition} oder \underline{Zerlegung} einer Menge ist eine Überdeckung dieser Menge durch paarweise disjunkte, nichtleere Teilmengen.
 	\newline
 \end{definition}
@@ -771,7 +777,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\end{itemize}
 \end{remark}
 
-\begin{definition}[Zusammenhangskomponente]
+\begin{definition}{Zusammenhangskomponente}
 	Eine \underline{Zusammenhangskomponente} eines topologischen Raumes $X$ ist eine im Sinne der Inklusion von Mengen maximale zusammenhängende Teilmenge von $X$.
 \end{definition}
 
@@ -828,7 +834,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener Schnittrichtung nicht eindeutig.
 \end{bsp}
 
-\begin{definition}[Weg, Anfangspunkt, Endpunkt]
+\begin{definition}{Weg, Anfangspunkt, Endpunkt}
 	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
 	\newline
 \end{definition}
@@ -836,7 +842,7 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 	\includegraphics[scale=0.4]{images/Weg.jpg}
 \end{center}
 
-\begin{definition}[Wegzusammenhang]
+\begin{definition}{Wegzusammenhang}
 	$X$ heißt \underline{wegzusammenhängend} $$:\Leftrightarrow \text{ Zu je zwei Punkten } x,x^\prime \in X \quad \exists \text{ Weg } \gamma \colon [0,1] \rightarrow X$$ $$\text{ mit } \gamma(0)=x, \gamma(1)=x^\prime.$$
 \end{definition}
 \begin{center}
@@ -853,12 +859,12 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 	\scriptsize{Bild: http://de.wikipedia.org/w/index.php?title=Datei:Sinuseinsdurchx.png\&filetimestamp=20080624085708}
 \end{bsp}
 
-\begin{definition}[Kompaktheit]
+\begin{definition}{Kompaktheit}
 	Ein topologischer Raum $X$ heißt \underline{kompakt}, falls jede offene Überdeckung von $X$ eine endliche Teilüberdeckung enthält.
 \end{definition}
 
 \section{Trennungseigenschaften}
-\begin{definition}[$T_1$-Raum]
+\begin{definition}{$T_1$-Raum}
 Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüllt das erste Trennungsaxiom} $:\Leftrightarrow$ Für je zwei verschiedene Punkte von $X$ existiert für jeden dieser Punkte eine Umgebung in $X$, die den anderen nicht enthält.
 \newline
 $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$ 
@@ -867,7 +873,7 @@ $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$
 \includegraphics[scale=0.4]{images/T1.jpg}
 \end{center}
 
-\begin{definition}[$T_2$-Raum]
+\begin{definition}{$T_2$-Raum}
 	$X$ heißt \underline{Hausdorff}- oder \underline{$T_2$-Raum} bzw. \underline{erfüllt das zweite Trennungsaxiom} $:\Leftrightarrow$ Je zwei verschiedene Punkte in $X$ besitzen disjunkte Umgebungen.
 	\newline
 	$\forall x \neq y \in X \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
@@ -884,7 +890,7 @@ $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$
 Hausdorff-Räume sind z.B. deshalb wichtig, weil Grenzwerte dort eindeutig sind!
 \end{remark}
 
-\begin{definition}[Grenzwert]
+\begin{definition}{Grenzwert}
 Ist $(x_n)_{n \in \N}$ eine Folge von Punkten in einem topologischen Raum $X$, so heißt $x \in X$ \underline{Grenzwert} der Folge $(x_n)$ genau dann, wenn zu jeder Umgebung $U$ von $x$ ein $N \in \N$ existiert mit $x_n \in U \quad \forall n \geq N$. 
 \newline
 \end{definition}
@@ -909,7 +915,7 @@ Hausdorff-Räume sind auch $T_1$-Räume, aber:
 
 \newpage
 \section{Abzählbarkeitsaxiome und lokale Kompaktheit}
-\begin{definition}[Umgebungsbasis]
+\begin{definition}{Umgebungsbasis}
 	Ist $X$ topologischer Raum und $x \in X$, so ist eine \underline{Umgebungsbasis} oder \underline{Basis von $X$} \underline{\underline{in $x$}} eine Familie von Umgebungen von $x$, sodass \underline{jede} Umgebung von $x$ eine Umgebung aus der Familie enthält.
 \end{definition}
 
@@ -930,7 +936,7 @@ Hausdorff-Räume sind auch $T_1$-Räume, aber:
 	Ist $X$ mit der diskreten bzw. trivialen Topologie versehen, so ist die `kleinste' Basis in $x \in X$ gegeben durch $\left\{\{x\}\right\}$ bzw. $\{X\}$.
 \end{bsp}
 
-\begin{definition}[Abzählbarkeitsaxiome, Separabilität]
+\begin{definition}{Abzählbarkeitsaxiome, Separabilität}
 	$X$ \underline{erfüllt das erste Abzählbarkeitsaxiom}
 	$:\Leftrightarrow$ jeder Punkt $x \in X$ besitzt eine abzählbare Basis.
 	\newline
@@ -966,22 +972,22 @@ Wozu das Ganze?
 \newline $\rightsquigarrow$ \underline{Satz von Lindelöf:}
 Jede offene Überdeckung eines Raumes, der das zweite Abzählbarkeitsaxiom erfüllt, enthält auch eine abzählbare \underline{Teilüberdeckung}.
  
-\begin{definition}[Lokale Kompaktheit]
+\begin{definition}{Lokale Kompaktheit}
 $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jeder Punkt $x \in X$ besitzt eine Umgebung $U$, sodass $\overline{U}$ kompakt ist.
 \end{definition} 
 
-\begin{definition}[Lokale Endlichkeit]
+\begin{definition}{Lokale Endlichkeit}
 	Eine Familie $\Gamma$ von Teilmengen eines topologischen Raumes $X$ heißt \underline{lokal endlich} $:\Leftrightarrow \forall x \in X \quad \exists U = U(x) \colon A \cap U = \emptyset \quad \forall A \in \Gamma$ bis auf endlich viele $A$.
 \end{definition}
 \begin{center}
 	\includegraphics[scale=0.5]{images/lokal_endlich.jpg}
 \end{center} 
  
-\begin{definition}[Verfeinerung]
+\begin{definition}{Verfeinerung}
 	$\Gamma, \Delta$ Überdeckungen von $X$. $\Delta$ heißt \underline{Verfeinerung} von $\Gamma$ \newline $:\Leftrightarrow \forall A \in \Delta \exists B \in \Gamma \colon A \subset B$.
 \end{definition} 
 
-\begin{definition}[Parakompaktheit]
+\begin{definition}{Parakompaktheit}
 	$X$ heißt \underline{parakompakt} $:\Leftrightarrow$ Jede offene Überdeckung besitzt eine lokal endliche offene Verfeinerung. 
 \end{definition}
 
@@ -1010,7 +1016,7 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 \includegraphics[scale=0.4]{images/Torus_Doppelpendel.jpg} \newline \newline
 \includegraphics[scale=0.4]{images/Stringtheorie.jpg}
 
-\begin{definition}[Mannigfaltigkeit, Karte]
+\begin{definition}{Mannigfaltigkeit, Karte}
 	Ein topologischer Raum $M$ heißt \underline{$n$-dimensionale} \underline{(topologische) Mannigfaltigkeit}, wenn gilt:
 	\begin{enumerate}
 		\item $M$ ist ein Hausdorff-Raum mit abzählbarer Basis der Topologie
@@ -1028,12 +1034,12 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	(folgt aus Brouwers Satz von der Invarianz des Gebietes) 
 \end{remark}
 
-\begin{definition}[Atlas]
+\begin{definition}{Atlas}
 	Ein \underline{Atlas} für eine topologische $n$-Mannigfaltigkeit $M$ ist eine Menge $\mathcal{A} = \{(\varphi_\alpha, U_\alpha) \mid \alpha \in \Lambda\}$\footnote{$\Lambda$ Indexmenge}
 	von Karten $\varphi_\alpha \colon U_\alpha \rightarrow V_\alpha = \varphi(U_\alpha) \subset \R^n$, so dass $M = \bigcup\limits_{a \in \Lambda}{U_\alpha}$
 \end{definition}
 
-\begin{definition}[$C^k$-Atlas, Kartenwechsel]
+\begin{definition}{$C^k$-Atlas, Kartenwechsel}
 	Ein Atlas heißt \underline{differenzierbar} \underline{von der Klasse $C^k$} (oder: $C^k$-Atlas von $M$), wenn für alle $\alpha, \beta \in \Lambda$ mit $U_\alpha \cap U_\beta \neq \emptyset$ der \underline{Kartenwechsel} $\varphi_\beta \circ \varphi_\alpha^{-1} \colon \varphi_\alpha(U_\alpha \cap U_\beta) \rightarrow \varphi_\beta(U_\alpha \cap U_\beta)$ eine $C^k$-Abbildung, also $k$-mal stetig differenzierbar ist. $(k=0,1,2,\ldots,\infty,\omega)$
 	\newline
 \end{definition}
@@ -1041,12 +1047,12 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 	\includegraphics[scale=0.4]{images/Kartenwechsel.jpg}
 \end{center} 
  
-\begin{definition}[Verträglichkeit, differenzierbare Struktur]
+\begin{definition}{Verträglichkeit, differenzierbare Struktur}
 	Ist $M$ topologische Mannigfaltigkeit und $\mathcal{A}=\{(\varphi_\alpha,U_\alpha) \mid \alpha \in \Lambda\}$ ein $C^k$-Atlas von $M$, so heißt eine Karte $(\varphi,U)$ von $M$ \underline{mit $\mathcal{A}$ verträglich}, falls $\mathcal{A}^\prime := \mathcal{A} \cup \{(\varphi,U)\}$ ebenfalls $C^k$-Atlas ist. 
 	Ein $C^k$-Atlas heißt \underline{maximal} (oder \underline{differenzierbare Struktur} (der Klasse $C^k$)), falls $\mathcal{A}$ alle mit $\mathcal{A}$ verträglichen Karten enthält.
 \end{definition} 
 
-\begin{definition}[$C^k$-Mannigfaltigkeit, glatt]
+\begin{definition}{$C^k$-Mannigfaltigkeit, glatt}
 	Eine \underline{differenzierbare Mannigfaltigkeit der Klasse $C^k$} (kurz: $C^k$-Mannigfaltigkeit) ist ein Paar $(M,\mathcal{A})$ bestehend aus einer topologischen Mannigfaltigkeit $M$ und einer $C^k$-Struktur auf $M$. Eine $C^\infty$-Mannigfaltigkeit heißt auch \underline{\underline{glatt}}.
 	\newline
 \end{definition}
@@ -1084,7 +1090,7 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 
 \newpage
 \subsection{Differenzierbare Abbildungen}
-\begin{definition}[$C^l$-Abbildung]
+\begin{definition}{$C^l$-Abbildung}
 Es seien $(M, \mathcal{A})$ eine $n$-dimensionale $C^k$-Mannigfaltigkeit, $(M^\prime, \mathcal{A}^\prime)$ eine $n^\prime$-dimensionale $C^{k^\prime}$-Mannigfaltigkeit und $l \leq \min(k,k^\prime)$. Eine stetige Abbildung $f \colon M \rightarrow M^\prime$ heißt \underline{differenzierbar} (\underline{von der Klasse $C^l$}) oder kurz: $C^l$-Abbildung, falls gilt:
 $$\forall (\varphi,U) \in \mathcal{A} \text{ und } (\varphi^\prime, U^\prime) \in \mathcal{A}^\prime \text{ mit } f(U) \cap U^\prime \neq \emptyset \text{ ist}$$
 $$\boxed{\varphi^\prime \circ f \circ \varphi^{-1} \colon \varphi(U \cap f^{-1}(U^\prime)) \rightarrow \varphi^\prime(f(U)\cap U^\prime)}$$
@@ -1125,7 +1131,7 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
 	\item besagt: $M$ lässt sich lokal parametrisieren.
 \end{enumerate}
 
-\begin{definition}[Untermannigfaltigkeit]
+\begin{definition}{Untermannigfaltigkeit}
 Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erfüllt, heißt dann \underline{$n$-dimensionale} \underline{(glatte/differenzierbare) Untermannigfaltigkeit von $\R^{n+l}$}.
 \end{definition}
 
@@ -1257,7 +1263,7 @@ Zusätzlich existiert dann die Quotientenabbildung $\pi \colon X \rightarrow X/S
 	Ist $X$ ein topologischer Raum und $X/S$ ein Quotientenraum von $X$, so gibt es auf $X/S$ eine natürliche Topologie:
 \end{remark}
 
-\begin{definition}[Quotienten(raum)topologie]
+\begin{definition}{Quotienten(raum)topologie}
 	Eine Teilmenge $U \subset X/S$ heißt \underline{offen}
 	$:\Leftrightarrow \pi^{-1}(U)$ ist offen in $X$
 \end{definition}
@@ -1307,7 +1313,7 @@ Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
 \newpage
 \section{Quotientenabbildungen}
 
-\begin{definition}[Quotientenabbildung]
+\begin{definition}{Quotientenabbildung}
 Ist $S$ eine Partition von $X$ in nichtleere disjunkte Teilmengen und $f \colon X \rightarrow Y$ eine Abbildung, die auf jedem Element von $S$ konstant ist, so existiert eine Abbildung $X/S \rightarrow Y$, die jedes Element $A$ von $S$ auf $f(a), a \in A,$ abbildet. \newline
 \includegraphics[scale=0.4]{images/Quotientenabbildung.jpg} \newline
 Diese heißt dann \textbf{Quotientenabbildung} von $f$ nach $S$, in Zeichen $f/S$.
@@ -1343,7 +1349,7 @@ $F \colon X \rightarrow Y$ stetige Bijektion von einem kompakten Raum $X$ auf ei
 \end{corollary}
 
 %\paragraph{Beispiel/Definition}
-\begin{definition}[injektiver Quotient]
+\begin{definition}{injektiver Quotient}
 \underline{\underline{Jede}} Abbildung $f \colon X \rightarrow Y$ definiert eine Partition $S = S(f)$ von $X$, und zwar in die nichtleeren Urbilder der Elemente von $Y$ unter $f$.
 \newline
 Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \underline{injektiv} und heißt \underline{injektiver Quotient} von $f$.
@@ -1369,7 +1375,7 @@ Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \un
 \section{Konstruktionen von Quotientenräumen}
 Im Folgenden "Kontrahieren", "Anheften", "Verkleben" etc.
 
-\begin{definition}[Kontraktion]
+\begin{definition}{Kontraktion}
 	Die Quotientenmenge eines topologischen Raumes $X$ bzgl. einer Partition $S$ von $X$, welche aus einer Teilmenge $A$ von $X$ und allen Einpunktmengen aus $X \backslash A$ besteht, $$S = A \cup \left\{\{x\} \mid x \in X \backslash A\right \}$$
 	heißt \underline{Kontraktion} (\underline{von $X$ bzgl. $X \backslash A$}), und für $X/S$ schreibt man einfach $X/A$.
 \end{definition}
@@ -1410,7 +1416,7 @@ Im Folgenden "Kontrahieren", "Anheften", "Verkleben" etc.
 \paragraph{Andere Sichtweise:}
 Der Zylinder $S^1 \times I$ entsteht aus dem Quadrat $I^2$ durch geeignetes "Verkleben" zweier Kanten. 
 
-\begin{definition}[Verkleben]
+\begin{definition}{Verkleben}
 Sind $A$ und $B$ disjunkte Teilräume eines topologischen Raumes $X$ und ist $f \colon A \rightarrow B$ ein Homöomorphismus, \includegraphics[scale=0.2]{images/Def_Verkleben.jpg} so heißt der Übergang zum Quotientenraum, der durch die Partition von $X$ in die Einpunktmengen von $X \backslash (A \cup B)$ und die Zweipunktmengen $\{x,f(x)\}, x \in A$ gegeben ist, \underline{Verkleben} (\underline{von $X$ längs $A$ und $B$ via des Homöomorphismus $f$}) und dieser Prozess einfach auch \underline{Verkleben von $A$ und $B$}.
 \newline
 \textbf{Notation:}
@@ -1446,7 +1452,7 @@ $$\includegraphics[scale=0.2]{images/Quadrat.jpg} \leadsto \includegraphics[scal
 	$$\Prim^2 \R \text{ (oder auch $\R \Prim^2$)}$$
 \end{bsp}
 
-\begin{definition}[$n$-dimensionaler projektiver Raum]
+\begin{definition}{$n$-dimensionaler projektiver Raum}
 	Der $n$-dimensionale \underline{reell-projektive} Raum\footnote{Anschaulich (projektive Geometrie): 
 	Die Menge aller Geraden durch den Ursprung im $\R^{n+1}$} ist 
 	$$\R \Prim^n := S^n/_{[x \sim -x]}$$
@@ -1509,7 +1515,7 @@ Homotopie \underline{von Wegen} ist zunächst nicht sehr interessant:
 
 Deshalb \underline{neues} Konzept:
 
-\begin{definition}[homotop bezüglich der Endpunkte]
+\begin{definition}{homotop bezüglich der Endpunkte}
 	Zwei Wege $u,v \colon I \rightarrow X$, $X$ topologischer Raum, heißen \underline{homotop} (\underline{\underline{bezüglich der Endpunkte}})
 	$:\Leftrightarrow$
 	\begin{enumerate}
@@ -1540,7 +1546,7 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	Die Homotopie von Wegen ist eine Äquivalenzrelation und für die Homotopieklasse eines Weges $u$ schreibt man $[u]$.
 \end{remark}
 
-\begin{definition}[Produkt von Wegen]
+\begin{definition}{Produkt von Wegen}
 	Sind $u$, $v$ Wege in $X$ mit $u(1)=v(0)$, so heißen $u$ und $v$ \underline{zusammensetzbar} oder \underline{aneinanderfügbar} und ihr \underline{Produkt} $u \cdot v$ ist definiert als
 	$$(u \cdot v) (s) := \begin{cases} u(2s) & 0 \leq s \leq \frac{1}{2} \\ v(2s-1) & \frac{1}{2} \leq s \leq 1 \end{cases}$$
 	\includegraphics[scale=0.4]{images/aneinanderfuegbar.jpg}
@@ -1566,7 +1572,7 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	so ist dieses Produkt wohldefiniert!
 \end{remark}
 
-\begin{definition}[Konstanter Weg, Inverser Weg, Geschlossener Weg]
+\begin{definition}{Konstanter Weg, Inverser Weg, Geschlossener Weg}
 	\begin{itemize}
 		\item Für $x \in X$ sei $c_x \colon I \rightarrow X$ mit $c_x \equiv x$ \underline{der konstante Weg in $x \in X$}.
 		\item Für einen Weg $u \colon I \rightarrow X$ sei $u^{-1} \colon I \rightarrow X, s \mapsto u(1-s)$, der zu $u$ \underline{inverse} (oder: \underline{umgekehrt durchlaufene}) \underline{Weg}. \includegraphics[scale=0.4]{images/inverser_Weg.jpg}
@@ -1579,7 +1585,7 @@ $H(1,t) \equiv u(1) (=v(1) = H(1,1))$ \newline
 	Geschlossene Wege (in $x$) sind \underline{immer} aneinanderfügbar.
 \end{remark}
 
-\begin{definition}[nullhomotop, einfach zusammenhängend]
+\begin{definition}{nullhomotop, einfach zusammenhängend}
 	\begin{itemize}
 	\item Ein geschlossener Weg $u$ in $x$ heißt \underline{nullhomotop} \newline
 		$:\Leftrightarrow [u] = [c_x]$
@@ -1654,7 +1660,7 @@ $[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomo
 \paragraph{Erinnerung} $\forall$ topologischen Räume $X$ und $x_0 \in X$ ist $\pi_1(X,x_0)$, die Menge der Homotopieklassen $[u]$ geschlossener Wege in $x_0$, mit der Multiplikation $[u] \cdot [v] = [u \cdot v]$ eine Gruppe, die sogenannte \underline{Fundamentalgruppe von $X$ in $x_0$}.
 \newpage
 \subsection{Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}
-\begin{definition}[Schleife]
+\begin{definition}{Schleife}
 	Es sei $S^1 = \{x \in \R^2 \mid ||x|| = 1\} = \{z \in \C \mid |z| = 1\}$
 	und $1:= (1,0) \in S^1$ \newline \includegraphics[scale=0.3]{images/S1_mit_1.jpg}\newline
 	Eine stetige Abbildung $\gamma \colon S^1 \rightarrow X, X$ topologischer Raum, $x_0 \in X$, mit $\gamma(1)=x_0$, heißt \underline{Schleife in $x_0$}.
@@ -1670,7 +1676,7 @@ $[w^{-1}][u \cdot v][w] = [w^{-1} u w] [w^{-1} v w] \Rightarrow w_\#$ ist Homomo
 	\includegraphics[scale=0.3]{images/I_S1.jpg}
 \end{remark}
 
-\begin{definition}[schleifenhomotop]
+\begin{definition}{schleifenhomotop}
 	Zwei Schleifen $\gamma, \gamma^\prime$ in $x_0$ heißen \underline{(schleifen-)homotop}, falls es eine Homotopie zwischen ihnen gibt, die auf $1 \in S^1$ stationär ist, also
 	$\gamma(1) = x_0 = \gamma^\prime(1)$ die ganze Zeit festhält.
 	 \newline \includegraphics[scale=0.3]{images/schleifenhomotop.jpg}
@@ -1872,7 +1878,7 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 
 \newpage 
 
-\begin{definition}[Überlagerung]
+\begin{definition}{Überlagerung}
 	(TODO: Tuschmann wegen Wegzusammenhang fragen)
 	Ist $X$ ein wegzusammenhängender topologischer Raum, so ist eine \underline{Überlagerung} von $X$ ein wegzusammenhängender Raum $\tilde{X}$ zusammen mit einer stetigen surjektiven Abbildung $\pi \colon \tilde{X} \rightarrow X$, so dass gilt:
 	%\newline
@@ -1909,7 +1915,7 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 \end{enumerate}
 \end{bsp}
 
-\begin{definition}[Äquivalenz von Überlagerungen]
+\begin{definition}{Äquivalenz von Überlagerungen}
 	Zwei Überlagerungen $\pi \colon \tilde{X} \rightarrow X, \pi^\prime \colon \tilde{X}^\prime \rightarrow X$ heißen \underline{äquivalent}
 	$$:\Leftrightarrow \exists \text{ Homöomorphismus } f \colon \tilde{X} \rightarrow \tilde{X}^\prime$$
 	mit $\pi^\prime \circ f = \pi:$
@@ -2021,7 +2027,7 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 \newpage
 \section{Liften von Abbildungen}
 
-\begin{definition}[Lift, Hochhebung]
+\begin{definition}{Lift, Hochhebung}
 	Ist $\pi \colon \widetilde{X} \rightarrow X$ Überlagerung und $f \colon Z \rightarrow X$ eine Abbildung, so heißt eine Abbildung $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $f = \pi \circ \widetilde{f}$ ein \underline{Lift} oder \underline{Hochhebung} von $f$ (in $\widetilde{X}$).
 \end{definition}
 
@@ -2110,7 +2116,7 @@ so ist $\pi \circ w$ homotop zum konstanten Weg $c_{\pi(\widetilde{x})}$. Ist nu
 Aber jeder Lift eines konstanten Weges ist konstant!
 \end{proof}
 
-\begin{definition}[charakterisierende Untergruppe]
+\begin{definition}{charakterisierende Untergruppe}
 	Die Untergruppe $U(\pi, \widetilde{x}) := \pi_*(\pi_1(\widetilde{X}, \widetilde{x})) < \pi_1(X, \pi(\widetilde{x}))$ heißt \underline{charakterisierende Untergruppe} der Überlagerung $\widetilde{X} \rightarrow X$.
 \end{definition}
 
@@ -2118,7 +2124,7 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 	$U(\pi, \widetilde{x})$ besteht also aus den Homotopieklassen von Schleifen in $X$, deren Lift mit Anfangspunkt $\widetilde{x}$ wieder eine Schleife in $\widetilde{x}$ ist.
 \end{remark}
 
-\begin{definition}[Lift]
+\begin{definition}{Lift}
 	$L_{\pi}(w, \widetilde{x}):=$ Lift von $w$ zu $\widetilde{X}$ mit Anfangspunkt $\widetilde{x}$ ($w$ Weg in $X$)
 	\newline
 	D.h. $U(\pi, \widetilde{x}) = \{[w] \mid \text{$w$ ist Schleife in $\pi(\widetilde{x})$ und $L_\pi(w, \widetilde{x}(1)) = \widetilde{x}$}$
@@ -2205,7 +2211,7 @@ Dies gilt, weil $\widetilde{X}$ wegzusammenhängend ist und also \underline{jede
 	\end{enumerate}
 \end{theorem}
 
-\begin{definition}[lokal wegzusammenhängend]
+\begin{definition}{lokal wegzusammenhängend}
 	$Z$ \underline{lokal wegzusammenhängend} $:\Leftrightarrow$ in jeder Umgebung jedes Punktes in $Z$ ist immer eine wegzusammenhängende Umgebung enthalten. (TODO: Bild 6)
 \end{definition}
 
@@ -2253,7 +2259,7 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 	$=n \cdot \Z \Rightarrow \pi_k$ lässt sich bezüglich $\pi_l$ liften $\Leftrightarrow k \cdot \Z < l \cdot \Z \Leftrightarrow k$ ist Vielfaches von $l,$, also $k = l \cdot m \Rightarrow \pi_k = \pi_l \circ \pi_m$.	
 \end{example}
 
-\begin{definition}[Decktransformation]
+\begin{definition}{Decktransformation}
 	Eine \underline{Decktransformation}/\underline{Deckbewegung} einer Überlagerung $\pi \colon \widetilde{X} \rightarrow X$ ist ein Homöomorphismus $f \colon \widetilde{X} \rightarrow \widetilde{X}$ mit $\boxed{\pi = \pi \circ f}$ (TODO: Bild 4)
 \end{definition}
 
@@ -2290,7 +2296,7 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 	$\Rightarrow N(H)/_H = \pi_1(X,x)/_H$
 \end{example}
 
-\begin{definition}[reguläre Überlagerung]
+\begin{definition}{reguläre Überlagerung}
 	$\pi \colon \widetilde{X} \rightarrow X$ heißt \underline{regulär} $:\Leftrightarrow \pi \colon \widetilde{X} \rightarrow X$ gehört zu Normalteiler $H$.
 \end{definition}
 
@@ -2310,7 +2316,7 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 	Hat speziell $\widetilde{X} \rightarrow X$ \underline{endliche} Blätterzahl, so ist $\widetilde{X} \rightarrow X$ regulär $\Leftrightarrow$ Ordnung $D(\widetilde{X}, \pi) =$ Blätterzahl.
 \end{remark}
 
-\begin{definition}[semilokal einfach zusammenhängend]
+\begin{definition}{semilokal einfach zusammenhängend}
 	$X$ heißt \underline{semilokal einfach zusammenhängend}
 	\newline
 	$: \Leftrightarrow \forall x \in X \quad \exists$ Umgebung $U(x) \colon$ jeder in $U$ liegende geschlossene Weg ist nullhomotop \underline{\underline{in $X$}}.
