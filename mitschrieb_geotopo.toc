@@ -29,15 +29,15 @@
 \contentsline {paragraph}{Interpretation}{36}{section*.56}
 \contentsline {paragraph}{Allgemeiner}{36}{section*.57}
 \contentsline {paragraph}{Erinnerung}{36}{section*.58}
-\contentsline {section}{\numberline {4}Konstruktionen von Quotientenr\IeC {\"a}umen}{39}{section.2.4}
-\contentsline {paragraph}{Andere Sichtweise:}{40}{section*.62}
-\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{42}{section*.67}
-\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{42}{section*.68}
-\contentsline {chapter}{\numberline {III}Konzepte der Algebraischen Topologie}{43}{chapter.3}
-\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{43}{section.3.1}
-\contentsline {paragraph}{Erinnerung}{43}{section*.69}
-\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{44}{section*.71}
-\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{49}{section*.73}
+\contentsline {section}{\numberline {4}Konstruktionen von Quotientenr\IeC {\"a}umen}{38}{section.2.4}
+\contentsline {paragraph}{Andere Sichtweise:}{39}{section*.62}
+\contentsline {paragraph}{TODO: Exkurs: Video von einer Kleinschen Flasche (Klein Bottle Adventures)}{41}{section*.67}
+\contentsline {paragraph}{TODO: Exkurs: Homotopietheorie, Homologietheorie}{41}{section*.68}
+\contentsline {chapter}{\numberline {III}Konzepte der Algebraischen Topologie}{42}{chapter.3}
+\contentsline {section}{\numberline {1}Die Fundamentalgruppe}{42}{section.3.1}
+\contentsline {paragraph}{Erinnerung}{42}{section*.69}
+\contentsline {paragraph}{TODO: Exkurs: Anwendungen von $C(X,Y)$ mit dieser Topologie: L\IeC {\"o}sen von DGL, DGL-Systemen usw.}{43}{section*.71}
+\contentsline {paragraph}{TODO. Exkurs: Kobordismus von Mannigfaltigkeiten, Stringtheorie, \ldots }{48}{section*.73}
 \contentsline {paragraph}{Erinnerung}{49}{section*.74}
 \contentsline {subsection}{\numberline {1.1}Geschlossene Wege als Abbildungen $S^1 \rightarrow X$}{50}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {1.2}Erste Beispiele von Fundamentalgruppen}{51}{subsection.3.1.2}
@@ -62,5 +62,5 @@
 \contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{67}{subsection.3.3.1}
 \contentsline {paragraph}{Erinnerung}{68}{section*.95}
 \contentsline {paragraph}{Andere Interpretation:}{69}{section*.96}
-\contentsline {paragraph}{Erl\IeC {\"a}uterung}{70}{section*.97}
+\contentsline {paragraph}{Erl\IeC {\"a}uterung}{69}{section*.97}
 \contentsline {paragraph}{FAZIT}{72}{section*.98}
