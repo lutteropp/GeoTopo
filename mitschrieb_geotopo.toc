@@ -64,3 +64,10 @@
 \contentsline {paragraph}{Andere Interpretation:}{69}{section*.96}
 \contentsline {paragraph}{Erl\IeC {\"a}uterung}{69}{section*.97}
 \contentsline {paragraph}{FAZIT}{72}{section*.98}
+\contentsline {chapter}{\numberline {IV}Topologie und Geometrie von Fl\IeC {\"a}chen}{73}{chapter.4}
+\contentsline {paragraph}{Einf\IeC {\"u}hrung}{73}{section*.99}
+\contentsline {section}{\numberline {1}Topologie von Fl\IeC {\"a}chen}{73}{section.4.1}
+\contentsline {paragraph}{Visualisierung:}{73}{section*.100}
+\contentsline {paragraph}{Einfacher:}{73}{section*.101}
+\contentsline {paragraph}{Systematisch:}{74}{section*.102}
+\contentsline {paragraph}{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}{74}{section*.103}

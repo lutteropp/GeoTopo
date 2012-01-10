@@ -59,10 +59,10 @@
 %\newtheorem{corollary}{Korollar}[chapter]
 \newtheorem{observation}{Beobachtung}[chapter]
 \newtheorem{fact}{Fakt}[chapter]
-\newtheorem{example}{Beispiel}[chapter]
 %\theoremstyle{remark} 
 \theoremstyle{definition} 
 \newtheorem{remark}{Bemerkung}[chapter]
+\newtheorem{example}{Beispiel}[chapter]
 % ============================================================================
 
 % == Abkürzungen für die reellen, natürlichen, ganzen,... Zahlen =============
@@ -2382,5 +2382,111 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 \paragraph{FAZIT} $X$ wegzusammenhängend, lokal wegzusammenhängend und semilokal einfach zusammenhängend. Dann gilt: 
 \newline
 $\exists \text{ Überlagerung } \pi \colon \widetilde{X} \rightarrow X \text{ mit } \pi_1(\widetilde{X}) = 0$ (die \underline{universelle Überlagerung} von $X$). $D(\widetilde{X},\pi)$ ist isomorph zu $\pi_1(X,x)$, und identifiziert man in $\widetilde{X}$ die Punkte, die bezüglich einer Untergruppe von $D$ äquivalent sind, so existiert hierzu eine Überlagerung von $X$. Bis auf Äquivalenz erhält man so alle Überlagerungen von $X$, und genau die konjugierten Untergruppen von $D$ liefern äquivalente Überlagerungen.
+
+% hier beginnt der 10.01.12
+\chapter{Topologie und Geometrie von Flächen}
+
+\paragraph{Einführung}
+(TODO: Bild 1: Doppeltorus)
+(TODO: Bild 2: 2-Sphäre homöomorph zu Tetraeder und zu Würfel)
+\newline
+\underline{Euler- Charakteristik}: \# Ecken - \# Kanten + \# Flächen =: $\chi$
+\newline
+\textbf{Satz von Gauß-Bonnet:}
+$\boxed{\int\limits_M {K \quad d M} = 2 \pi \cdot \chi(M)}$\footnote{Linke Seite: Geometrie, Rechte Seite: Topologie}
+
+\section{Topologie von Flächen}
+
+\begin{definition}{Fläche, geschlossen}
+	Eine \underline{Fläche} $F$ ist eine zweidimensionale glatte Mannigfaltigkeit.
+	\newline
+	Ist $F$ kompakt, so heißt $F$ auch \underline{geschlossen}.
+\end{definition}
+
+\begin{definition}{orientierbar}
+	Enthält eine Fläche einen Unterraum, der homöomorph zu einem Möbiusband ist, so heißt die Fläche \underline{nicht-orientierbar}, ansonsten \underline{orientierbar}.
+\end{definition}
+
+\begin{example}
+	$S^2, T^2$, (TODO: Bild 3 (Doppeltorus)) (TODO: Bild 4 ("Mehrfachtorus")) sind orientierbare geschlossene Flächen.
+\end{example}
+
+\begin{example}
+	$\R \Prim^2$ (die reelle projektive Ebene) ist nicht orientierbar.
+	$$\R \Prim^2 = \{\text{Geraden durch } 0 \in \R^3\} = S^2/_\sim \text{ mit } x \sim x^\prime \Leftrightarrow x = x^\prime \text{ oder } x = -x^\prime$$
+	(TODO: Bild 5)
+	
+	\paragraph{Visualisierung:} Zerschneide $S^2$ in zwei Hemisphären längs des Äquators und entferne die obere; um $\R \Prim^2$ zu erhalten, braucht man dann noch noch entgegengesetzte Punkte des "Äquators" zu identifizieren:
+	(TODO: Bild 6)
+	
+	\paragraph{Einfacher:}
+	$\R \Prim^2 = $ (TODO: Bild 7) = (TODO: Bild 8)
+	Durch geeignete Modifikation der Kanten eines Quadrates erhält man $S^2, T^2$ (gecshlossen und orientierbar), $\R \Prim^2, K^2$ (Kleinsche Flasche) (geschlossen und \underline{nicht} orientierbar), sowie Möbiusband und Zylinder
+	\newline
+	(TODO: Bild 9)
+\end{example}
+\footnote{Zylinder, Möbiusband: Nicht kompakt; Kleinsche Flasche, reell projektive Ebene: kompakt}
+
+\begin{remark}
+Um Flächen zu gewinnen, kann man nicht nur Quadrate, sondern jedes ebene Polygon mit einer geraden Anzahl von Kanten benutzen.
+
+\paragraph{Systematisch:} Gehe entgegen des Uhrzeigersinns die Seiten eines solchen Polygons ab und markiere jede Seite durch ein Symbol, z.B. "$a$", "$b$", \ldots; gibt es dann eine zu identifizierende Seite mit gleichgerichtetem "Pfeil", so nenne diese auch "a" , "b", etc., ansonsten, also bei entgegengesetztem Identifikationspfeil, schreibe "$a^{-1}$", "$b^{-1}$", etc.
+\end{remark}
+
+\begin{example}
+	$S^2 = $ (TODO: Bild 10) $\leadsto$ (TODO: Bild 11) $\leadsto a a^{-1} b b^{-1}$ 
+\end{example}
+
+\begin{example}
+	$T^2 = a b a^{-1} b^{-1}, K^2 = abab^{-1}, \R \Prim^2 = abab$
+\end{example}
+
+\begin{remark}
+	Wo man hier startet, ist nicht relevant, und es gibt viele Polygonmodelle, die dieselbe Fläche definieren; man kann sogar mit "gekrümmten" Seiten arbeiten: 
+\end{remark}
+
+\begin{example}
+	$S^2 = $ (TODO: Bild 12) = $a a^{-1}$, $\R \Prim^2 = $ (TODO: Bild 13) $= aa$
+\end{example}
+
+Weitere wichtige Möglichkeit, neue Flächen zu gewinnen:
+
+\begin{definition}{Zusammenhängende Summe}
+	Es seien $F$ und $F^\prime$ geschlossene Flächen. Schneidet man aus jeder Fläche eine abgeschlossene Scheibe (TODO: Bild 14) heraus und identifiziert diese durch einen Homöomorphismus (TODO: Bild 15) der Ränder, so heißt der durch diese Identifikation entstehende Raum die \underline{zusammenhängende Summe} $F \# F^\prime$ von $F$ und $F^\prime$. \newline
+	(TODO: Bild 16) 
+\end{definition}
+
+\paragraph{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}
+
+\begin{example}
+	$T^2 \# \R \Prim^2$
+	\newline
+	$\cong 3 \R \Prim^2 = \R \Prim^2 \# \R \Prim^2 \# \R \Prim^2$
+\end{example}
+(TODO: Bild 17) (Fundamentalgruppe eines 2-Torus ist nicht mehr abelsch $\leadsto$ viel, viel größer)
+
+\begin{example}
+	(TODO: Bild 18) \newline
+	 (Entferne eine Scheibe, die durch eine Ecke geht und keine Kante berührt)
+	 \newline
+	 ; mache dies ebenso für den zweiten Torus.
+	 \newline
+	 (öffne die Scheibe)
+	 \newline
+	 Und klebe dann die beiden Kopien zusammen:
+	 \newline
+	 (TODO: Bild 19)
+	 \newline
+	 Dies liefert ein Oktogon, und die Identifikation der Seiten ist dann gegeben durch
+	 $$aba^{-1}b^{-1} cdc^{-1}d^{-1}$$
+\end{example}
+
+\begin{remark}
+	Allgemein gilt: Entspricht $F$ dem Zeichensatz $A$, $F^\prime$ dem Zeichensatz $B$, so $F \# F^\prime$ dem Zeichensatz $AB$.
+\end{remark}
+
+\begin{example}
+	$a_1 b_1 a_1^{-1} b_1^{-1} \ldots a_g b_g a_g^{-1} b_g^{-1}$ beschreibt eine geschlossene orientierbare Fläche mit $g$ Löchern.
+\end{example}
 
 \end{document}
