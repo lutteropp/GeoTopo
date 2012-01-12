@@ -2489,4 +2489,105 @@ Weitere wichtige Möglichkeit, neue Flächen zu gewinnen:
 	$a_1 b_1 a_1^{-1} b_1^{-1} \ldots a_g b_g a_g^{-1} b_g^{-1}$ beschreibt eine geschlossene orientierbare Fläche mit $g$ Löchern.
 \end{example}
 
+%12.01.12
+
+\paragraph{Informationen}
+\begin{itemize}
+	\item Montag Test 2 bei Frau Lenz
+	\item Donnerstag Vorlesung \underline{nebenan}
+	\item Skripte: S. Lutteropp/ S. Bischof, J.-B. Kordaß
+\end{itemize}
+
+\begin{center}
+	\includegraphics[scale=0.8]{images/jaenich_hausdorff.pdf}
+\end{center}
+
+\begin{center}
+	\includegraphics[scale=0.5]{images/b2.pdf}
+	\footnote{Man hat keinerlei CHanche, nichtkompakte Flächen zu klassifizieren.}
+\end{center}
+
+Klassifikation geschlossener Flächen erfolgt z.B. über Polygonmodelle und liefert
+
+\begin{theorem}
+	Eine geschlossene, zusammenhängende Fläche ist \underline{entweder} diffeomorph zur Sphäre $S^2$ \underline{oder} diffeomorph zu einer zusammenhängenden Summe von Tori \underline{oder} differomorph zu einer zusammenhängenden Summe von $\R \Prim^2$s.
+\end{theorem}
+
+\paragraph{Beweisskizze (vgl. Massey für Ausführlicheres; "A basic course in Algebraic Topology")}
+\begin{lemma}
+	(s. Massey) Jede geschlossene Fläche $F$ besitzt eine \underline{Triangulierung}, d.h.: $F$ ist homöomorph zu einem Raum, der aus einer disjunkten Vereinigung endlich vieler Dreiecke im $\R^2$ entsteht, indem man Kanten paarweise identifiziert.
+\end{lemma}
+
+\begin{example}
+	\begin{center}
+		\includegraphics[scale=0.6]{images/b3.pdf}
+	\end{center}
+	Wähle ein "Dreieck" auf $F$ und einen Homöomorphismus dieses Dreiecks auf ein ebenes Dreieck, dann ein angrenzendes mit gemeinsamer Kante usw \ldots $\Rightarrow$ die ebenen Dreiecke bilden ein Polygon $P$, und $F$ entsteht aus $P$ durch paarweises Identifizieren von Kanten. Bringe dies nun auf Standard-Form:
+	\begin{enumerate}
+		\item Angrenzende Kanten mit $aa^{-1}$ oder $a^{-1}a$ werden identifiziert: 
+		\item Alle Ecken werden identifiziert:
+		\item Alle Paare der Form $aa$ sind angrenzend
+		\item Paare $a,a^{-1}$ entsprechen Ketten $cdc^{-1}d^{-1}$
+	\end{enumerate}
+	\begin{center}
+		\includegraphics[scale=0.8]{images/b4.pdf}
+	\end{center}
+	\underline{In summa:} $F$ ist beschrieben durch eine Zeichenkette von Termen der Form $aa$ oder $cdc^{-1}d^{-1}$, und das ist eine zusammenhängende Summe von $\R \Prim^2$s oder Tori.
+	\newline
+	Gibt es nun einen $\R \Prim^2$-Summanden, so kann man mit $\R \Prim^2 \# T^2 = 3 \R \Prim^2$ noch Tori eliminieren.	
+\end{example}
+
+\begin{corollary}
+	Eine geschlossen, zusammenhängende \underline{orientierbare} Fläche ist homöomorph zu einer zusammenhängenden Summe von Tori. (oder $S^2$!)
+	\begin{center}
+		\includegraphics[scale=0.8]{images/b5.pdf}
+	\end{center}
+\end{corollary}
+
+	\begin{center}
+		\includegraphics[scale=0.8]{images/b6.pdf}
+	\end{center}
+	Die Triangulierbarkeit geschlossener Flächen impliziert
+	
+	\begin{theorem}
+		Jede geschlossene Fläche besitzt eine kombinatorische Unterteilung.
+	\end{theorem}
+	
+	\begin{definition}{kombinatorische Unterteilung, Ecken, Kanten, Seiten}
+		Eine kombinatorische \underline{Unterteilung} von $F$ ist eine Zerleckung von $F$ in
+		\begin{enumerate}
+			\item \underline{Ecken} (endlich viele Punkte)
+			\item \underline{Kanten} (endlich viele disjunkte Teilmengen von $F$, die alle zum offenen Intervall $(0,1)$ homöomorph sind)
+				\begin{center}
+					\includegraphics[scale=0.8]{images/b7.pdf}
+			\end{center}
+			\item \underline{Seiten} (endlich viele disjunkte offene Teilmengen von $F$, die alle zur offenen Scheibe $\{||x|| < 1\} \subset \R^2)$ homöomorph sind), so dass gilt:
+			\newline
+			\begin{enumerate}
+				\item Die Seiten sind Zusammenhangskomponenten von $F \backslash \{\text{Ecken und Kanten}\}$
+				\item keine Kante enthält eine Ecke
+				\item jede Kante beginnt und endet in einer Ecke, d.h. ist $k$ Kante, so gibt es Ecken $e_0$ und $e_1$ und eine stetige Abbildung $f \colon [0,1] \rightarrow k \cup \{e_0, e_1\} \subset F$, die eingeschränkt auf $(0,1)$ ein Homöomorphismus ist und $f(0)=e_0, f(1)=e_1$ erfüllt.
+			\end{enumerate}
+		\end{enumerate}
+	\end{definition}
+	
+	\begin{definition}{kombinatorische Euler-Charakteristik}
+		Die (\underline{kombinatorische}) \underline{Euler-Charakteristik} einer gecshlossenen Fläche $F$ mit Unterteilung ist
+		$$\chi (F) := \# \text{ Ecken } - \# \text{ Kanten } + \#\text{ Seiten}$$
+	\end{definition}
+
+\begin{theorem}
+	$\chi(F)$ ist unabhängig von der gewählten Unterteilung von $F$ und invariant unter Homöomorphismen!
+\end{theorem}
+
+\begin{example}
+	\begin{center}
+			\includegraphics[scale=0.8]{images/b8.pdf}
+	\end{center}
+\end{example}
+
+\begin{theorem}
+	Eine geschlossene Fläche ist durch ihre Eulercharakteristik und Orientierbarkeitstyp eindeutig bestimmt.
+\end{theorem}
+
 \end{document}

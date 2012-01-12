@@ -71,3 +71,5 @@
 \contentsline {paragraph}{Einfacher:}{73}{section*.101}
 \contentsline {paragraph}{Systematisch:}{74}{section*.102}
 \contentsline {paragraph}{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}{74}{section*.103}
+\contentsline {paragraph}{Informationen}{74}{section*.104}
+\contentsline {paragraph}{Beweisskizze (vgl. Massey f\IeC {\"u}r Ausf\IeC {\"u}hrlicheres; "A basic course in Algebraic Topology")}{75}{section*.105}

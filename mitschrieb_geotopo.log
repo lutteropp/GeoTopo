@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  10 JAN 2012 15:29
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  12 JAN 2012 15:20
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -2595,37 +2595,156 @@ Overfull \hbox (45.98172pt too wide) in paragraph at lines 2455--2455
 |\T1/lmr/m/it/10.95 Zusammenhängende 
  []
 
-[74] (./mitschrieb_geotopo.aux) ) 
+
+
+pdfTeX warning: pdflatex (file ./images/jaenich_hausdorff.pdf): PDF inclusion: 
+found PDF version <1.5>, but at most version <1.4> allowed
+<images/jaenich_hausdorff.pdf, id=956, 322.8311pt x 115.16022pt>
+File: images/jaenich_hausdorff.pdf Graphic file (type pdf)
+
+<use images/jaenich_hausdorff.pdf> [74]
+
+pdfTeX warning: pdflatex (file ./images/b2.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b2.pdf, id=973, 497.23633pt x 551.66098pt>
+File: images/b2.pdf Graphic file (type pdf)
+ <use images/b2.pdf>
+
+pdfTeX warning: pdflatex (file ./images/b3.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b3.pdf, id=974, 477.55914pt x 309.64pt>
+File: images/b3.pdf Graphic file (type pdf)
+ <use images/b3.pdf> [75 <./images/jaenich_hausdorff.pdf
+
+pdfTeX warning: pdflatex (file ./images/jaenich_hausdorff.pdf): PDF inclusion: 
+Page Group detected which pdfTeX can't handle. Ignoring it.
+> <./images/b2.pdf
+
+pdfTeX warning: pdflatex (file ./images/b2.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./images/b4.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b4.pdf, id=1001, 404.00046pt x 283.30844pt>
+File: images/b4.pdf Graphic file (type pdf)
+ <use images/b4.pdf>
+
+pdfTeX warning: pdflatex (file ./images/b5.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b5.pdf, id=1002, 280.86174pt x 80.17303pt>
+File: images/b5.pdf Graphic file (type pdf)
+ <use images/b5.pdf> [76 <./images/b3.pdf
+
+pdfTeX warning: pdflatex (file ./images/b3.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b4.pdf
+
+pdfTeX warning: pdflatex (file ./images/b4.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./images/b6.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b6.pdf, id=1015, 136.33434pt x 89.68506pt>
+File: images/b6.pdf Graphic file (type pdf)
+ <use images/b6.pdf>
+Package marginnote Info: Margin note 78.1 is on absolute page 78
+(marginnote)              on input line 2557.
+Package marginnote Info: right page because not two side mode on input line 255
+7.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2557.
+
+Overfull \hbox (27.0936pt too wide) in paragraph at lines 2557--2557
+|\T1/lmr/m/it/10.95 kombinatorische 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./images/b7.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b7.pdf, id=1016, 255.16014pt x 112.74622pt>
+File: images/b7.pdf Graphic file (type pdf)
+ <use images/b7.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 2564--2567
+
+ []
+
+Package marginnote Info: Margin note 78.2 is on absolute page 78
+(marginnote)              on input line 2575.
+Package marginnote Info: right page because not two side mode on input line 257
+5.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2575.
+
+Overfull \hbox (27.0936pt too wide) in paragraph at lines 2575--2575
+|\T1/lmr/m/it/10.95 kombinatorische 
+ []
+
+
+Overfull \hbox (17.63712pt too wide) in paragraph at lines 2575--2575
+\T1/lmr/m/it/10.95 Charakteristik  
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./images/b8.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b8.pdf, id=1017, 552.56438pt x 169.50829pt>
+File: images/b8.pdf Graphic file (type pdf)
+ <use images/b8.pdf>
+Overfull \hbox (15.26076pt too wide) in paragraph at lines 2585--2586
+ [] 
+ []
+
+[77 <./images/b5.pdf
+
+pdfTeX warning: pdflatex (file ./images/b5.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b6.pdf
+
+pdfTeX warning: pdflatex (file ./images/b6.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b7.pdf
+
+pdfTeX warning: pdflatex (file ./images/b7.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>] [78 <./images/b8.pdf
+
+pdfTeX warning: pdflatex (file ./images/b8.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 10725 strings out of 256216
- 168440 string characters out of 1917072
+ 10794 strings out of 256216
+ 169442 string characters out of 1917072
  234002 words of memory out of 1500000
- 13081 multiletter control sequences out of 10000+200000
+ 13116 multiletter control sequences out of 10000+200000
  89727 words of font info for 72 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  45i,12n,61p,762b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public
-/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/sha
-re/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/blues
-ky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (75 pages, 8305661 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{
+/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/l
+m/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
+i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share
+/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky
+/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (79 pages, 8344187 bytes).
 PDF statistics:
- 1153 PDF objects out of 1200 (max. 8388607)
- 450 named destinations out of 1000 (max. 131072)
- 944 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 476 named destinations out of 1000 (max. 131072)
+ 984 words of extra memory for PDF output out of 10000 (max. 10000000)
 
