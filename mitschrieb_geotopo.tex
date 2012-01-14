@@ -1353,7 +1353,12 @@ $F \colon X \rightarrow Y$ stetige Bijektion von einem kompakten Raum $X$ auf ei
 Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \underline{injektiv} und heißt \underline{injektiver Quotient} von $f$.
 \end{definition}
 
-\begin{bsp}{}
+%hier beginnt der 24.11.11
+
+\newpage
+\section{Konstruktionen von Quotientenräumen}
+
+\begin{bsp}{Motivation}
 	\includegraphics[scale=0.4]{images/Quadrat_nach_Torus.jpg}
 	\newline
 	\includegraphics[scale=0.4]{images/Quotient_Torus.jpg}\newline
@@ -1367,10 +1372,6 @@ Die induzierte Abbildung $f/_{S(f)} \colon X/_{S(f)} \rightarrow Y$ ist dann \un
 	\scriptsize{Bild Möbiusband von:\\ http://de.wikipedia.org/w/index.php?title=Datei:M\%C3\%B6biusband.jpg\&filetimestamp=20090802105255}
 \end{bsp}
 
-%hier beginnt der 24.11.11
-
-\newpage
-\section{Konstruktionen von Quotientenräumen}
 Im Folgenden "Kontrahieren", "Anheften", "Verkleben" etc.
 
 \begin{definition}{Kontraktion}
@@ -1923,13 +1924,12 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 \newpage 
 
 \begin{definition}{Überlagerung}
-	(TODO: Tuschmann wegen Wegzusammenhang fragen)
 	Ist $X$ ein wegzusammenhängender topologischer Raum, so ist eine \underline{Überlagerung} von $X$ ein wegzusammenhängender Raum $\tilde{X}$ zusammen mit einer stetigen surjektiven Abbildung $\pi \colon \tilde{X} \rightarrow X$, so dass gilt:
 	%\newline
 	\paragraph{(Ü)} \label{Ü} Jeder Punkt $x \in X$ besitzt eine offene Umgebung $U=U(x)$, so dass das Urbild $\pi^{-1}(U(x)) \subset \tilde{X}$ eine disjunkte Vereinigung von offenen Teilmengen von $\tilde{X}$ ist, 
 	$$\pi^{-1}(U(x)) = \{\tilde{U}_\lambda\}_{\lambda \in \Lambda}, \tilde{U}_\lambda \subset \tilde{X}\text{ ist offen}, \tilde{U}_\lambda \cap \tilde{U}_\mu = \emptyset \quad \forall \lambda \neq \mu,$$ 
 	so dass für alle $\lambda \in \Lambda$ 
-	$$\pi \big |_{\tilde{U}_\lambda \colon \tilde{U}_\lambda \rightarrow U(X)}$$ ein Homöomorphismus ist.\newline
+	$$\pi \big |_{\tilde{U}_\lambda} \colon \tilde{U}_\lambda \rightarrow U(x)$$ ein Homöomorphismus ist.\newline
 	\includegraphics[scale=0.4]{images/Spirale_disjunkt.jpg}
 	\paragraph{Terminologie/Sprechweisen} $\pi \colon \tilde{X} \rightarrow X$ heißt auch \underline{Projektion} oder \underline{Überlagerungsabbildung}, $\tilde{X}$ der \underline{überlagernde} und $X$ der \underline{überlagerte} Raum.
 	Für $A \subset X$ sagt man auch, $\tilde{A} := \pi^{-1}(A)$ \underline{liege} über $A$, und speziell für $x \in X$ heißt $\pi^{-1}(x) \subset \tilde{X}$ auch \underline{Faser über $x$}. Für die Einschränkung $\pi^{-1}(A), \pi \big |_{\pi^{-1}(A)}$ von $\pi \colon \tilde{X} \rightarrow X$ auf $A \subset X$ schreibt man auch kurz $\tilde{X} \big |_A$.

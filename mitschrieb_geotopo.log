@@ -1,14 +1,20 @@
-This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2011.10.30)  13 JAN 2012 14:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.9)  14 JAN 2012 12:19
 entering extended mode
+ %&-line parsing enabled.
 **mitschrieb_geotopo.tex
-(mitschrieb_geotopo.tex
-LaTeX2e <2003/12/01>
-Babel <v3.8a> and hyphenation patterns for english, german, ngerman, dumylang, 
-nohyphenation, loaded.
-(C:\texmf\tex\latex\base\report.cls
-Document Class: report 2004/02/16 v1.4f Standard LaTeX document class
-(C:\texmf\tex\latex\base\size11.clo
-File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+(./mitschrieb_geotopo.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -22,39 +28,46 @@ File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (C:\texmf\tex\latex\graphics\graphicx.sty
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\texmf\tex\latex\graphics\keyval.sty
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\texmf\tex\latex\graphics\graphics.sty
-Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
- (C:\texmf\tex\latex\graphics\trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-) (C:\texmf\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 80.
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\texmf\tex\latex\graphics\pdftex.def
-File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(C:\texmf\tex\latex\base\inputenc.sty
-Package: inputenc 2004/02/05 v1.0d Input encoding file
- (C:\texmf\tex\latex\base\utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
+... processing UTF-8 mapping file for font encodingT1
 
-(C:\texmf\tex\latex\base\t1enc.dfu
-File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -142,6 +155,8 @@ File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+011F (decimal 287)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
    defining Unicode char U+013D (decimal 317)
@@ -199,9 +214,10 @@ File: t1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 )
 Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
- (C:\texmf\tex\latex\base\ot1enc.dfu
-File: ot1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -229,13 +245,13 @@ File: ot1enc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
    defining Unicode char U+201D (decimal 8221)
 )
 Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
+... processing UTF-8 mapping file for font encodingOMS
 
-(C:\texmf\tex\latex\base\omsenc.dfu
-File: omsenc.dfu 2004/02/09 v1.1b UTF-8 support for inputenc
+(/usr/share/texmf/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+00B7 (decimal 183)
    defining Unicode char U+2020 (decimal 8224)
    defining Unicode char U+2021 (decimal 8225)
    defining Unicode char U+2022 (decimal 8226)
@@ -249,52 +265,58 @@ Now handling font encoding U ...
    defining Unicode char U+00AE (decimal 174)
    defining Unicode char U+00BA (decimal 186)
    defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02CA (decimal 714)
+   defining Unicode char U+02DC (decimal 732)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (C:\texmf\tex\latex\base\fontenc.sty
-Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\texmf\tex\latex\base\t1enc.def
-File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (C:\texmf\tex\generic\babel\babel.sty
-Package: babel 2004/02/19 v3.8a The Babel package
+))
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
 
-(C:\texmf\tex\generic\babel\ngermanb.ldf
+(/usr/share/texmf/tex/generic/babel/ngermanb.ldf
 Language: ngermanb 2004/02/20 v2.6m new German support from the babel system
- (C:\texmf\tex\generic\babel\babel.def
-File: babel.def 2004/02/19 v3.8a Babel common definitions
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen105
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-)) (C:\texmf\tex\latex\germbib\bibgerm.sty
+))
+(/usr/share/texmf/tex/latex/germbib/bibgerm.sty
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-(C:\texmf\tex\latex\amsmath\amsmath.sty
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\texmf\tex\latex\amsmath\amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
- (C:\texmf\tex\latex\amsmath\amsgen.sty
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
+\@emptytoks=\toks17
 \ex@=\dimen106
-)) (C:\texmf\tex\latex\amsmath\amsbsy.sty
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-(C:\texmf\tex\latex\amsmath\amsopn.sty
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -317,63 +339,66 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip10
 \c@parentequation=\count97
 \dspbrk@lvl=\count98
-\tag@help=\toks16
+\tag@help=\toks18
 \row@=\count99
 \column@=\count100
 \maxfields@=\count101
-\andhelp@=\toks17
+\andhelp@=\toks19
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
 \tagshift@=\dimen111
 \tagwidth@=\dimen112
 \totwidth@=\dimen113
 \lineht@=\dimen114
-\@envbody=\toks18
+\@envbody=\toks20
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(C:\texmf\tex\latex\amsfonts\amssymb.sty
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2002/01/22 v2.2d
 
-(C:\texmf\tex\latex\amsfonts\amsfonts.sty
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
-(C:\texmf\tex\latex\amscls\amsthm.sty
+(/usr/share/texmf/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
 \thm@preskip=\skip46
 \thm@postskip=\skip47
 \thm@headsep=\skip48
-\dth@everypar=\toks25
-) (C:\texmf\tex\latex\graphics\color.sty
-Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+\dth@everypar=\toks27
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(C:\texmf\tex\latex\00miktex\color.cfg
-File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 125.
+Package color Info: Driver file: pdftex.def on input line 130.
 )
-(C:\texmf\tex\latex\tools\enumerate.sty
+(/usr/share/texmf/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks26
-) (C:\texmf\tex\latex\tools\tabularx.sty
+\@enLab=\toks28
+)
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-(C:\texmf\tex\latex\tools\array.sty
-Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
 \col@sep=\dimen115
 \extrarowheight=\dimen116
-\NC@list=\toks27
+\NC@list=\toks29
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
@@ -383,21 +408,26 @@ Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
 \TX@target=\dimen120
 \TX@delta=\dimen121
 \TX@cols=\count102
-\TX@ftn=\toks28
-) (C:\texmf\tex\latex\subfig\subfig.sty
-Package: subfig 2004/01/28 ver: 1.2 subfig package
-
-(C:\texmf\tex\latex\caption\caption.sty
-Package: caption 2004/07/16 v3.0c Customising captions (AS)
-\captionmargin=\dimen122
-\captionwidth=\dimen123
-\captionindent=\dimen124
-\captionparindent=\dimen125
-\captionhangindent=\dimen126
+\TX@ftn=\toks30
 )
+(/usr/share/texmf/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf/tex/latex/caption/caption.sty
+Package: caption 2007/01/07 v3.0k Customising captions (AR)
+
+(/usr/share/texmf/tex/latex/caption/caption3.sty
+Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+\captionmargin=\dimen122
+\captionmarginx=\dimen123
+\captionwidth=\dimen124
+\captionindent=\dimen125
+\captionparindent=\dimen126
+\captionhangindent=\dimen127
+))
 \c@KVtest=\count103
 \sf@farskip=\skip51
-\sf@captopadj=\dimen127
+\sf@captopadj=\dimen128
 \sf@capskip=\skip52
 \sf@nearskip=\skip53
 \c@subfigure=\count104
@@ -409,7 +439,7 @@ Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \sf@top=\skip54
 \sf@bottom=\skip55
 )
-(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip56
 \f@ncyO@elh=\skip57
 \f@ncyO@erh=\skip58
@@ -419,176 +449,138 @@ Package: caption 2004/07/16 v3.0c Customising captions (AS)
 \f@ncyO@erf=\skip62
 \f@ncyO@olf=\skip63
 \f@ncyO@orf=\skip64
-) (C:\texmf\tex\latex\was\upgreek.sty
+)
+(/usr/share/texmf/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-) (C:\texmf\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
-\@linkdim=\dimen128
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen129
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
-(C:\texmf\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\texmf\tex\latex\00miktex\hyperref.cfg
-File: hyperref.cfg 2003/03/08 v1.0 MiKTeX 'hyperref' configuration
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 1830.
-Package hyperref Info: Option `colorlinks' set `true' on input line 1830.
-Package hyperref Info: Hyper figures OFF on input line 1880.
-Package hyperref Info: Link nesting OFF on input line 1885.
-Package hyperref Info: Hyper index ON on input line 1888.
-Package hyperref Info: Plain pages ON on input line 1893.
-Package hyperref Info: Backreferencing ON on input line 1898.
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2238.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2238.
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing ON on input line 2306.
 
 Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 2004.
-(C:\texmf\tex\latex\hyperref\backref.sty
-Package: backref 2003/03/20 v1.23 Bibliographical back referencing
-) (C:\texmf\tex\latex\ltxmisc\url.sty
-\Urlmuskip=\muskip11
-Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2006/10/06 v1.27 Bibliographical back referencing
 )
-LaTeX Info: Redefining \url on input line 2143.
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
 \Fld@menulength=\count112
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
-\Choice@toks=\toks29
-\Field@toks=\toks30
-Package hyperref Info: Hyper figures OFF on input line 2618.
-Package hyperref Info: Link nesting OFF on input line 2623.
-Package hyperref Info: Hyper index ON on input line 2626.
-Package hyperref Info: backreferencing ON on input line 2631.
-Package hyperref Info: Link coloring ON on input line 2636.
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
+\Choice@toks=\toks31
+\Field@toks=\toks32
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing ON on input line 3115.
+Package hyperref Info: Link coloring ON on input line 3120.
 \Hy@abspage=\count113
 \c@Item=\count114
 )
 *hyperref using driver hpdftex*
-(C:\texmf\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
- (C:\texmf\tex\latex\psnfss\pifont.sty
-Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
-
-(C:\texmf\tex\latex\psnfss\upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
-)
-LaTeX Font Info:    Try loading font information for U+psy on input line 64.
- (C:\texmf\tex\latex\psnfss\upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
 \Fld@listcount=\count115
-\@outlinefile=\write3
 )
-(C:\localtexfiles\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\localtexfiles\tex\latex\pgf\basiclayer\pgf.sty
-(C:\localtexfiles\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks31
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2006/10/26 v1.10 (rcs-revision 1.14)
+))
+Package: pgf 2006/10/11 v1.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2006/10/16 v1.10 (rcs-revision 1.19)
+\pgf@x=\dimen132
+\pgf@y=\dimen133
+\pgf@xa=\dimen134
+\pgf@ya=\dimen135
+\pgf@xb=\dimen136
+\pgf@yb=\dimen137
+\pgf@xc=\dimen138
+\pgf@yc=\dimen139
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfutil-latex.def
-\pgfutil@abb=\box28
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 845.
 
-(C:\texmf\tex\latex\ms\everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2006/10/23  (rcs-revision 1.14)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2006/10/16  (rcs-revision 1.7)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2006/10/16  (rcs-revision 1.4)
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfrcs.code.tex
-Package: pgfrcs 2008/05/19 v2.00-cvs (rcs-revision 1.22)
-))
-Package: pgf 2008/01/15 v2.00-cvs (rcs-revision 1.12)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\localtexfiles\tex\latex\pgf\basiclayer\pgfcore.sty
-(C:\localtexfiles\tex\latex\pgf\systemlayer\pgfsys.sty
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.00-cvs (rcs-revision 1.37)
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2006/10/11 v1.10 (rcs-revision 1.4)
 
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
-
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
-))
-\pgf@x=\dimen131
-\pgf@y=\dimen132
-\pgf@xa=\dimen133
-\pgf@ya=\dimen134
-\pgf@xb=\dimen135
-\pgf@yb=\dimen136
-\pgf@xc=\dimen137
-\pgf@yc=\dimen138
-\w@pgf@writea=\write4
-\r@pgf@reada=\read1
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoremath.code.tex
+File: pgfcoremath.code.tex 2006/10/15  (rcs-revision 1.3)
 \c@pgf@counta=\count116
 \c@pgf@countb=\count117
 \c@pgf@countc=\count118
 \c@pgf@countd=\count119
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
-
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
-)))
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count120
-\pgfsyssoftpath@bigbuffer@items=\count121
-)
-(C:\localtexfiles\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(C:\texmf\tex\latex\xcolor\xcolor.sty
-Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
- (C:\texmf\tex\latex\00miktex\color.cfg
-File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 136.
-LaTeX Info: Redefining \color on input line 494.
-Package xcolor Info: Color model `cmy' added on input line 972.
-Package xcolor Info: Color model `hsb' added on input line 980.
-Package xcolor Info: Color model `HTML' added on input line 1000.
-Package xcolor Info: Color model `HSB' added on input line 1006.
-Package xcolor Info: Color model `Gray' added on input line 1012.
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.00-cvs (rcs-revision 1.7)
-
-(C:\localtexfiles\tex\generic\pgf\math\pgfmath.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathcalc.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathutil.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen139
-\pgfmath@count=\count122
-\pgfmath@box=\box29
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
-)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(C:\localtexfiles\tex\generic\pgf\math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count123
-))
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2006/10/16  (rcs-revision 1.7)
 \pgf@picminx=\dimen140
 \pgf@picmaxx=\dimen141
 \pgf@picminy=\dimen142
@@ -597,173 +589,2161 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@pathmaxx=\dimen145
 \pgf@pathminy=\dimen146
 \pgf@pathmaxy=\dimen147
-\pgf@xx=\dimen148
-\pgf@xy=\dimen149
-\pgf@yx=\dimen150
-\pgf@yy=\dimen151
-\pgf@zx=\dimen152
-\pgf@zy=\dimen153
+\pgf@tempdim=\dimen148
+\c@pgf@tempcount=\count120
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2009/01/22  (rcs-revision 1.21)
-\pgf@path@lastx=\dimen154
-\pgf@path@lasty=\dimen155
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen156
-\pgf@shorten@start@additional=\dimen157
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2010/06/30  (rcs-revision 1.31)
-\pgfpic=\box30
-\pgf@hbox=\box31
-\pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count124
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2006/10/23  (rcs-revision 1.20)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count121
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen158
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgflinewidth=\dimen159
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen159
-\pgf@pt@y=\dimen160
-\pgf@pt@temp=\dimen161
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2006/10/11  (rcs-revision 1.4)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2006/10/16  (rcs-revision 1.5)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2006/10/16  (rcs-revision 1.6)
 )
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count125
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
-
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2010/07/14  (rcs-revision 1.9)
-\pgfexternal@startupbox=\box33
-))
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
-)
-(C:\localtexfiles\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count122
 )))
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2009/10/13  (rcs-revision 1.9)
-\pgfnodeparttextbox=\box34
-)
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2010/05/26  (rcs-revision 1.7)
-)
-(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.00-cvs (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen163
-\pgf@nodesepend=\dimen164
-)
-(C:\localtexfiles\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.00-cvs (rcs-revision 1.1)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseshapes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseshapes.code.tex
+Package: pgfbaseshapes 2006/10/16 v1.10 (rcs-revision 1.16)
+\pgfnodeparttextbox=\box31
 ))
-(C:\localtexfiles\tex\latex\pgf\utilities\pgffor.sty
-(C:\localtexfiles\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\localtexfiles\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(C:\localtexfiles\tex\generic\pgf\utilities\pgffor.code.tex
-Package: pgffor 2010/03/23 v2.00-cvs (rcs-revision 1.18)
-\pgffor@iter=\dimen165
-\pgffor@skip=\dimen166
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseplot.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseplot.code.tex
+Package: pgfbaseplot 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgf@plotwrite=\write3
 ))
-(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-Package: tikz 2010/06/30 v2.00-cvs (rcs-revision 1.70)
-
-(C:\localtexfiles\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.00-cvs (rcs-revision 1.15)
-\pgf@plot@mark@count=\count126
-\pgfplotmarksize=\dimen167
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseimage.code.tex
+Package: pgfbaseimage 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaselayers.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaselayers.code.tex
+Package: pgfbaselayers 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasesnakes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasesnakes.code.tex
+Package: pgfbasesnakes 2006/10/16 v1.10 (rcs-revision 1.10)
+\pgfsnakeremainingdistance=\dimen164
+\pgfsnakecompleteddistance=\dimen165
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasepatterns.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasepatterns.code.tex
+Package: pgfbasepatterns 2006/10/16 v1.10 (rcs-revision 1.9)
+))
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2006/10/11 v1.10 (rcs-revision 1.4)
+\pgf@nodesepstart=\dimen166
+\pgf@nodesepend=\dimen167
+))
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count123
+\calc@Bcount=\count124
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count125
+\calc@Cskip=\skip67
 )
-\tikz@lastx=\dimen168
-\tikz@lasty=\dimen169
-\tikz@lastxsaved=\dimen170
-\tikz@lastysaved=\dimen171
-\tikzleveldistance=\dimen172
-\tikzsiblingdistance=\dimen173
-\tikz@figbox=\box35
-\tikz@tempbox=\box36
-\tikztreelevel=\count127
-\tikznumberofchildren=\count128
-\tikznumberofcurrentchild=\count129
-\tikz@fig@count=\count130
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+))
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
 
-(C:\localtexfiles\tex\generic\pgf\modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2008/11/24  (rcs-revision 1.3)
-\pgfmatrixcurrentrow=\count131
-\pgfmatrixcurrentcolumn=\count132
-\pgf@matrix@numberofcolumns=\count133
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks33
+\XKV@depth=\count126
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz.code.tex
+Package: tikz 2006/10/17 v1.10 (rcs-revision 1.68)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2006/10/16 v1.10 (rcs-revision 1.8)
+\pgf@plot@mark@count=\count127
+\pgfplotmarksize=\dimen172
 )
-\tikz@expandcount=\count134
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box32
+\tikz@tempbox=\box33
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
+\tikz@expandcount=\count132
 
-(C:\localtexfiles\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopat
-hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.00-cvs (rcs-revision 1.2)
-))) (C:\texmf\tex\latex\ltxmisc\framed.sty
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarytikztopaths.code.tex
+File: pgflibrarytikztopaths.code.tex 2006/10/16 v1.10 (rcs-revision 1.5)
+)))
+(/usr/share/texmf/tex/latex/ltxmisc/framed.sty
 Package: framed 2003/07/21 v 0.8a: framed or shaded text with page breaks
-\FrameRule=\dimen174
-\FrameSep=\dimen175
+\FrameRule=\dimen179
+\FrameSep=\dimen180
 )
-(C:\texmf\tex\latex\lm\lmodern.sty
-Package: lmodern 2003/07/16
-) (C:\texmf\tex\latex\geometry\geometry.sty
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2007/01/14 v1.3 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 14.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 15.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 18.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 19.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 24.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 25.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 29.
+)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
 Package: geometry 2002/07/08 v3.2 Page Geometry
-\Gm@cnth=\count135
-\Gm@cntv=\count136
-\c@Gm@tempcnt=\count137
-\Gm@bindingoffset=\dimen176
-\Gm@wd@mp=\dimen177
-\Gm@odd@mp=\dimen178
-\Gm@even@mp=\dimen179
-\Gm@dimlist=\toks40
+\Gm@cnth=\count133
+\Gm@cntv=\count134
+\c@Gm@tempcnt=\count135
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@dimlist=\toks34
+)
+(/usr/share/texmf/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2006/10/26 v1.1 non floating margin notes for LaTeX
+\c@mn@abspage=\count136
+)
+(/usr/share/texmf/tex/latex/shadethm/shadethm.sty
+Package: shadethm 1999/11/23
+\saveparindent=\skip68
+\shadeboxsep=\skip69
+\shadeboxrule=\skip70
+\shadedtextwidth=\skip71
+\shadeleftshift=\skip72
+\shaderightshift=\skip73
+\shadesavebox=\box34
+)
+\c@lemma=\count137
+\c@proposition=\count138
+\c@observation=\count139
+\c@fact=\count140
+\c@remark=\count141
+\c@example=\count142
+\c@shadetheorem=\count143
+\c@shadecorollary=\count144
+\c@shadedefinitions=\count145
+ (./mitschrieb_geotopo.aux)
+\openout1 = `mitschrieb_geotopo.aux'.
 
-(C:\texmf\tex\latex\geometry\geometry.cfg))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 146.
 
-! LaTeX Error: File `marginnote.sty' not found.
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+bibgerm.sty: babel.sty detected
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.23 \setlength
-               {\headwidth}{15cm}
-*** (cannot \read from terminal in nonstop modes)
+(/usr/share/texmf/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
 
- 
+(/usr/share/texmf/tex/latex/everysel/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip74
+\RaggedLeftLeftskip=\skip75
+\RaggedRightLeftskip=\skip76
+\CenteringRightskip=\skip77
+\RaggedLeftRightskip=\skip78
+\RaggedRightRightskip=\skip79
+\CenteringParfillskip=\skip80
+\RaggedLeftParfillskip=\skip81
+\RaggedRightParfillskip=\skip82
+\JustifyingParfillskip=\skip83
+\CenteringParindent=\skip84
+\RaggedLeftParindent=\skip85
+\RaggedRightParindent=\skip86
+\JustifyingParindent=\skip87
+)
+Package caption Info: hyperref package v6.74m (or newer) detected on input line
+ 146.
+Package caption Info: subref 1.2 or 1.3 detected on input line 146.
+LaTeX Info: Redefining \subref on input line 146.
+Package hyperref Info: Link coloring ON on input line 146.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count146
+)
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+ (./mitschrieb_geotopo.out)
+(./mitschrieb_geotopo.out)
+\@outlinefile=\write4
+\openout4 = `mitschrieb_geotopo.out'.
+
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 56.9055pt, 455.24411pt, 85.35826pt
+v-parts: 85.35826pt, 702.78308pt, 56.9055pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  426.79134pt
+\textheight 702.78308pt
+\oddsidemargin  -15.36449pt
+\evensidemargin -15.36449pt
+\topmargin  -23.91173pt
+\headheight 14.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 50.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+(marginnote)             Extended possition detection mode activated.
+ <torus2.pdf, id=83, 241.73793pt x 175.65433pt>
+File: torus2.pdf Graphic file (type pdf)
+
+<use torus2.pdf> [1
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./torus2.pdf
+
+pdfTeX warning: pdflatex (file ./torus2.pdf): PDF inclusion: Page Group detecte
+d which pdfTeX can't handle. Ignoring it.
+>] (./mitschrieb_geotopo.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+))
+\tf@toc=\write5
+\openout5 = `mitschrieb_geotopo.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.174 \chapter
+              {EinfÃ¼hrung} [1
+
+]
+Kapitel 0.
+Package marginnote Info: Margin note 3.1 is on absolute page 3
+(marginnote)              on input line 180.
+Package marginnote Info: right page because not two side mode on input line 180
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 180.
+
+Overfull \hbox (14.221pt too wide) in paragraph at lines 180--180
+|\T1/lmr/m/it/10.95 Topologischer 
+ []
+
+Package marginnote Info: Margin note 3.2 is on absolute page 3
+(marginnote)              on input line 201.
+Package marginnote Info: right page because not two side mode on input line 201
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 201.
+
+Overfull \hbox (1.23413pt too wide) in paragraph at lines 201--201
+|\T1/lmr/m/it/10.95 Metrischer 
+ []
+
+Package marginnote Info: Margin note 3.3 is on absolute page 3
+(marginnote)              on input line 211.
+Package marginnote Info: right page because not two side mode on input line 211
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 211.
+<images/stetigeAbb.png, id=119, 553.5882pt x 338.2236pt>
+File: images/stetigeAbb.png Graphic file (type png)
+
+<use images/stetigeAbb.png> [2
+
+ <./images/stetigeAbb.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 218.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 218.
+Package marginnote Info: Margin note 4.1 is on absolute page 4
+(marginnote)              on input line 224.
+Package marginnote Info: right page because not two side mode on input line 224
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 224.
+
+Overfull \hbox (1.90527pt too wide) in paragraph at lines 224--224
+|\T1/lmr/m/it/10.95 Homotopie  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
+
+ []
+
+<images/Homotopie.png, id=146, 690.9012pt x 427.8384pt>
+File: images/Homotopie.png Graphic file (type png)
+
+<use images/Homotopie.png>
+<images/nicht_homotop_1.png, id=147, 1054.94125pt x 422.57875pt>
+File: images/nicht_homotop_1.png Graphic file (type png)
+
+<use images/nicht_homotop_1.png>
+<images/nicht_homotop_2.png, id=148, 372.9132pt x 218.2554pt>
+File: images/nicht_homotop_2.png Graphic file (type png)
+
+<use images/nicht_homotop_2.png>
+<images/Homotopie_param.png, id=151, 690.9012pt x 439.8834pt>
+File: images/Homotopie_param.png Graphic file (type png)
+
+<use images/Homotopie_param.png>
+Package marginnote Info: Margin note 4.2 is on absolute page 5
+(marginnote)              on input line 257.
+Package marginnote Info: right page because not two side mode on input line 257
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 257.
+ [3 <./images/Homotopie.png> <./images/nicht_homotop_1.png> <./images/nicht_hom
+otop_2.png> <./images/Homotopie_param.png>]
+<images/Homotopie_Transitivitaet.jpg, id=172, 506.8536pt x 372.9132pt>
+File: images/Homotopie_Transitivitaet.jpg Graphic file (type jpg)
+
+<use images/Homotopie_Transitivitaet.jpg>
+<images/Aequivalenzklassen.jpg, id=173, 638.385pt x 269.3262pt>
+File: images/Aequivalenzklassen.jpg Graphic file (type jpg)
+
+<use images/Aequivalenzklassen.jpg>
+<images/R_n_immer_homotop.jpg, id=174, 580.0872pt x 413.8662pt>
+File: images/R_n_immer_homotop.jpg Graphic file (type jpg)
+
+<use images/R_n_immer_homotop.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package marginnote Info: Margin note 5.1 is on absolute page 6
+(marginnote)              on input line 309.
+Package marginnote Info: right page because not two side mode on input line 309
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 309.
+
+Overfull \hbox (19.8143pt too wide) in paragraph at lines 309--309
+|\T1/lmr/m/it/10.95 Nullhomotopie  
+ []
+
+<images/Nullhomotopie.jpg, id=175, 577.6782pt x 338.2236pt>
+File: images/Nullhomotopie.jpg Graphic file (type jpg)
+
+<use images/Nullhomotopie.jpg> [4 <./images/Homotopie_Transitivitaet.jpg> <./im
+ages/Aequivalenzklassen.jpg>]
+<images/Geschlossene_Wege.jpg, id=187, 551.1792pt x 403.2666pt>
+File: images/Geschlossene_Wege.jpg Graphic file (type jpg)
+
+<use images/Geschlossene_Wege.jpg>
+<images/Homotop_Schleifen_R_ohne_0.jpg, id=188, 271.7352pt x 317.5062pt>
+File: images/Homotop_Schleifen_R_ohne_0.jpg Graphic file (type jpg)
+
+<use images/Homotop_Schleifen_R_ohne_0.jpg>
+<images/S1_und_R2_ohne_0.jpg, id=189, 631.6398pt x 459.1554pt>
+File: images/S1_und_R2_ohne_0.jpg Graphic file (type jpg)
+
+<use images/S1_und_R2_ohne_0.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[] \T1/lmr/m/n/10.95 Ab-bil-dung 8:
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/R_n_immer_homotop.jpg> <./images/Nullhomotopie.jpg> <./images/Gesc
+hlossene_Wege.jpg>] [6 <./images/Homotop_Schleifen_R_ohne_0.jpg> <./images/S1_u
+nd_R2_ohne_0.jpg>]
+Kapitel I.
+Package marginnote Info: Margin note 8.1 is on absolute page 8
+(marginnote)              on input line 364.
+Package marginnote Info: right page because not two side mode on input line 364
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 364.
+
+Overfull \hbox (34.20111pt too wide) in paragraph at lines 364--364
+|\T1/lmr/m/it/10.95 Teilraumtopologie  
+ []
+
+<images/Teilraumtopologie.jpg, id=206, 616.2222pt x 476.0184pt>
+File: images/Teilraumtopologie.jpg Graphic file (type jpg)
+
+<use images/Teilraumtopologie.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package marginnote Info: Margin note 8.2 is on absolute page 9
+(marginnote)              on input line 387.
+Package marginnote Info: right page because not two side mode on input line 387
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 387.
+
+Overfull \hbox (34.1718pt too wide) in paragraph at lines 387--387
+|\T1/lmr/m/it/10.95 Abgeschlossenheit  
+ []
+
+[7
+
+]
+Package marginnote Info: Margin note 9.1 is on absolute page 9
+(marginnote)              on input line 401.
+Package marginnote Info: right page because not two side mode on input line 401
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 401.
+ <images/offener_Kreis.jpg, id=221, 209.1012pt x 208.6194pt>
+File: images/offener_Kreis.jpg Graphic file (type jpg)
+
+<use images/offener_Kreis.jpg>
+<images/offenes_Quadrat.jpg, id=222, 219.7008pt x 220.1826pt>
+File: images/offenes_Quadrat.jpg Graphic file (type jpg)
+
+<use images/offenes_Quadrat.jpg>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 416.
+
+<images/Cantormenge_5te_Iteration.jpg, id=223, 183.68625pt x 82.80937pt>
+File: images/Cantormenge_5te_Iteration.jpg Graphic file (type jpg)
+
+<use images/Cantormenge_5te_Iteration.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package marginnote Info: Margin note 9.2 is on absolute page 10
+(marginnote)              on input line 427.
+Package marginnote Info: right page because not two side mode on input line 427
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 427.
+[8 <./images/Teilraumtopologie.jpg> <./images/offener_Kreis.jpg> <./images/offe
+nes_Quadrat.jpg>]
+File: images/offener_Kreis.jpg Graphic file (type jpg)
+ <use images/offener_Kreis.jpg>
+File: images/offenes_Quadrat.jpg Graphic file (type jpg)
+
+<use images/offenes_Quadrat.jpg>
+<images/Quadrate_Schnitt.jpg, id=243, 281.853pt x 214.401pt>
+File: images/Quadrate_Schnitt.jpg Graphic file (type jpg)
+
+<use images/Quadrate_Schnitt.jpg>
+<images/Kreis_Schnitt.jpg, id=244, 345.4506pt x 211.5102pt>
+File: images/Kreis_Schnitt.jpg Graphic file (type jpg)
+
+<use images/Kreis_Schnitt.jpg>
+Package marginnote Info: Margin note 10.1 is on absolute page 10
+(marginnote)              on input line 452.
+Package marginnote Info: right page because not two side mode on input line 452
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 452.
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--456
+\T1/lmr/m/n/10.95 die Ba-sis ei-ner To-po-lo-gie für die Men-ge $\OML/lmm/m/it/
+10.95 X \OMS/lmsy/m/n/10.95 ^^B \OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , und d
+ie-se heiÿt
+ []
+
+File: images/offener_Kreis.jpg Graphic file (type jpg)
+<use images/offener_Kreis.jpg>
+<images/Produkt_RxR.jpg, id=245, 324.7332pt x 197.0562pt>
+File: images/Produkt_RxR.jpg Graphic file (type jpg)
+
+<use images/Produkt_RxR.jpg>
+<images/Kreis_Rechteck.jpg, id=246, 163.812pt x 164.2938pt>
+File: images/Kreis_Rechteck.jpg Graphic file (type jpg)
+
+<use images/Kreis_Rechteck.jpg>
+<images/Kreis_Rechteck_Basis.jpg, id=247, 326.6604pt x 345.4506pt>
+File: images/Kreis_Rechteck_Basis.jpg Graphic file (type jpg)
+
+<use images/Kreis_Rechteck_Basis.jpg>
+Package marginnote Info: Margin note 10.2 is on absolute page 11
+(marginnote)              on input line 468.
+Package marginnote Info: right page because not two side mode on input line 468
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 468.
+ [9 <./images/Cantormenge_5te_Iteration.jpg> <./images/Quadrate_Schnitt.jpg> <.
+/images/Kreis_Schnitt.jpg>] [10 <./images/Produkt_RxR.jpg> <./images/Kreis_Rech
+teck.jpg> <./images/Kreis_Rechteck_Basis.jpg>]
+Package marginnote Info: Margin note 12.1 is on absolute page 12
+(marginnote)              on input line 482.
+Package marginnote Info: right page because not two side mode on input line 482
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 482.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 484.
+
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 484.
+Package marginnote Info: Margin note 12.2 is on absolute page 12
+(marginnote)              on input line 491.
+Package marginnote Info: right page because not two side mode on input line 491
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 491.
+
+Overfull \hbox (1.23413pt too wide) in paragraph at lines 491--491
+|\T1/lmr/m/it/10.95 Metrischer 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
+
+ []
+
+<images/metrischer_unterraum.jpg, id=268, 190.311pt x 231.264pt>
+File: images/metrischer_unterraum.jpg Graphic file (type jpg)
+
+<use images/metrischer_unterraum.jpg>
+Package marginnote Info: Margin note 12.3 is on absolute page 12
+(marginnote)              on input line 503.
+Package marginnote Info: right page because not two side mode on input line 503
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 503.
+
+Overfull \hbox (23.32805pt too wide) in paragraph at lines 503--503
+|\T1/lmr/m/it/10.95 Beschränktheit, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--507
+
+ []
+
+<images/Durchmesser.jpg, id=269, 316.5426pt x 200.9106pt>
+File: images/Durchmesser.jpg Graphic file (type jpg)
+
+<use images/Durchmesser.jpg> [11 <./images/metrischer_unterraum.jpg> <./images/
+Durchmesser.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 519--523
+
+ []
+
+<images/metrisch_offen.jpg, id=280, 523.2348pt x 437.4744pt>
+File: images/metrisch_offen.jpg Graphic file (type jpg)
+
+<use images/metrisch_offen.jpg>
+Package marginnote Info: Margin note 13.1 is on absolute page 13
+(marginnote)              on input line 529.
+Package marginnote Info: right page because not two side mode on input line 529
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 529.
+
+<images/offen_abgeschlossen.jpg, id=281, 635.976pt x 376.2858pt>
+File: images/offen_abgeschlossen.jpg Graphic file (type jpg)
+
+<use images/offen_abgeschlossen.jpg>
+Package marginnote Info: Margin note 13.2 is on absolute page 14
+(marginnote)              on input line 554.
+Package marginnote Info: right page because not two side mode on input line 554
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 554.
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
+
+ []
+
+<images/innen_aussen.jpg, id=283, 523.2348pt x 437.4744pt>
+File: images/innen_aussen.jpg Graphic file (type jpg)
+
+<use images/innen_aussen.jpg> [12 <./images/metrisch_offen.jpg> <./images/offen
+_abgeschlossen.jpg>]
+Package marginnote Info: Margin note 14.1 is on absolute page 14
+(marginnote)              on input line 567.
+Package marginnote Info: right page because not two side mode on input line 567
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 567.
+Package marginnote Info: Margin note 14.2 is on absolute page 14
+(marginnote)              on input line 579.
+Package marginnote Info: right page because not two side mode on input line 579
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 579.
+Package marginnote Info: Margin note 14.3 is on absolute page 14
+(marginnote)              on input line 583.
+Package marginnote Info: right page because not two side mode on input line 583
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 583.
+Package marginnote Info: Margin note 14.4 is on absolute page 14
+(marginnote)              on input line 591.
+Package marginnote Info: right page because not two side mode on input line 591
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 591.
+Package marginnote Info: Margin note 14.5 is on absolute page 15
+(marginnote)              on input line 603.
+Package marginnote Info: right page because not two side mode on input line 603
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 603.
+ <images/stetig_in_x.jpg, id=295, 630.6762pt x 405.6756pt>
+File: images/stetig_in_x.jpg Graphic file (type jpg)
+
+<use images/stetig_in_x.jpg> [13 <./images/innen_aussen.jpg>]
+Package marginnote Info: Margin note 15.1 is on absolute page 15
+(marginnote)              on input line 619.
+Package marginnote Info: right page because not two side mode on input line 619
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 619.
+
+Overfull \hbox (10.04868pt too wide) in paragraph at lines 619--619
+|\T1/lmr/m/it/10.95 Isometrische 
+ []
+
+Package marginnote Info: Margin note 15.2 is on absolute page 15
+(marginnote)              on input line 629.
+Package marginnote Info: right page because not two side mode on input line 629
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 629.
+
+Overfull \hbox (41.24594pt too wide) in paragraph at lines 629--629
+|\T1/lmr/m/it/10.95 Homöomorphismus  
+ []
+
+<images/0_1_nach_S1_f-1_nicht_stetig.jpg, id=312, 648.021pt x 356.0502pt>
+File: images/0_1_nach_S1_f-1_nicht_stetig.jpg Graphic file (type jpg)
+
+<use images/0_1_nach_S1_f-1_nicht_stetig.jpg>
+Package marginnote Info: Margin note 15.3 is on absolute page 16
+(marginnote)              on input line 647.
+Package marginnote Info: right page because not two side mode on input line 647
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 647.
+
+Overfull \hbox (11.70026pt too wide) in paragraph at lines 647--647
+|\T1/lmr/m/it/10.95 homöomorph  
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 647--648
+[]\T1/lmr/bx/n/10.95 Definition I.19. []|\T1/lmr/m/n/10.95 Zwei to-po-lo-gi-sch
+e Räu-me $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 Y$ 
+\T1/lmr/m/n/10.95 hei-ÿen $[]$ oder
+ []
+
+[14 <./images/stetig_in_x.jpg> <./images/0_1_nach_S1_f-1_nicht_stetig.jpg>]
+<images/Stereographie_S1_R1.jpg, id=324, 590.6868pt x 331.4784pt>
+File: images/Stereographie_S1_R1.jpg Graphic file (type jpg)
+
+<use images/Stereographie_S1_R1.jpg>
+<images/Stereographie_S2_R2.jpg, id=325, 590.6868pt x 393.6306pt>
+File: images/Stereographie_S2_R2.jpg Graphic file (type jpg)
+
+<use images/Stereographie_S2_R2.jpg>
+Underfull \hbox (badness 3758) in paragraph at lines 669--676
+\T1/lmr/m/n/10.95 Die ste-reo-gra-phi-sche Pro-jek-ti-on ist ein Ho-möo-mor-phi
+s-mus von $\OML/lmm/m/it/10.95 S[]\OMS/lmsy/m/n/10.95 nf\OML/lmm/m/it/10.95 N\O
+MS/lmsy/m/n/10.95 g\OML/lmm/m/it/10.95 ; N \OT1/lmr/m/n/10.95 :=
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 669--676
+\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []; [] ; []\OT1/lmr/m/n/10.95 ) =: 
+\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.9
+5 )$ \T1/lmr/m/n/10.95 mit Um-kehr-ab-bil-dung $\OML/lmm/m/it/10.95 y \OT1/lmr/
+m/n/10.95 = (\OML/lmm/m/it/10.95 y[]; [] ; y[]\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/
+n/10.95 7!
+ []
+
+Package marginnote Info: Margin note 16.1 is on absolute page 16
+(marginnote)              on input line 678.
+Package marginnote Info: right page because not two side mode on input line 678
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 678.
+
+Overfull \hbox (1.40973pt too wide) in paragraph at lines 678--678
+|\T1/lmr/m/it/10.95 Einbettung  
+ []
+
+<images/0_1_nach_S1_Pfeil.jpg, id=326, 678.3744pt x 361.35pt>
+File: images/0_1_nach_S1_Pfeil.jpg Graphic file (type jpg)
+
+<use images/0_1_nach_S1_Pfeil.jpg> [15 <./images/Stereographie_S1_R1.jpg> <./im
+ages/Stereographie_S2_R2.jpg>]
+Package marginnote Info: Margin note 17.1 is on absolute page 17
+(marginnote)              on input line 695.
+Package marginnote Info: right page because not two side mode on input line 695
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 695.
+
+Overfull \hbox (0.95381pt too wide) in paragraph at lines 695--695
+|\T1/lmr/m/it/10.95 Äquivalenz 
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 695--696
+[]\T1/lmr/bx/n/10.95 Definition I.21. []|\T1/lmr/m/n/10.95 Zwei Ein-bet-tun-gen
+ $\OML/lmm/m/it/10.95 f; g [] [] X \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$
+ \T1/lmr/m/n/10.95 hei-ÿen $[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,
+ []
+
+<images/homotopieaequivalenz.jpg, id=337, 330.9966pt x 256.7994pt>
+File: images/homotopieaequivalenz.jpg Graphic file (type jpg)
+
+<use images/homotopieaequivalenz.jpg>
+Package marginnote Info: Margin note 17.2 is on absolute page 17
+(marginnote)              on input line 703.
+Package marginnote Info: right page because not two side mode on input line 703
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 703.
+
+<images/Knoten_Kreis.jpg, id=338, 184.5294pt x 184.5294pt>
+File: images/Knoten_Kreis.jpg Graphic file (type jpg)
+
+<use images/Knoten_Kreis.jpg>
+<images/Knoten_aequivalent_zu_Kreis.jpg, id=339, 241.3818pt x 223.0734pt>
+File: images/Knoten_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
+
+<use images/Knoten_aequivalent_zu_Kreis.jpg>
+File: images/Knoten_Kreis.jpg Graphic file (type jpg)
+ <use images/Knoten_Kreis.jpg>
+<images/Knoten_nicht_aequivalent_zu_Kreis.jpg, id=340, 241.8636pt x 223.5552pt>
+File: images/Knoten_nicht_aequivalent_zu_Kreis.jpg Graphic file (type jpg)
+<use images/Knoten_nicht_aequivalent_zu_Kreis.jpg>
+Package marginnote Info: Margin note 17.3 is on absolute page 17
+(marginnote)              on input line 713.
+Package marginnote Info: right page because not two side mode on input line 713
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 713.
+
+Overfull \hbox (39.54596pt too wide) in paragraph at lines 713--713
+|\T1/lmr/m/it/10.95 zusammenhängend  
+ []
+
+Package marginnote Info: Margin note 17.4 is on absolute page 18
+(marginnote)              on input line 719.
+Package marginnote Info: right page because not two side mode on input line 719
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 719.
+
+Overfull \hbox (9.53714pt too wide) in paragraph at lines 719--719
+|\T1/lmr/m/it/10.95 Überdeckung  
+ []
+
+<images/Ueberdeckung.jpg, id=341, 661.9932pt x 502.9992pt>
+File: images/Ueberdeckung.jpg Graphic file (type jpg)
+
+<use images/Ueberdeckung.jpg> [16 <./images/0_1_nach_S1_Pfeil.jpg> <./images/ho
+motopieaequivalenz.jpg> <./images/Knoten_Kreis.jpg> <./images/Knoten_aequivalen
+t_zu_Kreis.jpg> <./images/Knoten_nicht_aequivalent_zu_Kreis.jpg>]
+Package marginnote Info: Margin note 18.1 is on absolute page 18
+(marginnote)              on input line 731.
+Package marginnote Info: right page because not two side mode on input line 731
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 731.
+
+<images/Partition.jpg, id=350, 638.385pt x 276.5532pt>
+File: images/Partition.jpg Graphic file (type jpg)
+
+<use images/Partition.jpg> [17 <./images/Ueberdeckung.jpg> <./images/Partition.
+jpg>]
+Package marginnote Info: Margin note 19.1 is on absolute page 19
+(marginnote)              on input line 776.
+Package marginnote Info: right page because not two side mode on input line 776
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 776.
+
+Overfull \hbox (85.27013pt too wide) in paragraph at lines 776--776
+|\T1/lmr/m/it/10.95 Zusammenhangskomponente  
+ []
+
+<images/R_ohne_p.jpg, id=363, 327.624pt x 92.5056pt>
+File: images/R_ohne_p.jpg Graphic file (type jpg)
+ <use images/R_ohne_p.jpg>
+<images/R2_ohne_p.jpg, id=364, 256.7994pt x 211.0284pt>
+File: images/R2_ohne_p.jpg Graphic file (type jpg)
+
+<use images/R2_ohne_p.jpg>
+<images/Waffel_zshgd.jpg, id=365, 607.5498pt x 467.8278pt>
+File: images/Waffel_zshgd.jpg Graphic file (type jpg)
+
+<use images/Waffel_zshgd.jpg>
+<images/Waffel_unzshgd.jpg, id=366, 529.98pt x 404.2302pt>
+File: images/Waffel_unzshgd.jpg Graphic file (type jpg)
+
+<use images/Waffel_unzshgd.jpg>
+<images/Waffel_unzshgd_Fkt.jpg, id=367, 587.796pt x 377.2494pt>
+File: images/Waffel_unzshgd_Fkt.jpg Graphic file (type jpg)
+
+<use images/Waffel_unzshgd_Fkt.jpg> [18 <./images/R_ohne_p.jpg> <./images/R2_oh
+ne_p.jpg>]
+Package marginnote Info: Margin note 20.1 is on absolute page 20
+(marginnote)              on input line 833.
+Package marginnote Info: right page because not two side mode on input line 833
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 833.
+ <images/Weg.jpg, id=381, 358.4592pt x 325.6968pt>
+File: images/Weg.jpg Graphic file (type jpg)
+
+<use images/Weg.jpg>
+Package marginnote Info: Margin note 20.2 is on absolute page 20
+(marginnote)              on input line 840.
+Package marginnote Info: right page because not two side mode on input line 840
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 840.
+
+Overfull \hbox (42.13785pt too wide) in paragraph at lines 840--840
+|\T1/lmr/m/it/10.95 Wegzusammenhang  
+ []
+
+<images/Wegzshgd.jpg, id=382, 649.4664pt x 416.2752pt>
+File: images/Wegzshgd.jpg Graphic file (type jpg)
+
+<use images/Wegzshgd.jpg> [19 <./images/Waffel_zshgd.jpg> <./images/Waffel_unzs
+hgd.jpg> <./images/Waffel_unzshgd_Fkt.jpg> <./images/Weg.jpg>]
+<images/Sinuseinsdurchx.png, id=390, 803.0pt x 342.27875pt>
+File: images/Sinuseinsdurchx.png Graphic file (type png)
+
+<use images/Sinuseinsdurchx.png>
+Package marginnote Info: Margin note 21.1 is on absolute page 21
+(marginnote)              on input line 857.
+Package marginnote Info: right page because not two side mode on input line 857
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 857.
+
+Overfull \hbox (10.10614pt too wide) in paragraph at lines 857--857
+|\T1/lmr/m/it/10.95 Kompaktheit  
+ []
+
+Package marginnote Info: Margin note 21.2 is on absolute page 21
+(marginnote)              on input line 862.
+Package marginnote Info: right page because not two side mode on input line 862
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 862.
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--865
+[]\T1/lmr/bx/n/10.95 Definition I.30. []|\T1/lmr/m/n/10.95 Ein to-po-lo-gi-sche
+r Raum $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 heiÿt $[]$ bzw.
+ []
+
+<images/T1.jpg, id=391, 209.583pt x 114.6684pt>
+File: images/T1.jpg Graphic file (type jpg)
+ <use images/T1.jpg>
+Package marginnote Info: Margin note 21.3 is on absolute page 22
+(marginnote)              on input line 871.
+Package marginnote Info: right page because not two side mode on input line 871
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 871.
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--874
+[]\T1/lmr/bx/n/10.95 Definition I.31. []|$\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10
+.95 heiÿt $[]$- oder $[]$ bzw.
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 871--874
+[]$ $\OT1/lmr/m/n/10.95 :\OMS/lmsy/m/n/10.95 ,$ \T1/lmr/m/n/10.95 Je zwei ver-s
+chie-de-ne Punk-te in $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 be-sit-zen
+ []
+
+<images/T2.jpg, id=392, 248.6088pt x 140.2038pt>
+File: images/T2.jpg Graphic file (type jpg)
+ <use images/T2.jpg> [20 <./images/Wegzshgd.jpg> <./images/Sinuseinsdurchx.png>
+ <./images/T1.jpg>]
+Package marginnote Info: Margin note 22.1 is on absolute page 22
+(marginnote)              on input line 889.
+Package marginnote Info: right page because not two side mode on input line 889
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 889.
+
+<images/Grenzwert.jpg, id=401, 378.213pt x 468.7914pt>
+File: images/Grenzwert.jpg Graphic file (type jpg)
+
+<use images/Grenzwert.jpg> [21 <./images/T2.jpg> <./images/Grenzwert.jpg>]
+Package marginnote Info: Margin note 23.1 is on absolute page 23
+(marginnote)              on input line 913.
+Package marginnote Info: right page because not two side mode on input line 913
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 913.
+
+Overfull \hbox (26.55482pt too wide) in paragraph at lines 913--913
+|\T1/lmr/m/it/10.95 Umgebungsbasis  
+ []
+
+Package marginnote Info: Margin note 23.2 is on absolute page 23
+(marginnote)              on input line 934.
+Package marginnote Info: right page because not two side mode on input line 934
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 934.
+
+Overfull \hbox (54.30476pt too wide) in paragraph at lines 934--934
+|\T1/lmr/m/it/10.95 Abzählbarkeitsaxiome, 
+ []
+
+Package marginnote Info: Margin note 23.3 is on absolute page 23
+(marginnote)              on input line 970.
+Package marginnote Info: right page because not two side mode on input line 970
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 970.
+Package marginnote Info: Margin note 23.4 is on absolute page 24
+(marginnote)              on input line 974.
+Package marginnote Info: right page because not two side mode on input line 974
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 974.
+<images/lokal_endlich.jpg, id=415, 444.2196pt x 325.215pt>
+File: images/lokal_endlich.jpg Graphic file (type jpg)
+
+<use images/lokal_endlich.jpg> [22]
+Package marginnote Info: Margin note 24.1 is on absolute page 24
+(marginnote)              on input line 981.
+Package marginnote Info: right page because not two side mode on input line 981
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 981.
+
+Overfull \hbox (12.19543pt too wide) in paragraph at lines 981--981
+|\T1/lmr/m/it/10.95 Verfeinerung  
+ []
+
+Package marginnote Info: Margin note 24.2 is on absolute page 24
+(marginnote)              on input line 985.
+Package marginnote Info: right page because not two side mode on input line 985
+.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 985.
+
+Overfull \hbox (29.9619pt too wide) in paragraph at lines 985--985
+|\T1/lmr/m/it/10.95 Parakompaktheit  
+ []
+
+<images/Cutoff.jpg, id=431, 587.796pt x 363.759pt>
+File: images/Cutoff.jpg Graphic file (type jpg)
+ <use images/Cutoff.jpg>
+[23 <./images/lokal_endlich.jpg> <./images/Cutoff.jpg>]
+Kapitel II.
+<images/Mannigfaltigkeiten1.jpg, id=441, 649.4664pt x 370.5042pt>
+File: images/Mannigfaltigkeiten1.jpg Graphic file (type jpg)
+
+<use images/Mannigfaltigkeiten1.jpg>
+<images/S1_Pendel.jpg, id=442, 598.8774pt x 421.0932pt>
+File: images/S1_Pendel.jpg Graphic file (type jpg)
+
+<use images/S1_Pendel.jpg>
+Overfull \hbox (40.37743pt too wide) in paragraph at lines 1011--1011
+[][] 
+ []
+
+<images/Torus_Doppelpendel.jpg, id=443, 669.2202pt x 471.6822pt>
+File: images/Torus_Doppelpendel.jpg Graphic file (type jpg)
+
+<use images/Torus_Doppelpendel.jpg>
+<images/Stringtheorie.jpg, id=444, 322.806pt x 421.0932pt>
+File: images/Stringtheorie.jpg Graphic file (type jpg)
+
+<use images/Stringtheorie.jpg>
+Overfull \hbox (15.30908pt too wide) in paragraph at lines 1014--1014
+[][] 
+ []
+
+Package marginnote Info: Margin note 25.1 is on absolute page 26
+(marginnote)              on input line 1018.
+Package marginnote Info: right page because not two side mode on input line 101
+8.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1018.
+
+Overfull \hbox (30.33597pt too wide) in paragraph at lines 1018--1018
+|\T1/lmr/m/it/10.95 Mannigfaltigkeit, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1020
+[]\T1/lmr/bx/n/10.95 Definition II.1. []|\T1/lmr/m/n/10.95 Ein to-po-lo-gi-sche
+r Raum $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 heiÿt $[]$
+ []
+
+<images/Karte.jpg, id=445, 554.07pt x 483.7272pt>
+File: images/Karte.jpg Graphic file (type jpg)
+ <use images/Karte.jpg>
+[24
+
+ <./images/Mannigfaltigkeiten1.jpg> <./images/S1_Pendel.jpg> <./images/Torus_Do
+ppelpendel.jpg> <./images/Stringtheorie.jpg>]
+Package marginnote Info: Margin note 26.1 is on absolute page 26
+(marginnote)              on input line 1036.
+Package marginnote Info: right page because not two side mode on input line 103
+6.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1036.
+Package marginnote Info: Margin note 26.2 is on absolute page 26
+(marginnote)              on input line 1041.
+Package marginnote Info: right page because not two side mode on input line 104
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1041.
+
+<images/Kartenwechsel.jpg, id=452, 615.2586pt x 486.618pt>
+File: images/Kartenwechsel.jpg Graphic file (type jpg)
+
+<use images/Kartenwechsel.jpg>
+Package marginnote Info: Margin note 26.3 is on absolute page 26
+(marginnote)              on input line 1048.
+Package marginnote Info: right page because not two side mode on input line 104
+8.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1048.
+
+Overfull \hbox (22.50096pt too wide) in paragraph at lines 1048--1048
+|\T1/lmr/m/it/10.95 Verträglichkeit, 
+ []
+
+Package marginnote Info: Margin note 26.4 is on absolute page 27
+(marginnote)              on input line 1053.
+Package marginnote Info: right page because not two side mode on input line 105
+3.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1053.
+
+Overfull \hbox (30.33597pt too wide) in paragraph at lines 1053--1053
+\T1/lmr/m/it/10.95 Mannigfaltigkeit, 
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 1053--1055
+[]\T1/lmr/bx/n/10.95 Definition II.5. []|\T1/lmr/m/n/10.95 Eine $[]$ (kurz: $\O
+ML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1055
+
+ []
+
+[25 <./images/Karte.jpg> <./images/Kartenwechsel.jpg>]
+<images/Verkleben.jpg, id=465, 679.338pt x 472.6458pt>
+File: images/Verkleben.jpg Graphic file (type jpg)
+
+<use images/Verkleben.jpg>
+<images/Verkleben_S2.jpg, id=466, 363.2772pt x 450.9648pt>
+File: images/Verkleben_S2.jpg Graphic file (type jpg)
+
+<use images/Verkleben_S2.jpg>
+<images/Norm_invers.jpg, id=467, 509.2626pt x 286.671pt>
+File: images/Norm_invers.jpg Graphic file (type jpg)
+
+<use images/Norm_invers.jpg>
+Overfull \hbox (43.64224pt too wide) in paragraph at lines 1056--1059
+[] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+
+ []
+
+<images/Polarkoordinaten.jpg, id=468, 465.4188pt x 286.1892pt>
+File: images/Polarkoordinaten.jpg Graphic file (type jpg)
+
+<use images/Polarkoordinaten.jpg> [26 <./images/Verkleben.jpg> <./images/Verkle
+ben_S2.jpg> <./images/Norm_invers.jpg> <./images/Polarkoordinaten.jpg>]
+Package marginnote Info: Margin note 28.1 is on absolute page 28
+(marginnote)              on input line 1088.
+Package marginnote Info: right page because not two side mode on input line 108
+8.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1088.
+
+<images/Abb_diffbar.jpg, id=479, 697.1646pt x 366.6498pt>
+File: images/Abb_diffbar.jpg Graphic file (type jpg)
+
+<use images/Abb_diffbar.jpg> [27 <./images/Abb_diffbar.jpg>]
+<images/Satz_UnterMf.jpg, id=486, 381.5856pt x 406.6392pt>
+File: images/Satz_UnterMf.jpg Graphic file (type jpg)
+
+<use images/Satz_UnterMf.jpg>
+Package marginnote Info: Margin note 29.1 is on absolute page 29
+(marginnote)              on input line 1129.
+Package marginnote Info: right page because not two side mode on input line 112
+9.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1129.
+
+Overfull \hbox (54.45923pt too wide) in paragraph at lines 1129--1129
+|\T1/lmr/m/it/10.95 Untermannigfaltigkeit  
+ []
+
+[28 <./images/Satz_UnterMf.jpg>]
+Overfull \hbox (15.34904pt too wide) in paragraph at lines 1178--1182
+\T1/lmr/m/n/10.95 in $\OML/lmm/m/it/10.95 x[]$ \T1/lmr/m/n/10.95 in-ver-tier-ba
+r ist. De-fi-nie-re die Ab-bil-dung $\OML/lmm/m/it/10.95 ' [] [] U \OMS/lmsy/m/
+n/10.95 ! \U/msb/m/n/10.95 R[]\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 7! \O
+T1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]; [] ; x[]; f[]\OT1/lmr/m/n/10.95 (\OM
+L/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; [] ; f[]\OT1/lmr/m/
+n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 ))$\T1/lmr/m/n/10.95 .
+ []
+
+[29] <images/Beweis_Satz_UMF_Diagramm.jpg, id=510, 378.213pt x 174.8934pt>
+File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
+
+<use images/Beweis_Satz_UMF_Diagramm.jpg>
+Underfull \hbox (badness 2932) in paragraph at lines 1212--1215
+\T1/lmr/m/n/10.95 ist in-ver-tier-bar. De-fi-nie-re $\OML/lmm/m/it/10.95 g [] [
+] W \OMS/lmsy/m/n/10.95 ^^B \U/msb/m/n/10.95 R[] \OMS/lmsy/m/n/10.95 ! \U/msb/m
+/n/10.95 R[]\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 w; y\
+OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 7! \OML/lmm/m/it/10.95  \OT1/lmr/m/n/10
+.95 (\OML/lmm/m/it/10.95 w\OT1/lmr/m/n/10.95 ) + (0\OML/lmm/m/it/10.95 ; y\OT1/
+lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , d.h.
+ []
+
+[30 <./images/Beweis_Satz_UMF_Diagramm.jpg>] [31]
+<images/Identifizierung1.jpg, id=521, 654.7662pt x 467.346pt>
+File: images/Identifizierung1.jpg Graphic file (type jpg)
+
+<use images/Identifizierung1.jpg>
+<images/Identifizierung2.jpg, id=522, 454.3374pt x 427.8384pt>
+File: images/Identifizierung2.jpg Graphic file (type jpg)
+
+<use images/Identifizierung2.jpg>
+<images/Identifizierung_Umgebungen.jpg, id=523, 635.976pt x 473.6094pt>
+File: images/Identifizierung_Umgebungen.jpg Graphic file (type jpg)
+
+<use images/Identifizierung_Umgebungen.jpg>
+<images/Identifizierung_Umgebungen2.jpg, id=524, 276.0714pt x 276.0714pt>
+File: images/Identifizierung_Umgebungen2.jpg Graphic file (type jpg)
+
+<use images/Identifizierung_Umgebungen2.jpg> [32 <./images/Identifizierung1.jpg
+> <./images/Identifizierung2.jpg>] [33 <./images/Identifizierung_Umgebungen.jpg
+> <./images/Identifizierung_Umgebungen2.jpg>]
+File: images/Partition.jpg Graphic file (type jpg)
+ <use images/Partition.jpg>
+Package marginnote Info: Margin note 35.1 is on absolute page 35
+(marginnote)              on input line 1261.
+Package marginnote Info: right page because not two side mode on input line 126
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1261.
+
+Overfull \hbox (40.24623pt too wide) in paragraph at lines 1261--1261
+|\T1/lmr/m/it/10.95 Quotienten(raum)- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1286
+
+ []
+
+<images/Partition_R.jpg, id=533, 543.4704pt x 153.6942pt>
+File: images/Partition_R.jpg Graphic file (type jpg)
+
+<use images/Partition_R.jpg>
+<images/Identifizierung_Linien.jpg, id=534, 559.3698pt x 158.5122pt>
+File: images/Identifizierung_Linien.jpg Graphic file (type jpg)
+
+<use images/Identifizierung_Linien.jpg>
+<images/Linien_Quadrat.jpg, id=535, 488.0634pt x 433.62pt>
+File: images/Linien_Quadrat.jpg Graphic file (type jpg)
+
+<use images/Linien_Quadrat.jpg> [34 <./images/Partition_R.jpg> <./images/Identi
+fizierung_Linien.jpg>]
+<images/Linien_Torus_rational.jpg, id=548, 369.0588pt x 227.8914pt>
+File: images/Linien_Torus_rational.jpg Graphic file (type jpg)
+
+<use images/Linien_Torus_rational.jpg>
+<images/Linien_Torus_irrational.jpg, id=549, 428.802pt x 264.99pt>
+File: images/Linien_Torus_irrational.jpg Graphic file (type jpg)
+
+<use images/Linien_Torus_irrational.jpg> [35 <./images/Linien_Quadrat.jpg> <./i
+mages/Linien_Torus_rational.jpg> <./images/Linien_Torus_irrational.jpg>]
+Package marginnote Info: Margin note 37.1 is on absolute page 37
+(marginnote)              on input line 1313.
+Package marginnote Info: right page because not two side mode on input line 131
+3.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1313.
+
+Overfull \hbox (47.98927pt too wide) in paragraph at lines 1313--1313
+|\T1/lmr/m/it/10.95 Quotientenabbildung  
+ []
+
+<images/Quotientenabbildung.jpg, id=555, 395.076pt x 235.6002pt>
+File: images/Quotientenabbildung.jpg Graphic file (type jpg)
+
+<use images/Quotientenabbildung.jpg>
+<images/f_modulo_S_Diagramm.jpg, id=556, 305.4612pt x 253.9086pt>
+File: images/f_modulo_S_Diagramm.jpg Graphic file (type jpg)
+
+<use images/f_modulo_S_Diagramm.jpg>
+<images/f_modulo_S_T_Diagramm.jpg, id=557, 317.0244pt x 281.3712pt>
+File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
+
+<use images/f_modulo_S_T_Diagramm.jpg>
+Package marginnote Info: Margin note 37.2 is on absolute page 38
+(marginnote)              on input line 1351.
+Package marginnote Info: right page because not two side mode on input line 135
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1351.
+
+Underfull \hbox (badness 4279) in paragraph at lines 1351--1354
+\T1/lmr/m/n/10.95 Die in-du-zier-te Ab-bil-dung $\OML/lmm/m/it/10.95 f=[] [] []
+ X=[] \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 ist dann $
+[]$ und heiÿt
+ []
+
+[36 <./images/Quotientenabbildung.jpg> <./images/f_modulo_S_Diagramm.jpg> <./im
+ages/f_modulo_S_T_Diagramm.jpg>] [37]
+<images/Quadrat_nach_Torus.jpg, id=574, 613.8132pt x 460.6008pt>
+File: images/Quadrat_nach_Torus.jpg Graphic file (type jpg)
+
+<use images/Quadrat_nach_Torus.jpg>
+<images/Quotient_Torus.jpg, id=575, 689.9376pt x 356.0502pt>
+File: images/Quotient_Torus.jpg Graphic file (type jpg)
+
+<use images/Quotient_Torus.jpg>
+<images/Quotient_Moebius.jpg, id=576, 691.383pt x 423.5022pt>
+File: images/Quotient_Moebius.jpg Graphic file (type jpg)
+
+<use images/Quotient_Moebius.jpg>
+Package marginnote Info: Margin note 39.1 is on absolute page 40
+(marginnote)              on input line 1378.
+Package marginnote Info: right page because not two side mode on input line 137
+8.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1378.
+
+Overfull \hbox (7.24698pt too wide) in paragraph at lines 1378--1378
+|\T1/lmr/m/it/10.95 Kontraktion  
+ []
+
+[38 <./images/Quadrat_nach_Torus.jpg> <./images/Quotient_Torus.jpg> <./images/Q
+uotient_Moebius.jpg>] <images/0_1_drittel.jpg, id=582, 552.1428pt x 81.906pt>
+File: images/0_1_drittel.jpg Graphic file (type jpg)
+
+<use images/0_1_drittel.jpg>
+<images/0_1_drittel_2.jpg, id=583, 552.1428pt x 81.906pt>
+File: images/0_1_drittel_2.jpg Graphic file (type jpg)
+
+<use images/0_1_drittel_2.jpg>
+<images/1_nach_1durch3.jpg, id=584, 547.3248pt x 232.7094pt>
+File: images/1_nach_1durch3.jpg Graphic file (type jpg)
+
+<use images/1_nach_1durch3.jpg>
+<images/1_nach_1durch3_2.jpg, id=585, 129.1224pt x 175.3752pt>
+File: images/1_nach_1durch3_2.jpg Graphic file (type jpg)
+
+<use images/1_nach_1durch3_2.jpg>
+<images/P.jpg, id=586, 61.1886pt x 159.4758pt>
+File: images/P.jpg Graphic file (type jpg)
+ <use images/P.jpg>
+<images/Q.jpg, id=587, 113.7048pt x 112.2594pt>
+File: images/Q.jpg Graphic file (type jpg)
+ <use images/Q.jpg>
+<images/0_1.jpg, id=588, 593.0958pt x 126.2316pt>
+File: images/0_1.jpg Graphic file (type jpg)
+ <use images/0_1.jpg>
+File: images/Knoten_Kreis.jpg Graphic file (type jpg)
+
+<use images/Knoten_Kreis.jpg>
+<images/B2_mit_Rand.jpg, id=589, 245.2362pt x 251.9814pt>
+File: images/B2_mit_Rand.jpg Graphic file (type jpg)
+
+<use images/B2_mit_Rand.jpg> <images/S2.jpg, id=590, 184.5294pt x 184.5294pt>
+File: images/S2.jpg Graphic file (type jpg)
+
+<use images/S2.jpg> <images/Zylinder.jpg, id=591, 119.0046pt x 284.262pt>
+File: images/Zylinder.jpg Graphic file (type jpg)
+
+<use images/Zylinder.jpg>
+<images/I_Verkleben.jpg, id=592, 351.2322pt x 269.3262pt>
+File: images/I_Verkleben.jpg Graphic file (type jpg)
+
+<use images/I_Verkleben.jpg> [39 <./images/0_1_drittel.jpg> <./images/0_1_dritt
+el_2.jpg> <./images/1_nach_1durch3.jpg> <./images/1_nach_1durch3_2.jpg> <./imag
+es/P.jpg> <./images/Q.jpg> <./images/0_1.jpg> <./images/B2_mit_Rand.jpg> <./ima
+ges/S2.jpg>]
+Package marginnote Info: Margin note 41.1 is on absolute page 41
+(marginnote)              on input line 1419.
+Package marginnote Info: right page because not two side mode on input line 141
+9.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1419.
+ <images/Def_Verkleben.jpg, id=600, 306.4248pt x 269.3262pt>
+File: images/Def_Verkleben.jpg Graphic file (type jpg)
+
+<use images/Def_Verkleben.jpg>
+<images/Quadrat_Zylinder.jpg, id=601, 665.8476pt x 373.395pt>
+File: images/Quadrat_Zylinder.jpg Graphic file (type jpg)
+
+<use images/Quadrat_Zylinder.jpg>
+<images/Torus.jpg, id=602, 273.1806pt x 169.1118pt>
+File: images/Torus.jpg Graphic file (type jpg)
+ <use images/Torus.jpg>
+<images/Quadrat.jpg, id=603, 269.808pt x 269.3262pt>
+File: images/Quadrat.jpg Graphic file (type jpg)
+ <use images/Quadrat.jpg>
+File: images/Zylinder.jpg Graphic file (type jpg)
+
+<use images/Zylinder.jpg>
+File: images/Torus.jpg Graphic file (type jpg)
+ <use images/Torus.jpg>
+<images/Quadrat_Torus.jpg, id=604, 306.4248pt x 306.9066pt>
+File: images/Quadrat_Torus.jpg Graphic file (type jpg)
+
+<use images/Quadrat_Torus.jpg> [40 <./images/Zylinder.jpg> <./images/I_Verklebe
+n.jpg> <./images/Def_Verkleben.jpg> <./images/Quadrat_Zylinder.jpg> <./images/T
+orus.jpg> <./images/Quadrat.jpg> <./images/Quadrat_Torus.jpg>]
+<images/Quadrat_Moebiusband.jpg, id=613, 382.5492pt x 269.3262pt>
+File: images/Quadrat_Moebiusband.jpg Graphic file (type jpg)
+
+<use images/Quadrat_Moebiusband.jpg>
+<images/Moebiusband.png, id=614, 323.2878pt x 257.763pt>
+File: images/Moebiusband.png Graphic file (type png)
+
+<use images/Moebiusband.png>
+Underfull \hbox (badness 1629) in paragraph at lines 1435--1439
+[]\T1/lmr/m/n/10.95 , d.h.: Be-trach-te $\OML/lmm/m/it/10.95 I[]=[]$ \T1/lmr/m/
+n/10.95 und ver-kle-be al-so die ge-
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 1435--1439
+\T1/lmr/m/n/10.95 gen-über-lie-gen-den Kan-ten von $\OML/lmm/m/it/10.95 I[]$ \T
+1/lmr/m/n/10.95 in $[]$ Rich-tung $\U/msa/m/n/10.95  $ \T1/lmr/m/n/10.95 Mö-bi-
+us-band
+ []
+
+<images/Quadrat_Kleinsche_Flasche.jpg, id=615, 306.4248pt x 306.9066pt>
+File: images/Quadrat_Kleinsche_Flasche.jpg Graphic file (type jpg)
+
+<use images/Quadrat_Kleinsche_Flasche.jpg>
+<images/Zylinder_nach_Kleinsche_Flasche.jpg, id=616, 530.4618pt x 338.2236pt>
+File: images/Zylinder_nach_Kleinsche_Flasche.jpg Graphic file (type jpg)
+
+<use images/Zylinder_nach_Kleinsche_Flasche.jpg>
+<images/RP2.jpg, id=617, 674.0382pt x 306.4248pt>
+File: images/RP2.jpg Graphic file (type jpg)
+ <use images/RP2.jpg>
+Package marginnote Info: Margin note 42.1 is on absolute page 43
+(marginnote)              on input line 1455.
+Package marginnote Info: right page because not two side mode on input line 145
+5.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1455.
+
+Overfull \hbox (16.73956pt too wide) in paragraph at lines 1455--1455
+\T1/lmr/m/it/10.95 dimensionaler 
+ []
+
+[41 <./images/Quadrat_Moebiusband.jpg> <./images/Moebiusband.png> <./images/Qua
+drat_Kleinsche_Flasche.jpg> <./images/Zylinder_nach_Kleinsche_Flasche.jpg> <./i
+mages/RP2.jpg>] [42]
+Kapitel III.
+<images/Homotopie_in_Y.jpg, id=634, 344.487pt x 340.6326pt>
+File: images/Homotopie_in_Y.jpg Graphic file (type jpg)
+
+<use images/Homotopie_in_Y.jpg>
+<images/Weg_als_Homotopie.jpg, id=635, 385.9218pt x 162.8484pt>
+File: images/Weg_als_Homotopie.jpg Graphic file (type jpg)
+
+<use images/Weg_als_Homotopie.jpg> [43
+
+ <./images/Homotopie_in_Y.jpg> <./images/Weg_als_Homotopie.jpg>]
+Underfull \hbox (badness 2165) in paragraph at lines 1500--1503
+[]\T1/lmr/bx/n/10.95 Bemerkung III.1. []$\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.9
+5 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-
+hen mit der so-ge-nann-ten $[]$
+ []
+
+<images/Homotopie_zwischen_Wegen.jpg, id=642, 209.1012pt x 211.5102pt>
+File: images/Homotopie_zwischen_Wegen.jpg Graphic file (type jpg)
+
+<use images/Homotopie_zwischen_Wegen.jpg>
+<images/Homotopie_zwischen_Wegen2.jpg, id=643, 571.4148pt x 345.4506pt>
+File: images/Homotopie_zwischen_Wegen2.jpg Graphic file (type jpg)
+
+<use images/Homotopie_zwischen_Wegen2.jpg>
+Package marginnote Info: Margin note 45.1 is on absolute page 45
+(marginnote)              on input line 1522.
+Package marginnote Info: right page because not two side mode on input line 152
+2.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1522.
+
+<images/Homotop_Endpunkte.jpg, id=644, 653.8026pt x 297.7524pt>
+File: images/Homotop_Endpunkte.jpg Graphic file (type jpg)
+
+<use images/Homotop_Endpunkte.jpg>
+File: images/Homotop_Schleifen_R_ohne_0.jpg Graphic file (type jpg)
+ <use images/Homotop_Schleifen_R_ohne_0.jpg>
+<images/nicht_homotop_Wege_Torus.jpg, id=645, 372.9132pt x 218.2554pt>
+File: images/nicht_homotop_Wege_Torus.jpg Graphic file (type jpg)
+
+<use images/nicht_homotop_Wege_Torus.jpg> [44 <./images/Homotopie_zwischen_Wege
+n.jpg> <./images/Homotopie_zwischen_Wegen2.jpg> <./images/Homotop_Endpunkte.jpg
+>] <images/Homotopie_Menge_von_Wegen.jpg, id=656, 660.066pt x 379.1766pt>
+File: images/Homotopie_Menge_von_Wegen.jpg Graphic file (type jpg)
+
+<use images/Homotopie_Menge_von_Wegen.jpg>
+<images/Residuensatz.jpg, id=657, 544.9158pt x 340.1508pt>
+File: images/Residuensatz.jpg Graphic file (type jpg)
+
+<use images/Residuensatz.jpg>
+Package marginnote Info: Margin note 46.1 is on absolute page 47
+(marginnote)              on input line 1559.
+Package marginnote Info: right page because not two side mode on input line 155
+9.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1559.
+
+<images/aneinanderfuegbar.jpg, id=658, 448.074pt x 178.7478pt>
+File: images/aneinanderfuegbar.jpg Graphic file (type jpg)
+
+<use images/aneinanderfuegbar.jpg> [45 <./images/nicht_homotop_Wege_Torus.jpg> 
+<./images/Homotopie_Menge_von_Wegen.jpg> <./images/Residuensatz.jpg>]
+<images/Homotopie_Produkt.jpg, id=665, 500.5902pt x 204.765pt>
+File: images/Homotopie_Produkt.jpg Graphic file (type jpg)
+
+<use images/Homotopie_Produkt.jpg>
+Package marginnote Info: Margin note 47.1 is on absolute page 48
+(marginnote)              on input line 1588.
+Package marginnote Info: right page because not two side mode on input line 158
+8.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1588.
+
+Overfull \hbox (2.77237pt too wide) in paragraph at lines 1588--1588
+|\T1/lmr/m/it/10.95 Konstanter 
+ []
+
+<images/inverser_Weg.jpg, id=666, 428.802pt x 185.0112pt>
+File: images/inverser_Weg.jpg Graphic file (type jpg)
+
+<use images/inverser_Weg.jpg>
+<images/Schleifen.jpg, id=667, 281.3712pt x 230.3004pt>
+File: images/Schleifen.jpg Graphic file (type jpg)
+
+<use images/Schleifen.jpg> [46 <./images/aneinanderfuegbar.jpg> <./images/Homot
+opie_Produkt.jpg>]
+Package marginnote Info: Margin note 48.1 is on absolute page 48
+(marginnote)              on input line 1604.
+Package marginnote Info: right page because not two side mode on input line 160
+4.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1604.
+
+Overfull \hbox (12.40195pt too wide) in paragraph at lines 1604--1604
+|\T1/lmr/m/it/10.95 nullhomotop, 
+ []
+
+<images/Produkt_Lemma.jpg, id=674, 387.849pt x 242.3454pt>
+File: images/Produkt_Lemma.jpg Graphic file (type jpg)
+
+<use images/Produkt_Lemma.jpg> [47 <./images/inverser_Weg.jpg> <./images/Schlei
+fen.jpg> <./images/Produkt_Lemma.jpg>]
+<images/Beweis_Produkt_Lemma.jpg, id=687, 370.0224pt x 369.0588pt>
+File: images/Beweis_Produkt_Lemma.jpg Graphic file (type jpg)
+
+<use images/Beweis_Produkt_Lemma.jpg>
+<images/Fundamentalgruppe.jpg, id=688, 262.581pt x 230.3004pt>
+File: images/Fundamentalgruppe.jpg Graphic file (type jpg)
+
+<use images/Fundamentalgruppe.jpg> [48 <./images/Beweis_Produkt_Lemma.jpg>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1662
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1662--1662
+[][][][]$\T1/lmtt/m/n/9 http : / / www . scienceblogs . de / mathlog / 2008 / 0
+3 / physik-[]topologie-[]logik-[]und-[]berechenbarkeit .
+ []
+
+<images/Kobordismus.jpg, id=699, 582.978pt x 283.2984pt>
+File: images/Kobordismus.jpg Graphic file (type jpg)
+
+<use images/Kobordismus.jpg>
+<images/Basispunkt_Unabhaengigkeit.jpg, id=700, 294.3798pt x 431.6928pt>
+File: images/Basispunkt_Unabhaengigkeit.jpg Graphic file (type jpg)
+
+<use images/Basispunkt_Unabhaengigkeit.jpg> [49 <./images/Fundamentalgruppe.jpg
+> <./images/Kobordismus.jpg> <./images/Basispunkt_Unabhaengigkeit.jpg>]
+[50]
+Package marginnote Info: Margin note 52.1 is on absolute page 52
+(marginnote)              on input line 1691.
+Package marginnote Info: right page because not two side mode on input line 169
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1691.
+ <images/S1_mit_1.jpg, id=716, 392.1852pt x 361.35pt>
+File: images/S1_mit_1.jpg Graphic file (type jpg)
+
+<use images/S1_mit_1.jpg>
+<images/Schleife.jpg, id=717, 391.7034pt x 338.2236pt>
+File: images/Schleife.jpg Graphic file (type jpg)
+
+<use images/Schleife.jpg> <images/I_S1.jpg, id=718, 448.074pt x 190.311pt>
+File: images/I_S1.jpg Graphic file (type jpg)
+
+<use images/I_S1.jpg>
+Package marginnote Info: Margin note 52.2 is on absolute page 52
+(marginnote)              on input line 1714.
+Package marginnote Info: right page because not two side mode on input line 171
+4.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1714.
+
+Overfull \hbox (31.7178pt too wide) in paragraph at lines 1714--1714
+|\T1/lmr/m/it/10.95 schleifenhomotop  
+ []
+
+<images/schleifenhomotop.jpg, id=719, 244.7544pt x 247.6452pt>
+File: images/schleifenhomotop.jpg Graphic file (type jpg)
+
+<use images/schleifenhomotop.jpg> [51 <./images/S1_mit_1.jpg> <./images/Schleif
+e.jpg> <./images/I_S1.jpg> <./images/schleifenhomotop.jpg>]
+<images/Produkt_auf_S1.jpg, id=729, 362.3136pt x 361.35pt>
+File: images/Produkt_auf_S1.jpg Graphic file (type jpg)
+
+<use images/Produkt_auf_S1.jpg>
+<images/Fundamentalgruppe_Rn.jpg, id=730, 374.8404pt x 318.4698pt>
+File: images/Fundamentalgruppe_Rn.jpg Graphic file (type jpg)
+
+<use images/Fundamentalgruppe_Rn.jpg>
+<images/konvex_sternfoermig.jpg, id=731, 670.6656pt x 377.2494pt>
+File: images/konvex_sternfoermig.jpg Graphic file (type jpg)
+
+<use images/konvex_sternfoermig.jpg> [52 <./images/Produkt_auf_S1.jpg> <./image
+s/Fundamentalgruppe_Rn.jpg>]
+<images/I_S2_surjektiv.jpg, id=742, 492.3996pt x 224.037pt>
+File: images/I_S2_surjektiv.jpg Graphic file (type jpg)
+
+<use images/I_S2_surjektiv.jpg>
+<images/I_I2_surjektiv.jpg, id=743, 543.9522pt x 256.3176pt>
+File: images/I_I2_surjektiv.jpg Graphic file (type jpg)
+
+<use images/I_I2_surjektiv.jpg>
+<images/Weg_S2_nullhomotop.jpg, id=744, 609.9588pt x 453.8556pt>
+File: images/Weg_S2_nullhomotop.jpg Graphic file (type jpg)
+
+<use images/Weg_S2_nullhomotop.jpg> [53 <./images/konvex_sternfoermig.jpg> <./i
+mages/I_S2_surjektiv.jpg> <./images/I_I2_surjektiv.jpg> <./images/Weg_S2_nullho
+motop.jpg>] <images/Lebesguelemma.jpg, id=752, 650.43pt x 410.4936pt>
+File: images/Lebesguelemma.jpg Graphic file (type jpg)
+
+<use images/Lebesguelemma.jpg>
+<images/glaetten.jpg, id=753, 565.6332pt x 238.491pt>
+File: images/glaetten.jpg Graphic file (type jpg)
+
+<use images/glaetten.jpg>
+<images/Grosskreis.jpg, id=754, 248.127pt x 249.0906pt>
+File: images/Grosskreis.jpg Graphic file (type jpg)
+
+<use images/Grosskreis.jpg>
+<images/Weg_stetige_Abbildung.jpg, id=755, 611.4042pt x 428.802pt>
+File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
+
+<use images/Weg_stetige_Abbildung.jpg>
+Overfull \hbox (34.92819pt too wide) in paragraph at lines 1806--1813
+\T1/lmr/m/n/10.95 men, so lie-fert je-der Weg in $\OML/lmm/m/it/10.95 X$ \T1/lm
+r/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , []
+ []
+
+[54 <./images/Lebesguelemma.jpg> <./images/glaetten.jpg> <./images/Grosskreis.j
+pg>]
+Underfull \hbox (badness 3158) in paragraph at lines 1819--1825
+ \T1/lmr/bx/n/10.95 Fol-ge-rung[] \T1/lmr/m/n/10.95 Ho-möo-mor-phe Räu-me ha-be
+n iso-mor-phe Fun-da-men-tal-grup-pen! $[]$
+ []
+
+<images/f_g_homotop.jpg, id=765, 251.9814pt x 161.403pt>
+File: images/f_g_homotop.jpg Graphic file (type jpg)
+
+<use images/f_g_homotop.jpg> [55 <./images/Weg_stetige_Abbildung.jpg> <./images
+/f_g_homotop.jpg>]
+<images/Produkt_Fundamentalgruppe.jpg, id=774, 278.4804pt x 240.4182pt>
+File: images/Produkt_Fundamentalgruppe.jpg Graphic file (type jpg)
+
+<use images/Produkt_Fundamentalgruppe.jpg>
+<images/Wege_homotop.jpg, id=775, 345.4506pt x 163.3302pt>
+File: images/Wege_homotop.jpg Graphic file (type jpg)
+
+<use images/Wege_homotop.jpg>
+<images/geschlossener_Weg_nullhomotop.jpg, id=776, 273.1806pt x 241.8636pt>
+File: images/geschlossener_Weg_nullhomotop.jpg Graphic file (type jpg)
+
+<use images/geschlossener_Weg_nullhomotop.jpg>
+<images/Schleife_frei_homotop.jpg, id=777, 272.6988pt x 241.8636pt>
+File: images/Schleife_frei_homotop.jpg Graphic file (type jpg)
+
+<use images/Schleife_frei_homotop.jpg>
+<images/Zylinder_nach_D2.jpg, id=778, 673.0746pt x 203.3196pt>
+File: images/Zylinder_nach_D2.jpg Graphic file (type jpg)
+
+<use images/Zylinder_nach_D2.jpg> [56 <./images/Produkt_Fundamentalgruppe.jpg> 
+<./images/Wege_homotop.jpg>]
+<images/Rand_I2_S1.jpg, id=791, 378.213pt x 183.5658pt>
+File: images/Rand_I2_S1.jpg Graphic file (type jpg)
+
+<use images/Rand_I2_S1.jpg> [57 <./images/geschlossener_Weg_nullhomotop.jpg> <.
+/images/Schleife_frei_homotop.jpg> <./images/Zylinder_nach_D2.jpg> <./images/Ra
+nd_I2_S1.jpg>] <images/Kreissegment.jpg, id=797, 335.3328pt x 371.9496pt>
+File: images/Kreissegment.jpg Graphic file (type jpg)
+
+<use images/Kreissegment.jpg>
+Underfull \hbox (badness 2293) in paragraph at lines 1900--1902
+\T1/lmr/m/n/10.95 Entfernt man aus $\OML/lmm/m/it/10.95 S[]$ \T1/lmr/m/n/10.95 
+einen Punkt oder auch ein ab-ge-schlos-se-nes Kreis-seg-ment
+ []
+
+<images/U_Spirale.jpg, id=798, 522.2712pt x 495.7722pt>
+File: images/U_Spirale.jpg Graphic file (type jpg)
+
+<use images/U_Spirale.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 1916--1920
+
+ []
+
+[58 <./images/Kreissegment.jpg> <./images/U_Spirale.jpg>] [59]
+Package marginnote Info: Margin note 61.1 is on absolute page 61
+(marginnote)              on input line 1927.
+Package marginnote Info: right page because not two side mode on input line 192
+7.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1927.
+
+Overfull \hbox (13.03499pt too wide) in paragraph at lines 1927--1927
+|\T1/lmr/m/it/10.95 Überlagerung  
+ []
+
+<images/Spirale_disjunkt.jpg, id=811, 341.5962pt x 487.0998pt>
+File: images/Spirale_disjunkt.jpg Graphic file (type jpg)
+
+<use images/Spirale_disjunkt.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1938
+ \T1/lmr/bx/n/10.95 Ter-mi-no-lo-gie/Sprechweisen[] $\OML/lmm/m/it/10.95 ^^Y []
+ [] [] \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 heiÿt auc
+h $[]$ oder
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1934--1938
+[]$\T1/lmr/m/n/10.95 , $[]$ der $[]$ und $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10
+.95 der $[]$ Raum. Für
+ []
+
+<images/lokal_trivialisierend.jpg, id=813, 896.148pt x 451.4466pt>
+File: images/lokal_trivialisierend.jpg Graphic file (type jpg)
+
+<use images/lokal_trivialisierend.jpg>
+<images/lokal_trivialisierend2.jpg, id=814, 573.8238pt x 487.0998pt>
+File: images/lokal_trivialisierend2.jpg Graphic file (type jpg)
+
+<use images/lokal_trivialisierend2.jpg> [60 <./images/Spirale_disjunkt.jpg> <./
+images/lokal_trivialisierend.jpg>]
+<images/Blaetterzahl.jpg, id=824, 542.025pt x 434.1018pt>
+File: images/Blaetterzahl.jpg Graphic file (type jpg)
+
+<use images/Blaetterzahl.jpg>
+<images/Selbstueberlagerung_C_Stern.jpg, id=825, 632.1216pt x 529.98pt>
+File: images/Selbstueberlagerung_C_Stern.jpg Graphic file (type jpg)
+
+<use images/Selbstueberlagerung_C_Stern.jpg> [61 <./images/lokal_trivialisieren
+d2.jpg> <./images/Blaetterzahl.jpg> <./images/Selbstueberlagerung_C_Stern.jpg>]
+Package marginnote Info: Margin note 63.1 is on absolute page 63
+(marginnote)              on input line 1963.
+Package marginnote Info: right page because not two side mode on input line 196
+3.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 1963.
+
+Overfull \hbox (0.95381pt too wide) in paragraph at lines 1963--1963
+|\T1/lmr/m/it/10.95 Äquivalenz 
+ []
+
+<images/Aequivalenz_Ueberlagerungen.jpg, id=834, 309.3156pt x 255.354pt>
+File: images/Aequivalenz_Ueberlagerungen.jpg Graphic file (type jpg)
+
+<use images/Aequivalenz_Ueberlagerungen.jpg>
+File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
+
+<use images/Weg_stetige_Abbildung.jpg>
+Overfull \hbox (34.92819pt too wide) in paragraph at lines 1978--1985
+\T1/lmr/m/n/10.95 men, so lie-fert je-der Weg in $\OML/lmm/m/it/10.95 X$ \T1/lm
+r/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , []
+ []
+
+[62 <./images/Aequivalenz_Ueberlagerungen.jpg>]
+Underfull \hbox (badness 3158) in paragraph at lines 1991--1997
+ \T1/lmr/bx/n/10.95 Fol-ge-rung[] \T1/lmr/m/n/10.95 Ho-möo-mor-phe Räu-me ha-be
+n iso-mor-phe Fun-da-men-tal-grup-pen! $[]$
+ []
+
+File: images/f_g_homotop.jpg Graphic file (type jpg)
+<use images/f_g_homotop.jpg> [63]
+File: images/Produkt_Fundamentalgruppe.jpg Graphic file (type jpg)
+ <use images/Produkt_Fundamentalgruppe.jpg>
+File: images/Wege_homotop.jpg Graphic file (type jpg)
+
+<use images/Wege_homotop.jpg>
+File: images/geschlossener_Weg_nullhomotop.jpg Graphic file (type jpg)
+ <use images/geschlossener_Weg_nullhomotop.jpg>
+File: images/Schleife_frei_homotop.jpg Graphic file (type jpg)
+
+<use images/Schleife_frei_homotop.jpg>
+File: images/Zylinder_nach_D2.jpg Graphic file (type jpg)
+ <use images/Zylinder_nach_D2.jpg>
+[64]
+File: images/Rand_I2_S1.jpg Graphic file (type jpg)
+ <use images/Rand_I2_S1.jpg> [65]
+Package marginnote Info: Margin note 67.1 is on absolute page 67
+(marginnote)              on input line 2075.
+Package marginnote Info: right page because not two side mode on input line 207
+5.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2075.
+
+<images/Lift_Abbildung.jpg, id=867, 267.399pt x 252.4632pt>
+File: images/Lift_Abbildung.jpg Graphic file (type jpg)
+
+<use images/Lift_Abbildung.jpg>
+<images/Lift_Abbildung_Torus.jpg, id=868, 266.4354pt x 229.8186pt>
+File: images/Lift_Abbildung_Torus.jpg Graphic file (type jpg)
+
+<use images/Lift_Abbildung_Torus.jpg>
+<images/Lift_nicht_stetig.jpg, id=869, 542.025pt x 434.1018pt>
+File: images/Lift_nicht_stetig.jpg Graphic file (type jpg)
+
+<use images/Lift_nicht_stetig.jpg>
+<images/Lift_inverser_Weg.jpg, id=870, 356.532pt x 394.5942pt>
+File: images/Lift_inverser_Weg.jpg Graphic file (type jpg)
+
+<use images/Lift_inverser_Weg.jpg> [66 <./images/Lift_Abbildung.jpg> <./images/
+Lift_Abbildung_Torus.jpg> <./images/Lift_nicht_stetig.jpg>]
+<images/Lift_Homotopie.jpg, id=878, 495.2904pt x 311.2428pt>
+File: images/Lift_Homotopie.jpg Graphic file (type jpg)
+
+<use images/Lift_Homotopie.jpg> [67 <./images/Lift_inverser_Weg.jpg> <./images/
+Lift_Homotopie.jpg>]
+<images/Homotopie_konstanter_Weg.jpg, id=887, 271.7352pt x 266.9172pt>
+File: images/Homotopie_konstanter_Weg.jpg Graphic file (type jpg)
+
+<use images/Homotopie_konstanter_Weg.jpg>
+<images/Homotopie_konstanter_Weg_Lift.jpg, id=888, 292.9344pt x 369.0588pt>
+File: images/Homotopie_konstanter_Weg_Lift.jpg Graphic file (type jpg)
+
+<use images/Homotopie_konstanter_Weg_Lift.jpg>
+Package marginnote Info: Margin note 69.1 is on absolute page 69
+(marginnote)              on input line 2164.
+Package marginnote Info: right page because not two side mode on input line 216
+4.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2164.
+
+Overfull \hbox (36.32782pt too wide) in paragraph at lines 2164--2164
+|\T1/lmr/m/it/10.95 charakterisierende 
+ []
+
+Package marginnote Info: Margin note 69.2 is on absolute page 70
+(marginnote)              on input line 2172.
+Package marginnote Info: right page because not two side mode on input line 217
+2.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2172.
+<images/Lift.jpg, id=889, 271.2534pt x 434.5836pt>
+File: images/Lift.jpg Graphic file (type jpg)
+ <use images/Lift.jpg>
+[68 <./images/Homotopie_konstanter_Weg.jpg> <./images/Homotopie_konstanter_Weg_
+Lift.jpg>] <images/Normalisation.jpg, id=899, 393.1488pt x 452.4102pt>
+File: images/Normalisation.jpg Graphic file (type jpg)
+
+<use images/Normalisation.jpg>
+Overfull \hbox (9.23367pt too wide) in paragraph at lines 2196--2199
+$\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m
+/n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
+^^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 ))$ \T1/l
+mr/m/n/10.95 heiÿt $[]$ $[]$.
+ []
+
+[69 <./images/Lift.jpg> <./images/Normalisation.jpg>] [70]
+Package marginnote Info: Margin note 72.1 is on absolute page 72
+(marginnote)              on input line 2261.
+Package marginnote Info: right page because not two side mode on input line 226
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2261.
+Package marginnote Info: Margin note 72.2 is on absolute page 72
+(marginnote)              on input line 2309.
+Package marginnote Info: right page because not two side mode on input line 230
+9.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2309.
+
+Overfull \hbox (44.17287pt too wide) in paragraph at lines 2309--2309
+|\T1/lmr/m/it/10.95 Decktransformation  
+ []
+
+[71]
+Package marginnote Info: Margin note 73.1 is on absolute page 73
+(marginnote)              on input line 2346.
+Package marginnote Info: right page because not two side mode on input line 234
+6.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2346.
+Package marginnote Info: Margin note 73.2 is on absolute page 73
+(marginnote)              on input line 2366.
+Package marginnote Info: right page because not two side mode on input line 236
+6.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2366.
+ [72] [73]
+Kapitel IV.
+Package marginnote Info: Margin note 75.1 is on absolute page 75
+(marginnote)              on input line 2401.
+Package marginnote Info: right page because not two side mode on input line 240
+1.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2401.
+Package marginnote Info: Margin note 75.2 is on absolute page 75
+(marginnote)              on input line 2407.
+Package marginnote Info: right page because not two side mode on input line 240
+7.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2407.
+
+Overfull \hbox (7.15291pt too wide) in paragraph at lines 2407--2407
+|\T1/lmr/m/it/10.95 orientierbar  
+ []
+
+[74
+
+]
+Package marginnote Info: Margin note 76.1 is on absolute page 76
+(marginnote)              on input line 2455.
+Package marginnote Info: right page because not two side mode on input line 245
+5.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2455.
+
+Overfull \hbox (45.98172pt too wide) in paragraph at lines 2455--2455
+|\T1/lmr/m/it/10.95 Zusammenhängende 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./images/jaenich_hausdorff.pdf): PDF inclusion: 
+found PDF version <1.5>, but at most version <1.4> allowed
+<images/jaenich_hausdorff.pdf, id=960, 322.8311pt x 115.16022pt>
+File: images/jaenich_hausdorff.pdf Graphic file (type pdf)
+
+<use images/jaenich_hausdorff.pdf> [75]
+
+pdfTeX warning: pdflatex (file ./images/b2.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b2.pdf, id=977, 497.23633pt x 551.66098pt>
+File: images/b2.pdf Graphic file (type pdf)
+ <use images/b2.pdf>
+
+pdfTeX warning: pdflatex (file ./images/b3.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b3.pdf, id=978, 477.55914pt x 309.64pt>
+File: images/b3.pdf Graphic file (type pdf)
+ <use images/b3.pdf> [76 <./images/jaenich_hausdorff.pdf
+
+pdfTeX warning: pdflatex (file ./images/jaenich_hausdorff.pdf): PDF inclusion: 
+Page Group detected which pdfTeX can't handle. Ignoring it.
+> <./images/b2.pdf
+
+pdfTeX warning: pdflatex (file ./images/b2.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./images/b4.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b4.pdf, id=1005, 404.00046pt x 283.30844pt>
+File: images/b4.pdf Graphic file (type pdf)
+ <use images/b4.pdf>
+
+pdfTeX warning: pdflatex (file ./images/b5.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b5.pdf, id=1006, 280.86174pt x 80.17303pt>
+File: images/b5.pdf Graphic file (type pdf)
+ <use images/b5.pdf> [77 <./images/b3.pdf
+
+pdfTeX warning: pdflatex (file ./images/b3.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b4.pdf
+
+pdfTeX warning: pdflatex (file ./images/b4.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./images/b6.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b6.pdf, id=1019, 136.33434pt x 89.68506pt>
+File: images/b6.pdf Graphic file (type pdf)
+ <use images/b6.pdf>
+Package marginnote Info: Margin note 79.1 is on absolute page 79
+(marginnote)              on input line 2557.
+Package marginnote Info: right page because not two side mode on input line 255
+7.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2557.
+
+Overfull \hbox (27.0936pt too wide) in paragraph at lines 2557--2557
+|\T1/lmr/m/it/10.95 kombinatorische 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./images/b7.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b7.pdf, id=1020, 255.16014pt x 112.74622pt>
+File: images/b7.pdf Graphic file (type pdf)
+ <use images/b7.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 2564--2567
+
+ []
+
+Package marginnote Info: Margin note 79.2 is on absolute page 79
+(marginnote)              on input line 2575.
+Package marginnote Info: right page because not two side mode on input line 257
+5.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2575.
+
+Overfull \hbox (27.0936pt too wide) in paragraph at lines 2575--2575
+|\T1/lmr/m/it/10.95 kombinatorische 
+ []
+
+
+Overfull \hbox (17.63712pt too wide) in paragraph at lines 2575--2575
+\T1/lmr/m/it/10.95 Charakteristik  
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./images/b8.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<images/b8.pdf, id=1021, 552.56438pt x 169.50829pt>
+File: images/b8.pdf Graphic file (type pdf)
+ <use images/b8.pdf>
+Overfull \hbox (15.26076pt too wide) in paragraph at lines 2585--2586
+ [] 
+ []
+
+[78 <./images/b5.pdf
+
+pdfTeX warning: pdflatex (file ./images/b5.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b6.pdf
+
+pdfTeX warning: pdflatex (file ./images/b6.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+> <./images/b7.pdf
+
+pdfTeX warning: pdflatex (file ./images/b7.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>] [79 <./images/b8.pdf
+
+pdfTeX warning: pdflatex (file ./images/b8.pdf): PDF inclusion: Page Group dete
+cted which pdfTeX can't handle. Ignoring it.
+>] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 13258 strings out of 95516
- 219765 string characters out of 1189554
- 278090 words of memory out of 1281882
- 15868 multiletter control sequences out of 35000
- 5399 words of font info for 18 fonts, out of 500000 for 1000
- 14 hyphenation exceptions out of 607
- 56i,0n,55p,427b,65s stack positions out of 1500i,500n,5000p,200000b,32768s
- 7 PDF objects out of 300000
- 0 named destinations out of 300000
- 17 words of extra memory for PDF output out of 65536
-No pages of output.
+ 10795 strings out of 256216
+ 169449 string characters out of 1917072
+ 234002 words of memory out of 1500000
+ 13116 multiletter control sequences out of 10000+200000
+ 89727 words of font info for 72 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 45i,12n,61p,762b,576s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{
+/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/l
+m/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
+i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share
+/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky
+/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
+Output written on mitschrieb_geotopo.pdf (80 pages, 8345217 bytes).
+PDF statistics:
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 477 named destinations out of 1000 (max. 131072)
+ 984 words of extra memory for PDF output out of 10000 (max. 10000000)
+
