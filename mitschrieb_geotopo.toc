@@ -61,15 +61,17 @@
 \contentsline {paragraph}{TODO: Exkurs: Jede Gruppe ist realisierbar als Fundamentalgruppe eines C-W-Komplexes. Dieser ist kompakt, falls es endlich viele Erzeuger/Zellen gibt. (Man kann R\IeC {\"a}ume aus Zellen "zusammenlegen", so ist z.B. die $S^2$ = Nullzelle + Zweizelle.)}{67}{shadetheorem.3.9}
 \contentsline {subsection}{\numberline {3.1}\IeC {\"U}berlagerungen und Fundamentalgruppe}{68}{subsection.3.3.1}
 \contentsline {paragraph}{Erinnerung}{69}{section*.95}
-\contentsline {paragraph}{Andere Interpretation:}{70}{section*.96}
-\contentsline {paragraph}{Erl\IeC {\"a}uterung}{70}{section*.97}
-\contentsline {paragraph}{FAZIT}{73}{section*.98}
-\contentsline {chapter}{\numberline {IV}Topologie und Geometrie von Fl\IeC {\"a}chen}{74}{chapter.4}
-\contentsline {paragraph}{Einf\IeC {\"u}hrung}{74}{section*.99}
-\contentsline {section}{\numberline {1}Topologie von Fl\IeC {\"a}chen}{74}{section.4.1}
-\contentsline {paragraph}{Visualisierung:}{74}{section*.100}
-\contentsline {paragraph}{Einfacher:}{74}{section*.101}
-\contentsline {paragraph}{Systematisch:}{75}{section*.102}
-\contentsline {paragraph}{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}{75}{section*.103}
-\contentsline {paragraph}{Informationen}{75}{section*.104}
-\contentsline {paragraph}{Beweisskizze (vgl. Massey f\IeC {\"u}r Ausf\IeC {\"u}hrlicheres; "A basic course in Algebraic Topology")}{76}{section*.105}
+\contentsline {paragraph}{Andere Interpretation:}{71}{section*.96}
+\contentsline {paragraph}{Erl\IeC {\"a}uterung}{72}{section*.97}
+\contentsline {paragraph}{FAZIT}{77}{section*.98}
+\contentsline {chapter}{\numberline {IV}Topologie und Geometrie von Fl\IeC {\"a}chen}{78}{chapter.4}
+\contentsline {paragraph}{Einf\IeC {\"u}hrung}{78}{section*.99}
+\contentsline {section}{\numberline {1}Topologie von Fl\IeC {\"a}chen}{79}{section.4.1}
+\contentsline {paragraph}{Visualisierung:}{79}{section*.100}
+\contentsline {paragraph}{Einfacher:}{80}{section*.101}
+\contentsline {paragraph}{Systematisch:}{80}{section*.102}
+\contentsline {paragraph}{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}{82}{section*.103}
+\contentsline {paragraph}{Informationen}{84}{section*.104}
+\contentsline {paragraph}{Beweisskizze (vgl. Massey f\IeC {\"u}r Ausf\IeC {\"u}hrlicheres; "A basic course in Algebraic Topology")}{84}{section*.105}
+\contentsline {section}{\numberline {2}Die Geometrie von Fl\IeC {\"a}chen}{87}{section.4.2}
+\contentsline {paragraph}{Erinnerung:}{87}{section*.106}

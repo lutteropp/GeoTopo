@@ -2195,17 +2195,22 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 \paragraph{Erinnerung} $\pi \colon \widetilde{X} \rightarrow X, \widetilde{x} \in \widetilde{X}, x = \pi(\widetilde{x})$
 $$\Rightarrow \pi_* \colon \pi_1(\widetilde{X},\widetilde{x}) \rightarrow \pi_1(X,x) \text{ ist Monomorphismus!}$$
 $U(\pi, \widetilde{x}) := \pi_*(\pi_1(\widetilde{X},\widetilde{x}))$ heißt \underline{charakterisierende} \underline{Untergruppe der Überlagerung $\pi \colon \widetilde{X} \rightarrow X$}.
-(TODO Bild 1)
+\begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild1.jpg}
+	 \end{center}
 
 \begin{remark}
 	Für $U(\pi, \widetilde{x})$ gilt:
 	\newline
-	Sind $\widetilde{x}, \widetilde{x^\prime} \in \widetilde{X}$ Punkte über $x = \pi(\widetilde{x}) = \pi(\widetilde{x^\prime}) \in X,$ und ist $H:=\pi_*(\pi_1(\widetilde{X},\widetilde{x})), H^\prime:= \pi_*(\pi_1(\widetilde{X},\widetilde{x^\prime}))$ sowie $\widetilde{w}$ Weg in $\widetilde{X}$ von $\widetilde{x}$ nach $\widetilde{x^\prime}$ und $w = \pi \circ \widetilde{w}$, so gilt $\boxed{H^\prime = [w]^{-1} H [w]}$ und für jedes $\alpha \in \pi_1(X,x)$ existiert auch immer ein $\widetilde{x^\prime} \in \widetilde{X}$ über $x$, so dass $H^\prime = \alpha H \alpha^{-1}$ ist, d.h. $\pi \colon \widetilde{X} \rightarrow X$ entspricht einer Klasse von zueinander konjugierten Untergruppen von $\pi_1(X,x)$. (TODO: Bild 2)
-	\newline
+	Sind $\widetilde{x}, \widetilde{x^\prime} \in \widetilde{X}$ Punkte über $x = \pi(\widetilde{x}) = \pi(\widetilde{x^\prime}) \in X,$ und ist $H:=\pi_*(\pi_1(\widetilde{X},\widetilde{x})), H^\prime:= \pi_*(\pi_1(\widetilde{X},\widetilde{x^\prime}))$ sowie $\widetilde{w}$ Weg in $\widetilde{X}$ von $\widetilde{x}$ nach $\widetilde{x^\prime}$ und $w = \pi \circ \widetilde{w}$, so gilt $\boxed{H^\prime = [w]^{-1} H [w]}$ und für jedes $\alpha \in \pi_1(X,x)$ existiert auch immer ein $\widetilde{x^\prime} \in \widetilde{X}$ über $x$, so dass $H^\prime = \alpha H \alpha^{-1}$ ist, d.h. $\pi \colon \widetilde{X} \rightarrow X$ entspricht einer Klasse von zueinander konjugierten Untergruppen von $\pi_1(X,x)$. \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild2.jpg}
+	 \end{center}
 	Diese\footnote{Klasse von Untergruppen} hängt auch nicht von der Wahl des Punktes $x \in X$ ab, da für $x, x^\prime \in X$ ja auch $\pi_1(X,x)$ und $\pi_1(X,x^\prime)$ konjugiert sind.
 \end{remark}	
 \hrule
-	$w$ sei Weg in $X$ mit Anfangspunkt $x$ und $\widetilde{w}$ sei Lift von $w$ zu $\widetilde{z} \in \pi^{-1}(x) \subset \widetilde{X}$. $\widetilde{w}(1)$ hängt (TODO: Bild 3) nur von $[w]$ ab und es gilt
+	$w$ sei Weg in $X$ mit Anfangspunkt $x$ und $\widetilde{w}$ sei Lift von $w$ zu $\widetilde{z} \in \pi^{-1}(x) \subset \widetilde{X}$. $\widetilde{w}(1)$ hängt \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild3.jpg}
+	 \end{center} nur von $[w]$ ab und es gilt
 
 \begin{theorem}
 	Es seien $\widetilde{w_1}$ und $\widetilde{w_2}$ wege in $\widetilde{X}$ mit $\widetilde{w_1}(0) = \widetilde{x} = \widetilde{w_2}(0)$ sowie $w_1 = \pi \circ \widetilde{w_1}, w_2 = \pi \circ \widetilde{w_2}$. Dann gilt
@@ -2215,7 +2220,9 @@ $U(\pi, \widetilde{x}) := \pi_*(\pi_1(\widetilde{X},\widetilde{x}))$ heißt \und
 \begin{proof}
 	\underline{Denn:} $\widetilde{w_1}(1) = \widetilde{w_2}(1) \Rightarrow \exists \widetilde{w_1} \cdot \widetilde{w_2}^{-1}$, und dies ist geschlossener Weg $\Rightarrow w_1(1) = w_2(1), [w_1 \cdot w_2^{-1}] \in H$.
 	\newline
-	Sei umgekehrt $w_1(1)=w_2(1)$, also damit $w_1 w_2^{-1}$ definiert, und $[w_1 \cdot w_2^{-1}] \in H$. Über (TODO: Bild 4) $w_2^{-1}$ liegt ein Weg $\widetilde{v}$ mit $\widetilde{v}(0) = \widetilde{w_1}(1),$ und $\widetilde{w_1} \cdot \widetilde{v}$ liegt über $w_1 \cdot w_2^{-1}$.
+	Sei umgekehrt $w_1(1)=w_2(1)$, also damit $w_1 w_2^{-1}$ definiert, und $[w_1 \cdot w_2^{-1}] \in H$. Über \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild4.jpg}
+	 \end{center} $w_2^{-1}$ liegt ein Weg $\widetilde{v}$ mit $\widetilde{v}(0) = \widetilde{w_1}(1),$ und $\widetilde{w_1} \cdot \widetilde{v}$ liegt über $w_1 \cdot w_2^{-1}$.
 	\newline
 	Ferner existiert nach Voraussetzung in $\widetilde{X}$ ein geschlossener Weg $\widetilde{u}$ mit $\widetilde{u}(0) = \widetilde{x}$ sowie $\pi_*([u]) = [w_1 \cdot w_2^{-1}]$. Eindeutigkeit von Lifts/Homotopien $\Rightarrow \widetilde{u} \simeq \widetilde{w_1} \cdot \widetilde{v} \Rightarrow \widetilde{w_1} \cdot v$ ist geschlossen $\Rightarrow \widetilde{v}(1) = \widetilde{x}$.
 	\newline
@@ -2252,13 +2259,17 @@ Dies gilt, weil $\widetilde{X}$ wegzusammenhängend ist und also \underline{jede
 \begin{theorem}[Liften von Abbildungen in Überlagerungen]
 	Es sei $\pi \colon \widetilde{X} \rightarrow X$ eine Überlagerung, $\widetilde{x} \in \widetilde{X}$ und $x = \pi(\widetilde{x}) \in X$. Ferner sei $Z$ ein wegzusammenhängender und lokal wegzusammenhängender topologischer Raum mit $z \in Z$ sowie $f \colon Z \rightarrow X$ mit $f(z)=x$ stetig. Dann sind äquivalent:
 	\begin{enumerate}
-		\item $f$ besitzt einen Lift $\widetilde{f} \colon (Z,z) \rightarrow (\widetilde{X}, \widetilde{x})$ (TODO: Bild 5) (mit $\widetilde{f}(z) = \widetilde{x}$)
+		\item $f$ besitzt einen Lift $\widetilde{f} \colon (Z,z) \rightarrow (\widetilde{X}, \widetilde{x})$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild5.jpg}
+	 \end{center} (mit $\widetilde{f}(z) = \widetilde{x}$)
 		\item $f_*(\pi_1(Z,z)) \subset \pi_*(\pi_1(\widetilde{X}, \widetilde{x}))$
 	\end{enumerate}
 \end{theorem}
 
 \begin{definition}{lokal wegzusammenhängend}
-	$Z$ \underline{lokal wegzusammenhängend} $:\Leftrightarrow$ in jeder Umgebung jedes Punktes in $Z$ ist immer eine wegzusammenhängende Umgebung enthalten. (TODO: Bild 6)
+	$Z$ \underline{lokal wegzusammenhängend} $:\Leftrightarrow$ in jeder Umgebung jedes Punktes in $Z$ ist immer eine wegzusammenhängende Umgebung enthalten. \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_20_Bild6.jpg}
+	 \end{center}
 \end{definition}
 
 %hier beginnt der 22.12.11
@@ -2276,12 +2287,14 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 	\newline
 	$\Rightarrow f_*(\pi_1(Z,z)) < \pi_*(\pi_1(\widetilde{X},\widetilde{x}))$.
 	\newline
-	"$\Leftarrow$" (TODO: Bild 1) Ansatz für $\widetilde{f}$:
+	"$\Leftarrow$" \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild1.png}
+	 \end{center} Ansatz für $\widetilde{f}$:
 	\newline
-	$\forall$ Punkte $z^\prime \in Z \exists \text{ Weg } \alpha \text{ von } z \text{ nach } z^\prime$ (TODO: Bild 2)
-	\newline
-	$\beta := f \circ \alpha$ ist dann Weg von $x$ nach $x^\prime = f(z^\prime)$ (TODO: Bild 3)
-	\newline
+	$\forall$ Punkte $z^\prime \in Z \exists \text{ Weg } \alpha \text{ von } z \text{ nach } z^\prime$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild2.png}
+	 \end{center}
+	$\beta := f \circ \alpha$ ist dann Weg von $x$ nach $x^\prime = f(z^\prime)$ \newline
 	Setze $\widetilde{f}(z^\prime) := \widetilde{\beta}(1)$
 	\begin{itemize}
 	\item $\widetilde{f}$ ist wohldefiniert: Ist $\alpha^\prime$ anderer Weg von $z$ nach $z^\prime$ in $Z$, so ist $\beta^\prime = f \circ \alpha^\prime$ Weg von $x$ zu $x^\prime$ in $X$.
@@ -2289,7 +2302,9 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 	$\gamma := \beta^\prime \cdot \beta^{-1}$ ist Schleife in $x$, also $[\gamma] \in \pi_1(X,x)$ und wegen $\gamma = f \circ (\alpha^\prime \cdot \alpha^{-1})$ gilt auch $[\gamma] \in f_* \pi_1(Z,z) < \pi_*(\pi_1(\widetilde{X},\widetilde{x}))$
 	\newline
 	$\Rightarrow \widetilde{\gamma}$ ist Schleife in $(\widetilde{X}, \widetilde{x}) \Rightarrow \widetilde{\beta}(1) = \widetilde{\beta^\prime}(1)$
-	\item $f$ ist stetig: Benutze, dass jede noch so kleine Umgebung eines Punktes $z^\prime \in Z$ eine wegzusammenhängende Umgebung enthält, $\pi$ lokaler Homöomorphismus ist und Liftungen eindeutig. (TODO:Bild 3)
+	\item $f$ ist stetig: Benutze, dass jede noch so kleine Umgebung eines Punktes $z^\prime \in Z$ eine wegzusammenhängende Umgebung enthält, $\pi$ lokaler Homöomorphismus ist und Liftungen eindeutig. \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild3.png}
+	 \end{center}
 	\end{itemize}
 \end{proof}
 
@@ -2306,7 +2321,9 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 \end{example}
 
 \begin{definition}{Decktransformation}
-	Eine \underline{Decktransformation}/\underline{Deckbewegung} einer Überlagerung $\pi \colon \widetilde{X} \rightarrow X$ ist ein Homöomorphismus $f \colon \widetilde{X} \rightarrow \widetilde{X}$ mit $\boxed{\pi = \pi \circ f}$ (TODO: Bild 4)
+	Eine \underline{Decktransformation}/\underline{Deckbewegung} einer Überlagerung $\pi \colon \widetilde{X} \rightarrow X$ ist ein Homöomorphismus $f \colon \widetilde{X} \rightarrow \widetilde{X}$ mit $\boxed{\pi = \pi \circ f}$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild4.png}
+	 \end{center}
 \end{definition}
 
 \begin{remark}
@@ -2314,20 +2331,24 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 \end{remark}
 
 \begin{remark}
-	Deckkonfigurationen sind also Spezialfälle von Äquivalenzen zwischen Überlagerungen (TODO: Bild 5), und als Anwendung des Liftungssatzes gilt auch:
+	Deckkonfigurationen sind also Spezialfälle von Äquivalenzen zwischen Überlagerungen \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild5.png}
+	 \end{center}, und als Anwendung des Liftungssatzes gilt auch:
 	\newline
 	Ist $X$ wegzusammenhängend und lokal wegzusammenhängend, so sind $\pi \circ \widetilde{X} \rightarrow X$ und $\pi^\prime \colon \widetilde{X^\prime} \rightarrow X$ äquivalent genau dann, wenn sie zur gleichen Klasse konjugierter Untergruppen von $\pi_1(X,x)$ gehören.
 	\newline
-	$\pi \colon \widetilde{X} \rightarrow X$ sei Überlagerung von wegzusammenhängenden und lokal wegzusammenhängenden Räumen und $\widetilde{x}, \widetilde{x^\prime} \in \pi^{-1}(x), x \in X$ (TODO: Bild 6)
-	\newline
+	$\pi \colon \widetilde{X} \rightarrow X$ sei Überlagerung von wegzusammenhängenden und lokal wegzusammenhängenden Räumen und $\widetilde{x}, \widetilde{x^\prime} \in \pi^{-1}(x), x \in X$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild6.png}
+	 \end{center}
 	$\exists$ Deckbewegung $g \colon \widetilde{X} \rightarrow \widetilde{X}$ mit $d(\widetilde{x}) = \widetilde{x^\prime}$, wenn 
 	$$(1) \boxed{\pi_*(\pi_1(\widetilde{X}, \widetilde{x})) = \pi_*(\pi_1(\widetilde{X}, \widetilde{x^\prime})) = H}$$
 	und wegen des Liftungssatzes ist dies andererseits auch notwendig.
 	\newline
 	$d$ ist dann durch $(2) \boxed{d(\widetilde{x})= \widetilde{x^\prime}}$ eindeutig bestimmt.
 	\newline
-	Halte nun $\widetilde{x} \in \widetilde{X}$ fest und lasse $[u]$ die Elemente von $\pi_1(X,x)$ durchlaufen, wobei $\widetilde{u}$ der über $u$ liegende Weg mit Anfangspunkt $\widetilde{x}$ sei.  (TODO: Bild 7)
-	\newline
+	Halte nun $\widetilde{x} \in \widetilde{X}$ fest und lasse $[u]$ die Elemente von $\pi_1(X,x)$ durchlaufen, wobei $\widetilde{u}$ der über $u$ liegende Weg mit Anfangspunkt $\widetilde{x}$ sei.  \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild7.png}
+	 \end{center}
 	Dies liefert (s.o.) eine Bijektion der Rechtsnebenklassen $\{H[u]\}$ von $\pi_1(X,x_0)$ nach $H$ und der Faser $\pi^{-1}(x)$ vermöge $(3) \boxed{H[u] \rightarrow \widetilde{u}(1)}$ \newline
 	Ferner ist für $\widetilde{x^\prime} = \widetilde{u}(1)$ (1) erfüllt $\Leftrightarrow \underbrace{[u]^{-1}H[u]=H}_{(4)}$ und die Elemente $[u] \in \pi_1(X,x)$ mit (4) bilden eine Untergruppe $N(H) < \pi_1(X,x)$, den sogenannten \underline{Normalisator} \underline{von $H$} \underline{in $\pi_1(X,x)$}. Mit $d(\widetilde{x}) = \widetilde{x^\prime}$ und $H[u] \mapsto \widetilde{u}(1) \exists$ damit eine Bijektion zwischen den Elementen der Faktorgruppe $N(H)/_H$ und den Elementen der Deckbewegungsgruppe, und diese ist \underline{Isomorphismus}.
 \end{remark}
@@ -2349,8 +2370,9 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 \begin{example}
 	$\pi \colon \R \rightarrow S^1, t \mapsto e^{2 \pi i t}$.
 	\newline
-	$\pi_1(\R) = 0 \Rightarrow \pi$ gehört zur trivialen Untergruppe von $\pi_1(S^1)$ und ist regulär. $D(\R,\pi) \cong \Z$ (TODO: Bild 8)
-	\newline
+	$\pi_1(\R) = 0 \Rightarrow \pi$ gehört zur trivialen Untergruppe von $\pi_1(S^1)$ und ist regulär. $D(\R,\pi) \cong \Z$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild8.png}
+	 \end{center}
 	(ganzzahlige Translationen) $\Rightarrow$
 	\newline
 	$\Z \cong N(H)/_H \cong \pi_1(S^1)/_{\underbrace{H}_{\text{trivial}}} \cong \pi_1(S^1) !$
@@ -2369,7 +2391,9 @@ $f$ besitzt Lift $\widetilde{f} \colon Z \rightarrow \widetilde{X}$ mit $\wideti
 \end{definition}
 
 \begin{example}[Der Hawaiianische Ohrring]
-	(TODO: Bild 9)
+	\begin{center}
+	 	\includegraphics[scale=0.5]{images/2011_12_22_Bild9.png}
+	 \end{center}
 	Der \underline{Hawaiianische Ohrring} ist lokal wegzusammenhängend, wegzusammenhängend, aber nicht semilokal einfach zusammenhängend.
 \end{example}
 
@@ -2387,9 +2411,12 @@ $\exists \text{ Überlagerung } \pi \colon \widetilde{X} \rightarrow X \text{ mi
 \chapter{Topologie und Geometrie von Flächen}
 
 \paragraph{Einführung}
-(TODO: Bild 1: Doppeltorus)
-(TODO: Bild 2: 2-Sphäre homöomorph zu Tetraeder und zu Würfel)
-\newline
+\begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild01.png}
+	 \end{center}
+\begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild02.png}
+	 \end{center}
 \underline{Euler- Charakteristik}: \# Ecken - \# Kanten + \# Flächen =: $\chi$
 \newline
 \textbf{Satz von Gauß-Bonnet:}
@@ -2408,22 +2435,35 @@ $\boxed{\int\limits_M {K \quad d M} = 2 \pi \cdot \chi(M)}$\footnote{Linke Seite
 \end{definition}
 
 \begin{example}
-	$S^2, T^2$, (TODO: Bild 3 (Doppeltorus)) (TODO: Bild 4 ("Mehrfachtorus")) sind orientierbare geschlossene Flächen.
+	$S^2, T^2$, \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild03.png}
+	 \end{center} \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild04.png}
+	 \end{center} sind orientierbare geschlossene Flächen.
 \end{example}
 
 \begin{example}
 	$\R \Prim^2$ (die reelle projektive Ebene) ist nicht orientierbar.
 	$$\R \Prim^2 = \{\text{Geraden durch } 0 \in \R^3\} = S^2/_\sim \text{ mit } x \sim x^\prime \Leftrightarrow x = x^\prime \text{ oder } x = -x^\prime$$
-	(TODO: Bild 5)
+	\begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild05.png}
+	 \end{center}
 	
 	\paragraph{Visualisierung:} Zerschneide $S^2$ in zwei Hemisphären längs des Äquators und entferne die obere; um $\R \Prim^2$ zu erhalten, braucht man dann noch noch entgegengesetzte Punkte des "Äquators" zu identifizieren:
-	(TODO: Bild 6)
+	\begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild06.png}
+	 \end{center}
 	
 	\paragraph{Einfacher:}
-	$\R \Prim^2 = $ (TODO: Bild 7) = (TODO: Bild 8)
+	$\R \Prim^2 = $ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild07.png}
+	 \end{center} = \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild08.png}
+	 \end{center}
 	Durch geeignete Modifikation der Kanten eines Quadrates erhält man $S^2, T^2$ (gecshlossen und orientierbar), $\R \Prim^2, K^2$ (Kleinsche Flasche) (geschlossen und \underline{nicht} orientierbar), sowie Möbiusband und Zylinder
-	\newline
-	(TODO: Bild 9)
+	\begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild09.png}
+	 \end{center}
 \end{example}
 \footnote{Zylinder, Möbiusband: Nicht kompakt; Kleinsche Flasche, reell projektive Ebene: kompakt}
 
@@ -2434,7 +2474,11 @@ Um Flächen zu gewinnen, kann man nicht nur Quadrate, sondern jedes ebene Polygo
 \end{remark}
 
 \begin{example}
-	$S^2 = $ (TODO: Bild 10) $\leadsto$ (TODO: Bild 11) $\leadsto a a^{-1} b b^{-1}$ 
+	$S^2 = $ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild10.png}
+	 \end{center} $\leadsto$ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild11.png}
+	 \end{center} $\leadsto a a^{-1} b b^{-1}$ 
 \end{example}
 
 \begin{example}
@@ -2446,14 +2490,23 @@ Um Flächen zu gewinnen, kann man nicht nur Quadrate, sondern jedes ebene Polygo
 \end{remark}
 
 \begin{example}
-	$S^2 = $ (TODO: Bild 12) = $a a^{-1}$, $\R \Prim^2 = $ (TODO: Bild 13) $= aa$
+	$S^2 = $ \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild12.png}
+	 \end{center} = $a a^{-1}$, $\R \Prim^2 = $ 	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild13.png}
+	 \end{center} $= aa$
 \end{example}
 
 Weitere wichtige Möglichkeit, neue Flächen zu gewinnen:
 
 \begin{definition}{Zusammenhängende Summe}
-	Es seien $F$ und $F^\prime$ geschlossene Flächen. Schneidet man aus jeder Fläche eine abgeschlossene Scheibe (TODO: Bild 14) heraus und identifiziert diese durch einen Homöomorphismus (TODO: Bild 15) der Ränder, so heißt der durch diese Identifikation entstehende Raum die \underline{zusammenhängende Summe} $F \# F^\prime$ von $F$ und $F^\prime$. \newline
-	(TODO: Bild 16) 
+	Es seien $F$ und $F^\prime$ geschlossene Flächen. Schneidet man aus jeder Fläche eine abgeschlossene Scheibe 	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild14.png}
+	 \end{center} heraus und identifiziert diese durch einen Homöomorphismus 	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild15.png}
+	 \end{center} der Ränder, so heißt der durch diese Identifikation entstehende Raum die \underline{zusammenhängende Summe} $F \# F^\prime$ von $F$ und $F^\prime$. 	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild16.png}
+	 \end{center}
 \end{definition}
 
 \paragraph{TODO: kleiner Exkurs: Gruppentheorie mit Mannigfaltigkeiten, $S^2$ als "neutrales Element", Kobordismusring}
@@ -2463,10 +2516,14 @@ Weitere wichtige Möglichkeit, neue Flächen zu gewinnen:
 	\newline
 	$\cong 3 \R \Prim^2 = \R \Prim^2 \# \R \Prim^2 \# \R \Prim^2$
 \end{example}
-(TODO: Bild 17) (Fundamentalgruppe eines 2-Torus ist nicht mehr abelsch $\leadsto$ viel, viel größer)
+	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild17.png}
+	 \end{center} (Fundamentalgruppe eines 2-Torus ist nicht mehr abelsch $\leadsto$ viel, viel größer)
 
 \begin{example}
-	(TODO: Bild 18) \newline
+	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild18.png}
+	 \end{center}
 	 (Entferne eine Scheibe, die durch eine Ecke geht und keine Kante berührt)
 	 \newline
 	 ; mache dies ebenso für den zweiten Torus.
@@ -2474,9 +2531,9 @@ Weitere wichtige Möglichkeit, neue Flächen zu gewinnen:
 	 (öffne die Scheibe)
 	 \newline
 	 Und klebe dann die beiden Kopien zusammen:
-	 \newline
-	 (TODO: Bild 19)
-	 \newline
+	 \begin{center}
+	 	\includegraphics[scale=0.5]{images/2012_01_10_Bild19.png}
+	 \end{center}
 	 Dies liefert ein Oktogon, und die Identifikation der Seiten ist dann gegeben durch
 	 $$aba^{-1}b^{-1} cdc^{-1}d^{-1}$$
 \end{example}
@@ -2589,5 +2646,33 @@ Klassifikation geschlossener Flächen erfolgt z.B. über Polygonmodelle und lief
 \begin{theorem}
 	Eine geschlossene Fläche ist durch ihre Eulercharakteristik und Orientierbarkeitstyp eindeutig bestimmt.
 \end{theorem}
+
+%17.01.2012
+
+\section{Die Geometrie von Flächen}
+\paragraph{Erinnerung:} Ein \underline{Fläche \underline{in $\R^3$}} ist eine glatte 2-dimensionale Untermannigfaltigkeit von $\R^3$.
+
+\begin{remark}
+	Nach unserer allgemeinen Charakterisierung von Untermannigfaltigkeiten bedeutet dies insbesondere: \newline
+	$F \subset \R^3$ ist Fläche im $\R^3$ genau dann, wenn zu jedem Punkt von $F$ eine Umgebung $U \subset F$ und eine Abbildung $r \colon V \rightarrow \R^3$ von einer offenen Teilmenge $V \subset \R^2$ existiert, sodass gilt: 
+	\begin{itemize}
+		\item $r \colon V \rightarrow U$ ist Homöomorphismus
+		\item $r(u,v) = (x(u,v), y(u,v), z(u,v))$ ist glatt,
+		\item $r_u := \frac{\partial r}{\partial u} = (\frac{\partial x}{\partial u}, \frac{\partial y}{\partial u}, \frac{\partial z}{\partial u}) =: r_* \frac{\partial}{\partial u}$ und $r_v := \frac{\partial r}{\partial v} = (\frac{\partial x}{\partial v}, \frac{\partial y}{\partial v}, \frac{\partial z}{\partial v}) =: r_* \frac{\partial}{\partial v}$
+	\end{itemize}
+	\begin{center}
+		\includegraphics[scale=0.5]{images/2012_01_17_Bild1.png}
+		\includegraphics[scale=0.5]{images/2012_01_17_Bild02.png}
+	\end{center}
+	sind in jedem Punkt linear unabhängig.
+\end{remark}
+
+\begin{example}
+	\begin{enumerate}
+		\item $r(u,v) = (a+b \cdot \cos u)(\cos v \cdot e_1 ü \sin v e_2) + b \sin u e_3$ (Torus) ($a,b > 0$)
+		\item $r(u,v) = a \cdot \sin u \sin v e_1 + a \cos u \sin v e_2 + a \cos v e_3$ (Sphäre)
+		\item $r(u,v) = a u \cos v e_1 + a u \sin v e_2 + v e_3$ (Helikoid)
+	\end{enumerate}
+\end{example}
 
 \end{document}
