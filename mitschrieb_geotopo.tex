@@ -75,6 +75,8 @@
 \newcommand{\Prim}{{\ensuremath{\mathbb{P}}}}
 % ============================================================================
 
+\newcommand{\RM}[1]{\MakeUppercase{\romannumeral #1{}}} 
+
 % == Makros für Autorenname und -adresse =====================================
 \newcommand{\myaddress}[6]{%
   \parbox{\textwidth}{\textbf{\large #1}\\
@@ -2673,6 +2675,130 @@ Klassifikation geschlossener Flächen erfolgt z.B. über Polygonmodelle und lief
 		\item $r(u,v) = a \cdot \sin u \sin v e_1 + a \cos u \sin v e_2 + a \cos v e_3$ (Sphäre)
 		\item $r(u,v) = a u \cos v e_1 + a u \sin v e_2 + v e_3$ (Helikoid)
 	\end{enumerate}
+\end{example}
+
+%hier beginnt der 19.01.2012
+
+\paragraph{}
+
+\begin{center}
+	\includegraphics[scale=0.8]{images/2012_01_19_Bild1.pdf}
+\end{center}
+
+Ein \underline{Kartenwechsel} entspricht nun einer \underline{Umparametrisierung} $$r \circ f \colon V^\prime \rightarrow \R^3, f \colon V^\prime \rightarrow V \subset \R^2 \text{ Diffeomorphismus}$$
+Gilt $f(x,y) = (u(x,y), v(x,y))$, so ist
+$$(r \circ f)_x = r_u u_x + r_v u_x$$
+$$(r \circ f)_y = r_u u_y + r_v v_y$$ \footnote{Ableitungen nach u/v/x/y...}
+
+\begin{definition}{Tangentialraum}
+	Der \underline{Tangentialraum} $T_aF$ einer Fläche $F$ in einem Punkt $a \in F$ wird aufgespannt von $r_u(a)$ und $r_v(a)$
+\end{definition}
+
+\begin{center}
+	\includegraphics[scale=0.5]{images/2012_01_19_Bild2.pdf}
+\end{center}
+
+\begin{remark}
+$T_a$ ist \underline{unabhängig} von der gewählten Parametrisierung!
+\end{remark}
+
+\begin{definition}{Einheitsnormalvektoren}
+	Die Vektoren $\overset{+}{-} \frac{r_u \times r_v}{|r_u \times r_v|}$ heißen auch \underline{Einheitsnormalvektoren} von $F$ in $a$.
+\end{definition}
+
+\begin{remark}
+	Diese stehen senkrecht auf $T_aF.$
+\end{remark}
+
+\begin{center}
+	\includegraphics[scale=0.8]{images/2012_01_19_Bild3.pdf}
+\end{center}
+
+\begin{center}
+	\includegraphics[scale=0.5]{images/2012_01_19_Bild4.pdf}
+\end{center}
+
+\begin{definition}{Kurve}
+	Eine (glatte) Kurve in $F$ ist eine glatte Abbildung $\gamma \colon \R \supset I \rightarrow F$ mit nirgendwo verschwindendem Differential.
+\begin{center}
+	\includegraphics[scale=0.5]{images/2012_01_19_Bild5.pdf}
+\end{center}
+
+\end{definition}
+
+\begin{remark}
+	Ist $r$ eine Parametrisierung von $F$, so ist eine glatte Kurve in $F$ \underline{bezgl. $r$} gegeben durch eine glatte Abbildung $t \mapsto (u(t),v(t))$, so dass $\gamma(t):= r (u(t),v(t)) \subset F$ eine parametrisierte Kurve in $\R^3$ ist, d.h. $u(t)$ und $v(t)$ sind glatt und $\gamma^\prime = r_u u^\prime + r_v v^\prime \neq 0$
+	$$\Leftrightarrow (u^\prime, v^\prime) \neq 0$$ (denn $r_u, r_v$ sind ja linear unabhängig.)
+\end{remark}
+
+\begin{example}
+	\begin{center}
+	\includegraphics[scale=0.5]{images/2012_01_19_Bild6.pdf}
+	\end{center}
+	$F = S^2 \subset \R^3$
+	\textcolor{red}{Abstand \underline{\underline{auf $S^2$}}}
+	\textcolor{blue}{Abstand \underline{\underline{in $\R^3$}}}
+\end{example}
+
+\begin{example}
+	\begin{center}
+	\includegraphics[scale=0.5]{images/2012_01_19_Bild7.pdf}
+	\end{center}
+	Krümmung:
+	\begin{itemize}
+		\item	\textcolor{red}{$<0$}
+		\item 	\textcolor{green}{$>0$}
+		\item 	=0 
+	\end{itemize}
+\end{example}
+
+\begin{definition}{Bogenlänge}
+	Die \underline{Bogenlänge} (oder \underline{Länge}) einer glatten Kurve in $F$ von $\gamma(a)$ zu $\gamma(b)$ ($t=a,b$) ist $$\int\limits_{a}^b{|\gamma^\prime(t)| dt} = \int\limits_a^b{\sqrt{\gamma^\prime \underbrace{\cdot}_{\text{Eukl. SKP im }\R^3} \gamma^\prime}dt}$$ 
+	$$= \int\limits_a^b{\sqrt{(r_uu^\prime + r_v v^\prime) \cdot (r_u u^\prime + r_v v^\prime)}dt}$$
+	$$\int\limits_a^b{\sqrt{E {u^\prime}^2 + 2 F u^\prime v^\prime + G {v^\prime}^2} dt}$$
+	mit $E := r_u \cdot r_u, F = r_u \cdot r_v, G = r_v \cdot r_v$
+\end{definition}
+
+\begin{definition}{erste Fundamentalform}
+	Die \underline{erste Fundamentalform} einer Fläche im $\R^3$ ist der \underline{\underline{Ausdruck}}
+	$$\RM{1} := E du^2 + 2 F du dv + G dv^2$$
+	($= E du \otimes du + F du \otimes dv + G dv \otimes dv$)
+\end{definition}
+
+\begin{remark}
+	$\RM{1}$ ist nichts anderes als die quadratische Form $Q(v,v):= v \cdot v$ \footnote{euklidisches Skalarprodukt} eingeschränkt auf den Tangentialraum von $F$, der von $r_u, r_v$ aufgespannt wird.
+\end{remark}
+
+\begin{example}
+	Die Bogenlänge einer Kurve $\gamma(t) = (u(t), v(t))$ auf $F$ ist dann $\int\limits_a^b{\sqrt{E \left (\frac{du}{dt} \right)^2 + 2 F \frac{du}{dt} \frac{dv}{dt} + G \left ( \frac{dv}{dt} \right ) ^2} dt}$.
+\end{example}
+
+\paragraph{Motivation:} Ändert man die Parametrisierung von $F$ via $u(x,y), v(x,y)$ und wollten wir die Länge von $\gamma(t)$ (also dann $x(t), y(t)$) direkt bestimmen, müsste man berechnen
+$$u^\prime = u_x x^\prime + u_y y^\prime, v^\prime = v_xx^\prime + v_y y^\prime \Rightarrow$$
+$$E {u^\prime}^2 + 2 F u^\prime v^\prime + G {v^\prime}^2 = E (u_xx^\prime + u_y y^\prime)^2 + 2 F \ldots$$
+$$= \ldots \text{\underline{\underline{furchtbar!}}}$$
+
+Mit $du,dv$ schreibt man einfach 
+$$du = u_x dx + u_y dy$$
+$$dv = v_x dx + v_y dy$$
+und substituiert man dies in $\RM{1}$, so erhält man einfach $E^\prime dx^2 + F^\prime dx dy + G^\prime dy^2$ mit $\begin{pmatrix}
+u_x & u_y \\ v_x & v_y
+\end{pmatrix} \begin{pmatrix}
+E & F \\ F & G
+\end{pmatrix}  \begin{pmatrix}
+u_x & v_x \\ u_y & v_y
+\end{pmatrix} = \begin{pmatrix}
+E^\prime & F^\prime \\ F^\prime & G^\prime
+\end{pmatrix}$
+
+\begin{example}
+	Für die Ebene $r(x,y) = x e_1 + y e_2$ ist $r_x = e_1, r_y = e_2 \Rightarrow \RM{1} = dx^2 + dy^2$.
+	\newline
+	Wechsel zu \underline{Polarkoordinaten}:
+	$x = r \cos \Theta, y = r \sin \Theta$
+	 $$\Rightarrow dx = dr \cos \Theta - r \sin \Theta$$
+	$$d_y = dr \sin \Theta + r \cos \Theta d \Theta$$
+	$$\Rightarrow \underline{dx^2 + dy^2} = \underline{dr^2 + r^2 d \Theta^2}$$
 \end{example}
 
 \end{document}
