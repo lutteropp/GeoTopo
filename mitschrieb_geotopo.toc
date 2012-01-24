@@ -77,3 +77,7 @@
 \contentsline {paragraph}{Erinnerung:}{87}{section*.106}
 \contentsline {paragraph}{}{88}{section*.107}
 \contentsline {paragraph}{Motivation:}{92}{section*.108}
+\contentsline {paragraph}{Exkurs: Kritische Punkte, Werbung f\IeC {\"u}r Proseminar und Seminar}{92}{section*.109}
+\contentsline {paragraph}{Exkurs: Riemannsche Metrik, Differentialgeometrie}{93}{section*.110}
+\contentsline {paragraph}{}{93}{shadedefinitions.4.11}
+\contentsline {section}{\numberline {3}Isometrien (von Fl\IeC {\"a}chen)}{94}{section.4.3}

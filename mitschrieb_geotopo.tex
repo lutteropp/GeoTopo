@@ -2808,4 +2808,120 @@ E^\prime & F^\prime \\ F^\prime & G^\prime
 	$$\Rightarrow \underline{dx^2 + dy^2} = \underline{dr^2 + r^2 d \Theta^2}$$
 \end{example}
 
+%24.01.12
+
+\footnote{wichtige Definitionen und Übungsblätter anschauen für Klausur! In der letzten Vorlesung Komplettwiederholung}
+\footnote{Differentialgeometrie-Vorlesung im Wintersemester (5. Semester)}
+\paragraph{Exkurs: Kritische Punkte, Werbung für Proseminar und Seminar}
+\begin{center}
+	\includegraphics[scale=0.4]{images/2012_01_24_Bild1.jpg}
+\end{center}
+\paragraph{Exkurs: Riemannsche Metrik, Differentialgeometrie}
+\begin{center}
+	\includegraphics[scale=0.4]{images/2012_01_24_Bild2.jpg}
+\end{center}
+$$TM^{2n} = \bigcup\limits_{p \in M}{T_pM}$$ Tangentialbündel
+\newline
+$$g = g(p) \colon T_pM \times T_pM \rightarrow \R$$ Riemannsche Metrik
+\newline
+\underline{lokal:} $g = g_{ij}^{ dx^i \otimes dx^j}$ Tensor \newline
+$dx^i (\frac{\partial}{\partial x^j}) = \delta_{ij}$ \newline
+$dx^i \otimes dx^j (\frac{\partial}{\partial x^l}, \frac{\partial}{\partial x^k})$
+\newline
+$= dx^i(\frac{\partial}{\partial x^l}) \cdot dx^j (\frac{\partial}{\partial x^i}) = \delta_{il} \cdot \delta_{jk}$
+
+\paragraph{} % jetzt die wirkliche VL
+\begin{definition}{Winkel}
+	Sind $\gamma_1, \gamma_2$ Kurven auf einer Fläche $F$, so ist der Winkel $\Theta$ zwischen $\gamma_1$ und $\gamma_2$ (in einem Punkt $p \in F$) mit $\gamma_1(t) = p = \gamma_2(t)$ gegeben durch
+	$$\cos \Theta = \frac{\gamma_1^\prime(t) \cdot \gamma_2^\prime(t)}{|\gamma_1^\prime(t)| |\gamma_2^\prime(t)|} \quad (*)$$
+\end{definition}
+
+\begin{remark}
+	Jeder Term in $(*)$ lässt sich auch durch $\RM{1}$ ausdrücken, denn: \newline
+	z.B. gilt $\gamma_i^\prime = r_u u_i^\prime + r_v v_i^\prime$
+	$$\Rightarrow \gamma_i^\prime \cdot \gamma_j^\prime = (r_u u_i^\prime + r_v v_i^\prime) (r_u u_j^\prime + r_v v_j^\prime)$$
+	$$= E u_i^\prime v_j^\prime + F (v_i^\prime v_j^\prime + u_j^\prime v_i^\prime) + G v_i^\prime v_j^\prime$$
+	\begin{center}
+	\includegraphics[scale=0.4]{images/2012_01_24_Bild3.jpg}
+\end{center}
+\end{remark}
+
+\begin{definition}{Flächeninhalt}
+	Der \underline{Flächeninhalt} des parametrisierten Gebiets
+	$r(V) \subset F \subset \R^3$ ist
+	$$A = \int\limits_V{|r_u \times r_v| dudv} = \int\limits_V{\sqrt{EG - F^2} dudv}$$
+\end{definition}
+
+\begin{remark}
+	$|r_u \times r_v|^2 = (r_u \cdot r_u)(r_v \cdot r_v) - (r_u \cdot r_v)^2 = EG - F^2$
+\end{remark}
+
+\begin{example}
+	Eine Rotationsfläche
+	$$r(u,v) = f(u) \cdot (\cos v \cdot e_1 + \sin v \cdot e_2) + u \cdot e_3$$
+		\begin{center}
+	\includegraphics[scale=0.4]{images/2012_01_24_Bild4.jpg}
+\end{center}
+	hat $\RM{1} \quad (1 + f^\prime(u)) du^2 + f(u)^2 dv^2$
+	und für den Flächeninhalt zwischen $u=a$ und $u=b$ gilt dann
+	$$A = \int\limits_{a}^b{f(u) \sqrt{1+f^\prime(u)^2} dudv} = 2 \pi \int\limits_a^b{f(u) \sqrt{1 + f^\prime(u)^2} du}$$
+\end{example}
+
+\section{Isometrien (von Flächen)}
+
+\begin{definition}{isometrische Flächen}
+	Zwei Flächen im $\R^3$ mit ersten Fundamentalformen heißen \underline{isometrisch}, wenn es einen Diffeomorphismus zwischen ihnen gibt, der Kurven auf Kurven gleicher Länge abbildet.
+\begin{center}
+	\includegraphics[scale=0.4]{images/2012_01_24_Bild5.jpg}
+\end{center}
+\end{definition}
+
+\begin{example}
+	Biegt man ein Stück Papier, so ändern sich Längen von Kurven nicht! Beispielsweise sind also Ebene und Zylinder isometrisch, ebenso auch Kegel und Teile der Ebene:
+	\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_24_Bild6.jpg}
+	\end{center}
+\end{example}
+
+\begin{theorem}
+	Zwei Kartenbereiche $U$ und $U^\prime$ von Flächen $F$ und $F^\prime$ im $\R^3$ sind isometrisch genau dann, wenn es Parametrisierungen
+	$$r \colon V \rightarrow U \subset F$$ und $$r^\prime \colon V^\prime \rightarrow U^\prime \subset F^\prime$$ gibt, deren erste Fundamentalformen übereinstimmen.
+\end{theorem}
+
+\begin{proof}
+	"$\Leftarrow$": In diesem Fall ist $id \colon V \rightarrow V$ bzw. $r^{-1} \circ r^\prime \colon U \rightarrow U^\prime$ eine Isometrie (abstandserhaltende Abbildung), denn die erste Fundamentalform bestimmt ja die Länge von Kurven.
+	\newline
+	
+	"$\Rightarrow$": Angenommen via $f \colon V \overset{\cong}{\rightarrow} V^\prime$ seien $U \subset F$ parametrisiert $r \colon V \rightarrow U$, und $U^\prime \subset F^\prime$, parametrisiert durch $r^\prime \colon V^\prime \rightarrow U^\prime$ isometrisch.
+	$$\Rightarrow r^\prime \circ f \colon V \rightarrow \R^3 \text{ und } r \colon V \rightarrow \R^3$$ sind Parametrisierungen mit demsleben Definitionsbereich, d.h. die ersten Fundamentalformen sind hier
+	$$\RM{1}^\prime = \widetilde{E} du^2 + 2 \widetilde{F} dudv + \widetilde{G} dv^2$$ bzw.
+	$$\RM{1} = E du^2 + 2 F dudv + G dv^2$$
+	
+	$f$ ist Isometrie $\Leftrightarrow$ 
+	$$\int\limits_{[a,b]}{\sqrt{\widetilde{E} {u^\prime}^2 + 2 \widetilde{F}u^\prime v^\prime + \widetilde{G} {v^\prime}^2} dt} = \int\limits_{[a,b]}{\sqrt{E {u^\prime}^2 + 2 F u^\prime v^\prime + G {v^\prime}^2} dt}$$
+	
+	$\forall$ Kurven $t \mapsto (u(t), v(t))$ \newline
+	$\forall$ Intervalle $[a,b] \subset \R$
+	$$\Rightarrow \widetilde{E} {u^\prime}^2 + 2 \widetilde{F}u^\prime v^\prime + \widetilde{G} {v^\prime}^2 = E {u^\prime}^2 + 2 F u^\prime v^\prime + G {v^\prime}^2$$
+	Wähle nun $u$ und $v$ wie folgt:
+	\newline
+	\underline{\underline{Wähle}} $$u=t, v=a \Rightarrow \widetilde{E} = E$$
+	$$u = a, v= t \Rightarrow \widetilde{G} = G$$
+	$$u=t, v=t \Rightarrow \widetilde{F} = F$$
+	$$\Rightarrow \RM{1} = \RM{1}^\prime .$$
+\end{proof}
+
+\begin{example}
+	Der Kegel
+	$$r(u,v) = a u \cos v \cdot e_1 + a u \sin v \cdot e_2 + u \cdot e_3$$
+		\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_24_Bild7.jpg}
+	\end{center}
+	mit $u,a > 0$ hat $\RM{1}_{\text{Kegel}} = (1 + a^2) du^2 + a^2 u^2 dv^2$.
+	Setze $R:= \sqrt{1+a^2} \cdot u$
+	$$\Rightarrow \RM{1}_{\text{Kegel}} = dR^2 + \frac{a^2}{1+a^2} R^2 dv^2$$ \footnote{Koordinatenwechsel}
+	$$\Rightarrow \text{ mit } \Theta := \sqrt{\frac{a^2}{1+a^2}} \cdot v \text{ ist } \RM{1}_{\text{Kegel}} = d R^2 + R^2 d \Theta^2$$
+	Das ist nichts anderes als $\RM{1}_{\text{Ebene}}$ (in Polarkoordinaten). \footnote{Die Geometrie auf dem Kegel und auf der Ebene (und auf dem Zylinder) ist identisch. (Längenmessung etc. bleibt das Gleiche.)}
+\end{example}
+
 \end{document}
