@@ -2924,4 +2924,122 @@ $= dx^i(\frac{\partial}{\partial x^l}) \cdot dx^j (\frac{\partial}{\partial x^i}
 	Das ist nichts anderes als $\RM{1}_{\text{Ebene}}$ (in Polarkoordinaten). \footnote{Die Geometrie auf dem Kegel und auf der Ebene (und auf dem Zylinder) ist identisch. (Längenmessung etc. bleibt das Gleiche.)}
 \end{example}
 
+%26.01.12
+\paragraph{Exkurs: Roman: Flächenland (Flatland) - Die Memoiren eines alten Quadrats}
+	\url{http://de.wikipedia.org/wiki/Flatland}
+	\url{http://www.flatlandthefilm.com/novel.php}
+	\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_26_Bild1.jpg}
+	\end{center}
+	
+\subsection{Die zweite Fundamentalform}
+\paragraph{Motivation}
+Nimm ein Flächenstück, parametrisiert durch $r(u,v)$, und deformiere es längs seiner Normalen ein Stück $t$ weit einwärts:  
+	\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_26_Bild2.jpg}
+	\end{center}
+Dies liefert eine Familie von Flächen
+$$R(u,v,t) := r(u,v) - t \cdot n(u,v)$$
+mit den nach "außen" weisenden Einheitsnormalenvektor
+$$n(u,v) = \frac{r_u \times r_v}{|r_u \times r_v|}$$
+und $R_u = r_u - t \cdot n_u, \quad R_v = r_v - t \cdot n_v$
+\newline
+
+Für jedes feste $t$ besitzt die Fläche $R(u,v,t)$ eine erste Fundamentalform
+$$E du^2 + 2 F dudv + G dv^2$$
+und wir berechnen die Änderung in Abhängigkeit von $t$: 
+$$\frac{1}{2} \frac{\partial}{\partial t} (E du^2 + 2 F dudv + G dv^2) \big |_{t=0} = $$ \footnote{In $t=0$ ableiten}
+$$= - (r_u \cdot n_u du^2 + (r_u \cdot n_v + r_v n_u) dudv + r_v \cdot n_v dv^2)$$
+\footnote{$E, F, G$ sind durch die Parametrisierung gegeben.}
+
+\paragraph{Bemerke:} $n$ ist senkrecht zu $u$ und $v$
+$$\Rightarrow 0 = (r_u \cdot n)_u = r_{uu} \cdot n + r_u \cdot n_u,$$
+ebenso
+$$0 = r_{uv} \cdot n + r_u \cdot n_v$$ und
+$$0 = r_{vu} \cdot n = r_v \cdot n_u,$$
+also gilt mit $r_{uv} = r_{vu}$ auch $r_u \cdot n_v = r_v \cdot n_u$
+
+\begin{definition}{zweite Fundamentalform}
+	Die \underline{zweite Fundamentalform} einer Fläche, $\RM{2}$, parametrisiert lokal durch $r(u,v)$, ist definiert als
+	$$\boxed{L du^2 + 2 M dudv + N dv^2}$$
+mit $L:= r_{uu} \cdot n, \quad M := r_{uv} \cdot n, \quad N:= r_{vv} \cdot n$
+\end{definition}
+
+\begin{example}
+	\begin{enumerate}
+		\item Die Ebene $r(u,v) = \vec{a} + u \vec{b} + v \vec{c}$ erfüllt $r_{uu} = r_{uv} = r_{vv} = 0 \Rightarrow \RM{2} = 0$
+		\item Die Sphäre vom Radius $a > 0$ um $0 \in \R^3$ ist gegeben durch
+		$\vec{r} = a \cdot n,$
+		$$ \Rightarrow r_u \cdot n_u = \frac{1}{a} r_u \cdot r_u, r_u \cdot n_v = \frac{1}{a} r_u r_v, r_v \cdot n_v = \frac{1}{a} r_v \cdot r_v$$
+		$$\Rightarrow \RM{2} = \frac{1}{a} (E du^2 + 2 F dudv + G dv^2) = \frac{1}{a} \RM{1}$$
+		 \footnote{$r(u,v)= a \cdot n(u,v)$}
+	\end{enumerate}
+\end{example}
+
+\begin{theorem}
+	Verschwindet die zweite Fundamentalform einer Fläche, so ist die Fläche Teil einer Ebene. \footnote{Ebene = $a + b\cdot u + c \cdot v$}
+\end{theorem}
+
+	\begin{proof}
+	\underline{Denn:} $\RM{2}=0 \Rightarrow 0 = r_u \cdot n_u = r_v \cdot n_u = r_u \cdot n_v = r_v \cdot n_v$
+	$$\Rightarrow n_u = 0 = n_v$$
+	($n_u, n_v \perp n$, d.h. Linearkombination von $r_u, r_v$)
+	$$\Rightarrow n \text{ ist konstant, d.h. } (r \cdot n)_u = r_u n = 0 = (r \cdot n)_v = r_v \cdot n$$
+	$$\Rightarrow r \cdot n = const \Rightarrow \text{ das Flächenstück ist Teil einer Ebene}$$
+	\end{proof}
+
+\begin{example}
+	Eine Fläche $F$ sei gegeben als Graph einer glatten Funktion $z = f(x,y)$	
+	\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_26_Bild3.jpg}
+	\end{center}
+	$$r(x,y) = x \cdot e_1 + y \cdot e_2 + f(x,y) \cdot e_3$$
+	$$\Rightarrow r_x = e_1 + f_x \cdot e_3, \quad r_y = e_2 + f_y \cdot e_3$$
+	$$\Rightarrow r_{xx} = f_{xx} \cdot e_3, \quad r_{x,y} = f_{xy} \cdot e_3, \quad r_{yy} = f_{yy} \cdot e_3$$
+	In einem \underline{kritischen} Punkt von $f$ gilt $f_x = 0 = f_y$. \newline
+	$\Rightarrow$ hier ist der Normalenvektor in $f(x,y)$ gerade $e_3$. \newline
+	$\Rightarrow \RM{2}$ ist hier nichts anderes als die Hesse-Matrix der Funktion $f$ in diesem Punkt:
+	$$\RM{2} \hat{=} \begin{pmatrix}
+	L & M \\ M & N
+	\end{pmatrix} = \begin{pmatrix} f_{xx} & f_{xy} \\ \underbrace{f_{yx}}_{f_{xy}} & f_{yy} \end{pmatrix} !$$
+	
+	Damit lässt sich das Verhalten von $\RM{2}$ qualitativ beschreiben: \newline
+	Interpretiert man für $p \in F$ die Fläche $F$ als parametrisiert durch die Projektion auf $T_p F$, so ist $f(x,y)$ die Höhe über dieser Ebene.
+	
+	Unterscheide nun:
+	\begin{itemize}
+		\item $f_{xx} f_{yy} - f_{xy}^2 > 0$ $\Rightarrow$ der kritische Punkt ist (lokales) Maximum (falls die Hessesche negativ definit ist, und (lokales) Minimum, falls die Hessesche positiv definit ist)
+		\begin{center}
+			\includegraphics[scale=0.4]{images/2012_01_26_Bild4.jpg}
+		\end{center}
+		
+		Für $F$ gibt es aber nur einen Unterschied in der Wahl der Normalen
+		\newline
+		$\Rightarrow$ $F$ sieht \underline{lokal um $p$} wie die Sphäre aus (d.h. $F$ liegt \underline{lokal} ganz auf einer Seite von $T_p F$)
+		\begin{center}
+			\includegraphics[scale=0.4]{images/2012_01_26_Bild5.jpg}
+		\end{center}
+	
+	\item $f_{xx} f_{yy} - f_{xy}^2 < 0$
+	\newline
+	$\Rightarrow$ der kritische Punkt ist \underline{Sattelpunkt}, d.h. $f$ liegt lokal um $p$ stets auf \underline{beiden} Seiten von $T_p F$.
+	\begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_26_Bild6.jpg}
+	\end{center}
+	Im Allgemeinen ist $\RM{2}$, hier die Hessesche, sowohl positiv als auch negativ definit. (vgl. z.B. $T^2$ oder auch \includegraphics[scale=0.4]{images/2012_01_26_Bild7.jpg} oder \includegraphics[scale=0.4]{images/2012_01_26_Bild8.jpg} diffeomorph zu \includegraphics[scale=0.4]{images/2012_01_26_Bild9.jpg})
+	\end{itemize}
+\end{example}
+
+\begin{theorem}
+	$F \subset \R^3$ geschlossene Fläche $\Rightarrow \exists$ Punkte auf $F$ mit $\RM{2} > 0$
+\end{theorem}
+\begin{proof}
+ \underline{Denn:} $F$ kompakt $\Rightarrow$ $F$ ist in einer Sphäre $S$ enthalten
+ \begin{center}
+		\includegraphics[scale=0.4]{images/2012_01_26_Bild10.jpg}
+	\end{center}
+	Schrumpfe $S$, bis $S$ einen Punkt von $F$ berührt $\Rightarrow$ $F$ ist dort $\Rightarrow$ $F$ ist dort lokal Graph einer Funktion $f-(R - \sqrt{R^2 - x^2 - y^2}) \geq 0$
+	$\Rightarrow$ der erste nichttriviale term in einer Taylor-Entwicklung um $p$ ist dann  $$\frac{1}{2} (f_{xx} x^2 + 2 f_{xy} xy + f_{yy} y^2) - \frac{1}{2R} (x^2 + y^2) \Rightarrow Lx^2 + 2 M xy + N y^2 \geq \frac{1}{R} (x^2+y^2) > 0.$$
+\end{proof}
+
 \end{document}

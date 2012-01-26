@@ -81,3 +81,7 @@
 \contentsline {paragraph}{Exkurs: Riemannsche Metrik, Differentialgeometrie}{93}{section*.110}
 \contentsline {paragraph}{}{93}{shadedefinitions.4.11}
 \contentsline {section}{\numberline {3}Isometrien (von Fl\IeC {\"a}chen)}{94}{section.4.3}
+\contentsline {paragraph}{Exkurs: Roman: Fl\IeC {\"a}chenland (Flatland) - Die Memoiren eines alten Quadrats}{96}{section*.112}
+\contentsline {subsection}{\numberline {3.1}Die zweite Fundamentalform}{96}{subsection.4.3.1}
+\contentsline {paragraph}{Motivation}{96}{section*.113}
+\contentsline {paragraph}{Bemerke:}{97}{section*.114}
