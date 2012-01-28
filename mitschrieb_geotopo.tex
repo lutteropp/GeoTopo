@@ -2788,13 +2788,17 @@ $$= \ldots \text{\underline{\underline{furchtbar!}}}$$
 Mit $du,dv$ schreibt man einfach 
 $$du = u_x dx + u_y dy$$
 $$dv = v_x dx + v_y dy$$
-und substituiert man dies in $\RM{1}$, so erhält man einfach $E^\prime dx^2 + F^\prime dx dy + G^\prime dy^2$ mit $\begin{pmatrix}
-u_x & u_y \\ v_x & v_y
-\end{pmatrix} \begin{pmatrix}
-E & F \\ F & G
-\end{pmatrix}  \begin{pmatrix}
+und substituiert man dies in $\RM{1}$, so erhält man einfach $E^\prime dx^2 + F^\prime dx dy + G^\prime dy^2$ mit $
+\begin{pmatrix}
 u_x & v_x \\ u_y & v_y
-\end{pmatrix} = \begin{pmatrix}
+\end{pmatrix}
+\begin{pmatrix}
+E & F \\ F & G
+\end{pmatrix}
+\begin{pmatrix}
+u_x & u_y \\ v_x & v_y
+\end{pmatrix} 
+   = \begin{pmatrix}
 E^\prime & F^\prime \\ F^\prime & G^\prime
 \end{pmatrix}$
 

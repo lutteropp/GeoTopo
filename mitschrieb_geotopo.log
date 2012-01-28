@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  26 JAN 2012 15:33
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  28 JAN 2012 14:55
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -2918,169 +2918,166 @@ Package marginnote Info: right page because not two side mode on input line 277
 Package marginnote Info: xpos seams to be 3729359sp,
 (marginnote)             \marginnoterightadjust ignored on input line 2770.
 [91 <./images/2012_01_19_Bild8.jpg>]
-<images/2012_01_24_Bild1.jpg, id=1195, 835.12pt x 578.16pt>
+<images/2012_01_24_Bild1.jpg, id=1195, 610.4406pt x 467.8278pt>
 File: images/2012_01_24_Bild1.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild1.jpg>
-<images/2012_01_24_Bild2.jpg, id=1196, 385.44pt x 321.2pt>
+<images/2012_01_24_Bild2.jpg, id=1196, 276.0714pt x 181.6386pt>
 File: images/2012_01_24_Bild2.jpg Graphic file (type jpg)
 
-<use images/2012_01_24_Bild2.jpg> [92 <./images/2012_01_24_Bild1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2823--2825
+<use images/2012_01_24_Bild2.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 2827--2829
 
  []
 
+[92 <./images/2012_01_24_Bild1.jpg>]
 Package marginnote Info: Margin note 94.1 is on absolute page 94
-(marginnote)              on input line 2835.
+(marginnote)              on input line 2839.
 Package marginnote Info: right page because not two side mode on input line 283
-5.
+9.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2835.
-<images/2012_01_24_Bild3.jpg, id=1204, 513.92pt x 256.96pt>
+(marginnote)             \marginnoterightadjust ignored on input line 2839.
+
+<images/2012_01_24_Bild3.jpg, id=1204, 523.7166pt x 339.1872pt>
 File: images/2012_01_24_Bild3.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild3.jpg>
 Package marginnote Info: Margin note 94.2 is on absolute page 94
-(marginnote)              on input line 2850.
+(marginnote)              on input line 2854.
 Package marginnote Info: right page because not two side mode on input line 285
-0.
+4.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2850.
+(marginnote)             \marginnoterightadjust ignored on input line 2854.
 
-Overfull \hbox (15.27014pt too wide) in paragraph at lines 2850--2850
+Overfull \hbox (15.27014pt too wide) in paragraph at lines 2854--2854
 |\T1/lmr/m/it/10.95 Flächeninhalt  
  []
 
-<images/2012_01_24_Bild4.jpg, id=1205, 256.96pt x 385.44pt>
+<images/2012_01_24_Bild4.jpg, id=1205, 277.9986pt x 587.796pt>
 File: images/2012_01_24_Bild4.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild4.jpg> [93 <./images/2012_01_24_Bild2.jpg> <./images
 /2012_01_24_Bild3.jpg>]
 Package marginnote Info: Margin note 95.1 is on absolute page 95
-(marginnote)              on input line 2873.
+(marginnote)              on input line 2877.
 Package marginnote Info: right page because not two side mode on input line 287
-3.
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2873.
+(marginnote)             \marginnoterightadjust ignored on input line 2877.
 
-Overfull \hbox (9.1849pt too wide) in paragraph at lines 2873--2873
+Overfull \hbox (9.1849pt too wide) in paragraph at lines 2877--2877
 |\T1/lmr/m/it/10.95 isometrische 
  []
 
-<images/2012_01_24_Bild5.jpg, id=1216, 706.64pt x 256.96pt>
+<images/2012_01_24_Bild5.jpg, id=1217, 644.6484pt x 281.3712pt>
 File: images/2012_01_24_Bild5.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild5.jpg>
-<images/2012_01_24_Bild6.jpg, id=1217, 770.88pt x 321.2pt>
+<images/2012_01_24_Bild6.jpg, id=1218, 475.5366pt x 238.0092pt>
 File: images/2012_01_24_Bild6.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild6.jpg> [94 <./images/2012_01_24_Bild4.jpg> <./images
 /2012_01_24_Bild5.jpg> <./images/2012_01_24_Bild6.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2892--2894
+Underfull \hbox (badness 10000) in paragraph at lines 2896--2898
 
  []
 
-<images/2012_01_24_Bild7.jpg, id=1225, 192.72pt x 256.96pt>
+<images/2012_01_24_Bild7.jpg, id=1225, 187.4202pt x 232.7094pt>
 File: images/2012_01_24_Bild7.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild7.jpg> [95 <./images/2012_01_24_Bild7.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2929--2931
+Underfull \hbox (badness 10000) in paragraph at lines 2933--2935
 \T1/lmr/bx/n/10.95 drats[] [][]$\T1/lmtt/m/n/10.95 http : / / de . wikipedia . 
 org / wiki / Flatland$[][] [][]$http : / / www . flatlandthefilm .
  []
 
-<images/2012_01_26_Bild1.jpg, id=1234, 578.16pt x 321.2pt>
+<images/2012_01_26_Bild1.jpg, id=1234, 448.074pt x 228.3732pt>
 File: images/2012_01_26_Bild1.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild1.jpg>
-<images/2012_01_26_Bild2.jpg, id=1235, 385.44pt x 449.68pt>
+<images/2012_01_26_Bild2.jpg, id=1235, 556.9608pt x 226.446pt>
 File: images/2012_01_26_Bild2.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild2.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 2944--2947
+Underfull \hbox (badness 10000) in paragraph at lines 2948--2951
 
  []
 
 [96 <./images/2012_01_26_Bild1.jpg> <./images/2012_01_26_Bild2.jpg>]
 Package marginnote Info: Margin note 98.1 is on absolute page 98
-(marginnote)              on input line 2963.
+(marginnote)              on input line 2967.
 Package marginnote Info: right page because not two side mode on input line 296
-3.
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2963.
- [97]
-<images/2012_01_26_Bild3.jpg, id=1256, 513.92pt x 513.92pt>
+(marginnote)             \marginnoterightadjust ignored on input line 2967.
+
+<images/2012_01_26_Bild3.jpg, id=1246, 489.027pt x 483.7272pt>
 File: images/2012_01_26_Bild3.jpg Graphic file (type jpg)
 
-<use images/2012_01_26_Bild3.jpg>
-<images/2012_01_26_Bild4.jpg, id=1257, 449.68pt x 321.2pt>
+<use images/2012_01_26_Bild3.jpg> [97]
+<images/2012_01_26_Bild4.jpg, id=1258, 303.0522pt x 237.0456pt>
 File: images/2012_01_26_Bild4.jpg Graphic file (type jpg)
 
-<use images/2012_01_26_Bild4.jpg> [98 <./images/2012_01_26_Bild3.jpg>]
-<images/2012_01_26_Bild5.jpg, id=1263, 385.44pt x 385.44pt>
+<use images/2012_01_26_Bild4.jpg>
+<images/2012_01_26_Bild5.jpg, id=1259, 301.125pt x 226.446pt>
 File: images/2012_01_26_Bild5.jpg Graphic file (type jpg)
 
-<use images/2012_01_26_Bild5.jpg>
-<images/2012_01_26_Bild6.jpg, id=1264, 513.92pt x 449.68pt>
+<use images/2012_01_26_Bild5.jpg> [98 <./images/2012_01_26_Bild3.jpg> <./images
+/2012_01_26_Bild4.jpg> <./images/2012_01_26_Bild5.jpg>]
+<images/2012_01_26_Bild6.jpg, id=1264, 564.6696pt x 194.6472pt>
 File: images/2012_01_26_Bild6.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild6.jpg>
-<images/2012_01_26_Bild7.jpg, id=1265, 256.96pt x 321.2pt>
+<images/2012_01_26_Bild7.jpg, id=1265, 139.722pt x 224.5188pt>
 File: images/2012_01_26_Bild7.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild7.jpg>
-<images/2012_01_26_Bild8.jpg, id=1266, 513.92pt x 385.44pt>
+<images/2012_01_26_Bild8.jpg, id=1266, 436.5108pt x 397.485pt>
 File: images/2012_01_26_Bild8.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild8.jpg>
-<images/2012_01_26_Bild9.jpg, id=1267, 321.2pt x 256.96pt>
+<images/2012_01_26_Bild9.jpg, id=1267, 184.5294pt x 184.5294pt>
 File: images/2012_01_26_Bild9.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild9.jpg>
-Overfull \hbox (43.18242pt too wide) in paragraph at lines 3029--3030
-\T1/lmr/m/n/10.95 (vgl. z.B. $\OML/lmm/m/it/10.95 T[]$ \T1/lmr/m/n/10.95 oder a
-uch [] oder []
- []
-
-[99 <./images/2012_01_26_Bild4.jpg> <./images/2012_01_26_Bild5.jpg> <./images/2
-012_01_26_Bild6.jpg>]
-<images/2012_01_26_Bild10.jpg, id=1272, 578.16pt x 321.2pt>
+<images/2012_01_26_Bild10.jpg, id=1268, 500.5902pt x 361.35pt>
 File: images/2012_01_26_Bild10.jpg Graphic file (type jpg)
 
-<use images/2012_01_26_Bild10.jpg> [100 <./images/2012_01_26_Bild7.jpg> <./imag
-es/2012_01_26_Bild8.jpg> <./images/2012_01_26_Bild9.jpg> <./images/2012_01_26_B
-ild10.jpg>] (./mitschrieb_geotopo.aux) ) 
+<use images/2012_01_26_Bild10.jpg> [99 <./images/2012_01_26_Bild6.jpg> <./image
+s/2012_01_26_Bild7.jpg> <./images/2012_01_26_Bild8.jpg> <./images/2012_01_26_Bi
+ld9.jpg> <./images/2012_01_26_Bild10.jpg>] (./mitschrieb_geotopo.aux) ) 
 Here is how much of TeX's memory you used:
- 11191 strings out of 256216
- 180225 string characters out of 1917072
+ 11190 strings out of 256216
+ 180217 string characters out of 1917072
  232002 words of memory out of 1500000
  13381 multiletter control sequences out of 10000+200000
  90061 words of font info for 73 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 45i,14n,61p,762b,602s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm
--ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fo
-nts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1
-/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
-6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/
-bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></u
-sr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (101 pages, 15072935 bytes).
+ 45i,14n,61p,762b,582s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fon
+ts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.en
+c}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb
+></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb
+>
+Output written on mitschrieb_geotopo.pdf (100 pages, 15333347 bytes).
 PDF statistics:
- 1482 PDF objects out of 1728 (max. 8388607)
- 544 named destinations out of 1000 (max. 131072)
+ 1478 PDF objects out of 1728 (max. 8388607)
+ 543 named destinations out of 1000 (max. 131072)
  1315 words of extra memory for PDF output out of 10000 (max. 10000000)
 
