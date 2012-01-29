@@ -444,7 +444,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 \begin{remark}
 	$\bullet$ $\mathcal{B} \subset \OO$ ist Basis der Topologie von $X$ $\Leftrightarrow \forall O \in \OO \forall x \in O \exists B \in \mathcal{B} \colon x \in B \subset O$.
 	\newline
-	$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Bais \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Vereinigung von Mengen aus $\mathcal{B}$.
+	$\bullet$ $\mathcal{B} \subset \mathcal{P}(X)$ bildet die Basis \underline{einer} Topologie auf $X$ $\Leftrightarrow$ $X$ ist Vereinigung von Mengen aus $\mathcal{B}$ und der Schnitt je zweier Mengen aus $\mathcal{B}$ ist eine Vereinigung von Mengen aus $\mathcal{B}$.
 	\newline
 	\begin{figure}[h]
 		\centering
@@ -560,8 +560,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	\newline
 	\begin{enumerate}[(1)]
 		\item \underline{innerer Punkt} von $A$, falls es eine in $A$ enthaltene Umgebung $U$ um $p$ gibt. 
-		\item \underline{äußerer Punkt}, falls eine zu $p$ disjunkte Umgebung $V$ in $X$ existiert.
-		\item \underline{Randpunkt von $A$}, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
+		\item \underline{äußerer Punkt} von $A$, falls eine zu $A$ disjunkte Umgebung $V$ um $p$ in $X$ existiert.
+		\item \underline{Randpunkt} von $A$, falls jede Umgebung von $p$ nichtleeren Durchschnitt mit $A$ und $X \backslash A$ hat.
 	\end{enumerate}
 		\begin{center}
 	\includegraphics[width=0.3\textwidth]{images/innen_aussen.jpg}
@@ -835,7 +835,7 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 \end{bsp}
 
 \begin{definition}{Weg, Anfangspunkt, Endpunkt}
-	ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
+	Ein \underline{Weg} in einem topologischen Raum $X$ ist eine stetige Abbildung $\gamma \colon [0,1] \rightarrow X$, und $\gamma(0)$ heißt \underline{Anfangs-}, $\gamma(1)$ \underline{Endpunkt}.
 	\begin{center}
 		\includegraphics[scale=0.3]{images/Weg.jpg}
 	\end{center}
