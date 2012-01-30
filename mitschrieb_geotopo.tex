@@ -1179,13 +1179,22 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 \end{bsp}
 
 \begin{proof}
-		\underline{(a)$\Rightarrow$(b):} Es seien $U$ und $f$ wie in (a) gew채hlt und $f_1, \ldots, f_l$ die Komponenten von $f$. Sei $x_0 \in M$. Durch Umnummerierung seien die Indizes so gew채hlt, dass ohne Einschr채nkung die Reihenfolge so, dass die $(l \times l)$-Matrix 
-		$$\left(\frac{\partial f_i}{\partial x_{n+j}}\right)_{i,j \in \{1, \ldots, l\}}$$
+		\underline{(a)$\Rightarrow$(b):} Es seien $U$ und $f$ wie in (a) gew채hlt und $f^1, \ldots, f^l$ die Komponenten von $f$. Sei $x_0 \in M$. Durch Umnummerierung seien die Indizes so gew채hlt, dass ohne Einschr채nkung die Reihenfolge so, dass die $(l \times l)$-Matrix 
+		$$\left(\frac{\partial f^i}{\partial x_{n+j}}\right)_{i,j \in \{1, \ldots, l\}}$$
 		in $x_0$ invertierbar ist.
-		Definiere die Abbildung $\varphi \colon U \rightarrow \R^{n+l}, x \mapsto (x_1, \ldots, x_n, f_1(x), \ldots, f_l(x))$.
+		Definiere die Abbildung $\varphi \colon U \rightarrow \R^{n+l}, x \mapsto (x_1, \ldots, x_n, f^1(x), \ldots, f^l(x))$.
 		Dann gilt:
-		$$D \varphi(x_0)= (TODO:Matrix 2)$$ und damit 
-		$$\det{D \varphi(x_0)} = \det{\left(\frac{\partial f_i}{\partial x_{n+j}}\right)_{i,j}} \neq 0.$$
+		\[
+		D \varphi(x_0) = 
+		\left( 
+		\begin{array}{c|c} 
+			Id_{n \times n} &   0  \\ \hline
+			\hdots             &   \left(\frac{\partial f_i}{\partial x_{n+j}}\right)_{i,j}
+		\end{array}
+		\right)
+		\] 
+		und damit 
+		$$\det{D \varphi(x_0)} = \det{\left(\frac{\partial f^i}{\partial x_{n+j}}\right)_{i,j}} \neq 0.$$
 		Mit dem Satz 체ber inverse Funktionen (oder "Satz 체ber die Umkehrabbildung") folgt:
 		Es existieren Umgebungen $U^\prime = U^\prime(x_0) \subseteq U$ und $V^\prime(\varphi(x_0)) \subseteq V = \varphi(U)$, so dass
 		$\varphi \big |_{U^\prime} \colon U^\prime \rightarrow V^\prime$ ist $C^\infty$-Diffeomorphismus.
@@ -1214,10 +1223,19 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 		 \newline
 		 \underline{(c)$\Rightarrow$(a):} Es seien $U$, $W$ und $\psi$ wie in (c) gew채hlt und $\psi(\hat{w})= x_0$ f체r $\hat{w} \in W$.
 		 Da Rang $D \psi(\hat{w}) = n$ folgt nach evtl. Umnummerierung
-		 $$\left(\frac{\delta \psi_i}{\delta w_j}(\hat{w})\right)_{i,j \in \{1, \ldots, n\}}$$ ist invertierbar.
-		 Definiere $g \colon W \times \R^l \rightarrow \R^{n+l}, (w,y) \mapsto \psi(w) + (0,y)$, d.h. $g(w_1, \ldots,w_n,y_1,\ldots,y_l) = (\psi_1(w), \ldots, \psi_n(w), \psi_{n+1}(w)+y_1, \psi_{n+l}(w)+y_l).$
+		 $$\left(\frac{\delta \psi^i}{\delta w_j}(\hat{w})\right)_{i,j \in \{1, \ldots, n\}}$$ ist invertierbar.
+		 Definiere $g \colon W \times \R^l \rightarrow \R^{n+l}, (w,y) \mapsto \psi(w) + (0,y)$, d.h. $g(w_1, \ldots,w_n,y_1,\ldots,y_l) = (\psi^1(w), \ldots, \psi^n(w), \psi^{n+1}(w)+y_1, \psi^{n+l}(w)+y_l).$
 		 Dann gilt: 
-		 $$Dy(\hat{w},0)= (TODO:Matrix 4)$$ ist invertierbar.
+		 \[
+		 Dy(\hat{w},0) = 
+		 \left(
+		\begin{array}{c|c}
+		\left( \frac{\partial y^i}{\partial w_j}\left( \hat{w} \right) \right)_{i.j} & 0 \\ \hline
+		\hdots & Id_{l \times l}
+		\end{array}
+		\right)
+		 \]
+		 ist invertierbar.
 		 Mit dem Satz 체ber inverse Funktionen folgt:
 		 Es existieren Umgebungen $V = V((\hat{w},0)) \subseteq W \times \R^l$ und $U^\prime = U^\prime(g(\hat{w},0))$, so dass $g \big |_V \colon V \rightarrow U^\prime$ ein $C^\infty$-Diffeomorphismus ist. \newline
 		 Verkleinert man gegebenenfalls $V$, so kann man ohne Einschr채nkung annehmen, dass gilt: $U^\prime \subseteq U$.
