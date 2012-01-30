@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  29 JAN 2012 00:51
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  30 JAN 2012 11:32
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -1838,7 +1838,7 @@ Overfull \hbox (54.45923pt too wide) in paragraph at lines 1134--1134
  []
 
 [28 <./images/Satz_UnterMf.jpg>]
-Overfull \hbox (15.34904pt too wide) in paragraph at lines 1183--1187
+Overfull \hbox (17.70634pt too wide) in paragraph at lines 1183--1187
 \T1/lmr/m/n/10.95 in $\OML/lmm/m/it/10.95 x[]$ \T1/lmr/m/n/10.95 in-ver-tier-ba
 r ist. De-fi-nie-re die Ab-bil-dung $\OML/lmm/m/it/10.95 ' [] [] U \OMS/lmsy/m/
 n/10.95 ! \U/msb/m/n/10.95 R[]\OML/lmm/m/it/10.95 ; x \OMS/lmsy/m/n/10.95 7! \O
@@ -1851,7 +1851,7 @@ n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 ))$\T1/lmr/m/n/10.95 .
 File: images/Beweis_Satz_UMF_Diagramm.jpg Graphic file (type jpg)
 
 <use images/Beweis_Satz_UMF_Diagramm.jpg>
-Underfull \hbox (badness 2932) in paragraph at lines 1217--1220
+Underfull \hbox (badness 2932) in paragraph at lines 1226--1229
 \T1/lmr/m/n/10.95 ist in-ver-tier-bar. De-fi-nie-re $\OML/lmm/m/it/10.95 g [] [
 ] W \OMS/lmsy/m/n/10.95 ^^B \U/msb/m/n/10.95 R[] \OMS/lmsy/m/n/10.95 ! \U/msb/m
 /n/10.95 R[]\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 w; y\
@@ -1882,18 +1882,18 @@ File: images/Identifizierung_Umgebungen2.jpg Graphic file (type jpg)
 File: images/Partition.jpg Graphic file (type jpg)
  <use images/Partition.jpg>
 Package marginnote Info: Margin note 35.1 is on absolute page 35
-(marginnote)              on input line 1266.
-Package marginnote Info: right page because not two side mode on input line 126
-6.
+(marginnote)              on input line 1284.
+Package marginnote Info: right page because not two side mode on input line 128
+4.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1266.
+(marginnote)             \marginnoterightadjust ignored on input line 1284.
 
-Overfull \hbox (40.24623pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (40.24623pt too wide) in paragraph at lines 1284--1284
 |\T1/lmr/m/it/10.95 Quotienten(raum)- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
 
  []
 
@@ -1920,13 +1920,13 @@ File: images/Linien_Torus_irrational.jpg Graphic file (type jpg)
 <use images/Linien_Torus_irrational.jpg> [35 <./images/Linien_Quadrat.jpg> <./i
 mages/Linien_Torus_rational.jpg> <./images/Linien_Torus_irrational.jpg>]
 Package marginnote Info: Margin note 37.1 is on absolute page 37
-(marginnote)              on input line 1318.
-Package marginnote Info: right page because not two side mode on input line 131
-8.
+(marginnote)              on input line 1336.
+Package marginnote Info: right page because not two side mode on input line 133
+6.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1318.
+(marginnote)             \marginnoterightadjust ignored on input line 1336.
 
-Overfull \hbox (47.98927pt too wide) in paragraph at lines 1318--1318
+Overfull \hbox (47.98927pt too wide) in paragraph at lines 1336--1336
 |\T1/lmr/m/it/10.95 Quotientenabbildung  
  []
 
@@ -1943,13 +1943,13 @@ File: images/f_modulo_S_T_Diagramm.jpg Graphic file (type jpg)
 
 <use images/f_modulo_S_T_Diagramm.jpg>
 Package marginnote Info: Margin note 37.2 is on absolute page 38
-(marginnote)              on input line 1356.
-Package marginnote Info: right page because not two side mode on input line 135
-6.
+(marginnote)              on input line 1374.
+Package marginnote Info: right page because not two side mode on input line 137
+4.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1356.
+(marginnote)             \marginnoterightadjust ignored on input line 1374.
 
-Underfull \hbox (badness 4279) in paragraph at lines 1356--1359
+Underfull \hbox (badness 4279) in paragraph at lines 1374--1377
 \T1/lmr/m/n/10.95 Die in-du-zier-te Ab-bil-dung $\OML/lmm/m/it/10.95 f=[] [] []
  X=[] \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 ist dann $
 []$ und heiÿt
@@ -1970,13 +1970,13 @@ File: images/Quotient_Moebius.jpg Graphic file (type jpg)
 
 <use images/Quotient_Moebius.jpg>
 Package marginnote Info: Margin note 39.1 is on absolute page 40
-(marginnote)              on input line 1383.
-Package marginnote Info: right page because not two side mode on input line 138
-3.
+(marginnote)              on input line 1401.
+Package marginnote Info: right page because not two side mode on input line 140
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1383.
+(marginnote)             \marginnoterightadjust ignored on input line 1401.
 
-Overfull \hbox (7.24698pt too wide) in paragraph at lines 1383--1383
+Overfull \hbox (7.24698pt too wide) in paragraph at lines 1401--1401
 |\T1/lmr/m/it/10.95 Kontraktion  
  []
 
@@ -2027,11 +2027,11 @@ el_2.jpg> <./images/1_nach_1durch3.jpg> <./images/1_nach_1durch3_2.jpg> <./imag
 es/P.jpg> <./images/Q.jpg> <./images/0_1.jpg> <./images/B2_mit_Rand.jpg> <./ima
 ges/S2.jpg>]
 Package marginnote Info: Margin note 41.1 is on absolute page 41
-(marginnote)              on input line 1424.
-Package marginnote Info: right page because not two side mode on input line 142
-4.
+(marginnote)              on input line 1442.
+Package marginnote Info: right page because not two side mode on input line 144
+2.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1424.
+(marginnote)             \marginnoterightadjust ignored on input line 1442.
  <images/Def_Verkleben.jpg, id=612, 306.4248pt x 269.3262pt>
 File: images/Def_Verkleben.jpg Graphic file (type jpg)
 
@@ -2065,13 +2065,13 @@ File: images/Quadrat_Moebiusband.jpg Graphic file (type jpg)
 File: images/Moebiusband.png Graphic file (type png)
 
 <use images/Moebiusband.png>
-Underfull \hbox (badness 1629) in paragraph at lines 1440--1444
+Underfull \hbox (badness 1629) in paragraph at lines 1458--1462
 []\T1/lmr/m/n/10.95 , d.h.: Be-trach-te $\OML/lmm/m/it/10.95 I[]=[]$ \T1/lmr/m/
 n/10.95 und ver-kle-be al-so die ge-
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 1440--1444
+Underfull \hbox (badness 3343) in paragraph at lines 1458--1462
 \T1/lmr/m/n/10.95 gen-über-lie-gen-den Kan-ten von $\OML/lmm/m/it/10.95 I[]$ \T
 1/lmr/m/n/10.95 in $[]$ Rich-tung $\U/msa/m/n/10.95  $ \T1/lmr/m/n/10.95 Mö-bi-
 us-band
@@ -2089,13 +2089,13 @@ File: images/Zylinder_nach_Kleinsche_Flasche.jpg Graphic file (type jpg)
 File: images/RP2.jpg Graphic file (type jpg)
  <use images/RP2.jpg>
 Package marginnote Info: Margin note 42.1 is on absolute page 43
-(marginnote)              on input line 1460.
-Package marginnote Info: right page because not two side mode on input line 146
-0.
+(marginnote)              on input line 1478.
+Package marginnote Info: right page because not two side mode on input line 147
+8.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1460.
+(marginnote)             \marginnoterightadjust ignored on input line 1478.
 
-Overfull \hbox (16.73956pt too wide) in paragraph at lines 1460--1460
+Overfull \hbox (16.73956pt too wide) in paragraph at lines 1478--1478
 \T1/lmr/m/it/10.95 dimensionaler 
  []
 
@@ -2113,7 +2113,7 @@ File: images/Weg_als_Homotopie.jpg Graphic file (type jpg)
 <use images/Weg_als_Homotopie.jpg> [43
 
  <./images/Homotopie_in_Y.jpg> <./images/Weg_als_Homotopie.jpg>]
-Underfull \hbox (badness 2165) in paragraph at lines 1505--1508
+Underfull \hbox (badness 2165) in paragraph at lines 1523--1526
 []\T1/lmr/bx/n/10.95 Bemerkung III.1. []$\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.9
 5 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ist, ver-se-
 hen mit der so-ge-nann-ten $[]$
@@ -2128,11 +2128,11 @@ File: images/Homotopie_zwischen_Wegen2.jpg Graphic file (type jpg)
 
 <use images/Homotopie_zwischen_Wegen2.jpg>
 Package marginnote Info: Margin note 45.1 is on absolute page 45
-(marginnote)              on input line 1527.
-Package marginnote Info: right page because not two side mode on input line 152
-7.
+(marginnote)              on input line 1545.
+Package marginnote Info: right page because not two side mode on input line 154
+5.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1527.
+(marginnote)             \marginnoterightadjust ignored on input line 1545.
 
 <images/Homotop_Endpunkte.jpg, id=656, 653.8026pt x 297.7524pt>
 File: images/Homotop_Endpunkte.jpg Graphic file (type jpg)
@@ -2154,11 +2154,11 @@ File: images/Residuensatz.jpg Graphic file (type jpg)
 
 <use images/Residuensatz.jpg>
 Package marginnote Info: Margin note 46.1 is on absolute page 47
-(marginnote)              on input line 1564.
-Package marginnote Info: right page because not two side mode on input line 156
-4.
+(marginnote)              on input line 1582.
+Package marginnote Info: right page because not two side mode on input line 158
+2.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1564.
+(marginnote)             \marginnoterightadjust ignored on input line 1582.
 
 <images/aneinanderfuegbar.jpg, id=670, 448.074pt x 178.7478pt>
 File: images/aneinanderfuegbar.jpg Graphic file (type jpg)
@@ -2170,13 +2170,13 @@ File: images/Homotopie_Produkt.jpg Graphic file (type jpg)
 
 <use images/Homotopie_Produkt.jpg>
 Package marginnote Info: Margin note 47.1 is on absolute page 48
-(marginnote)              on input line 1593.
-Package marginnote Info: right page because not two side mode on input line 159
-3.
+(marginnote)              on input line 1611.
+Package marginnote Info: right page because not two side mode on input line 161
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1593.
+(marginnote)             \marginnoterightadjust ignored on input line 1611.
 
-Overfull \hbox (2.77237pt too wide) in paragraph at lines 1593--1593
+Overfull \hbox (2.77237pt too wide) in paragraph at lines 1611--1611
 |\T1/lmr/m/it/10.95 Konstanter 
  []
 
@@ -2190,13 +2190,13 @@ File: images/Schleifen.jpg Graphic file (type jpg)
 <use images/Schleifen.jpg> [46 <./images/aneinanderfuegbar.jpg> <./images/Homot
 opie_Produkt.jpg>]
 Package marginnote Info: Margin note 48.1 is on absolute page 48
-(marginnote)              on input line 1609.
-Package marginnote Info: right page because not two side mode on input line 160
-9.
+(marginnote)              on input line 1627.
+Package marginnote Info: right page because not two side mode on input line 162
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1609.
+(marginnote)             \marginnoterightadjust ignored on input line 1627.
 
-Overfull \hbox (12.40195pt too wide) in paragraph at lines 1609--1609
+Overfull \hbox (12.40195pt too wide) in paragraph at lines 1627--1627
 |\T1/lmr/m/it/10.95 nullhomotop, 
  []
 
@@ -2213,13 +2213,13 @@ File: images/Beweis_Produkt_Lemma.jpg Graphic file (type jpg)
 File: images/Fundamentalgruppe.jpg Graphic file (type jpg)
 
 <use images/Fundamentalgruppe.jpg> [48 <./images/Beweis_Produkt_Lemma.jpg>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1667
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1685
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1667--1667
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1685
 [][][][]$\T1/lmtt/m/n/9 http : / / www . scienceblogs . de / mathlog / 2008 / 0
 3 / physik-[]topologie-[]logik-[]und-[]berechenbarkeit .
  []
@@ -2235,11 +2235,11 @@ File: images/Basispunkt_Unabhaengigkeit.jpg Graphic file (type jpg)
 > <./images/Kobordismus.jpg> <./images/Basispunkt_Unabhaengigkeit.jpg>]
 [50]
 Package marginnote Info: Margin note 52.1 is on absolute page 52
-(marginnote)              on input line 1696.
-Package marginnote Info: right page because not two side mode on input line 169
-6.
+(marginnote)              on input line 1714.
+Package marginnote Info: right page because not two side mode on input line 171
+4.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1696.
+(marginnote)             \marginnoterightadjust ignored on input line 1714.
  <images/S1_mit_1.jpg, id=728, 392.1852pt x 361.35pt>
 File: images/S1_mit_1.jpg Graphic file (type jpg)
 
@@ -2252,13 +2252,13 @@ File: images/I_S1.jpg Graphic file (type jpg)
 
 <use images/I_S1.jpg>
 Package marginnote Info: Margin note 52.2 is on absolute page 52
-(marginnote)              on input line 1719.
-Package marginnote Info: right page because not two side mode on input line 171
-9.
+(marginnote)              on input line 1737.
+Package marginnote Info: right page because not two side mode on input line 173
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1719.
+(marginnote)             \marginnoterightadjust ignored on input line 1737.
 
-Overfull \hbox (31.7178pt too wide) in paragraph at lines 1719--1719
+Overfull \hbox (31.7178pt too wide) in paragraph at lines 1737--1737
 |\T1/lmr/m/it/10.95 schleifenhomotop  
  []
 
@@ -2309,14 +2309,14 @@ File: images/Grosskreis.jpg Graphic file (type jpg)
 File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
-Overfull \hbox (34.92819pt too wide) in paragraph at lines 1811--1818
+Overfull \hbox (34.92819pt too wide) in paragraph at lines 1829--1836
 \T1/lmr/m/n/10.95 men, so lie-fert je-der Weg in $\OML/lmm/m/it/10.95 X$ \T1/lm
 r/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , []
  []
 
 [54 <./images/Lebesguelemma.jpg> <./images/glaetten.jpg> <./images/Grosskreis.j
 pg>]
-Underfull \hbox (badness 3158) in paragraph at lines 1824--1830
+Underfull \hbox (badness 3158) in paragraph at lines 1842--1848
  \T1/lmr/bx/n/10.95 Fol-ge-rung[] \T1/lmr/m/n/10.95 Ho-möo-mor-phe Räu-me ha-be
 n iso-mor-phe Fun-da-men-tal-grup-pen! $[]$
  []
@@ -2356,7 +2356,7 @@ nd_I2_S1.jpg>] <images/Kreissegment.jpg, id=809, 335.3328pt x 371.9496pt>
 File: images/Kreissegment.jpg Graphic file (type jpg)
 
 <use images/Kreissegment.jpg>
-Underfull \hbox (badness 2293) in paragraph at lines 1905--1907
+Underfull \hbox (badness 2293) in paragraph at lines 1923--1925
 \T1/lmr/m/n/10.95 Entfernt man aus $\OML/lmm/m/it/10.95 S[]$ \T1/lmr/m/n/10.95 
 einen Punkt oder auch ein ab-ge-schlos-se-nes Kreis-seg-ment
  []
@@ -2365,19 +2365,19 @@ einen Punkt oder auch ein ab-ge-schlos-se-nes Kreis-seg-ment
 File: images/U_Spirale.jpg Graphic file (type jpg)
 
 <use images/U_Spirale.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1921--1925
+Underfull \hbox (badness 10000) in paragraph at lines 1939--1943
 
  []
 
 [58 <./images/Kreissegment.jpg> <./images/U_Spirale.jpg>] [59]
 Package marginnote Info: Margin note 61.1 is on absolute page 61
-(marginnote)              on input line 1932.
-Package marginnote Info: right page because not two side mode on input line 193
-2.
+(marginnote)              on input line 1950.
+Package marginnote Info: right page because not two side mode on input line 195
+0.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1932.
+(marginnote)             \marginnoterightadjust ignored on input line 1950.
 
-Overfull \hbox (13.03499pt too wide) in paragraph at lines 1932--1932
+Overfull \hbox (13.03499pt too wide) in paragraph at lines 1950--1950
 |\T1/lmr/m/it/10.95 Überlagerung  
  []
 
@@ -2385,14 +2385,14 @@ Overfull \hbox (13.03499pt too wide) in paragraph at lines 1932--1932
 File: images/Spirale_disjunkt.jpg Graphic file (type jpg)
 
 <use images/Spirale_disjunkt.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1939--1943
+Underfull \hbox (badness 10000) in paragraph at lines 1957--1961
  \T1/lmr/bx/n/10.95 Ter-mi-no-lo-gie/Sprechweisen[] $\OML/lmm/m/it/10.95 ^^Y []
  [] [] \OMS/lmsy/m/n/10.95 ! \OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 heiÿt auc
 h $[]$ oder
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 1939--1943
+Underfull \hbox (badness 1571) in paragraph at lines 1957--1961
 []$\T1/lmr/m/n/10.95 , $[]$ der $[]$ und $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10
 .95 der $[]$ Raum. Für
  []
@@ -2416,13 +2416,13 @@ File: images/Selbstueberlagerung_C_Stern.jpg Graphic file (type jpg)
 <use images/Selbstueberlagerung_C_Stern.jpg> [61 <./images/lokal_trivialisieren
 d2.jpg> <./images/Blaetterzahl.jpg> <./images/Selbstueberlagerung_C_Stern.jpg>]
 Package marginnote Info: Margin note 63.1 is on absolute page 63
-(marginnote)              on input line 1968.
-Package marginnote Info: right page because not two side mode on input line 196
-8.
+(marginnote)              on input line 1986.
+Package marginnote Info: right page because not two side mode on input line 198
+6.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 1968.
+(marginnote)             \marginnoterightadjust ignored on input line 1986.
 
-Overfull \hbox (0.95381pt too wide) in paragraph at lines 1968--1968
+Overfull \hbox (0.95381pt too wide) in paragraph at lines 1986--1986
 |\T1/lmr/m/it/10.95 Äquivalenz 
  []
 
@@ -2433,13 +2433,13 @@ File: images/Aequivalenz_Ueberlagerungen.jpg Graphic file (type jpg)
 File: images/Weg_stetige_Abbildung.jpg Graphic file (type jpg)
 
 <use images/Weg_stetige_Abbildung.jpg>
-Overfull \hbox (34.92819pt too wide) in paragraph at lines 1983--1990
+Overfull \hbox (34.92819pt too wide) in paragraph at lines 2001--2008
 \T1/lmr/m/n/10.95 men, so lie-fert je-der Weg in $\OML/lmm/m/it/10.95 X$ \T1/lm
 r/m/n/10.95 einen Weg in $\OML/lmm/m/it/10.95 Y$\T1/lmr/m/n/10.95 , []
  []
 
 [62 <./images/Aequivalenz_Ueberlagerungen.jpg>]
-Underfull \hbox (badness 3158) in paragraph at lines 1996--2002
+Underfull \hbox (badness 3158) in paragraph at lines 2014--2020
  \T1/lmr/bx/n/10.95 Fol-ge-rung[] \T1/lmr/m/n/10.95 Ho-möo-mor-phe Räu-me ha-be
 n iso-mor-phe Fun-da-men-tal-grup-pen! $[]$
  []
@@ -2462,11 +2462,11 @@ File: images/Zylinder_nach_D2.jpg Graphic file (type jpg)
 File: images/Rand_I2_S1.jpg Graphic file (type jpg)
  <use images/Rand_I2_S1.jpg> [65]
 Package marginnote Info: Margin note 67.1 is on absolute page 67
-(marginnote)              on input line 2080.
-Package marginnote Info: right page because not two side mode on input line 208
-0.
+(marginnote)              on input line 2098.
+Package marginnote Info: right page because not two side mode on input line 209
+8.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2080.
+(marginnote)             \marginnoterightadjust ignored on input line 2098.
 
 <images/Lift_Abbildung.jpg, id=879, 267.399pt x 252.4632pt>
 File: images/Lift_Abbildung.jpg Graphic file (type jpg)
@@ -2499,22 +2499,22 @@ File: images/Homotopie_konstanter_Weg_Lift.jpg Graphic file (type jpg)
 
 <use images/Homotopie_konstanter_Weg_Lift.jpg>
 Package marginnote Info: Margin note 69.1 is on absolute page 69
-(marginnote)              on input line 2169.
-Package marginnote Info: right page because not two side mode on input line 216
-9.
+(marginnote)              on input line 2187.
+Package marginnote Info: right page because not two side mode on input line 218
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2169.
+(marginnote)             \marginnoterightadjust ignored on input line 2187.
 
-Overfull \hbox (36.32782pt too wide) in paragraph at lines 2169--2169
+Overfull \hbox (36.32782pt too wide) in paragraph at lines 2187--2187
 |\T1/lmr/m/it/10.95 charakterisierende 
  []
 
 Package marginnote Info: Margin note 69.2 is on absolute page 70
-(marginnote)              on input line 2177.
-Package marginnote Info: right page because not two side mode on input line 217
-7.
+(marginnote)              on input line 2195.
+Package marginnote Info: right page because not two side mode on input line 219
+5.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2177.
+(marginnote)             \marginnoterightadjust ignored on input line 2195.
 <images/Lift.jpg, id=901, 271.2534pt x 434.5836pt>
 File: images/Lift.jpg Graphic file (type jpg)
  <use images/Lift.jpg>
@@ -2523,7 +2523,7 @@ Lift.jpg>] <images/Normalisation.jpg, id=911, 393.1488pt x 452.4102pt>
 File: images/Normalisation.jpg Graphic file (type jpg)
 
 <use images/Normalisation.jpg>
-Overfull \hbox (9.23367pt too wide) in paragraph at lines 2201--2203
+Overfull \hbox (9.23367pt too wide) in paragraph at lines 2219--2221
 $\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^Y; []\OT1/lmr/m
 /n/10.95 ) := \OML/lmm/m/it/10.95 ^^Y[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
 ^^Y[]\OT1/lmr/m/n/10.95 ([]\OML/lmm/m/it/10.95 ; []\OT1/lmr/m/n/10.95 ))$ \T1/l
@@ -2552,11 +2552,11 @@ File: images/2011_12_20_Bild5.jpg Graphic file (type jpg)
 
 <use images/2011_12_20_Bild5.jpg>
 Package marginnote Info: Margin note 73.1 is on absolute page 73
-(marginnote)              on input line 2275.
-Package marginnote Info: right page because not two side mode on input line 227
-5.
+(marginnote)              on input line 2293.
+Package marginnote Info: right page because not two side mode on input line 229
+3.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2275.
+(marginnote)             \marginnoterightadjust ignored on input line 2293.
 
 <images/2011_12_20_Bild6.jpg, id=936, 618.1494pt x 337.26pt>
 File: images/2011_12_20_Bild6.jpg Graphic file (type jpg)
@@ -2577,13 +2577,13 @@ File: images/2011_12_22_Bild3.png Graphic file (type png)
 <use images/2011_12_22_Bild3.png> [73 <./images/2011_12_22_Bild1.png> <./images
 /2011_12_22_Bild2.png>]
 Package marginnote Info: Margin note 75.1 is on absolute page 75
-(marginnote)              on input line 2329.
-Package marginnote Info: right page because not two side mode on input line 232
-9.
+(marginnote)              on input line 2347.
+Package marginnote Info: right page because not two side mode on input line 234
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2329.
+(marginnote)             \marginnoterightadjust ignored on input line 2347.
 
-Overfull \hbox (44.17287pt too wide) in paragraph at lines 2329--2329
+Overfull \hbox (44.17287pt too wide) in paragraph at lines 2347--2347
 |\T1/lmr/m/it/10.95 Decktransformation  
  []
 
@@ -2606,22 +2606,22 @@ File: images/2011_12_22_Bild7.png Graphic file (type png)
 <use images/2011_12_22_Bild7.png> [75 <./images/2011_12_22_Bild5.png> <./images
 /2011_12_22_Bild6.png> <./images/2011_12_22_Bild7.png>]
 Package marginnote Info: Margin note 77.1 is on absolute page 77
-(marginnote)              on input line 2372.
-Package marginnote Info: right page because not two side mode on input line 237
-2.
+(marginnote)              on input line 2390.
+Package marginnote Info: right page because not two side mode on input line 239
+0.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2372.
+(marginnote)             \marginnoterightadjust ignored on input line 2390.
 
 <images/2011_12_22_Bild8.png, id=979, 198.0198pt x 485.6544pt>
 File: images/2011_12_22_Bild8.png Graphic file (type png)
 
 <use images/2011_12_22_Bild8.png>
 Package marginnote Info: Margin note 77.2 is on absolute page 77
-(marginnote)              on input line 2393.
-Package marginnote Info: right page because not two side mode on input line 239
-3.
+(marginnote)              on input line 2411.
+Package marginnote Info: right page because not two side mode on input line 241
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2393.
+(marginnote)             \marginnoterightadjust ignored on input line 2411.
 
 <images/2011_12_22_Bild9.png, id=980, 164.7756pt x 165.7392pt>
 File: images/2011_12_22_Bild9.png Graphic file (type png)
@@ -2638,22 +2638,22 @@ File: images/2012_01_10_Bild02.png Graphic file (type png)
 
 <use images/2012_01_10_Bild02.png>
 Package marginnote Info: Margin note 79.1 is on absolute page 80
-(marginnote)              on input line 2433.
-Package marginnote Info: right page because not two side mode on input line 243
-3.
+(marginnote)              on input line 2451.
+Package marginnote Info: right page because not two side mode on input line 245
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2433.
+(marginnote)             \marginnoterightadjust ignored on input line 2451.
  [78
 
  <./images/2012_01_10_Bild01.png> <./images/2012_01_10_Bild02.png>]
 Package marginnote Info: Margin note 80.1 is on absolute page 80
-(marginnote)              on input line 2439.
-Package marginnote Info: right page because not two side mode on input line 243
-9.
+(marginnote)              on input line 2457.
+Package marginnote Info: right page because not two side mode on input line 245
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2439.
+(marginnote)             \marginnoterightadjust ignored on input line 2457.
 
-Overfull \hbox (7.15291pt too wide) in paragraph at lines 2439--2439
+Overfull \hbox (7.15291pt too wide) in paragraph at lines 2457--2457
 |\T1/lmr/m/it/10.95 orientierbar  
  []
 
@@ -2704,13 +2704,13 @@ File: images/2012_01_10_Bild13.png Graphic file (type png)
 
 <use images/2012_01_10_Bild13.png>
 Package marginnote Info: Margin note 82.1 is on absolute page 83
-(marginnote)              on input line 2508.
-Package marginnote Info: right page because not two side mode on input line 250
-8.
+(marginnote)              on input line 2526.
+Package marginnote Info: right page because not two side mode on input line 252
+6.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2508.
+(marginnote)             \marginnoterightadjust ignored on input line 2526.
 
-Overfull \hbox (45.98172pt too wide) in paragraph at lines 2508--2508
+Overfull \hbox (45.98172pt too wide) in paragraph at lines 2526--2526
 |\T1/lmr/m/it/10.95 Zusammenhängende 
  []
 
@@ -2722,7 +2722,7 @@ File: images/2012_01_10_Bild14.png Graphic file (type png)
 File: images/2012_01_10_Bild15.png Graphic file (type png)
 
 <use images/2012_01_10_Bild15.png>
-Underfull \hbox (badness 6893) in paragraph at lines 2512--2512
+Underfull \hbox (badness 6893) in paragraph at lines 2530--2530
 \T1/lmr/m/n/10.95 der Rän-der, so heiÿt der durch die-se Iden-ti-fi-ka-ti-on en
 t-ste-hen-de Raum die
  []
@@ -2785,25 +2785,6 @@ File: images/2012_01_12_Bild6.png Graphic file (type png)
 
 <use images/2012_01_12_Bild6.png>
 Package marginnote Info: Margin note 87.1 is on absolute page 87
-(marginnote)              on input line 2620.
-Package marginnote Info: right page because not two side mode on input line 262
-0.
-Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2620.
-
-Overfull \hbox (27.0936pt too wide) in paragraph at lines 2620--2620
-|\T1/lmr/m/it/10.95 kombinatorische 
- []
-
-<images/2012_01_12_Bild7.png, id=1115, 383.031pt x 226.446pt>
-File: images/2012_01_12_Bild7.png Graphic file (type png)
-
-<use images/2012_01_12_Bild7.png>
-Underfull \hbox (badness 10000) in paragraph at lines 2627--2630
-
- []
-
-Package marginnote Info: Margin note 87.2 is on absolute page 88
 (marginnote)              on input line 2638.
 Package marginnote Info: right page because not two side mode on input line 263
 8.
@@ -2814,8 +2795,27 @@ Overfull \hbox (27.0936pt too wide) in paragraph at lines 2638--2638
 |\T1/lmr/m/it/10.95 kombinatorische 
  []
 
+<images/2012_01_12_Bild7.png, id=1115, 383.031pt x 226.446pt>
+File: images/2012_01_12_Bild7.png Graphic file (type png)
 
-Overfull \hbox (17.63712pt too wide) in paragraph at lines 2638--2638
+<use images/2012_01_12_Bild7.png>
+Underfull \hbox (badness 10000) in paragraph at lines 2645--2648
+
+ []
+
+Package marginnote Info: Margin note 87.2 is on absolute page 88
+(marginnote)              on input line 2656.
+Package marginnote Info: right page because not two side mode on input line 265
+6.
+Package marginnote Info: xpos seams to be 3729359sp,
+(marginnote)             \marginnoterightadjust ignored on input line 2656.
+
+Overfull \hbox (27.0936pt too wide) in paragraph at lines 2656--2656
+|\T1/lmr/m/it/10.95 kombinatorische 
+ []
+
+
+Overfull \hbox (17.63712pt too wide) in paragraph at lines 2656--2656
 \T1/lmr/m/it/10.95 Charakteristik  
  []
 
@@ -2830,20 +2830,20 @@ File: images/2012_01_17_Bild.png Graphic file (type png)
 
 <use images/2012_01_17_Bild.png> [87 <./images/2012_01_12_Bild8.png>]
 
-LaTeX Warning: Command \" invalid in math mode on input line 2677.
+LaTeX Warning: Command \" invalid in math mode on input line 2695.
 
 <images/2012_01_19_Bild1.png, id=1146, 638.8668pt x 504.9264pt>
 File: images/2012_01_19_Bild1.png Graphic file (type png)
 
 <use images/2012_01_19_Bild1.png>
 Package marginnote Info: Margin note 89.1 is on absolute page 90
-(marginnote)              on input line 2697.
-Package marginnote Info: right page because not two side mode on input line 269
-7.
+(marginnote)              on input line 2715.
+Package marginnote Info: right page because not two side mode on input line 271
+5.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2697.
+(marginnote)             \marginnoterightadjust ignored on input line 2715.
 
-Overfull \hbox (25.42456pt too wide) in paragraph at lines 2697--2697
+Overfull \hbox (25.42456pt too wide) in paragraph at lines 2715--2715
 |\T1/lmr/m/it/10.95 Tangentialraum  
  []
 
@@ -2857,13 +2857,13 @@ File: images/2012_01_19_Bild3.png Graphic file (type png)
 
 <use images/2012_01_19_Bild3.png>
 Package marginnote Info: Margin note 90.1 is on absolute page 90
-(marginnote)              on input line 2713.
-Package marginnote Info: right page because not two side mode on input line 271
-3.
+(marginnote)              on input line 2731.
+Package marginnote Info: right page because not two side mode on input line 273
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2713.
+(marginnote)             \marginnoterightadjust ignored on input line 2731.
 
-Overfull \hbox (62.92157pt too wide) in paragraph at lines 2713--2713
+Overfull \hbox (62.92157pt too wide) in paragraph at lines 2731--2731
 |\T1/lmr/m/it/10.95 Einheitsnormalvektoren  
  []
 
@@ -2871,7 +2871,7 @@ Overfull \hbox (62.92157pt too wide) in paragraph at lines 2713--2713
 File: images/2012_01_19_Bild4.png Graphic file (type png)
 
 <use images/2012_01_19_Bild4.png>
-Overfull \hbox (36.8936pt too wide) in paragraph at lines 2721--2722
+Overfull \hbox (36.8936pt too wide) in paragraph at lines 2739--2740
  [] 
  []
 
@@ -2881,11 +2881,11 @@ File: images/2012_01_19_Bild5.png Graphic file (type png)
 <use images/2012_01_19_Bild5.png> [89 <./images/2012_01_19_Bild2.png> <./images
 /2012_01_19_Bild3.png> <./images/2012_01_19_Bild4.png>]
 Package marginnote Info: Margin note 91.1 is on absolute page 91
-(marginnote)              on input line 2729.
-Package marginnote Info: right page because not two side mode on input line 272
-9.
+(marginnote)              on input line 2747.
+Package marginnote Info: right page because not two side mode on input line 274
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2729.
+(marginnote)             \marginnoterightadjust ignored on input line 2747.
 
 <images/2012_01_19_Bild6.png, id=1173, 249.5724pt x 155.1396pt>
 File: images/2012_01_19_Bild6.png Graphic file (type png)
@@ -2901,22 +2901,22 @@ File: images/2012_01_19_Bild8.jpg Graphic file (type jpg)
 
 <use images/2012_01_19_Bild8.jpg>
 Package marginnote Info: Margin note 92.1 is on absolute page 92
-(marginnote)              on input line 2763.
-Package marginnote Info: right page because not two side mode on input line 276
-3.
+(marginnote)              on input line 2781.
+Package marginnote Info: right page because not two side mode on input line 278
+1.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2763.
+(marginnote)             \marginnoterightadjust ignored on input line 2781.
 
-Overfull \hbox (3.99127pt too wide) in paragraph at lines 2763--2763
+Overfull \hbox (3.99127pt too wide) in paragraph at lines 2781--2781
 |\T1/lmr/m/it/10.95 Bogenlänge  
  []
 
 Package marginnote Info: Margin note 92.2 is on absolute page 92
-(marginnote)              on input line 2770.
-Package marginnote Info: right page because not two side mode on input line 277
-0.
+(marginnote)              on input line 2788.
+Package marginnote Info: right page because not two side mode on input line 278
+8.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2770.
+(marginnote)             \marginnoterightadjust ignored on input line 2788.
 [91 <./images/2012_01_19_Bild8.jpg>]
 <images/2012_01_24_Bild1.jpg, id=1195, 610.4406pt x 467.8278pt>
 File: images/2012_01_24_Bild1.jpg Graphic file (type jpg)
@@ -2926,30 +2926,30 @@ File: images/2012_01_24_Bild1.jpg Graphic file (type jpg)
 File: images/2012_01_24_Bild2.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild2.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 2827--2829
+Underfull \hbox (badness 10000) in paragraph at lines 2845--2847
 
  []
 
 [92 <./images/2012_01_24_Bild1.jpg>]
 Package marginnote Info: Margin note 94.1 is on absolute page 94
-(marginnote)              on input line 2839.
-Package marginnote Info: right page because not two side mode on input line 283
-9.
+(marginnote)              on input line 2857.
+Package marginnote Info: right page because not two side mode on input line 285
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2839.
+(marginnote)             \marginnoterightadjust ignored on input line 2857.
 
 <images/2012_01_24_Bild3.jpg, id=1204, 523.7166pt x 339.1872pt>
 File: images/2012_01_24_Bild3.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild3.jpg>
 Package marginnote Info: Margin note 94.2 is on absolute page 94
-(marginnote)              on input line 2854.
-Package marginnote Info: right page because not two side mode on input line 285
-4.
+(marginnote)              on input line 2872.
+Package marginnote Info: right page because not two side mode on input line 287
+2.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2854.
+(marginnote)             \marginnoterightadjust ignored on input line 2872.
 
-Overfull \hbox (15.27014pt too wide) in paragraph at lines 2854--2854
+Overfull \hbox (15.27014pt too wide) in paragraph at lines 2872--2872
 |\T1/lmr/m/it/10.95 Flächeninhalt  
  []
 
@@ -2959,13 +2959,13 @@ File: images/2012_01_24_Bild4.jpg Graphic file (type jpg)
 <use images/2012_01_24_Bild4.jpg> [93 <./images/2012_01_24_Bild2.jpg> <./images
 /2012_01_24_Bild3.jpg>]
 Package marginnote Info: Margin note 95.1 is on absolute page 95
-(marginnote)              on input line 2877.
-Package marginnote Info: right page because not two side mode on input line 287
-7.
+(marginnote)              on input line 2895.
+Package marginnote Info: right page because not two side mode on input line 289
+5.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2877.
+(marginnote)             \marginnoterightadjust ignored on input line 2895.
 
-Overfull \hbox (9.1849pt too wide) in paragraph at lines 2877--2877
+Overfull \hbox (9.1849pt too wide) in paragraph at lines 2895--2895
 |\T1/lmr/m/it/10.95 isometrische 
  []
 
@@ -2978,7 +2978,7 @@ File: images/2012_01_24_Bild6.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild6.jpg> [94 <./images/2012_01_24_Bild4.jpg> <./images
 /2012_01_24_Bild5.jpg> <./images/2012_01_24_Bild6.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2896--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2914--2916
 
  []
 
@@ -2986,7 +2986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2896--2898
 File: images/2012_01_24_Bild7.jpg Graphic file (type jpg)
 
 <use images/2012_01_24_Bild7.jpg> [95 <./images/2012_01_24_Bild7.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2933--2935
+Underfull \hbox (badness 10000) in paragraph at lines 2951--2953
 \T1/lmr/bx/n/10.95 drats[] [][]$\T1/lmtt/m/n/10.95 http : / / de . wikipedia . 
 org / wiki / Flatland$[][] [][]$http : / / www . flatlandthefilm .
  []
@@ -2999,17 +2999,17 @@ File: images/2012_01_26_Bild1.jpg Graphic file (type jpg)
 File: images/2012_01_26_Bild2.jpg Graphic file (type jpg)
 
 <use images/2012_01_26_Bild2.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 2948--2951
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2969
 
  []
 
 [96 <./images/2012_01_26_Bild1.jpg> <./images/2012_01_26_Bild2.jpg>]
 Package marginnote Info: Margin note 98.1 is on absolute page 98
-(marginnote)              on input line 2967.
-Package marginnote Info: right page because not two side mode on input line 296
-7.
+(marginnote)              on input line 2985.
+Package marginnote Info: right page because not two side mode on input line 298
+5.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 2967.
+(marginnote)             \marginnoterightadjust ignored on input line 2985.
 
 <images/2012_01_26_Bild3.jpg, id=1246, 489.027pt x 483.7272pt>
 File: images/2012_01_26_Bild3.jpg Graphic file (type jpg)
@@ -3075,7 +3075,7 @@ ts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb
 ></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/ams/msbm10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm7.pfb
 >
-Output written on mitschrieb_geotopo.pdf (100 pages, 15333302 bytes).
+Output written on mitschrieb_geotopo.pdf (100 pages, 15334027 bytes).
 PDF statistics:
  1478 PDF objects out of 1728 (max. 8388607)
  543 named destinations out of 1000 (max. 131072)
