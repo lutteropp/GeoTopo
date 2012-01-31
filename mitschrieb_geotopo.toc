@@ -85,3 +85,6 @@
 \contentsline {subsection}{\numberline {3.1}Die zweite Fundamentalform}{96}{subsection.4.3.1}
 \contentsline {paragraph}{Motivation}{96}{section*.113}
 \contentsline {paragraph}{Bemerke:}{97}{section*.114}
+\contentsline {paragraph}{Infos:}{100}{section*.115}
+\contentsline {paragraph}{Exkurs: Hyperbolische Geometrie}{100}{section*.116}
+\contentsline {paragraph}{Geometrische Motivation}{100}{section*.117}

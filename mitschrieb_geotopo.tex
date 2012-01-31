@@ -2983,7 +2983,9 @@ also gilt mit $r_{uv} = r_{vu}$ auch $r_u \cdot n_v = r_v \cdot n_u$
 
 \begin{definition}{zweite Fundamentalform}
 	Die \underline{zweite Fundamentalform} einer Fläche, $\RM{2}$, parametrisiert lokal durch $r(u,v)$, ist definiert als
-	$$\boxed{L du^2 + 2 M dudv + N dv^2}$$
+	$$\boxed{L du^2 + 2 M dudv + N dv^2}$$ \footnote{Als Matrix: $\begin{pmatrix}
+	L & M \\ M & N
+\end{pmatrix}$}
 mit $L:= r_{uu} \cdot n, \quad M := r_{uv} \cdot n, \quad N:= r_{vv} \cdot n$
 \end{definition}
 
@@ -3061,7 +3063,108 @@ mit $L:= r_{uu} \cdot n, \quad M := r_{uv} \cdot n, \quad N:= r_{vv} \cdot n$
 		\includegraphics[scale=0.4]{images/2012_01_26_Bild10.jpg}
 	\end{center}
 	Schrumpfe $S$, bis $S$ einen Punkt von $F$ berührt $\Rightarrow$ $F$ ist dort $\Rightarrow$ $F$ ist dort lokal Graph einer Funktion $f-(R - \sqrt{R^2 - x^2 - y^2}) \geq 0$
-	$\Rightarrow$ der erste nichttriviale term in einer Taylor-Entwicklung um $p$ ist dann  $$\frac{1}{2} (f_{xx} x^2 + 2 f_{xy} xy + f_{yy} y^2) - \frac{1}{2R} (x^2 + y^2) \Rightarrow Lx^2 + 2 M xy + N y^2 \geq \frac{1}{R} (x^2+y^2) > 0.$$
+	$\Rightarrow$ der erste nichttriviale Term in einer Taylor-Entwicklung um $p$ ist dann  $$\frac{1}{2} (f_{xx} x^2 + 2 f_{xy} xy + f_{yy} y^2) - \frac{1}{2R} (x^2 + y^2) \Rightarrow Lx^2 + 2 M xy + N y^2 \geq \frac{1}{R} (x^2+y^2) > 0.$$
 \end{proof}
 
+%31.01.2012
+\paragraph{Infos:}
+\begin{itemize}
+	\item Seminar über Differentialtopologie SoSe 2012 (ab 4. Semester), Anmeldung bei Frau Peters/ Dr. Grensing
+	\item \underline{Vorbesprechung} Mo. 6.2. 18 Uhr A4-09 (Allianz)
+	\item \underline{HEUTE} Anand Dessai: "\underline{Krümmung und Symmetrie}" Kolloquium Neuer Hörsaal (Architektur) 17:30 Uhr
+\end{itemize}
+
+\paragraph{Exkurs: Hyperbolische Geometrie}
+\paragraph{Geometrische Motivation}
+\begin{center}
+	\includegraphics[scale=0.3]{images/2012_01_31_Bild1.jpg}
+\end{center}
+$F:=$Fläche($\Delta$) = $(\alpha + \beta + \gamma - \pi) \cdot R^2$
+$$\Leftrightarrow \frac{\alpha + \beta + \gamma - \pi}{F(\Delta)} = \frac{1}{R^2}$$ \underline{\underline{unabhängig von $\Delta$ !}} \newline
+$R \rightarrow \infty \leadsto$ Satz von Thales $\alpha + \beta + \gamma = \pi$ für Euklidische Dreiecke (in $\R^2$)
+
+\begin{center}
+	\includegraphics[scale=0.3]{images/2012_01_31_Bild2.jpg}
+\end{center}
+$$\lim\limits_{"\Delta \rightarrow \{p\}"}\frac{\alpha + \beta + \gamma - \pi}{F(\Delta)} =: K(p)$$ \underline{\underline{existiert}} und heißt \underline{\underline{Gauß-Krümmung}} der Fläche in $p$!
+
+Verallgemeinerung der Gauß-Krümmung auf Mannigfaltigkeiten beliebiger Dimension:
+\underline{\underline{Schnittkrümmung}}
+
+\begin{definition}{Gauß-Krümmung}
+Die \underline{Gauß-Krümmung} einer Fläche im $\R^3$ ist die Funktion
+$$K := \frac{LN - M^2}{EG - F^2} = \frac{\det \RM{2}}{\det \RM{1}}$$
+\end{definition}
+
+\begin{remark}
+	Bei Koordinatenwechsel gilt
+	$$\begin{pmatrix}	u_x & u_y \\ v_x & v_y
+	\end{pmatrix}		
+	\begin{pmatrix}
+	E & F \\ F & G
+	\end{pmatrix}	
+	\begin{pmatrix}
+	u_x & v_x \\ u_y & v_y
+	\end{pmatrix}			
+	=	
+	\begin{pmatrix}
+	E^\prime & F^\prime \\ F^\prime & G^\prime
+	\end{pmatrix}$$
+	und für die Determinanten damit
+	$$(u_xv_y - v_x u_y)^2 (EG - F^2) = (E^\prime G^\prime - {F^\prime}^2)$$
+	$\RM{2}$ ist wie $\RM{1}$ eine quadratische Form auf den Tangentialräumen und transformiert damit unter Koordinatenwechsel ebenso \newline
+	$\Rightarrow$ Der Determinantenquotient ist invariant unter Kartenwechsel \newline
+	$\Rightarrow$ $K$ ist \underline{wohldefiniert}!	
+\end{remark}
+
+\begin{example}
+	\begin{enumerate}
+		\item Für eine Ebene gilt $L=M=N=0 \Rightarrow K = 0$
+		\item Für eine Sphäre von Radius $R$ gilt $\RM{2} = \frac{1}{R} \RM{1} \Rightarrow K = \frac{1}{R^2}$ 
+	\end{enumerate}
+\end{example}
+
+\begin{theorem}[Theorema egregium; Gauß 1828]
+	Die zweite Fundamentalform ist durch die erste vollständig bestimmt. Insbesondere besitzen lokal isometrische Flächen dieselbe Gauß-Krümmung.
+\end{theorem}
+
+\begin{example}
+	(Bsp.: Kegel und Zylinder und Ebene haben $K \equiv 0$.)
+\end{example}
+
+\begin{proof}
+	Die betrachtete Fläche $F$ sei lokal durch eine Parametrisierung $r(u,v)$ bestimmt, und wir betrachten eine glatte Familie $$a = a(u,v) = f(u,v) r_u + g(u,v) r_v$$
+	von Tangentialvektoren an $F$.
+\begin{center}
+	\includegraphics[scale=0.3]{images/2012_01_31_Bild3.jpg}
+\end{center}
+	Leiten wir nun $a = a(u,v)$ längs $u$ oder längs $v$ ab, so ist das Resultat nicht notwendig mehr tangential an $T_aF$, so liefert zunächst irgendwelche Vektoren im $\R^3$. \underline{Aber} wir können die zu $F$ normale Komponente entfernen und erhalten dann die \underline{Richtungsableitungen} 
+	$$\nabla_u a = a_u - (n \cdot a_u) n \quad (n = \frac{r_u \times r_v}{|r_u \times r_v|})$$
+	$$= a_u + (n_u \cdot a) \cdot n \quad (a \perp n)$$
+	bzw.
+	$$\nabla_v a = a_v + (n \cdot a_v) n$$ 
+	
+	$\nabla_v$ und $\nabla_u$ hängen nur von $E,F,G$ ab!
+	Es gilt
+	$$\nabla_v \nabla_u = \nabla_v (\nabla_u a) = \nabla_v (a_u + (n_u \cdot a) n)$$
+	$$= \nabla_v a_u + \nabla_v((n_u \cdot a) n) = a_{vn} - (n \cdot a_{vn}) n + \nabla_v((n_u a) n)$$
+	$$= a_{vn} - (n \cdot a_{vn}) n + (n_u \cdot a) n_v,$$
+	denn:
+	\begin{itemize}
+		\item weil wir die Tangentialkomponente berechnen, braucht man sich um den Koeffizienten $(n_u \cdot a)$ von $n$ gar nicht zu kümmern, und 
+		\item weil $n$ Einheitsvektor ist, ist $n_v$ schon tangential
+	\end{itemize}
+	
+	Vertauschen von $u$ und $v$ und $a_{uv} = a_{vn}$ liefert $$\nabla_v \nabla_u a - \nabla_u \nabla_v a = (n_u \cdot a) n_v - (n_v \cdot a) n_u = (n_u \times n_v) \times a.$$
+
+	Es ist $n_u \times n_v = \lambda \cdot n$, und das bedeutet:
+	$$\nabla_v \nabla_u - \nabla_u \nabla_v$$ "wirkt" auf $a$ wie folgt:
+	$a$ wird in der Tangentialebene um $90 \deg$ gedreht und dann mit $\lambda$ multipliziert, wobei $\lambda$ intrinsisch (nur von $F/I$ abhängig) ist.
+	
+	$n_u \times n_v = \lambda \cdot n$ liefert ferner $\lambda n \cdot r_u \times r_v$
+	$= (n_u \times n_v) \cdot (r_u \times r_v) = (n_u \cdot r_u) (n_v \cdot r_v) - (n_u \cdot r_v) (n_v \cdot r_u)$
+	$= LN - M^2!$
+	Außerdem ist $n \cdot r_u \times r_v = \sqrt{EG -F^2}$
+	$$\Rightarrow \lambda = \frac{LN - M^2}{\sqrt{EG - F^2}} \Rightarrow LN - M^2 \text{ und somit auch $K$ hängen nur von $\RM{1}$ (und deren Ableitung) ab!}$$
+\end{proof}
 \end{document}
