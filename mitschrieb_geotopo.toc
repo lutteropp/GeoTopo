@@ -88,3 +88,5 @@
 \contentsline {paragraph}{Infos:}{100}{section*.115}
 \contentsline {paragraph}{Exkurs: Hyperbolische Geometrie}{100}{section*.116}
 \contentsline {paragraph}{Geometrische Motivation}{100}{section*.117}
+\contentsline {section}{\numberline {4}Der Satz von Gau\IeC {\ss }-Bonnet}{103}{section.4.4}
+\contentsline {paragraph}{Konvention:}{103}{section*.118}

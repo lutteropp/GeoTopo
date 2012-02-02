@@ -3167,4 +3167,96 @@ $$K := \frac{LN - M^2}{EG - F^2} = \frac{\det \RM{2}}{\det \RM{1}}$$
 	Außerdem ist $n \cdot r_u \times r_v = \sqrt{EG -F^2}$
 	$$\Rightarrow \lambda = \frac{LN - M^2}{\sqrt{EG - F^2}} \Rightarrow LN - M^2 \text{ und somit auch $K$ hängen nur von $\RM{1}$ (und deren Ableitung) ab!}$$
 \end{proof}
+
+%02.02.2012
+\newpage
+\section{Der Satz von Gauß-Bonnet}
+
+\begin{definition}{geodätische Krümmung}
+	Die \underline{geodätische Krümmung} $\kappa_g$ einer glatten und nach Bogenlänge parametrisierten Kurve $\gamma$ in einer orientierten Fläche $M$ in $\R^3$ ist
+	$$\boxed{\kappa_g := t^\prime \cdot n \times t}$$
+	mit $t = \frac{d\gamma}{ds}, \gamma = \gamma(s)$
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_02_Bild1.jpg}
+	\end{center}
+\end{definition}
+
+\begin{remark}
+	$t = \gamma^\prime = \frac{d \gamma}{d s}$ ist tangential an $M$, der "Beschleunigungsvektor" $$t^\prime = \gamma^{\prime\prime} = \frac{d^2 \gamma}{d s^2}$$ im Allgemeinen nicht.
+	\newline
+	$\gamma$ ist nach Bogenlänge parametrisiert $\Rightarrow ||t|| = ||\gamma^\prime|| = 1$ \newline
+	$\Rightarrow t \cdot t = 1 \Rightarrow t^\prime \cdot t = \frac{(t \cdot t)^\prime}{2} = 0$
+	$\Rightarrow t^\prime \perp t \Rightarrow t^\prime = \alpha \underline{n} + \beta \underline{n \times t}$
+	$\Rightarrow \kappa_g = \beta$ ist also die an $M$ tangentiale Komponente von $t^\prime$ und damit \underline{intrinsisch}! \footnote{d.h. eine nur von der Fläche selbst abhängige Größe}
+	
+	\paragraph{Konvention:} 
+	Alle Kurven seien nach Bogenlänge parametrisiert.
+\end{remark}
+
+\begin{definition}{einfache geschlossene Kurve}
+	Eine \underline{einfache geschlossene} Kurve in $M$ ist eine glatte Kurve in $M$, deren Bild zu $S^1$ homöomorph ist.
+\end{definition}
+
+\begin{theorem}[Gauß-Bonnet $\RM{1}$]
+	Es sei $\gamma$ eine einfache geschlossene Kurve, die ganz in einer Kartenumgebung einer orientierten Fläche $M$ in $\R^3$ verlaufe und den Integrationsbereich $R$ umschließe. Dann gilt
+	$$\int\limits_{\gamma = \partial R} \kappa_g ds = 2 \pi - \int\limits_{R}{K dA}$$
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_02_Bild2.jpg}
+	\end{center}
+	Dabei bezeichnet $dA$ das Flächenelement von $M$, $K$ die Gauß-Krümmung von $M$, $ds$ das Bogenlängeelement von $\gamma$ und $\kappa_g$ die geodätische Krümmung von $\gamma$.
+\end{theorem}
+
+\begin{proof}
+	Stokes Satz im $\R^3$ besagt für eine Fläche $S \subset \R^3$ berandende Kurve $C$ und ein stetig differenzierbares Vektorfeld $a$
+	$$\int\limits_{C}{a \text{ } ds} = \int\limits_{S}{\text{rot }a \text{ } dS}$$ \footnote{rot bezeichnet die Rotation des Vektorfeldes}
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_02_Bild3.jpg}
+	\end{center}
+	In der Ebene und für $a =(P,Q,O)$ wird dies zur \underline{Greenschen Formel}
+	$$(*) \quad \int\limits_{\gamma}{(P u^\prime + Q v^\prime) ds} = \int\limits_{R}{(Q_u - P_v) dudv}$$
+	Der Bild $\gamma$ enthaltende Kartenbereich in $M$ sei parametrisiert durch $r(u,v)$.
+	
+	Wähle nun ein tangentiales \footnote{also im Tangentialraum befindliches} Einheitsvektorfeld an $M$, z.B. $e := \frac{r_u}{||r_u||}$, so dass $e$ und $n \times e$ für jeden Punkt $p$ des Kartenbereichs eine Orthonormalbasis von $T_pM$ bilden.
+	$||e|| = 1 \Rightarrow \nabla_u e$ und $\nabla_v e$ sind tangential und senkrecht zu $e$ $\Rightarrow \exists$ glatte Funktionen $P,Q$ mit 
+	$$\nabla_u e = P n \times e, \nabla_v e = Q n \times e$$
+	Mit $a:= (P,Q,0)$ wird die linke Seite der Greenschen Formel dann zu
+	$$\int\limits_{\gamma}{u^\prime \nabla_u e_u + v^\prime \nabla_v e_v} \cdot n \times e ds = \int\limits_{\gamma}{e^\prime \cdot n \times e ds}$$
+	Mit $t = \gamma^\prime$ gilt bezüglich der Orthonormalbasis $(e, n \times e)$ von $T_pM$ dann
+	$$t = \cos \Theta e + \sin \Theta n \times e \Rightarrow t^\prime \cdot n \times e = \cdots = \cos \Theta e^\prime \cdot (n \times e) + \cos \Theta \Theta^\prime = \underline{\cos \Theta (e^\prime \cdot n \times e + \Theta^\prime)}$$
+	
+	Mit $\kappa_g = \kappa_g(\gamma) = t^\prime \cdot n \times t$ folgt dann 
+	$$t^\prime = \alpha n + \kappa_g n \times t = \cdots = \alpha n + \kappa_g (\cos \Theta n \times e - \sin \Theta e)$$
+	$$\Rightarrow t^\prime \cdot n \times e = \kappa_g \cos \Theta \Rightarrow \kappa_g = e^\prime \cdot n \times e + \Theta^\prime,$$ und man erhält so
+	$$\int\limits_{\gamma}{e^\prime n \times e \text{ } ds} = \int\limits_{\gamma}{(\kappa_g - \Theta^\prime) ds} = \underline{\underline{\int\limits_{\gamma}{\kappa_g ds} - 2 \pi}}$$
+	Ferner ist $$\nabla_v \nabla_u e = \nabla_v (P n \times e) = P_v n \times e + P(n \times \nabla_v e)$$
+	$$= P_v n \times e + PQ n \times (n \times e),$$
+	denn $n_v \times e$ ist normal zu $M$.
+	
+	Vertauschung von $u$ und $v$, Subtraktion liefert dann
+	$$(\nabla_v \nabla_u - \nabla_u \nabla_v) e = (P_v - Q_u) n \times e = \text{(siehe $\lambda$ im Theorema Egregium)}$$
+	$$= K \sqrt{EG - F^2}$$
+	Green + $dA$ = $\sqrt{EG - F^2} dudv$ liefert dann
+	$$\int\limits_{\gamma}{\kappa_g ds} = 2 \pi - \int\limits_{R}{K dA}.$$
+\end{proof}
+
+\begin{remark}
+	$n$, die Normale, wurde nur zur Definition von \underline{$n \times e$} benutzt, ist also $M$ orientierbar, so kann man systematisch eine Orthonormalbasis von $T_pM$ benutzen ($\Rightarrow$ der Beweis wird dann rein intrinsisch!)
+\end{remark}
+
+\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_02_Bild4.jpg}
+	\end{center}
+	Ist $\gamma$ nur stückweise glatt, so springt der Winkel $\Theta$ an jeder Ecke $i$ um den \underline{äußeren Winkel} $\delta_i - \pi$ $\Rightarrow$ das Integral von $\Theta^\prime$ \footnote{was in dem Satz ja $2\pi$ ist} ist nun zu ersetzen ($\delta_i = 2 \pi - \alpha_i$) durch
+	$$\int\limits_{\gamma}{\Theta^\prime ds} = 2 \pi - \sum\limits_{i}{\delta_i - \pi} = \sum\limits_{i}{\alpha_i - (n-2) \pi},$$ falls die Kurve $\gamma$ aus einem $n$-Gon \footnote{Also einem Polygonzug mit $n$ Ecken} besteht. Mit Gauß-Bonnet $\RM{1}$ folgt damit dann
+	
+\begin{theorem}
+	Die Winkelsumme eines Dreiecks auf einer orientierbaren Fläche ist 
+	$$\alpha + \beta + \gamma = \pi + \int\limits_{R}{K dA} + \int\limits_{\gamma}{\kappa_g ds}$$
+\end{theorem}
+
+\begin{example}
+	In der Ebene hat eine Gerade konstanten Tangentialvektor \newline
+	$\Rightarrow \kappa_g \equiv 0, K = 0$ ebenso $\Rightarrow \alpha + \beta + \gamma = \pi$.
+\end{example}
+
 \end{document}
