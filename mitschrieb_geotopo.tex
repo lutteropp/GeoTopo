@@ -428,7 +428,7 @@ Die De Morgan'schen Regeln der Mengenlehre zeigen:
 \caption{Die Cantor-Menge.}
 \end{figure}
 
-\begin{definition}{Basis}
+\begin{definition}{Basis der Topologie}
 	Ist $(X, \OO)$ topologischer Raum mit $\mathcal{B} \subset \OO$, 
 	\newline
 	so heißt $\mathcal{B}$ \underline{Basis der Topologie} $:\Leftrightarrow$ Jede (nichtleere) offene Menge ist Vereinigung von Mengen aus $\mathcal{B}$.
@@ -543,12 +543,12 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
  
 \begin{remark}
 	\label{offenAbgeschlossen}
-	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer in $X$ abgeschlossenen Menge $A$ sind auch abgeschlossen in $X$.
+	Ist $A \subset X$ \underline{offen} \underline{\underline{in $X$}}, so ist auch jede in $A$ offene Menge offen in $X$, und abgeschlossene\footnote{in $A$} Teilmengen einer \textbf{in $X$ abgeschlossenen Menge $A$} sind auch abgeschlossen in $X$.
 		
 		\begin{center}
 	\includegraphics[width=0.3\textwidth]{images/offen_abgeschlossen.jpg}
 	\end{center}
-	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für beliebiges $A$ im Allgemeinen nicht abgeschlossen in $X$.
+	Aber abgeschlossene Mengen $B$ in $A \subset X$ sind für \textbf{beliebiges $A$} im Allgemeinen nicht abgeschlossen in $X$.
 \end{remark}
 
 \begin{bsp}{Beispiel zu Bemerkung~\ref{offenAbgeschlossen}}
@@ -692,7 +692,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 		\end{center}
 		\item \underline{Der Satz über die Umkehrabbildung/ Impliziter Funktionensatz} aus der Analysis zeigt: 
 			\newline
-			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung von $p$, auf der $f \big |_U$ eine Einbettung ist.
+			Ist $f \colon \R^n \rightarrow \R^n$ stetig differenzierbar und in $p \in \R^n$ die Jacobi-Matrix $Df(p)$ invertierbar, so existiert eine Umgebung $U$ von $p$, auf der $f \big |_U$ eine Einbettung ist.
 	\end{itemize}
 \end{bsp}
 
@@ -709,7 +709,7 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 \end{definition}
 
 \begin{bsp}{}
-	Die Knoten mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_aequivalent_zu_Kreis.jpg} sind äquivalent, die mit \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_nicht_aequivalent_zu_Kreis.jpg} nicht!
+	Die Knoten mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_aequivalent_zu_Kreis.jpg} sind äquivalent, die mit Bildern \includegraphics[scale=0.3]{images/Knoten_Kreis.jpg} und \includegraphics[scale=0.3]{images/Knoten_nicht_aequivalent_zu_Kreis.jpg} nicht!
 \end{bsp}
 
 \section{Zusammenhang und Kompaktheit}
@@ -769,7 +769,8 @@ $\OO_A := \{ A \cap O \mid O \in \OO \}$ eine Topologie auf $A$, die
 	$\Leftrightarrow$ $A$ ist leer, einpunktig, oder unendlich!
 \end{bsp}
 
-\begin{remark}{Eigenschaften zusammenhängender Mengen}
+\begin{remark}[Eigenschaften zusammenhängender Mengen]
+$\text{ }$
 	\begin{itemize}
 		\item $A$ zusammenhängend $\Rightarrow$ $\bar{A}$ zusammenhängend
 		\item $A,B \subset X$ zusammenhängend, $A \cap B \neq \emptyset \Rightarrow A \cup B$ zusammenhängend
@@ -866,7 +867,7 @@ Bei unzusammenhängenden Waffeln ist die Schnittgerade selbst bei vorgegebener S
 \begin{definition}{$T_1$-Raum}
 Ein topologischer Raum $X$ heißt \underline{$T_1$-Raum} bzw. \underline{erfüllt das erste Trennungsaxiom} $:\Leftrightarrow$ Für je zwei verschiedene Punkte von $X$ existiert für jeden dieser Punkte eine Umgebung in $X$, die den anderen nicht enthält.
 \newline
-$\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$ 
+$\forall x \neq y \in X \exists U = U_x \colon y \notin U_x$ 
 \begin{center}
 \includegraphics[scale=0.4]{images/T1.jpg}
 \end{center}
@@ -875,7 +876,7 @@ $\forall x \neq y \in X \exists U = U_X \colon y \notin U_X$
 \begin{definition}{$T_2$-Raum}
 	$X$ heißt \underline{Hausdorff}- oder \underline{$T_2$-Raum} bzw. \underline{erfüllt das zweite Trennungsaxiom} $:\Leftrightarrow$ Je zwei verschiedene Punkte in $X$ besitzen disjunkte Umgebungen.
 	\newline
-	$\forall x \neq y \in X \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
+	$\forall x \neq y \in X \quad \exists U_x \ni x, U_y \ni y$ mit $U_x \cap U_y = \emptyset$
 \begin{center}
 \includegraphics[scale=0.4]{images/T2.jpg}
 \end{center}
@@ -1064,7 +1065,8 @@ $X$ heißt \underline{\underline{lokal} kompakt} \newline $:\Leftrightarrow$ Jed
 
 \paragraph{TODO: Richtig toller Exkurs zu Mannigfaltigkeiten}... Killing-Fields, Lie-Groups (festgenommener Matheprof kurz nach 9/11), Perverse Garben, wir leben in einer 4-dimensionalen Mannigfaltigkeit, ...
 
-\begin{remark}{Bemerkung zur Produkt-Topologie}
+\begin{remark}[Bemerkung zur Produkt-Topologie]
+$\text{ }$
 \begin{itemize}
 	\item Produkte von Hausdorff-Räumen sind Hausdorff-Räume.
 	\item Produkte von zusammenhängenden Räumen sind zusammenhängend.
@@ -1112,9 +1114,9 @@ Spezielle Mannigfaltigkeiten: Untermannigfaltigkeiten topologischer Räume: }
 	\begin{center}
 \includegraphics[scale=0.5]{images/Satz_UnterMf.jpg}
 	\end{center}
-		\item $\forall x_0 \in M \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
+		\item $\forall x_0 \in M \quad \exists U = U(x) \subset_{offen} \R^{n+l}$ und $\varphi \colon U \rightarrow \R^{n+l}$ mit folgenden Eigenschaften:
 		$\varphi(U) \subset \R^{n+l}$ ist offen, \newline $\varphi$ ist $C^\infty$-Diffeomorphismus $U \rightarrow \varphi(U)$ und $$\varphi(U \cap M) = \varphi(U) \cap (\R^n \times \{0\}) = \{(y_1, \ldots, y_{n+l}) \in \varphi(U) \mid y_{n+1} = \ldots = y_{n+l} = 0 \}$$
-		\item $\forall x_0 \in M \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
+		\item $\forall x_0 \in M \quad \exists U = U(x_0) \subset_{offen} \R^{n+l}, W \subset \R^n$ offen und $\psi \in C^\infty(W,U)$ mit 
 			\begin{itemize}
 				\item $\psi$ ist Homöomorphismus $W \rightarrow U \cap M$
 				\item $D\psi(w)$ ist injektiv für alle $w \in W$
@@ -1136,7 +1138,7 @@ Eine Menge $M \subset \R^{n+l}$, die eine der Bedingungen (a), (b) oder (c) erf�
 
 %hier beginnt der 17.11.
 
-\begin{theorem}{Äquivalente Beschreibung einer glatten Untermannigfaltigkeit von $\R^{n+l}$}
+\begin{theorem}[Äquivalente Beschreibung einer glatten Untermannigfaltigkeit von $\R^{n+l}$]
 	Es sei $M \subseteq \R^{n+l}$. Es sind äquivalent:
 	\begin{enumerate}[(a)]
 		\item $\forall x_0 \in M \quad \exists U = U(x_0) \subseteq_{\text{offen}} \R^{n+l} \text{ und } f \in C^\infty(U,\R^l)$ $\text{ mit Rang }Df(x) = l \text{ für alle } x \in U$ dergestalt, dass $U \cap M = f^{-1}(0)$.
