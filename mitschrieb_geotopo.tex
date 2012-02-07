@@ -2730,7 +2730,7 @@ $T_a$ ist \underline{unabhängig} von der gewählten Parametrisierung!
 \end{remark}
 
 \begin{definition}{Einheitsnormalvektoren}
-	Die Vektoren $\overset{+}{-} \frac{r_u \times r_v}{|r_u \times r_v|}$ heißen auch \underline{Einheitsnormalvektoren} von $F$ in $a$.
+	Die Vektoren $\pm \frac{r_u \times r_v}{|r_u \times r_v|}$ heißen auch \underline{Einheitsnormalvektoren} von $F$ in $a$.
 \end{definition}
 
 \begin{remark}
@@ -3261,4 +3261,150 @@ $$K := \frac{LN - M^2}{EG - F^2} = \frac{\det \RM{2}}{\det \RM{1}}$$
 	$\Rightarrow \kappa_g \equiv 0, K = 0$ ebenso $\Rightarrow \alpha + \beta + \gamma = \pi$.
 \end{example}
 
+%07.02.2012
+
+\subsection{Der Satz von Gauß Bonnet (Globale Version)}
+
+\paragraph{Erinnerung:}
+\begin{itemize}
+	\item $\gamma$ glatte und nach Bogenlänge parametrisierte Kurve in einer orientierten Fläche $M \subset \R^3$.
+	\item \underline{Geodätische Krümmung} von $\gamma: \kappa_g := t^\prime \cdot n \times t, t = \frac{d\gamma}{ds}$
+	\item \underline{Gauß-Bonnet $\RM{1}$}: $\gamma$ einfache geschlossene Kurve in einer Kartenumgebung einer orientierten Fläche $M \subset \R^3$, die den Bereich $R$ umschließt
+	$\Rightarrow \int\limits_{\gamma = \partial R} \kappa_g ds = 2 \pi - \int\limits_{R} K dM, dM = dA= \text{Flächenelement}$ \footnote{$\gamma$ ist der Rand von $R$}
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild1.jpg}
+	\end{center}
+	\item \underline{Verallgemeinerung:} $\gamma$ stückweise glatt 
+	$\Rightarrow$ der Winkel $\Theta$ springt an jeder Ecke $i$ um den \underline{äußeren Winkel} $\delta_i$
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild2.jpg}
+	\end{center}
+	$\Rightarrow \int \Theta^\prime(= 2 \pi \text{ in GB $\RM{1}$})$
+	und ersetzt durch $\int\limits_\gamma \Theta^\prime ds = 2 \pi - \sum\limits_i \delta_i$
+	$$= 2 \pi - \sum(\pi - \alpha_i) = (n \text{ Ecken }) = \sum \alpha_i - n \pi + 2 \pi$$
+	$$= \sum\limits_i \alpha_i - (n-2) \pi \text{ mit den \underline{inneren Winkeln }} \alpha_i$$
+\end{itemize}
+
+\begin{corollary}
+Die Winkelsumme eines (in einem Kartenbereich liegenden) "Dreiecks" (also eine stückweise glatten einfachen geschlossenen Kurve mit drei Ecken) auf einer orientierten Fläche im $\R^3$ ist $\alpha + \beta + \gamma = \pi + \int\limits_{R} K dM + \int\limits_\gamma \kappa_g ds$
+
+\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild3.jpg}
+	\end{center}
+\end{corollary}
+
+\begin{example}
+	\begin{enumerate}
+		\item Gerade im $\R^2$ hat $\kappa_g = 0$, $\R^2$ hat $K=0$
+		$\Rightarrow \alpha + \beta + \gamma = \pi$ (Thales)
+		\item Ein Großkreis auf der Einheitssphäre $S^2$ erfüllt auch $\kappa_g = 0$:
+		Ist beispielsweise $$\gamma(s) = (\cos s, \sin s, 0),$$ so gilt
+		$$t = \frac{d \gamma}{d s} = (- \sin s, \cos s, 0) \Rightarrow t^\prime = (- \cos s, \sin s, 0)$$
+		\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild4.jpg}
+	\end{center}
+	$$\Rightarrow t^\prime \text{ steht senkrecht auf } S^2$$
+	
+	Wegen $K=1$ gilt für ein aus Großkreisstücken gebildetes Dreieck $\Delta$ auf $S^2$ damit $\alpha + \beta + \gamma = \pi + \int\limits_{\Delta} 1 d S^2 = \pi + \text{Fläche}(\Delta)$
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild5.jpg}
+	\end{center}
+	\end{enumerate}
+\end{example}
+
+\begin{theorem}[Gauß-Bonnet für Flächen im $\R^3$]
+	Für eine glatte und geschlossene orientierte Fläche $M \subset \R^3$ gilt
+	$$\boxed{\int\limits_M{K \, \mathrm{d}M} = 2 \pi \cdot \chi(M)}$$
+\end{theorem}
+
+\begin{proof}
+	Wähle eine glatte Triangulierung $T$ von $M$, so dass jedes Dreieck(sbild) $T_i$ mit stückweise glatten Seiten ganz in einer Kartenumgebung enthalten ist.
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild6.jpg}
+	\end{center}
+	Es sei $n_0$ die Anzahl der Ecken, 
+	
+	$n_1$ die Anzahl der Seiten,
+	
+	$n_2$ die Anzahl der Flächen (Dreiecke)
+	
+	der Triangulierung $T$. Dann ist jede Seite die Kante von zwei Flächen, und jede Fläche hat drei Ecken, so dass gilt
+	$$n_1 = \frac{3 n_2}{2}.$$
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild7.jpg}
+	\end{center}
+	Für $\chi(M)$ gilt
+	$$\chi(M) = \chi(T) = n_0 - n_1 + n_2$$
+	$$= n_0 - \frac{3 n_2}{2} + n_2 = n_0 - \frac{n_2}{2}$$
+	
+	Für die Dreiecke $T_i$ auf $M$ gilt nun
+	$$\int\limits_M K \, \mathrm{d} M = \sum\limits_{i=1}^{n_2}{\int\limits_{T_i} K \, \mathrm{d} M}.$$
+	Aus der Formel für die Winkelsumme folgt bezüglich der Innenwinkel dann
+	$$\sum\limits_i{\int\limits_{T_1}{K \, \mathrm{d} M}} = \sum\limits_{i=1}^{n_2}{(\alpha_i + \beta_i + \gamma_i - \pi)} - \sum\limits_{i=1}^{n_2}{\int\limits_{\partial T_i}{\kappa_g \, \mathrm{d} s}}$$
+	Doch $\sum\limits_{i}^{n_2} \alpha_i + \beta_i + \gamma_i - \pi = \sum\limits_{i=1}^{n_2} \alpha_i + \beta_i + \gamma_i - n_2 \cdot \pi$
+	
+	$= 2 \pi n_0 - n_2 \cdot \pi$ durch Umordnen, denn die Innenwinkel
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild8.jpg}
+	\end{center}
+	der Dreiecke addieren sich in jeder Ecke zu $2 \pi$.
+	
+	Andererseits gilt $\sum\limits_i{\int\limits_{\partial T_i} \kappa_g \, \mathrm{d} s = 0}$, denn die Terme auf gemeinsamen Seiten von Dreiecken haben sich gegenseitig auf!
+	
+	Also folgt $\chi(M) = n_0 - \frac{n_2}{2} = \sum\limits_{i=1}^{n_2} \int\limits_{T_i} K \, \mathrm{d} M - 0$
+	$$= 2 \pi n_0 - n_2 \cdot \pi = 2 \pi \left(n_0 - \frac{n_2}{2}\right),$$
+	d.h. $$\int K \, \mathrm{d} M = w \pi \cdot \chi(M)$$!
+\end{proof}
+
+\begin{remark}
+Warum heißt $\kappa_g$ \underline{geodätische Krümmung}?
+
+\underline{Geodätische} auf Flächen und Kurven, die Analoga zu Geraden in der Ebene sind.
+\newline
+
+Geraden lassen sich vorstellen als
+\begin{enumerate}
+	\item kürzeste Verbindungen (Abstände werden minimiert)
+	\item "geradeste" Strecke (Tangentialvektor an Gerade ändert sich nicht)
+	
+		$\rightarrow t^\prime = 0$ (allgemeiner (im $\R^3$) $t^\prime \perp $ Fläche)
+\end{enumerate}
+
+\end{remark}
+
+\begin{definition}{Geodätische}
+	Eine \underline{Geodätische} auf einer Fläche $M \subset \R^3$ ist eine glatte Kurve $\gamma$ auf $M$, sodass in jedem Punkt $t^\prime$ normal \footnote{senkrecht} zur Fläche ist.
+\end{definition}
+
+Und das bedeutet nichts anderes als 
+$$\kappa_g(\gamma) = 0$$!
+
+\begin{example}
+	\begin{enumerate}
+		\item Ebene: Normale ist parallel zur Ebene, d.h.
+		
+		 $t^\prime$ ist normal $\Leftrightarrow t^\prime = 0 \Rightarrow \gamma = s \cdot a + b \Leftrightarrow \gamma$ ist gerade
+		\item $ $
+		\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild9.jpg}
+	\end{center}
+	Großkreise auf $S^2$ sind Geodätische!
+	
+	\item Zylinder 
+	\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild10.jpg}
+	\end{center}
+	\end{enumerate}
+\end{example}
+
+\paragraph{Anwendungen von Gauß-Bonnet:}
+\begin{itemize}
+	\item $\chi(M)$ ändert sich nie $\Rightarrow \int K \, \mathrm{d} M \equiv c$
+	\item Ist der Fundamentalsatz der Algebra falsch, so existiert eine $S^2 (= \C \Prim^1) \subset \R^3$ mit $K \equiv 0$ Widerspruch zu G.B.
+\end{itemize}
+\begin{center}
+		\includegraphics[scale=0.3]{images/2012_02_07_Bild11.jpg}
+	\end{center}
+	
+	\paragraph{(TODO: Exkurs: Topologie von schwarzen Löchern, foucaultsches Pendel, \ldots)}
 \end{document}

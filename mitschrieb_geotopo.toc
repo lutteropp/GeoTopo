@@ -90,3 +90,7 @@
 \contentsline {paragraph}{Geometrische Motivation}{100}{section*.117}
 \contentsline {section}{\numberline {4}Der Satz von Gau\IeC {\ss }-Bonnet}{103}{section.4.4}
 \contentsline {paragraph}{Konvention:}{103}{section*.118}
+\contentsline {subsection}{\numberline {4.1}Der Satz von Gau\IeC {\ss } Bonnet (Globale Version)}{105}{subsection.4.4.1}
+\contentsline {paragraph}{Erinnerung:}{105}{section*.119}
+\contentsline {paragraph}{Anwendungen von Gau\IeC {\ss }-Bonnet:}{109}{section*.120}
+\contentsline {paragraph}{(TODO: Exkurs: Topologie von schwarzen L\IeC {\"o}chern, foucaultsches Pendel, \ldots )}{110}{section*.121}
