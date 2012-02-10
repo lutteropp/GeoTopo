@@ -1314,13 +1314,13 @@ Die Hausdorff-Eigenschaft vererbt sich i.a. nicht!
 		\includegraphics[scale=0.5]{images/Linien_Quadrat.jpg}\newline
 	\end{center}
 	
-	Ist $\alpha$ rational, so schließen sich die ins Einheitsquadrat "zurückgeholten" Kurvensegmente zu einer geschlossenen Kurve $K_\alpha$ auf dem Torus $T^2$, doch für $\alpha \in \R \backslash \Q$ füllt die entsprechende Kurve $K_\alpha$ den $T^2$ \underline{dicht} aus. $\leadsto$
-	$$\alpha \in \Q \Rightarrow K_\alpha \cong S^1$$
-	$$\alpha \in \R \backslash \Q \Rightarrow K_\alpha \cong \R \ldots !$$	
+	Ist $\tan \alpha$ rational, so schließen sich die ins Einheitsquadrat "zurückgeholten" Kurvensegmente zu einer geschlossenen Kurve $K_\alpha$ auf dem Torus $T^2$, doch für $\tan \alpha \in \R \backslash \Q$ füllt die entsprechende Kurve $K_\alpha$ den $T^2$ \underline{dicht} aus. $\leadsto$
+	$$\tan \alpha \in \Q \Rightarrow K_\alpha \cong S^1$$
+	$$\tan \alpha \in \R \backslash \Q \Rightarrow K_\alpha \cong \R \ldots !$$	
 	
 	\includegraphics[scale=0.5]{images/Linien_Torus_rational.jpg}
 	\newline
-	$\alpha \in \R \backslash \Q$: \underline{\underline{ÜBEL!}}\newline
+	$\tan \alpha \in \R \backslash \Q$: \underline{\underline{ÜBEL!}}\newline
 	\includegraphics[scale=0.5]{images/Linien_Torus_irrational.jpg}
 	\newline
 	$t \mapsto e^{2 \pi i t}$
@@ -1997,100 +1997,6 @@ $\tilde{X} /G = X, \pi_1(\tilde{X}) = \{0\} \Rightarrow \pi_1(X) \cong G$
 	sind (wenn man $S^1 \times \R$ mit $\C^*$ identifiziert) äquivalent.
 \end{bsp}
 
-% hier beginnt der 08.12.11
-\subsection{Induzierte Homomorphismen}
-\begin{remark}
-	Ist $f \colon X \rightarrow Y$ eine stetige Abbildung zwischen topologischen Räumen, so liefert jeder Weg in $X$ einen Weg in $Y$, \includegraphics[scale=0.4]{images/Weg_stetige_Abbildung.jpg} und für aneinanderfügbare Wege $u,v \colon I \rightarrow X$ gilt offenbar $f \circ (u \cdot v) = (f \circ u) \cdot (f \circ v)$.
-	\newline
-	Sind $u$ und $v$ ferner homotop, so auch $f \circ u$ und $f \circ v$, denn ist $H \colon I \times I \rightarrow X$ eine Homotopie zwischen $u$ und $v$, so ist $f \circ H \colon I \times I \rightarrow Y$ eine Homotopie zwischen $f \circ u$ und $f \circ v$.
-	\newline
-	Betrachtet man insbesondere geschlossene Wege $u$ in $x_0 \in X$, so definiert $[u] \mapsto [f \circ u]$ also einen Homomorphismus $f_* \colon \pi_1(X,x_0) \rightarrow \pi_1(Y, f(x_0))$, den sogenannten von $f$ \underline{induzierten Homomorphismus der Fundamentalgruppen}.
-	\newline
-	Ist $g \colon Y \rightarrow Z$ eine weitere stetige Abbildung topologischer Räume, so gilt für jeden Weg $u$ in $X$
-	$$(g \circ f) (u) = g(f(u)) = g \circ (f \circ u)$$
-	und damit für die induzierten Homomorphismen 
-	\fbox{$(g \circ f)_* = g_* \circ f_*$} \newline
-	Speziell gilt für $id_X \colon X \rightarrow X, x \mapsto x$, und $x_0 \in X$
-	$$id_* = id_{\pi_1(X,x_0)}$$
-	
-	\paragraph{Folgerung} Homöomorphe Räume haben isomorphe Fundamentalgruppen!
-	\underline{Denn:} $f \colon X \cong Y$ Homöomorphismus $\Rightarrow f_*$ Isomorphismus!
-	\newline
-	$(f^{-1})_*=(f_*)^{-1}$, denn für
-	$f \colon X \rightarrow Y, f^{-1} \colon Y \rightarrow X$ gilt:\newline
-	$(f^{-1} \circ f)_* = id_* = (f^{-1})_* \circ f_*$
-\end{remark}
-
-\begin{remark}
-	Tatsächlich hängt der von einer stetigen Abbildung $f \colon X \rightarrow Y$ induzierte Homomorphismus $f_* \colon \pi_1(X,x_0) \rightarrow \pi_1(Y,f(x_0))$ sogar nur von der \underline{Homotopieklasse} von $f \in C(X,Y)$ ab, und damit gilt:
-	\newline
-	Die Fundamentalgruppe eines (wegzusammenhängenden) topologischen Raumes ist nicht nur eine Homöomorphie-, sondern sogar eine Homotopie-Invariante, d.h. hängt nur vom Homotopietyp des Raumes ab! \newline
-	\includegraphics[scale=0.4]{images/f_g_homotop.jpg}
-	\newline
-	$f \simeq g \Rightarrow f_* = g_*$
-\end{remark}
-
-\newpage
-\subsection{Produkte}
-\begin{theorem}
-	Sind $X,Y$ topologische Räume und $x_0 \in X, y_0 \in Y$, so ist die Fundamentalgruppe des Produktraumes $X \times Y$ in $(x_0,y_0)$ kanonisch isomorph zum Produkt der Fundamentalgruppen der Faktoren:
-	\begin{center}
-	\boxed{
-	$$\pi_1(X \times Y, (x_0,y_0)) = \pi_1(X,x_0) \cdot \pi_1(Y,y_0)$$}
-	\end{center}
-\end{theorem}
-
-\begin{proof}
-	$p_1 \colon X \times Y \rightarrow X$ und $p_2 \colon X \times Y \rightarrow Y$ seinen die Projektionen von $X \times Y$ auf den erstem bzw. zweiten Faktor. \newline
-	\includegraphics[scale=0.4]{images/Produkt_Fundamentalgruppe.jpg} \newline
-Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbildung $f \colon Z \rightarrow X \times Y$ bijektiv ein Paar $(f_1, f_2)$ stetiger Abbildungen $f_1 \colon Z \rightarrow X, f_2 \colon Z \rightarrow Y$ mit $f_i = p_i \circ f, \quad i=1,2$
-	\newline
-	Insbesondere entspricht jeder Weg $u$ in $X \times Y$ seinen Projektionen $u_1$ in $X$ und $u_2$ in $Y$ ($u_i = p_i \circ u$),  und zwei Wege in $X \times Y$ sind homotop genau dann, wenn ihre Projektionen in $X$ und in $Y$ homotop sind.
-	\newline
-	Betrachtet man nun die Fundamentalgruppen von $X \times Y, X, Y$ in $(x_0,y_0), x_0, y_0$, so ist $$p_* \colon \pi_1(X \times Y, (x_0, y_0)) \rightarrow \pi_1(X, x_0) \times \pi_1(Y,y_0), \quad [u] \mapsto (\underbrace{[p_1 \circ u]}_{= p_{1_*}[u]}, \underbrace{[p_2 \circ u]}_{=p_{2_*}[u]})$$
-	deshalb eine Bijektion.
-	\newline
-	Fasst man $\pi_1(X,x_0) \times \pi_1(Y,y_0)$ jetzt als direktes Produkt von Gruppen auf, so ist $p_*$ auch ein Homomorphismus, denn $p_{1_*}$ und $p_{2_*}$ sind Homomorphismen, und damit, weil bijektiv, ist $p_*$ Isomorphismus.
-\end{proof}
-
-\begin{bsp}{}
-	$\pi_1(S^1,x_0) \cong \Z$ (siehe später) \newline
-	$\Rightarrow \pi_1(T^n, x_0) \cong \Z^n$
-\end{bsp}
-
-\begin{theorem}
-	Für einen wegzusammenhängenden Raum $X$ sind äquivalent:
-	\begin{enumerate}
-		\item $\pi_1(X,x_0) = \{0\}$ (für ein und damit alle $x_0 \in X$);
-		\item Jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ ist (frei) nullhomotop;
-		\item Jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ setzt sich stetig auf $D^2$ fort; % D^2 ist die Kreisscheibe
-		\item Je zwei Wege $u_1, u_2$ in $X$ mit gleichen Anfangs- bzw. Endpunkten sind homotop. \newline
-		\includegraphics[scale=0.4]{images/Wege_homotop.jpg}
-	\end{enumerate}
-\end{theorem}
-
-\begin{proof}
-	\includegraphics[scale=0.4]{images/geschlossener_Weg_nullhomotop.jpg}
-	\newline
-	(1) $\Rightarrow$ (2): $X$ einfach zusammenhängend $\Rightarrow$ Jeder geschlossene Weg in $X$ ist nullhomotop $\Rightarrow$ Jede Schleife in $X$ ist nullhomotop $\Rightarrow$ jede Schleife in $X$ ist frei nullhomotop
-	\newline
-	(2) $\Rightarrow$ (3): Für jede stetige Abbildung $\gamma \colon S^1 \rightarrow X$ existiert eine Homotopie $H \colon S^1 \times I \rightarrow X$ mit $H(z,0) = \gamma(z), H(z,1) = x_0$ \newline \includegraphics[scale=0.4]{images/Schleife_frei_homotop.jpg} \newline $\Rightarrow \exists$ stetige Abbildung $H^\prime \colon S^1 \times I/_{S^1 \times \{1\}} \rightarrow X$ mit $H = H^\prime \circ \pi$, \newline mit $\pi \colon S^1 \times I \rightarrow \underbrace{S^1 \times I /_{S^1 \times \{1\}}}_{\cong D^2}$: \newline
-	\includegraphics[scale=0.4]{images/Zylinder_nach_D2.jpg}
-	\newline
-	(3) $\Rightarrow$ (4): Es sei $G$ die Abbildung mit 
-	$$G(t,0) = u_1(t), G(t,1)=u_2(t), G(0,t) = x_0, G(1,t)=x_1 \text{ für } t \in I,$$
-	d.h. $G$ bildet den $\underbrace{\text{Rand von }I \times I}_{\cong S^1}$ auf $X$ ab.
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.4]{images/Rand_I2_S1.jpg}
-		\caption{Der Rand des Einheitsquadrates ist homöomorph zur $S^1$.}
-	\end{figure}	
-	\newline
-	Wegen $I \times I \cong D^2$ und $\partial(I \times I) \cong S^1$, setzt sich $G$ stetig auf ganz $I \times I$ fort und ist Homotopie $u_1 \simeq u_2$.
-	\newline
-	(4) $\Rightarrow$ (1): klar
-\end{proof}
-
 %hier beginnt der 15.12.11
 
 \newpage
@@ -2177,7 +2083,7 @@ Ist $Z$ irgendein anderer topologischer Raum, so entspricht jeder stetigen Abbil
 \begin{proof}
 	Ist $w$ geschlossener Weg in $\widetilde{x} \in \widetilde{X}$ und
 $$\pi_*([w]) = [\pi \circ w] = 1 \in \pi_1(X, \pi(\widetilde{x})),$$
-so ist $\pi \circ w$ homotop zum konstanten Weg $c_{\pi(\widetilde{x})}$. Ist nun $H$ eine Homotopie von Wegen zwischen $\pi \circ w$ und $c_\pi(\widetilde{x})$, so liefert ein Lift von $H$ eine Homotopie von Wegen zwischen $w$ und einem Lift von $c_{\pi(\widetilde{x})}$. 
+so ist $\pi \circ w$ homotop zum konstanten Weg $c_{\pi(\widetilde{x})}$. Ist nun $H$ eine Homotopie von Wegen zwischen $\pi \circ w$ und $c_{\pi(\widetilde{x})}$, so liefert ein Lift von $H$ eine Homotopie von Wegen zwischen $w$ und einem Lift von $c_{\pi(\widetilde{x})}$. 
 \newline
 \includegraphics[scale=0.4]{images/Homotopie_konstanter_Weg.jpg} $\qquad$
 \includegraphics[scale=0.4]{images/Homotopie_konstanter_Weg_Lift.jpg}
@@ -2196,7 +2102,7 @@ Aber jeder Lift eines konstanten Weges ist konstant!
 \begin{definition}{Lift}
 	$L_{\pi}(w, \widetilde{x}):=$ Lift von $w$ zu $\widetilde{X}$ mit Anfangspunkt $\widetilde{x}$ ($w$ Weg in $X$)
 	\newline
-	D.h. $U(\pi, \widetilde{x}) = \{[w] \mid \text{$w$ ist Schleife in $\pi(\widetilde{x})$ und $L_\pi(w, \widetilde{x}(1)) = \widetilde{x}$}$
+	D.h. $U(\pi, \widetilde{x}) = \{[w] \mid \text{$w$ ist Schleife in $\pi(\widetilde{x})$ und $L_\pi(w, \widetilde{x})(1) = \widetilde{x}$}$
 \begin{center} 
 \includegraphics[scale=0.3]{images/Lift.jpg}
 \end{center}
