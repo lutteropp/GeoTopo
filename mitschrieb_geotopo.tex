@@ -3049,14 +3049,15 @@ $$K := \frac{LN - M^2}{EG - F^2} = \frac{\det \RM{2}}{\det \RM{1}}$$
 	Leiten wir nun $a = a(u,v)$ längs $u$ oder längs $v$ ab, so ist das Resultat nicht notwendig mehr tangential an $T_aF$, so liefert zunächst irgendwelche Vektoren im $\R^3$. \underline{Aber} wir können die zu $F$ normale Komponente entfernen und erhalten dann die \underline{Richtungsableitungen} 
 	$$\nabla_u a = a_u - (n \cdot a_u) n \quad (n = \frac{r_u \times r_v}{|r_u \times r_v|})$$
 	$$= a_u + (n_u \cdot a) \cdot n \quad (a \perp n)$$
+	\footnote{Durch Anwendung der Produktregel $(na)_u = na_u + n_ua$}
 	bzw.
-	$$\nabla_v a = a_v + (n \cdot a_v) n$$ 
+	$$\nabla_v a = a_v + (n_v \cdot a) n$$ 
 	
 	$\nabla_v$ und $\nabla_u$ hängen nur von $E,F,G$ ab!
 	Es gilt
 	$$\nabla_v \nabla_u = \nabla_v (\nabla_u a) = \nabla_v (a_u + (n_u \cdot a) n)$$
-	$$= \nabla_v a_u + \nabla_v((n_u \cdot a) n) = a_{vn} - (n \cdot a_{vn}) n + \nabla_v((n_u a) n)$$
-	$$= a_{vn} - (n \cdot a_{vn}) n + (n_u \cdot a) n_v,$$
+	$$= \nabla_v a_u + \nabla_v((n_u \cdot a) n) = a_{vu} - (n \cdot a_{vu}) n + \nabla_v((n_u a) n)$$
+	$$= a_{vu} - (n \cdot a_{vu}) n + (n_u \cdot a) n_v,$$
 	denn:
 	\begin{itemize}
 		\item weil wir die Tangentialkomponente berechnen, braucht man sich um den Koeffizienten $(n_u \cdot a)$ von $n$ gar nicht zu kümmern, und 
