@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  10 FEB 2012 14:02
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.25)  10 FEB 2012 14:30
 entering extended mode
  %&-line parsing enabled.
 **mitschrieb_geotopo.tex
@@ -3039,7 +3039,7 @@ Overfull \hbox (3.94101pt too wide) in paragraph at lines 3003--3003
 File: images/2012_01_31_Bild3.jpg Graphic file (type jpg)
 
 <use images/2012_01_31_Bild3.jpg> [98 <./images/2012_01_31_Bild3.jpg>]
-Overfull \hbox (31.47345pt too wide) detected at line 3076
+Overfull \hbox (31.47345pt too wide) detected at line 3081
 \OMS/lmsy/m/n/10.95 ) \OML/lmm/m/it/10.95 ^^U \OT1/lmr/m/n/10.95 = [] \OMS/lmsy
 /m/n/10.95 ) \OML/lmm/m/it/10.95 LN \OMS/lmsy/m/n/10.95 ^^@ \OML/lmm/m/it/10.95
  M[][]
@@ -3047,13 +3047,13 @@ Overfull \hbox (31.47345pt too wide) detected at line 3076
 
 [99]
 Package marginnote Info: Margin note 101.1 is on absolute page 101
-(marginnote)              on input line 3084.
+(marginnote)              on input line 3089.
 Package marginnote Info: right page because not two side mode on input line 308
-4.
+9.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 3084.
+(marginnote)             \marginnoterightadjust ignored on input line 3089.
 
-Overfull \hbox (2.88805pt too wide) in paragraph at lines 3084--3084
+Overfull \hbox (2.88805pt too wide) in paragraph at lines 3089--3089
 |\T1/lmr/m/it/10.95 geodätische 
  []
 
@@ -3062,11 +3062,11 @@ File: images/2012_02_02_Bild1.jpg Graphic file (type jpg)
 
 <use images/2012_02_02_Bild1.jpg>
 Package marginnote Info: Margin note 101.2 is on absolute page 101
-(marginnote)              on input line 3105.
-Package marginnote Info: right page because not two side mode on input line 310
-5.
+(marginnote)              on input line 3110.
+Package marginnote Info: right page because not two side mode on input line 311
+0.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 3105.
+(marginnote)             \marginnoterightadjust ignored on input line 3110.
 
 <images/2012_02_02_Bild2.jpg, id=1280, 625.8582pt x 500.1084pt>
 File: images/2012_02_02_Bild2.jpg Graphic file (type jpg)
@@ -3115,19 +3115,19 @@ File: images/2012_02_07_Bild7.jpg Graphic file (type jpg)
 File: images/2012_02_07_Bild8.jpg Graphic file (type jpg)
 
 <use images/2012_02_07_Bild8.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 3268--3270
+Underfull \hbox (badness 10000) in paragraph at lines 3273--3275
 
  []
 
 [105 <./images/2012_02_07_Bild7.jpg> <./images/2012_02_07_Bild8.jpg>]
 Package marginnote Info: Margin note 107.1 is on absolute page 107
-(marginnote)              on input line 3282.
+(marginnote)              on input line 3287.
 Package marginnote Info: right page because not two side mode on input line 328
-2.
+7.
 Package marginnote Info: xpos seams to be 3729359sp,
-(marginnote)             \marginnoterightadjust ignored on input line 3282.
+(marginnote)             \marginnoterightadjust ignored on input line 3287.
 
-Overfull \hbox (6.7137pt too wide) in paragraph at lines 3282--3282
+Overfull \hbox (6.7137pt too wide) in paragraph at lines 3287--3287
 |\T1/lmr/m/it/10.95 Geodätische  
  []
 
@@ -3173,7 +3173,7 @@ c/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/
 msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb></usr/share/tex
 mf/fonts/type1/bluesky/ams/msbm7.pfb>
-Output written on mitschrieb_geotopo.pdf (108 pages, 16429932 bytes).
+Output written on mitschrieb_geotopo.pdf (108 pages, 16430417 bytes).
 PDF statistics:
  1561 PDF objects out of 1728 (max. 8388607)
  574 named destinations out of 1000 (max. 131072)
